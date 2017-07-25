@@ -1,0 +1,7 @@
+(define s (WordSenseNode "abstract_artist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "abstractionist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "painter%1:18:00::"))
+(InheritanceLink (WordSenseNode "suprematist%1:18:00::") s)
+(define x (WordNode "abstract_artist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "painter%1:18:00::"))
+(InheritanceLink (WordSenseNode "suprematist%1:18:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "star%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "star")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perform%2:36:00::"))
+(InheritanceLink s (WordSenseNode "execute%2:36:01::"))
+(InheritanceLink s (WordSenseNode "do%2:36:01::"))
+(InheritanceLink (WordSenseNode "co-star%2:36:00::") s)

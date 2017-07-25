@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wonder_boy%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wonder_boy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "man%1:18:00::"))
+(InheritanceLink s (WordSenseNode "adult_male%1:18:00::"))
+(define x (WordNode "golden_boy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "man%1:18:00::"))
+(InheritanceLink s (WordSenseNode "adult_male%1:18:00::"))

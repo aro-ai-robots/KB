@@ -1,0 +1,5 @@
+(define s (WordSenseNode "deckle_edge%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deckle_edge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edge%1:06:00::"))
+(define x (WordNode "deckle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edge%1:06:00::"))

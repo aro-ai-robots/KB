@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sinus%1:08:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fistula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:08:00::"))
+(InheritanceLink s (WordSenseNode "passageway%1:08:00::"))
+(define x (WordNode "sinus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:08:00::"))
+(InheritanceLink s (WordSenseNode "passageway%1:08:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subscription%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subscription")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "handwriting%1:04:00::"))
+(InheritanceLink (WordSenseNode "execution%1:10:01::") s)
+(InheritanceLink (WordSenseNode "execution_of_instrument%1:10:00::") s)

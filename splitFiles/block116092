@@ -1,0 +1,5 @@
+(define s (WordSenseNode "olympian_games%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Olympian_Games")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agon%1:04:00::"))
+(define x (WordNode "Olympic_Games")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agon%1:04:00::"))

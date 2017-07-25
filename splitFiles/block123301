@@ -1,0 +1,7 @@
+(define s (WordSenseNode "person%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "person")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grammatical_category%1:10:00::"))
+(InheritanceLink s (WordSenseNode "syntactic_category%1:10:00::"))
+(InheritanceLink (WordSenseNode "first_person%1:10:00::") s)
+(InheritanceLink (WordSenseNode "second_person%1:10:00::") s)
+(InheritanceLink (WordSenseNode "third_person%1:10:00::") s)

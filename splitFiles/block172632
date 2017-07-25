@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tripper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "catch%1:06:02::"))
+(InheritanceLink s (WordSenseNode "stop%1:06:00::"))
+(define x (WordNode "trip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "catch%1:06:02::"))
+(InheritanceLink s (WordSenseNode "stop%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "resonance%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rapport")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "affinity%1:24:03::"))
+(InheritanceLink s (WordSenseNode "kinship%1:24:02::"))
+(define x (WordNode "resonance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "affinity%1:24:03::"))
+(InheritanceLink s (WordSenseNode "kinship%1:24:02::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "toehold%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toehold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foothold%1:06:00::"))
+(InheritanceLink s (WordSenseNode "footing%1:06:00::"))

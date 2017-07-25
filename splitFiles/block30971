@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ci%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "curie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radioactivity_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "millicurie%1:23:00::") s)
+(define x (WordNode "Ci")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radioactivity_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "millicurie%1:23:00::") s)

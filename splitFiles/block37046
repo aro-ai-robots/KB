@@ -1,0 +1,6 @@
+(define s (WordSenseNode "contour%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "contour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delineate%2:36:00::"))
+(InheritanceLink s (WordSenseNode "limn%2:36:01::"))
+(InheritanceLink s (WordSenseNode "outline%2:36:01::"))
+(InheritanceLink (WordSenseNode "streamline%2:36:00::") s)

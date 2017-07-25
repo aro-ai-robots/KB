@@ -1,0 +1,7 @@
+(define s (WordSenseNode "draft%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "draft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "text%1:10:00::"))
+(InheritanceLink s (WordSenseNode "textual_matter%1:10:00::"))
+(define x (WordNode "draft_copy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "text%1:10:00::"))
+(InheritanceLink s (WordSenseNode "textual_matter%1:10:00::"))

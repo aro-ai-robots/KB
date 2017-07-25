@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tax_collection%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tax_collection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collection%1:04:00::"))
+(InheritanceLink s (WordSenseNode "collecting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "assembling%1:04:00::"))
+(InheritanceLink s (WordSenseNode "aggregation%1:04:00::"))

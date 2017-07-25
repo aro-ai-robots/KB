@@ -1,0 +1,7 @@
+(define s (WordSenseNode "perjurer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "perjurer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liar%1:18:00::"))
+(InheritanceLink s (WordSenseNode "prevaricator%1:18:00::"))
+(define x (WordNode "false_witness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liar%1:18:00::"))
+(InheritanceLink s (WordSenseNode "prevaricator%1:18:00::"))

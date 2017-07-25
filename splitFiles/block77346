@@ -1,0 +1,7 @@
+(define s (WordSenseNode "half-cock%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "half-cock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confusion%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mental_confusion%1:09:00::"))
+(InheritanceLink s (WordSenseNode "confusedness%1:09:00::"))
+(InheritanceLink s (WordSenseNode "muddiness%1:09:00::"))
+(InheritanceLink s (WordSenseNode "disarray%1:09:00::"))

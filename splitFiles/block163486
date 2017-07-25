@@ -1,0 +1,4 @@
+(define s (WordSenseNode "surmount%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "surmount")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "head%2:42:00::"))
+(InheritanceLink (WordSenseNode "pinnacle%2:42:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "clip%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "clip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shorten%2:30:01::"))
+(define x (WordNode "curtail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shorten%2:30:01::"))
+(define x (WordNode "cut_short")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shorten%2:30:01::"))

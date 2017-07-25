@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sunfish%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sunfish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "freshwater_fish%1:13:00::"))
+(InheritanceLink (WordSenseNode "crappie%1:13:00::") s)
+(HolonymLink s (WordSenseNode "sunfish%1:05:01::"))
+(HolonymLink s (WordSenseNode "centrarchid%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gyro%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gyro")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sandwich%1:13:00::"))
+(HolonymLink (WordSenseNode "pita%1:13:00::") s)
+(HolonymLink (WordSenseNode "pocket_bread%1:13:00::") s)

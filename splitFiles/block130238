@@ -1,0 +1,8 @@
+(define s (WordSenseNode "press%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "press")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flatten%2:30:00::"))
+(InheritanceLink s (WordSenseNode "flatten_out%2:30:00::"))
+(InheritanceLink (WordSenseNode "iron%2:35:00::") s)
+(InheritanceLink (WordSenseNode "iron_out%2:35:00::") s)
+(InheritanceLink (WordSenseNode "press%2:35:03::") s)
+(InheritanceLink (WordSenseNode "calender%2:35:00::") s)

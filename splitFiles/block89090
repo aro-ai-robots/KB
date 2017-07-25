@@ -1,0 +1,8 @@
+(define s (WordSenseNode "irony%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "irony")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trope%1:10:00::"))
+(InheritanceLink s (WordSenseNode "figure_of_speech%1:10:00::"))
+(InheritanceLink s (WordSenseNode "figure%1:10:01::"))
+(InheritanceLink s (WordSenseNode "image%1:10:00::"))
+(InheritanceLink (WordSenseNode "dramatic_irony%1:10:00::") s)
+(HolonymLink (WordSenseNode "antiphrasis%1:10:00::") s)

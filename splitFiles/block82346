@@ -1,0 +1,5 @@
+(define s (WordSenseNode "horseshoe_arch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Moorish_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "round_arch%1:06:00::"))
+(define x (WordNode "horseshoe_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "round_arch%1:06:00::"))

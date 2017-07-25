@@ -1,0 +1,7 @@
+(define s (WordSenseNode "massage%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "massage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manipulate%2:35:00::"))
+(define x (WordNode "rub_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manipulate%2:35:00::"))
+(define x (WordNode "knead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manipulate%2:35:00::"))

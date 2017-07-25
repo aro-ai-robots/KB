@@ -1,0 +1,5 @@
+(define s (WordSenseNode "eastern_dasyure%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eastern_dasyure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dasyure%1:05:00::"))
+(define x (WordNode "Dasyurus_quoll")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dasyure%1:05:00::"))

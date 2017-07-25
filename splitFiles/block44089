@@ -1,0 +1,5 @@
+(define s (WordSenseNode "degree_day%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commencement_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))
+(define x (WordNode "degree_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))

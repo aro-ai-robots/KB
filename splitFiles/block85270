@@ -1,0 +1,7 @@
+(define s (WordSenseNode "impost%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "springer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stone%1:06:00::"))
+(HolonymLink s (WordSenseNode "arch%1:06:00::"))
+(define x (WordNode "impost")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stone%1:06:00::"))
+(HolonymLink s (WordSenseNode "arch%1:06:00::"))

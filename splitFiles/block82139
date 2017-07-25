@@ -1,0 +1,5 @@
+(define s (WordSenseNode "horizon%1:15:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "horizon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "great_circle%1:15:00::"))
+(define x (WordNode "celestial_horizon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "great_circle%1:15:00::"))

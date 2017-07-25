@@ -1,0 +1,4 @@
+(define s (WordSenseNode "blackout%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blackout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_outage%1:11:00::"))
+(InheritanceLink s (WordSenseNode "power_failure%1:11:00::"))

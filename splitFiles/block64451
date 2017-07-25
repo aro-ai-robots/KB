@@ -1,0 +1,6 @@
+(define s (WordSenseNode "forgetfulness%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "forgetfulness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amnesia%1:09:00::"))
+(InheritanceLink s (WordSenseNode "memory_loss%1:09:00::"))
+(InheritanceLink s (WordSenseNode "blackout%1:09:01::"))
+(InheritanceLink (WordSenseNode "senior_moment%1:09:00::") s)

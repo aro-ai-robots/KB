@@ -1,0 +1,4 @@
+(define s (WordSenseNode "star_shell%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "star_shell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flare%1:10:00::"))
+(InheritanceLink s (WordSenseNode "flash%1:10:01::"))

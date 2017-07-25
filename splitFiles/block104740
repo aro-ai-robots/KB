@@ -1,0 +1,7 @@
+(define s (WordSenseNode "megestrol_acetate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "megestrol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "progestin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "progestogen%1:27:00::"))
+(define x (WordNode "megestrol_acetate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "progestin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "progestogen%1:27:00::"))

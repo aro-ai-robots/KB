@@ -1,0 +1,5 @@
+(define s (WordSenseNode "second_wind%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "second_wind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "energy%1:07:02::"))
+(InheritanceLink s (WordSenseNode "push%1:07:00::"))
+(InheritanceLink s (WordSenseNode "get-up-and-go%1:07:00::"))

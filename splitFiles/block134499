@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quid_pro_quo%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quid_pro_quo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retainer%1:21:00::"))
+(InheritanceLink s (WordSenseNode "consideration%1:21:00::"))
+(define x (WordNode "quid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retainer%1:21:00::"))
+(InheritanceLink s (WordSenseNode "consideration%1:21:00::"))

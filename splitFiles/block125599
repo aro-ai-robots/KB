@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pipe_in%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pipe_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transport%2:35:00::"))
+(InheritanceLink s (WordSenseNode "carry%2:35:02::"))

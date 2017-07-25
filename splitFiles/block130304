@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pressure_point%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pressure_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "point%1:15:00::"))
+(HolonymLink s (WordSenseNode "body%1:08:00::"))
+(HolonymLink s (WordSenseNode "organic_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "physical_structure%1:08:00::"))

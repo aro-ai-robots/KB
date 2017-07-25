@@ -1,0 +1,7 @@
+(define s (WordSenseNode "skinheads%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "skinheads")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "youth_subculture%1:14:00::"))
+(HolonymLink (WordSenseNode "skinhead%1:18:00::") s)
+(define x (WordNode "bootboys")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "youth_subculture%1:14:00::"))
+(HolonymLink (WordSenseNode "skinhead%1:18:00::") s)

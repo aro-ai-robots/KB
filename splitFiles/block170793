@@ -1,0 +1,5 @@
+(define s (WordSenseNode "totipotence%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "totipotency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ability%1:07:00::"))
+(define x (WordNode "totipotence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ability%1:07:00::"))

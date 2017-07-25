@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lashing%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lashing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rope%1:06:00::"))
+(InheritanceLink s (WordSenseNode "fastener%1:06:00::"))
+(InheritanceLink s (WordSenseNode "fastening%1:06:00::"))
+(InheritanceLink s (WordSenseNode "holdfast%1:06:00::"))
+(InheritanceLink s (WordSenseNode "fixing%1:06:00::"))

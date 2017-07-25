@@ -1,0 +1,7 @@
+(define s (WordSenseNode "peso%1:23:07::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Philippine_peso")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Philippine_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centavo%1:23:00::") s)
+(define x (WordNode "peso")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Philippine_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centavo%1:23:00::") s)

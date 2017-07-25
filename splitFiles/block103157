@@ -1,0 +1,7 @@
+(define s (WordSenseNode "marriage_counseling%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "marriage_counseling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guidance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "counsel%1:10:00::"))
+(InheritanceLink s (WordSenseNode "counseling%1:10:00::"))
+(InheritanceLink s (WordSenseNode "counselling%1:10:00::"))
+(InheritanceLink s (WordSenseNode "direction%1:10:00::"))

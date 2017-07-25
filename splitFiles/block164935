@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tabula_rasa%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tabula_rasa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mind%1:09:00::"))
+(InheritanceLink s (WordSenseNode "head%1:09:00::"))
+(InheritanceLink s (WordSenseNode "brain%1:09:01::"))
+(InheritanceLink s (WordSenseNode "psyche%1:09:00::"))
+(InheritanceLink s (WordSenseNode "nous%1:09:00::"))

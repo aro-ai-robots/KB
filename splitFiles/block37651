@@ -1,0 +1,5 @@
+(define s (WordSenseNode "copperplate_engraving%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "copperplate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "engraving%1:06:00::"))
+(define x (WordNode "copperplate_engraving")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "engraving%1:06:00::"))

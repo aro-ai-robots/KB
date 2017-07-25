@@ -1,0 +1,5 @@
+(define s (WordSenseNode "belmont%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Belmont_Park")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Elmont%1:15:00::"))
+(define x (WordNode "Belmont")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Elmont%1:15:00::"))

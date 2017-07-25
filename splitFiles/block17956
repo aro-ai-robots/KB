@@ -1,0 +1,5 @@
+(define s (WordSenseNode "blind_date%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blind_date")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "date%1:14:00::"))
+(InheritanceLink s (WordSenseNode "appointment%1:14:00::"))
+(InheritanceLink s (WordSenseNode "engagement%1:14:00::"))

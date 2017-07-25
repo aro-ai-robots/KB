@@ -1,0 +1,6 @@
+(define s (WordSenseNode "group_participation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "group_participation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "engagement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "participation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "involvement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "involution%1:04:02::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dash%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hyphen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punctuation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "punctuation_mark%1:10:00::"))
+(define x (WordNode "dash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punctuation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "punctuation_mark%1:10:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "natural_shape%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "natural_shape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shape%1:03:00::"))
+(InheritanceLink s (WordSenseNode "form%1:03:00::"))
+(InheritanceLink (WordSenseNode "leaf_shape%1:25:00::") s)
+(InheritanceLink (WordSenseNode "leaf_form%1:25:00::") s)

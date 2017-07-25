@@ -1,0 +1,7 @@
+(define s (WordSenseNode "syringa_josikaea%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Hungarian_lilac")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lilac%1:20:00::"))
+(define x (WordNode "Syringa_josikaea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lilac%1:20:00::"))
+(define x (WordNode "Syringa_josikea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lilac%1:20:00::"))

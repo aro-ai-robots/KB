@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reevaluation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reevaluation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evaluation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "valuation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "rating%1:09:00::"))

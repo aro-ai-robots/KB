@@ -1,0 +1,4 @@
+(define s (WordSenseNode "director%1:18:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "director")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "committee_member%1:18:00::"))
+(HolonymLink s (WordSenseNode "board%1:14:00::"))

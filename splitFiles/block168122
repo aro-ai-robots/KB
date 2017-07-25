@@ -1,0 +1,4 @@
+(define s (WordSenseNode "thermionic_current%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thermionic_current")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "current%1:19:01::"))
+(InheritanceLink s (WordSenseNode "electric_current%1:19:00::"))

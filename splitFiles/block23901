@@ -1,0 +1,5 @@
+(define s (WordSenseNode "calibrate%2:31:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "calibrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "measure%2:31:00::"))
+(InheritanceLink s (WordSenseNode "mensurate%2:31:00::"))
+(InheritanceLink s (WordSenseNode "measure_out%2:31:00::"))

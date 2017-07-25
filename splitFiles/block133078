@@ -1,0 +1,7 @@
+(define s (WordSenseNode "punch_out%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "clock_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "report%2:32:03::"))
+(define x (WordNode "punch_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "report%2:32:03::"))
+(define x (WordNode "clock_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "report%2:32:03::"))

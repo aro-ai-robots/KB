@@ -1,0 +1,5 @@
+(define s (WordSenseNode "permeation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interpenetration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "penetration%1:04:02::"))
+(define x (WordNode "permeation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "penetration%1:04:02::"))

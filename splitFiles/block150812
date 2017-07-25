@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shortbread%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shortbread")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butter_cookie%1:13:00::"))
+(define x (WordNode "shortbread_cookie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butter_cookie%1:13:00::"))

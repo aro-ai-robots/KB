@@ -1,0 +1,5 @@
+(define s (WordSenseNode "withdraw%2:41:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bow_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retire%2:41:01::"))
+(define x (WordNode "withdraw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retire%2:41:01::"))

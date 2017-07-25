@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rumble_seat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rumble_seat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seat%1:06:00::"))
+(HolonymLink s (WordSenseNode "roadster%1:06:01::"))
+(HolonymLink s (WordSenseNode "runabout%1:06:00::"))
+(HolonymLink s (WordSenseNode "two-seater%1:06:00::"))

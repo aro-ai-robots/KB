@@ -1,0 +1,6 @@
+(define s (WordSenseNode "knife_pleat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "knife_pleat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pleat%1:06:00::"))
+(InheritanceLink s (WordSenseNode "plait%1:06:00::"))
+(InheritanceLink (WordSenseNode "sunburst_pleat%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sunray_pleat%1:06:00::") s)

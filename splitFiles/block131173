@@ -1,0 +1,6 @@
+(define s (WordSenseNode "production%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "production")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "presentation%1:10:00::"))
+(InheritanceLink (WordSenseNode "theatrical_production%1:10:00::") s)
+(InheritanceLink (WordSenseNode "staging%1:10:00::") s)
+(HolonymLink (WordSenseNode "coup_de_theatre%1:10:01::") s)

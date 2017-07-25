@@ -1,0 +1,8 @@
+(define s (WordSenseNode "tarsus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tarsus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skeletal_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "vertebrate_foot%1:08:00::"))
+(HolonymLink s (WordSenseNode "pedal_extremity%1:08:00::"))
+(HolonymLink (WordSenseNode "cuboid_bone%1:08:00::") s)
+(HolonymLink (WordSenseNode "tarsal%1:08:00::") s)
+(HolonymLink (WordSenseNode "tarsal_bone%1:08:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "will%2:31:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "will")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decide%2:31:00::"))
+(InheritanceLink s (WordSenseNode "make_up_one's_mind%2:31:00::"))
+(InheritanceLink s (WordSenseNode "determine%2:31:00::"))

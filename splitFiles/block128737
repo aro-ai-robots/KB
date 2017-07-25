@@ -1,0 +1,5 @@
+(define s (WordSenseNode "posology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "posology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pharmacology%1:09:00::"))
+(InheritanceLink s (WordSenseNode "pharmacological_medicine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "materia_medica%1:09:00::"))

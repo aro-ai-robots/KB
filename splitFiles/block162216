@@ -1,0 +1,7 @@
+(define s (WordSenseNode "substantive_dye%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "direct_dye")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dye%1:27:00::"))
+(InheritanceLink s (WordSenseNode "dyestuff%1:27:00::"))
+(define x (WordNode "substantive_dye")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dye%1:27:00::"))
+(InheritanceLink s (WordSenseNode "dyestuff%1:27:00::"))

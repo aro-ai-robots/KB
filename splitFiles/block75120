@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gravity-assist%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gravity-assist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trajectory%1:19:00::"))
+(InheritanceLink s (WordSenseNode "flight%1:19:00::"))

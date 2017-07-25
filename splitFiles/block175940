@@ -1,0 +1,5 @@
+(define s (WordSenseNode "united_states_trade_representative%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "United_States_Trade_Representative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "executive_agency%1:14:00::"))
+(define x (WordNode "US_Trade_Representative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "executive_agency%1:14:00::"))

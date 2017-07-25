@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ergodicity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ergodicity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "randomness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "haphazardness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "stochasticity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "noise%1:07:00::"))

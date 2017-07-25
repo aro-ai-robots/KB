@@ -1,0 +1,7 @@
+(define s (WordSenseNode "first_balcony%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mezzanine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "balcony%1:06:02::"))
+(HolonymLink (WordSenseNode "loge%1:06:00::") s)
+(define x (WordNode "first_balcony")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "balcony%1:06:02::"))
+(HolonymLink (WordSenseNode "loge%1:06:00::") s)

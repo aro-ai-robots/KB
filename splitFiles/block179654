@@ -1,0 +1,5 @@
+(define s (WordSenseNode "visibility%1:07:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "visibility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clearness%1:07:02::"))
+(InheritanceLink s (WordSenseNode "clarity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "uncloudedness%1:07:00::"))

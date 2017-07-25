@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lower_respiratory_infection%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lower_respiratory_infection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "respiratory_tract_infection%1:26:00::"))
+(InheritanceLink s (WordSenseNode "respiratory_infection%1:26:00::"))

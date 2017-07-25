@@ -1,0 +1,7 @@
+(define s (WordSenseNode "oligodendrocyte%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oligodendrocyte")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neurogliacyte%1:08:00::"))
+(InheritanceLink s (WordSenseNode "neuroglial_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "glial_cell%1:08:00::"))
+(HolonymLink s (WordSenseNode "oligodendroglia%1:08:00::"))
+(HolonymLink s (WordSenseNode "oligodendria%1:08:00::"))

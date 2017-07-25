@@ -1,0 +1,7 @@
+(define s (WordSenseNode "embossment%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "imprint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stamp%1:10:00::"))
+(InheritanceLink s (WordSenseNode "impression%1:10:00::"))
+(define x (WordNode "embossment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stamp%1:10:00::"))
+(InheritanceLink s (WordSenseNode "impression%1:10:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ragweed_pollen%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ragweed_pollen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pollen%1:20:00::"))
+(InheritanceLink s (WordSenseNode "allergen%1:27:00::"))

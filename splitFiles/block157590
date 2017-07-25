@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sport_shirt%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polo_shirt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shirt%1:06:00::"))
+(define x (WordNode "sport_shirt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shirt%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "watch_guard%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fob")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chain%1:06:00::"))
+(define x (WordNode "watch_chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chain%1:06:00::"))
+(define x (WordNode "watch_guard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chain%1:06:00::"))

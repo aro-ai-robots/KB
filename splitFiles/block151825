@@ -1,0 +1,7 @@
+(define s (WordSenseNode "silver_berry%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Russian_olive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oleaster%1:20:00::"))
+(define x (WordNode "silver_berry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oleaster%1:20:00::"))
+(define x (WordNode "Elaeagnus_augustifolia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oleaster%1:20:00::"))

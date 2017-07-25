@@ -1,0 +1,8 @@
+(define s (WordSenseNode "conference%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conference")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meeting%1:14:00::"))
+(InheritanceLink s (WordSenseNode "group_meeting%1:14:00::"))
+(InheritanceLink (WordSenseNode "symposium%1:14:00::") s)
+(InheritanceLink (WordSenseNode "seminar%1:14:00::") s)
+(InheritanceLink (WordSenseNode "colloquium%1:14:00::") s)
+(HolonymLink (WordSenseNode "conferee%1:18:00::") s)

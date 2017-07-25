@@ -1,0 +1,8 @@
+(define s (WordSenseNode "motel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "motel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "motor_hotel%1:06:00::"))
+(InheritanceLink s (WordSenseNode "motor_inn%1:06:00::"))
+(InheritanceLink s (WordSenseNode "motor_lodge%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tourist_court%1:06:00::"))
+(InheritanceLink s (WordSenseNode "court%1:06:03::"))
+(HolonymLink (WordSenseNode "motel_room%1:06:00::") s)

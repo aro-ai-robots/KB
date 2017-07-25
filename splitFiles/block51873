@@ -1,0 +1,7 @@
+(define s (WordSenseNode "economic_mobilization%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "economic_mobilization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mobilization%1:04:00::"))
+(InheritanceLink s (WordSenseNode "mobilisation%1:04:00::"))
+(define x (WordNode "economic_mobilisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mobilization%1:04:00::"))
+(InheritanceLink s (WordSenseNode "mobilisation%1:04:00::"))

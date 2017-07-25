@@ -1,0 +1,7 @@
+(define s (WordSenseNode "parametric_statistic%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parametric_statistic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statistic%1:09:00::"))
+(InheritanceLink (WordSenseNode "regression_coefficient%1:09:00::") s)
+(InheritanceLink (WordSenseNode "correlation_coefficient%1:09:00::") s)
+(InheritanceLink (WordSenseNode "coefficient_of_correlation%1:09:00::") s)
+(InheritanceLink (WordSenseNode "correlation%1:09:00::") s)

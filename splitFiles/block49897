@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drawing_ink%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "India_ink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ink%1:27:01::"))
+(define x (WordNode "drawing_ink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ink%1:27:01::"))

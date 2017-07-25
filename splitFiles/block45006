@@ -1,0 +1,7 @@
+(define s (WordSenseNode "depressor%1:08:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "depressor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nervus%1:08:00::"))
+(define x (WordNode "depressor_nerve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nervus%1:08:00::"))

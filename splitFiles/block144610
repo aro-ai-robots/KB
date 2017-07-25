@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sampling_frequency%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sampling_frequency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "frequency%1:28:00::"))
+(InheritanceLink s (WordSenseNode "frequence%1:28:00::"))
+(InheritanceLink s (WordSenseNode "oftenness%1:28:00::"))
+(InheritanceLink (WordSenseNode "Nyquist_frequency%1:28:00::") s)

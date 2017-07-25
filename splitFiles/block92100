@@ -1,0 +1,5 @@
+(define s (WordSenseNode "kara_sea%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kara_Sea")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Arctic_Ocean%1:17:00::"))
+(HolonymLink (WordSenseNode "Gulf_of_Ob%1:17:00::") s)
+(HolonymLink (WordSenseNode "Bay_of_Ob%1:17:00::") s)

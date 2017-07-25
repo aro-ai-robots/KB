@@ -1,0 +1,8 @@
+(define s (WordSenseNode "settlement%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "settlement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geographical_area%1:15:00::"))
+(InheritanceLink s (WordSenseNode "geographic_area%1:15:00::"))
+(InheritanceLink s (WordSenseNode "geographical_region%1:15:00::"))
+(InheritanceLink s (WordSenseNode "geographic_region%1:15:00::"))
+(InheritanceLink (WordSenseNode "village%1:15:00::") s)
+(InheritanceLink (WordSenseNode "hamlet%1:15:00::") s)

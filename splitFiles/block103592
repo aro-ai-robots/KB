@@ -1,0 +1,7 @@
+(define s (WordSenseNode "master_copy%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "master")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creation%1:06:00::"))
+(define x (WordNode "master_copy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creation%1:06:00::"))
+(define x (WordNode "original")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creation%1:06:00::"))

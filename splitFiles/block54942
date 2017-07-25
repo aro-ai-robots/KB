@@ -1,0 +1,4 @@
+(define s (WordSenseNode "epoxy%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "epoxy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glue%2:35:00::"))
+(InheritanceLink s (WordSenseNode "paste%2:35:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "xeroderma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "xeroderma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ichthyosis%1:26:00::"))
+(InheritanceLink (WordSenseNode "xeroderma_pigmentosum%1:26:00::") s)
+(define x (WordNode "xerodermia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ichthyosis%1:26:00::"))
+(InheritanceLink (WordSenseNode "xeroderma_pigmentosum%1:26:00::") s)

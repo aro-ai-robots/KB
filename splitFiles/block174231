@@ -1,0 +1,5 @@
+(define s (WordSenseNode "two-handed_backhand%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "two-handed_backhand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "backhand%1:04:00::"))
+(InheritanceLink s (WordSenseNode "backhand_stroke%1:04:00::"))
+(InheritanceLink s (WordSenseNode "backhand_shot%1:04:00::"))

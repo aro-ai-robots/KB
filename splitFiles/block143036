@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rule%2:42:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attach_to%2:42:01::"))
+(InheritanceLink s (WordSenseNode "accompany%2:42:00::"))
+(InheritanceLink s (WordSenseNode "come_with%2:42:00::"))
+(InheritanceLink s (WordSenseNode "go_with%2:42:01::"))

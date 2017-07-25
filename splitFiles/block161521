@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stump%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_part%1:08:00::"))
+(HolonymLink s (WordSenseNode "limb%1:08:00::"))
+(HolonymLink s (WordSenseNode "tooth%1:08:00::"))

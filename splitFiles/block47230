@@ -1,0 +1,6 @@
+(define s (WordSenseNode "disclaim%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "disclaim")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foreswear%2:40:00::"))
+(InheritanceLink s (WordSenseNode "renounce%2:40:00::"))
+(InheritanceLink s (WordSenseNode "quit%2:40:00::"))
+(InheritanceLink s (WordSenseNode "relinquish%2:40:00::"))

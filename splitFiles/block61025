@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fibrillation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fibrillation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "branching%1:04:00::"))
+(InheritanceLink s (WordSenseNode "ramification%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fork%1:04:00::"))
+(InheritanceLink s (WordSenseNode "forking%1:04:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "clastic_rock%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clastic_rock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rock%1:17:01::"))
+(InheritanceLink s (WordSenseNode "stone%1:17:00::"))
+(HolonymLink (WordSenseNode "clast%1:17:00::") s)

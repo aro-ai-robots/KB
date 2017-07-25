@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tessellation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tessellation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "juxtaposition%1:04:00::"))
+(InheritanceLink s (WordSenseNode "apposition%1:04:00::"))
+(InheritanceLink s (WordSenseNode "collocation%1:04:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "abridge%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "abridge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "restrict%2:30:02::"))
+(InheritanceLink s (WordSenseNode "curtail%2:30:00::"))
+(InheritanceLink s (WordSenseNode "curb%2:30:00::"))
+(InheritanceLink s (WordSenseNode "cut_back%2:30:00::"))

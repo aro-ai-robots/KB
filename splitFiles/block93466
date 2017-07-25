@@ -1,0 +1,6 @@
+(define s (WordSenseNode "know%2:31:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "know")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "anticipate%2:31:01::") s)
+(InheritanceLink (WordSenseNode "previse%2:31:00::") s)
+(InheritanceLink (WordSenseNode "foreknow%2:31:00::") s)
+(InheritanceLink (WordSenseNode "foresee%2:31:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "intransitive_verb_form%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intransitive_verb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "verb%1:10:01::"))
+(define x (WordNode "intransitive_verb_form")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "verb%1:10:01::"))
+(define x (WordNode "intransitive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "verb%1:10:01::"))

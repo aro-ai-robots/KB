@@ -1,0 +1,5 @@
+(define s (WordSenseNode "frank%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "postmark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stamp%2:35:01::"))
+(define x (WordNode "frank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stamp%2:35:01::"))

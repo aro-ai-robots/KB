@@ -1,0 +1,5 @@
+(define s (WordSenseNode "umber%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "umber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "earth_color%1:27:00::"))
+(InheritanceLink (WordSenseNode "raw_umber%1:27:00::") s)
+(InheritanceLink (WordSenseNode "burnt_umber%1:27:00::") s)

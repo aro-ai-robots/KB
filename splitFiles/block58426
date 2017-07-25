@@ -1,0 +1,7 @@
+(define s (WordSenseNode "false_truffle%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "false_truffle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fungus%1:20:00::"))
+(InheritanceLink (WordSenseNode "Rhizopogon_idahoensis%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Truncocolumella_citrina%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Rhizopogonaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Rhizopogonaceae%1:20:00::"))

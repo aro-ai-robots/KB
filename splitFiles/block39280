@@ -1,0 +1,8 @@
+(define s (WordSenseNode "crack%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "crack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crack%2:30:01::"))
+(InheritanceLink s (WordSenseNode "check%2:30:03::"))
+(InheritanceLink s (WordSenseNode "break%2:30:15::"))
+(InheritanceLink (WordSenseNode "chap%2:30:00::") s)
+(InheritanceLink (WordSenseNode "craze%2:30:00::") s)
+(InheritanceLink (WordSenseNode "alligator%2:30:00::") s)

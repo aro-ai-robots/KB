@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dental_surgery%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dental_surgery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dentistry%1:09:00::"))
+(InheritanceLink s (WordSenseNode "dental_medicine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "odontology%1:09:00::"))
+(InheritanceLink (WordSenseNode "exodontics%1:09:00::") s)
+(InheritanceLink (WordSenseNode "exodontia%1:09:00::") s)

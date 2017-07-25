@@ -1,0 +1,6 @@
+(define s (WordSenseNode "jerboa_rat%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jerboa_rat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rat%1:05:00::"))
+(InheritanceLink (WordSenseNode "kangaroo_mouse%1:05:01::") s)
+(HolonymLink s (WordSenseNode "Conilurus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Conilurus%1:05:00::"))

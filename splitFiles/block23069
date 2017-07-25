@@ -1,0 +1,7 @@
+(define s (WordSenseNode "butt_pack%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fanny_pack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "waist_pack%1:06:00::"))
+(InheritanceLink s (WordSenseNode "belt_bag%1:06:00::"))
+(define x (WordNode "butt_pack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "waist_pack%1:06:00::"))
+(InheritanceLink s (WordSenseNode "belt_bag%1:06:00::"))

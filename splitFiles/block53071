@@ -1,0 +1,7 @@
+(define s (WordSenseNode "elf%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "extremely_low_frequency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radio_frequency%1:07:00::"))
+(HolonymLink s (WordSenseNode "electromagnetic_spectrum%1:19:00::"))
+(define x (WordNode "ELF")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radio_frequency%1:07:00::"))
+(HolonymLink s (WordSenseNode "electromagnetic_spectrum%1:19:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sister%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sister")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "member%1:18:00::"))
+(InheritanceLink s (WordSenseNode "fellow_member%1:18:00::"))
+(InheritanceLink (WordSenseNode "Beguine%1:18:00::") s)
+(HolonymLink s (WordSenseNode "sorority%1:14:00::"))

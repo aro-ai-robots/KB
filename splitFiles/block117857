@@ -1,0 +1,5 @@
+(define s (WordSenseNode "orthodoxy%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orthodoxy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orientation%1:09:00::"))
+(InheritanceLink (WordSenseNode "conformity%1:09:00::") s)
+(InheritanceLink (WordSenseNode "conformism%1:09:00::") s)

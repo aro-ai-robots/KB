@@ -1,0 +1,7 @@
+(define s (WordSenseNode "russian_bank%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Russian_bank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solitaire%1:04:00::"))
+(InheritanceLink s (WordSenseNode "patience%1:04:01::"))
+(define x (WordNode "crapette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solitaire%1:04:00::"))
+(InheritanceLink s (WordSenseNode "patience%1:04:01::"))

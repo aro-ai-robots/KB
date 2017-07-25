@@ -1,0 +1,3 @@
+(define s (WordSenseNode "apple_turnover%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "apple_turnover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turnover%1:13:00::"))

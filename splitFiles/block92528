@@ -1,0 +1,5 @@
+(define s (WordSenseNode "keratosis_follicularis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "keratosis_follicularis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keratosis%1:26:00::"))
+(define x (WordNode "Darier's_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keratosis%1:26:00::"))

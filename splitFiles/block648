@@ -1,0 +1,6 @@
+(define s (WordSenseNode "absentee_rate%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "absentee_rate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "percentage%1:24:00::"))
+(InheritanceLink s (WordSenseNode "percent%1:24:00::"))
+(InheritanceLink s (WordSenseNode "per_centum%1:24:00::"))
+(InheritanceLink s (WordSenseNode "pct%1:24:00::"))

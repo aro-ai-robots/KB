@@ -1,0 +1,8 @@
+(define s (WordSenseNode "eared_seal%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eared_seal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:05:00::"))
+(InheritanceLink (WordSenseNode "fur_seal%1:05:01::") s)
+(InheritanceLink (WordSenseNode "fur_seal%1:05:02::") s)
+(InheritanceLink (WordSenseNode "sea_lion%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Otariidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Otariidae%1:05:00::"))

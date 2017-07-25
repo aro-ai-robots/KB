@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cfo%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chief_financial_officer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corporate_executive%1:18:00::"))
+(InheritanceLink s (WordSenseNode "business_executive%1:18:00::"))
+(define x (WordNode "CFO")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corporate_executive%1:18:00::"))
+(InheritanceLink s (WordSenseNode "business_executive%1:18:00::"))

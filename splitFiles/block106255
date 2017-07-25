@@ -1,0 +1,8 @@
+(define s (WordSenseNode "middle_term%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "middle_term")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "term%1:10:01::"))
+(HolonymLink s (WordSenseNode "major_premise%1:10:00::"))
+(HolonymLink s (WordSenseNode "major_premiss%1:10:00::"))
+(HolonymLink s (WordSenseNode "minor_premise%1:10:00::"))
+(HolonymLink s (WordSenseNode "minor_premiss%1:10:00::"))
+(HolonymLink s (WordSenseNode "subsumption%1:10:00::"))

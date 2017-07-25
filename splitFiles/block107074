@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mirage%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mirage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_illusion%1:19:00::"))
+(InheritanceLink (WordSenseNode "fata_morgana%1:19:00::") s)

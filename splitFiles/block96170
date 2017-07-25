@@ -1,0 +1,7 @@
+(define s (WordSenseNode "legend%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "legend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "story%1:10:00::"))
+(InheritanceLink (WordSenseNode "Arthurian_legend%1:10:00::") s)
+(define x (WordNode "fable")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "story%1:10:00::"))
+(InheritanceLink (WordSenseNode "Arthurian_legend%1:10:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inspirer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "galvanizer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leader%1:18:00::"))
+(define x (WordNode "galvaniser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leader%1:18:00::"))
+(define x (WordNode "inspirer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leader%1:18:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "field_winding%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "field_coil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coil%1:06:01::"))
+(define x (WordNode "field_winding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coil%1:06:01::"))

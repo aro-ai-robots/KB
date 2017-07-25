@@ -1,0 +1,4 @@
+(define s (WordSenseNode "multiplexer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "multiplexer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_device%1:06:00::"))
+(InheritanceLink (WordSenseNode "data_multiplexer%1:06:00::") s)

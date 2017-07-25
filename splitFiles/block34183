@@ -1,0 +1,7 @@
+(define s (WordSenseNode "column%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "column")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tubing%1:06:00::"))
+(define x (WordNode "chromatography_column")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tubing%1:06:00::"))

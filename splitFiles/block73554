@@ -1,0 +1,5 @@
+(define s (WordSenseNode "glycosuria%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glycosuria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))
+(InheritanceLink (WordSenseNode "fructosuria%1:26:00::") s)
+(InheritanceLink (WordSenseNode "glucosuria%1:26:00::") s)

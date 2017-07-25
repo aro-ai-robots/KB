@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fake%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "forge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "re-create%2:36:00::"))
+(define x (WordNode "fake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "re-create%2:36:00::"))
+(define x (WordNode "counterfeit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "re-create%2:36:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "deprecate%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deprecate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disapprove%2:32:00::"))
+(InheritanceLink s (WordSenseNode "reject%2:32:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "escapism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "escape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diversion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "recreation%1:04:00::"))
+(define x (WordNode "escapism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diversion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "recreation%1:04:00::"))

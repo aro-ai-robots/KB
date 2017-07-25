@@ -1,0 +1,5 @@
+(define s (WordSenseNode "prodrome%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prodrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))
+(define x (WordNode "prodroma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))

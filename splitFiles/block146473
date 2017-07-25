@@ -1,0 +1,5 @@
+(define s (WordSenseNode "score%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "score")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compose%2:36:03::"))
+(InheritanceLink s (WordSenseNode "write%2:36:04::"))
+(InheritanceLink (WordSenseNode "orchestrate%2:36:00::") s)

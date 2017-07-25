@@ -1,0 +1,4 @@
+(define s (WordSenseNode "huguenot%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Huguenot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Calvinist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Genevan%1:18:01::"))

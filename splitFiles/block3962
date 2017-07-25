@@ -1,0 +1,7 @@
+(define s (WordSenseNode "alcoholics_anonymous%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Alcoholics_Anonymous")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nongovernmental_organization%1:14:00::"))
+(InheritanceLink s (WordSenseNode "NGO%1:14:00::"))
+(define x (WordNode "AA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nongovernmental_organization%1:14:00::"))
+(InheritanceLink s (WordSenseNode "NGO%1:14:00::"))

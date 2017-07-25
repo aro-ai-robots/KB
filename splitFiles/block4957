@@ -1,0 +1,4 @@
+(define s (WordSenseNode "alternator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alternator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "generator%1:06:00::"))
+(HolonymLink s (WordSenseNode "electrical_system%1:06:00::"))

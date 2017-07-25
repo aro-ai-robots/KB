@@ -1,0 +1,7 @@
+(define s (WordSenseNode "strictness%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strictness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conscientiousness%1:07:01::"))
+(InheritanceLink s (WordSenseNode "painstakingness%1:07:00::"))
+(define x (WordNode "stringency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conscientiousness%1:07:01::"))
+(InheritanceLink s (WordSenseNode "painstakingness%1:07:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gill%1:23:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "British_capacity_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "Imperial_capacity_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "pint%1:23:02::"))
+(HolonymLink (WordSenseNode "fluidounce%1:23:02::") s)
+(HolonymLink (WordSenseNode "fluid_ounce%1:23:02::") s)

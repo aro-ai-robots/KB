@@ -1,0 +1,6 @@
+(define s (WordSenseNode "washer%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "washer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:06:02::"))
+(InheritanceLink (WordSenseNode "lockring%1:06:00::") s)
+(InheritanceLink (WordSenseNode "lock_ring%1:06:00::") s)
+(InheritanceLink (WordSenseNode "lock_washer%1:06:00::") s)

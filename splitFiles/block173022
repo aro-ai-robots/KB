@@ -1,0 +1,5 @@
+(define s (WordSenseNode "true_fungus%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "true_fungus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fungus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Eumycota%1:20:00::"))
+(HolonymLink s (WordSenseNode "division_Eumycota%1:20:00::"))

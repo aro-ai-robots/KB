@@ -1,0 +1,8 @@
+(define s (WordSenseNode "temple_orange%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "temple_orange")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orange%1:13:00::"))
+(HolonymLink s (WordSenseNode "temple_orange%1:20:00::"))
+(HolonymLink s (WordSenseNode "temple_orange_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "tangor%1:20:00::"))
+(HolonymLink s (WordSenseNode "king_orange%1:20:00::"))
+(HolonymLink s (WordSenseNode "Citrus_nobilis%1:20:00::"))

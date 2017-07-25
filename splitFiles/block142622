@@ -1,0 +1,4 @@
+(define s (WordSenseNode "roundel%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roundel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rondeau%1:10:00::"))
+(InheritanceLink s (WordSenseNode "rondel%1:10:00::"))

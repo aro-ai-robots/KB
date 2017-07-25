@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inflator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inflater")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air_pump%1:06:00::"))
+(InheritanceLink s (WordSenseNode "vacuum_pump%1:06:00::"))
+(define x (WordNode "inflator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air_pump%1:06:00::"))
+(InheritanceLink s (WordSenseNode "vacuum_pump%1:06:00::"))

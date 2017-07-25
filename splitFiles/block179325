@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vinca_major%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "large_periwinkle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "periwinkle%1:20:01::"))
+(define x (WordNode "Vinca_major")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "periwinkle%1:20:01::"))

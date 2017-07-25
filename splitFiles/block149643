@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shahaptian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Shahaptian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Penutian%1:10:00::"))
+(InheritanceLink (WordSenseNode "Nez_Perce%1:10:00::") s)
+(define x (WordNode "Sahaptin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Penutian%1:10:00::"))
+(InheritanceLink (WordSenseNode "Nez_Perce%1:10:00::") s)

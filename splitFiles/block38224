@@ -1,0 +1,7 @@
+(define s (WordSenseNode "corrode%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "corrode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "damage%2:30:00::"))
+(define x (WordNode "eat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "damage%2:30:00::"))
+(define x (WordNode "rust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "damage%2:30:00::"))

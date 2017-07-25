@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hearth%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hearth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:15:01::"))
+(InheritanceLink s (WordSenseNode "country%1:15:02::"))
+(define x (WordNode "fireside")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:15:01::"))
+(InheritanceLink s (WordSenseNode "country%1:15:02::"))

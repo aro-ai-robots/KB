@@ -1,0 +1,4 @@
+(define s (WordSenseNode "delegate%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "delegate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "representative%1:18:00::"))
+(InheritanceLink (WordSenseNode "apostolic_delegate%1:18:00::") s)

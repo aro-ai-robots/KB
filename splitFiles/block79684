@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hemiparasite%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hemiparasite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parasitic_plant%1:20:00::"))
+(define x (WordNode "semiparasite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parasitic_plant%1:20:00::"))

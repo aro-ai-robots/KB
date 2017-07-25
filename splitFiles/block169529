@@ -1,0 +1,5 @@
+(define s (WordSenseNode "timeliness%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seasonableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timing%1:07:00::"))
+(define x (WordNode "timeliness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timing%1:07:00::"))

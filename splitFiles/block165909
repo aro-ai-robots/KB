@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tape%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "slip%1:06:03::"))
+(InheritanceLink (WordSenseNode "adhesive_tape%1:06:00::") s)
+(InheritanceLink (WordSenseNode "inkle%1:06:00::") s)
+(InheritanceLink (WordSenseNode "webbing%1:06:01::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "marquise%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "marquee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canopy%1:06:00::"))
+(define x (WordNode "marquise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canopy%1:06:00::"))

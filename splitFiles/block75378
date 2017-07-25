@@ -1,0 +1,4 @@
+(define s (WordSenseNode "greek_mode%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Greek_mode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mode%1:10:00::"))
+(InheritanceLink s (WordSenseNode "musical_mode%1:10:00::"))

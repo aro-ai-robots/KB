@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cylindrical_lining%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bushing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lining%1:06:00::"))
+(InheritanceLink s (WordSenseNode "liner%1:06:02::"))
+(define x (WordNode "cylindrical_lining")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lining%1:06:00::"))
+(InheritanceLink s (WordSenseNode "liner%1:06:02::"))

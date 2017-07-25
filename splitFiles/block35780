@@ -1,0 +1,7 @@
+(define s (WordSenseNode "concreteness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concreteness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "materiality%1:07:00::"))
+(InheritanceLink s (WordSenseNode "physicalness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "corporeality%1:07:00::"))
+(InheritanceLink s (WordSenseNode "corporality%1:07:00::"))
+(InheritanceLink (WordSenseNode "literalness%1:07:00::") s)

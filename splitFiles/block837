@@ -1,0 +1,7 @@
+(define s (WordSenseNode "academic_costume%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "academic_costume")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "costume%1:06:01::"))
+(HolonymLink (WordSenseNode "academic_gown%1:06:00::") s)
+(HolonymLink (WordSenseNode "academic_robe%1:06:00::") s)
+(HolonymLink (WordSenseNode "judge's_robe%1:06:00::") s)
+(HolonymLink (WordSenseNode "mortarboard%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cross%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crisscross")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "marking%1:07:00::"))
+(define x (WordNode "cross")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "marking%1:07:00::"))
+(define x (WordNode "mark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "marking%1:07:00::"))

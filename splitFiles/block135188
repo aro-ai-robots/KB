@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ragtime%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ragtime")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dance_music%1:10:00::"))
+(define x (WordNode "rag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dance_music%1:10:00::"))

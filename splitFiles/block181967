@@ -1,0 +1,4 @@
+(define s (WordSenseNode "weighbridge%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "weighbridge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scale%1:06:02::"))
+(InheritanceLink s (WordSenseNode "weighing_machine%1:06:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "syndicate%1:14:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "syndicate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "news_agency%1:14:00::"))
+(InheritanceLink s (WordSenseNode "press_agency%1:14:00::"))
+(InheritanceLink s (WordSenseNode "wire_service%1:14:00::"))
+(InheritanceLink s (WordSenseNode "press_association%1:14:00::"))
+(InheritanceLink s (WordSenseNode "news_organization%1:14:00::"))
+(InheritanceLink s (WordSenseNode "news_organisation%1:14:00::"))

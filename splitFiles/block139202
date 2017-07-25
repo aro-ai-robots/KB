@@ -1,0 +1,7 @@
+(define s (WordSenseNode "research%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "research")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "investigate%2:32:00::"))
+(InheritanceLink s (WordSenseNode "look_into%2:32:00::"))
+(InheritanceLink (WordSenseNode "consult%2:32:01::") s)
+(InheritanceLink (WordSenseNode "refer%2:32:12::") s)
+(InheritanceLink (WordSenseNode "look_up%2:32:00::") s)

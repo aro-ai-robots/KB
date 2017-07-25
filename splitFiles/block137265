@@ -1,0 +1,5 @@
+(define s (WordSenseNode "red_underwing%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "red_underwing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "underwing%1:05:00::"))
+(define x (WordNode "Catocala_nupta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "underwing%1:05:00::"))

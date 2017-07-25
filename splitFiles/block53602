@@ -1,0 +1,7 @@
+(define s (WordSenseNode "employee_turnover%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "employee_turnover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))
+(define x (WordNode "turnover_rate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))
+(define x (WordNode "turnover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))

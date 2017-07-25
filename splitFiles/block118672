@@ -1,0 +1,5 @@
+(define s (WordSenseNode "overestimate%2:31:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overvalue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "value%2:31:03::"))
+(define x (WordNode "overestimate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "value%2:31:03::"))

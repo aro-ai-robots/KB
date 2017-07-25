@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antivenene%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antivenin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antitoxin%1:27:00::"))
+(define x (WordNode "antivenene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antitoxin%1:27:00::"))

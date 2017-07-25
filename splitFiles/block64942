@@ -1,0 +1,4 @@
+(define s (WordSenseNode "foveal_vision%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foveal_vision")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "daylight_vision%1:09:00::"))
+(InheritanceLink s (WordSenseNode "photopic_vision%1:09:00::"))

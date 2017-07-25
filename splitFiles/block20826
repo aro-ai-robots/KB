@@ -1,0 +1,7 @@
+(define s (WordSenseNode "breakfast%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "breakfast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meal%1:13:00::"))
+(InheritanceLink s (WordSenseNode "repast%1:13:00::"))
+(InheritanceLink (WordSenseNode "continental_breakfast%1:13:00::") s)
+(InheritanceLink (WordSenseNode "petit_dejeuner%1:13:00::") s)
+(InheritanceLink (WordSenseNode "power_breakfast%1:14:00::") s)

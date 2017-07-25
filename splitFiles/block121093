@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pascal_compiler%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pascal_compiler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compiler%1:10:00::"))
+(InheritanceLink s (WordSenseNode "compiling_program%1:10:00::"))

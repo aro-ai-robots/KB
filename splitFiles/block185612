@@ -1,0 +1,6 @@
+(define s (WordSenseNode "yardstick%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yardstick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "standard%1:10:00::"))
+(InheritanceLink s (WordSenseNode "criterion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "measure%1:10:03::"))
+(InheritanceLink s (WordSenseNode "touchstone%1:10:00::"))

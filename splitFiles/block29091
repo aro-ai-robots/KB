@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chartres%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Chartres")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "France%1:15:00::"))
+(HolonymLink s (WordSenseNode "French_Republic%1:15:00::"))
+(HolonymLink (WordSenseNode "Chartres_Cathedral%1:06:00::") s)

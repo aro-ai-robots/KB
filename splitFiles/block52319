@@ -1,0 +1,7 @@
+(define s (WordSenseNode "effusiveness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "effusiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "communicativeness%1:07:00::"))
+(define x (WordNode "expansiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "communicativeness%1:07:00::"))
+(define x (WordNode "expansivity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "communicativeness%1:07:00::"))

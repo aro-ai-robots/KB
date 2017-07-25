@@ -1,0 +1,5 @@
+(define s (WordSenseNode "electric_furnace%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electric_furnace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "furnace%1:06:00::"))
+(InheritanceLink (WordSenseNode "Stassano_furnace%1:06:00::") s)
+(InheritanceLink (WordSenseNode "electric-arc_furnace%1:06:00::") s)

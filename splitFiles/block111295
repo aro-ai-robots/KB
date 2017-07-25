@@ -1,0 +1,5 @@
+(define s (WordSenseNode "national_security_council%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "National_Security_Council")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "executive_agency%1:14:00::"))
+(define x (WordNode "NSC")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "executive_agency%1:14:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "welcome%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "welcome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "greeting%1:10:00::"))
+(InheritanceLink s (WordSenseNode "salutation%1:10:00::"))
+(InheritanceLink (WordSenseNode "cordial_reception%1:10:00::") s)
+(InheritanceLink (WordSenseNode "hospitality%1:10:00::") s)
+(InheritanceLink (WordSenseNode "inhospitality%1:10:00::") s)
+(InheritanceLink (WordSenseNode "glad_hand%1:10:00::") s)

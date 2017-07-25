@@ -1,0 +1,5 @@
+(define s (WordSenseNode "seriph%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "serif")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:10:01::"))
+(define x (WordNode "seriph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:10:01::"))

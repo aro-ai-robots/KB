@@ -1,0 +1,6 @@
+(define s (WordSenseNode "round_hand%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "round_hand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "longhand%1:10:00::"))
+(InheritanceLink s (WordSenseNode "running_hand%1:10:00::"))
+(InheritanceLink s (WordSenseNode "cursive%1:10:00::"))
+(InheritanceLink s (WordSenseNode "cursive_script%1:10:00::"))

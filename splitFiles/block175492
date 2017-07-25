@@ -1,0 +1,8 @@
+(define s (WordSenseNode "unexchangeability%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unexchangeability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "changelessness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "unchangeability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "unchangeableness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "unchangingness%1:07:00::"))
+(InheritanceLink (WordSenseNode "incommutability%1:07:00::") s)
+(InheritanceLink (WordSenseNode "irreplaceableness%1:07:00::") s)

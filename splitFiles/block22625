@@ -1,0 +1,6 @@
+(define s (WordSenseNode "burglary%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "burglary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "felony%1:04:00::"))
+(InheritanceLink (WordSenseNode "housebreaking%1:04:00::") s)
+(InheritanceLink (WordSenseNode "break-in%1:04:00::") s)
+(InheritanceLink (WordSenseNode "breaking_and_entering%1:04:00::") s)

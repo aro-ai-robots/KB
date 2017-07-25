@@ -1,0 +1,7 @@
+(define s (WordSenseNode "extreme_unction%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anointing_of_the_sick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sacrament%1:04:00::"))
+(define x (WordNode "extreme_unction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sacrament%1:04:00::"))
+(define x (WordNode "last_rites")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sacrament%1:04:00::"))

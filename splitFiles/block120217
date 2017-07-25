@@ -1,0 +1,5 @@
+(define s (WordSenseNode "paper_gold%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "special_drawing_rights")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reserve_assets%1:21:00::"))
+(define x (WordNode "paper_gold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reserve_assets%1:21:00::"))

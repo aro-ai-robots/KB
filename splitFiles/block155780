@@ -1,0 +1,8 @@
+(define s (WordSenseNode "soundtrack%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "soundtrack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sound_recording%1:06:00::"))
+(InheritanceLink s (WordSenseNode "audio_recording%1:06:00::"))
+(InheritanceLink s (WordSenseNode "audio%1:06:01::"))
+(InheritanceLink (WordSenseNode "dubbing%1:06:00::") s)
+(InheritanceLink (WordSenseNode "laugh_track%1:06:00::") s)
+(HolonymLink s (WordSenseNode "sound_film%1:06:00::"))

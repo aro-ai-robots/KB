@@ -1,0 +1,7 @@
+(define s (WordSenseNode "drawn_butter%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clarified_butter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butter%1:13:00::"))
+(InheritanceLink (WordSenseNode "ghee%1:13:00::") s)
+(define x (WordNode "drawn_butter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butter%1:13:00::"))
+(InheritanceLink (WordSenseNode "ghee%1:13:00::") s)

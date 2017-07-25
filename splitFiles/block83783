@@ -1,0 +1,3 @@
+(define s (WordSenseNode "hyperlink%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hyperlink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "link%1:10:01::"))

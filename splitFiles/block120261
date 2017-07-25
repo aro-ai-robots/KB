@@ -1,0 +1,8 @@
+(define s (WordSenseNode "papilla%1:08:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "papilla")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:08:00::"))
+(InheritanceLink s (WordSenseNode "outgrowth%1:08:00::"))
+(InheritanceLink s (WordSenseNode "appendage%1:08:01::"))
+(HolonymLink s (WordSenseNode "sense_organ%1:08:00::"))
+(HolonymLink s (WordSenseNode "sensory_receptor%1:08:00::"))
+(HolonymLink s (WordSenseNode "receptor%1:08:00::"))

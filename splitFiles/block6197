@@ -1,0 +1,4 @@
+(define s (WordSenseNode "andante%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "andante")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tempo%1:28:01::"))
+(InheritanceLink s (WordSenseNode "pacing%1:28:00::"))

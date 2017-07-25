@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cantilever%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cantilever")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stick_out%2:42:01::"))
+(InheritanceLink s (WordSenseNode "protrude%2:42:00::"))
+(InheritanceLink s (WordSenseNode "jut_out%2:42:00::"))
+(InheritanceLink s (WordSenseNode "jut%2:42:00::"))
+(InheritanceLink s (WordSenseNode "project%2:42:00::"))

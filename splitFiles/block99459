@@ -1,0 +1,5 @@
+(define s (WordSenseNode "loop_knot%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "loop_knot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knot%1:06:00::"))
+(InheritanceLink (WordSenseNode "bowline%1:06:00::") s)
+(InheritanceLink (WordSenseNode "bowline_knot%1:06:00::") s)

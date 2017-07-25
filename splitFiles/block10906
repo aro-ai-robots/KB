@@ -1,0 +1,8 @@
+(define s (WordSenseNode "atomic_theory%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "atomic_theory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scientific_theory%1:09:00::"))
+(InheritanceLink (WordSenseNode "Bohr_theory%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Rutherford_atom%1:09:00::") s)
+(HolonymLink s (WordSenseNode "nuclear_physics%1:09:00::"))
+(HolonymLink s (WordSenseNode "atomic_physics%1:09:00::"))
+(HolonymLink s (WordSenseNode "nucleonics%1:09:00::"))

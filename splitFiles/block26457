@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cartwheel%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "silver_dollar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dollar%1:21:01::"))
+(define x (WordNode "cartwheel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dollar%1:21:01::"))

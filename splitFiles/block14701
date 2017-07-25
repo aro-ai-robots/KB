@@ -1,0 +1,7 @@
+(define s (WordSenseNode "beam_scale%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "steelyard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "balance%1:06:00::"))
+(define x (WordNode "lever_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "balance%1:06:00::"))
+(define x (WordNode "beam_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "balance%1:06:00::"))

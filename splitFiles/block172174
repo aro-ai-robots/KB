@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trench_foot%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trench_foot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "frostbite%1:26:00::"))
+(InheritanceLink s (WordSenseNode "cryopathy%1:26:00::"))
+(define x (WordNode "immersion_foot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "frostbite%1:26:00::"))
+(InheritanceLink s (WordSenseNode "cryopathy%1:26:00::"))

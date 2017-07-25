@@ -1,0 +1,6 @@
+(define s (WordSenseNode "woodscrew%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "woodscrew")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "screw%1:06:00::"))
+(InheritanceLink (WordSenseNode "lag_screw%1:06:00::") s)
+(InheritanceLink (WordSenseNode "lag_bolt%1:06:00::") s)
+(InheritanceLink (WordSenseNode "screw_eye%1:06:00::") s)

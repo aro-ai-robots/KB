@@ -1,0 +1,6 @@
+(define s (WordSenseNode "giant_cockroach%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "giant_cockroach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cockroach%1:05:00::"))
+(InheritanceLink s (WordSenseNode "roach%1:05:01::"))
+(HolonymLink s (WordSenseNode "Blaberus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Blaberus%1:05:00::"))

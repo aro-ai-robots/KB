@@ -1,0 +1,8 @@
+(define s (WordSenseNode "instep%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "instep")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arch%1:08:00::"))
+(InheritanceLink (WordSenseNode "sunken_arch%1:08:00::") s)
+(InheritanceLink (WordSenseNode "fallen_arch%1:08:00::") s)
+(HolonymLink s (WordSenseNode "foot%1:08:01::"))
+(HolonymLink s (WordSenseNode "human_foot%1:08:00::"))
+(HolonymLink s (WordSenseNode "pes%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rout_up%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rout_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "find%2:40:00::"))
+(InheritanceLink s (WordSenseNode "regain%2:40:01::"))
+(define x (WordNode "rout_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "find%2:40:00::"))
+(InheritanceLink s (WordSenseNode "regain%2:40:01::"))

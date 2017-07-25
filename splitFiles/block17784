@@ -1,0 +1,6 @@
+(define s (WordSenseNode "blastopore%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blastopore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orifice%1:08:00::"))
+(InheritanceLink s (WordSenseNode "opening%1:08:00::"))
+(InheritanceLink s (WordSenseNode "porta%1:08:00::"))
+(HolonymLink s (WordSenseNode "archenteron%1:05:00::"))

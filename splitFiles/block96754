@@ -1,0 +1,3 @@
+(define s (WordSenseNode "letter_case%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "letter_case")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "case%1:06:00::"))

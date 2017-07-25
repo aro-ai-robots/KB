@@ -1,0 +1,4 @@
+(define s (WordSenseNode "combining_form%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "combining_form")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bound_morpheme%1:10:00::"))
+(InheritanceLink s (WordSenseNode "bound_form%1:10:00::"))

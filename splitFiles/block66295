@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fullness%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "comprehensiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "completeness%1:26:00::"))
+(define x (WordNode "fullness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "completeness%1:26:00::"))

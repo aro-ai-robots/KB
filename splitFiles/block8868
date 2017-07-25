@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aria%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "song%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vocal%1:10:01::"))
+(InheritanceLink (WordSenseNode "arietta%1:10:00::") s)
+(InheritanceLink (WordSenseNode "short_aria%1:10:00::") s)
+(HolonymLink s (WordSenseNode "opera%1:10:00::"))

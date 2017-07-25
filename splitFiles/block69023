@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_chimaera%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Chimaera")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fish_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Chimaeridae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Chimaeridae%1:05:00::"))
+(HolonymLink (WordSenseNode "chimaera%1:05:01::") s)

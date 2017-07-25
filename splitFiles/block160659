@@ -1,0 +1,7 @@
+(define s (WordSenseNode "strait%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strait")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "channel%1:17:00::"))
+(InheritanceLink (WordSenseNode "narrow%1:17:00::") s)
+(define x (WordNode "sound")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "channel%1:17:00::"))
+(InheritanceLink (WordSenseNode "narrow%1:17:00::") s)

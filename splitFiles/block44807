@@ -1,0 +1,5 @@
+(define s (WordSenseNode "department_of_biology%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "biology_department")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "academic_department%1:14:00::"))
+(define x (WordNode "department_of_biology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "academic_department%1:14:00::"))

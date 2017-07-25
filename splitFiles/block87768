@@ -1,0 +1,8 @@
+(define s (WordSenseNode "integrate%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "integrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_state%2:30:00::"))
+(InheritanceLink s (WordSenseNode "turn%2:30:04::"))
+(InheritanceLink (WordSenseNode "unify%2:30:00::") s)
+(InheritanceLink (WordSenseNode "unite%2:30:00::") s)
+(InheritanceLink (WordSenseNode "merge%2:30:00::") s)
+(InheritanceLink (WordSenseNode "lysogenize%2:30:00::") s)

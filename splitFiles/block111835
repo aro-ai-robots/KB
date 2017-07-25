@@ -1,0 +1,4 @@
+(define s (WordSenseNode "negative_charge%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "negative_charge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "charge%1:19:00::"))
+(InheritanceLink s (WordSenseNode "electric_charge%1:19:00::"))

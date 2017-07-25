@@ -1,0 +1,5 @@
+(define s (WordSenseNode "boundary_condition%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boundary_condition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:10:01::"))
+(InheritanceLink s (WordSenseNode "precondition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "stipulation%1:10:00::"))

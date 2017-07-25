@@ -1,0 +1,4 @@
+(define s (WordSenseNode "half_track%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "half_track")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tracked_vehicle%1:06:00::"))
+(InheritanceLink s (WordSenseNode "military_vehicle%1:06:00::"))

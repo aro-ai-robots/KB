@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quandary%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dilemma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perplexity%1:09:00::"))
+(InheritanceLink (WordSenseNode "double_bind%1:09:00::") s)
+(define x (WordNode "quandary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perplexity%1:09:00::"))
+(InheritanceLink (WordSenseNode "double_bind%1:09:00::") s)

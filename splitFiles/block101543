@@ -1,0 +1,7 @@
+(define s (WordSenseNode "major_depressive_episode%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "major_depressive_episode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "depressive_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "clinical_depression%1:26:00::"))
+(InheritanceLink s (WordSenseNode "depression%1:26:03::"))
+(InheritanceLink (WordSenseNode "involutional_depression%1:26:00::") s)
+(InheritanceLink (WordSenseNode "unipolar_depression%1:26:00::") s)

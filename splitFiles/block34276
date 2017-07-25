@@ -1,0 +1,6 @@
+(define s (WordSenseNode "combine%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "combine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contribute%2:40:00::"))
+(InheritanceLink s (WordSenseNode "give%2:40:08::"))
+(InheritanceLink s (WordSenseNode "chip_in%2:40:00::"))
+(InheritanceLink s (WordSenseNode "kick_in%2:40:00::"))

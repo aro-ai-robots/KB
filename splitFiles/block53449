@@ -1,0 +1,7 @@
+(define s (WordSenseNode "emigration%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "emigration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "migration%1:04:00::"))
+(define x (WordNode "out-migration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "migration%1:04:00::"))
+(define x (WordNode "expatriation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "migration%1:04:00::"))

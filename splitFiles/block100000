@@ -1,0 +1,8 @@
+(define s (WordSenseNode "lower_respiratory_tract%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lower_respiratory_tract")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "respiratory_tract%1:08:00::"))
+(InheritanceLink s (WordSenseNode "airway%1:08:00::"))
+(HolonymLink (WordSenseNode "lung%1:08:00::") s)
+(HolonymLink (WordSenseNode "bronchus%1:08:00::") s)
+(HolonymLink (WordSenseNode "bronchial_tube%1:08:00::") s)
+(HolonymLink (WordSenseNode "bronchiole%1:08:00::") s)

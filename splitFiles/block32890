@@ -1,0 +1,6 @@
+(define s (WordSenseNode "clutter%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clutter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radar_echo%1:10:00::"))
+(InheritanceLink s (WordSenseNode "noise%1:11:01::"))
+(InheritanceLink s (WordSenseNode "interference%1:11:00::"))
+(InheritanceLink s (WordSenseNode "disturbance%1:11:01::"))

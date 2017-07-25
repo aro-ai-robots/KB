@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wicket_gate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wicket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gate%1:06:00::"))
+(define x (WordNode "wicket_door")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gate%1:06:00::"))
+(define x (WordNode "wicket_gate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gate%1:06:00::"))

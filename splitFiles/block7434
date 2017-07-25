@@ -1,0 +1,7 @@
+(define s (WordSenseNode "antipruritic%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antipruritic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "local_anesthetic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "local_anaesthetic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "local%1:06:01::"))
+(InheritanceLink s (WordSenseNode "topical_anesthetic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "topical_anaesthetic%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bury%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bury")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "situate%2:35:00::"))
+(InheritanceLink s (WordSenseNode "fix%2:35:01::"))
+(InheritanceLink s (WordSenseNode "posit%2:35:00::"))
+(InheritanceLink s (WordSenseNode "deposit%2:35:01::"))

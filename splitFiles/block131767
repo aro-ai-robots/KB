@@ -1,0 +1,4 @@
+(define s (WordSenseNode "prorogation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prorogation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discontinuance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "discontinuation%1:04:00::"))

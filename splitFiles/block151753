@@ -1,0 +1,8 @@
+(define s (WordSenseNode "silkworm%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "silkworm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caterpillar%1:05:00::"))
+(HolonymLink s (WordSenseNode "Bombyx%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Bombyx%1:05:00::"))
+(HolonymLink (WordSenseNode "silk_gland%1:05:00::") s)
+(HolonymLink (WordSenseNode "serictery%1:05:00::") s)
+(HolonymLink (WordSenseNode "sericterium%1:05:00::") s)

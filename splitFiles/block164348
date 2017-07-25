@@ -1,0 +1,5 @@
+(define s (WordSenseNode "syllabication%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "syllabication")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "division%1:04:00::"))
+(define x (WordNode "syllabification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "division%1:04:00::"))

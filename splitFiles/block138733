@@ -1,0 +1,4 @@
+(define s (WordSenseNode "repatriation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "repatriation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:01::"))
+(InheritanceLink s (WordSenseNode "homecoming%1:04:00::"))

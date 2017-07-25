@@ -1,0 +1,4 @@
+(define s (WordSenseNode "groupthink%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "groupthink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decision_making%1:09:00::"))
+(InheritanceLink s (WordSenseNode "deciding%1:09:00::"))

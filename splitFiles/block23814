@@ -1,0 +1,4 @@
+(define s (WordSenseNode "calcium_bicarbonate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calcium_bicarbonate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bicarbonate%1:27:00::"))
+(InheritanceLink s (WordSenseNode "hydrogen_carbonate%1:27:00::"))

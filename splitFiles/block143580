@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sabbath%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Sabbath")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rest_day%1:28:00::"))
+(InheritanceLink s (WordSenseNode "day_of_rest%1:28:00::"))

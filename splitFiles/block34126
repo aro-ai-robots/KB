@@ -1,0 +1,7 @@
+(define s (WordSenseNode "colours%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colors")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flag%1:06:00::"))
+(InheritanceLink (WordSenseNode "ensign%1:06:01::") s)
+(define x (WordNode "colours")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flag%1:06:00::"))
+(InheritanceLink (WordSenseNode "ensign%1:06:01::") s)

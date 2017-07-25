@@ -1,0 +1,5 @@
+(define s (WordSenseNode "satyagraha%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Satyagraha")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passive_resistance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "nonviolent_resistance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "nonviolence%1:04:00::"))

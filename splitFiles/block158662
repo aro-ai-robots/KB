@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stall%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:00::"))
+(InheritanceLink s (WordSenseNode "halt%2:38:01::"))
+(define x (WordNode "conk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:00::"))
+(InheritanceLink s (WordSenseNode "halt%2:38:01::"))

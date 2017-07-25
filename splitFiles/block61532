@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fillip%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bonus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "positive_stimulus%1:09:00::"))
+(define x (WordNode "fillip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "positive_stimulus%1:09:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "display%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "display")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disclosure%1:10:00::"))
+(InheritanceLink s (WordSenseNode "revelation%1:10:02::"))
+(InheritanceLink s (WordSenseNode "revealing%1:10:00::"))
+(InheritanceLink (WordSenseNode "histrionics%1:10:01::") s)
+(InheritanceLink (WordSenseNode "production%1:10:01::") s)
+(InheritanceLink (WordSenseNode "sackcloth_and_ashes%1:10:00::") s)

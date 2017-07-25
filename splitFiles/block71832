@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_weigela%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Weigela")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "asterid_dicot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Caprifoliaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Caprifoliaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "honeysuckle_family%1:20:00::"))
+(HolonymLink (WordSenseNode "weigela%1:20:00::") s)
+(HolonymLink (WordSenseNode "Weigela_florida%1:20:00::") s)

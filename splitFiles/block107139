@@ -1,0 +1,7 @@
+(define s (WordSenseNode "miscellany%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "florilegium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthology%1:10:00::"))
+(define x (WordNode "garland")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthology%1:10:00::"))
+(define x (WordNode "miscellany")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthology%1:10:00::"))

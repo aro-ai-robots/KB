@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cynocephalus_variegatus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cynocephalus_variegatus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flying_lemur%1:05:00::"))
+(InheritanceLink s (WordSenseNode "flying_cat%1:05:02::"))
+(InheritanceLink s (WordSenseNode "colugo%1:05:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "tubal_pregnancy%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tubal_pregnancy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ectopic_pregnancy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "extrauterine_pregnancy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ectopic_gestation%1:26:00::"))
+(InheritanceLink s (WordSenseNode "extrauterine_gestation%1:26:00::"))
+(InheritanceLink s (WordSenseNode "eccyesis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "metacyesis%1:26:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "obligation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "obligation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "written_agreement%1:10:00::"))
+(InheritanceLink (WordSenseNode "debt%1:10:00::") s)

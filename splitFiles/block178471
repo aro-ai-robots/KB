@@ -1,0 +1,5 @@
+(define s (WordSenseNode "venetian_blind%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Venetian_blind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window_blind%1:06:00::"))
+(HolonymLink (WordSenseNode "slat%1:06:00::") s)
+(HolonymLink (WordSenseNode "spline%1:06:00::") s)

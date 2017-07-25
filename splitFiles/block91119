@@ -1,0 +1,5 @@
+(define s (WordSenseNode "joint_return%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "joint_return")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tax_return%1:10:00::"))
+(InheritanceLink s (WordSenseNode "income_tax_return%1:10:00::"))
+(InheritanceLink s (WordSenseNode "return%1:10:01::"))

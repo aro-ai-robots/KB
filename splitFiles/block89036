@@ -1,0 +1,4 @@
+(define s (WordSenseNode "iron_disulfide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "iron_disulfide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sulfide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "sulphide%1:27:00::"))

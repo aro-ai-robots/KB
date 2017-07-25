@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nonbeing%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nonbeing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))
+(InheritanceLink (WordSenseNode "nonexistence%1:26:00::") s)
+(InheritanceLink (WordSenseNode "nonentity%1:26:00::") s)

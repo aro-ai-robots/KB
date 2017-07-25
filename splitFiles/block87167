@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ink%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fill%2:30:01::"))
+(InheritanceLink s (WordSenseNode "fill_up%2:30:00::"))
+(InheritanceLink s (WordSenseNode "make_full%2:30:00::"))
+(InheritanceLink (WordSenseNode "red-ink%2:30:00::") s)

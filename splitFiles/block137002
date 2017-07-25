@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rectification%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rectification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refining%1:22:00::"))
+(InheritanceLink s (WordSenseNode "refinement%1:22:00::"))
+(InheritanceLink s (WordSenseNode "purification%1:22:00::"))

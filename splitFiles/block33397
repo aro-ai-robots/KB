@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coefficient_of_mutual_induction%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coefficient_of_mutual_induction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))
+(define x (WordNode "mutual_inductance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))

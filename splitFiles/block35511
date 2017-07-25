@@ -1,0 +1,4 @@
+(define s (WordSenseNode "computer_monitor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "computer_monitor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monitor%1:06:02::"))
+(InheritanceLink s (WordSenseNode "monitoring_device%1:06:00::"))

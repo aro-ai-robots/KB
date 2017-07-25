@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nurse's_aide%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nursing_aide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aide%1:18:00::"))
+(InheritanceLink s (WordSenseNode "auxiliary%1:18:00::"))
+(define x (WordNode "nurse's_aide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aide%1:18:00::"))
+(InheritanceLink s (WordSenseNode "auxiliary%1:18:00::"))

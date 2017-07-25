@@ -1,0 +1,5 @@
+(define s (WordSenseNode "crab-eating_seal%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crabeater_seal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:05:00::"))
+(define x (WordNode "crab-eating_seal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:05:00::"))

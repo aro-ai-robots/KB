@@ -1,0 +1,7 @@
+(define s (WordSenseNode "urgency%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "urgency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "importance%1:07:00::"))
+(InheritanceLink (WordSenseNode "edge%1:07:01::") s)
+(InheritanceLink (WordSenseNode "sharpness%1:07:04::") s)
+(InheritanceLink (WordSenseNode "imperativeness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "instancy%1:07:00::") s)

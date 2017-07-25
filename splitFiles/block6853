@@ -1,0 +1,5 @@
+(define s (WordSenseNode "annuity_in_advance%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "annuity_in_advance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "annuity%1:21:00::"))
+(InheritanceLink s (WordSenseNode "rente%1:21:01::"))
+(InheritanceLink (WordSenseNode "rent%1:21:00::") s)

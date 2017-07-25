@@ -1,0 +1,7 @@
+(define s (WordSenseNode "differential_calculus%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "differential_calculus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "calculus%1:09:00::"))
+(InheritanceLink s (WordSenseNode "infinitesimal_calculus%1:09:00::"))
+(define x (WordNode "method_of_fluxions")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "calculus%1:09:00::"))
+(InheritanceLink s (WordSenseNode "infinitesimal_calculus%1:09:00::"))

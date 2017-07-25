@@ -1,0 +1,8 @@
+(define s (WordSenseNode "elected_official%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elected_official")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "official%1:18:01::"))
+(InheritanceLink s (WordSenseNode "functionary%1:18:00::"))
+(InheritanceLink (WordSenseNode "lame_duck%1:18:00::") s)
+(InheritanceLink (WordSenseNode "lieutenant_governor%1:18:00::") s)
+(InheritanceLink (WordSenseNode "selectman%1:18:00::") s)
+(InheritanceLink (WordSenseNode "selectwoman%1:18:00::") s)

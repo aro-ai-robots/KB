@@ -1,0 +1,7 @@
+(define s (WordSenseNode "remise%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coach_house")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "outbuilding%1:06:00::"))
+(define x (WordNode "carriage_house")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "outbuilding%1:06:00::"))
+(define x (WordNode "remise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "outbuilding%1:06:00::"))

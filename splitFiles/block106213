@@ -1,0 +1,6 @@
+(define s (WordSenseNode "midafternoon%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "midafternoon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:02::"))
+(InheritanceLink s (WordSenseNode "daytime%1:28:00::"))
+(InheritanceLink s (WordSenseNode "daylight%1:28:00::"))
+(HolonymLink s (WordSenseNode "afternoon%1:28:00::"))

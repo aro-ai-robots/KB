@@ -1,0 +1,7 @@
+(define s (WordSenseNode "multiple_regression%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "multiple_regression")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "multivariate_analysis%1:09:00::"))
+(InheritanceLink (WordSenseNode "multicollinearity%1:09:00::") s)
+(define x (WordNode "multiple_correlation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "multivariate_analysis%1:09:00::"))
+(InheritanceLink (WordSenseNode "multicollinearity%1:09:00::") s)

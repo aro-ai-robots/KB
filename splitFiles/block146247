@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scientific_knowledge%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scientific_knowledge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knowledge_domain%1:09:00::"))
+(InheritanceLink s (WordSenseNode "knowledge_base%1:09:00::"))
+(InheritanceLink s (WordSenseNode "domain%1:09:00::"))
+(HolonymLink (WordSenseNode "science%1:09:00::") s)
+(HolonymLink (WordSenseNode "scientific_discipline%1:09:00::") s)

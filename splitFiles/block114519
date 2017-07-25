@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nullify%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "invalidate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "negate%2:31:00::"))
+(InheritanceLink s (WordSenseNode "contradict%2:31:00::"))
+(define x (WordNode "nullify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "negate%2:31:00::"))
+(InheritanceLink s (WordSenseNode "contradict%2:31:00::"))

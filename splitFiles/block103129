@@ -1,0 +1,5 @@
+(define s (WordSenseNode "marqueterie%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "marquetry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inlay%1:06:00::"))
+(define x (WordNode "marqueterie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inlay%1:06:00::"))

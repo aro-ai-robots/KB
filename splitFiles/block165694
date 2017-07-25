@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tampon%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tampon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plug%2:35:01::"))
+(InheritanceLink s (WordSenseNode "stop_up%2:35:00::"))
+(InheritanceLink s (WordSenseNode "secure%2:35:02::"))

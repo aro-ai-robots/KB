@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gesticulation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gesticulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gesture%1:10:00::"))
+(InheritanceLink s (WordSenseNode "motion%1:10:00::"))

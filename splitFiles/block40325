@@ -1,0 +1,5 @@
+(define s (WordSenseNode "crossroads%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crossroads")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "overlap%1:09:00::"))
+(InheritanceLink s (WordSenseNode "convergence%1:09:01::"))
+(InheritanceLink s (WordSenseNode "intersection%1:09:01::"))

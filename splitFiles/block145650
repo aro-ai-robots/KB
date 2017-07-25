@@ -1,0 +1,4 @@
+(define s (WordSenseNode "scale_value%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scale_value")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "value%1:09:00::"))
+(InheritanceLink (WordSenseNode "average%1:09:01::") s)

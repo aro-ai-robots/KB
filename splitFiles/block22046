@@ -1,0 +1,4 @@
+(define s (WordSenseNode "budding%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "budding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "asexual_reproduction%1:22:00::"))
+(InheritanceLink s (WordSenseNode "agamogenesis%1:22:00::"))

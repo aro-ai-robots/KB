@@ -1,0 +1,8 @@
+(define s (WordSenseNode "woolly_sunflower%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "woolly_sunflower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wildflower%1:20:00::"))
+(InheritanceLink s (WordSenseNode "wild_flower%1:20:00::"))
+(InheritanceLink (WordSenseNode "golden_yarrow%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Eriophyllum_lanatum%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Eriophyllum%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Eriophyllum%1:20:00::"))

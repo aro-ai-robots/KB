@@ -1,0 +1,8 @@
+(define s (WordSenseNode "college%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "college")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "educational_institution%1:14:00::"))
+(InheritanceLink (WordSenseNode "business_college%1:14:00::") s)
+(InheritanceLink (WordSenseNode "junior_college%1:14:00::") s)
+(InheritanceLink (WordSenseNode "training_college%1:14:00::") s)
+(HolonymLink s (WordSenseNode "university%1:14:01::"))
+(HolonymLink (WordSenseNode "college%1:14:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "string%1:06:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "string")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collection%1:14:00::"))
+(InheritanceLink s (WordSenseNode "aggregation%1:14:00::"))
+(InheritanceLink s (WordSenseNode "accumulation%1:14:00::"))
+(InheritanceLink s (WordSenseNode "assemblage%1:14:01::"))
+(InheritanceLink (WordSenseNode "beads%1:06:00::") s)
+(InheritanceLink (WordSenseNode "string_of_beads%1:06:00::") s)

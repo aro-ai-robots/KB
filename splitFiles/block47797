@@ -1,0 +1,5 @@
+(define s (WordSenseNode "display_adapter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "display_adapter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_device%1:06:00::"))
+(define x (WordNode "display_adaptor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_device%1:06:00::"))

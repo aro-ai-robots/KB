@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hang%2:35:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hang")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "overhang%2:42:00::") s)
+(InheritanceLink (WordSenseNode "beetle%2:42:00::") s)
+(InheritanceLink (WordSenseNode "dangle%2:42:00::") s)
+(InheritanceLink (WordSenseNode "swing%2:42:00::") s)
+(InheritanceLink (WordSenseNode "drop%2:42:04::") s)

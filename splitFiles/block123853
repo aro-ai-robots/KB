@@ -1,0 +1,5 @@
+(define s (WordSenseNode "phase%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appearance%1:07:00::"))
+(InheritanceLink s (WordSenseNode "visual_aspect%1:07:00::"))
+(InheritanceLink (WordSenseNode "phase_of_the_moon%1:28:00::") s)

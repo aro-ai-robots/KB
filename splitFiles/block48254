@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dive_brake%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "airbrake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "restraint%1:06:00::"))
+(InheritanceLink s (WordSenseNode "constraint%1:06:00::"))
+(define x (WordNode "dive_brake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "restraint%1:06:00::"))
+(InheritanceLink s (WordSenseNode "constraint%1:06:00::"))

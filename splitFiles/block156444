@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spearfish%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spearfish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "billfish%1:05:01::"))
+(HolonymLink s (WordSenseNode "Tetrapturus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Tetrapturus%1:05:00::"))

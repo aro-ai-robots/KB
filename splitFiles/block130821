@@ -1,0 +1,7 @@
+(define s (WordSenseNode "priority_processing%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "priority_processing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "data_processing%1:22:00::"))
+(InheritanceLink (WordSenseNode "background_processing%1:22:00::") s)
+(InheritanceLink (WordSenseNode "backgrounding%1:22:00::") s)
+(InheritanceLink (WordSenseNode "foreground_processing%1:22:00::") s)
+(InheritanceLink (WordSenseNode "foregrounding%1:22:00::") s)

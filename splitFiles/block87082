@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inhibitor%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inhibitor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:01::"))
+(InheritanceLink (WordSenseNode "angiotensin_II_inhibitor%1:06:00::") s)
+(InheritanceLink (WordSenseNode "antioxidant%1:27:00::") s)
+(InheritanceLink (WordSenseNode "anticatalyst%1:27:00::") s)
+(InheritanceLink (WordSenseNode "moderator%1:27:00::") s)

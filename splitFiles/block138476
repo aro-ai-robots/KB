@@ -1,0 +1,8 @@
+(define s (WordSenseNode "remise%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "remise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stab%1:04:00::"))
+(InheritanceLink s (WordSenseNode "thrust%1:04:01::"))
+(InheritanceLink s (WordSenseNode "knife_thrust%1:04:00::"))
+(HolonymLink s (WordSenseNode "lunge%1:04:01::"))
+(HolonymLink s (WordSenseNode "straight_thrust%1:04:00::"))
+(HolonymLink s (WordSenseNode "passado%1:04:00::"))

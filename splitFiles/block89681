@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jabiru%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jabiru")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stork%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Jabiru%1:05:00::"))
+(define x (WordNode "Jabiru_mycteria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stork%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Jabiru%1:05:00::"))

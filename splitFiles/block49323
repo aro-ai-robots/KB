@@ -1,0 +1,6 @@
+(define s (WordSenseNode "double_reed%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "double_reed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reed%1:06:01::"))
+(InheritanceLink s (WordSenseNode "vibrating_reed%1:06:00::"))
+(HolonymLink s (WordSenseNode "double-reed_instrument%1:06:00::"))
+(HolonymLink s (WordSenseNode "double_reed%1:06:01::"))

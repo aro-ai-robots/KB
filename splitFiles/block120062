@@ -1,0 +1,7 @@
+(define s (WordSenseNode "panicum_texanum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "goose_grass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "panic_grass%1:20:00::"))
+(define x (WordNode "Texas_millet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "panic_grass%1:20:00::"))
+(define x (WordNode "Panicum_Texanum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "panic_grass%1:20:00::"))

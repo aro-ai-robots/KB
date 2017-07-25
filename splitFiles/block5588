@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ammonoid%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ammonite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fossil%1:17:00::"))
+(define x (WordNode "ammonoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fossil%1:17:00::"))

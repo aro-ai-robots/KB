@@ -1,0 +1,8 @@
+(define s (WordSenseNode "measure%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "measure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(InheritanceLink (WordSenseNode "stand%2:42:01::") s)
+(InheritanceLink (WordSenseNode "weigh%2:42:01::") s)
+(InheritanceLink (WordSenseNode "last%2:42:00::") s)
+(InheritanceLink (WordSenseNode "endure%2:42:06::") s)
+(InheritanceLink (WordSenseNode "scale%2:42:00::") s)

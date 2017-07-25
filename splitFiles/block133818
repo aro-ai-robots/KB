@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pyrometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pyrometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thermometer%1:06:00::"))
+(InheritanceLink (WordSenseNode "optical_pyrometer%1:06:00::") s)
+(InheritanceLink (WordSenseNode "pyroscope%1:06:00::") s)
+(InheritanceLink (WordSenseNode "pyrometric_cone%1:06:00::") s)
+(InheritanceLink (WordSenseNode "radiation_pyrometer%1:06:00::") s)
+(InheritanceLink (WordSenseNode "resistance_pyrometer%1:06:00::") s)

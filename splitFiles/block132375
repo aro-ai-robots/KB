@@ -1,0 +1,7 @@
+(define s (WordSenseNode "psocid%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "psocid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "psocopterous_insect%1:05:00::"))
+(InheritanceLink (WordSenseNode "bark-louse%1:05:00::") s)
+(InheritanceLink (WordSenseNode "bark_louse%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Psocidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Psocidae%1:05:00::"))

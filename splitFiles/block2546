@@ -1,0 +1,5 @@
+(define s (WordSenseNode "advertising_agency%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "advertising_agency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agency%1:14:01::"))
+(define x (WordNode "ad_agency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agency%1:14:01::"))

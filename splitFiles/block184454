@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wood_anemone%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wood_anemone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anemone%1:20:00::"))
+(InheritanceLink s (WordSenseNode "windflower%1:20:00::"))
+(define x (WordNode "Anemone_nemorosa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anemone%1:20:00::"))
+(InheritanceLink s (WordSenseNode "windflower%1:20:00::"))

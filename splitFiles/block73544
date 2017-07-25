@@ -1,0 +1,5 @@
+(define s (WordSenseNode "glycogenesis%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glycogenesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conversion%1:11:00::"))
+(InheritanceLink s (WordSenseNode "transition%1:11:00::"))
+(InheritanceLink s (WordSenseNode "changeover%1:11:00::"))

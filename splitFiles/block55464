@@ -1,0 +1,5 @@
+(define s (WordSenseNode "escape%1:04:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "escape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "means%1:04:00::"))
+(InheritanceLink s (WordSenseNode "agency%1:04:00::"))
+(InheritanceLink s (WordSenseNode "way%1:04:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "endomorphy%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "endomorphy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_type%1:07:00::"))
+(InheritanceLink s (WordSenseNode "somatotype%1:07:00::"))
+(define x (WordNode "pyknic_type")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_type%1:07:00::"))
+(InheritanceLink s (WordSenseNode "somatotype%1:07:00::"))

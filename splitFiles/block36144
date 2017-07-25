@@ -1,0 +1,5 @@
+(define s (WordSenseNode "confront%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "confront")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "front%2:42:00::"))
+(InheritanceLink s (WordSenseNode "look%2:42:00::"))
+(InheritanceLink s (WordSenseNode "face%2:42:00::"))

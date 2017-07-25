@@ -1,0 +1,6 @@
+(define s (WordSenseNode "free-reed%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "free-reed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beating-reed_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reed_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reed%1:06:00::"))
+(HolonymLink s (WordSenseNode "free-reed_instrument%1:06:00::"))

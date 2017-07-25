@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drop_zone%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drop_zone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zone%1:15:01::"))
+(define x (WordNode "dropping_zone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zone%1:15:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "straight_arch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flat_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arch%1:06:00::"))
+(define x (WordNode "straight_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arch%1:06:00::"))

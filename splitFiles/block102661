@@ -1,0 +1,6 @@
+(define s (WordSenseNode "maquis%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Maquis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "underground%1:14:00::"))
+(InheritanceLink s (WordSenseNode "resistance%1:14:00::"))
+(HolonymLink (WordSenseNode "Maquis%1:18:00::") s)
+(HolonymLink (WordSenseNode "Maquisard%1:18:00::") s)

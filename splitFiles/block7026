@@ -1,0 +1,6 @@
+(define s (WordSenseNode "antagonist%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antagonist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drug%1:06:00::"))
+(InheritanceLink (WordSenseNode "estrogen_antagonist%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tamoxifen%1:06:00::") s)
+(InheritanceLink (WordSenseNode "narcotic_antagonist%1:06:00::") s)

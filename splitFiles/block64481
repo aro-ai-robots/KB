@@ -1,0 +1,5 @@
+(define s (WordSenseNode "forked_lightning%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "forked_lightning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lightning%1:19:00::"))
+(define x (WordNode "chain_lightning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lightning%1:19:00::"))

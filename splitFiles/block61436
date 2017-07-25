@@ -1,0 +1,5 @@
+(define s (WordSenseNode "file_system%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "file_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification_system%1:09:00::"))
+(define x (WordNode "filing_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification_system%1:09:00::"))

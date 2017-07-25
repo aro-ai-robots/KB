@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pock%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pustule%1:26:00::"))
+(HolonymLink s (WordSenseNode "smallpox%1:26:00::"))
+(HolonymLink s (WordSenseNode "variola%1:26:00::"))
+(HolonymLink s (WordSenseNode "variola_major%1:26:00::"))

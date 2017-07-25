@@ -1,0 +1,7 @@
+(define s (WordSenseNode "go_over%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fall_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "break_down%2:29:00::"))
+(InheritanceLink s (WordSenseNode "collapse%2:29:00::"))
+(define x (WordNode "go_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "break_down%2:29:00::"))
+(InheritanceLink s (WordSenseNode "collapse%2:29:00::"))

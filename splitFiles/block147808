@@ -1,0 +1,6 @@
+(define s (WordSenseNode "see_eye_to_eye%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "see_eye_to_eye")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agree%2:32:00::"))
+(InheritanceLink s (WordSenseNode "hold%2:32:15::"))
+(InheritanceLink s (WordSenseNode "concur%2:32:00::"))
+(InheritanceLink s (WordSenseNode "concord%2:32:00::"))

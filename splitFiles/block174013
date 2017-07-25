@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tv_audience%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "viewing_audience")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "audience%1:14:01::"))
+(define x (WordNode "TV_audience")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "audience%1:14:01::"))
+(define x (WordNode "viewers")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "audience%1:14:01::"))

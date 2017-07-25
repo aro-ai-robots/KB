@@ -1,0 +1,5 @@
+(define s (WordSenseNode "withering%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "atrophy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weakening%1:11:00::"))
+(define x (WordNode "withering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weakening%1:11:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sloe_gin%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sloe_gin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gin%1:13:00::"))
+(HolonymLink (WordSenseNode "sloe%1:13:00::") s)

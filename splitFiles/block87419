@@ -1,0 +1,6 @@
+(define s (WordSenseNode "inset%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inset")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "picture%1:06:00::"))
+(InheritanceLink s (WordSenseNode "image%1:06:00::"))
+(InheritanceLink s (WordSenseNode "icon%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ikon%1:06:00::"))

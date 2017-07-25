@@ -1,0 +1,6 @@
+(define s (WordSenseNode "roller%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wheel%1:06:00::"))
+(InheritanceLink (WordSenseNode "caster%1:06:00::") s)
+(InheritanceLink (WordSenseNode "castor%1:06:01::") s)
+(HolonymLink s (WordSenseNode "roller_skate%1:06:00::"))

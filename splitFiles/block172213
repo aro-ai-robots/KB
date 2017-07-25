@@ -1,0 +1,5 @@
+(define s (WordSenseNode "treponema%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "treponema")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spirochete%1:05:00::"))
+(InheritanceLink s (WordSenseNode "spirochaete%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Treponema%1:05:00::"))

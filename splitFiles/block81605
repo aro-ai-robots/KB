@@ -1,0 +1,7 @@
+(define s (WordSenseNode "home_page%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "home_page")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "web_page%1:10:00::"))
+(InheritanceLink s (WordSenseNode "webpage%1:10:00::"))
+(define x (WordNode "homepage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "web_page%1:10:00::"))
+(InheritanceLink s (WordSenseNode "webpage%1:10:00::"))

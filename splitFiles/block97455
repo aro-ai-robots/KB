@@ -1,0 +1,4 @@
+(define s (WordSenseNode "light_time%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "light_time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distance%1:07:01::"))
+(InheritanceLink s (WordSenseNode "length%1:07:03::"))

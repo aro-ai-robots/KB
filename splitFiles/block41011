@@ -1,0 +1,7 @@
+(define s (WordSenseNode "culture%1:09:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "culture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attitude%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mental_attitude%1:09:00::"))
+(InheritanceLink (WordSenseNode "cyberculture%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Kalashnikov_culture%1:09:00::") s)
+(InheritanceLink (WordSenseNode "mosaic_culture%1:09:00::") s)

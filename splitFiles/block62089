@@ -1,0 +1,7 @@
+(define s (WordSenseNode "first_blush%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "first_blush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "impression%1:09:00::"))
+(InheritanceLink s (WordSenseNode "feeling%1:09:03::"))
+(InheritanceLink s (WordSenseNode "belief%1:09:01::"))
+(InheritanceLink s (WordSenseNode "notion%1:09:02::"))
+(InheritanceLink s (WordSenseNode "opinion%1:09:02::"))

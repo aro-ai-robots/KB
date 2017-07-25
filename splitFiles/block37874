@@ -1,0 +1,6 @@
+(define s (WordSenseNode "corinthian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Corinthian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Greek%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Hellene%1:18:00::"))
+(HolonymLink s (WordSenseNode "Corinth%1:15:00::"))
+(HolonymLink s (WordSenseNode "Korinthos%1:15:00::"))

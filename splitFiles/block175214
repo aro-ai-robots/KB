@@ -1,0 +1,7 @@
+(define s (WordSenseNode "underground%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "underground")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "revolutionary_group%1:14:00::"))
+(InheritanceLink (WordSenseNode "Maquis%1:14:00::") s)
+(define x (WordNode "resistance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "revolutionary_group%1:14:00::"))
+(InheritanceLink (WordSenseNode "Maquis%1:14:00::") s)

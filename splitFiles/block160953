@@ -1,0 +1,6 @@
+(define s (WordSenseNode "streptolysin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "streptolysin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hemolysin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "haemolysin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "erythrolysin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "erythrocytolysin%1:27:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "spondylitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spondylitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflammation%1:26:00::"))
+(InheritanceLink s (WordSenseNode "redness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "rubor%1:26:00::"))
+(InheritanceLink (WordSenseNode "ankylosing_spondylitis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "Marie-Strumpell_disease%1:26:00::") s)
+(InheritanceLink (WordSenseNode "rheumatoid_spondylitis%1:26:00::") s)

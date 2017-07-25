@@ -1,0 +1,4 @@
+(define s (WordSenseNode "national_debt_ceiling%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "national_debt_ceiling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "debt_limit%1:21:00::"))
+(InheritanceLink s (WordSenseNode "debt_ceiling%1:21:00::"))

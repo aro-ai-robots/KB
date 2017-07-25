@@ -1,0 +1,6 @@
+(define s (WordSenseNode "onrush%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "onrush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rush%1:11:00::"))
+(InheritanceLink s (WordSenseNode "spate%1:11:02::"))
+(InheritanceLink s (WordSenseNode "surge%1:11:00::"))
+(InheritanceLink s (WordSenseNode "upsurge%1:11:00::"))

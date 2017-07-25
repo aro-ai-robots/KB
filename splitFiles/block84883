@@ -1,0 +1,7 @@
+(define s (WordSenseNode "immobility%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "immobility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(InheritanceLink (WordSenseNode "immotility%1:07:00::") s)
+(InheritanceLink (WordSenseNode "inertness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "immovability%1:07:00::") s)
+(InheritanceLink (WordSenseNode "immovableness%1:07:00::") s)

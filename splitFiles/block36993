@@ -1,0 +1,7 @@
+(define s (WordSenseNode "contingent_probability%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conditional_probability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "probability%1:07:01::"))
+(InheritanceLink s (WordSenseNode "chance%1:07:00::"))
+(define x (WordNode "contingent_probability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "probability%1:07:01::"))
+(InheritanceLink s (WordSenseNode "chance%1:07:00::"))

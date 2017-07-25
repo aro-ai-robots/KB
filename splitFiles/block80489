@@ -1,0 +1,6 @@
+(define s (WordSenseNode "high-angle_gun%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "high-angle_gun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cannon%1:06:00::"))
+(InheritanceLink (WordSenseNode "mortar%1:06:00::") s)
+(InheritanceLink (WordSenseNode "howitzer%1:06:00::") s)
+(InheritanceLink (WordSenseNode "trench_mortar%1:06:00::") s)

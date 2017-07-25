@@ -1,0 +1,6 @@
+(define s (WordSenseNode "nystagmus%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nystagmus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eye_movement%1:04:00::"))
+(InheritanceLink (WordSenseNode "physiological_nystagmus%1:04:00::") s)
+(InheritanceLink (WordSenseNode "rotational_nystagmus%1:04:00::") s)
+(InheritanceLink (WordSenseNode "post-rotational_nystagmus%1:04:00::") s)

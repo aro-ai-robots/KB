@@ -1,0 +1,8 @@
+(define s (WordSenseNode "testimony%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "testimony")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evidence%1:10:00::"))
+(InheritanceLink (WordSenseNode "witness%1:10:00::") s)
+(InheritanceLink (WordSenseNode "declaration%1:10:02::") s)
+(InheritanceLink (WordSenseNode "attestation%1:10:00::") s)
+(InheritanceLink (WordSenseNode "affidavit%1:10:00::") s)
+(InheritanceLink (WordSenseNode "subornation%1:10:01::") s)

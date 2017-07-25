@@ -1,0 +1,7 @@
+(define s (WordSenseNode "panga%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "machete")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knife%1:06:01::"))
+(define x (WordNode "matchet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knife%1:06:01::"))
+(define x (WordNode "panga")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knife%1:06:01::"))

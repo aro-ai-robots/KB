@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ground_bass%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ground_bass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bass%1:10:01::"))
+(InheritanceLink s (WordSenseNode "bass_part%1:10:00::"))
+(InheritanceLink s (WordSenseNode "ostinato%1:10:00::"))

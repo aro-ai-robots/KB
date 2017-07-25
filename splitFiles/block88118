@@ -1,0 +1,5 @@
+(define s (WordSenseNode "international%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "International")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "socialism%1:14:00::"))
+(InheritanceLink s (WordSenseNode "socialist_economy%1:14:00::"))
+(HolonymLink (WordSenseNode "internationalist%1:18:01::") s)

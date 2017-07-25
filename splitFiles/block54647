@@ -1,0 +1,5 @@
+(define s (WordSenseNode "eolithic_age%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Eolithic_Age")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Stone_Age%1:28:00::"))
+(define x (WordNode "Eolithic")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Stone_Age%1:28:00::"))

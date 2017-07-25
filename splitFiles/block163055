@@ -1,0 +1,8 @@
+(define s (WordSenseNode "superior_colliculus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "superior_colliculus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "center%1:08:00::"))
+(InheritanceLink s (WordSenseNode "centre%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nerve_center%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nerve_centre%1:08:00::"))
+(HolonymLink s (WordSenseNode "midbrain%1:08:00::"))
+(HolonymLink s (WordSenseNode "mesencephalon%1:08:00::"))

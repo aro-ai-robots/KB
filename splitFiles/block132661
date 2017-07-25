@@ -1,0 +1,8 @@
+(define s (WordSenseNode "public_transit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "public_transit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transportation_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "transportation%1:06:00::"))
+(InheritanceLink s (WordSenseNode "transit%1:06:01::"))
+(InheritanceLink (WordSenseNode "rapid_transit%1:06:00::") s)
+(InheritanceLink (WordSenseNode "mass_rapid_transit%1:06:00::") s)
+(HolonymLink (WordSenseNode "transit_line%1:06:00::") s)

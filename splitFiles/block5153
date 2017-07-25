@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ambidexterity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ambidexterity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "handedness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "laterality%1:07:01::"))
+(define x (WordNode "ambidextrousness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "handedness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "laterality%1:07:01::"))

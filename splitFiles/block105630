@@ -1,0 +1,4 @@
+(define s (WordSenseNode "metallic_bond%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metallic_bond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_bond%1:19:00::"))
+(InheritanceLink s (WordSenseNode "bond%1:19:00::"))

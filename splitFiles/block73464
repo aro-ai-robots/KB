@@ -1,0 +1,8 @@
+(define s (WordSenseNode "glucosamine%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glucosamine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amino%1:27:00::"))
+(InheritanceLink s (WordSenseNode "amino_group%1:27:00::"))
+(InheritanceLink s (WordSenseNode "glucose%1:27:00::"))
+(HolonymLink s (WordSenseNode "polysaccharide%1:27:00::"))
+(HolonymLink s (WordSenseNode "polyose%1:27:00::"))
+(HolonymLink s (WordSenseNode "chitin%1:27:00::"))

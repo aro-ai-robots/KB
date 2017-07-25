@@ -1,0 +1,5 @@
+(define s (WordSenseNode "front%1:15:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "presence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proximity%1:15:00::"))
+(define x (WordNode "front")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proximity%1:15:00::"))

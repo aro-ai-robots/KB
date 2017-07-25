@@ -1,0 +1,5 @@
+(define s (WordSenseNode "running_back%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "running_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "back%1:18:00::"))
+(InheritanceLink (WordSenseNode "fullback%1:18:00::") s)
+(InheritanceLink (WordSenseNode "halfback%1:18:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "shirttail%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shirttail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appendix%1:10:00::"))
+(HolonymLink s (WordSenseNode "news_article%1:10:00::"))
+(HolonymLink s (WordSenseNode "news_story%1:10:00::"))
+(HolonymLink s (WordSenseNode "newspaper_article%1:10:00::"))

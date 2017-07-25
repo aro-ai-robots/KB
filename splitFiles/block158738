@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stand%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bandstand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "platform%1:06:00::"))
+(define x (WordNode "outdoor_stage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "platform%1:06:00::"))
+(define x (WordNode "stand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "platform%1:06:00::"))

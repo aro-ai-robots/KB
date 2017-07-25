@@ -1,0 +1,8 @@
+(define s (WordSenseNode "time%1:28:06::")) (PartOfSpeechLink s noun)
+(define x (WordNode "time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "moment%1:28:00::"))
+(InheritanceLink s (WordSenseNode "minute%1:28:02::"))
+(InheritanceLink s (WordSenseNode "second%1:28:02::"))
+(InheritanceLink s (WordSenseNode "instant%1:28:00::"))
+(InheritanceLink (WordSenseNode "high_time%1:28:00::") s)
+(InheritanceLink (WordSenseNode "occasion%1:28:00::") s)

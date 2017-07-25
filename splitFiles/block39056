@@ -1,0 +1,8 @@
+(define s (WordSenseNode "cover-up%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cover-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concealment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "concealing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "hiding%1:04:00::"))
+(InheritanceLink (WordSenseNode "blue_wall_of_silence%1:04:00::") s)
+(InheritanceLink (WordSenseNode "blue_wall%1:04:00::") s)
+(InheritanceLink (WordSenseNode "wall_of_silence%1:04:00::") s)

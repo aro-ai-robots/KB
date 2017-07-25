@@ -1,0 +1,4 @@
+(define s (WordSenseNode "surcharge%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "surcharge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "charge%1:21:02::"))
+(InheritanceLink (WordSenseNode "single_supplement%1:21:00::") s)

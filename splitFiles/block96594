@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lepton%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lepton")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Greek_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "drachma%1:23:00::"))
+(HolonymLink s (WordSenseNode "Greek_drachma%1:23:00::"))

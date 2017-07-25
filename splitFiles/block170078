@@ -1,0 +1,6 @@
+(define s (WordSenseNode "toggle%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toggle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "instruction%1:10:02::"))
+(InheritanceLink s (WordSenseNode "command%1:10:01::"))
+(InheritanceLink s (WordSenseNode "statement%1:10:03::"))
+(InheritanceLink s (WordSenseNode "program_line%1:10:00::"))

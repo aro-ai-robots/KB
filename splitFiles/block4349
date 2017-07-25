@@ -1,0 +1,7 @@
+(define s (WordSenseNode "alkaline-earth_metal%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alkaline_earth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metallic_element%1:27:00::"))
+(InheritanceLink s (WordSenseNode "metal%1:27:00::"))
+(define x (WordNode "alkaline-earth_metal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metallic_element%1:27:00::"))
+(InheritanceLink s (WordSenseNode "metal%1:27:00::"))

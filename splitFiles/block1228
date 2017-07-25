@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ace%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "playing_card%1:06:00::"))
+(InheritanceLink (WordSenseNode "ace_of_clubs%1:06:00::") s)
+(InheritanceLink (WordSenseNode "ace_of_diamonds%1:06:00::") s)
+(InheritanceLink (WordSenseNode "ace_of_hearts%1:06:00::") s)
+(InheritanceLink (WordSenseNode "ace_of_spades%1:06:00::") s)

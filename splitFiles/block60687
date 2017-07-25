@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fencing_material%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fencing_material")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "building_material%1:27:00::"))
+(define x (WordNode "fencing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "building_material%1:27:00::"))

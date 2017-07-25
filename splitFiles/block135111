@@ -1,0 +1,7 @@
+(define s (WordSenseNode "raffia%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "raffia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fiber%1:27:00::"))
+(InheritanceLink s (WordSenseNode "fibre%1:27:00::"))
+(HolonymLink s (WordSenseNode "raffia_palm%1:20:00::"))
+(HolonymLink s (WordSenseNode "Raffia_farinifera%1:20:00::"))
+(HolonymLink s (WordSenseNode "Raffia_ruffia%1:20:00::"))

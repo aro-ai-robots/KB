@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cross%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cross")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intersect%2:38:00::"))
+(InheritanceLink s (WordSenseNode "cross%2:38:03::"))
+(InheritanceLink (WordSenseNode "decussate%2:38:01::") s)

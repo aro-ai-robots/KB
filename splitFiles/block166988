@@ -1,0 +1,6 @@
+(define s (WordSenseNode "temporal_gyrus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "temporal_gyrus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gyrus%1:08:00::"))
+(InheritanceLink s (WordSenseNode "convolution%1:08:00::"))
+(HolonymLink s (WordSenseNode "temporal_lobe%1:08:00::"))
+(HolonymLink s (WordSenseNode "temporal_ccortex%1:08:00::"))

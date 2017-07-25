@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sanskrit_literature%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Sanskrit_literature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literature%1:10:00::"))
+(InheritanceLink (WordSenseNode "Hastinapura%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Purana%1:10:00::") s)
+(InheritanceLink (WordSenseNode "tantra%1:10:00::") s)
+(InheritanceLink (WordSenseNode "sutra%1:10:00::") s)

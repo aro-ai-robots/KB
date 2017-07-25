@@ -1,0 +1,5 @@
+(define s (WordSenseNode "crocodylus_porosus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Asian_crocodile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crocodile%1:05:00::"))
+(define x (WordNode "Crocodylus_porosus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crocodile%1:05:00::"))

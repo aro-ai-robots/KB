@@ -1,0 +1,5 @@
+(define s (WordSenseNode "general_agent%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "universal_agent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:18:02::"))
+(define x (WordNode "general_agent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:18:02::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lutra_canadensis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "river_otter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "otter%1:05:00::"))
+(define x (WordNode "Lutra_canadensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "otter%1:05:00::"))

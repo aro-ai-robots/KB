@@ -1,0 +1,5 @@
+(define s (WordSenseNode "asteroid%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "asteroid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "minor_planet%1:17:00::"))
+(InheritanceLink s (WordSenseNode "planetoid%1:17:00::"))
+(InheritanceLink (WordSenseNode "Chiron%1:17:00::") s)

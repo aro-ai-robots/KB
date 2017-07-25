@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cut_short%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "truncate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shorten%2:30:01::"))
+(define x (WordNode "cut_short")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shorten%2:30:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bonding%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bonding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personal_relation%1:24:00::"))
+(InheritanceLink s (WordSenseNode "personal_relationship%1:24:00::"))
+(InheritanceLink (WordSenseNode "female_bonding%1:24:00::") s)
+(InheritanceLink (WordSenseNode "male_bonding%1:24:00::") s)
+(InheritanceLink (WordSenseNode "maternal-infant_bonding%1:24:00::") s)

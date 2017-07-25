@@ -1,0 +1,5 @@
+(define s (WordSenseNode "aerophagia%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aerophagia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swallow%1:04:00::"))
+(InheritanceLink s (WordSenseNode "drink%1:04:01::"))
+(InheritanceLink s (WordSenseNode "deglutition%1:04:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "newtonian_telescope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Newtonian_telescope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reflecting_telescope%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reflector%1:06:01::"))
+(define x (WordNode "Newtonian_reflector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reflecting_telescope%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reflector%1:06:01::"))

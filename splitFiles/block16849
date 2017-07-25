@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bionic_man%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cyborg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:18:00::"))
+(define x (WordNode "bionic_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:18:00::"))
+(define x (WordNode "bionic_woman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:18:00::"))

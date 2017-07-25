@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pleximetry%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "percussion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "auscultation%1:04:00::"))
+(define x (WordNode "pleximetry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "auscultation%1:04:00::"))

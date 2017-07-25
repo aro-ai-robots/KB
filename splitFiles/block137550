@@ -1,0 +1,7 @@
+(define s (WordSenseNode "refer%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "refer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "send%2:38:01::"))
+(InheritanceLink s (WordSenseNode "direct%2:38:01::"))
+(InheritanceLink (WordSenseNode "submit%2:32:01::") s)
+(InheritanceLink (WordSenseNode "subject%2:32:04::") s)
+(InheritanceLink (WordSenseNode "recommit%2:38:00::") s)

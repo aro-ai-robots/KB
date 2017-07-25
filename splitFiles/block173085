@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trumpet%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "trumpet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proclaim%2:32:00::"))
+(InheritanceLink s (WordSenseNode "exclaim%2:32:01::"))
+(InheritanceLink s (WordSenseNode "promulgate%2:32:00::"))

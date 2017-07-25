@@ -1,0 +1,4 @@
+(define s (WordSenseNode "resolution%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "resolution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harmony%1:10:01::"))
+(InheritanceLink s (WordSenseNode "musical_harmony%1:10:00::"))

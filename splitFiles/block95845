@@ -1,0 +1,5 @@
+(define s (WordSenseNode "learner's_permit%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "learner's_permit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "license%1:10:00::"))
+(InheritanceLink s (WordSenseNode "licence%1:10:00::"))
+(InheritanceLink s (WordSenseNode "permit%1:10:02::"))

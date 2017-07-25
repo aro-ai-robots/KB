@@ -1,0 +1,5 @@
+(define s (WordSenseNode "free_hand%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "free_hand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "freedom%1:26:00::"))
+(define x (WordNode "blank_check")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "freedom%1:26:00::"))

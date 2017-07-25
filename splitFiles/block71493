@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_stenopterygius%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Stenopterygius")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reptile_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Ichthyosauridae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Ichthyosauridae%1:05:00::"))
+(HolonymLink (WordSenseNode "stenopterygius%1:05:00::") s)
+(HolonymLink (WordSenseNode "Stenopterygius_quadrisicissus%1:05:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "paracosm%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paracosm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fantasy_world%1:09:00::"))
+(InheritanceLink s (WordSenseNode "phantasy_world%1:09:00::"))
+(InheritanceLink s (WordSenseNode "fairyland%1:09:00::"))

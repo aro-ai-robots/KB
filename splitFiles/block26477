@@ -1,0 +1,6 @@
+(define s (WordSenseNode "carvedilol%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carvedilol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beta_blocker%1:06:00::"))
+(InheritanceLink s (WordSenseNode "beta-blocking_agent%1:06:00::"))
+(InheritanceLink s (WordSenseNode "beta-adrenergic_blocker%1:06:00::"))
+(InheritanceLink s (WordSenseNode "beta-adrenergic_blocking_agent%1:06:00::"))

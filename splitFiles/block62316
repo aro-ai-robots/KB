@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fit%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shape%2:30:00::"))
+(InheritanceLink s (WordSenseNode "form%2:30:01::"))
+(InheritanceLink (WordSenseNode "dovetail%2:42:00::") s)

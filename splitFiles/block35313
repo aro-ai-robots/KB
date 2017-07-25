@@ -1,0 +1,6 @@
+(define s (WordSenseNode "complexion%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "complexion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tint%2:30:00::"))
+(InheritanceLink s (WordSenseNode "tinct%2:30:00::"))
+(InheritanceLink s (WordSenseNode "tinge%2:30:00::"))
+(InheritanceLink s (WordSenseNode "touch%2:30:01::"))

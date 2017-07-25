@@ -1,0 +1,6 @@
+(define s (WordSenseNode "written_word%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "written_word")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "word%1:10:00::"))
+(InheritanceLink (WordSenseNode "bigram%1:10:00::") s)
+(InheritanceLink (WordSenseNode "trigram%1:10:00::") s)
+(InheritanceLink (WordSenseNode "tetragram%1:10:00::") s)

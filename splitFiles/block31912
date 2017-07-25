@@ -1,0 +1,7 @@
+(define s (WordSenseNode "classify%2:31:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "relegate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assign%2:31:03::"))
+(InheritanceLink s (WordSenseNode "attribute%2:31:01::"))
+(define x (WordNode "classify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assign%2:31:03::"))
+(InheritanceLink s (WordSenseNode "attribute%2:31:01::"))

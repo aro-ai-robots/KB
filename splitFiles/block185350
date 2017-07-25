@@ -1,0 +1,7 @@
+(define s (WordSenseNode "xanthophyl%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "xanthophyll")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carotenoid%1:27:00::"))
+(define x (WordNode "xanthophyl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carotenoid%1:27:00::"))
+(define x (WordNode "lutein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carotenoid%1:27:00::"))

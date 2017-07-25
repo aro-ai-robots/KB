@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pincurl_clip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pincurl_clip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cartridge_holder%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cartridge_clip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "clip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "magazine%1:06:03::"))

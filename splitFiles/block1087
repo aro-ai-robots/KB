@@ -1,0 +1,7 @@
+(define s (WordSenseNode "accommodator%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "obliger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "benefactor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "helper%1:18:00::"))
+(define x (WordNode "accommodator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "benefactor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "helper%1:18:00::"))

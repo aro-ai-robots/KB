@@ -1,0 +1,5 @@
+(define s (WordSenseNode "revolving_charge_account%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "revolving_charge_account")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "credit_account%1:21:00::"))
+(InheritanceLink s (WordSenseNode "charge_account%1:21:00::"))
+(InheritanceLink s (WordSenseNode "open_account%1:21:00::"))

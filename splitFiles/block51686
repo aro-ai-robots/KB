@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ebbtide%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ebbtide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tide%1:11:00::"))
+(HolonymLink (WordSenseNode "ebb%1:11:00::") s)
+(HolonymLink (WordSenseNode "reflux%1:11:00::") s)

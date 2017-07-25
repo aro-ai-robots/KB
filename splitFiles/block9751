@@ -1,0 +1,5 @@
+(define s (WordSenseNode "asamiya%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Assamese")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Magadhan%1:10:00::"))
+(define x (WordNode "Asamiya")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Magadhan%1:10:00::"))

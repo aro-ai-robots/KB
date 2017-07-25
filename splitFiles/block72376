@@ -1,0 +1,7 @@
+(define s (WordSenseNode "get_in_touch%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "get_in_touch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interact%2:41:00::"))
+(define x (WordNode "touch_base")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interact%2:41:00::"))
+(define x (WordNode "connect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interact%2:41:00::"))

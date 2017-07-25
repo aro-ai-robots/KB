@@ -1,0 +1,4 @@
+(define s (WordSenseNode "half-caste%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "half-caste")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mixed-blood%1:18:00::"))
+(InheritanceLink (WordSenseNode "half-breed%1:18:00::") s)

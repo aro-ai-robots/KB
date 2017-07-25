@@ -1,0 +1,5 @@
+(define s (WordSenseNode "uptake%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "uptake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "human_process%1:22:00::"))
+(InheritanceLink (WordSenseNode "reuptake%1:22:00::") s)
+(InheritanceLink (WordSenseNode "re-uptake%1:22:00::") s)

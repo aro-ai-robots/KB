@@ -1,0 +1,7 @@
+(define s (WordSenseNode "alleyway%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alley")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "street%1:06:00::"))
+(define x (WordNode "alleyway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "street%1:06:00::"))
+(define x (WordNode "back_street")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "street%1:06:00::"))

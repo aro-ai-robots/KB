@@ -1,0 +1,8 @@
+(define s (WordSenseNode "spirillum%1:05:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spirillum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eubacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "eubacterium%1:05:00::"))
+(InheritanceLink s (WordSenseNode "true_bacteria%1:05:00::"))
+(InheritanceLink (WordSenseNode "ratbite_fever_bacterium%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Spirillum_minus%1:05:00::") s)
+(HolonymLink s (WordSenseNode "genus_Spirillum%1:05:00::"))

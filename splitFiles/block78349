@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hartford_fern%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "creeping_fern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "climbing_fern%1:20:00::"))
+(define x (WordNode "Hartford_fern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "climbing_fern%1:20:00::"))
+(define x (WordNode "Lygodium_palmatum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "climbing_fern%1:20:00::"))

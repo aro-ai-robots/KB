@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ware%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ware")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "article%1:03:00::"))
+(InheritanceLink (WordSenseNode "article_of_commerce%1:06:00::") s)
+(InheritanceLink (WordSenseNode "metalware%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tableware%1:06:00::") s)
+(InheritanceLink (WordSenseNode "woodenware%1:06:00::") s)

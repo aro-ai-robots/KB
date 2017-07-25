@@ -1,0 +1,7 @@
+(define s (WordSenseNode "yellow_avens%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yellow_avens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avens%1:20:00::"))
+(define x (WordNode "Geum_alleppicum_strictum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avens%1:20:00::"))
+(define x (WordNode "Geum_strictum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avens%1:20:00::"))

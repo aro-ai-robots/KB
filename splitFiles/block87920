@@ -1,0 +1,6 @@
+(define s (WordSenseNode "intercommunication%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intercommunication")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "communication%1:10:01::"))
+(InheritanceLink s (WordSenseNode "communicating%1:10:00::"))
+(InheritanceLink (WordSenseNode "intercourse%1:10:00::") s)
+(InheritanceLink (WordSenseNode "social_intercourse%1:10:00::") s)

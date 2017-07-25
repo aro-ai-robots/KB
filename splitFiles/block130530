@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pride%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_group%1:14:00::"))
+(HolonymLink (WordSenseNode "lion%1:05:00::") s)
+(HolonymLink (WordSenseNode "king_of_beasts%1:05:00::") s)
+(HolonymLink (WordSenseNode "Panthera_leo%1:05:00::") s)

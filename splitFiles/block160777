@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stratum_granulosum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stratum_granulosum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stratum%1:15:00::"))
+(HolonymLink s (WordSenseNode "epidermis%1:08:00::"))
+(HolonymLink s (WordSenseNode "cuticle%1:08:00::"))

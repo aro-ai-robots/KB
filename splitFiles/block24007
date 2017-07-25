@@ -1,0 +1,7 @@
+(define s (WordSenseNode "call%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "call")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "label%2:32:00::"))
+(InheritanceLink (WordSenseNode "misname%2:32:00::") s)
+(InheritanceLink (WordSenseNode "miscall%2:32:00::") s)
+(InheritanceLink (WordSenseNode "post%2:32:01::") s)
+(InheritanceLink (WordSenseNode "brand%2:32:00::") s)

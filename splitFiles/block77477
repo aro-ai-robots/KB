@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hallucinosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hallucinosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "psychological_state%1:26:00::"))
+(InheritanceLink s (WordSenseNode "psychological_condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "mental_state%1:26:00::"))
+(InheritanceLink s (WordSenseNode "mental_condition%1:26:00::"))

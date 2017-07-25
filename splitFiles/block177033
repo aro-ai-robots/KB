@@ -1,0 +1,8 @@
+(define s (WordSenseNode "ural-altaic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ural-Altaic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tongue%1:10:00::"))
+(InheritanceLink (WordSenseNode "Altaic%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Altaic_language%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Uralic%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Uralic_language%1:10:00::") s)

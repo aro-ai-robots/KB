@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wire_gauge%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wire_gauge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gauge%1:06:00::"))
+(InheritanceLink s (WordSenseNode "gage%1:06:00::"))
+(define x (WordNode "wire_gage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gauge%1:06:00::"))
+(InheritanceLink s (WordSenseNode "gage%1:06:00::"))

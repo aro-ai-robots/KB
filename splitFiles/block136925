@@ -1,0 +1,5 @@
+(define s (WordSenseNode "record_hop%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dance%1:11:00::"))
+(define x (WordNode "record_hop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dance%1:11:00::"))

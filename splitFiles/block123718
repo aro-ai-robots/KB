@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pfennig%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pfennig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "German_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "mark%1:23:00::"))
+(HolonymLink s (WordSenseNode "German_mark%1:23:00::"))
+(HolonymLink s (WordSenseNode "Deutsche_Mark%1:23:00::"))
+(HolonymLink s (WordSenseNode "Deutschmark%1:23:00::"))

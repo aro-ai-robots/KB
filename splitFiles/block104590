@@ -1,0 +1,8 @@
+(define s (WordSenseNode "medium%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "medium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "communication%1:10:01::"))
+(InheritanceLink s (WordSenseNode "communicating%1:10:00::"))
+(InheritanceLink (WordSenseNode "ether%1:10:00::") s)
+(InheritanceLink (WordSenseNode "aether%1:10:00::") s)
+(InheritanceLink (WordSenseNode "air%1:10:02::") s)
+(InheritanceLink (WordSenseNode "airwave%1:10:00::") s)

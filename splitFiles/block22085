@@ -1,0 +1,7 @@
+(define s (WordSenseNode "buffalo_carpet_beetle%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "buffalo_carpet_beetle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carpet_beetle%1:05:00::"))
+(InheritanceLink s (WordSenseNode "carpet_bug%1:05:00::"))
+(define x (WordNode "Anthrenus_scrophulariae")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carpet_beetle%1:05:00::"))
+(InheritanceLink s (WordSenseNode "carpet_bug%1:05:00::"))

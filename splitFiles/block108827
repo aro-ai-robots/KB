@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mortgage%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mortgage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "security_interest%1:21:00::"))
+(InheritanceLink (WordSenseNode "first_mortgage%1:21:00::") s)
+(InheritanceLink (WordSenseNode "second_mortgage%1:21:00::") s)
+(InheritanceLink (WordSenseNode "chattel_mortgage%1:21:00::") s)

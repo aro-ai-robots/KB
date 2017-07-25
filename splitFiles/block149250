@@ -1,0 +1,8 @@
+(define s (WordSenseNode "setter%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "setter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sporting_dog%1:05:00::"))
+(InheritanceLink s (WordSenseNode "gun_dog%1:05:00::"))
+(InheritanceLink (WordSenseNode "English_setter%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Irish_setter%1:05:00::") s)
+(InheritanceLink (WordSenseNode "red_setter%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Gordon_setter%1:05:00::") s)

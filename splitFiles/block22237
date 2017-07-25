@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bulblet%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bulbil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bulb%1:20:00::"))
+(define x (WordNode "bulblet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bulb%1:20:00::"))

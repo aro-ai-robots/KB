@@ -1,0 +1,7 @@
+(define s (WordSenseNode "division%1:14:06::")) (PartOfSpeechLink s noun)
+(define x (WordNode "class")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "league%1:14:01::"))
+(InheritanceLink s (WordSenseNode "conference%1:14:01::"))
+(define x (WordNode "division")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "league%1:14:01::"))
+(InheritanceLink s (WordSenseNode "conference%1:14:01::"))

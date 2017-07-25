@@ -1,0 +1,6 @@
+(define s (WordSenseNode "noncandidate%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "noncandidate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "politician%1:18:00::"))
+(InheritanceLink s (WordSenseNode "politico%1:18:00::"))
+(InheritanceLink s (WordSenseNode "pol%1:18:00::"))
+(InheritanceLink s (WordSenseNode "political_leader%1:18:00::"))

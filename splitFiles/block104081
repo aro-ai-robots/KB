@@ -1,0 +1,8 @@
+(define s (WordSenseNode "maxzide%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Maxzide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antihypertensive%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antihypertensive_drug%1:06:00::"))
+(HolonymLink (WordSenseNode "hydrochlorothiazide%1:06:00::") s)
+(HolonymLink (WordSenseNode "Microzide%1:06:00::") s)
+(HolonymLink (WordSenseNode "Esidrix%1:06:00::") s)
+(HolonymLink (WordSenseNode "HydroDIURIL%1:06:00::") s)

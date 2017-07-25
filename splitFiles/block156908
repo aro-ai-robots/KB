@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spider_angioma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spider_angioma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angioma%1:26:00::"))
+(define x (WordNode "spider_nevus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angioma%1:26:00::"))
+(define x (WordNode "vascular_spider")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angioma%1:26:00::"))

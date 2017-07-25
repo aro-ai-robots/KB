@@ -1,0 +1,7 @@
+(define s (WordSenseNode "drove%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crowd%1:14:00::"))
+(define x (WordNode "horde")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crowd%1:14:00::"))
+(define x (WordNode "swarm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crowd%1:14:00::"))

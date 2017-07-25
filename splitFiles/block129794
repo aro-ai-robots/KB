@@ -1,0 +1,4 @@
+(define s (WordSenseNode "predictor_variable%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "predictor_variable")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "variable%1:09:00::"))
+(InheritanceLink s (WordSenseNode "variable_quantity%1:09:00::"))

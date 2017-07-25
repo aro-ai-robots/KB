@@ -1,0 +1,7 @@
+(define s (WordSenseNode "monarda_pectinata%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plains_lemon_monarda")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monarda%1:20:00::"))
+(InheritanceLink s (WordSenseNode "wild_bergamot%1:20:00::"))
+(define x (WordNode "Monarda_pectinata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monarda%1:20:00::"))
+(InheritanceLink s (WordSenseNode "wild_bergamot%1:20:00::"))

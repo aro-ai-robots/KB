@@ -1,0 +1,4 @@
+(define s (WordSenseNode "personal_representative%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "personal_representative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "representative%1:18:00::"))
+(InheritanceLink (WordSenseNode "legal_representative%1:18:00::") s)

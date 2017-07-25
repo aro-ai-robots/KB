@@ -1,0 +1,8 @@
+(define s (WordSenseNode "exposure%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exposure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disclosure%1:10:00::"))
+(InheritanceLink s (WordSenseNode "revelation%1:10:02::"))
+(InheritanceLink s (WordSenseNode "revealing%1:10:00::"))
+(InheritanceLink (WordSenseNode "expose%1:10:00::") s)
+(InheritanceLink (WordSenseNode "unmasking%1:10:00::") s)
+(InheritanceLink (WordSenseNode "muckraking%1:10:00::") s)

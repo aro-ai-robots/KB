@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stocking_filler%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stocking_filler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Christmas_present%1:21:00::"))
+(InheritanceLink s (WordSenseNode "Christmas_gift%1:21:00::"))
+(define x (WordNode "stocking_stuffer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Christmas_present%1:21:00::"))
+(InheritanceLink s (WordSenseNode "Christmas_gift%1:21:00::"))

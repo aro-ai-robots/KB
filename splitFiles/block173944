@@ -1,0 +1,8 @@
+(define s (WordSenseNode "turtledove%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "turtledove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dove%1:05:00::"))
+(InheritanceLink (WordSenseNode "Streptopelia_turtur%1:05:00::") s)
+(InheritanceLink (WordSenseNode "ringdove%1:05:01::") s)
+(InheritanceLink (WordSenseNode "Streptopelia_risoria%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Streptopelia%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Streptopelia%1:05:00::"))

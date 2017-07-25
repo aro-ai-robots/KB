@@ -1,0 +1,4 @@
+(define s (WordSenseNode "laminar_flow_clean_room%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laminar_flow_clean_room")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clean_room%1:06:00::"))
+(InheritanceLink s (WordSenseNode "white_room%1:06:00::"))

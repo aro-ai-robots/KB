@@ -1,0 +1,7 @@
+(define s (WordSenseNode "electronic_dictionary%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "machine_readable_dictionary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lexical_database%1:10:00::"))
+(define x (WordNode "MRD")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lexical_database%1:10:00::"))
+(define x (WordNode "electronic_dictionary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lexical_database%1:10:00::"))

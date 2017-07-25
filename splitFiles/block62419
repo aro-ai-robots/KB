@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fixed_oil%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fixed_oil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oil%1:27:00::"))
+(define x (WordNode "fatty_oil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oil%1:27:00::"))

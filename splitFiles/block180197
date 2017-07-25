@@ -1,0 +1,6 @@
+(define s (WordSenseNode "voting_age%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "voting_age")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "age%1:28:00::"))
+(InheritanceLink s (WordSenseNode "eld%1:28:01::"))
+(HolonymLink s (WordSenseNode "adulthood%1:28:00::"))
+(HolonymLink s (WordSenseNode "maturity%1:28:00::"))

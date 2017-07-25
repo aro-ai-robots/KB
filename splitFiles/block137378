@@ -1,0 +1,8 @@
+(define s (WordSenseNode "redound%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "redound")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "affect%2:30:00::"))
+(InheritanceLink s (WordSenseNode "impact%2:30:00::"))
+(InheritanceLink s (WordSenseNode "bear_upon%2:30:00::"))
+(InheritanceLink s (WordSenseNode "bear_on%2:30:00::"))
+(InheritanceLink s (WordSenseNode "touch_on%2:30:01::"))
+(InheritanceLink s (WordSenseNode "touch%2:30:00::"))

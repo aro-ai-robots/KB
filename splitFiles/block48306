@@ -1,0 +1,5 @@
+(define s (WordSenseNode "divi-divi%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "divi-divi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bean%1:20:02::"))
+(HolonymLink s (WordSenseNode "divi-divi%1:20:01::"))
+(HolonymLink s (WordSenseNode "Caesalpinia_coriaria%1:20:00::"))

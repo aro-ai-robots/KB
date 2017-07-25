@@ -1,0 +1,5 @@
+(define s (WordSenseNode "crankshaft%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crankshaft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rotating_shaft%1:06:00::"))
+(InheritanceLink s (WordSenseNode "shaft%1:06:01::"))
+(HolonymLink s (WordSenseNode "reciprocating_engine%1:06:00::"))

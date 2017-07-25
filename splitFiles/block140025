@@ -1,0 +1,5 @@
+(define s (WordSenseNode "revere%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "revers")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lapel%1:06:00::"))
+(define x (WordNode "revere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lapel%1:06:00::"))

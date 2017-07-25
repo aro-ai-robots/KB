@@ -1,0 +1,7 @@
+(define s (WordSenseNode "caragana_arborescens%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Siberian_pea_tree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pea_tree%1:20:00::"))
+(InheritanceLink s (WordSenseNode "caragana%1:20:00::"))
+(define x (WordNode "Caragana_arborescens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pea_tree%1:20:00::"))
+(InheritanceLink s (WordSenseNode "caragana%1:20:00::"))

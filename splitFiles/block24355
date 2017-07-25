@@ -1,0 +1,5 @@
+(define s (WordSenseNode "camcorder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "camcorder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "television_camera%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tv_camera%1:06:00::"))
+(InheritanceLink s (WordSenseNode "camera%1:06:01::"))

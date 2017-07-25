@@ -1,0 +1,5 @@
+(define s (WordSenseNode "uphold%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "uphold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "defend%2:32:00::"))
+(InheritanceLink s (WordSenseNode "support%2:32:01::"))
+(InheritanceLink s (WordSenseNode "fend_for%2:32:00::"))

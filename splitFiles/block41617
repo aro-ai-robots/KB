@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cutting%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "film_editing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creating_by_removal%1:04:00::"))
+(define x (WordNode "cutting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creating_by_removal%1:04:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pocketbook_issue%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pocketbook_issue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "issue%1:09:01::"))
+(define x (WordNode "bread-and-butter_issue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "issue%1:09:01::"))

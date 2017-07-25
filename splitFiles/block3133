@@ -1,0 +1,6 @@
+(define s (WordSenseNode "agent_orange%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Agent_Orange")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "herbicide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "weedkiller%1:27:00::"))
+(InheritanceLink s (WordSenseNode "weed_killer%1:27:00::"))
+(HolonymLink (WordSenseNode "dioxin%1:27:00::") s)

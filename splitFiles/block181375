@@ -1,0 +1,5 @@
+(define s (WordSenseNode "water_pump%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "water_pump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pump%1:06:00::"))
+(HolonymLink s (WordSenseNode "cooling_system%1:06:00::"))
+(HolonymLink s (WordSenseNode "cooling%1:06:00::"))

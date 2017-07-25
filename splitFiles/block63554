@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fly%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fisherman's_lure%1:06:00::"))
+(InheritanceLink s (WordSenseNode "fish_lure%1:06:00::"))
+(InheritanceLink (WordSenseNode "dry_fly%1:06:00::") s)
+(InheritanceLink (WordSenseNode "streamer_fly%1:06:00::") s)
+(InheritanceLink (WordSenseNode "wet_fly%1:06:00::") s)

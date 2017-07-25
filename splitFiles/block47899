@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dissatisfy%2:37:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dissatisfy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "displease%2:37:00::"))
+(InheritanceLink (WordSenseNode "discontent%2:37:00::") s)
+(InheritanceLink (WordSenseNode "disgruntle%2:37:00::") s)

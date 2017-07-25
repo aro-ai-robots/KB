@@ -1,0 +1,7 @@
+(define s (WordSenseNode "acorn_cup%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cupule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cup%1:20:00::"))
+(HolonymLink s (WordSenseNode "acorn%1:20:00::"))
+(define x (WordNode "acorn_cup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cup%1:20:00::"))
+(HolonymLink s (WordSenseNode "acorn%1:20:00::"))

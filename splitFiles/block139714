@@ -1,0 +1,5 @@
+(define s (WordSenseNode "retard%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "retard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decelerate%2:30:01::"))
+(InheritanceLink s (WordSenseNode "slow_down%2:30:02::"))
+(InheritanceLink (WordSenseNode "deaden%2:30:02::") s)

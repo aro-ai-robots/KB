@@ -1,0 +1,6 @@
+(define s (WordSenseNode "wing%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air_unit%1:14:00::"))
+(HolonymLink s (WordSenseNode "division%1:14:02::"))
+(HolonymLink s (WordSenseNode "air_division%1:14:00::"))
+(HolonymLink (WordSenseNode "squadron%1:14:00::") s)

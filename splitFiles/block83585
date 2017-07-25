@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hydrostatics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hydrostatics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fluid_mechanics%1:09:00::"))
+(InheritanceLink s (WordSenseNode "hydraulics%1:09:00::"))

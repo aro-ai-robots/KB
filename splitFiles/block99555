@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lorchel%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lorchel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fungus%1:20:00::"))
+(InheritanceLink (WordSenseNode "Gyromitra_fastigiata%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Gyromitra_brunnea%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Helvellaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Helvellaceae%1:20:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "companionableness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "companionability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sociability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "sociableness%1:07:00::"))
+(define x (WordNode "companionableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sociability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "sociableness%1:07:00::"))

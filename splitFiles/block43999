@@ -1,0 +1,7 @@
+(define s (WordSenseNode "deflect%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deflect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turn%2:38:00::"))
+(define x (WordNode "bend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turn%2:38:00::"))
+(define x (WordNode "turn_away")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turn%2:38:00::"))

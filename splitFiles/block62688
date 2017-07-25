@@ -1,0 +1,4 @@
+(define s (WordSenseNode "flashback%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flashback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recurrence%1:11:00::"))
+(InheritanceLink s (WordSenseNode "return%1:11:01::"))

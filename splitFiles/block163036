@@ -1,0 +1,4 @@
+(define s (WordSenseNode "superinfect%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "superinfect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infect%2:29:00::"))
+(InheritanceLink s (WordSenseNode "taint%2:29:00::"))

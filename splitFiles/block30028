@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chinese_checkers%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Chinese_checkers")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board_game%1:04:00::"))
+(define x (WordNode "Chinese_chequers")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board_game%1:04:00::"))

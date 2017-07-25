@@ -1,0 +1,5 @@
+(define s (WordSenseNode "book_of_common_prayer%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Book_of_Common_Prayer")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Psalter%1:10:00::") s)
+(HolonymLink (WordSenseNode "Book_of_Psalms%1:10:01::") s)
+(HolonymLink (WordSenseNode "Litany%1:10:00::") s)

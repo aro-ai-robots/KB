@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cutaneous_anthrax%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cutaneous_anthrax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthrax%1:26:01::"))
+(define x (WordNode "malignant_pustule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthrax%1:26:01::"))

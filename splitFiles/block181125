@@ -1,0 +1,7 @@
+(define s (WordSenseNode "waste%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pine_away")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:00::"))
+(define x (WordNode "waste")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:00::"))
+(define x (WordNode "languish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:00::"))

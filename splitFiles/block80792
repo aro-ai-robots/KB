@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hinge_joint%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "knuckle_joint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "joint%1:06:01::"))
+(define x (WordNode "hinge_joint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "joint%1:06:01::"))

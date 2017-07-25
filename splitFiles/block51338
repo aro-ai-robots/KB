@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ear%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hearing%1:09:00::"))
+(InheritanceLink s (WordSenseNode "audition%1:09:00::"))
+(InheritanceLink s (WordSenseNode "auditory_sense%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sense_of_hearing%1:09:00::"))
+(InheritanceLink s (WordSenseNode "auditory_modality%1:09:00::"))

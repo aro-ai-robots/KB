@@ -1,0 +1,4 @@
+(define s (WordSenseNode "arthromere%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arthromere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "external_body_part%1:08:00::"))
+(HolonymLink s (WordSenseNode "arthropod%1:05:00::"))

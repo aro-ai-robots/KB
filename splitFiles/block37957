@@ -1,0 +1,7 @@
+(define s (WordSenseNode "corn_speedwell%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "corn_speedwell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "veronica%1:20:00::"))
+(InheritanceLink s (WordSenseNode "speedwell%1:20:00::"))
+(define x (WordNode "Veronica_arvensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "veronica%1:20:00::"))
+(InheritanceLink s (WordSenseNode "speedwell%1:20:00::"))

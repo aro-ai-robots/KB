@@ -1,0 +1,7 @@
+(define s (WordSenseNode "field_scabious%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "field_scabious")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scabious%1:20:00::"))
+(InheritanceLink s (WordSenseNode "scabiosa%1:20:00::"))
+(define x (WordNode "Scabiosa_arvensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scabious%1:20:00::"))
+(InheritanceLink s (WordSenseNode "scabiosa%1:20:00::"))

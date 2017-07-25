@@ -1,0 +1,5 @@
+(define s (WordSenseNode "job_interview%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "job_interview")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interview%1:10:01::"))
+(define x (WordNode "employment_interview")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interview%1:10:01::"))

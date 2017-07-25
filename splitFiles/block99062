@@ -1,0 +1,7 @@
+(define s (WordSenseNode "log_in%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "log_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "access%2:40:00::"))
+(define x (WordNode "log_on")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "access%2:40:00::"))
+(define x (WordNode "log-in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "access%2:40:00::"))

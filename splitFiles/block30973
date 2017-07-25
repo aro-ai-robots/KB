@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cialis%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tadalafil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "virility_drug%1:06:00::"))
+(InheritanceLink s (WordSenseNode "anti-impotence_drug%1:06:00::"))
+(define x (WordNode "Cialis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "virility_drug%1:06:00::"))
+(InheritanceLink s (WordSenseNode "anti-impotence_drug%1:06:00::"))

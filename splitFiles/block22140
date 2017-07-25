@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bufo_viridis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Eurasian_green_toad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "true_toad%1:05:00::"))
+(define x (WordNode "Bufo_viridis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "true_toad%1:05:00::"))

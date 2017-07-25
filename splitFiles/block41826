@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cylindricality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cylindricality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roundness%1:07:00::"))
+(define x (WordNode "cylindricalness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roundness%1:07:00::"))

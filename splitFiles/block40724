@@ -1,0 +1,8 @@
+(define s (WordSenseNode "crystal_set%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crystal_set")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radio_receiver%1:06:00::"))
+(InheritanceLink s (WordSenseNode "receiving_set%1:06:00::"))
+(InheritanceLink s (WordSenseNode "radio_set%1:06:00::"))
+(InheritanceLink s (WordSenseNode "radio%1:06:01::"))
+(InheritanceLink s (WordSenseNode "tuner%1:06:00::"))
+(InheritanceLink s (WordSenseNode "wireless%1:06:01::"))

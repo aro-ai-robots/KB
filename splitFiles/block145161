@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sash_weight%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sash_weight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "counterweight%1:06:00::"))
+(InheritanceLink s (WordSenseNode "counterbalance%1:06:00::"))
+(InheritanceLink s (WordSenseNode "counterpoise%1:06:00::"))
+(InheritanceLink s (WordSenseNode "balance%1:06:01::"))
+(InheritanceLink s (WordSenseNode "equalizer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "equaliser%1:06:00::"))

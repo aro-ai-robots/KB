@@ -1,0 +1,5 @@
+(define s (WordSenseNode "knife-edge%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "knife-edge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "limit%1:07:00::"))
+(InheritanceLink s (WordSenseNode "bound%1:07:00::"))
+(InheritanceLink s (WordSenseNode "boundary%1:07:00::"))

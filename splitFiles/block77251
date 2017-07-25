@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hairsplitting%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hairsplitting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "differentiation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "distinction%1:09:00::"))
+(define x (WordNode "word-splitting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "differentiation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "distinction%1:09:00::"))

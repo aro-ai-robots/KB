@@ -1,0 +1,4 @@
+(define s (WordSenseNode "stress_mark%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stress_mark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accent%1:10:02::"))
+(InheritanceLink s (WordSenseNode "accent_mark%1:10:00::"))

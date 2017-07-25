@@ -1,0 +1,5 @@
+(define s (WordSenseNode "slack_tide%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "slack_water")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tide%1:11:00::"))
+(define x (WordNode "slack_tide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tide%1:11:00::"))

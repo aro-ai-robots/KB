@@ -1,0 +1,5 @@
+(define s (WordSenseNode "western_empire%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Western_Roman_Empire")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Roman_Empire%1:15:00::"))
+(define x (WordNode "Western_Empire")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Roman_Empire%1:15:00::"))

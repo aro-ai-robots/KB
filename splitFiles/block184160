@@ -1,0 +1,6 @@
+(define s (WordSenseNode "wishful_thinking%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wishful_thinking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "illusion%1:09:00::"))
+(InheritanceLink s (WordSenseNode "fantasy%1:09:01::"))
+(InheritanceLink s (WordSenseNode "phantasy%1:09:01::"))
+(InheritanceLink s (WordSenseNode "fancy%1:09:02::"))

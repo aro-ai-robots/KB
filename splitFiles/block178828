@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vertu%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "virtu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(define x (WordNode "vertu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))

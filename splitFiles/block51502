@@ -1,0 +1,5 @@
+(define s (WordSenseNode "east%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "East")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Far_East%1:15:00::") s)
+(define x (WordNode "Orient")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Far_East%1:15:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "clamp%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "clamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflict%2:32:00::"))
+(InheritanceLink s (WordSenseNode "bring_down%2:32:00::"))
+(InheritanceLink s (WordSenseNode "visit%2:32:01::"))
+(InheritanceLink s (WordSenseNode "impose%2:32:00::"))

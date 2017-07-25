@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hit%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feat%1:04:00::"))
+(InheritanceLink s (WordSenseNode "effort%1:04:02::"))
+(InheritanceLink s (WordSenseNode "exploit%1:04:00::"))
+(InheritanceLink (WordSenseNode "base_hit%1:04:00::") s)
+(InheritanceLink (WordSenseNode "safety%1:04:00::") s)

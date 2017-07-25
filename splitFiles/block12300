@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bachelor_party%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bachelor_party")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stag_party%1:14:00::"))
+(InheritanceLink s (WordSenseNode "smoker%1:14:00::"))

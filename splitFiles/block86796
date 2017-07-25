@@ -1,0 +1,4 @@
+(define s (WordSenseNode "infinitive%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "infinitive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "verb%1:10:01::"))
+(InheritanceLink (WordSenseNode "split_infinitive%1:10:00::") s)

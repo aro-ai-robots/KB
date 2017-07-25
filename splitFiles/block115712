@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ohio_buckeye%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ohio_buckeye")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "horse_chestnut%1:20:00::"))
+(InheritanceLink s (WordSenseNode "buckeye%1:20:00::"))
+(InheritanceLink s (WordSenseNode "Aesculus_hippocastanum%1:20:00::"))

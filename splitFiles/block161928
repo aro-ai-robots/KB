@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sublingual_gland%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sublingual_gland")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salivary_gland%1:08:00::"))
+(define x (WordNode "sublingual_salivary_gland")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salivary_gland%1:08:00::"))

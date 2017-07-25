@@ -1,0 +1,7 @@
+(define s (WordSenseNode "seam%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stratum%1:15:00::"))
+(InheritanceLink (WordSenseNode "coal_seam%1:15:00::") s)
+(define x (WordNode "bed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stratum%1:15:00::"))
+(InheritanceLink (WordSenseNode "coal_seam%1:15:00::") s)

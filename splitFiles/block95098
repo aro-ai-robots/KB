@@ -1,0 +1,5 @@
+(define s (WordSenseNode "late_greek%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Late_Greek")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Greek%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Hellenic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Hellenic_language%1:10:00::"))

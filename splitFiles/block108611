@@ -1,0 +1,5 @@
+(define s (WordSenseNode "moral_obligation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moral_obligation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "duty%1:04:00::"))
+(InheritanceLink s (WordSenseNode "responsibility%1:04:00::"))
+(InheritanceLink s (WordSenseNode "obligation%1:04:00::"))

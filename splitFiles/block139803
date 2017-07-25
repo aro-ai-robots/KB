@@ -1,0 +1,7 @@
+(define s (WordSenseNode "retired_person%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "retiree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nonworker%1:18:00::"))
+(InheritanceLink (WordSenseNode "emeritus%1:18:00::") s)
+(define x (WordNode "retired_person")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nonworker%1:18:00::"))
+(InheritanceLink (WordSenseNode "emeritus%1:18:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "soft_rot%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "soft_rot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_disease%1:26:00::"))
+(InheritanceLink (WordSenseNode "leak%1:26:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "swimmer's_itch%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "schistosome_dermatitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dermatitis%1:26:00::"))
+(define x (WordNode "swimmer's_itch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dermatitis%1:26:00::"))

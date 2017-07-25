@@ -1,0 +1,5 @@
+(define s (WordSenseNode "proenzyme%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "proenzyme")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(define x (WordNode "zymogen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))

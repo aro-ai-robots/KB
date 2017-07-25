@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hepatic_coma%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hepatic_coma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coma%1:09:00::"))
+(InheritanceLink s (WordSenseNode "comatoseness%1:09:00::"))

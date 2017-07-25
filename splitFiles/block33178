@@ -1,0 +1,7 @@
+(define s (WordSenseNode "coccus_hesperidum%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brown_soft_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soft_scale%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Coccus%1:05:00::"))
+(define x (WordNode "Coccus_hesperidum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soft_scale%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Coccus%1:05:00::"))

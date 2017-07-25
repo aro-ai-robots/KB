@@ -1,0 +1,8 @@
+(define s (WordSenseNode "phonetic_symbol%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phonetic_symbol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "character%1:10:00::"))
+(InheritanceLink s (WordSenseNode "grapheme%1:10:00::"))
+(InheritanceLink s (WordSenseNode "graphic_symbol%1:10:00::"))
+(HolonymLink s (WordSenseNode "phonetic_alphabet%1:10:00::"))
+(HolonymLink s (WordSenseNode "sound_alphabet%1:10:00::"))
+(HolonymLink s (WordSenseNode "phonetic_transcription%1:10:00::"))

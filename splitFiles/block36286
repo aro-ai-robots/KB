@@ -1,0 +1,5 @@
+(define s (WordSenseNode "congressional_record%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Congressional_Record")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "minutes%1:10:00::"))
+(InheritanceLink s (WordSenseNode "proceedings%1:10:00::"))
+(InheritanceLink s (WordSenseNode "transactions%1:10:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "trustbuster%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trustbuster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:18:03::"))
+(InheritanceLink s (WordSenseNode "federal_agent%1:18:00::"))

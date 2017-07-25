@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trade%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "business%1:04:02::"))
+(InheritanceLink (WordSenseNode "custom%1:04:02::") s)
+(define x (WordNode "patronage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "business%1:04:02::"))
+(InheritanceLink (WordSenseNode "custom%1:04:02::") s)

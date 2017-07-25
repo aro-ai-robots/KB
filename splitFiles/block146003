@@ -1,0 +1,5 @@
+(define s (WordSenseNode "schism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "schism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "division%1:04:00::"))
+(define x (WordNode "split")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "division%1:04:00::"))

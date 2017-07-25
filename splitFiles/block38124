@@ -1,0 +1,7 @@
+(define s (WordSenseNode "corps_diplomatique%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diplomatic_service")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corps%1:14:01::"))
+(define x (WordNode "diplomatic_corps")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corps%1:14:01::"))
+(define x (WordNode "corps_diplomatique")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corps%1:14:01::"))

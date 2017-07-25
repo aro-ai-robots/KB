@@ -1,0 +1,7 @@
+(define s (WordSenseNode "podiceps_nigricollis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "black-necked_grebe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grebe%1:05:00::"))
+(define x (WordNode "eared_grebe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grebe%1:05:00::"))
+(define x (WordNode "Podiceps_nigricollis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grebe%1:05:00::"))

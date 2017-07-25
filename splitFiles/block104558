@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mediety%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moiety")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "one-half%1:23:00::"))
+(InheritanceLink s (WordSenseNode "half%1:23:00::"))
+(define x (WordNode "mediety")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "one-half%1:23:00::"))
+(InheritanceLink s (WordSenseNode "half%1:23:00::"))

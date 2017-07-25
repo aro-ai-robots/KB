@@ -1,0 +1,7 @@
+(define s (WordSenseNode "settle%2:30:13::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "come%2:30:01::"))
+(define x (WordNode "descend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "come%2:30:01::"))
+(define x (WordNode "settle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "come%2:30:01::"))

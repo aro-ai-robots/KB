@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subpoena%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "subpoena")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "serve%2:35:00::"))
+(InheritanceLink s (WordSenseNode "process%2:35:00::"))
+(InheritanceLink s (WordSenseNode "swear_out%2:35:00::"))

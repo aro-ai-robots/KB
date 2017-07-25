@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antirrhinum_majus%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mediterranean_snapdragon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snapdragon%1:20:00::"))
+(define x (WordNode "Antirrhinum_majus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snapdragon%1:20:00::"))

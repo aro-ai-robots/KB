@@ -1,0 +1,4 @@
+(define s (WordSenseNode "series%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "series")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "group%1:03:00::"))
+(InheritanceLink s (WordSenseNode "grouping%1:03:00::"))

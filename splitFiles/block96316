@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lemon_grass%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lemongrass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oil%1:27:00::"))
+(define x (WordNode "lemon_grass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oil%1:27:00::"))
+(define x (WordNode "lemongrass_oil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oil%1:27:00::"))

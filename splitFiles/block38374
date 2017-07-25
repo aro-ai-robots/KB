@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cosigner%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cosigner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "signer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "signatory%1:18:00::"))
+(define x (WordNode "cosignatory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "signer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "signatory%1:18:00::"))

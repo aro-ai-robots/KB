@@ -1,0 +1,7 @@
+(define s (WordSenseNode "us_attorney_general%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Attorney_General")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secretary%1:18:01::"))
+(define x (WordNode "United_States_Attorney_General")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secretary%1:18:01::"))
+(define x (WordNode "US_Attorney_General")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secretary%1:18:01::"))

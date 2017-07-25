@@ -1,0 +1,5 @@
+(define s (WordSenseNode "job%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "job")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "application%1:10:01::"))
+(InheritanceLink s (WordSenseNode "application_program%1:10:00::"))
+(InheritanceLink s (WordSenseNode "applications_programme%1:10:00::"))

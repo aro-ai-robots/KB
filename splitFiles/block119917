@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pan_off%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wash%2:35:01::"))
+(define x (WordNode "pan_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wash%2:35:01::"))
+(define x (WordNode "pan_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wash%2:35:01::"))

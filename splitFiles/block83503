@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hydroelectric_turbine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hydroelectric_turbine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turbine%1:06:00::"))
+(InheritanceLink (WordSenseNode "Francis_turbine%1:06:00::") s)

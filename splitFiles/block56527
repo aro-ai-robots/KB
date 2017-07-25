@@ -1,0 +1,6 @@
+(define s (WordSenseNode "evolutionary_trend%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "evolutionary_trend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drift%1:09:02::"))
+(InheritanceLink s (WordSenseNode "trend%1:09:00::"))
+(InheritanceLink s (WordSenseNode "movement%1:09:00::"))
+(InheritanceLink (WordSenseNode "neoteny%1:09:00::") s)

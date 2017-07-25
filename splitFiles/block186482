@@ -1,0 +1,5 @@
+(define s (WordSenseNode "zone_of_interior%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "zone_of_interior")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:01::"))
+(HolonymLink s (WordSenseNode "theater_of_war%1:15:00::"))
+(HolonymLink s (WordSenseNode "theatre_of_war%1:15:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bioelectricity%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bioelectricity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "brainwave%1:19:00::") s)
+(InheritanceLink (WordSenseNode "brain_wave%1:19:00::") s)
+(InheritanceLink (WordSenseNode "cortical_potential%1:19:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "aromatic_hydrocarbon%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aromatic_hydrocarbon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrocarbon%1:27:00::"))
+(InheritanceLink (WordSenseNode "benzene%1:27:00::") s)
+(InheritanceLink (WordSenseNode "benzine%1:27:00::") s)
+(InheritanceLink (WordSenseNode "benzol%1:27:00::") s)

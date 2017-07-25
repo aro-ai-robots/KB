@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hatrack%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coatrack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rack%1:06:01::"))
+(define x (WordNode "coat_rack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rack%1:06:01::"))
+(define x (WordNode "hatrack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rack%1:06:01::"))

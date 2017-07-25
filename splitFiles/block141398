@@ -1,0 +1,8 @@
+(define s (WordSenseNode "road_sense%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "road_sense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_sense%1:09:00::"))
+(InheritanceLink s (WordSenseNode "good_sense%1:09:00::"))
+(InheritanceLink s (WordSenseNode "gumption%1:09:00::"))
+(InheritanceLink s (WordSenseNode "horse_sense%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sense%1:09:04::"))
+(InheritanceLink s (WordSenseNode "mother_wit%1:09:00::"))

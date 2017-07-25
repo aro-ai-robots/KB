@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gamut%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gamut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scale%1:10:00::"))
+(InheritanceLink s (WordSenseNode "musical_scale%1:10:00::"))

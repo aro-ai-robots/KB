@@ -1,0 +1,7 @@
+(define s (WordSenseNode "skulk%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "lurk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hide%2:39:00::"))
+(InheritanceLink s (WordSenseNode "conceal%2:39:01::"))
+(define x (WordNode "skulk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hide%2:39:00::"))
+(InheritanceLink s (WordSenseNode "conceal%2:39:01::"))

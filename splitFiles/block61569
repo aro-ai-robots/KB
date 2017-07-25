@@ -1,0 +1,5 @@
+(define s (WordSenseNode "filter%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "filter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))
+(InheritanceLink (WordSenseNode "high-pass_filter%1:06:00::") s)
+(InheritanceLink (WordSenseNode "low-pass_filter%1:06:00::") s)

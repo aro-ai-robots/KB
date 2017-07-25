@@ -1,0 +1,5 @@
+(define s (WordSenseNode "command_key%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "control_key")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "key%1:06:01::"))
+(define x (WordNode "command_key")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "key%1:06:01::"))

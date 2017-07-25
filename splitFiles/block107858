@@ -1,0 +1,5 @@
+(define s (WordSenseNode "molal_concentration%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "molality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concentration%1:07:02::"))
+(define x (WordNode "molal_concentration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concentration%1:07:02::"))

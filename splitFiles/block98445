@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lithomancy%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lithomancy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "divination%1:09:00::"))
+(InheritanceLink s (WordSenseNode "foretelling%1:09:00::"))
+(InheritanceLink s (WordSenseNode "soothsaying%1:09:00::"))
+(InheritanceLink s (WordSenseNode "fortune_telling%1:09:00::"))

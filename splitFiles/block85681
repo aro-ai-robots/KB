@@ -1,0 +1,5 @@
+(define s (WordSenseNode "inca%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Inca")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ruler%1:18:00::"))
+(InheritanceLink s (WordSenseNode "swayer%1:18:00::"))
+(InheritanceLink (WordSenseNode "Huayna_Capac%1:18:00::") s)

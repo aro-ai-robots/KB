@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fusee_drive%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fusee_drive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drive%1:06:02::"))
+(HolonymLink s (WordSenseNode "clock%1:06:00::"))
+(define x (WordNode "fusee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drive%1:06:02::"))
+(HolonymLink s (WordSenseNode "clock%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "kenyan_shilling%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kenyan_shilling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Kenyan_monetary_unit%1:23:00::"))
+(define x (WordNode "shilling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Kenyan_monetary_unit%1:23:00::"))

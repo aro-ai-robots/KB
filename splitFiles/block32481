@@ -1,0 +1,7 @@
+(define s (WordSenseNode "clock_dial%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clock_face")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "face%1:06:01::"))
+(HolonymLink s (WordSenseNode "clock%1:06:00::"))
+(define x (WordNode "clock_dial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "face%1:06:01::"))
+(HolonymLink s (WordSenseNode "clock%1:06:00::"))

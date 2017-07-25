@@ -1,0 +1,5 @@
+(define s (WordSenseNode "horatian_ode%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Horatian_ode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ode%1:10:00::"))
+(define x (WordNode "Sapphic_ode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ode%1:10:00::"))

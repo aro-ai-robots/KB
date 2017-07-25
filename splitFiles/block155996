@@ -1,0 +1,8 @@
+(define s (WordSenseNode "southerner%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Southerner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "American%1:18:00::"))
+(InheritanceLink (WordSenseNode "Confederate%1:18:02::") s)
+(InheritanceLink (WordSenseNode "good_old_boy%1:18:00::") s)
+(InheritanceLink (WordSenseNode "good_ole_boy%1:18:00::") s)
+(InheritanceLink (WordSenseNode "good_ol'_boy%1:18:00::") s)
+(HolonymLink s (WordSenseNode "South%1:15:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "metamere%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metamere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "segment%1:17:00::"))
+(define x (WordNode "somite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "segment%1:17:00::"))

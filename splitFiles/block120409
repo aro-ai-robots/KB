@@ -1,0 +1,7 @@
+(define s (WordSenseNode "parallax%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parallax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "heliocentric_parallax%1:19:00::") s)
+(InheritanceLink (WordSenseNode "annual_parallax%1:19:00::") s)
+(InheritanceLink (WordSenseNode "geocentric_parallax%1:19:00::") s)
+(InheritanceLink (WordSenseNode "diurnal_parallax%1:19:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "korean_velvet_grass%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mascarene_grass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zoysia%1:20:00::"))
+(define x (WordNode "Korean_velvet_grass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zoysia%1:20:00::"))
+(define x (WordNode "Zoysia_tenuifolia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zoysia%1:20:00::"))

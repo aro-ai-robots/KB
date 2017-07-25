@@ -1,0 +1,7 @@
+(define s (WordSenseNode "covering_fire%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fire%1:04:00::"))
+(InheritanceLink s (WordSenseNode "firing%1:04:03::"))
+(define x (WordNode "covering_fire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fire%1:04:00::"))
+(InheritanceLink s (WordSenseNode "firing%1:04:03::"))

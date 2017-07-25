@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sleep_over%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sleep_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lodge%2:42:02::"))
+(define x (WordNode "stay_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lodge%2:42:02::"))

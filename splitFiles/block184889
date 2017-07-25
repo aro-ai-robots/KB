@@ -1,0 +1,4 @@
+(define s (WordSenseNode "world_series%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "World_Series")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "series%1:11:00::"))
+(InheritanceLink s (WordSenseNode "playoff%1:11:00::"))

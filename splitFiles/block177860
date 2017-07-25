@@ -1,0 +1,4 @@
+(define s (WordSenseNode "vanishing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vanishing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disappearance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "disappearing%1:04:00::"))

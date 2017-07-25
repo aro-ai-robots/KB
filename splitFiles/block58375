@@ -1,0 +1,6 @@
+(define s (WordSenseNode "false_face%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "false_face")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mask%1:06:00::"))
+(HolonymLink s (WordSenseNode "fancy_dress%1:06:00::"))
+(HolonymLink s (WordSenseNode "masquerade%1:06:00::"))
+(HolonymLink s (WordSenseNode "masquerade_costume%1:06:00::"))

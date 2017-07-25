@@ -1,0 +1,4 @@
+(define s (WordSenseNode "amitosis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amitosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cell_division%1:22:00::"))
+(InheritanceLink s (WordSenseNode "cellular_division%1:22:00::"))

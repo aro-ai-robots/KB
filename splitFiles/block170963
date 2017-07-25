@@ -1,0 +1,5 @@
+(define s (WordSenseNode "towing_path%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "towpath")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "path%1:06:00::"))
+(define x (WordNode "towing_path")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "path%1:06:00::"))

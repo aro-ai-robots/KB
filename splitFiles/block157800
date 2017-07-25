@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spreader%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "broadcaster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_device%1:06:00::"))
+(define x (WordNode "spreader")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_device%1:06:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "medline%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "MEDLINE")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telephone_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "phone_system%1:06:00::"))

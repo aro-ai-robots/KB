@@ -1,0 +1,7 @@
+(define s (WordSenseNode "western_box_turtle%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Western_box_turtle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "box_turtle%1:05:00::"))
+(InheritanceLink s (WordSenseNode "box_tortoise%1:05:00::"))
+(define x (WordNode "Terrapene_ornata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "box_turtle%1:05:00::"))
+(InheritanceLink s (WordSenseNode "box_tortoise%1:05:00::"))

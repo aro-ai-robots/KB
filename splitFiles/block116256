@@ -1,0 +1,5 @@
+(define s (WordSenseNode "oncidium_papilio_kramerianum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Psychopsis_krameriana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butterfly_orchid%1:20:01::"))
+(define x (WordNode "Oncidium_papilio_kramerianum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butterfly_orchid%1:20:01::"))

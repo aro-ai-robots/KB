@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cultivated_rice%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cultivated_rice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rice%1:20:00::"))
+(HolonymLink (WordSenseNode "rice%1:13:00::") s)
+(define x (WordNode "Oryza_sativa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rice%1:20:00::"))
+(HolonymLink (WordSenseNode "rice%1:13:00::") s)

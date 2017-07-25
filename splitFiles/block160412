@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stop_watch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stopwatch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timer%1:06:00::"))
+(define x (WordNode "stop_watch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timer%1:06:00::"))

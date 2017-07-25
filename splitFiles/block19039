@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bolster%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bolster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pillow%1:06:00::"))
+(define x (WordNode "long_pillow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pillow%1:06:00::"))

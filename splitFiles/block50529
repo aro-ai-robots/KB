@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dry_cell%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dry_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Leclanche_cell%1:06:00::"))
+(HolonymLink s (WordSenseNode "dry_battery%1:06:00::"))

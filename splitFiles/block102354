@@ -1,0 +1,4 @@
+(define s (WordSenseNode "manhole%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "manhole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hole%1:06:00::"))
+(HolonymLink (WordSenseNode "manhole_cover%1:06:00::") s)

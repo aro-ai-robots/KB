@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lactalbumin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lactalbumin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "albumin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "albumen%1:27:00::"))

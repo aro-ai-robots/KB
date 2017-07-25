@@ -1,0 +1,7 @@
+(define s (WordSenseNode "oriel_window%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oriel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bay_window%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bow_window%1:06:00::"))
+(define x (WordNode "oriel_window")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bay_window%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bow_window%1:06:00::"))

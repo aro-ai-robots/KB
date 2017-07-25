@@ -1,0 +1,6 @@
+(define s (WordSenseNode "globe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "globe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sphere%1:06:00::"))
+(InheritanceLink s (WordSenseNode "model%1:06:00::"))
+(InheritanceLink s (WordSenseNode "simulation%1:06:00::"))
+(InheritanceLink (WordSenseNode "celestial_globe%1:06:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "integral%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "integral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "calculation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "computation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "figuring%1:09:00::"))
+(InheritanceLink s (WordSenseNode "reckoning%1:09:00::"))
+(InheritanceLink (WordSenseNode "indefinite_integral%1:09:00::") s)
+(InheritanceLink (WordSenseNode "definite_integral%1:09:00::") s)

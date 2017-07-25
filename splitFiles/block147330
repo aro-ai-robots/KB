@@ -1,0 +1,8 @@
+(define s (WordSenseNode "seasoning%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seasoning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_state%1:04:00::"))
+(InheritanceLink (WordSenseNode "salting%1:04:00::") s)
+(InheritanceLink (WordSenseNode "sweetening%1:04:00::") s)
+(HolonymLink s (WordSenseNode "cooking%1:04:00::"))
+(HolonymLink s (WordSenseNode "cookery%1:04:00::"))
+(HolonymLink s (WordSenseNode "preparation%1:04:03::"))

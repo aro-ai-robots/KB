@@ -1,0 +1,7 @@
+(define s (WordSenseNode "legionella_pneumophilia%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Legionella_pneumophilia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "bacterium%1:05:00::"))
+(define x (WordNode "legionella")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "bacterium%1:05:00::"))

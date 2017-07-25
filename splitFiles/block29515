@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chemotaxis%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chemotaxis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "taxis%1:04:00::"))
+(InheritanceLink (WordSenseNode "negative_chemotaxis%1:04:00::") s)
+(InheritanceLink (WordSenseNode "positive_chemotaxis%1:04:00::") s)

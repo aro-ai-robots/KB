@@ -1,0 +1,4 @@
+(define s (WordSenseNode "nonvoluntary%3:00:00::")) (PartOfSpeechLink s adj)
+(define x (WordNode "involuntary")) (WordSenseLink x s)
+(define x (WordNode "nonvoluntary")) (WordSenseLink x s)
+(define x (WordNode "unvoluntary")) (WordSenseLink x s)

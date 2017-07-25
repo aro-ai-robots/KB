@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fava_bean%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fava_bean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shell_bean%1:13:00::"))
+(define x (WordNode "broad_bean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shell_bean%1:13:00::"))

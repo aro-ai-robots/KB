@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gas_constant%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gas_constant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constant%1:23:00::"))
+(define x (WordNode "universal_gas_constant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constant%1:23:00::"))
+(define x (WordNode "R")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constant%1:23:00::"))

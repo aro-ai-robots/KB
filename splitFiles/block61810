@@ -1,0 +1,6 @@
+(define s (WordSenseNode "finish%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "finish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coat%2:35:00::"))
+(InheritanceLink s (WordSenseNode "surface%2:35:00::"))
+(InheritanceLink (WordSenseNode "dress%2:35:02::") s)
+(InheritanceLink (WordSenseNode "broom%2:35:01::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "psychic%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "psychic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "occultist%1:18:00::"))
+(InheritanceLink (WordSenseNode "clairvoyant%1:18:00::") s)
+(InheritanceLink (WordSenseNode "medium%1:18:00::") s)
+(InheritanceLink (WordSenseNode "spiritualist%1:18:00::") s)
+(InheritanceLink (WordSenseNode "sensitive%1:18:00::") s)
+(InheritanceLink (WordSenseNode "spirit_rapper%1:18:00::") s)

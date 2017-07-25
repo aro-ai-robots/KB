@@ -1,0 +1,3 @@
+(define s (WordSenseNode "soft_news%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "soft_news")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "news%1:10:01::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "faubourg%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "faubourg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "suburb%1:15:00::"))
+(InheritanceLink s (WordSenseNode "suburbia%1:15:00::"))
+(InheritanceLink s (WordSenseNode "suburban_area%1:15:00::"))
+(HolonymLink s (WordSenseNode "New_Orleans%1:15:00::"))

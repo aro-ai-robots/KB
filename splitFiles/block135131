@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rafter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rafter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beam%1:06:00::"))
+(define x (WordNode "balk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beam%1:06:00::"))
+(define x (WordNode "baulk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beam%1:06:00::"))

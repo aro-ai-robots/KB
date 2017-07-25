@@ -1,0 +1,7 @@
+(define s (WordSenseNode "petit_bourgeois%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "petit_bourgeois")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bourgeois%1:18:00::"))
+(InheritanceLink s (WordSenseNode "burgher%1:18:00::"))
+(HolonymLink s (WordSenseNode "petit_bourgeois%1:14:00::"))
+(HolonymLink s (WordSenseNode "petite_bourgeoisie%1:14:00::"))
+(HolonymLink s (WordSenseNode "petty_bourgeoisie%1:14:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "deal%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distribution%1:04:00::"))
+(InheritanceLink (WordSenseNode "misdeal%1:04:00::") s)
+(HolonymLink s (WordSenseNode "card_game%1:04:00::"))
+(HolonymLink s (WordSenseNode "cards%1:04:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "purchase%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purchase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acquisition%1:04:00::"))
+(InheritanceLink (WordSenseNode "redemption%1:04:00::") s)
+(InheritanceLink (WordSenseNode "repurchase%1:04:00::") s)
+(InheritanceLink (WordSenseNode "buyback%1:04:00::") s)
+(InheritanceLink (WordSenseNode "buying%1:04:00::") s)
+(InheritanceLink (WordSenseNode "purchasing%1:04:00::") s)

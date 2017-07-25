@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reassignment%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reassignment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assignment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "duty_assignment%1:04:00::"))
+(InheritanceLink (WordSenseNode "secondment%1:04:00::") s)

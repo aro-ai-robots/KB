@@ -1,0 +1,7 @@
+(define s (WordSenseNode "arrest_warrant%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bench_warrant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warrant%1:10:00::"))
+(InheritanceLink (WordSenseNode "pickup%1:10:00::") s)
+(define x (WordNode "arrest_warrant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warrant%1:10:00::"))
+(InheritanceLink (WordSenseNode "pickup%1:10:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "true_sago_palm%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "true_sago_palm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sago_palm%1:20:01::"))
+(define x (WordNode "Metroxylon_sagu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sago_palm%1:20:01::"))

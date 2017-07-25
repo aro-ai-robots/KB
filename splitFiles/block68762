@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_browallia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Browallia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "asterid_dicot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Solanaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Solanaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "potato_family%1:20:00::"))
+(HolonymLink (WordSenseNode "bush_violet%1:20:00::") s)
+(HolonymLink (WordSenseNode "browallia%1:20:00::") s)

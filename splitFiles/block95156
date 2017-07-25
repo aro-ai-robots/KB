@@ -1,0 +1,7 @@
+(define s (WordSenseNode "latex%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "latex_paint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-base_paint%1:06:00::"))
+(define x (WordNode "latex")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-base_paint%1:06:00::"))
+(define x (WordNode "rubber-base_paint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-base_paint%1:06:00::"))

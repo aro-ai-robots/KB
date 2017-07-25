@@ -1,0 +1,4 @@
+(define s (WordSenseNode "filing%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "filing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "shaping%1:04:00::"))

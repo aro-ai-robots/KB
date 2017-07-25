@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lipase%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lipase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enzyme%1:27:00::"))
+(HolonymLink s (WordSenseNode "gastric_juice%1:08:00::"))
+(HolonymLink s (WordSenseNode "gastric_acid%1:08:00::"))

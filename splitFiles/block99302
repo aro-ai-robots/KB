@@ -1,0 +1,7 @@
+(define s (WordSenseNode "longanimity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "patience")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "good_nature%1:07:00::"))
+(define x (WordNode "forbearance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "good_nature%1:07:00::"))
+(define x (WordNode "longanimity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "good_nature%1:07:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "newspaper_critic%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "newspaper_critic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "critic%1:18:00::"))
+(InheritanceLink s (WordSenseNode "newspaper_columnist%1:18:00::"))

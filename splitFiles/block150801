@@ -1,0 +1,5 @@
+(define s (WordSenseNode "short_shrift%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "short_shrift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rejection%1:10:00::"))
+(define x (WordNode "summary_treatment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rejection%1:10:00::"))

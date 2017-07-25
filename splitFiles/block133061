@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pumpkin_seed%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pumpkin_seed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edible_seed%1:13:00::"))
+(HolonymLink s (WordSenseNode "pumpkin%1:20:00::"))
+(HolonymLink s (WordSenseNode "pumpkin_vine%1:20:00::"))
+(HolonymLink s (WordSenseNode "autumn_pumpkin%1:20:00::"))
+(HolonymLink s (WordSenseNode "Cucurbita_pepo%1:20:00::"))

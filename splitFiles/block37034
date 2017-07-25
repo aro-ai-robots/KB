@@ -1,0 +1,4 @@
+(define s (WordSenseNode "continuum%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "continuum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time%1:03:00::"))
+(InheritanceLink (WordSenseNode "history%1:28:02::") s)

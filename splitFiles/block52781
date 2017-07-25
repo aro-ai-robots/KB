@@ -1,0 +1,5 @@
+(define s (WordSenseNode "electrical_elastance%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elastance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_phenomenon%1:19:00::"))
+(define x (WordNode "electrical_elastance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_phenomenon%1:19:00::"))

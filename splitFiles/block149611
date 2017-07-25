@@ -1,0 +1,8 @@
+(define s (WordSenseNode "shaft%1:06:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shaft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passageway%1:06:00::"))
+(InheritanceLink (WordSenseNode "elevator_shaft%1:06:00::") s)
+(InheritanceLink (WordSenseNode "ventilation_shaft%1:06:00::") s)
+(InheritanceLink (WordSenseNode "well%1:06:02::") s)
+(HolonymLink s (WordSenseNode "building%1:06:00::"))
+(HolonymLink s (WordSenseNode "edifice%1:06:00::"))

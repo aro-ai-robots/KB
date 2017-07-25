@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rearrange%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rearrange")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arrange%2:35:00::"))
+(InheritanceLink s (WordSenseNode "set_up%2:35:00::"))
+(InheritanceLink (WordSenseNode "recode%2:30:00::") s)
+(InheritanceLink (WordSenseNode "reshuffle%2:30:01::") s)

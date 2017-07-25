@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tapster%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tapster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "publican%1:18:00::"))
+(InheritanceLink s (WordSenseNode "tavern_keeper%1:18:00::"))
+(define x (WordNode "tapper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "publican%1:18:00::"))
+(InheritanceLink s (WordSenseNode "tavern_keeper%1:18:00::"))

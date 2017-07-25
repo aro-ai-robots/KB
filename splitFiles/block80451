@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hierarchy%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hierarchy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "series%1:14:00::"))
+(InheritanceLink (WordSenseNode "celestial_hierarchy%1:14:00::") s)
+(InheritanceLink (WordSenseNode "data_hierarchy%1:14:00::") s)
+(InheritanceLink (WordSenseNode "taxonomy%1:14:00::") s)
+(HolonymLink s (WordSenseNode "system%1:14:00::"))
+(HolonymLink s (WordSenseNode "scheme%1:14:00::"))

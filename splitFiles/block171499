@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transdermic%3:01:00::")) (PartOfSpeechLink s adj)
+(define x (WordNode "transdermal")) (WordSenseLink x s)
+(define x (WordNode "transdermic")) (WordSenseLink x s)
+(define x (WordNode "percutaneous")) (WordSenseLink x s)
+(define x (WordNode "transcutaneous")) (WordSenseLink x s)

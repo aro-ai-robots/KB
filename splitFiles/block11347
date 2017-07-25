@@ -1,0 +1,6 @@
+(define s (WordSenseNode "augustinian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Augustinian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "friar%1:18:00::"))
+(InheritanceLink s (WordSenseNode "mendicant%1:18:01::"))
+(InheritanceLink (WordSenseNode "Austin_Friar%1:18:00::") s)
+(HolonymLink s (WordSenseNode "Augustinian_order%1:14:00::"))

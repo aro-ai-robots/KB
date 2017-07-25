@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bubblejet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bubble_jet_printer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ink-jet_printer%1:06:00::"))
+(define x (WordNode "bubble-jet_printer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ink-jet_printer%1:06:00::"))
+(define x (WordNode "bubblejet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ink-jet_printer%1:06:00::"))

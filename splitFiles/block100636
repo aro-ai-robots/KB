@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lymphocytic_leukemia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lymphocytic_leukemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leukemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "leukaemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "leucaemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "cancer_of_the_blood%1:26:00::"))
+(InheritanceLink (WordSenseNode "lymphoblastic_leukemia%1:26:00::") s)

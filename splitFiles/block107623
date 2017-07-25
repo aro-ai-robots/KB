@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mod%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adolescent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "stripling%1:18:00::"))
+(InheritanceLink s (WordSenseNode "teenager%1:18:00::"))
+(InheritanceLink s (WordSenseNode "teen%1:18:00::"))
+(HolonymLink s (WordSenseNode "mods%1:14:00::"))

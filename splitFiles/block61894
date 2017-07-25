@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fire-worship%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pyrolatry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))
+(define x (WordNode "fire-worship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))

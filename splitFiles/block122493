@@ -1,0 +1,5 @@
+(define s (WordSenseNode "penni%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "penni")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Finnish_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "markka%1:23:00::"))
+(HolonymLink s (WordSenseNode "Finnish_mark%1:23:00::"))

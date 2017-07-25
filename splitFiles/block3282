@@ -1,0 +1,5 @@
+(define s (WordSenseNode "agoraphobia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "agoraphobia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phobia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "phobic_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "phobic_neurosis%1:26:00::"))

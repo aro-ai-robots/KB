@@ -1,0 +1,8 @@
+(define s (WordSenseNode "textile_machine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "textile_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:00::"))
+(InheritanceLink (WordSenseNode "knitting_machine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "loom%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sewing_machine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "spinning_machine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "willow%1:06:00::") s)

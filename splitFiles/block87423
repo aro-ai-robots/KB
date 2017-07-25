@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inside%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inside")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface%1:15:00::"))
+(InheritanceLink (WordSenseNode "belly%1:15:00::") s)
+(define x (WordNode "interior")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface%1:15:00::"))
+(InheritanceLink (WordSenseNode "belly%1:15:00::") s)

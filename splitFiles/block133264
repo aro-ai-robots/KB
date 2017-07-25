@@ -1,0 +1,5 @@
+(define s (WordSenseNode "purification%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "purge%1:04:01::"))
+(InheritanceLink s (WordSenseNode "purging%1:04:01::"))
+(InheritanceLink s (WordSenseNode "purgation%1:04:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chemist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chemist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scientist%1:18:00::"))
+(InheritanceLink (WordSenseNode "biochemist%1:18:00::") s)
+(InheritanceLink (WordSenseNode "nuclear_chemist%1:18:00::") s)
+(InheritanceLink (WordSenseNode "radiochemist%1:18:00::") s)
+(InheritanceLink (WordSenseNode "phytochemist%1:18:00::") s)

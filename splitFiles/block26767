@@ -1,0 +1,6 @@
+(define s (WordSenseNode "caste%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caste")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "class%1:14:01::"))
+(InheritanceLink s (WordSenseNode "stratum%1:14:00::"))
+(InheritanceLink s (WordSenseNode "social_class%1:14:00::"))
+(InheritanceLink s (WordSenseNode "socio-economic_class%1:14:00::"))

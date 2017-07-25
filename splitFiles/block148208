@@ -1,0 +1,5 @@
+(define s (WordSenseNode "selfsameness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "selfsameness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "identity%1:07:02::"))
+(InheritanceLink s (WordSenseNode "identicalness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "indistinguishability%1:07:00::"))

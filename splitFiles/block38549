@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cotton_cake%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cottonseed_cake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "residue%1:27:00::"))
+(define x (WordNode "cotton_cake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "residue%1:27:00::"))

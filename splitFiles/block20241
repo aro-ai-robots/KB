@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bracket%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bracket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "set%1:14:00::"))
+(InheritanceLink (WordSenseNode "income_bracket%1:14:00::") s)
+(InheritanceLink (WordSenseNode "tax_bracket%1:14:00::") s)
+(InheritanceLink (WordSenseNode "income_tax_bracket%1:14:00::") s)
+(InheritanceLink (WordSenseNode "price_bracket%1:14:00::") s)

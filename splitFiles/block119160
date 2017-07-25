@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ozone%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ozone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gas%1:27:00::"))
+(HolonymLink (WordSenseNode "oxygen%1:27:00::") s)
+(HolonymLink (WordSenseNode "O%1:27:00::") s)
+(HolonymLink (WordSenseNode "atomic_number_8%1:27:00::") s)

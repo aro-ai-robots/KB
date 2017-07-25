@@ -1,0 +1,4 @@
+(define s (WordSenseNode "wrestling_mat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wrestling_mat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mat%1:06:02::"))
+(InheritanceLink s (WordSenseNode "gym_mat%1:06:00::"))

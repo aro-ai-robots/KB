@@ -1,0 +1,5 @@
+(define s (WordSenseNode "modeller%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "modeler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creator%1:18:00::"))
+(define x (WordNode "modeller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creator%1:18:00::"))

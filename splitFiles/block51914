@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ecstatic_state%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "religious_trance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trance%1:09:00::"))
+(define x (WordNode "ecstatic_state")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trance%1:09:00::"))

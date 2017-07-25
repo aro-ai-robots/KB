@@ -1,0 +1,8 @@
+(define s (WordSenseNode "decision%1:11:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decision")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "result%1:11:00::"))
+(InheritanceLink s (WordSenseNode "resultant%1:11:00::"))
+(InheritanceLink s (WordSenseNode "final_result%1:11:00::"))
+(InheritanceLink s (WordSenseNode "outcome%1:11:00::"))
+(InheritanceLink s (WordSenseNode "termination%1:11:00::"))
+(InheritanceLink (WordSenseNode "split_decision%1:11:00::") s)

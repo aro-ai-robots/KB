@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fox_grape%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fox_grape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slipskin_grape%1:13:00::"))
+(InheritanceLink (WordSenseNode "Concord_grape%1:13:00::") s)
+(InheritanceLink (WordSenseNode "Catawba%1:13:00::") s)
+(HolonymLink s (WordSenseNode "fox_grape%1:20:00::"))
+(HolonymLink s (WordSenseNode "Vitis_labrusca%1:20:00::"))

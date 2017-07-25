@@ -1,0 +1,7 @@
+(define s (WordSenseNode "toy_manchester_terrier%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toy_Manchester")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Manchester_terrier%1:05:00::"))
+(InheritanceLink s (WordSenseNode "black-and-tan_terrier%1:05:00::"))
+(define x (WordNode "toy_Manchester_terrier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Manchester_terrier%1:05:00::"))
+(InheritanceLink s (WordSenseNode "black-and-tan_terrier%1:05:00::"))

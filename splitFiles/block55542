@@ -1,0 +1,5 @@
+(define s (WordSenseNode "esop%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "employee_stock_ownership_plan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stock_purchase_plan%1:09:00::"))
+(define x (WordNode "ESOP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stock_purchase_plan%1:09:00::"))

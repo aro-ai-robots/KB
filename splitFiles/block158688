@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stamp%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "class%1:14:00::"))
+(InheritanceLink s (WordSenseNode "category%1:14:00::"))
+(InheritanceLink s (WordSenseNode "family%1:14:04::"))

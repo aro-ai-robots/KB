@@ -1,0 +1,7 @@
+(define s (WordSenseNode "international_wanted_notice%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "International_Wanted_Notice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wanted_notice%1:10:00::"))
+(InheritanceLink s (WordSenseNode "wanted_poster%1:10:00::"))
+(define x (WordNode "Red_Notice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wanted_notice%1:10:00::"))
+(InheritanceLink s (WordSenseNode "wanted_poster%1:10:00::"))

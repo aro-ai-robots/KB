@@ -1,0 +1,7 @@
+(define s (WordSenseNode "identikit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Identikit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "likeness%1:06:00::"))
+(InheritanceLink s (WordSenseNode "semblance%1:06:00::"))
+(define x (WordNode "Identikit_picture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "likeness%1:06:00::"))
+(InheritanceLink s (WordSenseNode "semblance%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "recreant%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "poltroon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coward%1:18:00::"))
+(define x (WordNode "craven")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coward%1:18:00::"))
+(define x (WordNode "recreant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coward%1:18:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gradable_opposition%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gradable_opposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opposition%1:24:02::"))
+(InheritanceLink s (WordSenseNode "oppositeness%1:24:00::"))
+(InheritanceLink (WordSenseNode "polar_opposition%1:24:00::") s)

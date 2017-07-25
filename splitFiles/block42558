@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dare%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "defy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "challenge%2:32:00::"))
+(InheritanceLink (WordSenseNode "brazen%2:32:00::") s)
+(define x (WordNode "dare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "challenge%2:32:00::"))
+(InheritanceLink (WordSenseNode "brazen%2:32:00::") s)

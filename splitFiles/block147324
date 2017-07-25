@@ -1,0 +1,5 @@
+(define s (WordSenseNode "seasonal_worker%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seasonal_worker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))
+(define x (WordNode "seasonal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thalidomide%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thalidomide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sedative-hypnotic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sedative-hypnotic_drug%1:06:00::"))
+(InheritanceLink s (WordSenseNode "teratogen%1:17:00::"))

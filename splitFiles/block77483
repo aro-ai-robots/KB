@@ -1,0 +1,6 @@
+(define s (WordSenseNode "halo%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "halo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atmospheric_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "solar_halo%1:19:00::") s)
+(InheritanceLink (WordSenseNode "parhelic_circle%1:19:00::") s)
+(InheritanceLink (WordSenseNode "parhelic_ring%1:19:00::") s)

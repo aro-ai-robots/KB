@@ -1,0 +1,4 @@
+(define s (WordSenseNode "periodic_table%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "periodic_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:14:00::"))
+(InheritanceLink s (WordSenseNode "tabular_array%1:14:00::"))

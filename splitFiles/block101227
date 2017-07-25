@@ -1,0 +1,8 @@
+(define s (WordSenseNode "magnetic_recorder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magnetic_recorder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recorder%1:06:01::"))
+(InheritanceLink s (WordSenseNode "recording_equipment%1:06:00::"))
+(InheritanceLink s (WordSenseNode "recording_machine%1:06:00::"))
+(InheritanceLink (WordSenseNode "tape_recorder%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tape_machine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "wire_recorder%1:06:00::") s)

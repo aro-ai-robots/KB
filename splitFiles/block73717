@@ -1,0 +1,4 @@
+(define s (WordSenseNode "go_off%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "go_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:00::"))
+(InheritanceLink s (WordSenseNode "halt%2:38:01::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "chain_reaction%1:22:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chain_reaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_reaction%1:22:00::"))
+(InheritanceLink s (WordSenseNode "reaction%1:22:00::"))

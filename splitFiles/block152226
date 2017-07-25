@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sink%2:38:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:38:01::"))
+(InheritanceLink s (WordSenseNode "displace%2:38:02::"))
+(InheritanceLink (WordSenseNode "settle%2:38:02::") s)

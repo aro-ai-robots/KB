@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aldol%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aldol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "acetaldol%1:27:00::") s)
+(define x (WordNode "aldehyde-alcohol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "acetaldol%1:27:00::") s)

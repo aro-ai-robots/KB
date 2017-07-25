@@ -1,0 +1,8 @@
+(define s (WordSenseNode "enterovirus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enterovirus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "picornavirus%1:05:00::"))
+(InheritanceLink (WordSenseNode "poliovirus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "hepatitis_A_virus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "coxsackievirus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Coxsackie_virus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "echovirus%1:05:00::") s)

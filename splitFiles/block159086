@@ -1,0 +1,7 @@
+(define s (WordSenseNode "state%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "state")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "government%1:14:00::"))
+(InheritanceLink s (WordSenseNode "authorities%1:14:00::"))
+(InheritanceLink s (WordSenseNode "regime%1:14:00::"))
+(InheritanceLink (WordSenseNode "Soviets%1:14:00::") s)
+(InheritanceLink (WordSenseNode "welfare_state%1:14:00::") s)

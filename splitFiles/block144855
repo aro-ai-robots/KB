@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sanitary_napkin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sanitary_napkin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pad%1:06:00::"))
+(define x (WordNode "sanitary_towel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pad%1:06:00::"))
+(define x (WordNode "Kotex")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pad%1:06:00::"))

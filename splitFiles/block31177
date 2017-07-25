@@ -1,0 +1,7 @@
+(define s (WordSenseNode "circle_of_willis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circle_of_Willis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artery%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arteria%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arterial_blood_vessel%1:08:00::"))
+(HolonymLink s (WordSenseNode "brain%1:08:00::"))
+(HolonymLink s (WordSenseNode "encephalon%1:08:00::"))

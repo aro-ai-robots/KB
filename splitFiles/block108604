@@ -1,0 +1,5 @@
+(define s (WordSenseNode "moraine%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moraine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "earth%1:27:00::"))
+(InheritanceLink s (WordSenseNode "ground%1:27:00::"))
+(HolonymLink s (WordSenseNode "glacier%1:17:00::"))

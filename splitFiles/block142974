@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ruga%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ruga")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fold%1:08:00::"))
+(InheritanceLink s (WordSenseNode "plica%1:08:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nafta%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "North_American_Free_Trade_Agreement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "free_trade%1:04:00::"))
+(define x (WordNode "NAFTA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "free_trade%1:04:00::"))

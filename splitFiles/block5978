@@ -1,0 +1,8 @@
+(define s (WordSenseNode "analyst%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "analyst")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expert%1:18:00::"))
+(InheritanceLink (WordSenseNode "credit_analyst%1:18:00::") s)
+(InheritanceLink (WordSenseNode "financial_analyst%1:18:00::") s)
+(InheritanceLink (WordSenseNode "securities_analyst%1:18:00::") s)
+(InheritanceLink (WordSenseNode "industry_analyst%1:18:00::") s)
+(InheritanceLink (WordSenseNode "market_analyst%1:18:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "interstitial_fluid%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interstitial_fluid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "extracellular_fluid%1:08:00::"))
+(InheritanceLink s (WordSenseNode "ECF%1:08:00::"))

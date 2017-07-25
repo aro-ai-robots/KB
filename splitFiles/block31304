@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cirrocumulus%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cirrocumulus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:17:00::"))
+(define x (WordNode "cirrocumulus_cloud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:17:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spinal_tap%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lumbar_puncture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centesis%1:04:00::"))
+(define x (WordNode "spinal_puncture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centesis%1:04:00::"))
+(define x (WordNode "spinal_tap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centesis%1:04:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hang%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(InheritanceLink (WordSenseNode "brood%2:42:01::") s)
+(InheritanceLink (WordSenseNode "hover%2:42:05::") s)
+(InheritanceLink (WordSenseNode "loom%2:42:06::") s)
+(InheritanceLink (WordSenseNode "bulk_large%2:42:00::") s)

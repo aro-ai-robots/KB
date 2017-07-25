@@ -1,0 +1,6 @@
+(define s (WordSenseNode "nostalgia%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nostalgia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "longing%1:12:00::"))
+(InheritanceLink s (WordSenseNode "yearning%1:12:00::"))
+(InheritanceLink s (WordSenseNode "hungriness%1:12:00::"))
+(InheritanceLink (WordSenseNode "homesickness%1:12:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "carbonation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carbonation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "permeation%1:22:00::"))
+(InheritanceLink s (WordSenseNode "pervasion%1:22:00::"))
+(InheritanceLink s (WordSenseNode "suffusion%1:22:00::"))

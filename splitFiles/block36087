@@ -1,0 +1,4 @@
+(define s (WordSenseNode "confirmation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "confirmation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_ceremony%1:04:00::"))
+(InheritanceLink s (WordSenseNode "religious_ritual%1:04:00::"))

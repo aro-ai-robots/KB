@@ -1,0 +1,7 @@
+(define s (WordSenseNode "toxic_shock%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toxic_shock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "syndrome%1:26:00::"))
+(define x (WordNode "toxic_shock_syndrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "syndrome%1:26:00::"))
+(define x (WordNode "TSS")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "syndrome%1:26:00::"))

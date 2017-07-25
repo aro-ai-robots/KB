@@ -1,0 +1,5 @@
+(define s (WordSenseNode "radiolarian%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radiolarian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "actinopod%1:05:00::"))
+(HolonymLink s (WordSenseNode "Radiolaria%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Radiolaria%1:05:00::"))

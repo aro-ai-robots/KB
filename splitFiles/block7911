@@ -1,0 +1,5 @@
+(define s (WordSenseNode "appeal%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "appeal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proceeding%1:04:00::"))
+(InheritanceLink s (WordSenseNode "legal_proceeding%1:04:00::"))
+(InheritanceLink s (WordSenseNode "proceedings%1:04:00::"))

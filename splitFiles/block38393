@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cosmic_dust%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cosmic_dust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:19:01::"))
+(HolonymLink s (WordSenseNode "galaxy%1:14:00::"))
+(HolonymLink s (WordSenseNode "extragalactic_nebula%1:14:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cholecystokinin%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cholecystokinin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gastrointestinal_hormone%1:08:00::"))
+(InheritanceLink s (WordSenseNode "GI_hormones%1:08:00::"))

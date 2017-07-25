@@ -1,0 +1,6 @@
+(define s (WordSenseNode "dig%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dent%1:07:00::"))
+(InheritanceLink s (WordSenseNode "ding%1:07:00::"))
+(InheritanceLink s (WordSenseNode "gouge%1:07:00::"))
+(InheritanceLink s (WordSenseNode "nick%1:07:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "etiquette%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "etiquette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%1:10:00::"))
+(InheritanceLink s (WordSenseNode "prescript%1:10:00::"))
+(InheritanceLink (WordSenseNode "protocol%1:10:00::") s)
+(InheritanceLink (WordSenseNode "punctilio%1:10:00::") s)

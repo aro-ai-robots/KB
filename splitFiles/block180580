@@ -1,0 +1,7 @@
+(define s (WordSenseNode "walkie-talkie%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "walkie-talkie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radio_link%1:06:00::"))
+(InheritanceLink s (WordSenseNode "link%1:06:02::"))
+(define x (WordNode "walky-talky")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radio_link%1:06:00::"))
+(InheritanceLink s (WordSenseNode "link%1:06:02::"))

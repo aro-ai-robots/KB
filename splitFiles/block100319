@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lunar_year%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lunar_year")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "year%1:28:00::"))
+(HolonymLink (WordSenseNode "lunar_month%1:28:00::") s)
+(HolonymLink (WordSenseNode "moon%1:28:00::") s)
+(HolonymLink (WordSenseNode "lunation%1:28:00::") s)
+(HolonymLink (WordSenseNode "synodic_month%1:28:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "oxonian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Oxonian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "English_person%1:18:00::"))
+(HolonymLink s (WordSenseNode "Oxford%1:15:00::"))

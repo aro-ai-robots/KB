@@ -1,0 +1,7 @@
+(define s (WordSenseNode "forbear%2:42:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "forbear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refrain%2:42:00::"))
+(InheritanceLink s (WordSenseNode "forbear%2:42:00::"))
+(define x (WordNode "hold_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refrain%2:42:00::"))
+(InheritanceLink s (WordSenseNode "forbear%2:42:00::"))

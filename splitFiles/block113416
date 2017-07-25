@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nomination%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nominating_speech")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oratory%1:10:00::"))
+(define x (WordNode "nominating_address")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oratory%1:10:00::"))
+(define x (WordNode "nomination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oratory%1:10:00::"))

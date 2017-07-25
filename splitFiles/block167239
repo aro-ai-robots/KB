@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tentorium%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tentorium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fold%1:08:00::"))
+(InheritanceLink s (WordSenseNode "plica%1:08:00::"))
+(HolonymLink (WordSenseNode "dura_mater%1:08:00::") s)
+(HolonymLink (WordSenseNode "dura%1:08:00::") s)

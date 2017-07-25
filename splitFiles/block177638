@@ -1,0 +1,4 @@
+(define s (WordSenseNode "valence_electron%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "valence_electron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electron%1:17:00::"))
+(InheritanceLink s (WordSenseNode "negatron%1:17:00::"))

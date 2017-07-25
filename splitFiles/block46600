@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dime%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dime_bag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deck%1:06:01::"))
+(define x (WordNode "dime")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deck%1:06:01::"))

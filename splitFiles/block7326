@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antielectron%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "positron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antilepton%1:17:00::"))
+(define x (WordNode "antielectron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antilepton%1:17:00::"))

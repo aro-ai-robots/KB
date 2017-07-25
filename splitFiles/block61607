@@ -1,0 +1,5 @@
+(define s (WordSenseNode "final%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "final")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "match%1:11:00::"))
+(InheritanceLink (WordSenseNode "cup_final%1:11:00::") s)
+(HolonymLink s (WordSenseNode "elimination_tournament%1:11:00::"))

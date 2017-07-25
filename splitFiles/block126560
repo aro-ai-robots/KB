@@ -1,0 +1,8 @@
+(define s (WordSenseNode "play%2:33:13::")) (PartOfSpeechLink s verb)
+(define x (WordNode "play")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "use%2:34:01::"))
+(InheritanceLink s (WordSenseNode "utilize%2:34:00::"))
+(InheritanceLink s (WordSenseNode "utilise%2:34:00::"))
+(InheritanceLink s (WordSenseNode "apply%2:34:00::"))
+(InheritanceLink s (WordSenseNode "employ%2:34:00::"))
+(InheritanceLink (WordSenseNode "promote%2:33:00::") s)

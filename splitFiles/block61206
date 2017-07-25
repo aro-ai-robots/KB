@@ -1,0 +1,7 @@
+(define s (WordSenseNode "field_mint%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "corn_mint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mint%1:20:00::"))
+(define x (WordNode "field_mint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mint%1:20:00::"))
+(define x (WordNode "Mentha_arvensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mint%1:20:00::"))

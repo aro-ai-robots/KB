@@ -1,0 +1,7 @@
+(define s (WordSenseNode "good_speller%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "speller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:01::"))
+(define x (WordNode "good_speller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:01::"))
+(define x (WordNode "poor_speller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:01::"))

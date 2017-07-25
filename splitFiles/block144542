@@ -1,0 +1,3 @@
+(define s (WordSenseNode "samba%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "samba")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dance_music%1:10:00::"))

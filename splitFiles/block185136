@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wrist_band%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wristlet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:06:00::"))
+(define x (WordNode "wrist_band")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:06:00::"))

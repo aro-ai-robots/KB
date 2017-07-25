@@ -1,0 +1,3 @@
+(define s (WordSenseNode "window_seat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "window_seat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bench%1:06:00::"))

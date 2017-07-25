@@ -1,0 +1,7 @@
+(define s (WordSenseNode "energid%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "energid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_part%1:08:00::"))
+(HolonymLink s (WordSenseNode "cell%1:03:00::"))
+(define x (WordNode "protoplast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_part%1:08:00::"))
+(HolonymLink s (WordSenseNode "cell%1:03:00::"))

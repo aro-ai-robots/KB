@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rearward%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rearward")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rear%1:15:00::"))
+(InheritanceLink s (WordSenseNode "backside%1:15:00::"))
+(InheritanceLink s (WordSenseNode "back_end%1:15:00::"))

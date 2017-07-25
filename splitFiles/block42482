@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dangling_participle%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dangling_participle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dangling_modifier%1:10:00::"))
+(InheritanceLink s (WordSenseNode "misplaced_modifier%1:10:00::"))

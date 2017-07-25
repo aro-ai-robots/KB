@@ -1,0 +1,7 @@
+(define s (WordSenseNode "anachronism%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anachronism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timekeeping%1:28:00::"))
+(define x (WordNode "mistiming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timekeeping%1:28:00::"))
+(define x (WordNode "misdating")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timekeeping%1:28:00::"))

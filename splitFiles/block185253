@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wrought_iron%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wrought_iron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "iron%1:27:00::"))
+(InheritanceLink s (WordSenseNode "Fe%1:27:00::"))
+(InheritanceLink s (WordSenseNode "atomic_number_26%1:27:00::"))
+(InheritanceLink (WordSenseNode "Swedish_iron%1:27:00::") s)
+(HolonymLink (WordSenseNode "pig_iron%1:27:00::") s)

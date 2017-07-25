@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trip%1:11:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "experience%1:11:00::"))
+(define x (WordNode "head_trip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "experience%1:11:00::"))

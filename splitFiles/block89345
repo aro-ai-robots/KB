@@ -1,0 +1,5 @@
+(define s (WordSenseNode "isobutylene%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "isobutylene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butylene%1:27:00::"))
+(InheritanceLink s (WordSenseNode "butene%1:27:00::"))
+(HolonymLink s (WordSenseNode "butyl%1:27:00::"))

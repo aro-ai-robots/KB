@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hoarding%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "billboard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "signboard%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sign%1:06:01::"))
+(define x (WordNode "hoarding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "signboard%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sign%1:06:01::"))

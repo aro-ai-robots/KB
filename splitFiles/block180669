@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wallow%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wallow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "axial_rotation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "axial_motion%1:11:00::"))
+(InheritanceLink s (WordSenseNode "roll%1:11:02::"))

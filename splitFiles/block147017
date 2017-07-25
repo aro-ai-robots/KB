@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scute%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scute")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protective_covering%1:05:00::"))
+(InheritanceLink (WordSenseNode "carapace%1:05:00::") s)
+(InheritanceLink (WordSenseNode "shell%1:05:02::") s)
+(InheritanceLink (WordSenseNode "cuticle%1:05:00::") s)
+(InheritanceLink (WordSenseNode "shield%1:05:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "linkage%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "linkage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inheritance%1:07:02::"))
+(InheritanceLink s (WordSenseNode "hereditary_pattern%1:07:00::"))
+(define x (WordNode "gene_linkage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inheritance%1:07:02::"))
+(InheritanceLink s (WordSenseNode "hereditary_pattern%1:07:00::"))

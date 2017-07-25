@@ -1,0 +1,5 @@
+(define s (WordSenseNode "businessmen%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "businessmen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "profession%1:14:00::"))
+(define x (WordNode "business_community")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "profession%1:14:00::"))

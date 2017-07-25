@@ -1,0 +1,7 @@
+(define s (WordSenseNode "incidental%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "incidental_expense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expense%1:21:01::"))
+(define x (WordNode "incidental")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expense%1:21:01::"))
+(define x (WordNode "minor_expense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expense%1:21:01::"))

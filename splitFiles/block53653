@@ -1,0 +1,7 @@
+(define s (WordSenseNode "emulsifier%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "emulsifier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wetting_agent%1:27:00::"))
+(InheritanceLink s (WordSenseNode "wetter%1:27:00::"))
+(InheritanceLink s (WordSenseNode "surfactant%1:27:00::"))
+(InheritanceLink s (WordSenseNode "surface-active_agent%1:27:00::"))
+(InheritanceLink (WordSenseNode "lecithin%1:27:00::") s)

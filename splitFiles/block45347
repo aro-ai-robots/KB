@@ -1,0 +1,6 @@
+(define s (WordSenseNode "desmodus_rotundus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Desmodus_rotundus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vampire_bat%1:05:00::"))
+(InheritanceLink s (WordSenseNode "true_vampire_bat%1:05:00::"))
+(HolonymLink s (WordSenseNode "Desmodus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Desmodus%1:05:00::"))

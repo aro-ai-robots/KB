@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lieutenant_junior_grade%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lieutenant_junior_grade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commissioned_naval_officer%1:18:00::"))
+(define x (WordNode "lieutenant_JG")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commissioned_naval_officer%1:18:00::"))

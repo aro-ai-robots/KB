@@ -1,0 +1,7 @@
+(define s (WordSenseNode "meeting_of_minds%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concurrence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agreement%1:26:01::"))
+(InheritanceLink s (WordSenseNode "accord%1:26:00::"))
+(define x (WordNode "meeting_of_minds")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agreement%1:26:01::"))
+(InheritanceLink s (WordSenseNode "accord%1:26:00::"))

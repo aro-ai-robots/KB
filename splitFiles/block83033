@@ -1,0 +1,6 @@
+(define s (WordSenseNode "humic_substance%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "humic_substance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "fulvic_acid%1:27:00::") s)
+(InheritanceLink (WordSenseNode "humic_acid%1:27:00::") s)
+(InheritanceLink (WordSenseNode "humin%1:27:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "inspiration%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inspiration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intuition%1:09:00::"))
+(HolonymLink s (WordSenseNode "problem_solving%1:09:00::"))

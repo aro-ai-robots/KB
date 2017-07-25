@@ -1,0 +1,5 @@
+(define s (WordSenseNode "eclat%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pomp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elegance%1:07:00::"))
+(define x (WordNode "eclat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elegance%1:07:00::"))

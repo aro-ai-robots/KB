@@ -1,0 +1,5 @@
+(define s (WordSenseNode "background_level%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "noise_level")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amplitude%1:07:01::"))
+(define x (WordNode "background_level")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amplitude%1:07:01::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "spasm%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spasm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constriction%1:04:00::"))
+(InheritanceLink (WordSenseNode "bronchospasm%1:04:00::") s)
+(InheritanceLink (WordSenseNode "cardiospasm%1:04:00::") s)
+(InheritanceLink (WordSenseNode "heave%1:04:03::") s)
+(InheritanceLink (WordSenseNode "retch%1:04:00::") s)
+(InheritanceLink (WordSenseNode "laryngismus%1:04:00::") s)

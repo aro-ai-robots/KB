@@ -1,0 +1,7 @@
+(define s (WordSenseNode "alto_saxophonist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alto_saxophonist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saxophonist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "saxist%1:18:00::"))
+(define x (WordNode "altoist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saxophonist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "saxist%1:18:00::"))

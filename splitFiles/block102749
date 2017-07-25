@@ -1,0 +1,5 @@
+(define s (WordSenseNode "march%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Master_of_Architecture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "master's_degree%1:10:00::"))
+(define x (WordNode "MArch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "master's_degree%1:10:00::"))

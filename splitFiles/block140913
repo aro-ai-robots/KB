@@ -1,0 +1,5 @@
+(define s (WordSenseNode "right_atrioventricular_valve%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tricuspid_valve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atrioventricular_valve%1:08:00::"))
+(define x (WordNode "right_atrioventricular_valve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atrioventricular_valve%1:08:00::"))

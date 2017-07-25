@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mouthwash%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gargle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solution%1:27:00::"))
+(define x (WordNode "mouthwash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solution%1:27:00::"))

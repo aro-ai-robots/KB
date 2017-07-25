@@ -1,0 +1,7 @@
+(define s (WordSenseNode "compulsion%1:16:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compulsion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irrational_motive%1:16:00::"))
+(InheritanceLink (WordSenseNode "onomatomania%1:16:00::") s)
+(define x (WordNode "obsession")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irrational_motive%1:16:00::"))
+(InheritanceLink (WordSenseNode "onomatomania%1:16:00::") s)

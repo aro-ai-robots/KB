@@ -1,0 +1,5 @@
+(define s (WordSenseNode "international_ampere%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ampere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "current_unit%1:23:00::"))
+(define x (WordNode "international_ampere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "current_unit%1:23:00::"))

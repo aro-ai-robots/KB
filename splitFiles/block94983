@@ -1,0 +1,3 @@
+(define s (WordSenseNode "laser_printer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laser_printer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrostatic_printer%1:06:00::"))

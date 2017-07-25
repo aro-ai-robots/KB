@@ -1,0 +1,5 @@
+(define s (WordSenseNode "swiss_roll%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jellyroll")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sponge_cake%1:13:00::"))
+(define x (WordNode "Swiss_roll")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sponge_cake%1:13:00::"))

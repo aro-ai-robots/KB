@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trunk%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trunk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baggage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "luggage%1:06:00::"))
+(InheritanceLink (WordSenseNode "footlocker%1:06:00::") s)
+(InheritanceLink (WordSenseNode "locker%1:06:01::") s)
+(HolonymLink (WordSenseNode "trunk_lid%1:06:00::") s)

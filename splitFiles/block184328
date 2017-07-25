@@ -1,0 +1,6 @@
+(define s (WordSenseNode "wolf-whistle%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "wolf-whistle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utter%2:32:02::"))
+(InheritanceLink s (WordSenseNode "emit%2:32:00::"))
+(InheritanceLink s (WordSenseNode "let_out%2:32:02::"))
+(InheritanceLink s (WordSenseNode "let_loose%2:32:00::"))

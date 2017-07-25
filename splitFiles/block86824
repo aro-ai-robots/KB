@@ -1,0 +1,6 @@
+(define s (WordSenseNode "inflate%2:30:11::")) (PartOfSpeechLink s verb)
+(define x (WordNode "inflate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:01::"))
+(InheritanceLink s (WordSenseNode "alter%2:30:01::"))
+(InheritanceLink s (WordSenseNode "modify%2:30:10::"))
+(InheritanceLink (WordSenseNode "reflate%2:30:04::") s)

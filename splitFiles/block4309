@@ -1,0 +1,5 @@
+(define s (WordSenseNode "aliquant%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aliquant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "divisor%1:23:00::"))
+(define x (WordNode "aliquant_part")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "divisor%1:23:00::"))

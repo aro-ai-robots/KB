@@ -1,0 +1,7 @@
+(define s (WordSenseNode "philatelist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "philatelist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collector%1:18:01::"))
+(InheritanceLink s (WordSenseNode "aggregator%1:18:00::"))
+(define x (WordNode "stamp_collector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collector%1:18:01::"))
+(InheritanceLink s (WordSenseNode "aggregator%1:18:00::"))

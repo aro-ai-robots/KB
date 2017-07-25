@@ -1,0 +1,5 @@
+(define s (WordSenseNode "surtax%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "surtax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "income_tax%1:21:00::"))
+(define x (WordNode "supertax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "income_tax%1:21:00::"))

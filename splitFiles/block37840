@@ -1,0 +1,5 @@
+(define s (WordSenseNode "core_bit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "core_bit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drilling_bit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "drill_bit%1:06:00::"))
+(HolonymLink s (WordSenseNode "core_drill%1:06:00::"))

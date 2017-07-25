@@ -1,0 +1,6 @@
+(define s (WordSenseNode "jalousie%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jalousie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shutter%1:06:00::"))
+(HolonymLink (WordSenseNode "louver%1:06:00::") s)
+(HolonymLink (WordSenseNode "louvre%1:06:00::") s)
+(HolonymLink (WordSenseNode "fin%1:06:01::") s)

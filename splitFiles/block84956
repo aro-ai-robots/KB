@@ -1,0 +1,6 @@
+(define s (WordSenseNode "immunoelectrophoresis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "immunoelectrophoresis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrophoresis%1:22:00::"))
+(InheritanceLink s (WordSenseNode "cataphoresis%1:22:00::"))
+(InheritanceLink s (WordSenseNode "dielectrolysis%1:22:00::"))
+(InheritanceLink s (WordSenseNode "ionophoresis%1:22:00::"))

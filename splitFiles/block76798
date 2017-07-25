@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gymnogyps_californianus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "California_condor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condor%1:05:00::"))
+(define x (WordNode "Gymnogyps_californianus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condor%1:05:00::"))

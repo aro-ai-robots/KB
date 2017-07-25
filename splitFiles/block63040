@@ -1,0 +1,8 @@
+(define s (WordSenseNode "flip-flop%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flip-flop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "somersault%1:04:00::"))
+(InheritanceLink s (WordSenseNode "somerset%1:04:00::"))
+(InheritanceLink s (WordSenseNode "summersault%1:04:00::"))
+(InheritanceLink s (WordSenseNode "summerset%1:04:00::"))
+(InheritanceLink s (WordSenseNode "somersaulting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "flip%1:04:03::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coffee_maker%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coffee_maker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_appliance%1:06:00::"))
+(InheritanceLink (WordSenseNode "espresso_maker%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Silex%1:06:00::") s)

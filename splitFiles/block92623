@@ -1,0 +1,5 @@
+(define s (WordSenseNode "key%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "key")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harmonize%2:30:02::"))
+(InheritanceLink s (WordSenseNode "harmonise%2:30:02::"))
+(InheritanceLink s (WordSenseNode "reconcile%2:30:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "aurora%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aurora")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atmospheric_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "aurora_australis%1:19:00::") s)
+(InheritanceLink (WordSenseNode "southern_lights%1:19:00::") s)
+(InheritanceLink (WordSenseNode "aurora_borealis%1:19:00::") s)
+(InheritanceLink (WordSenseNode "northern_lights%1:19:00::") s)
+(HolonymLink (WordSenseNode "streamer%1:19:00::") s)

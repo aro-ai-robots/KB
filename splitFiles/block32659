@@ -1,0 +1,4 @@
+(define s (WordSenseNode "closing_time%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "closing_time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hour%1:28:01::"))
+(InheritanceLink s (WordSenseNode "time_of_day%1:28:00::"))

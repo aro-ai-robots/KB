@@ -1,0 +1,5 @@
+(define s (WordSenseNode "poignancy%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pathos")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(define x (WordNode "poignancy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))

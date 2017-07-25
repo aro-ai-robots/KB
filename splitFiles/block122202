@@ -1,0 +1,7 @@
+(define s (WordSenseNode "peeling%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "desquamation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_phenomenon%1:19:00::"))
+(define x (WordNode "peeling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_phenomenon%1:19:00::"))
+(define x (WordNode "shedding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_phenomenon%1:19:00::"))

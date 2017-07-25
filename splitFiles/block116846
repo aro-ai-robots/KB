@@ -1,0 +1,7 @@
+(define s (WordSenseNode "optical_crown%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "optical_crown")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_glass%1:27:00::"))
+(define x (WordNode "crown_glass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_glass%1:27:00::"))
+(define x (WordNode "optical_crown_glass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_glass%1:27:00::"))

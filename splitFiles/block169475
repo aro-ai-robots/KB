@@ -1,0 +1,7 @@
+(define s (WordSenseNode "time_being%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "time_being")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "present%1:28:00::"))
+(InheritanceLink s (WordSenseNode "nowadays%1:28:00::"))
+(define x (WordNode "nonce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "present%1:28:00::"))
+(InheritanceLink s (WordSenseNode "nowadays%1:28:00::"))

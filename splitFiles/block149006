@@ -1,0 +1,7 @@
+(define s (WordSenseNode "serve_well%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "serve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foster%2:32:00::"))
+(InheritanceLink s (WordSenseNode "nurture%2:32:00::"))
+(define x (WordNode "serve_well")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foster%2:32:00::"))
+(InheritanceLink s (WordSenseNode "nurture%2:32:00::"))

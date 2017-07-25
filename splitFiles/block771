@@ -1,0 +1,5 @@
+(define s (WordSenseNode "abu_dhabi%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Abu_Dhabi")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "United_Arab_Emirates%1:15:00::"))
+(define x (WordNode "United_Arab_Emirates's_capital")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "United_Arab_Emirates%1:15:00::"))

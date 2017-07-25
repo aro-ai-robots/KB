@@ -1,0 +1,8 @@
+(define s (WordSenseNode "beluga_caviar%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beluga_caviar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caviar%1:13:00::"))
+(InheritanceLink s (WordSenseNode "caviare%1:13:00::"))
+(HolonymLink s (WordSenseNode "beluga%1:05:01::"))
+(HolonymLink s (WordSenseNode "hausen%1:05:00::"))
+(HolonymLink s (WordSenseNode "white_sturgeon%1:05:02::"))
+(HolonymLink s (WordSenseNode "Acipenser_huso%1:05:00::"))

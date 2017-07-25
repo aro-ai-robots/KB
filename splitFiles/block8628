@@ -1,0 +1,7 @@
+(define s (WordSenseNode "archive%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "archive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collect%2:35:01::"))
+(InheritanceLink s (WordSenseNode "pull_in%2:35:01::"))
+(define x (WordNode "file_away")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collect%2:35:01::"))
+(InheritanceLink s (WordSenseNode "pull_in%2:35:01::"))

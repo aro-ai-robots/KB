@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sink%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "natural_action%1:22:00::"))
+(InheritanceLink s (WordSenseNode "action%1:22:00::"))
+(InheritanceLink s (WordSenseNode "activity%1:22:01::"))
+(InheritanceLink (WordSenseNode "heat_sink%1:06:00::") s)

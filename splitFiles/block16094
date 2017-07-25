@@ -1,0 +1,6 @@
+(define s (WordSenseNode "beta-carotene%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beta-carotene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "provitamin_A%1:27:00::"))
+(InheritanceLink s (WordSenseNode "carotene%1:27:00::"))
+(InheritanceLink s (WordSenseNode "carotin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "carotenoid%1:27:00::"))

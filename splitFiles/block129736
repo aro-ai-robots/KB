@@ -1,0 +1,4 @@
+(define s (WordSenseNode "precondition%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "precondition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prerequisite%1:09:00::"))
+(InheritanceLink s (WordSenseNode "requirement%1:09:00::"))

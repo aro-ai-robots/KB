@@ -1,0 +1,4 @@
+(define s (WordSenseNode "nonliving%3:00:00::")) (PartOfSpeechLink s adj)
+(define x (WordNode "inanimate")) (WordSenseLink x s)
+(define x (WordNode "nonliving")) (WordSenseLink x s)
+(define x (WordNode "non-living")) (WordSenseLink x s)

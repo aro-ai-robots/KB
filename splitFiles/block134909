@@ -1,0 +1,6 @@
+(define s (WordSenseNode "radial_symmetry%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radial_symmetry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symmetry%1:07:00::"))
+(InheritanceLink s (WordSenseNode "symmetricalness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "correspondence%1:07:03::"))
+(InheritanceLink s (WordSenseNode "balance%1:07:02::"))

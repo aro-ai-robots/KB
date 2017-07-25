@@ -1,0 +1,5 @@
+(define s (WordSenseNode "agrobacterium_tumefaciens%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Agrobacterium_tumefaciens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_species%1:05:00::"))
+(HolonymLink s (WordSenseNode "Agrobacterium%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Agrobacterium%1:05:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "interpolation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interpolation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "calculation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "computation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "figuring%1:09:00::"))
+(InheritanceLink s (WordSenseNode "reckoning%1:09:00::"))

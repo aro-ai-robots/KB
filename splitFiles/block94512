@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lancelet%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lancelet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cephalochordate%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Amphioxus%1:05:00::"))
+(define x (WordNode "amphioxus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cephalochordate%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Amphioxus%1:05:00::"))

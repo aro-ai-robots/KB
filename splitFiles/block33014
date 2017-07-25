@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coal_tar%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coal_tar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pitch%1:27:00::"))
+(InheritanceLink s (WordSenseNode "tar%1:27:00::"))
+(HolonymLink (WordSenseNode "naphthalene%1:27:00::") s)

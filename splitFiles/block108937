@@ -1,0 +1,8 @@
+(define s (WordSenseNode "mot_juste%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mot_juste")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wording%1:10:00::"))
+(InheritanceLink s (WordSenseNode "diction%1:10:00::"))
+(InheritanceLink s (WordSenseNode "phrasing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "phraseology%1:10:00::"))
+(InheritanceLink s (WordSenseNode "choice_of_words%1:10:00::"))
+(InheritanceLink s (WordSenseNode "verbiage%1:10:00::"))

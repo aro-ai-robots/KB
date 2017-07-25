@@ -1,0 +1,8 @@
+(define s (WordSenseNode "vaginitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vaginitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflammation%1:26:00::"))
+(InheritanceLink s (WordSenseNode "redness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "rubor%1:26:00::"))
+(HolonymLink s (WordSenseNode "candidiasis%1:26:00::"))
+(HolonymLink s (WordSenseNode "moniliasis%1:26:00::"))
+(HolonymLink s (WordSenseNode "monilia_disease%1:26:00::"))

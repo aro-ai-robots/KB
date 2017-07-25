@@ -1,0 +1,5 @@
+(define s (WordSenseNode "alkali_poisoning%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alkali_poisoning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "poisoning%1:26:00::"))
+(InheritanceLink s (WordSenseNode "toxic_condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "intoxication%1:26:01::"))

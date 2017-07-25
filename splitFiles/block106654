@@ -1,0 +1,7 @@
+(define s (WordSenseNode "millimeter_of_mercury%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "torr")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure_unit%1:23:00::"))
+(define x (WordNode "millimeter_of_mercury")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure_unit%1:23:00::"))
+(define x (WordNode "mm_Hg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure_unit%1:23:00::"))

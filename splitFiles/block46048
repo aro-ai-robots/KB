@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diaphysis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diaphysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "long_bone%1:08:00::"))
+(InheritanceLink s (WordSenseNode "os_longum%1:08:00::"))
+(define x (WordNode "shaft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "long_bone%1:08:00::"))
+(InheritanceLink s (WordSenseNode "os_longum%1:08:00::"))

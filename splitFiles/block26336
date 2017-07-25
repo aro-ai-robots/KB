@@ -1,0 +1,5 @@
+(define s (WordSenseNode "carry%2:42:12::")) (PartOfSpeechLink s verb)
+(define x (WordNode "carry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "have%2:40:00::"))
+(InheritanceLink s (WordSenseNode "have_got%2:40:00::"))
+(InheritanceLink s (WordSenseNode "hold%2:40:00::"))

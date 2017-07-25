@@ -1,0 +1,8 @@
+(define s (WordSenseNode "mediation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mediation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "negotiation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "dialogue%1:10:03::"))
+(InheritanceLink s (WordSenseNode "talks%1:10:00::"))
+(InheritanceLink (WordSenseNode "arbitration%1:10:00::") s)
+(InheritanceLink (WordSenseNode "conciliation%1:10:00::") s)
+(InheritanceLink (WordSenseNode "umpirage%1:10:00::") s)

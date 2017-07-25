@@ -1,0 +1,6 @@
+(define s (WordSenseNode "necessitate%2:42:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "necessitate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lead%2:42:12::"))
+(InheritanceLink (WordSenseNode "entail%2:42:01::") s)
+(InheritanceLink (WordSenseNode "imply%2:42:00::") s)
+(InheritanceLink (WordSenseNode "mean%2:42:00::") s)

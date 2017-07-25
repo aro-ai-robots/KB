@@ -1,0 +1,5 @@
+(define s (WordSenseNode "linearity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "one-dimensionality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dimensionality%1:07:00::"))
+(define x (WordNode "linearity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dimensionality%1:07:00::"))

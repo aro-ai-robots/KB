@@ -1,0 +1,8 @@
+(define s (WordSenseNode "versification%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "versification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "form%1:10:02::"))
+(InheritanceLink (WordSenseNode "poetic_rhythm%1:10:00::") s)
+(InheritanceLink (WordSenseNode "rhythmic_pattern%1:10:00::") s)
+(InheritanceLink (WordSenseNode "prosody%1:10:01::") s)
+(InheritanceLink (WordSenseNode "rhyme%1:10:00::") s)
+(InheritanceLink (WordSenseNode "rime%1:10:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "library_fine%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "library_fine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fine%1:21:00::"))
+(InheritanceLink s (WordSenseNode "mulct%1:21:00::"))
+(InheritanceLink s (WordSenseNode "amercement%1:21:00::"))

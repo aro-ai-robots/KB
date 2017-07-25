@@ -1,0 +1,8 @@
+(define s (WordSenseNode "dipterocarp%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dipterocarp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tree%1:20:00::"))
+(InheritanceLink (WordSenseNode "red_lauan%1:20:00::") s)
+(InheritanceLink (WordSenseNode "red_lauan_tree%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Shorea_teysmanniana%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Dipterocarpaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Dipterocarpaceae%1:20:00::"))

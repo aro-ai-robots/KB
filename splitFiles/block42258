@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dalasi%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dalasi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Gambian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "butut%1:23:00::") s)
+(HolonymLink (WordSenseNode "butat%1:23:00::") s)

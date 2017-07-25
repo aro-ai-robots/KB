@@ -1,0 +1,4 @@
+(define s (WordSenseNode "characteristic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "characteristic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "integer%1:23:00::"))
+(InheritanceLink s (WordSenseNode "whole_number%1:23:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flying_mouse%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flying_mouse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flying_phalanger%1:05:00::"))
+(InheritanceLink s (WordSenseNode "flying_opossum%1:05:00::"))
+(InheritanceLink s (WordSenseNode "flying_squirrel%1:05:02::"))
+(HolonymLink s (WordSenseNode "Acrobates%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Acrobates%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tool_steel%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tool_steel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alloy_steel%1:27:00::"))
+(InheritanceLink (WordSenseNode "high-speed_steel%1:27:00::") s)
+(InheritanceLink (WordSenseNode "hot-work_steel%1:27:00::") s)

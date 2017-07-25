@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cytologic_specimen%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cytologic_specimen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "specimen%1:08:00::"))
+(InheritanceLink (WordSenseNode "smear%1:08:00::") s)
+(InheritanceLink (WordSenseNode "cytologic_smear%1:08:00::") s)
+(InheritanceLink (WordSenseNode "cytosmear%1:08:00::") s)

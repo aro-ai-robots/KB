@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sanctification%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sanctification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_ceremony%1:04:00::"))
+(InheritanceLink s (WordSenseNode "religious_ritual%1:04:00::"))
+(InheritanceLink (WordSenseNode "beatification%1:04:00::") s)
+(InheritanceLink (WordSenseNode "canonization%1:04:00::") s)
+(InheritanceLink (WordSenseNode "canonisation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "consecration%1:04:00::") s)

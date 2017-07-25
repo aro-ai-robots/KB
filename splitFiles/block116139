@@ -1,0 +1,6 @@
+(define s (WordSenseNode "omicron%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "omicron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "letter%1:10:01::"))
+(InheritanceLink s (WordSenseNode "letter_of_the_alphabet%1:10:00::"))
+(InheritanceLink s (WordSenseNode "alphabetic_character%1:10:00::"))
+(HolonymLink s (WordSenseNode "Greek_alphabet%1:10:00::"))

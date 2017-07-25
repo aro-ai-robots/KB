@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tie_rod%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tie_rod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rod%1:06:00::"))
+(HolonymLink s (WordSenseNode "steering_linkage%1:06:00::"))

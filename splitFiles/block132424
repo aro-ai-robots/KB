@@ -1,0 +1,4 @@
+(define s (WordSenseNode "psychodynamics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "psychodynamics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_psychology%1:09:00::"))
+(InheritanceLink (WordSenseNode "group_dynamics%1:09:00::") s)

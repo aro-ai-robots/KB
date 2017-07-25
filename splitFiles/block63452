@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fluorescent%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fluorescent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lighting_fixture%1:06:00::"))
+(define x (WordNode "fluorescent_fixture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lighting_fixture%1:06:00::"))

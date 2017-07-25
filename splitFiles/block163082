@@ -1,0 +1,7 @@
+(define s (WordSenseNode "superlative_degree%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "superlative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjective%1:10:00::"))
+(InheritanceLink s (WordSenseNode "adverb%1:10:00::"))
+(define x (WordNode "superlative_degree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjective%1:10:00::"))
+(InheritanceLink s (WordSenseNode "adverb%1:10:00::"))

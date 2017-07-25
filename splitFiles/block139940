@@ -1,0 +1,5 @@
+(define s (WordSenseNode "return%2:32:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "return")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "submit%2:32:01::"))
+(InheritanceLink s (WordSenseNode "subject%2:32:04::"))
+(InheritanceLink (WordSenseNode "report_out%2:32:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "john_quincy_adams%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Adams")) (WordSenseLink x s)
+(define x (WordNode "John_Quincy_Adams")) (WordSenseLink x s)
+(define x (WordNode "President_Adams")) (WordSenseLink x s)
+(define x (WordNode "President_John_Quincy_Adams")) (WordSenseLink x s)

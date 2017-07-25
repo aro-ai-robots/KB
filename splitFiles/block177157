@@ -1,0 +1,6 @@
+(define s (WordSenseNode "urinate%2:29:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "urinate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "excrete%2:29:00::"))
+(InheritanceLink s (WordSenseNode "egest%2:29:00::"))
+(InheritanceLink s (WordSenseNode "eliminate%2:29:00::"))
+(InheritanceLink s (WordSenseNode "pass%2:29:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "barrage_jam%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "barrage_jam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jam%2:32:00::"))
+(InheritanceLink s (WordSenseNode "block%2:32:00::"))

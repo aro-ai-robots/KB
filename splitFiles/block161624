@@ -1,0 +1,7 @@
+(define s (WordSenseNode "styloid_process%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "styloid_process")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:08:00::"))
+(InheritanceLink s (WordSenseNode "outgrowth%1:08:00::"))
+(InheritanceLink s (WordSenseNode "appendage%1:08:01::"))
+(HolonymLink s (WordSenseNode "temporal_bone%1:08:00::"))
+(HolonymLink s (WordSenseNode "os_temporale%1:08:00::"))

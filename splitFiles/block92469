@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kentucky_black_bass%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kentucky_black_bass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "black_bass%1:05:01::"))
+(define x (WordNode "spotted_black_bass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "black_bass%1:05:01::"))
+(define x (WordNode "Micropterus_pseudoplites")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "black_bass%1:05:01::"))

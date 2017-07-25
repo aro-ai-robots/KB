@@ -1,0 +1,7 @@
+(define s (WordSenseNode "glomerulus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glomerulus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capillary%1:08:00::"))
+(InheritanceLink s (WordSenseNode "capillary_vessel%1:08:00::"))
+(HolonymLink s (WordSenseNode "malpighian_body%1:08:00::"))
+(HolonymLink s (WordSenseNode "malpighian_corpuscle%1:08:00::"))
+(HolonymLink s (WordSenseNode "renal_corpuscle%1:08:00::"))

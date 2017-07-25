@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dendrobium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dendrobium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orchid%1:20:00::"))
+(InheritanceLink s (WordSenseNode "orchidaceous_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Dendrobium%1:20:00::"))

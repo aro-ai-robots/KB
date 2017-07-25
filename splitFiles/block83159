@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hunker_down%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hunker_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stand_pat%2:32:00::"))
+(InheritanceLink s (WordSenseNode "stand_firm%2:32:00::"))
+(InheritanceLink s (WordSenseNode "hold_firm%2:32:00::"))
+(InheritanceLink s (WordSenseNode "stand_fast%2:32:00::"))

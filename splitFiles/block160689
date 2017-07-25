@@ -1,0 +1,7 @@
+(define s (WordSenseNode "strange_attractor%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strange_attractor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attractor%1:09:01::"))
+(InheritanceLink s (WordSenseNode "attracter%1:09:01::"))
+(define x (WordNode "chaotic_attractor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attractor%1:09:01::"))
+(InheritanceLink s (WordSenseNode "attracter%1:09:01::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "dental_care%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dental_care")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "care%1:04:01::"))
+(InheritanceLink s (WordSenseNode "attention%1:04:01::"))
+(InheritanceLink s (WordSenseNode "aid%1:04:01::"))
+(InheritanceLink s (WordSenseNode "tending%1:04:00::"))
+(InheritanceLink (WordSenseNode "brush%1:04:03::") s)
+(InheritanceLink (WordSenseNode "brushing%1:04:03::") s)

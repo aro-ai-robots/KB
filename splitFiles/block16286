@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bib-and-tucker%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bib-and-tucker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "outfit%1:06:01::"))
+(InheritanceLink s (WordSenseNode "getup%1:06:00::"))
+(InheritanceLink s (WordSenseNode "rig%1:06:02::"))
+(InheritanceLink s (WordSenseNode "turnout%1:06:02::"))

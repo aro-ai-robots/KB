@@ -1,0 +1,6 @@
+(define s (WordSenseNode "inventory_item%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inventory_item")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "item%1:10:00::"))
+(InheritanceLink s (WordSenseNode "point%1:10:03::"))
+(HolonymLink s (WordSenseNode "inventory%1:10:00::"))
+(HolonymLink s (WordSenseNode "stock_list%1:10:00::"))

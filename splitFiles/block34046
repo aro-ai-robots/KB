@@ -1,0 +1,7 @@
+(define s (WordSenseNode "colored_audition%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colored_hearing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chromesthesia%1:09:00::"))
+(InheritanceLink s (WordSenseNode "chromaesthesia%1:09:00::"))
+(define x (WordNode "colored_audition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chromesthesia%1:09:00::"))
+(InheritanceLink s (WordSenseNode "chromaesthesia%1:09:00::"))

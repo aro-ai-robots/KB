@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rationalism%1:09:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rationalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theological_doctrine%1:09:00::"))
+(InheritanceLink (WordSenseNode "deism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "free_thought%1:09:00::") s)

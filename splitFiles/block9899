@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ash_wednesday%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ash_Wednesday")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Christian_holy_day%1:28:00::"))
+(HolonymLink s (WordSenseNode "Lent%1:28:00::"))
+(HolonymLink s (WordSenseNode "Lententide%1:28:00::"))

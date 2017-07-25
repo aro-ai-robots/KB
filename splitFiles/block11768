@@ -1,0 +1,7 @@
+(define s (WordSenseNode "auxiliary_verb%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "auxiliary_verb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "verb%1:10:01::"))
+(InheritanceLink (WordSenseNode "modal_auxiliary_verb%1:10:00::") s)
+(InheritanceLink (WordSenseNode "modal_auxiliary%1:10:00::") s)
+(InheritanceLink (WordSenseNode "modal_verb%1:10:00::") s)
+(InheritanceLink (WordSenseNode "modal%1:10:00::") s)

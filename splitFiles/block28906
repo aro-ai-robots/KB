@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chari-nile%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Chari-Nile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Nilo-Saharan%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Nilo-Saharan_language%1:10:00::"))
+(InheritanceLink (WordSenseNode "Nilotic%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Nilotic_language%1:10:00::") s)

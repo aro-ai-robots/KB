@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coelenteron%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coelenteron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sac%1:08:00::"))
+(HolonymLink s (WordSenseNode "coelenterate%1:05:00::"))
+(HolonymLink s (WordSenseNode "cnidarian%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sprocket%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sprocket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roller%1:06:00::"))
+(HolonymLink s (WordSenseNode "camera%1:06:00::"))
+(HolonymLink s (WordSenseNode "photographic_camera%1:06:00::"))

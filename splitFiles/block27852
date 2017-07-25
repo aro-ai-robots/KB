@@ -1,0 +1,6 @@
+(define s (WordSenseNode "central_gyrus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "central_gyrus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gyrus%1:08:00::"))
+(InheritanceLink s (WordSenseNode "convolution%1:08:00::"))
+(InheritanceLink (WordSenseNode "precentral_gyrus%1:08:00::") s)
+(InheritanceLink (WordSenseNode "postcentral_gyrus%1:08:00::") s)

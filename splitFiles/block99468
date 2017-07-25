@@ -1,0 +1,7 @@
+(define s (WordSenseNode "loose%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "loosen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:00::"))
+(define x (WordNode "relax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:00::"))
+(define x (WordNode "loose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:00::"))

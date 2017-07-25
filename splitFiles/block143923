@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sagitta%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sagitta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arrowworm%1:05:00::"))
+(InheritanceLink s (WordSenseNode "chaetognath%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Sagitta%1:05:00::"))

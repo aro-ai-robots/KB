@@ -1,0 +1,6 @@
+(define s (WordSenseNode "antagonism%1:12:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antagonism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hostility%1:12:00::"))
+(InheritanceLink s (WordSenseNode "enmity%1:12:00::"))
+(InheritanceLink s (WordSenseNode "ill_will%1:12:00::"))
+(InheritanceLink s (WordSenseNode "dislike%1:12:00::"))

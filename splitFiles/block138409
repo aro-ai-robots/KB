@@ -1,0 +1,5 @@
+(define s (WordSenseNode "remain_down%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "take_the_count")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lose%2:33:00::"))
+(define x (WordNode "remain_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lose%2:33:00::"))

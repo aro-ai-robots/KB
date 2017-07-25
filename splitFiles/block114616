@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nuncio%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nuncio")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diplomat%1:18:00::"))
+(InheritanceLink s (WordSenseNode "diplomatist%1:18:00::"))
+(define x (WordNode "papal_nuncio")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diplomat%1:18:00::"))
+(InheritanceLink s (WordSenseNode "diplomatist%1:18:00::"))

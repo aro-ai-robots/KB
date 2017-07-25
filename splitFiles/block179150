@@ -1,0 +1,4 @@
+(define s (WordSenseNode "victrola%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Victrola")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gramophone%1:06:00::"))
+(InheritanceLink s (WordSenseNode "acoustic_gramophone%1:06:00::"))

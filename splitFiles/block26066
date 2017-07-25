@@ -1,0 +1,6 @@
+(define s (WordSenseNode "carnal_abuse%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carnal_abuse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sexual_activity%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sexual_practice%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sex%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sex_activity%1:04:00::"))

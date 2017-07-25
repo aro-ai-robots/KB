@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sales_tax%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sales_tax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "excise%1:21:00::"))
+(InheritanceLink s (WordSenseNode "excise_tax%1:21:00::"))
+(define x (WordNode "nuisance_tax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "excise%1:21:00::"))
+(InheritanceLink s (WordSenseNode "excise_tax%1:21:00::"))

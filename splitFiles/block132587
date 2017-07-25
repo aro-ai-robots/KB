@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ptyalin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ptyalin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amylase%1:27:00::"))
+(HolonymLink s (WordSenseNode "saliva%1:08:00::"))
+(HolonymLink s (WordSenseNode "spit%1:08:00::"))
+(HolonymLink s (WordSenseNode "spittle%1:08:00::"))

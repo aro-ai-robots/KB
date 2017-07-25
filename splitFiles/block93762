@@ -1,0 +1,4 @@
+(define s (WordSenseNode "kupffer's_cell%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kupffer's_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cell%1:03:00::"))
+(HolonymLink s (WordSenseNode "liver%1:08:00::"))

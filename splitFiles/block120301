@@ -1,0 +1,7 @@
+(define s (WordSenseNode "papule%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "papule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pimple%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hickey%1:26:01::"))
+(InheritanceLink s (WordSenseNode "zit%1:26:00::"))
+(InheritanceLink (WordSenseNode "papulovesicle%1:26:00::") s)
+(InheritanceLink (WordSenseNode "vesicopapule%1:26:00::") s)

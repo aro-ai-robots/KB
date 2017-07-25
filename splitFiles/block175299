@@ -1,0 +1,5 @@
+(define s (WordSenseNode "understatement%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "understatement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statement%1:10:00::"))
+(InheritanceLink (WordSenseNode "litotes%1:10:00::") s)
+(InheritanceLink (WordSenseNode "meiosis%1:10:00::") s)

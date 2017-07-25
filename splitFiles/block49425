@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dovetail_joint%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dovetail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mortise_joint%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mortise-and-tenon_joint%1:06:00::"))
+(define x (WordNode "dovetail_joint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mortise_joint%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mortise-and-tenon_joint%1:06:00::"))

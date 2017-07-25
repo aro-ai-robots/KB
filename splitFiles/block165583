@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tallis%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prayer_shawl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shawl%1:06:00::"))
+(define x (WordNode "tallith")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shawl%1:06:00::"))
+(define x (WordNode "tallis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shawl%1:06:00::"))

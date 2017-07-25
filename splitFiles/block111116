@@ -1,0 +1,7 @@
+(define s (WordSenseNode "narrow-body%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "narrowbody_aircraft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "airliner%1:06:00::"))
+(define x (WordNode "narrow-body_aircraft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "airliner%1:06:00::"))
+(define x (WordNode "narrow-body")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "airliner%1:06:00::"))

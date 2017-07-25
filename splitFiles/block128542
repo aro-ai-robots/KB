@@ -1,0 +1,7 @@
+(define s (WordSenseNode "portable_circular_saw%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "portable_circular_saw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circular_saw%1:06:00::"))
+(InheritanceLink s (WordSenseNode "buzz_saw%1:06:00::"))
+(define x (WordNode "portable_saw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circular_saw%1:06:00::"))
+(InheritanceLink s (WordSenseNode "buzz_saw%1:06:00::"))

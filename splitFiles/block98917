@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lock%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wrestling_hold%1:04:00::"))
+(InheritanceLink (WordSenseNode "hammerlock%1:04:00::") s)
+(InheritanceLink (WordSenseNode "headlock%1:04:00::") s)

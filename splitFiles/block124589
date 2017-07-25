@@ -1,0 +1,6 @@
+(define s (WordSenseNode "phytochemical%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phytochemical")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_substance%1:27:00::"))
+(InheritanceLink (WordSenseNode "carotenoid%1:27:00::") s)
+(InheritanceLink (WordSenseNode "flavonoid%1:27:00::") s)

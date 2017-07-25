@@ -1,0 +1,4 @@
+(define s (WordSenseNode "outside_loop%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "outside_loop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loop%1:04:00::"))
+(InheritanceLink s (WordSenseNode "loop-the-loop%1:04:00::"))

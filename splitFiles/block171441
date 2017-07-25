@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tranquillity%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tranquillity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "order%1:26:00::"))
+(define x (WordNode "tranquility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "order%1:26:00::"))
+(define x (WordNode "quiet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "order%1:26:00::"))

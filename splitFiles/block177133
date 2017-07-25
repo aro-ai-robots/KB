@@ -1,0 +1,5 @@
+(define s (WordSenseNode "uria_aalge%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_murre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "murre%1:05:00::"))
+(define x (WordNode "Uria_aalge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "murre%1:05:00::"))

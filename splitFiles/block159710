@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sterilize%2:29:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sterilize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disinfect%2:29:00::"))
+(InheritanceLink (WordSenseNode "autoclave%2:29:00::") s)
+(define x (WordNode "sterilise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disinfect%2:29:00::"))
+(InheritanceLink (WordSenseNode "autoclave%2:29:00::") s)

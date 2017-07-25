@@ -1,0 +1,7 @@
+(define s (WordSenseNode "drinking_fountain%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drinking_fountain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fountain%1:06:02::"))
+(define x (WordNode "water_fountain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fountain%1:06:02::"))
+(define x (WordNode "bubbler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fountain%1:06:02::"))

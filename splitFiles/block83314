@@ -1,0 +1,5 @@
+(define s (WordSenseNode "husking_bee%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "husking_bee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bee%1:14:00::"))
+(define x (WordNode "cornhusking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bee%1:14:00::"))

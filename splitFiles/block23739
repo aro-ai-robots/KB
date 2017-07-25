@@ -1,0 +1,7 @@
+(define s (WordSenseNode "caladenia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caladenia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orchid%1:20:00::"))
+(InheritanceLink s (WordSenseNode "orchidaceous_plant%1:20:00::"))
+(InheritanceLink (WordSenseNode "zebra_orchid%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Caladenia_cairnsiana%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Caladenia%1:20:00::"))

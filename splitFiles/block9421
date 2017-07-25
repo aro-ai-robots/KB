@@ -1,0 +1,7 @@
+(define s (WordSenseNode "arteria_gastrica_sinistra%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "left_gastric_artery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gastric_artery%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arteria_gastrica%1:08:00::"))
+(define x (WordNode "arteria_gastrica_sinistra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gastric_artery%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arteria_gastrica%1:08:00::"))

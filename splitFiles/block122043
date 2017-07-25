@@ -1,0 +1,7 @@
+(define s (WordSenseNode "peck%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "peck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strike%2:35:00::"))
+(define x (WordNode "pick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strike%2:35:00::"))
+(define x (WordNode "beak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strike%2:35:00::"))

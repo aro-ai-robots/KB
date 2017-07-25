@@ -1,0 +1,6 @@
+(define s (WordSenseNode "alveolar_arch%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alveolar_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:08:00::"))
+(InheritanceLink s (WordSenseNode "outgrowth%1:08:00::"))
+(InheritanceLink s (WordSenseNode "appendage%1:08:01::"))
+(HolonymLink s (WordSenseNode "jaw%1:08:00::"))

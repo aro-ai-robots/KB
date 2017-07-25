@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sponge_genus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sponge_genus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "genus%1:14:00::"))
+(InheritanceLink (WordSenseNode "Euplectella%1:05:00::") s)
+(InheritanceLink (WordSenseNode "genus_Euplectella%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Porifera%1:05:00::"))
+(HolonymLink s (WordSenseNode "phylum_Porifera%1:05:00::"))

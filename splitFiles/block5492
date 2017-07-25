@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ametria%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ametria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "birth_defect%1:26:00::"))
+(InheritanceLink s (WordSenseNode "congenital_anomaly%1:26:00::"))
+(InheritanceLink s (WordSenseNode "congenital_defect%1:26:00::"))
+(InheritanceLink s (WordSenseNode "congenital_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "congenital_abnormality%1:26:00::"))

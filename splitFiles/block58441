@@ -1,0 +1,5 @@
+(define s (WordSenseNode "falsetto%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "falsetto")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "head_register%1:07:00::"))
+(InheritanceLink s (WordSenseNode "head_voice%1:07:00::"))
+(InheritanceLink s (WordSenseNode "head_tone%1:07:00::"))

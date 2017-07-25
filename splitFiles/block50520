@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dry-dock%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dry-dock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dock%2:35:00::"))
+(define x (WordNode "drydock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dock%2:35:00::"))

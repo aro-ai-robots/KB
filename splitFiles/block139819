@@ -1,0 +1,6 @@
+(define s (WordSenseNode "retool%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "retool")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substitute%2:40:00::"))
+(InheritanceLink s (WordSenseNode "replace%2:40:00::"))
+(InheritanceLink s (WordSenseNode "interchange%2:40:01::"))
+(InheritanceLink s (WordSenseNode "exchange%2:40:02::"))

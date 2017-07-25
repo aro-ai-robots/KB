@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grevillea_striata%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beefwood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "silk_oak%1:20:00::"))
+(HolonymLink (WordSenseNode "beefwood%1:20:04::") s)
+(define x (WordNode "Grevillea_striata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "silk_oak%1:20:00::"))
+(HolonymLink (WordSenseNode "beefwood%1:20:04::") s)

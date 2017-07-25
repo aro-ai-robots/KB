@@ -1,0 +1,5 @@
+(define s (WordSenseNode "inlet_manifold%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inlet_manifold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manifold%1:06:00::"))
+(HolonymLink s (WordSenseNode "gasoline_engine%1:06:00::"))
+(HolonymLink s (WordSenseNode "petrol_engine%1:06:00::"))

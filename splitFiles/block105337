@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mercy%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mercy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relief%1:04:02::"))
+(InheritanceLink s (WordSenseNode "succor%1:04:00::"))
+(InheritanceLink s (WordSenseNode "succour%1:04:00::"))
+(InheritanceLink s (WordSenseNode "ministration%1:04:00::"))

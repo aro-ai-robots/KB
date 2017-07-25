@@ -1,0 +1,5 @@
+(define s (WordSenseNode "decomposition%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_phenomenon%1:19:00::"))
+(define x (WordNode "decomposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_phenomenon%1:19:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "carrier_pigeon%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carrier_pigeon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "homing_pigeon%1:05:00::"))
+(InheritanceLink s (WordSenseNode "homer%1:05:00::"))

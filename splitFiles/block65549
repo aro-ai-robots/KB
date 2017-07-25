@@ -1,0 +1,5 @@
+(define s (WordSenseNode "french_canadian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "French_Canadian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Canadian%1:18:00::"))
+(InheritanceLink (WordSenseNode "Acadian%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Canuck%1:18:00::") s)

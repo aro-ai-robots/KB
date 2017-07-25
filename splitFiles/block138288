@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reliance%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reliance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "certainty%1:09:00::"))
+(define x (WordNode "trust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "certainty%1:09:00::"))

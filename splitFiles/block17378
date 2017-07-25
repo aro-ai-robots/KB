@@ -1,0 +1,5 @@
+(define s (WordSenseNode "black_guillemot%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "black_guillemot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guillemot%1:05:00::"))
+(define x (WordNode "Cepphus_grylle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guillemot%1:05:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "turn%2:30:09::")) (PartOfSpeechLink s verb)
+(define x (WordNode "turn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turn%2:30:03::"))
+(InheritanceLink s (WordSenseNode "grow%2:30:03::"))
+(InheritanceLink s (WordSenseNode "discolor%2:30:00::"))
+(InheritanceLink s (WordSenseNode "discolour%2:30:00::"))
+(InheritanceLink s (WordSenseNode "colour%2:30:00::"))
+(InheritanceLink s (WordSenseNode "color%2:30:01::"))

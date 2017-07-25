@@ -1,0 +1,5 @@
+(define s (WordSenseNode "date_of_reference%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epoch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "date%1:28:03::"))
+(define x (WordNode "date_of_reference")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "date%1:28:03::"))

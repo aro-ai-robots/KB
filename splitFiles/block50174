@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drive%1:04:05::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:04::"))
+(InheritanceLink (WordSenseNode "forehand_drive%1:04:00::") s)
+(InheritanceLink (WordSenseNode "backhand_drive%1:04:00::") s)

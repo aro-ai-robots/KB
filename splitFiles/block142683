@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rove_beetle%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rove_beetle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beetle%1:05:00::"))
+(HolonymLink s (WordSenseNode "Staphylinidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Staphylinidae%1:05:00::"))

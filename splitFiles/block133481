@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pusher%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pusher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mover%1:18:00::"))
+(InheritanceLink (WordSenseNode "nudger%1:18:00::") s)
+(define x (WordNode "shover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mover%1:18:00::"))
+(InheritanceLink (WordSenseNode "nudger%1:18:00::") s)

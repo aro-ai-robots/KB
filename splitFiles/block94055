@@ -1,0 +1,5 @@
+(define s (WordSenseNode "laconicism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laconism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "terseness%1:10:00::"))
+(define x (WordNode "laconicism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "terseness%1:10:00::"))

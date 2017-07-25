@@ -1,0 +1,8 @@
+(define s (WordSenseNode "epiglottis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epiglottis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cartilaginous_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "trachea%1:08:01::"))
+(HolonymLink s (WordSenseNode "windpipe%1:08:00::"))
+(HolonymLink (WordSenseNode "tastebud%1:08:00::") s)
+(HolonymLink (WordSenseNode "taste_bud%1:08:00::") s)
+(HolonymLink (WordSenseNode "gustatory_organ%1:08:00::") s)

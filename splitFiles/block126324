@@ -1,0 +1,7 @@
+(define s (WordSenseNode "plasma_thromboplastin_antecedent%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plasma_thromboplastin_antecedent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coagulation_factor%1:27:00::"))
+(InheritanceLink s (WordSenseNode "clotting_factor%1:27:00::"))
+(define x (WordNode "factor_XI")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coagulation_factor%1:27:00::"))
+(InheritanceLink s (WordSenseNode "clotting_factor%1:27:00::"))

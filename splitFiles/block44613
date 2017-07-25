@@ -1,0 +1,6 @@
+(define s (WordSenseNode "dendrite%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dendrite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_fiber%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nerve_fibre%1:08:00::"))
+(HolonymLink s (WordSenseNode "nerve_cell%1:08:00::"))
+(HolonymLink s (WordSenseNode "neuron%1:08:00::"))

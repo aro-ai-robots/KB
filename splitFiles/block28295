@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chacma_baboon%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chacma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baboon%1:05:00::"))
+(define x (WordNode "chacma_baboon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baboon%1:05:00::"))
+(define x (WordNode "Papio_ursinus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baboon%1:05:00::"))

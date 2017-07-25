@@ -1,0 +1,4 @@
+(define s (WordSenseNode "invocation%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "invocation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "incantation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "conjuration%1:10:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "vault%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vault")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roof%1:06:00::"))
+(InheritanceLink (WordSenseNode "barrel_vault%1:06:00::") s)
+(InheritanceLink (WordSenseNode "groined_vault%1:06:00::") s)
+(InheritanceLink (WordSenseNode "ribbed_vault%1:06:00::") s)
+(HolonymLink (WordSenseNode "lunette%1:06:00::") s)
+(HolonymLink (WordSenseNode "fenestella%1:06:00::") s)

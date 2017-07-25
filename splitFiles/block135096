@@ -1,0 +1,3 @@
+(define s (WordSenseNode "radius%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radius")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "straight_line%1:25:00::"))

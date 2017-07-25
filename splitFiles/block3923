@@ -1,0 +1,7 @@
+(define s (WordSenseNode "alcalde%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alcalde")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mayor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "city_manager%1:18:00::"))
+(InheritanceLink s (WordSenseNode "judge%1:18:00::"))
+(InheritanceLink s (WordSenseNode "justice%1:18:00::"))
+(InheritanceLink s (WordSenseNode "jurist%1:18:01::"))

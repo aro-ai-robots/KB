@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hepatitis_delta%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hepatitis_delta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hepatitis%1:26:00::"))
+(define x (WordNode "delta_hepatitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hepatitis%1:26:00::"))

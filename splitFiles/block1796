@@ -1,0 +1,6 @@
+(define s (WordSenseNode "active_birth%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "active_birth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "childbirth%1:22:00::"))
+(InheritanceLink s (WordSenseNode "childbearing%1:22:00::"))
+(InheritanceLink s (WordSenseNode "accouchement%1:22:00::"))
+(InheritanceLink s (WordSenseNode "vaginal_birth%1:22:00::"))

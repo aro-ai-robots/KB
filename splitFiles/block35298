@@ -1,0 +1,6 @@
+(define s (WordSenseNode "complex_conjugate%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "complex_conjugate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "complex_number%1:23:00::"))
+(InheritanceLink s (WordSenseNode "complex_quantity%1:23:00::"))
+(InheritanceLink s (WordSenseNode "imaginary_number%1:23:00::"))
+(InheritanceLink s (WordSenseNode "imaginary%1:23:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hypericum_calycinum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "creeping_St_John's_wort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "St_John's_wort%1:20:00::"))
+(define x (WordNode "Hypericum_calycinum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "St_John's_wort%1:20:00::"))

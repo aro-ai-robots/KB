@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inflectional_ending%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inflectional_ending")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ending%1:10:00::"))
+(InheritanceLink s (WordSenseNode "termination%1:10:00::"))
+(define x (WordNode "inflectional_suffix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ending%1:10:00::"))
+(InheritanceLink s (WordSenseNode "termination%1:10:00::"))

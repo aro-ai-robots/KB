@@ -1,0 +1,4 @@
+(define s (WordSenseNode "believing%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "believing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "basic_cognitive_process%1:09:00::"))
+(InheritanceLink (WordSenseNode "doublethink%1:09:00::") s)

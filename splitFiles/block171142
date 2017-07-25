@@ -1,0 +1,8 @@
+(define s (WordSenseNode "track_meet%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "track_meet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meet%1:11:00::"))
+(InheritanceLink s (WordSenseNode "sports_meeting%1:11:00::"))
+(HolonymLink (WordSenseNode "track%1:04:00::") s)
+(HolonymLink (WordSenseNode "running%1:04:00::") s)
+(HolonymLink (WordSenseNode "field_event%1:11:00::") s)
+(HolonymLink (WordSenseNode "track_event%1:11:00::") s)

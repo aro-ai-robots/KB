@@ -1,0 +1,5 @@
+(define s (WordSenseNode "intravenous_injection%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intravenous_injection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "injection%1:04:01::"))
+(InheritanceLink s (WordSenseNode "shot%1:04:03::"))
+(InheritanceLink (WordSenseNode "fix%1:04:03::") s)

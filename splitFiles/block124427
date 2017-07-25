@@ -1,0 +1,5 @@
+(define s (WordSenseNode "phylactery%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phylactery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reminder%1:10:00::"))
+(define x (WordNode "tefillin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reminder%1:10:00::"))

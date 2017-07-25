@@ -1,0 +1,6 @@
+(define s (WordSenseNode "re-echo%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "re-echo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "echo%1:07:00::"))
+(InheritanceLink s (WordSenseNode "reverberation%1:07:00::"))
+(InheritanceLink s (WordSenseNode "sound_reflection%1:07:00::"))
+(InheritanceLink s (WordSenseNode "replication%1:07:00::"))

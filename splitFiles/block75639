@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grey_sole%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grey_sole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sole%1:13:00::"))
+(InheritanceLink s (WordSenseNode "fillet_of_sole%1:13:00::"))
+(define x (WordNode "gray_sole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sole%1:13:00::"))
+(InheritanceLink s (WordSenseNode "fillet_of_sole%1:13:00::"))

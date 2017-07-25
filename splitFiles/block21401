@@ -1,0 +1,8 @@
+(define s (WordSenseNode "broadcast%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "broadcast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "message%1:10:01::"))
+(InheritanceLink (WordSenseNode "rebroadcast%1:10:01::") s)
+(InheritanceLink (WordSenseNode "radio_broadcast%1:10:00::") s)
+(InheritanceLink (WordSenseNode "simulcast%1:10:00::") s)
+(InheritanceLink (WordSenseNode "telecast%1:10:00::") s)
+(InheritanceLink (WordSenseNode "newscast%1:10:00::") s)

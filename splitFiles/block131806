@@ -1,0 +1,5 @@
+(define s (WordSenseNode "prosodic_system%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "accentual_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "language_system%1:10:00::"))
+(define x (WordNode "prosodic_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "language_system%1:10:00::"))

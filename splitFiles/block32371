@@ -1,0 +1,5 @@
+(define s (WordSenseNode "clinical_psychology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clinical_psychology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "psychotherapy%1:09:00::"))
+(InheritanceLink s (WordSenseNode "psychotherapeutics%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mental_hygiene%1:09:00::"))

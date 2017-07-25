@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lymphoma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lymphoma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cancer%1:26:00::"))
+(InheritanceLink s (WordSenseNode "malignant_neoplastic_disease%1:26:00::"))
+(InheritanceLink (WordSenseNode "Hodgkin's_disease%1:26:00::") s)

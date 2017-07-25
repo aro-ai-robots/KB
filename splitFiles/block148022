@@ -1,0 +1,4 @@
+(define s (WordSenseNode "selectwoman%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "selectwoman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elected_official%1:18:00::"))
+(HolonymLink s (WordSenseNode "board_of_selectmen%1:14:00::"))

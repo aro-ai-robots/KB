@@ -1,0 +1,7 @@
+(define s (WordSenseNode "deify%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "idealize%2:31:00::"))
+(InheritanceLink s (WordSenseNode "idealise%2:31:00::"))
+(InheritanceLink (WordSenseNode "apotheosize%2:31:00::") s)
+(InheritanceLink (WordSenseNode "apotheosise%2:31:00::") s)
+(InheritanceLink (WordSenseNode "apotheose%2:31:00::") s)

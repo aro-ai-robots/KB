@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subversion%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subversion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "overthrow%1:04:01::"))
+(define x (WordNode "subversive_activity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "overthrow%1:04:01::"))

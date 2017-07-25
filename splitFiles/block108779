@@ -1,0 +1,7 @@
+(define s (WordSenseNode "morphology%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "morphology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grammar%1:09:00::"))
+(InheritanceLink (WordSenseNode "inflectional_morphology%1:09:00::") s)
+(InheritanceLink (WordSenseNode "accidence%1:09:00::") s)
+(InheritanceLink (WordSenseNode "derivational_morphology%1:09:00::") s)
+(InheritanceLink (WordSenseNode "compound_morphology%1:09:00::") s)

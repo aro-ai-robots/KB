@@ -1,0 +1,7 @@
+(define s (WordSenseNode "module%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "module")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compartment%1:06:00::"))
+(InheritanceLink (WordSenseNode "command_module%1:06:00::") s)
+(HolonymLink s (WordSenseNode "spacecraft%1:06:00::"))
+(HolonymLink s (WordSenseNode "ballistic_capsule%1:06:00::"))
+(HolonymLink s (WordSenseNode "space_vehicle%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "phrenic_nerve%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phrenic_nerve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spinal_nerve%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nervus_spinalis%1:08:00::"))
+(define x (WordNode "nervus_phrenicus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spinal_nerve%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nervus_spinalis%1:08:00::"))

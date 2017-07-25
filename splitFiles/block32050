@@ -1,0 +1,7 @@
+(define s (WordSenseNode "clear%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "open")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:15:01::"))
+(InheritanceLink s (WordSenseNode "country%1:15:02::"))
+(define x (WordNode "clear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:15:01::"))
+(InheritanceLink s (WordSenseNode "country%1:15:02::"))

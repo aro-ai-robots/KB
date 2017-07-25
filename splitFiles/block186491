@@ -1,0 +1,7 @@
+(define s (WordSenseNode "zonula%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "zonule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zone%1:08:00::"))
+(InheritanceLink s (WordSenseNode "zona%1:08:00::"))
+(define x (WordNode "zonula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zone%1:08:00::"))
+(InheritanceLink s (WordSenseNode "zona%1:08:00::"))

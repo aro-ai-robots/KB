@@ -1,0 +1,7 @@
+(define s (WordSenseNode "watermeal%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "watermeal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "duckweed%1:20:00::"))
+(InheritanceLink (WordSenseNode "common_wolffia%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Wolffia_columbiana%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Wolffia%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Wolffia%1:20:00::"))

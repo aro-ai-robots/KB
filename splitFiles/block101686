@@ -1,0 +1,7 @@
+(define s (WordSenseNode "make_peace%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "make_peace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reconcile%2:32:00::"))
+(InheritanceLink s (WordSenseNode "patch_up%2:32:00::"))
+(InheritanceLink s (WordSenseNode "make_up%2:32:00::"))
+(InheritanceLink s (WordSenseNode "conciliate%2:32:00::"))
+(InheritanceLink s (WordSenseNode "settle%2:32:02::"))

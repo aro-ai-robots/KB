@@ -1,0 +1,3 @@
+(define s (WordSenseNode "microbrewery%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "microbrewery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brewery%1:06:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hyperboloid%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hyperboloid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quadric%1:25:00::"))
+(InheritanceLink s (WordSenseNode "quadric_surface%1:25:00::"))

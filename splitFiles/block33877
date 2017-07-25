@@ -1,0 +1,5 @@
+(define s (WordSenseNode "collimation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "collimation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjustment%1:04:01::"))
+(InheritanceLink s (WordSenseNode "registration%1:04:01::"))
+(InheritanceLink s (WordSenseNode "readjustment%1:04:01::"))

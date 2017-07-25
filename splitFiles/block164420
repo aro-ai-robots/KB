@@ -1,0 +1,5 @@
+(define s (WordSenseNode "symbolize%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "symbolize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "represent%2:32:12::"))
+(define x (WordNode "symbolise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "represent%2:32:12::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "misoneism%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "misoneism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hate%1:12:00::"))
+(InheritanceLink s (WordSenseNode "hatred%1:12:00::"))
+(InheritanceLink (WordSenseNode "misocainea%1:12:00::") s)

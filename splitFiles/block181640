@@ -1,0 +1,5 @@
+(define s (WordSenseNode "way%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "way")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "choice%1:09:00::"))
+(InheritanceLink s (WordSenseNode "pick%1:09:00::"))
+(InheritanceLink s (WordSenseNode "selection%1:09:00::"))

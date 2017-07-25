@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blastocyst%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blastocyst")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blastula%1:05:00::"))
+(InheritanceLink s (WordSenseNode "blastosphere%1:05:00::"))
+(define x (WordNode "blastodermic_vessicle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blastula%1:05:00::"))
+(InheritanceLink s (WordSenseNode "blastosphere%1:05:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "arcuate_artery_of_the_kidney%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arcuate_artery_of_the_kidney")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artery%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arteria%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arterial_blood_vessel%1:08:00::"))
+(HolonymLink s (WordSenseNode "kidney%1:08:00::"))

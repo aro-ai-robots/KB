@@ -1,0 +1,4 @@
+(define s (WordSenseNode "group_theory%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "group_theory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pure_mathematics%1:09:00::"))
+(InheritanceLink (WordSenseNode "Galois_theory%1:09:00::") s)

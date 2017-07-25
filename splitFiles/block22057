@@ -1,0 +1,6 @@
+(define s (WordSenseNode "budget%1:21:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "budget")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plan%1:09:00::"))
+(InheritanceLink s (WordSenseNode "program%1:09:00::"))
+(InheritanceLink s (WordSenseNode "programme%1:09:00::"))
+(InheritanceLink (WordSenseNode "balanced_budget%1:21:00::") s)

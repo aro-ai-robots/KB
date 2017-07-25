@@ -1,0 +1,7 @@
+(define s (WordSenseNode "overawe%2:37:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overawe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "awe%2:37:00::"))
+(InheritanceLink (WordSenseNode "buffalo%2:37:00::") s)
+(define x (WordNode "cow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "awe%2:37:00::"))
+(InheritanceLink (WordSenseNode "buffalo%2:37:00::") s)

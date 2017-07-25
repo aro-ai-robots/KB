@@ -1,0 +1,7 @@
+(define s (WordSenseNode "calcium-cyanamide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calcium-cyanamide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_compound%1:27:00::"))
+(define x (WordNode "cyanamide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_compound%1:27:00::"))

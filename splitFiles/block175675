@@ -1,0 +1,5 @@
+(define s (WordSenseNode "unhitch%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unhitch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "undo%2:35:00::"))
+(InheritanceLink (WordSenseNode "unyoke%2:35:00::") s)
+(InheritanceLink (WordSenseNode "unharness%2:35:00::") s)

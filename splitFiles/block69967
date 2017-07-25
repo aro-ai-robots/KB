@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_ibero-mesornis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Ibero-mesornis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bird_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Archaeornithes%1:05:00::"))
+(HolonymLink s (WordSenseNode "subclass_Archaeornithes%1:05:00::"))
+(HolonymLink (WordSenseNode "Ibero-mesornis%1:05:00::") s)

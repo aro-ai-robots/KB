@@ -1,0 +1,7 @@
+(define s (WordSenseNode "source%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "source")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "natural_action%1:22:00::"))
+(InheritanceLink s (WordSenseNode "action%1:22:00::"))
+(InheritanceLink s (WordSenseNode "activity%1:22:01::"))
+(InheritanceLink (WordSenseNode "origin%1:22:00::") s)

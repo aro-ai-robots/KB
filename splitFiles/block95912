@@ -1,0 +1,3 @@
+(define s (WordSenseNode "leave%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "permission%1:10:00::"))

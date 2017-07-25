@@ -1,0 +1,4 @@
+(define s (WordSenseNode "field%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "field")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "set%1:14:02::"))
+(InheritanceLink (WordSenseNode "scalar_field%1:14:00::") s)

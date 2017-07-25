@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bunya_bunya%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bunya_bunya")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edible_nut%1:13:00::"))
+(HolonymLink s (WordSenseNode "bunya_bunya%1:20:00::"))
+(HolonymLink s (WordSenseNode "bunya_bunya_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "Araucaria_bidwillii%1:20:00::"))

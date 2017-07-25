@@ -1,0 +1,5 @@
+(define s (WordSenseNode "golden_rule%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Golden_Rule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "teaching%1:09:00::"))
+(InheritanceLink s (WordSenseNode "precept%1:09:01::"))
+(InheritanceLink s (WordSenseNode "commandment%1:09:00::"))

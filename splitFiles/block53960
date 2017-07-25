@@ -1,0 +1,6 @@
+(define s (WordSenseNode "endorphin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "endorphin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neurochemical%1:27:00::"))
+(InheritanceLink s (WordSenseNode "peptide%1:27:00::"))
+(InheritanceLink (WordSenseNode "beta_endorphin%1:27:00::") s)
+(InheritanceLink (WordSenseNode "enkephalin%1:27:00::") s)

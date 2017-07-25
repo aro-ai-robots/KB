@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mimeograph%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "mimeograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "copy%2:36:01::"))
+(InheritanceLink s (WordSenseNode "re-create%2:36:01::"))
+(define x (WordNode "mimeo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "copy%2:36:01::"))
+(InheritanceLink s (WordSenseNode "re-create%2:36:01::"))

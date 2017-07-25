@@ -1,0 +1,5 @@
+(define s (WordSenseNode "zoophilism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "zoophilia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paraphilia%1:04:00::"))
+(define x (WordNode "zoophilism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paraphilia%1:04:00::"))

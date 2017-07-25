@@ -1,0 +1,6 @@
+(define s (WordSenseNode "jubilee%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jubilee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anniversary%1:28:00::"))
+(InheritanceLink s (WordSenseNode "day_of_remembrance%1:28:00::"))
+(InheritanceLink (WordSenseNode "diamond_jubilee%1:28:00::") s)
+(InheritanceLink (WordSenseNode "silver_jubilee%1:28:00::") s)

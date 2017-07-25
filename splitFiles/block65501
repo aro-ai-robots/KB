@@ -1,0 +1,7 @@
+(define s (WordSenseNode "freeze%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "freeze")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interrupt%2:30:00::"))
+(InheritanceLink s (WordSenseNode "break%2:30:03::"))
+(define x (WordNode "suspend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interrupt%2:30:00::"))
+(InheritanceLink s (WordSenseNode "break%2:30:03::"))

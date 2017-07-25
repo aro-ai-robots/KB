@@ -1,0 +1,7 @@
+(define s (WordSenseNode "damnation%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "damnation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))
+(InheritanceLink (WordSenseNode "fire_and_brimstone%1:26:00::") s)
+(define x (WordNode "eternal_damnation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))
+(InheritanceLink (WordSenseNode "fire_and_brimstone%1:26:00::") s)

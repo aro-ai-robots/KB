@@ -1,0 +1,4 @@
+(define s (WordSenseNode "indent%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "indent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "order%1:10:01::"))
+(InheritanceLink s (WordSenseNode "purchase_order%1:10:00::"))

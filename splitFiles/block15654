@@ -1,0 +1,8 @@
+(define s (WordSenseNode "bench%1:14:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bench")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "subgroup%1:14:00::"))
+(HolonymLink s (WordSenseNode "team%1:14:00::"))
+(HolonymLink s (WordSenseNode "squad%1:14:00::"))
+(HolonymLink (WordSenseNode "substitute%1:18:01::") s)
+(HolonymLink (WordSenseNode "reserve%1:18:00::") s)
+(HolonymLink (WordSenseNode "second-stringer%1:18:00::") s)

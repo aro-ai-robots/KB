@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cuboid%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cuboid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parallelepiped%1:25:00::"))
+(InheritanceLink s (WordSenseNode "parallelopiped%1:25:00::"))
+(InheritanceLink s (WordSenseNode "parallelepipedon%1:25:00::"))
+(InheritanceLink s (WordSenseNode "parallelopipedon%1:25:00::"))

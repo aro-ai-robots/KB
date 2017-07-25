@@ -1,0 +1,4 @@
+(define s (WordSenseNode "roundness%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roundness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:07:00::"))
+(InheritanceLink s (WordSenseNode "figure%1:07:01::"))

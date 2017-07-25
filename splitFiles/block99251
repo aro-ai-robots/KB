@@ -1,0 +1,5 @@
+(define s (WordSenseNode "long-suffering%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "long-sufferance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endurance%1:07:00::"))
+(define x (WordNode "long-suffering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endurance%1:07:00::"))

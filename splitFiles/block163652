@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sustain%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sustain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "admit%2:32:00::"))
+(InheritanceLink s (WordSenseNode "acknowledge%2:32:00::"))

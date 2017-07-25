@@ -1,0 +1,5 @@
+(define s (WordSenseNode "harmonic_motion%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "harmonic_motion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "periodic_motion%1:11:00::"))
+(InheritanceLink s (WordSenseNode "periodic_movement%1:11:00::"))
+(InheritanceLink (WordSenseNode "simple_harmonic_motion%1:11:00::") s)

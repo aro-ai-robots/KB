@@ -1,0 +1,5 @@
+(define s (WordSenseNode "service_ceiling%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "combat_ceiling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ceiling%1:07:01::"))
+(define x (WordNode "service_ceiling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ceiling%1:07:01::"))

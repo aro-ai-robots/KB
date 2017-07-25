@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sand_bar%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sandbar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bar%1:17:00::"))
+(HolonymLink (WordSenseNode "sand%1:27:00::") s)
+(define x (WordNode "sand_bar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bar%1:17:00::"))
+(HolonymLink (WordSenseNode "sand%1:27:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "retreat%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "retreat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "withdrawal%1:04:00::"))
+(InheritanceLink (WordSenseNode "disengagement%1:04:00::") s)
+(InheritanceLink (WordSenseNode "fallback%1:04:00::") s)
+(InheritanceLink (WordSenseNode "pullout%1:04:00::") s)

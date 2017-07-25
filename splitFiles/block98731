@@ -1,0 +1,4 @@
+(define s (WordSenseNode "load-shedding%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "load-shedding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "limitation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "restriction%1:04:00::"))

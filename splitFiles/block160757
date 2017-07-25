@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stratification%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stratification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geological_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "geologic_process%1:22:00::"))
+(InheritanceLink (WordSenseNode "foliation%1:22:00::") s)

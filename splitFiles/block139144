@@ -1,0 +1,5 @@
+(define s (WordSenseNode "requiescat%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "requiescat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prayer%1:10:02::"))
+(InheritanceLink s (WordSenseNode "petition%1:10:01::"))
+(InheritanceLink s (WordSenseNode "orison%1:10:00::"))

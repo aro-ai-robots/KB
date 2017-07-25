@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reissue%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reissue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "publication%1:10:00::"))
+(define x (WordNode "reprint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "publication%1:10:00::"))
+(define x (WordNode "reprinting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "publication%1:10:00::"))

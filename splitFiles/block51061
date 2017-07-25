@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dutch_door%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dutch_door")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exterior_door%1:06:00::"))
+(InheritanceLink s (WordSenseNode "outside_door%1:06:00::"))
+(define x (WordNode "half_door")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exterior_door%1:06:00::"))
+(InheritanceLink s (WordSenseNode "outside_door%1:06:00::"))

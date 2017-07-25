@@ -1,0 +1,6 @@
+(define s (WordSenseNode "gnome%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gnome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maxim%1:10:00::"))
+(InheritanceLink s (WordSenseNode "axiom%1:10:00::"))
+(InheritanceLink (WordSenseNode "Murphy's_Law%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Sod's_Law%1:10:00::") s)

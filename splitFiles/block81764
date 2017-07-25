@@ -1,0 +1,3 @@
+(define s (WordSenseNode "homophony%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "homophony")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pronunciation%1:10:00::"))

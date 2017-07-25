@@ -1,0 +1,7 @@
+(define s (WordSenseNode "leaf_roller%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leaf_roller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tortricid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "tortricid_moth%1:05:00::"))
+(define x (WordNode "leaf-roller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tortricid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "tortricid_moth%1:05:00::"))

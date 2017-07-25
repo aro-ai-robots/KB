@@ -1,0 +1,5 @@
+(define s (WordSenseNode "milk_sugar%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lactose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disaccharide%1:27:00::"))
+(define x (WordNode "milk_sugar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disaccharide%1:27:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "blue_moon%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blue_moon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "long_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "age%1:28:03::"))
+(InheritanceLink s (WordSenseNode "years%1:28:01::"))

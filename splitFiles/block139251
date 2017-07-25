@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reserve%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reserve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "request%2:32:01::"))
+(InheritanceLink s (WordSenseNode "bespeak%2:32:00::"))
+(InheritanceLink s (WordSenseNode "call_for%2:32:04::"))
+(InheritanceLink s (WordSenseNode "quest%2:32:01::"))
+(InheritanceLink (WordSenseNode "book_up%2:32:00::") s)

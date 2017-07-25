@@ -1,0 +1,6 @@
+(define s (WordSenseNode "indirection%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "indirection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deception%1:04:00::"))
+(InheritanceLink s (WordSenseNode "deceit%1:04:00::"))
+(InheritanceLink s (WordSenseNode "dissembling%1:04:00::"))
+(InheritanceLink s (WordSenseNode "dissimulation%1:04:00::"))

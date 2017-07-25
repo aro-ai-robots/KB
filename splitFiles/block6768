@@ -1,0 +1,7 @@
+(define s (WordSenseNode "annamese%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Vietnamese")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mon-Khmer%1:10:00::"))
+(define x (WordNode "Annamese")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mon-Khmer%1:10:00::"))
+(define x (WordNode "Annamite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mon-Khmer%1:10:00::"))

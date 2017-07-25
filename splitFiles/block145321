@@ -1,0 +1,7 @@
+(define s (WordSenseNode "saucer_magnolia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "saucer_magnolia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnolia%1:20:00::"))
+(define x (WordNode "Chinese_magnolia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnolia%1:20:00::"))
+(define x (WordNode "Magnolia_soulangiana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnolia%1:20:00::"))

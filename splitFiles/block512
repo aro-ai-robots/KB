@@ -1,0 +1,5 @@
+(define s (WordSenseNode "abominable_snowman%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "abominable_snowman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legendary_creature%1:18:00::"))
+(define x (WordNode "yeti")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legendary_creature%1:18:00::"))

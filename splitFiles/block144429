@@ -1,0 +1,5 @@
+(define s (WordSenseNode "saltire%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "St._Andrew's_cross")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Cross%1:06:00::"))
+(define x (WordNode "saltire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Cross%1:06:00::"))

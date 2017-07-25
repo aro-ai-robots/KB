@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nationalism%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nationalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ambition%1:12:00::"))
+(InheritanceLink s (WordSenseNode "aspiration%1:12:00::"))
+(InheritanceLink s (WordSenseNode "dream%1:12:00::"))

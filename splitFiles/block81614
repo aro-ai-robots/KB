@@ -1,0 +1,7 @@
+(define s (WordSenseNode "home_secretary%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Home_Secretary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cabinet_minister%1:18:00::"))
+(HolonymLink s (WordSenseNode "British_Cabinet%1:14:00::"))
+(define x (WordNode "Secretary_of_State_for_the_Home_Department")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cabinet_minister%1:18:00::"))
+(HolonymLink s (WordSenseNode "British_Cabinet%1:14:00::"))

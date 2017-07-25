@@ -1,0 +1,5 @@
+(define s (WordSenseNode "forfeiture%1:21:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "forfeit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loss%1:21:01::"))
+(define x (WordNode "forfeiture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loss%1:21:01::"))

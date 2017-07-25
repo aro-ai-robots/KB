@@ -1,0 +1,5 @@
+(define s (WordSenseNode "facial%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "facial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skin_care%1:04:00::"))
+(InheritanceLink s (WordSenseNode "skincare%1:04:00::"))
+(InheritanceLink s (WordSenseNode "beauty_treatment%1:04:00::"))

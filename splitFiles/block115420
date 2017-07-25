@@ -1,0 +1,5 @@
+(define s (WordSenseNode "odium%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "odium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shame%1:26:00::"))
+(InheritanceLink s (WordSenseNode "disgrace%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ignominy%1:26:00::"))

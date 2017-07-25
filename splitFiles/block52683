@@ -1,0 +1,5 @@
+(define s (WordSenseNode "election_day%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polling_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))
+(define x (WordNode "election_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))

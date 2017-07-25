@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cognate_word%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cognate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "word%1:10:00::"))
+(define x (WordNode "cognate_word")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "word%1:10:00::"))

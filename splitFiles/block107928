@@ -1,0 +1,6 @@
+(define s (WordSenseNode "molestation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "molestation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sexual_assault%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sexual_abuse%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sex_crime%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sex_offense%1:04:00::"))

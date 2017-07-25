@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bastardisation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bastardization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "degradation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "debasement%1:04:00::"))
+(define x (WordNode "bastardisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "degradation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "debasement%1:04:00::"))

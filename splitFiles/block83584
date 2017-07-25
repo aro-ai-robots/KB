@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hydrostatic_head%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hydrostatic_head")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure%1:19:00::"))
+(InheritanceLink s (WordSenseNode "pressure_level%1:19:00::"))
+(InheritanceLink s (WordSenseNode "force_per_unit_area%1:19:00::"))

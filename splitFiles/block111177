@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nasalis_larvatus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "proboscis_monkey")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Old_World_monkey%1:05:00::"))
+(InheritanceLink s (WordSenseNode "catarrhine%1:05:00::"))
+(define x (WordNode "Nasalis_larvatus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Old_World_monkey%1:05:00::"))
+(InheritanceLink s (WordSenseNode "catarrhine%1:05:00::"))

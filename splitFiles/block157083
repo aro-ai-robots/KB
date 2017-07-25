@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spinmeister%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spin_doctor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_relations_person%1:18:00::"))
+(define x (WordNode "spinmeister")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_relations_person%1:18:00::"))

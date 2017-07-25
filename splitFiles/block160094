@@ -1,0 +1,8 @@
+(define s (WordSenseNode "stitch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stitch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sewing%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stitchery%1:06:00::"))
+(InheritanceLink (WordSenseNode "crochet_stitch%1:06:00::") s)
+(InheritanceLink (WordSenseNode "knitting_stitch%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sewing_stitch%1:06:00::") s)
+(InheritanceLink (WordSenseNode "embroidery_stitch%1:06:00::") s)

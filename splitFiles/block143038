@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rule_in%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rule_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%2:31:00::"))
+(InheritanceLink s (WordSenseNode "decree%2:31:00::"))
+(define x (WordNode "rule_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%2:31:00::"))
+(InheritanceLink s (WordSenseNode "decree%2:31:00::"))

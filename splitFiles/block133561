@@ -1,0 +1,7 @@
+(define s (WordSenseNode "put_off%2:37:04::")) (PartOfSpeechLink s verb)
+(define x (WordNode "turn_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repel%2:37:00::"))
+(InheritanceLink s (WordSenseNode "repulse%2:37:00::"))
+(define x (WordNode "put_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repel%2:37:00::"))
+(InheritanceLink s (WordSenseNode "repulse%2:37:00::"))

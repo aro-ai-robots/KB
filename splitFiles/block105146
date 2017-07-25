@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mental_balance%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mental_soundness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mental_health%1:26:00::"))
+(define x (WordNode "mental_balance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mental_health%1:26:00::"))

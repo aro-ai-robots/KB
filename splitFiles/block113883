@@ -1,0 +1,5 @@
+(define s (WordSenseNode "normality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "normality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expectedness%1:07:00::"))
+(define x (WordNode "normalcy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expectedness%1:07:00::"))

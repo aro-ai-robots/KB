@@ -1,0 +1,4 @@
+(define s (WordSenseNode "blasphemer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blasphemer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nonreligious_person%1:18:00::"))
+(InheritanceLink (WordSenseNode "swearer%1:18:01::") s)

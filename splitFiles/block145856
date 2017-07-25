@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scatology%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scatology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obscenity%1:10:00::"))
+(InheritanceLink s (WordSenseNode "smut%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vulgarism%1:10:00::"))
+(InheritanceLink s (WordSenseNode "filth%1:10:00::"))
+(InheritanceLink s (WordSenseNode "dirty_word%1:10:00::"))

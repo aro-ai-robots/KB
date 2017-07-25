@@ -1,0 +1,5 @@
+(define s (WordSenseNode "refraction%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "refraction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "double_refraction%1:19:00::") s)
+(InheritanceLink (WordSenseNode "birefringence%1:19:00::") s)

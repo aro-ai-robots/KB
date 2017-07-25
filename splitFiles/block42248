@@ -1,0 +1,7 @@
+(define s (WordSenseNode "daisywheel_printer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "daisywheel_printer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "character_printer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "character-at-a-time_printer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "serial_printer%1:06:00::"))
+(HolonymLink (WordSenseNode "daisy_print_wheel%1:06:00::") s)
+(HolonymLink (WordSenseNode "daisy_wheel%1:06:00::") s)

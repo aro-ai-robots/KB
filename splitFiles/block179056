@@ -1,0 +1,4 @@
+(define s (WordSenseNode "vice-regent%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vice-regent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deputy%1:18:00::"))
+(InheritanceLink s (WordSenseNode "lieutenant%1:18:02::"))

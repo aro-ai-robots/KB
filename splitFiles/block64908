@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fourier_analysis%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Fourier_analysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "analysis%1:09:02::"))
+(define x (WordNode "harmonic_analysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "analysis%1:09:02::"))

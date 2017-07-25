@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stage_name%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stage_name")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pseudonym%1:10:00::"))
+(InheritanceLink s (WordSenseNode "anonym%1:10:00::"))
+(InheritanceLink s (WordSenseNode "nom_de_guerre%1:10:00::"))

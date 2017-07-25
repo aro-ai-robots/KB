@@ -1,0 +1,5 @@
+(define s (WordSenseNode "petitio_principii%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "petitio_principii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logical_fallacy%1:09:00::"))
+(define x (WordNode "petitio")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logical_fallacy%1:09:00::"))

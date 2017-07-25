@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ablative%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ablative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oblique%1:10:00::"))
+(InheritanceLink s (WordSenseNode "oblique_case%1:10:00::"))
+(define x (WordNode "ablative_case")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oblique%1:10:00::"))
+(InheritanceLink s (WordSenseNode "oblique_case%1:10:00::"))

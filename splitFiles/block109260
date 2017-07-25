@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mountain_paca%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mountain_paca")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rodent%1:05:00::"))
+(InheritanceLink s (WordSenseNode "gnawer%1:05:00::"))
+(HolonymLink s (WordSenseNode "Stictomys%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Stictomys%1:05:00::"))

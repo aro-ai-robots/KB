@@ -1,0 +1,5 @@
+(define s (WordSenseNode "memory_trace%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "engram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "memory%1:09:02::"))
+(define x (WordNode "memory_trace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "memory%1:09:02::"))

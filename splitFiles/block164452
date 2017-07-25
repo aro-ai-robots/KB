@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sympathize%2:37:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sympathize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feel%2:37:00::"))
+(InheritanceLink s (WordSenseNode "experience%2:37:00::"))
+(define x (WordNode "sympathise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feel%2:37:00::"))
+(InheritanceLink s (WordSenseNode "experience%2:37:00::"))

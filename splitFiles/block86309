@@ -1,0 +1,6 @@
+(define s (WordSenseNode "indigenous_language%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "indigenous_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "linguistic_communication%1:10:00::"))
+(InheritanceLink (WordSenseNode "substrate%1:10:00::") s)
+(InheritanceLink (WordSenseNode "substratum%1:10:00::") s)

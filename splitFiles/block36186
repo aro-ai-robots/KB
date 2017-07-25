@@ -1,0 +1,7 @@
+(define s (WordSenseNode "congee%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "molding%1:06:01::"))
+(InheritanceLink s (WordSenseNode "moulding%1:06:01::"))
+(define x (WordNode "congee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "molding%1:06:01::"))
+(InheritanceLink s (WordSenseNode "moulding%1:06:01::"))

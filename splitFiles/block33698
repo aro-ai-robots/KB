@@ -1,0 +1,8 @@
+(define s (WordSenseNode "cold_weather%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cold_weather")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weather%1:19:00::"))
+(InheritanceLink s (WordSenseNode "weather_condition%1:19:00::"))
+(InheritanceLink s (WordSenseNode "conditions%1:19:00::"))
+(InheritanceLink s (WordSenseNode "atmospheric_condition%1:19:00::"))
+(InheritanceLink (WordSenseNode "freeze%1:19:00::") s)
+(InheritanceLink (WordSenseNode "frost%1:19:00::") s)

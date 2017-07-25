@@ -1,0 +1,6 @@
+(define s (WordSenseNode "laureate%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laureate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "honoree%1:18:00::"))
+(InheritanceLink (WordSenseNode "Nobelist%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Nobel_Laureate%1:18:00::") s)
+(InheritanceLink (WordSenseNode "poet_laureate%1:18:00::") s)

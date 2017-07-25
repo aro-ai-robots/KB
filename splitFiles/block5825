@@ -1,0 +1,4 @@
+(define s (WordSenseNode "amyloid%1:27:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amyloid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "starch%1:27:00::"))
+(InheritanceLink s (WordSenseNode "amylum%1:27:00::"))

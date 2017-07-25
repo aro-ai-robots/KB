@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hyphenation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hyphenation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punctuation%1:04:00::"))
+(HolonymLink s (WordSenseNode "orthography%1:10:00::"))
+(HolonymLink s (WordSenseNode "writing_system%1:10:00::"))

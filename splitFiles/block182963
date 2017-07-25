@@ -1,0 +1,5 @@
+(define s (WordSenseNode "whitelash%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "whitelash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "backlash%1:04:00::"))
+(define x (WordNode "white_backlash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "backlash%1:04:00::"))

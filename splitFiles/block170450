@@ -1,0 +1,7 @@
+(define s (WordSenseNode "top%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "top")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "woman's_clothing%1:06:00::"))
+(InheritanceLink (WordSenseNode "blouse%1:06:00::") s)
+(InheritanceLink (WordSenseNode "bodice%1:06:00::") s)
+(InheritanceLink (WordSenseNode "bustier%1:06:00::") s)
+(InheritanceLink (WordSenseNode "halter%1:06:00::") s)

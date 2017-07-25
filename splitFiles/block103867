@@ -1,0 +1,5 @@
+(define s (WordSenseNode "matrix%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "matrix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mold%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mould%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cast%1:06:03::"))

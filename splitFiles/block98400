@@ -1,0 +1,7 @@
+(define s (WordSenseNode "literary_argument%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "argument")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "summary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sum-up%1:10:00::"))
+(define x (WordNode "literary_argument")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "summary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sum-up%1:10:00::"))

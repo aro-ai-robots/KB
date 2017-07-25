@@ -1,0 +1,7 @@
+(define s (WordSenseNode "prepare%2:36:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "prepare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "make%2:36:00::"))
+(InheritanceLink s (WordSenseNode "create%2:36:00::"))
+(InheritanceLink (WordSenseNode "rough_in%2:36:00::") s)
+(InheritanceLink (WordSenseNode "rough%2:36:01::") s)
+(InheritanceLink (WordSenseNode "rough_out%2:36:00::") s)

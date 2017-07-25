@@ -1,0 +1,7 @@
+(define s (WordSenseNode "assumption%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "assumption")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%1:03:00::"))
+(InheritanceLink s (WordSenseNode "deed%1:03:00::"))
+(InheritanceLink s (WordSenseNode "human_action%1:03:00::"))
+(InheritanceLink s (WordSenseNode "human_activity%1:03:00::"))
+(InheritanceLink (WordSenseNode "position%1:04:04::") s)

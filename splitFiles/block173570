@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tunnel_vision%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tunnel_vision")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "visual_impairment%1:26:00::"))
+(InheritanceLink s (WordSenseNode "visual_defect%1:26:00::"))
+(InheritanceLink s (WordSenseNode "vision_defect%1:26:00::"))
+(InheritanceLink s (WordSenseNode "visual_disorder%1:26:00::"))

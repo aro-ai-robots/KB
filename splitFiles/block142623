@@ -1,0 +1,4 @@
+(define s (WordSenseNode "roundelay%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roundelay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "song%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vocal%1:10:01::"))

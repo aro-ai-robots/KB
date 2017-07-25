@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lookup%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "search")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:22:00::"))
+(define x (WordNode "lookup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:22:00::"))

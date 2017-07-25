@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fish_glue%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fish_glue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glue%1:27:00::"))
+(InheritanceLink s (WordSenseNode "gum%1:27:01::"))
+(InheritanceLink s (WordSenseNode "mucilage%1:27:01::"))
+(InheritanceLink s (WordSenseNode "animal_product%1:27:00::"))

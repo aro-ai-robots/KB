@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bumper_guard%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bumper_guard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_device%1:06:00::"))
+(HolonymLink s (WordSenseNode "bumper%1:06:00::"))

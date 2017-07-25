@@ -1,0 +1,7 @@
+(define s (WordSenseNode "horseleech%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "horseleech")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leech%1:05:00::"))
+(InheritanceLink s (WordSenseNode "bloodsucker%1:05:00::"))
+(InheritanceLink s (WordSenseNode "hirudinean%1:05:00::"))
+(HolonymLink s (WordSenseNode "Haemopis%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Haemopis%1:05:00::"))

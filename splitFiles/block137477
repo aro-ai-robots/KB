@@ -1,0 +1,4 @@
+(define s (WordSenseNode "reed_section%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reed_section")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "section%1:14:01::"))
+(InheritanceLink (WordSenseNode "clarinet_section%1:14:00::") s)

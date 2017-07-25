@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coffey_still%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Coffey_still")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "still%1:06:00::"))
+(HolonymLink s (WordSenseNode "distillery%1:06:00::"))
+(HolonymLink s (WordSenseNode "still%1:06:02::"))

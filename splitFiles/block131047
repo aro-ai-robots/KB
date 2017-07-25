@@ -1,0 +1,4 @@
+(define s (WordSenseNode "process-server%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "process-server")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "messenger%1:18:00::"))
+(InheritanceLink s (WordSenseNode "courier%1:18:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "election_district%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "voting_precinct")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "precinct%1:15:00::"))
+(define x (WordNode "election_district")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "precinct%1:15:00::"))

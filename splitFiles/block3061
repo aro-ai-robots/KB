@@ -1,0 +1,7 @@
+(define s (WordSenseNode "agate_line%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "agate_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "square_measure%1:23:00::"))
+(define x (WordNode "line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "square_measure%1:23:00::"))

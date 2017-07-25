@@ -1,0 +1,4 @@
+(define s (WordSenseNode "disclaimer%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disclaimer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repudiation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "renunciation%1:10:01::"))

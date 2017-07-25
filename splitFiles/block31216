@@ -1,0 +1,7 @@
+(define s (WordSenseNode "circulate%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "circulate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "travel%2:38:00::"))
+(InheritanceLink s (WordSenseNode "go%2:38:00::"))
+(InheritanceLink s (WordSenseNode "move%2:38:03::"))
+(InheritanceLink s (WordSenseNode "locomote%2:38:00::"))
+(InheritanceLink (WordSenseNode "drift%2:38:05::") s)

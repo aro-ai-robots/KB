@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nanotube%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carbon_nanotube")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fullerene%1:27:00::"))
+(define x (WordNode "nanotube")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fullerene%1:27:00::"))

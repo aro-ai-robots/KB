@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rope_yard%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ropewalk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "workplace%1:06:00::"))
+(InheritanceLink s (WordSenseNode "work%1:06:01::"))
+(define x (WordNode "rope_yard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "workplace%1:06:00::"))
+(InheritanceLink s (WordSenseNode "work%1:06:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "holometabola%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "holometabola")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insect%1:05:00::"))
+(define x (WordNode "metabola")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insect%1:05:00::"))

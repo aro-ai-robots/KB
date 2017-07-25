@@ -1,0 +1,7 @@
+(define s (WordSenseNode "notice%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "notification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "request%1:10:00::"))
+(InheritanceLink s (WordSenseNode "asking%1:10:00::"))
+(define x (WordNode "notice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "request%1:10:00::"))
+(InheritanceLink s (WordSenseNode "asking%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "laptop%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laptop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "portable_computer%1:06:00::"))
+(define x (WordNode "laptop_computer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "portable_computer%1:06:00::"))

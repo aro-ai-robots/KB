@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stroke%1:04:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stroke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "locomotion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "travel%1:04:01::"))
+(InheritanceLink (WordSenseNode "swimming_stroke%1:04:00::") s)

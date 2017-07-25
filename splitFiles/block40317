@@ -1,0 +1,4 @@
+(define s (WordSenseNode "crossover%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crossover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "borrowing%1:04:01::"))
+(InheritanceLink s (WordSenseNode "adoption%1:04:01::"))

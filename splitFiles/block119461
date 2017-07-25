@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pageantry%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pageant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "representation%1:04:00::"))
+(define x (WordNode "pageantry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "representation%1:04:00::"))

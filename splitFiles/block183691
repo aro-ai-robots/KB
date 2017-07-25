@@ -1,0 +1,7 @@
+(define s (WordSenseNode "win%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "winnings")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_gain%1:21:00::"))
+(define x (WordNode "win")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_gain%1:21:00::"))
+(define x (WordNode "profits")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_gain%1:21:00::"))

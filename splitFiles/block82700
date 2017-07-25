@@ -1,0 +1,5 @@
+(define s (WordSenseNode "housework%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "housework")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%1:04:00::"))
+(define x (WordNode "housekeeping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%1:04:00::"))

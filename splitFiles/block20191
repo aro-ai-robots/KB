@@ -1,0 +1,5 @@
+(define s (WordSenseNode "brace_and_bit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brace_and_bit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drill%1:06:00::"))
+(HolonymLink (WordSenseNode "brace%1:06:01::") s)
+(HolonymLink (WordSenseNode "bitstock%1:06:00::") s)

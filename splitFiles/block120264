@@ -1,0 +1,5 @@
+(define s (WordSenseNode "papillary_muscle%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "papillary_muscle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardiac_muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "heart_muscle%1:08:00::"))
+(HolonymLink s (WordSenseNode "atrioventricular_valve%1:08:00::"))

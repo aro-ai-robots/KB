@@ -1,0 +1,5 @@
+(define s (WordSenseNode "world-weariness%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "world-weariness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "melancholy%1:12:00::"))
+(define x (WordNode "Weltschmerz")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "melancholy%1:12:00::"))

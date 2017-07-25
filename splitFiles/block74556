@@ -1,0 +1,6 @@
+(define s (WordSenseNode "grace%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Grace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Greek_deity%1:18:00::"))
+(InheritanceLink (WordSenseNode "Aglaia%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Euphrosyne%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Thalia%1:18:01::") s)

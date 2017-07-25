@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cavia_porcellus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aperea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cavy%1:05:00::"))
+(define x (WordNode "wild_cavy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cavy%1:05:00::"))
+(define x (WordNode "Cavia_porcellus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cavy%1:05:00::"))

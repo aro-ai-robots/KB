@@ -1,0 +1,7 @@
+(define s (WordSenseNode "willowware%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "willowware")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chinaware%1:06:00::"))
+(InheritanceLink s (WordSenseNode "china%1:06:01::"))
+(define x (WordNode "willow-pattern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chinaware%1:06:00::"))
+(InheritanceLink s (WordSenseNode "china%1:06:01::"))

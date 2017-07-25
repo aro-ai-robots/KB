@@ -1,0 +1,7 @@
+(define s (WordSenseNode "voicemail%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "voice_mail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telephone%1:10:00::"))
+(InheritanceLink s (WordSenseNode "telephony%1:10:00::"))
+(define x (WordNode "voicemail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telephone%1:10:00::"))
+(InheritanceLink s (WordSenseNode "telephony%1:10:00::"))

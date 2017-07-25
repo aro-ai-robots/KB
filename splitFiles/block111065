@@ -1,0 +1,5 @@
+(define s (WordSenseNode "narcissist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "narcissist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "selfish_person%1:18:00::"))
+(define x (WordNode "narcist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "selfish_person%1:18:00::"))

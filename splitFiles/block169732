@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tiptop%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tiptop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "top%1:15:00::"))
+(InheritanceLink s (WordSenseNode "top_side%1:15:00::"))
+(InheritanceLink s (WordSenseNode "upper_side%1:15:00::"))
+(InheritanceLink s (WordSenseNode "upside%1:15:00::"))

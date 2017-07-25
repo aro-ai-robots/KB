@@ -1,0 +1,5 @@
+(define s (WordSenseNode "algorism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "algorism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decimal_numeration_system%1:10:00::"))
+(InheritanceLink s (WordSenseNode "decimal_number_system%1:10:00::"))
+(InheritanceLink s (WordSenseNode "decimal_system%1:10:00::"))

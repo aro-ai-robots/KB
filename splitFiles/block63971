@@ -1,0 +1,5 @@
+(define s (WordSenseNode "food_stamp%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "food_stamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tender%1:21:00::"))
+(InheritanceLink s (WordSenseNode "legal_tender%1:21:00::"))
+(InheritanceLink s (WordSenseNode "stamp%1:21:00::"))

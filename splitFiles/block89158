@@ -1,0 +1,5 @@
+(define s (WordSenseNode "irresistible_impulse%1:16:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compulsion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irrational_impulse%1:16:00::"))
+(define x (WordNode "irresistible_impulse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irrational_impulse%1:16:00::"))

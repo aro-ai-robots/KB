@@ -1,0 +1,4 @@
+(define s (WordSenseNode "honeymoon%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "honeymoon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vacation%1:28:00::"))
+(InheritanceLink s (WordSenseNode "holiday%1:28:00::"))

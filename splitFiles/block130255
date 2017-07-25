@@ -1,0 +1,6 @@
+(define s (WordSenseNode "press_corps%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "press_corps")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "occupational_group%1:14:00::"))
+(InheritanceLink s (WordSenseNode "vocation%1:14:00::"))
+(HolonymLink s (WordSenseNode "press%1:10:00::"))
+(HolonymLink s (WordSenseNode "public_press%1:10:00::"))

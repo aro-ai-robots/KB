@@ -1,0 +1,6 @@
+(define s (WordSenseNode "half_binding%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "half_binding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "binding%1:06:00::"))
+(InheritanceLink s (WordSenseNode "book_binding%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cover%1:06:04::"))
+(InheritanceLink s (WordSenseNode "back%1:06:03::"))

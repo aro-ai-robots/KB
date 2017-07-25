@@ -1,0 +1,8 @@
+(define s (WordSenseNode "solar_calendar%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "solar_calendar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "calendar%1:28:00::"))
+(InheritanceLink (WordSenseNode "Gregorian_calendar%1:28:00::") s)
+(InheritanceLink (WordSenseNode "New_Style_calendar%1:28:00::") s)
+(InheritanceLink (WordSenseNode "Julian_calendar%1:28:00::") s)
+(InheritanceLink (WordSenseNode "Old_Style_calendar%1:28:00::") s)
+(InheritanceLink (WordSenseNode "Revolutionary_calendar%1:28:00::") s)

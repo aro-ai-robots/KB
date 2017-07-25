@@ -1,0 +1,8 @@
+(define s (WordSenseNode "culture%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "culture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cultivation%1:04:00::"))
+(InheritanceLink (WordSenseNode "cranberry_culture%1:04:00::") s)
+(InheritanceLink (WordSenseNode "monoculture%1:04:00::") s)
+(InheritanceLink (WordSenseNode "tillage%1:04:00::") s)
+(InheritanceLink (WordSenseNode "viticulture%1:04:00::") s)
+(InheritanceLink (WordSenseNode "viniculture%1:04:00::") s)

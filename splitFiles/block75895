@@ -1,0 +1,7 @@
+(define s (WordSenseNode "groucho%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Marx")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Marx_Brothers%1:14:00::"))
+(define x (WordNode "Julius_Marx")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Marx_Brothers%1:14:00::"))
+(define x (WordNode "Groucho")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Marx_Brothers%1:14:00::"))

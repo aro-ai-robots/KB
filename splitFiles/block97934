@@ -1,0 +1,4 @@
+(define s (WordSenseNode "line_score%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "line_score")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "summary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sum-up%1:10:00::"))

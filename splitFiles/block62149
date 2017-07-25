@@ -1,0 +1,5 @@
+(define s (WordSenseNode "first_sacker%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "first_baseman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infielder%1:18:00::"))
+(define x (WordNode "first_sacker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infielder%1:18:00::"))

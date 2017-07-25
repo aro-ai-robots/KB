@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chronology%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chronology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "written_record%1:10:00::"))
+(InheritanceLink s (WordSenseNode "written_account%1:10:00::"))
+(InheritanceLink (WordSenseNode "timeline%1:10:00::") s)

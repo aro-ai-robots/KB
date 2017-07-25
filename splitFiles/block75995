@@ -1,0 +1,7 @@
+(define s (WordSenseNode "groundkeeper%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "groundsman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gardener%1:18:01::"))
+(define x (WordNode "groundskeeper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gardener%1:18:01::"))
+(define x (WordNode "groundkeeper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gardener%1:18:01::"))

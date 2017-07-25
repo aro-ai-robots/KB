@@ -1,0 +1,6 @@
+(define s (WordSenseNode "matchstick%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "matchstick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stick%1:06:00::"))
+(HolonymLink s (WordSenseNode "match%1:06:00::"))
+(HolonymLink s (WordSenseNode "lucifer%1:06:00::"))
+(HolonymLink s (WordSenseNode "friction_match%1:06:00::"))

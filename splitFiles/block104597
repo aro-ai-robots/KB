@@ -1,0 +1,5 @@
+(define s (WordSenseNode "medium%1:27:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "medium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:00::"))
+(InheritanceLink (WordSenseNode "contrast_medium%1:27:00::") s)
+(InheritanceLink (WordSenseNode "contrast_material%1:27:00::") s)

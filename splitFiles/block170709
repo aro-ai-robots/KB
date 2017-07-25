@@ -1,0 +1,5 @@
+(define s (WordSenseNode "torturer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "torturer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oppressor%1:18:00::"))
+(InheritanceLink (WordSenseNode "flogger%1:18:00::") s)
+(InheritanceLink (WordSenseNode "scourger%1:18:00::") s)

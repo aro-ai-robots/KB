@@ -1,0 +1,7 @@
+(define s (WordSenseNode "acoustic_reactance%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acoustic_resistance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resistance%1:19:00::"))
+(define x (WordNode "acoustic_impedance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resistance%1:19:00::"))
+(define x (WordNode "acoustic_reactance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resistance%1:19:00::"))

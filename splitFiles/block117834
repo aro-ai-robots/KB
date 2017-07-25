@@ -1,0 +1,7 @@
+(define s (WordSenseNode "orthicon%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orthicon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "television-camera_tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "television_pickup_tube%1:06:00::"))
+(define x (WordNode "image_orthicon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "television-camera_tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "television_pickup_tube%1:06:00::"))

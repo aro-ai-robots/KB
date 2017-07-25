@@ -1,0 +1,7 @@
+(define s (WordSenseNode "foreign_correspondent%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foreign_correspondent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "correspondent%1:18:01::"))
+(InheritanceLink s (WordSenseNode "newspaperman%1:18:00::"))
+(InheritanceLink s (WordSenseNode "newspaperwoman%1:18:00::"))
+(InheritanceLink s (WordSenseNode "newswriter%1:18:00::"))
+(InheritanceLink s (WordSenseNode "pressman%1:18:01::"))

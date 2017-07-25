@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fascicle%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fascicle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "installment%1:10:01::"))
+(InheritanceLink s (WordSenseNode "instalment%1:10:01::"))
+(define x (WordNode "fascicule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "installment%1:10:01::"))
+(InheritanceLink s (WordSenseNode "instalment%1:10:01::"))

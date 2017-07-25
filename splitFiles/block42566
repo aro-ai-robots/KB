@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dari_persian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dari")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Iranian%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Iranian_language%1:10:00::"))
+(define x (WordNode "Dari_Persian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Iranian%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Iranian_language%1:10:00::"))

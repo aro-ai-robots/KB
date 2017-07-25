@@ -1,0 +1,7 @@
+(define s (WordSenseNode "conductivity%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conduction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "electrical_conduction%1:19:00::") s)
+(define x (WordNode "conductivity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "electrical_conduction%1:19:00::") s)

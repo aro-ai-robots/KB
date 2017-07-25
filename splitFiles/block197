@@ -1,0 +1,5 @@
+(define s (WordSenseNode "a_horizon%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "A-horizon")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "humus%1:27:00::") s)
+(define x (WordNode "A_horizon")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "humus%1:27:00::") s)

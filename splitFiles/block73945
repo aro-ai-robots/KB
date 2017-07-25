@@ -1,0 +1,6 @@
+(define s (WordSenseNode "gold_standard%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gold_standard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paragon%1:09:00::"))
+(InheritanceLink s (WordSenseNode "idol%1:09:00::"))
+(InheritanceLink s (WordSenseNode "perfection%1:09:00::"))
+(InheritanceLink s (WordSenseNode "beau_ideal%1:09:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antiquity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ancientness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oldness%1:07:00::"))
+(define x (WordNode "antiquity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oldness%1:07:00::"))

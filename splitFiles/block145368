@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sausage_curl%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sausage_curl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lock%1:08:00::"))
+(InheritanceLink s (WordSenseNode "curl%1:08:00::"))
+(InheritanceLink s (WordSenseNode "ringlet%1:08:00::"))
+(InheritanceLink s (WordSenseNode "whorl%1:08:00::"))

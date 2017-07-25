@@ -1,0 +1,4 @@
+(define s (WordSenseNode "deactivate%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deactivate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discharge%2:33:00::"))
+(InheritanceLink s (WordSenseNode "muster_out%2:33:00::"))

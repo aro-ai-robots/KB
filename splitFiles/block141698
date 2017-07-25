@@ -1,0 +1,8 @@
+(define s (WordSenseNode "rock_star%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rock_star")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rocker%1:18:01::"))
+(InheritanceLink s (WordSenseNode "rock_'n'_roll_musician%1:18:00::"))
+(InheritanceLink s (WordSenseNode "singer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "vocalist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "vocalizer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "vocaliser%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "box%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "box")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compartment%1:06:00::"))
+(InheritanceLink (WordSenseNode "jury_box%1:06:00::") s)
+(InheritanceLink (WordSenseNode "press_box%1:06:00::") s)
+(InheritanceLink (WordSenseNode "witness_box%1:06:00::") s)
+(InheritanceLink (WordSenseNode "witness_stand%1:06:00::") s)

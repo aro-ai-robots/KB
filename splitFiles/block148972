@@ -1,0 +1,5 @@
+(define s (WordSenseNode "serratus_posterior_superior%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "serratus_posterior_superior")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "posterior_serratus_muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "serratus_posterior%1:08:00::"))
+(InheritanceLink s (WordSenseNode "musculus_serratus_posterior%1:08:00::"))

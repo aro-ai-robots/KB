@@ -1,0 +1,5 @@
+(define s (WordSenseNode "genus_heliobacter%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Heliobacter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_genus%1:05:00::"))
+(define x (WordNode "genus_Heliobacter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_genus%1:05:00::"))

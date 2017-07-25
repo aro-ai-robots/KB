@@ -1,0 +1,5 @@
+(define s (WordSenseNode "variation%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "variation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thing%1:06:00::"))
+(InheritanceLink (WordSenseNode "bastard%1:06:00::") s)
+(InheritanceLink (WordSenseNode "mongrel%1:06:00::") s)

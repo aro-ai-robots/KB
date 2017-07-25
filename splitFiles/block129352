@@ -1,0 +1,8 @@
+(define s (WordSenseNode "power_of_attorney%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "power_of_attorney")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legal_document%1:10:00::"))
+(InheritanceLink s (WordSenseNode "legal_instrument%1:10:00::"))
+(InheritanceLink s (WordSenseNode "official_document%1:10:00::"))
+(InheritanceLink s (WordSenseNode "instrument%1:10:00::"))
+(InheritanceLink (WordSenseNode "stock_power%1:10:00::") s)
+(InheritanceLink (WordSenseNode "proxy%1:10:00::") s)

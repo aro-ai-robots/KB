@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cocozelle%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cocozelle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "summer_squash%1:13:00::"))
+(HolonymLink s (WordSenseNode "cocozelle%1:20:00::"))
+(HolonymLink s (WordSenseNode "Italian_vegetable_marrow%1:20:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "waterway%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "waterway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_of_water%1:17:00::"))
+(InheritanceLink s (WordSenseNode "water%1:17:00::"))
+(InheritanceLink (WordSenseNode "ditch%1:17:02::") s)
+(InheritanceLink (WordSenseNode "mare_clausum%1:17:00::") s)
+(InheritanceLink (WordSenseNode "mare_liberum%1:17:00::") s)
+(InheritanceLink (WordSenseNode "rapid%1:17:00::") s)

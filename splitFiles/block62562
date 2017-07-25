@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flame_fish%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flame_fish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardinalfish%1:05:00::"))
+(define x (WordNode "flamefish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardinalfish%1:05:00::"))
+(define x (WordNode "Apogon_maculatus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardinalfish%1:05:00::"))

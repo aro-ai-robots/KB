@@ -1,0 +1,5 @@
+(define s (WordSenseNode "meet%2:42:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "converge")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "breast%2:42:00::") s)
+(define x (WordNode "meet")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "breast%2:42:00::") s)

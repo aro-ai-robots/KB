@@ -1,0 +1,6 @@
+(define s (WordSenseNode "candida%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "candida")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fungus%1:20:00::"))
+(InheritanceLink (WordSenseNode "Candida_albicans%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Monilia_albicans%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Candida%1:20:00::"))

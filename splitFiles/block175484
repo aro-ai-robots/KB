@@ -1,0 +1,7 @@
+(define s (WordSenseNode "uneven_parallel_bars%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "uneven_parallel_bars")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parallel_bars%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bars%1:06:00::"))
+(define x (WordNode "uneven_bars")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parallel_bars%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bars%1:06:00::"))

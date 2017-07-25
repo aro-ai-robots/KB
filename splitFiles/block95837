@@ -1,0 +1,8 @@
+(define s (WordSenseNode "learned_profession%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "learned_profession")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "profession%1:04:00::"))
+(InheritanceLink (WordSenseNode "law%1:04:00::") s)
+(InheritanceLink (WordSenseNode "practice_of_law%1:04:00::") s)
+(InheritanceLink (WordSenseNode "medicine%1:04:00::") s)
+(InheritanceLink (WordSenseNode "practice_of_medicine%1:04:00::") s)
+(InheritanceLink (WordSenseNode "theology%1:04:00::") s)

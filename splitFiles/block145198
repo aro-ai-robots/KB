@@ -1,0 +1,7 @@
+(define s (WordSenseNode "satellite%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "satellite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "celestial_body%1:17:00::"))
+(InheritanceLink s (WordSenseNode "heavenly_body%1:17:00::"))
+(InheritanceLink (WordSenseNode "Galilean_satellite%1:17:00::") s)
+(InheritanceLink (WordSenseNode "Galilean%1:17:00::") s)
+(InheritanceLink (WordSenseNode "moon%1:17:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "blind_spot%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blind_spot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "topic%1:09:00::"))
+(InheritanceLink s (WordSenseNode "subject%1:09:01::"))
+(InheritanceLink s (WordSenseNode "issue%1:09:00::"))
+(InheritanceLink s (WordSenseNode "matter%1:09:00::"))

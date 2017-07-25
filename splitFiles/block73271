@@ -1,0 +1,7 @@
+(define s (WordSenseNode "glint%2:39:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "glance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "look%2:39:00::"))
+(define x (WordNode "peek")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "look%2:39:00::"))
+(define x (WordNode "glint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "look%2:39:00::"))

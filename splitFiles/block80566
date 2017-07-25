@@ -1,0 +1,4 @@
+(define s (WordSenseNode "high_mass%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "High_Mass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mass%1:04:00::"))
+(HolonymLink (WordSenseNode "Mass%1:10:00::") s)

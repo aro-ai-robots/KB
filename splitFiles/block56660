@@ -1,0 +1,5 @@
+(define s (WordSenseNode "except%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "demur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%2:32:00::"))
+(define x (WordNode "except")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%2:32:00::"))

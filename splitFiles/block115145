@@ -1,0 +1,7 @@
+(define s (WordSenseNode "obtention%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "obtainment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acquiring%1:04:00::"))
+(InheritanceLink s (WordSenseNode "getting%1:04:00::"))
+(define x (WordNode "obtention")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acquiring%1:04:00::"))
+(InheritanceLink s (WordSenseNode "getting%1:04:00::"))

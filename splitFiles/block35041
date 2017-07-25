@@ -1,0 +1,5 @@
+(define s (WordSenseNode "communist_party%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Communist_Party")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "party%1:14:01::"))
+(InheritanceLink s (WordSenseNode "political_party%1:14:00::"))
+(HolonymLink (WordSenseNode "Communist%1:18:01::") s)

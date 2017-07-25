@@ -1,0 +1,8 @@
+(define s (WordSenseNode "presenile_dementia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "presenile_dementia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dementia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "dementedness%1:26:00::"))
+(InheritanceLink (WordSenseNode "Alzheimer's_disease%1:26:00::") s)
+(InheritanceLink (WordSenseNode "Alzheimer's%1:26:00::") s)
+(InheritanceLink (WordSenseNode "Alzheimers%1:26:00::") s)
+(InheritanceLink (WordSenseNode "Pick's_disease%1:26:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pin_up%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pin_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attach%2:35:01::"))
+(define x (WordNode "pin_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attach%2:35:01::"))

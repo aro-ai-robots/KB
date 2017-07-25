@@ -1,0 +1,4 @@
+(define s (WordSenseNode "language_barrier%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "language_barrier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "barrier%1:09:00::"))
+(InheritanceLink s (WordSenseNode "roadblock%1:09:00::"))

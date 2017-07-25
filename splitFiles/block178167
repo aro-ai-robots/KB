@@ -1,0 +1,3 @@
+(define s (WordSenseNode "vegan%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vegan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vegetarian%1:18:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "irritate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "irritate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stimulate%2:30:00::"))
+(InheritanceLink s (WordSenseNode "excite%2:30:00::"))
+(InheritanceLink (WordSenseNode "pinch%2:30:00::") s)
+(InheritanceLink (WordSenseNode "vellicate%2:30:00::") s)

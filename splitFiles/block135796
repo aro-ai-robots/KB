@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rasp%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rasp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "file%1:06:00::"))
+(define x (WordNode "wood_file")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "file%1:06:00::"))

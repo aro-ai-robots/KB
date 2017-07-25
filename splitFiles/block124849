@@ -1,0 +1,6 @@
+(define s (WordSenseNode "picture_postcard%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "picture_postcard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "postcard%1:10:00::"))
+(InheritanceLink s (WordSenseNode "post_card%1:10:00::"))
+(InheritanceLink s (WordSenseNode "postal_card%1:10:00::"))
+(InheritanceLink s (WordSenseNode "mailing-card%1:10:00::"))

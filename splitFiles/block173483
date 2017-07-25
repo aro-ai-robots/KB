@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tumor_suppressor_gene%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tumor_suppressor_gene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "suppressor%1:08:00::"))
+(InheritanceLink s (WordSenseNode "suppresser%1:08:00::"))
+(InheritanceLink s (WordSenseNode "suppressor_gene%1:08:00::"))
+(InheritanceLink s (WordSenseNode "suppresser_gene%1:08:00::"))

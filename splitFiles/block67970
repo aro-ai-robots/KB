@@ -1,0 +1,7 @@
+(define s (WordSenseNode "general_medicine%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "internal_medicine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medicine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "medical_specialty%1:09:00::"))
+(define x (WordNode "general_medicine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medicine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "medical_specialty%1:09:00::"))

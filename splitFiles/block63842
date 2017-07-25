@@ -1,0 +1,5 @@
+(define s (WordSenseNode "folk_writer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "folk_writer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "author%1:18:00::"))
+(InheritanceLink (WordSenseNode "folk_poet%1:18:00::") s)

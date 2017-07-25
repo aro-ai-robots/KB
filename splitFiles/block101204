@@ -1,0 +1,6 @@
+(define s (WordSenseNode "magnetic_flux%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magnetic_flux")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnetization%1:23:00::"))
+(InheritanceLink s (WordSenseNode "magnetisation%1:23:00::"))
+(InheritanceLink (WordSenseNode "flux_unit%1:23:00::") s)
+(InheritanceLink (WordSenseNode "magnetic_flux_unit%1:23:00::") s)

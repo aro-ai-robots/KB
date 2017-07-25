@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kettle%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kettle_hole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hole%1:17:02::"))
+(InheritanceLink s (WordSenseNode "hollow%1:17:00::"))
+(define x (WordNode "kettle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hole%1:17:02::"))
+(InheritanceLink s (WordSenseNode "hollow%1:17:00::"))

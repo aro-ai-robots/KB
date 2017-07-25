@@ -1,0 +1,6 @@
+(define s (WordSenseNode "library_science%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "library_science")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "humanistic_discipline%1:09:00::"))
+(InheritanceLink s (WordSenseNode "humanities%1:09:00::"))
+(InheritanceLink s (WordSenseNode "liberal_arts%1:09:00::"))
+(InheritanceLink s (WordSenseNode "arts%1:09:00::"))

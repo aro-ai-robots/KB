@@ -1,0 +1,4 @@
+(define s (WordSenseNode "polarography%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polarography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_analysis%1:04:00::"))
+(InheritanceLink s (WordSenseNode "qualitative_analysis%1:04:00::"))

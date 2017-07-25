@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mad_cow_disease%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bovine_spongiform_encephalitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_disease%1:26:00::"))
+(define x (WordNode "BSE")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_disease%1:26:00::"))
+(define x (WordNode "mad_cow_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_disease%1:26:00::"))

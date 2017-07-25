@@ -1,0 +1,8 @@
+(define s (WordSenseNode "snail%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "snail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gastropod%1:05:00::"))
+(InheritanceLink s (WordSenseNode "univalve%1:05:00::"))
+(InheritanceLink (WordSenseNode "scorpion_shell%1:05:00::") s)
+(InheritanceLink (WordSenseNode "edible_snail%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Helix_pomatia%1:05:00::") s)
+(InheritanceLink (WordSenseNode "garden_snail%1:05:00::") s)

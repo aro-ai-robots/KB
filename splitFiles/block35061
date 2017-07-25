@@ -1,0 +1,7 @@
+(define s (WordSenseNode "communize%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "communize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nationalize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "nationalise%2:30:00::"))
+(define x (WordNode "communise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nationalize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "nationalise%2:30:00::"))

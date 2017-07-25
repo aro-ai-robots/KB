@@ -1,0 +1,5 @@
+(define s (WordSenseNode "codicil%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "codicil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appendix%1:10:00::"))
+(HolonymLink s (WordSenseNode "will%1:10:00::"))
+(HolonymLink s (WordSenseNode "testament%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rhizoctinia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rhizoctinia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fungus%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Rhizoctinia%1:20:00::"))
+(HolonymLink s (WordSenseNode "form_genus_Rhizoctinia%1:20:00::"))

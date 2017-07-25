@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ward%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "guard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protect%2:33:00::"))
+(InheritanceLink (WordSenseNode "shepherd%2:41:01::") s)
+(define x (WordNode "ward")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protect%2:33:00::"))
+(InheritanceLink (WordSenseNode "shepherd%2:41:01::") s)

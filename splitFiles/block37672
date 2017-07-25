@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coptic_church%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Coptic_Church")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "church%1:14:00::"))
+(InheritanceLink s (WordSenseNode "Christian_church%1:14:00::"))
+(HolonymLink (WordSenseNode "Copt%1:18:00::") s)

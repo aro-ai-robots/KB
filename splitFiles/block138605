@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rendezvous%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rendezvous")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meeting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "coming_together%1:04:00::"))
+(InheritanceLink (WordSenseNode "assignation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "tryst%1:04:00::") s)

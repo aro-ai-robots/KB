@@ -1,0 +1,7 @@
+(define s (WordSenseNode "leather_strip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leather_strip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implement%1:06:00::"))
+(InheritanceLink (WordSenseNode "lash%1:06:01::") s)
+(InheritanceLink (WordSenseNode "thong%1:06:00::") s)
+(InheritanceLink (WordSenseNode "strap%1:06:01::") s)
+(InheritanceLink (WordSenseNode "thong%1:06:01::") s)

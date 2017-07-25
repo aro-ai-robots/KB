@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stratum%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "level")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "place%1:09:00::"))
+(define x (WordNode "layer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "place%1:09:00::"))
+(define x (WordNode "stratum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "place%1:09:00::"))

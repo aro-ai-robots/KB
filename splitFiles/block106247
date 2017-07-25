@@ -1,0 +1,4 @@
+(define s (WordSenseNode "middle_irish%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Middle_Irish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Irish%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Irish_Gaelic%1:10:00::"))

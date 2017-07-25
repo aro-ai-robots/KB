@@ -1,0 +1,6 @@
+(define s (WordSenseNode "carnotite%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carnotite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "uranium_ore%1:27:00::"))
+(HolonymLink (WordSenseNode "vanadium%1:27:00::") s)
+(HolonymLink (WordSenseNode "V%1:27:00::") s)
+(HolonymLink (WordSenseNode "atomic_number_23%1:27:00::") s)

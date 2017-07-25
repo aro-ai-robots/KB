@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pelican_crossing%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pelican_crossing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pedestrian_crossing%1:06:00::"))
+(InheritanceLink s (WordSenseNode "zebra_crossing%1:06:00::"))

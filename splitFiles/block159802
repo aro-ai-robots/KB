@@ -1,0 +1,8 @@
+(define s (WordSenseNode "stick%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butter%1:13:00::"))
+(InheritanceLink s (WordSenseNode "margarine%1:13:00::"))
+(InheritanceLink s (WordSenseNode "margarin%1:13:00::"))
+(InheritanceLink s (WordSenseNode "oleo%1:13:00::"))
+(InheritanceLink s (WordSenseNode "oleomargarine%1:13:00::"))
+(InheritanceLink s (WordSenseNode "marge%1:13:00::"))

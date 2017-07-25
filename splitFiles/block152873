@@ -1,0 +1,4 @@
+(define s (WordSenseNode "skin%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "skin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface%1:06:00::"))
+(HolonymLink s (WordSenseNode "aircraft%1:06:00::"))

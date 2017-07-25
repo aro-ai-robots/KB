@@ -1,0 +1,7 @@
+(define s (WordSenseNode "day_boarder%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "day_boarder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "schoolchild%1:18:00::"))
+(InheritanceLink s (WordSenseNode "school-age_child%1:18:00::"))
+(InheritanceLink s (WordSenseNode "pupil%1:18:01::"))
+(InheritanceLink (WordSenseNode "dayboy%1:18:00::") s)
+(InheritanceLink (WordSenseNode "daygirl%1:18:00::") s)

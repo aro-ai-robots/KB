@@ -1,0 +1,5 @@
+(define s (WordSenseNode "intravenous_drip%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intravenous_drip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drip%1:11:00::"))
+(InheritanceLink s (WordSenseNode "trickle%1:11:00::"))
+(InheritanceLink s (WordSenseNode "dribble%1:11:00::"))

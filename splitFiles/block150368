@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shinpad%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shin_guard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protective_garment%1:06:00::"))
+(define x (WordNode "shinpad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protective_garment%1:06:00::"))

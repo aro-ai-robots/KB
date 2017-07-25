@@ -1,0 +1,7 @@
+(define s (WordSenseNode "senecio_triangularis%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arrowleaf_groundsel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wildflower%1:20:00::"))
+(InheritanceLink s (WordSenseNode "wild_flower%1:20:00::"))
+(define x (WordNode "Senecio_triangularis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wildflower%1:20:00::"))
+(InheritanceLink s (WordSenseNode "wild_flower%1:20:00::"))

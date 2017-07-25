@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tow%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shlep%2:35:00::"))
+(InheritanceLink s (WordSenseNode "schlep%2:35:00::"))
+(InheritanceLink s (WordSenseNode "pull_along%2:35:00::"))
+(InheritanceLink (WordSenseNode "tug%2:35:04::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "obstinate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "obstinate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "persevere%2:30:00::"))
+(InheritanceLink s (WordSenseNode "persist%2:30:01::"))
+(InheritanceLink s (WordSenseNode "hang_in%2:30:00::"))
+(InheritanceLink s (WordSenseNode "hang_on%2:30:00::"))
+(InheritanceLink s (WordSenseNode "hold_on%2:30:00::"))

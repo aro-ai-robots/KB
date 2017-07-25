@@ -1,0 +1,6 @@
+(define s (WordSenseNode "weight_gaining%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "weight_gaining")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bodybuilding%1:04:00::"))
+(InheritanceLink s (WordSenseNode "anaerobic_exercise%1:04:00::"))
+(InheritanceLink s (WordSenseNode "muscle_building%1:04:00::"))
+(InheritanceLink s (WordSenseNode "musclebuilding%1:04:00::"))

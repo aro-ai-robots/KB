@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ping%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reach%2:32:00::"))
+(InheritanceLink s (WordSenseNode "get_through%2:32:00::"))
+(InheritanceLink s (WordSenseNode "get_hold_of%2:32:00::"))
+(InheritanceLink s (WordSenseNode "contact%2:32:00::"))

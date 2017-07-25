@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kabul%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kabul")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Afghanistan%1:15:00::"))
+(HolonymLink s (WordSenseNode "Islamic_State_of_Afghanistan%1:15:00::"))
+(define x (WordNode "capital_of_Afghanistan")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Afghanistan%1:15:00::"))
+(HolonymLink s (WordSenseNode "Islamic_State_of_Afghanistan%1:15:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "circulate%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "circulate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "run%2:38:01::"))
+(InheritanceLink s (WordSenseNode "flow%2:38:00::"))
+(InheritanceLink s (WordSenseNode "feed%2:38:04::"))
+(InheritanceLink s (WordSenseNode "course%2:38:00::"))
+(InheritanceLink (WordSenseNode "ventilate%2:38:00::") s)

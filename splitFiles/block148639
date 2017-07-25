@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sentimentalise%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sentimentalize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misrepresent%2:32:00::"))
+(InheritanceLink s (WordSenseNode "belie%2:32:00::"))
+(define x (WordNode "sentimentalise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misrepresent%2:32:00::"))
+(InheritanceLink s (WordSenseNode "belie%2:32:00::"))

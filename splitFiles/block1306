@@ -1,0 +1,4 @@
+(define s (WordSenseNode "acetum%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acetum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acetic_acid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "ethanoic_acid%1:27:00::"))

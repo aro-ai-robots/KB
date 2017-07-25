@@ -1,0 +1,6 @@
+(define s (WordSenseNode "smelling_salts%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "smelling_salts")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formulation%1:27:00::"))
+(InheritanceLink s (WordSenseNode "preparation%1:27:00::"))
+(HolonymLink (WordSenseNode "spirits_of_ammonia%1:27:00::") s)
+(HolonymLink (WordSenseNode "sal_volatile%1:27:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "opera_hood%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "opera_cloak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloak%1:06:00::"))
+(define x (WordNode "opera_hood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloak%1:06:00::"))

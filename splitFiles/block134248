@@ -1,0 +1,5 @@
+(define s (WordSenseNode "quattrocento%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quattrocento")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "century%1:28:00::"))
+(HolonymLink s (WordSenseNode "Renaissance%1:28:00::"))
+(HolonymLink s (WordSenseNode "Renascence%1:28:00::"))

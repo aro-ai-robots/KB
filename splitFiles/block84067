@@ -1,0 +1,7 @@
+(define s (WordSenseNode "i.d.%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ID")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "badge%1:10:00::"))
+(InheritanceLink s (WordSenseNode "positive_identification%1:10:00::"))
+(define x (WordNode "I.D.")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "badge%1:10:00::"))
+(InheritanceLink s (WordSenseNode "positive_identification%1:10:00::"))

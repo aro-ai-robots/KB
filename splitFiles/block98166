@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lip%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "margin%1:25:00::"))
+(InheritanceLink s (WordSenseNode "border%1:25:00::"))
+(InheritanceLink s (WordSenseNode "perimeter%1:25:00::"))

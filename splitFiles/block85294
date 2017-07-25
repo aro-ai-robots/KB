@@ -1,0 +1,6 @@
+(define s (WordSenseNode "impracticality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "impracticality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inutility%1:07:00::"))
+(InheritanceLink s (WordSenseNode "uselessness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "unusefulness%1:07:00::"))
+(InheritanceLink (WordSenseNode "idealism%1:07:01::") s)

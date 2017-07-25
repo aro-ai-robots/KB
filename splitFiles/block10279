@@ -1,0 +1,7 @@
+(define s (WordSenseNode "associate_in_arts%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Associate_in_Arts")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "associate_degree%1:10:00::"))
+(InheritanceLink s (WordSenseNode "associate%1:10:00::"))
+(define x (WordNode "AA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "associate_degree%1:10:00::"))
+(InheritanceLink s (WordSenseNode "associate%1:10:00::"))

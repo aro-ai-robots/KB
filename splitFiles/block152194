@@ -1,0 +1,6 @@
+(define s (WordSenseNode "singsong%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "singsong")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chant%2:32:00::"))
+(InheritanceLink s (WordSenseNode "intone%2:32:00::"))
+(InheritanceLink s (WordSenseNode "intonate%2:32:00::"))
+(InheritanceLink s (WordSenseNode "cantillate%2:32:00::"))

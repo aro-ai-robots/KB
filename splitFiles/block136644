@@ -1,0 +1,5 @@
+(define s (WordSenseNode "receiver%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "liquidator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fiduciary%1:18:00::"))
+(define x (WordNode "receiver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fiduciary%1:18:00::"))

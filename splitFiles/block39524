@@ -1,0 +1,6 @@
+(define s (WordSenseNode "crate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "box%1:06:00::"))
+(InheritanceLink (WordSenseNode "packing_box%1:06:01::") s)
+(InheritanceLink (WordSenseNode "packing_case%1:06:00::") s)
+(InheritanceLink (WordSenseNode "soapbox%1:06:01::") s)

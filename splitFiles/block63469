@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fluorochrome%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fluorochrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dye%1:27:00::"))
+(InheritanceLink s (WordSenseNode "dyestuff%1:27:00::"))
+(InheritanceLink (WordSenseNode "fluorescein_isothiocyanate%1:27:00::") s)
+(InheritanceLink (WordSenseNode "fluorescein_isocyanate%1:27:00::") s)

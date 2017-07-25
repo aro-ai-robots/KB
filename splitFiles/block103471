@@ -1,0 +1,5 @@
+(define s (WordSenseNode "masora%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Masorah")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "textual_criticism%1:10:00::"))
+(define x (WordNode "Masora")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "textual_criticism%1:10:00::"))

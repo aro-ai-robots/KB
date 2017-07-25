@@ -1,0 +1,7 @@
+(define s (WordSenseNode "leer%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expression%1:07:00::"))
+(InheritanceLink s (WordSenseNode "look%1:07:01::"))
+(InheritanceLink s (WordSenseNode "aspect%1:07:01::"))
+(InheritanceLink s (WordSenseNode "facial_expression%1:07:00::"))
+(InheritanceLink s (WordSenseNode "face%1:07:03::"))

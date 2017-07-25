@@ -1,0 +1,4 @@
+(define s (WordSenseNode "downspin%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "downspin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "downturn%1:04:00::"))
+(InheritanceLink s (WordSenseNode "downswing%1:04:01::"))

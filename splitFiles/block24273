@@ -1,0 +1,6 @@
+(define s (WordSenseNode "calving%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calving")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parturition%1:22:00::"))
+(InheritanceLink s (WordSenseNode "birth%1:22:00::"))
+(InheritanceLink s (WordSenseNode "giving_birth%1:22:00::"))
+(InheritanceLink s (WordSenseNode "birthing%1:22:00::"))

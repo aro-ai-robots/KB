@@ -1,0 +1,5 @@
+(define s (WordSenseNode "curb_market%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "curb_market")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stock_exchange%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stock_market%1:06:00::"))
+(InheritanceLink s (WordSenseNode "securities_market%1:06:00::"))

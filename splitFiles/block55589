@@ -1,0 +1,7 @@
+(define s (WordSenseNode "esquimau%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Eskimo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Eskimo-Aleut%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Eskimo-Aleut_language%1:10:00::"))
+(define x (WordNode "Esquimau")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Eskimo-Aleut%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Eskimo-Aleut_language%1:10:00::"))

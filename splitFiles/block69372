@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_dicamptodon%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Dicamptodon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amphibian_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Dicamptodontidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Dicamptodontidae%1:05:00::"))
+(HolonymLink (WordSenseNode "Pacific_giant_salamander%1:05:00::") s)
+(HolonymLink (WordSenseNode "Dicamptodon_ensatus%1:05:00::") s)

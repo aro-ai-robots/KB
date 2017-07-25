@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hypertext%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypertext")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine-readable_text%1:10:00::"))
+(HolonymLink s (WordSenseNode "object-oriented_database%1:10:00::"))

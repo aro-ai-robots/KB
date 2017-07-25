@@ -1,0 +1,3 @@
+(define s (WordSenseNode "spacesuit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spacesuit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure_suit%1:06:00::"))

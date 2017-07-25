@@ -1,0 +1,6 @@
+(define s (WordSenseNode "enlightenment%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enlightenment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "education%1:09:00::"))
+(InheritanceLink (WordSenseNode "edification%1:09:00::") s)
+(InheritanceLink (WordSenseNode "sophistication%1:09:00::") s)
+(InheritanceLink (WordSenseNode "satori%1:09:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reveille%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reveille")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bugle_call%1:10:00::"))
+(define x (WordNode "wake-up_signal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bugle_call%1:10:00::"))

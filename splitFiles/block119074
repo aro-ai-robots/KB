@@ -1,0 +1,4 @@
+(define s (WordSenseNode "oxtail_soup%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oxtail_soup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soup%1:13:00::"))
+(HolonymLink (WordSenseNode "oxtail%1:05:00::") s)

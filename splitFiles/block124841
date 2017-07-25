@@ -1,0 +1,5 @@
+(define s (WordSenseNode "picture_book%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "picture_book")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "book%1:06:00::"))
+(InheritanceLink s (WordSenseNode "volume%1:06:00::"))
+(InheritanceLink (WordSenseNode "coloring_book%1:06:00::") s)

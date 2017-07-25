@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pectoral_girdle%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pectoral_girdle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "girdle%1:08:00::"))
+(HolonymLink s (WordSenseNode "appendicular_skeleton%1:08:00::"))
+(HolonymLink (WordSenseNode "shoulder_girdle%1:08:00::") s)
+(HolonymLink (WordSenseNode "pectoral_arch%1:08:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "scriptwriter%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scriptwriter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "author%1:18:00::"))
+(InheritanceLink (WordSenseNode "screenwriter%1:18:00::") s)
+(InheritanceLink (WordSenseNode "film_writer%1:18:00::") s)

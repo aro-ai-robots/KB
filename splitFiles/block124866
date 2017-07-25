@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pid%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pelvic_inflammatory_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflammatory_disease%1:26:00::"))
+(define x (WordNode "PID")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflammatory_disease%1:26:00::"))

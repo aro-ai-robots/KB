@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wandala%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mandara")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Biu-Mandara%1:10:00::"))
+(define x (WordNode "Wandala")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Biu-Mandara%1:10:00::"))

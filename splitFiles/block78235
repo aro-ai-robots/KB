@@ -1,0 +1,7 @@
+(define s (WordSenseNode "harness%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "harness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attach%2:35:01::"))
+(InheritanceLink (WordSenseNode "inspan%2:35:00::") s)
+(define x (WordNode "tackle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attach%2:35:01::"))
+(InheritanceLink (WordSenseNode "inspan%2:35:00::") s)

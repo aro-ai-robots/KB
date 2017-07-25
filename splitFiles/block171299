@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tragus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tragus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cartilaginous_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "auricle%1:08:02::"))
+(HolonymLink s (WordSenseNode "pinna%1:08:00::"))
+(HolonymLink s (WordSenseNode "ear%1:08:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sentence_structure%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "syntax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%1:09:00::"))
+(define x (WordNode "sentence_structure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%1:09:00::"))
+(define x (WordNode "phrase_structure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%1:09:00::"))

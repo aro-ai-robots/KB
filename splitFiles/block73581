@@ -1,0 +1,8 @@
+(define s (WordSenseNode "gnaw%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "gnaw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chew%2:34:00::"))
+(InheritanceLink s (WordSenseNode "masticate%2:34:00::"))
+(InheritanceLink s (WordSenseNode "manducate%2:34:00::"))
+(InheritanceLink s (WordSenseNode "jaw%2:34:00::"))
+(InheritanceLink s (WordSenseNode "bite%2:35:00::"))
+(InheritanceLink s (WordSenseNode "seize_with_teeth%2:35:00::"))

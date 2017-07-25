@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ratbite_fever_bacterium%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ratbite_fever_bacterium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spirillum%1:05:02::"))
+(define x (WordNode "Spirillum_minus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spirillum%1:05:02::"))

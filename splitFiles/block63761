@@ -1,0 +1,8 @@
+(define s (WordSenseNode "foible%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foible")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "part%1:06:00::"))
+(InheritanceLink s (WordSenseNode "portion%1:06:00::"))
+(HolonymLink s (WordSenseNode "sword%1:06:00::"))
+(HolonymLink s (WordSenseNode "blade%1:06:01::"))
+(HolonymLink s (WordSenseNode "brand%1:06:00::"))
+(HolonymLink s (WordSenseNode "steel%1:06:01::"))

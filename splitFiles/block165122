@@ -1,0 +1,6 @@
+(define s (WordSenseNode "taichung%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Taichung")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Taiwan%1:15:00::"))
+(HolonymLink s (WordSenseNode "China%1:15:01::"))
+(HolonymLink s (WordSenseNode "Nationalist_China%1:15:00::"))
+(HolonymLink s (WordSenseNode "Republic_of_China%1:15:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "open_chain%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "open_chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chain%1:17:00::"))
+(InheritanceLink s (WordSenseNode "chemical_chain%1:17:00::"))
+(InheritanceLink (WordSenseNode "branched_chain%1:17:00::") s)
+(InheritanceLink (WordSenseNode "straight_chain%1:17:00::") s)

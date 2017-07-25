@@ -1,0 +1,4 @@
+(define s (WordSenseNode "iterate%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "iterate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recur%2:30:00::"))
+(InheritanceLink s (WordSenseNode "repeat%2:30:00::"))

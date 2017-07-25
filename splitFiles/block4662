@@ -1,0 +1,5 @@
+(define s (WordSenseNode "alluvial_fan%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alluvial_fan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geological_phenomenon%1:19:00::"))
+(define x (WordNode "alluvial_cone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geological_phenomenon%1:19:00::"))

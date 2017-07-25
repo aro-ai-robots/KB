@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stringer%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stringer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "player%1:18:01::"))
+(InheritanceLink s (WordSenseNode "participant%1:18:01::"))
+(HolonymLink s (WordSenseNode "team%1:14:00::"))
+(HolonymLink s (WordSenseNode "squad%1:14:00::"))

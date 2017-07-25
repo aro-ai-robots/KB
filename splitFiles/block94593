@@ -1,0 +1,4 @@
+(define s (WordSenseNode "landing_flap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "landing_flap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flap%1:06:01::"))
+(InheritanceLink s (WordSenseNode "flaps%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "doppler_radar%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Doppler_radar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radar%1:06:00::"))
+(InheritanceLink s (WordSenseNode "microwave_radar%1:06:00::"))
+(InheritanceLink s (WordSenseNode "radio_detection_and_ranging%1:06:00::"))
+(InheritanceLink s (WordSenseNode "radiolocation%1:06:00::"))

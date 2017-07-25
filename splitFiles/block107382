@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mistranslation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mistranslation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "translation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "interlingual_rendition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "rendering%1:10:02::"))
+(InheritanceLink s (WordSenseNode "version%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "checkout%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "checkout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "departure_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "time_of_departure%1:28:00::"))
+(define x (WordNode "checkout_time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "departure_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "time_of_departure%1:28:00::"))

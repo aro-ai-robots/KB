@@ -1,0 +1,4 @@
+(define s (WordSenseNode "undercut%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "undercut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "notch%1:06:00::"))
+(InheritanceLink s (WordSenseNode "forestry%1:09:00::"))

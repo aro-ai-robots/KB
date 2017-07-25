@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flat_cap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cloth_cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cap%1:06:00::"))
+(define x (WordNode "flat_cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cap%1:06:00::"))

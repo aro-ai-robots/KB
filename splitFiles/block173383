@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tufted_pansy%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "horned_violet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "viola%1:20:00::"))
+(define x (WordNode "tufted_pansy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "viola%1:20:00::"))
+(define x (WordNode "Viola_cornuta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "viola%1:20:00::"))

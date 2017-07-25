@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cornfield%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cornfield")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grainfield%1:15:00::"))
+(InheritanceLink s (WordSenseNode "grain_field%1:15:00::"))
+(define x (WordNode "corn_field")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grainfield%1:15:00::"))
+(InheritanceLink s (WordSenseNode "grain_field%1:15:00::"))

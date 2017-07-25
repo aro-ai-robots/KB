@@ -1,0 +1,7 @@
+(define s (WordSenseNode "forehand_stroke%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "forehand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:04::"))
+(define x (WordNode "forehand_stroke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:04::"))
+(define x (WordNode "forehand_shot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:04::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "floatplane%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "floatplane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seaplane%1:06:00::"))
+(InheritanceLink s (WordSenseNode "hydroplane%1:06:00::"))
+(define x (WordNode "pontoon_plane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seaplane%1:06:00::"))
+(InheritanceLink s (WordSenseNode "hydroplane%1:06:00::"))

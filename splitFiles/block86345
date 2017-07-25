@@ -1,0 +1,5 @@
+(define s (WordSenseNode "indirect_evidence%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circumstantial_evidence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evidence%1:10:00::"))
+(define x (WordNode "indirect_evidence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evidence%1:10:00::"))

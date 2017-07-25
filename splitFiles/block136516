@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rebate%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rebate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refund%1:21:00::"))
+(InheritanceLink (WordSenseNode "rent-rebate%1:21:00::") s)
+(define x (WordNode "discount")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refund%1:21:00::"))
+(InheritanceLink (WordSenseNode "rent-rebate%1:21:00::") s)

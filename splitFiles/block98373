@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lit%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "literature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_study%1:09:00::"))
+(define x (WordNode "lit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_study%1:09:00::"))

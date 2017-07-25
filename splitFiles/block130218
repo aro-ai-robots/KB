@@ -1,0 +1,7 @@
+(define s (WordSenseNode "presidents'_day%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Presidents'_Day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legal_holiday%1:28:00::"))
+(InheritanceLink s (WordSenseNode "national_holiday%1:28:00::"))
+(InheritanceLink s (WordSenseNode "public_holiday%1:28:00::"))
+(HolonymLink s (WordSenseNode "February%1:28:00::"))
+(HolonymLink s (WordSenseNode "Feb%1:28:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hidatsa%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Hidatsa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Siouan%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Siouan_language%1:10:00::"))
+(define x (WordNode "Gros_Ventre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Siouan%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Siouan_language%1:10:00::"))

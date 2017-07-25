@@ -1,0 +1,8 @@
+(define s (WordSenseNode "economic_policy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "economic_policy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "policy%1:10:00::"))
+(InheritanceLink (WordSenseNode "fiscal_policy%1:10:00::") s)
+(InheritanceLink (WordSenseNode "New_Deal%1:10:00::") s)
+(InheritanceLink (WordSenseNode "control%1:10:00::") s)
+(InheritanceLink (WordSenseNode "perestroika%1:10:00::") s)
+(InheritanceLink (WordSenseNode "protectionism%1:10:00::") s)

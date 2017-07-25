@@ -1,0 +1,7 @@
+(define s (WordSenseNode "curvature%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "curvature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "derived_function%1:09:00::"))
+(InheritanceLink s (WordSenseNode "derivative%1:09:00::"))
+(InheritanceLink s (WordSenseNode "differential_coefficient%1:09:00::"))
+(InheritanceLink s (WordSenseNode "differential%1:09:00::"))
+(InheritanceLink s (WordSenseNode "first_derivative%1:09:00::"))

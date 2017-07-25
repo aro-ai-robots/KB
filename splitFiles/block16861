@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bioremediation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bioremediation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biotechnology%1:09:01::"))
+(InheritanceLink s (WordSenseNode "biotech%1:09:00::"))

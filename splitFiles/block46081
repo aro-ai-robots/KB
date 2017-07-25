@@ -1,0 +1,6 @@
+(define s (WordSenseNode "diatonic_scale%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diatonic_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scale%1:10:00::"))
+(InheritanceLink s (WordSenseNode "musical_scale%1:10:00::"))
+(InheritanceLink (WordSenseNode "mode%1:10:00::") s)
+(InheritanceLink (WordSenseNode "musical_mode%1:10:00::") s)

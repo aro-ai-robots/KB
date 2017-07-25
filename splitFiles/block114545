@@ -1,0 +1,8 @@
+(define s (WordSenseNode "number_cruncher%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "number_cruncher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "computing_machine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "computing_device%1:06:00::"))
+(InheritanceLink s (WordSenseNode "data_processor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "electronic_computer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "information_processing_system%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "glitter%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flash%1:11:00::"))
+(define x (WordNode "sparkle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flash%1:11:00::"))
+(define x (WordNode "coruscation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flash%1:11:00::"))

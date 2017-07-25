@@ -1,0 +1,4 @@
+(define s (WordSenseNode "paso_doble%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paso_doble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ballroom_dancing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "ballroom_dance%1:04:00::"))

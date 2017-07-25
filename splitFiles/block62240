@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fisheye_lens%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wide-angle_lens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camera_lens%1:06:00::"))
+(InheritanceLink s (WordSenseNode "optical_lens%1:06:00::"))
+(define x (WordNode "fisheye_lens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camera_lens%1:06:00::"))
+(InheritanceLink s (WordSenseNode "optical_lens%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "unplug%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unplug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "undo%2:35:00::"))
+(define x (WordNode "disconnect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "undo%2:35:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bookdealer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bookdealer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "merchant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "merchandiser%1:18:00::"))
+(define x (WordNode "book_seller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "merchant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "merchandiser%1:18:00::"))

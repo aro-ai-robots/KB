@@ -1,0 +1,7 @@
+(define s (WordSenseNode "free_nerve_ending%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "free_nerve_ending")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_ending%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nerve_end%1:08:00::"))
+(HolonymLink s (WordSenseNode "skin%1:08:00::"))
+(HolonymLink s (WordSenseNode "tegument%1:08:00::"))
+(HolonymLink s (WordSenseNode "cutis%1:08:00::"))

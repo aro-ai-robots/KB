@@ -1,0 +1,5 @@
+(define s (WordSenseNode "microglia%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "microglia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neuroglia%1:08:00::"))
+(InheritanceLink s (WordSenseNode "glia%1:08:00::"))
+(HolonymLink (WordSenseNode "microgliacyte%1:08:00::") s)

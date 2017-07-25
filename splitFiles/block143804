@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sadist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sadist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pervert%1:18:00::"))
+(InheritanceLink s (WordSenseNode "deviant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "deviate%1:18:00::"))
+(InheritanceLink s (WordSenseNode "degenerate%1:18:00::"))

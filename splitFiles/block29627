@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chest_voice%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chest_register")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "register%1:07:00::"))
+(define x (WordNode "chest_voice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "register%1:07:00::"))
+(define x (WordNode "chest_tone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "register%1:07:00::"))

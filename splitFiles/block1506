@@ -1,0 +1,4 @@
+(define s (WordSenseNode "acoustic_radiation_pressure%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acoustic_radiation_pressure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radiation_pressure%1:19:00::"))
+(InheritanceLink s (WordSenseNode "corpuscular-radiation_pressure%1:19:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hedonism%1:16:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hedonism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ethical_motive%1:16:00::"))
+(InheritanceLink s (WordSenseNode "ethics%1:16:00::"))
+(InheritanceLink s (WordSenseNode "morals%1:16:00::"))
+(InheritanceLink s (WordSenseNode "morality%1:16:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "temple%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "temple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feature%1:08:00::"))
+(InheritanceLink s (WordSenseNode "lineament%1:08:00::"))
+(HolonymLink s (WordSenseNode "head%1:08:00::"))
+(HolonymLink s (WordSenseNode "caput%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jakarta%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Jakarta")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Java%1:15:00::"))
+(define x (WordNode "Djakarta")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Java%1:15:00::"))
+(define x (WordNode "capital_of_Indonesia")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Java%1:15:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "antiquarian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antiquary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expert%1:18:00::"))
+(define x (WordNode "antiquarian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expert%1:18:00::"))
+(define x (WordNode "archaist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expert%1:18:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "maksutov_telescope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Maksutov_telescope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reflecting_telescope%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reflector%1:06:01::"))

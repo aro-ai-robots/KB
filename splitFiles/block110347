@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mustela_rixosa%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "New_World_least_weasel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weasel%1:05:00::"))
+(define x (WordNode "Mustela_rixosa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weasel%1:05:00::"))

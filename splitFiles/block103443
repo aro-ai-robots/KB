@@ -1,0 +1,5 @@
+(define s (WordSenseNode "masking_paper%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "masking_tape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adhesive_tape%1:06:00::"))
+(define x (WordNode "masking_paper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adhesive_tape%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "third_power%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cube")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:23:00::"))
+(define x (WordNode "third_power")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:23:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "beeswax%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beeswax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wax%1:27:00::"))
+(InheritanceLink s (WordSenseNode "animal_product%1:27:00::"))
+(InheritanceLink (WordSenseNode "Ghedda_wax%1:27:00::") s)
+(HolonymLink (WordSenseNode "cerotic_acid%1:27:00::") s)
+(HolonymLink (WordSenseNode "hexacosanoic_acid%1:27:00::") s)

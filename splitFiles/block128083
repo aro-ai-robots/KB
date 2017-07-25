@@ -1,0 +1,7 @@
+(define s (WordSenseNode "polyurethane_foam%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polyfoam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polyurethane%1:27:00::"))
+(InheritanceLink s (WordSenseNode "polyurethan%1:27:00::"))
+(define x (WordNode "polyurethane_foam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polyurethane%1:27:00::"))
+(InheritanceLink s (WordSenseNode "polyurethan%1:27:00::"))

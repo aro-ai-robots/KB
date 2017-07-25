@@ -1,0 +1,4 @@
+(define s (WordSenseNode "soil_horizon%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "soil_horizon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "horizon%1:15:01::"))
+(HolonymLink s (WordSenseNode "profile%1:15:00::"))

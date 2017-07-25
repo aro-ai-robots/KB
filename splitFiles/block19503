@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bootleg%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bootleg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covering%1:06:00::"))
+(HolonymLink s (WordSenseNode "boot%1:06:00::"))

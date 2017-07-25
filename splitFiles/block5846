@@ -1,0 +1,4 @@
+(define s (WordSenseNode "anabaptist_denomination%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Anabaptist_denomination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Protestant_denomination%1:14:00::"))
+(HolonymLink (WordSenseNode "Anabaptist%1:18:00::") s)

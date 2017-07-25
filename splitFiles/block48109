@@ -1,0 +1,8 @@
+(define s (WordSenseNode "distress%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "distress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adversity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hardship%1:26:01::"))
+(InheritanceLink s (WordSenseNode "hard_knocks%1:26:00::"))
+(InheritanceLink (WordSenseNode "anguish%1:26:00::") s)
+(InheritanceLink (WordSenseNode "pressure%1:26:01::") s)
+(InheritanceLink (WordSenseNode "throe%1:26:02::") s)

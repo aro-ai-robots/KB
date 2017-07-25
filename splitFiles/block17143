@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bite%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wound%1:26:00::"))
+(InheritanceLink s (WordSenseNode "lesion%1:26:02::"))
+(InheritanceLink (WordSenseNode "dog_bite%1:26:00::") s)
+(InheritanceLink (WordSenseNode "snakebite%1:26:00::") s)

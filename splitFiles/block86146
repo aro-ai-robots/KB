@@ -1,0 +1,8 @@
+(define s (WordSenseNode "index%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "index")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "list%1:10:00::"))
+(InheritanceLink s (WordSenseNode "listing%1:10:00::"))
+(InheritanceLink (WordSenseNode "concordance%1:10:00::") s)
+(HolonymLink s (WordSenseNode "back_matter%1:10:00::"))
+(HolonymLink s (WordSenseNode "end_matter%1:10:00::"))
+(HolonymLink (WordSenseNode "key_word%1:10:00::") s)

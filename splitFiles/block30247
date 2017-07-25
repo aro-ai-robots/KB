@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chloral_hydrate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chloral_hydrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sedative%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sedative_drug%1:06:00::"))
+(InheritanceLink s (WordSenseNode "depressant%1:06:00::"))
+(InheritanceLink s (WordSenseNode "downer%1:06:00::"))
+(InheritanceLink (WordSenseNode "knockout_drops%1:06:00::") s)

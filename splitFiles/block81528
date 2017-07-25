@@ -1,0 +1,5 @@
+(define s (WordSenseNode "holy_roman_empire%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Holy_Roman_Empire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "political_unit%1:14:00::"))
+(InheritanceLink s (WordSenseNode "political_entity%1:14:00::"))
+(HolonymLink s (WordSenseNode "Europe%1:17:00::"))

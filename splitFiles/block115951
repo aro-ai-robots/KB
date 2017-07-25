@@ -1,0 +1,8 @@
+(define s (WordSenseNode "old_world_quail%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Old_World_quail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quail%1:05:01::"))
+(InheritanceLink (WordSenseNode "migratory_quail%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Coturnix_coturnix%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Coturnix_communis%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Coturnix%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Coturnix%1:05:00::"))

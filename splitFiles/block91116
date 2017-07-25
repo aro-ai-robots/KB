@@ -1,0 +1,7 @@
+(define s (WordSenseNode "joint_hinge%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strap_hinge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hinge%1:06:00::"))
+(InheritanceLink s (WordSenseNode "flexible_joint%1:06:00::"))
+(define x (WordNode "joint_hinge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hinge%1:06:00::"))
+(InheritanceLink s (WordSenseNode "flexible_joint%1:06:00::"))

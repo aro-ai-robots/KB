@@ -1,0 +1,6 @@
+(define s (WordSenseNode "margin%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "margin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "space%1:10:01::"))
+(InheritanceLink s (WordSenseNode "blank_space%1:10:00::"))
+(InheritanceLink s (WordSenseNode "place%1:10:01::"))
+(HolonymLink s (WordSenseNode "page%1:10:00::"))

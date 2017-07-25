@@ -1,0 +1,7 @@
+(define s (WordSenseNode "assumed_name%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alias")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "name%1:10:00::"))
+(define x (WordNode "assumed_name")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "name%1:10:00::"))
+(define x (WordNode "false_name")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "name%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "turkey_leg%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "turkey_leg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drumstick%1:13:00::"))
+(define x (WordNode "turkey_drumstick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drumstick%1:13:00::"))

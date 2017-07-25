@@ -1,0 +1,7 @@
+(define s (WordSenseNode "napierian_logarithm%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "natural_logarithm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logarithm%1:10:00::"))
+(InheritanceLink s (WordSenseNode "log%1:10:01::"))
+(define x (WordNode "Napierian_logarithm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logarithm%1:10:00::"))
+(InheritanceLink s (WordSenseNode "log%1:10:01::"))

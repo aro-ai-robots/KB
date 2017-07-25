@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pocketcomb%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pocketcomb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "comb%1:06:00::"))
+(define x (WordNode "pocket_comb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "comb%1:06:00::"))

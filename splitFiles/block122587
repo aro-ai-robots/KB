@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pentagram%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pentacle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "star%1:25:00::"))
+(define x (WordNode "pentagram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "star%1:25:00::"))
+(define x (WordNode "pentangle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "star%1:25:00::"))

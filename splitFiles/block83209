@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hunting_watch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hunter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "watch%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ticker%1:06:01::"))
+(define x (WordNode "hunting_watch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "watch%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ticker%1:06:01::"))

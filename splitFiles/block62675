@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flash_back%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cut_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%2:38:00::"))
+(define x (WordNode "flash_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%2:38:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "k.e.%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kinetic_energy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_energy%1:19:00::"))
+(define x (WordNode "K.E.")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_energy%1:19:00::"))

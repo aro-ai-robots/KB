@@ -1,0 +1,5 @@
+(define s (WordSenseNode "quarter_pound%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quarter_pound")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avoirdupois_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "pound%1:23:00::"))
+(HolonymLink s (WordSenseNode "lbf.%1:23:00::"))

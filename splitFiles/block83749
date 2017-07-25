@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hypercoaster%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypercoaster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roller_coaster%1:06:00::"))
+(InheritanceLink s (WordSenseNode "big_dipper%1:06:00::"))
+(InheritanceLink s (WordSenseNode "chute-the-chute%1:06:00::"))

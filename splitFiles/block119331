@@ -1,0 +1,7 @@
+(define s (WordSenseNode "package_tour%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "package_tour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tour%1:04:00::"))
+(InheritanceLink s (WordSenseNode "circuit%1:04:00::"))
+(define x (WordNode "package_holiday")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tour%1:04:00::"))
+(InheritanceLink s (WordSenseNode "circuit%1:04:00::"))

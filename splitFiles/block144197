@@ -1,0 +1,7 @@
+(define s (WordSenseNode "saleroom%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "showroom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "panopticon%1:06:01::"))
+(define x (WordNode "salesroom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "panopticon%1:06:01::"))
+(define x (WordNode "saleroom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "panopticon%1:06:01::"))

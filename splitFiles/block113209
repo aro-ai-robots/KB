@@ -1,0 +1,6 @@
+(define s (WordSenseNode "nitta_tree%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nitta_tree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tree%1:20:00::"))
+(InheritanceLink (WordSenseNode "Parkia_javanica%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Parkia%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Parkia%1:20:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "turnip_greens%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "turnip_greens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "greens%1:13:00::"))
+(InheritanceLink s (WordSenseNode "green%1:13:00::"))
+(InheritanceLink s (WordSenseNode "leafy_vegetable%1:13:00::"))
+(HolonymLink s (WordSenseNode "turnip%1:20:00::"))
+(HolonymLink s (WordSenseNode "white_turnip%1:20:00::"))
+(HolonymLink s (WordSenseNode "Brassica_rapa%1:20:00::"))

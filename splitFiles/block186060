@@ -1,0 +1,7 @@
+(define s (WordSenseNode "youth%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "youth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_of_life%1:28:00::"))
+(HolonymLink (WordSenseNode "adolescence%1:28:00::") s)
+(HolonymLink (WordSenseNode "bloom%1:28:00::") s)
+(HolonymLink (WordSenseNode "bloom_of_youth%1:28:00::") s)
+(HolonymLink (WordSenseNode "salad_days%1:28:00::") s)

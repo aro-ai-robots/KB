@@ -1,0 +1,4 @@
+(define s (WordSenseNode "radio_interferometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radio_interferometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radio_telescope%1:06:00::"))
+(InheritanceLink s (WordSenseNode "radio_reflector%1:06:00::"))

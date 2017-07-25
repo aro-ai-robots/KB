@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pate_de_foie_gras%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foie_gras")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pate%1:13:00::"))
+(define x (WordNode "pate_de_foie_gras")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pate%1:13:00::"))

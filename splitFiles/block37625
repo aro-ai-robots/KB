@@ -1,0 +1,7 @@
+(define s (WordSenseNode "copolymerize%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "copolymerize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polymerize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "polymerise%2:30:00::"))
+(define x (WordNode "copolymerise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polymerize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "polymerise%2:30:00::"))

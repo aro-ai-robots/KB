@@ -1,0 +1,5 @@
+(define s (WordSenseNode "boot%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "luggage_compartment%1:06:00::"))
+(InheritanceLink s (WordSenseNode "automobile_trunk%1:06:00::"))
+(InheritanceLink s (WordSenseNode "trunk%1:06:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "television_announcer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tv_announcer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "announcer%1:18:00::"))
+(define x (WordNode "television_announcer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "announcer%1:18:00::"))

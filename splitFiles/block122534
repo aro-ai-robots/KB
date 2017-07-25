@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pennyweight%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pennyweight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "troy_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "ounce%1:23:02::"))
+(HolonymLink s (WordSenseNode "troy_ounce%1:23:00::"))
+(HolonymLink s (WordSenseNode "apothecaries'_ounce%1:23:00::"))
+(HolonymLink (WordSenseNode "grain%1:23:02::") s)

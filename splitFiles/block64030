@@ -1,0 +1,4 @@
+(define s (WordSenseNode "foot_rule%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foot_rule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ruler%1:06:00::"))

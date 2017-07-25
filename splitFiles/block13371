@@ -1,0 +1,5 @@
+(define s (WordSenseNode "banning-order%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "banning-order")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prohibition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "ban%1:10:00::"))
+(InheritanceLink s (WordSenseNode "proscription%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "leukocytosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leukocytosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "blood_disorder%1:26:00::"))
+(define x (WordNode "leucocytosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "blood_disorder%1:26:00::"))

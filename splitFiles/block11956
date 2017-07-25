@@ -1,0 +1,8 @@
+(define s (WordSenseNode "awe%2:37:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "awe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "frighten%2:37:00::"))
+(InheritanceLink s (WordSenseNode "fright%2:37:00::"))
+(InheritanceLink s (WordSenseNode "scare%2:37:00::"))
+(InheritanceLink s (WordSenseNode "affright%2:37:00::"))
+(InheritanceLink (WordSenseNode "overawe%2:37:00::") s)
+(InheritanceLink (WordSenseNode "cow%2:37:00::") s)

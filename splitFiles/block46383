@@ -1,0 +1,4 @@
+(define s (WordSenseNode "diffraction%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diffraction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "X-ray_diffraction%1:19:00::") s)

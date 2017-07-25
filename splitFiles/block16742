@@ -1,0 +1,5 @@
+(define s (WordSenseNode "binge-eating_syndrome%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bulimia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eating_disorder%1:26:00::"))
+(define x (WordNode "binge-eating_syndrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eating_disorder%1:26:00::"))

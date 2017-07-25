@@ -1,0 +1,3 @@
+(define s (WordSenseNode "rhetorical_question%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rhetorical_question")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statement%1:10:00::"))

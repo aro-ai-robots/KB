@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mosaic%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mosaic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transducer%1:06:00::"))
+(HolonymLink s (WordSenseNode "television_camera%1:06:00::"))
+(HolonymLink s (WordSenseNode "tv_camera%1:06:00::"))
+(HolonymLink s (WordSenseNode "camera%1:06:01::"))

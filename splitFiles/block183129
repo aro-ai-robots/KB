@@ -1,0 +1,7 @@
+(define s (WordSenseNode "why%1:16:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "why")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reason%1:16:00::"))
+(InheritanceLink s (WordSenseNode "ground%1:16:00::"))
+(define x (WordNode "wherefore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reason%1:16:00::"))
+(InheritanceLink s (WordSenseNode "ground%1:16:00::"))

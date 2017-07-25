@@ -1,0 +1,5 @@
+(define s (WordSenseNode "double-magnum%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jeroboam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wine_bottle%1:06:00::"))
+(define x (WordNode "double-magnum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wine_bottle%1:06:00::"))

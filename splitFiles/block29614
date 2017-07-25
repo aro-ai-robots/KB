@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chess_set%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chess_set")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "set%1:14:00::"))
+(HolonymLink (WordSenseNode "chessboard%1:06:00::") s)
+(HolonymLink (WordSenseNode "chess_board%1:06:00::") s)
+(HolonymLink (WordSenseNode "chessman%1:06:00::") s)
+(HolonymLink (WordSenseNode "chess_piece%1:06:00::") s)

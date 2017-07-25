@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bps%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bits_per_second")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rate%1:28:00::"))
+(define x (WordNode "bps")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rate%1:28:00::"))

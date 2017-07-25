@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tenon%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tenon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:06:00::"))
+(HolonymLink s (WordSenseNode "mortise_joint%1:06:00::"))
+(HolonymLink s (WordSenseNode "mortise-and-tenon_joint%1:06:00::"))

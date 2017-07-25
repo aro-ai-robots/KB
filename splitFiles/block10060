@@ -1,0 +1,8 @@
+(define s (WordSenseNode "asphyxia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "asphyxia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "physiological_state%1:26:00::"))
+(InheritanceLink s (WordSenseNode "physiological_condition%1:26:00::"))
+(HolonymLink (WordSenseNode "hypoxia%1:26:00::") s)
+(HolonymLink (WordSenseNode "hypercapnia%1:26:00::") s)
+(HolonymLink (WordSenseNode "hypercarbia%1:26:00::") s)

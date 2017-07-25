@@ -1,0 +1,6 @@
+(define s (WordSenseNode "coagulase%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coagulase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enzyme%1:27:00::"))
+(InheritanceLink (WordSenseNode "thrombin%1:27:00::") s)
+(InheritanceLink (WordSenseNode "rennin%1:27:00::") s)
+(InheritanceLink (WordSenseNode "chymosin%1:27:00::") s)

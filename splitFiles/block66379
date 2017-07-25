@@ -1,0 +1,5 @@
+(define s (WordSenseNode "functional_illiterate%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "functional_illiterate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "illiterate%1:18:00::"))
+(InheritanceLink s (WordSenseNode "illiterate_person%1:18:00::"))
+(InheritanceLink s (WordSenseNode "nonreader%1:18:01::"))

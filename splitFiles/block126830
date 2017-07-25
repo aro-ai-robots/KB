@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plexus_autonomici%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "autonomic_plexus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_plexus%1:08:00::"))
+(define x (WordNode "plexus_autonomici")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_plexus%1:08:00::"))

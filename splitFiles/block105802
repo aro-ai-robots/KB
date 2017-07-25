@@ -1,0 +1,4 @@
+(define s (WordSenseNode "metical%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metical")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mozambique_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centavo%1:23:00::") s)

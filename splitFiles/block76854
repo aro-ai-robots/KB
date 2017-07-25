@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gypsy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Romany")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Sanskrit%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Sanskritic_language%1:10:00::"))
+(define x (WordNode "Gypsy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Sanskrit%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Sanskritic_language%1:10:00::"))

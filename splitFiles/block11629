@@ -1,0 +1,7 @@
+(define s (WordSenseNode "autograph%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "autograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "written_material%1:10:00::"))
+(InheritanceLink s (WordSenseNode "piece_of_writing%1:10:00::"))
+(InheritanceLink (WordSenseNode "manuscript%1:10:01::") s)
+(InheritanceLink (WordSenseNode "holograph%1:10:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pub_crawl%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pub_crawl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tour%1:04:00::"))
+(InheritanceLink s (WordSenseNode "circuit%1:04:00::"))

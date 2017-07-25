@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sea_room%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sea_room")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "room%1:23:00::"))
+(InheritanceLink s (WordSenseNode "way%1:23:00::"))
+(InheritanceLink s (WordSenseNode "elbow_room%1:23:00::"))

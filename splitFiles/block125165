@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pillbox%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pillbox")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gun_emplacement%1:06:00::"))
+(InheritanceLink s (WordSenseNode "weapons_emplacement%1:06:00::"))

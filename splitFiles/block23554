@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cadastre%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cadaster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "register%1:10:00::"))
+(InheritanceLink s (WordSenseNode "registry%1:10:00::"))
+(define x (WordNode "cadastre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "register%1:10:00::"))
+(InheritanceLink s (WordSenseNode "registry%1:10:00::"))

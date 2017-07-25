@@ -1,0 +1,5 @@
+(define s (WordSenseNode "alluvial_plain%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alluvial_flat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flat%1:17:00::"))
+(define x (WordNode "alluvial_plain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flat%1:17:00::"))

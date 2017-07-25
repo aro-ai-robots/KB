@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lamellar_mixture%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lamellar_mixture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mixture%1:27:00::"))
+(InheritanceLink (WordSenseNode "pearlite%1:27:00::") s)

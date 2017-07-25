@@ -1,0 +1,5 @@
+(define s (WordSenseNode "grade_separation%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grade_separation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crossing%1:06:00::"))
+(InheritanceLink s (WordSenseNode "crosswalk%1:06:00::"))
+(InheritanceLink s (WordSenseNode "crossover%1:06:00::"))

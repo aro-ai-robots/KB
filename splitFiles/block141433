@@ -1,0 +1,5 @@
+(define s (WordSenseNode "roar%2:32:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "thunder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shout%2:32:00::"))
+(define x (WordNode "roar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shout%2:32:00::"))

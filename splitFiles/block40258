@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cross_question%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cross_examine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "examine%2:32:00::"))
+(define x (WordNode "cross_question")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "examine%2:32:00::"))

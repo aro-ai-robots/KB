@@ -1,0 +1,6 @@
+(define s (WordSenseNode "vote%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vote")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "group_action%1:04:00::"))
+(InheritanceLink (WordSenseNode "plebiscite%1:04:00::") s)
+(InheritanceLink (WordSenseNode "referendum%1:04:00::") s)
+(InheritanceLink (WordSenseNode "election%1:04:01::") s)

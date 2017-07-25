@@ -1,0 +1,5 @@
+(define s (WordSenseNode "homestretch%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "homestretch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "end%1:11:00::"))
+(InheritanceLink s (WordSenseNode "last%1:11:00::"))
+(InheritanceLink s (WordSenseNode "final_stage%1:11:00::"))

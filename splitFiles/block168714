@@ -1,0 +1,5 @@
+(define s (WordSenseNode "three-piece_suit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "three-piece_suit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "business_suit%1:06:00::"))
+(HolonymLink (WordSenseNode "vest%1:06:01::") s)
+(HolonymLink (WordSenseNode "waistcoat%1:06:00::") s)

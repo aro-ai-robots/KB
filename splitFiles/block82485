@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hot_plate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hot_plate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_appliance%1:06:00::"))
+(define x (WordNode "hotplate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_appliance%1:06:00::"))

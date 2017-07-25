@@ -1,0 +1,6 @@
+(define s (WordSenseNode "docket%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "docket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sum_up%2:32:00::"))
+(InheritanceLink s (WordSenseNode "summarize%2:32:00::"))
+(InheritanceLink s (WordSenseNode "summarise%2:32:00::"))
+(InheritanceLink s (WordSenseNode "resume%2:32:00::"))

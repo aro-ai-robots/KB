@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lamb%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lamb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meat%1:13:01::"))
+(HolonymLink s (WordSenseNode "domestic_sheep%1:05:00::"))
+(HolonymLink s (WordSenseNode "Ovis_aries%1:05:00::"))
+(HolonymLink (WordSenseNode "cut_of_lamb%1:13:00::") s)
+(HolonymLink (WordSenseNode "loin_of_lamb%1:13:00::") s)

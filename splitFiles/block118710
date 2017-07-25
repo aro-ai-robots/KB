@@ -1,0 +1,5 @@
+(define s (WordSenseNode "overhang%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "overhang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:06:00::"))
+(InheritanceLink (WordSenseNode "eaves%1:06:00::") s)
+(InheritanceLink (WordSenseNode "fantail%1:06:00::") s)

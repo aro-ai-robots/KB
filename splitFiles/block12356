@@ -1,0 +1,7 @@
+(define s (WordSenseNode "back_door%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "back_door")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "access%1:10:00::"))
+(InheritanceLink s (WordSenseNode "access_code%1:10:00::"))
+(define x (WordNode "backdoor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "access%1:10:00::"))
+(InheritanceLink s (WordSenseNode "access_code%1:10:00::"))

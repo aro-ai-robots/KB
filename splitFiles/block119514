@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pain_unit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pain_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unit_of_measurement%1:23:00::"))
+(InheritanceLink s (WordSenseNode "unit%1:23:00::"))
+(InheritanceLink (WordSenseNode "dol%1:23:00::") s)

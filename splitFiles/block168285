@@ -1,0 +1,7 @@
+(define s (WordSenseNode "thin-leaved_stringybark%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_stringybark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stringybark%1:20:00::"))
+(define x (WordNode "thin-leaved_stringybark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stringybark%1:20:00::"))
+(define x (WordNode "Eucalyptusd_eugenioides")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stringybark%1:20:00::"))

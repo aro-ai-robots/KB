@@ -1,0 +1,7 @@
+(define s (WordSenseNode "no_fault_automobile_insurance%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "no_fault_insurance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "automobile_insurance%1:21:00::"))
+(InheritanceLink s (WordSenseNode "car_insurance%1:21:00::"))
+(define x (WordNode "no_fault_automobile_insurance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "automobile_insurance%1:21:00::"))
+(InheritanceLink s (WordSenseNode "car_insurance%1:21:00::"))

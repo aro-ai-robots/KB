@@ -1,0 +1,8 @@
+(define s (WordSenseNode "degree%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "degree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exponent%1:10:00::"))
+(InheritanceLink s (WordSenseNode "power%1:10:00::"))
+(InheritanceLink s (WordSenseNode "index%1:10:02::"))
+(InheritanceLink (WordSenseNode "degree_of_a_term%1:09:00::") s)
+(InheritanceLink (WordSenseNode "degree_of_a_polynomial%1:09:00::") s)
+(InheritanceLink (WordSenseNode "first_degree%1:09:00::") s)

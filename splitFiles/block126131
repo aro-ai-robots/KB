@@ -1,0 +1,7 @@
+(define s (WordSenseNode "plaintiff_in_error%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "appellant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "litigant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "litigator%1:18:00::"))
+(define x (WordNode "plaintiff_in_error")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "litigant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "litigator%1:18:00::"))

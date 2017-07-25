@@ -1,0 +1,5 @@
+(define s (WordSenseNode "counterattack%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "counterattack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attack%1:04:04::"))
+(define x (WordNode "counterplay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attack%1:04:04::"))

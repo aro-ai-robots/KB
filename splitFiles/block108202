@@ -1,0 +1,7 @@
+(define s (WordSenseNode "monkey_jacket%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mess_jacket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jacket%1:06:00::"))
+(define x (WordNode "monkey_jacket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jacket%1:06:00::"))
+(define x (WordNode "shell_jacket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jacket%1:06:00::"))

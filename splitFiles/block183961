@@ -1,0 +1,5 @@
+(define s (WordSenseNode "winnipeg%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Winnipeg")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Manitoba%1:15:00::"))
+(define x (WordNode "Lake_Winnipeg")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Manitoba%1:15:00::"))

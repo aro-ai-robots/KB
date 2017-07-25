@@ -1,0 +1,5 @@
+(define s (WordSenseNode "burden_of_proof%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "burden_of_proof")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "duty%1:04:00::"))
+(InheritanceLink s (WordSenseNode "responsibility%1:04:00::"))
+(InheritanceLink s (WordSenseNode "obligation%1:04:00::"))

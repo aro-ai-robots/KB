@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reed_pipe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reed_pipe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organ_pipe%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pipe%1:06:03::"))
+(InheritanceLink s (WordSenseNode "pipework%1:06:00::"))

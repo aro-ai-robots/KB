@@ -1,0 +1,6 @@
+(define s (WordSenseNode "honeycomb%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "honeycomb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%1:06:00::"))
+(InheritanceLink s (WordSenseNode "construction%1:06:00::"))
+(HolonymLink s (WordSenseNode "beehive%1:17:00::"))
+(HolonymLink s (WordSenseNode "hive%1:17:00::"))

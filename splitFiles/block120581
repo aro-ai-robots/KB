@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pardon%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "excuse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "forgive%2:32:00::"))
+(define x (WordNode "pardon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "forgive%2:32:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "victory_day%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "V-day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))
+(define x (WordNode "Victory_Day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))

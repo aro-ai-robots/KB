@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ramify%2:30:04::")) (PartOfSpeechLink s verb)
+(define x (WordNode "complexify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "ramify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))

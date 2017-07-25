@@ -1,0 +1,4 @@
+(define s (WordSenseNode "punch_pliers%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "punch_pliers")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punch%1:06:00::"))
+(InheritanceLink s (WordSenseNode "puncher%1:06:00::"))

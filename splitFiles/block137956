@@ -1,0 +1,7 @@
+(define s (WordSenseNode "regular_polygon%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "regular_polygon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "isogon%1:25:00::"))
+(InheritanceLink (WordSenseNode "square%1:25:00::") s)
+(InheritanceLink (WordSenseNode "foursquare%1:25:00::") s)
+(InheritanceLink (WordSenseNode "equilateral_triangle%1:25:00::") s)
+(InheritanceLink (WordSenseNode "equiangular_triangle%1:25:00::") s)

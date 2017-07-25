@@ -1,0 +1,7 @@
+(define s (WordSenseNode "icepick%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "icepick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pick%1:06:01::"))
+(HolonymLink (WordSenseNode "point%1:06:00::") s)
+(define x (WordNode "ice_pick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pick%1:06:01::"))
+(HolonymLink (WordSenseNode "point%1:06:00::") s)

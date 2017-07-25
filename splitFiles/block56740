@@ -1,0 +1,3 @@
+(define s (WordSenseNode "exclamation%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exclamation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "complaint%1:10:02::"))

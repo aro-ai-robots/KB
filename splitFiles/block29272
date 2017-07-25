@@ -1,0 +1,5 @@
+(define s (WordSenseNode "check_character%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "check_character")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "character%1:10:00::"))
+(InheritanceLink s (WordSenseNode "grapheme%1:10:00::"))
+(InheritanceLink s (WordSenseNode "graphic_symbol%1:10:00::"))

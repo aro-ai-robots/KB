@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hypostatisation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypostatization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "objectification%1:04:00::"))
+(define x (WordNode "hypostatisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "objectification%1:04:00::"))
+(define x (WordNode "reification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "objectification%1:04:00::"))

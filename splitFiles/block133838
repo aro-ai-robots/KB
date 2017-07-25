@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pyroxene%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pyroxene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mineral%1:27:00::"))
+(HolonymLink s (WordSenseNode "basalt%1:27:00::"))
+(HolonymLink s (WordSenseNode "nephelinite%1:27:00::"))

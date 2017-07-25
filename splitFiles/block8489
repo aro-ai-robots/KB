@@ -1,0 +1,7 @@
+(define s (WordSenseNode "arc%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arc")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curve%1:25:00::"))
+(InheritanceLink s (WordSenseNode "curved_shape%1:25:00::"))
+(InheritanceLink (WordSenseNode "limb%1:06:01::") s)
+(HolonymLink s (WordSenseNode "circle%1:25:00::"))
+(HolonymLink s (WordSenseNode "sector%1:25:00::"))

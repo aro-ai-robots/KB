@@ -1,0 +1,7 @@
+(define s (WordSenseNode "musculus_triceps_brachii%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "triceps_brachii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "triceps%1:08:00::"))
+(HolonymLink s (WordSenseNode "arm%1:08:00::"))
+(define x (WordNode "musculus_triceps_brachii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "triceps%1:08:00::"))
+(HolonymLink s (WordSenseNode "arm%1:08:00::"))

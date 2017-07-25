@@ -1,0 +1,7 @@
+(define s (WordSenseNode "powder_method%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "powder_photography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:22:00::"))
+(define x (WordNode "powder_method")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:22:00::"))
+(define x (WordNode "powder_technique")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:22:00::"))

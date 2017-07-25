@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wood_nymph%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dryad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nymph%1:18:00::"))
+(InheritanceLink (WordSenseNode "hamadryad%1:18:00::") s)
+(define x (WordNode "wood_nymph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nymph%1:18:00::"))
+(InheritanceLink (WordSenseNode "hamadryad%1:18:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "battering_ram%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "battering_ram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ram%1:06:00::"))
+(InheritanceLink s (WordSenseNode "engine%1:06:02::"))

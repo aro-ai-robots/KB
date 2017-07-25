@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hunger_strike%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hunger_strike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fast%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fasting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "passive_resistance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "nonviolent_resistance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "nonviolence%1:04:00::"))

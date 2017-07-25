@@ -1,0 +1,6 @@
+(define s (WordSenseNode "zone%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "zone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "topographic_point%1:15:00::"))
+(InheritanceLink s (WordSenseNode "place%1:15:00::"))
+(InheritanceLink s (WordSenseNode "spot%1:15:01::"))
+(InheritanceLink (WordSenseNode "island%1:06:00::") s)

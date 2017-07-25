@@ -1,0 +1,5 @@
+(define s (WordSenseNode "requisition%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sequestration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appropriation%1:04:00::"))
+(define x (WordNode "requisition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appropriation%1:04:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "quantifier%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quantifier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "word%1:10:00::"))
+(InheritanceLink (WordSenseNode "universal_quantifier%1:10:00::") s)

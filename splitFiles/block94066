@@ -1,0 +1,8 @@
+(define s (WordSenseNode "lacrimal_bone%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lacrimal_bone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bone%1:08:00::"))
+(InheritanceLink s (WordSenseNode "os%1:08:00::"))
+(HolonymLink s (WordSenseNode "eye_socket%1:08:00::"))
+(HolonymLink s (WordSenseNode "orbit%1:08:00::"))
+(HolonymLink s (WordSenseNode "cranial_orbit%1:08:00::"))
+(HolonymLink s (WordSenseNode "orbital_cavity%1:08:00::"))

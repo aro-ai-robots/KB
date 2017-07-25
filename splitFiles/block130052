@@ -1,0 +1,7 @@
+(define s (WordSenseNode "preschool%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preschool")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "educational_institution%1:14:00::"))
+(InheritanceLink (WordSenseNode "kindergarten%1:14:00::") s)
+(InheritanceLink (WordSenseNode "nursery_school%1:14:00::") s)
+(InheritanceLink (WordSenseNode "playschool%1:14:00::") s)
+(InheritanceLink (WordSenseNode "play_group%1:14:00::") s)

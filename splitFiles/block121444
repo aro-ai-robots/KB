@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pate%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spread%1:13:00::"))
+(InheritanceLink s (WordSenseNode "paste%1:13:01::"))
+(InheritanceLink (WordSenseNode "duck_pate%1:13:00::") s)
+(InheritanceLink (WordSenseNode "foie_gras%1:13:00::") s)
+(InheritanceLink (WordSenseNode "pate_de_foie_gras%1:13:00::") s)

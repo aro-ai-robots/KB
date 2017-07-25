@@ -1,0 +1,5 @@
+(define s (WordSenseNode "radiophotograph%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radiophotograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telephotograph%1:06:02::"))
+(define x (WordNode "radiophoto")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telephotograph%1:06:02::"))

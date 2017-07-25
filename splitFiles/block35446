@@ -1,0 +1,5 @@
+(define s (WordSenseNode "compromise%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "compromise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agree%2:32:04::"))
+(InheritanceLink (WordSenseNode "whore%2:32:01::") s)
+(InheritanceLink (WordSenseNode "give_and_take%2:32:00::") s)

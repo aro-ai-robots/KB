@@ -1,0 +1,7 @@
+(define s (WordSenseNode "swivel%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pivot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turn%2:38:00::"))
+(InheritanceLink (WordSenseNode "pirouette%2:38:00::") s)
+(define x (WordNode "swivel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turn%2:38:00::"))
+(InheritanceLink (WordSenseNode "pirouette%2:38:00::") s)

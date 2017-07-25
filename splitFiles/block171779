@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transposition%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "calculation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "computation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "computing%1:04:00::"))

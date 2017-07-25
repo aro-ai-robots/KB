@@ -1,0 +1,4 @@
+(define s (WordSenseNode "text_editor%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "text_editor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "editor_program%1:10:00::"))
+(InheritanceLink s (WordSenseNode "editor%1:10:00::"))

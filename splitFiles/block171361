@@ -1,0 +1,8 @@
+(define s (WordSenseNode "trainer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trainer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leader%1:18:00::"))
+(InheritanceLink (WordSenseNode "coach%1:18:01::") s)
+(InheritanceLink (WordSenseNode "manager%1:18:01::") s)
+(InheritanceLink (WordSenseNode "handler%1:18:00::") s)
+(InheritanceLink (WordSenseNode "animal_trainer%1:18:00::") s)
+(InheritanceLink (WordSenseNode "handler%1:18:01::") s)

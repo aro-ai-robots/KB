@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cannister%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "canister")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "container%1:06:00::"))
+(define x (WordNode "cannister")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "container%1:06:00::"))
+(define x (WordNode "tin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "container%1:06:00::"))

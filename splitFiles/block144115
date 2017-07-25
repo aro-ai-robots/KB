@@ -1,0 +1,7 @@
+(define s (WordSenseNode "saints_peter_and_paul%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Saints_Peter_and_Paul")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Christian_holy_day%1:28:00::"))
+(HolonymLink s (WordSenseNode "June%1:28:00::"))
+(define x (WordNode "June_29")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Christian_holy_day%1:28:00::"))
+(HolonymLink s (WordSenseNode "June%1:28:00::"))

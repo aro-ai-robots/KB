@@ -1,0 +1,6 @@
+(define s (WordSenseNode "reformer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reformer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "apparatus%1:06:00::"))
+(InheritanceLink s (WordSenseNode "setup%1:06:00::"))
+(HolonymLink s (WordSenseNode "oil_refinery%1:06:00::"))
+(HolonymLink s (WordSenseNode "petroleum_refinery%1:06:00::"))

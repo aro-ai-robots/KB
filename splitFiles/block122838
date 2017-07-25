@@ -1,0 +1,8 @@
+(define s (WordSenseNode "percussion_cap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "percussion_cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detonator%1:06:00::"))
+(InheritanceLink s (WordSenseNode "detonating_device%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cap%1:06:05::"))
+(HolonymLink (WordSenseNode "mercury_fulminate%1:27:00::") s)
+(HolonymLink (WordSenseNode "fulminate_of_mercury%1:27:00::") s)
+(HolonymLink (WordSenseNode "fulminating_mercury%1:27:00::") s)

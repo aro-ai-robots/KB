@@ -1,0 +1,3 @@
+(define s (WordSenseNode "departure_gate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "departure_gate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gate%1:06:02::"))

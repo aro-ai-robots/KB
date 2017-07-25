@@ -1,0 +1,6 @@
+(define s (WordSenseNode "caspase%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caspase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protease%1:27:00::"))
+(InheritanceLink s (WordSenseNode "peptidase%1:27:00::"))
+(InheritanceLink s (WordSenseNode "proteinase%1:27:00::"))
+(InheritanceLink s (WordSenseNode "proteolytic_enzyme%1:27:00::"))

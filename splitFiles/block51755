@@ -1,0 +1,7 @@
+(define s (WordSenseNode "eccm%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electronic_counter-countermeasures")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_warfare%1:04:00::"))
+(InheritanceLink s (WordSenseNode "EW%1:04:00::"))
+(define x (WordNode "ECCM")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_warfare%1:04:00::"))
+(InheritanceLink s (WordSenseNode "EW%1:04:00::"))

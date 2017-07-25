@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flip%2:30:13::")) (PartOfSpeechLink s verb)
+(define x (WordNode "flip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "flip_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "windows%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Windows")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operating_system%1:10:00::"))
+(InheritanceLink s (WordSenseNode "OS%1:10:00::"))

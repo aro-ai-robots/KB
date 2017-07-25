@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reverse_fault%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thrust_fault")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inclined_fault%1:17:00::"))
+(define x (WordNode "overthrust_fault")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inclined_fault%1:17:00::"))
+(define x (WordNode "reverse_fault")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inclined_fault%1:17:00::"))

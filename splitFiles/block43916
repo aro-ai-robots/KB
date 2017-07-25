@@ -1,0 +1,7 @@
+(define s (WordSenseNode "defenselessness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "defenselessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vulnerability%1:07:00::"))
+(define x (WordNode "defencelessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vulnerability%1:07:00::"))
+(define x (WordNode "unprotectedness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vulnerability%1:07:00::"))

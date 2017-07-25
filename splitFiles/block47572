@@ -1,0 +1,5 @@
+(define s (WordSenseNode "disinherit%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "disinherit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deprive%2:40:00::"))
+(define x (WordNode "disown")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deprive%2:40:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "ammonium_nitrate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ammonium_nitrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nitrate%1:27:00::"))
+(HolonymLink s (WordSenseNode "fertilizer%1:27:00::"))
+(HolonymLink s (WordSenseNode "fertiliser%1:27:00::"))
+(HolonymLink s (WordSenseNode "plant_food%1:27:00::"))
+(HolonymLink s (WordSenseNode "nitrous_oxide%1:06:00::"))
+(HolonymLink s (WordSenseNode "laughing_gas%1:06:00::"))

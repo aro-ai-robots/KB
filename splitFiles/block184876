@@ -1,0 +1,5 @@
+(define s (WordSenseNode "world_affairs%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "world_affairs")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "affairs%1:04:00::"))
+(define x (WordNode "international_affairs")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "affairs%1:04:00::"))

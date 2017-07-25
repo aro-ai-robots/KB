@@ -1,0 +1,7 @@
+(define s (WordSenseNode "peptide_linkage%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "peptide_bond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_bond%1:19:00::"))
+(InheritanceLink s (WordSenseNode "bond%1:19:00::"))
+(define x (WordNode "peptide_linkage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_bond%1:19:00::"))
+(InheritanceLink s (WordSenseNode "bond%1:19:00::"))

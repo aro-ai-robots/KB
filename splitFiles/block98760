@@ -1,0 +1,7 @@
+(define s (WordSenseNode "loam%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "loam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soil%1:27:01::"))
+(InheritanceLink s (WordSenseNode "dirt%1:27:01::"))
+(InheritanceLink (WordSenseNode "regur%1:27:00::") s)
+(InheritanceLink (WordSenseNode "regur_soil%1:27:00::") s)
+(InheritanceLink (WordSenseNode "chernozemic_soil%1:27:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tour_de_force%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tour_de_force")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feat%1:04:00::"))
+(InheritanceLink s (WordSenseNode "effort%1:04:02::"))
+(InheritanceLink s (WordSenseNode "exploit%1:04:00::"))

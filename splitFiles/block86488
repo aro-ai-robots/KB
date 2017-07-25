@@ -1,0 +1,7 @@
+(define s (WordSenseNode "induction_coil%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "induction_coil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coil%1:06:01::"))
+(InheritanceLink (WordSenseNode "ignition_coil%1:06:00::") s)
+(InheritanceLink (WordSenseNode "spark_coil%1:06:00::") s)
+(HolonymLink s (WordSenseNode "transformer%1:06:00::"))
+(HolonymLink (WordSenseNode "spark_gap%1:06:00::") s)

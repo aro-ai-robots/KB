@@ -1,0 +1,6 @@
+(define s (WordSenseNode "nasolacrimal_duct%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nasolacrimal_duct")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "duct%1:08:00::"))
+(InheritanceLink s (WordSenseNode "epithelial_duct%1:08:00::"))
+(InheritanceLink s (WordSenseNode "canal%1:08:00::"))
+(InheritanceLink s (WordSenseNode "channel%1:08:00::"))

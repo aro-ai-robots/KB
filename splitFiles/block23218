@@ -1,0 +1,5 @@
+(define s (WordSenseNode "buy_time%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "buy_time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delay%2:30:00::"))
+(InheritanceLink s (WordSenseNode "detain%2:30:00::"))
+(InheritanceLink s (WordSenseNode "hold_up%2:30:00::"))

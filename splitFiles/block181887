@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wedge%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wedge_heel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heel%1:06:00::"))
+(HolonymLink s (WordSenseNode "wedgie%1:06:00::"))
+(define x (WordNode "wedge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heel%1:06:00::"))
+(HolonymLink s (WordSenseNode "wedgie%1:06:00::"))

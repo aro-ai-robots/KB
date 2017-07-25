@@ -1,0 +1,7 @@
+(define s (WordSenseNode "exceed%2:42:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "exceed")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "overgrow%2:42:02::") s)
+(define x (WordNode "transcend")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "overgrow%2:42:02::") s)
+(define x (WordNode "surpass")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "overgrow%2:42:02::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "guinea_hen%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "guinea_hen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guinea_fowl%1:05:00::"))
+(InheritanceLink s (WordSenseNode "guinea%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Numida_meleagris%1:05:00::"))

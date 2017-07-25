@@ -1,0 +1,8 @@
+(define s (WordSenseNode "modern_dance%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "modern_dance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stage_dancing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "choreography%1:04:00::"))
+(InheritanceLink (WordSenseNode "interpretive_dance%1:04:00::") s)
+(InheritanceLink (WordSenseNode "interpretive_dancing%1:04:00::") s)
+(InheritanceLink (WordSenseNode "interpretative_dance%1:04:00::") s)
+(InheritanceLink (WordSenseNode "interpretative_dancing%1:04:00::") s)

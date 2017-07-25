@@ -1,0 +1,8 @@
+(define s (WordSenseNode "saint_john_the_apostle%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "John")) (WordSenseLink x s)
+(define x (WordNode "Saint_John")) (WordSenseLink x s)
+(define x (WordNode "St._John")) (WordSenseLink x s)
+(define x (WordNode "Saint_John_the_Apostle")) (WordSenseLink x s)
+(define x (WordNode "St._John_the_Apostle")) (WordSenseLink x s)
+(define x (WordNode "John_the_Evangelist")) (WordSenseLink x s)
+(define x (WordNode "John_the_Divine")) (WordSenseLink x s)

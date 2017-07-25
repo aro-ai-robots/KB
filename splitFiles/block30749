@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chronic_kidney_failure%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chronic_renal_failure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "renal_failure%1:26:00::"))
+(InheritanceLink s (WordSenseNode "kidney_failure%1:26:00::"))
+(define x (WordNode "chronic_kidney_failure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "renal_failure%1:26:00::"))
+(InheritanceLink s (WordSenseNode "kidney_failure%1:26:00::"))

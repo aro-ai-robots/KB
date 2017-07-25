@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trace_program%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trace_program")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utility_program%1:10:00::"))
+(InheritanceLink s (WordSenseNode "utility%1:10:00::"))
+(InheritanceLink s (WordSenseNode "service_program%1:10:00::"))
+(InheritanceLink (WordSenseNode "snapshot_program%1:10:00::") s)
+(HolonymLink (WordSenseNode "tracing_routine%1:10:00::") s)

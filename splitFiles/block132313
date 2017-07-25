@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pseudomonas_pyocanea%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pseudomonas_pyocanea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_species%1:05:00::"))
+(HolonymLink s (WordSenseNode "Pseudomonas%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Pseudomonas%1:05:00::"))

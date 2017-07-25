@@ -1,0 +1,8 @@
+(define s (WordSenseNode "stylus%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stylus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))
+(InheritanceLink (WordSenseNode "phonograph_needle%1:06:00::") s)
+(InheritanceLink (WordSenseNode "needle%1:06:02::") s)
+(HolonymLink s (WordSenseNode "cartridge%1:06:02::"))
+(HolonymLink s (WordSenseNode "pickup%1:06:01::"))
+(HolonymLink (WordSenseNode "diamond_point%1:06:00::") s)

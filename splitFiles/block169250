@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tie%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cord%1:06:00::"))
+(InheritanceLink (WordSenseNode "drawstring%1:06:00::") s)
+(InheritanceLink (WordSenseNode "drawing_string%1:06:00::") s)
+(InheritanceLink (WordSenseNode "string%1:06:01::") s)

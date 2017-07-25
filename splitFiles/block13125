@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bamboo_shoot%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bamboo_shoot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vegetable%1:13:00::"))
+(InheritanceLink s (WordSenseNode "veggie%1:13:00::"))
+(InheritanceLink s (WordSenseNode "veg%1:13:00::"))
+(HolonymLink s (WordSenseNode "common_bamboo%1:20:00::"))
+(HolonymLink s (WordSenseNode "Bambusa_vulgaris%1:20:00::"))

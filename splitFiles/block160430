@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stopper_knot%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stopper_knot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knot%1:06:00::"))
+(InheritanceLink (WordSenseNode "Matthew_Walker%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Matthew_Walker_knot%1:06:00::") s)

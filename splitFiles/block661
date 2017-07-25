@@ -1,0 +1,7 @@
+(define s (WordSenseNode "absolute_frequency%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frequency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardinal_number%1:23:00::"))
+(InheritanceLink s (WordSenseNode "cardinal%1:23:00::"))
+(define x (WordNode "absolute_frequency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardinal_number%1:23:00::"))
+(InheritanceLink s (WordSenseNode "cardinal%1:23:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "suffer%2:42:04::")) (PartOfSpeechLink s verb)
+(define x (WordNode "suffer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tend%2:42:01::"))
+(InheritanceLink s (WordSenseNode "be_given%2:42:00::"))
+(InheritanceLink s (WordSenseNode "lean%2:42:01::"))
+(InheritanceLink s (WordSenseNode "incline%2:42:01::"))
+(InheritanceLink s (WordSenseNode "run%2:42:01::"))

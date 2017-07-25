@@ -1,0 +1,7 @@
+(define s (WordSenseNode "corner_man%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "end_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "minstrel%1:18:01::"))
+(HolonymLink s (WordSenseNode "minstrel_show%1:14:00::"))
+(define x (WordNode "corner_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "minstrel%1:18:01::"))
+(HolonymLink s (WordSenseNode "minstrel_show%1:14:00::"))

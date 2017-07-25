@@ -1,0 +1,5 @@
+(define s (WordSenseNode "think_tank%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "think_tank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "company%1:14:01::"))
+(define x (WordNode "think_factory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "company%1:14:01::"))

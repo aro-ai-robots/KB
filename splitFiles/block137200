@@ -1,0 +1,7 @@
+(define s (WordSenseNode "red_light%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "red_light")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "visual_signal%1:10:00::"))
+(InheritanceLink (WordSenseNode "idiot_light%1:10:00::") s)
+(define x (WordNode "warning_light")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "visual_signal%1:10:00::"))
+(InheritanceLink (WordSenseNode "idiot_light%1:10:00::") s)

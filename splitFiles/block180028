@@ -1,0 +1,6 @@
+(define s (WordSenseNode "volcanic_glass%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "volcanic_glass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "volcanic_rock%1:27:00::"))
+(InheritanceLink (WordSenseNode "obsidian%1:27:00::") s)
+(InheritanceLink (WordSenseNode "pitchstone%1:27:00::") s)
+(InheritanceLink (WordSenseNode "tachylite%1:27:00::") s)

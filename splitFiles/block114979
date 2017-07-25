@@ -1,0 +1,7 @@
+(define s (WordSenseNode "obligation%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "obligation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personal_relation%1:24:00::"))
+(InheritanceLink s (WordSenseNode "personal_relationship%1:24:00::"))
+(define x (WordNode "indebtedness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personal_relation%1:24:00::"))
+(InheritanceLink s (WordSenseNode "personal_relationship%1:24:00::"))

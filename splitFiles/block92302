@@ -1,0 +1,7 @@
+(define s (WordSenseNode "keen%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "keen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dirge%1:10:00::"))
+(InheritanceLink s (WordSenseNode "coronach%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lament%1:10:01::"))
+(InheritanceLink s (WordSenseNode "requiem%1:10:00::"))
+(InheritanceLink s (WordSenseNode "threnody%1:10:00::"))

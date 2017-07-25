@@ -1,0 +1,8 @@
+(define s (WordSenseNode "alluvial_soil%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alluvial_soil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soil%1:27:01::"))
+(InheritanceLink s (WordSenseNode "dirt%1:27:01::"))
+(HolonymLink s (WordSenseNode "alluvial_sediment%1:17:00::"))
+(HolonymLink s (WordSenseNode "alluvial_deposit%1:17:00::"))
+(HolonymLink s (WordSenseNode "alluvium%1:17:00::"))
+(HolonymLink s (WordSenseNode "alluvion%1:17:00::"))

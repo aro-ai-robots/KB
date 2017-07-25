@@ -1,0 +1,7 @@
+(define s (WordSenseNode "romaic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Romaic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Modern_Greek%1:10:00::"))
+(InheritanceLink s (WordSenseNode "New_Greek%1:10:00::"))
+(define x (WordNode "Demotic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Modern_Greek%1:10:00::"))
+(InheritanceLink s (WordSenseNode "New_Greek%1:10:00::"))

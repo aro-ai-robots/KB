@@ -1,0 +1,6 @@
+(define s (WordSenseNode "turbogenerator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "turbogenerator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "generator%1:06:00::"))
+(HolonymLink s (WordSenseNode "power_station%1:06:00::"))
+(HolonymLink s (WordSenseNode "power_plant%1:06:00::"))
+(HolonymLink s (WordSenseNode "powerhouse%1:06:00::"))

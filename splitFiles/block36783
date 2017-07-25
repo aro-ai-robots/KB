@@ -1,0 +1,5 @@
+(define s (WordSenseNode "constructivist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "constructivist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "creative_person%1:18:00::"))
+(HolonymLink s (WordSenseNode "constructivism%1:14:00::"))

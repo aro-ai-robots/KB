@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stymy%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stymie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "situation%1:26:01::"))
+(InheritanceLink s (WordSenseNode "position%1:26:02::"))
+(define x (WordNode "stymy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "situation%1:26:01::"))
+(InheritanceLink s (WordSenseNode "position%1:26:02::"))

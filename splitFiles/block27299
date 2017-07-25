@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cauliflower_ear%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cauliflower_ear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "auricle%1:08:02::"))
+(InheritanceLink s (WordSenseNode "pinna%1:08:00::"))
+(InheritanceLink s (WordSenseNode "ear%1:08:01::"))

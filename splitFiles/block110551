@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mylodontid%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mylodontid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edentate%1:05:00::"))
+(InheritanceLink (WordSenseNode "mapinguari%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Mylodontidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Mylodontidae%1:05:00::"))

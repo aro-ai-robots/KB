@@ -1,0 +1,7 @@
+(define s (WordSenseNode "meclizine_hydrochloride%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "meclizine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antihistamine%1:06:00::"))
+(define x (WordNode "meclizine_hydrochloride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antihistamine%1:06:00::"))
+(define x (WordNode "Antivert")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antihistamine%1:06:00::"))

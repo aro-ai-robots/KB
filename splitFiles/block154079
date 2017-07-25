@@ -1,0 +1,6 @@
+(define s (WordSenseNode "smooth_muscle_cell%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "smooth_muscle_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "muscle_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "muscle_fiber%1:08:00::"))
+(InheritanceLink s (WordSenseNode "muscle_fibre%1:08:00::"))
+(HolonymLink s (WordSenseNode "smooth_muscle%1:08:01::"))

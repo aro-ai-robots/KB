@@ -1,0 +1,5 @@
+(define s (WordSenseNode "touch_up%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "touch_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enhance%2:30:01::"))
+(define x (WordNode "retouch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enhance%2:30:01::"))

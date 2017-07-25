@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ice_floe%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ice_floe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ice_mass%1:17:00::"))
+(define x (WordNode "floe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ice_mass%1:17:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sand_dollar%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sand_dollar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sea_urchin%1:05:00::"))
+(HolonymLink s (WordSenseNode "Exocycloida%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Exocycloida%1:05:00::"))

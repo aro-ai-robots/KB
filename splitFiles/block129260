@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pour_out%2:38:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "effuse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pour%2:38:03::"))
+(define x (WordNode "pour_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pour%2:38:03::"))

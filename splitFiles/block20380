@@ -1,0 +1,5 @@
+(define s (WordSenseNode "brake_band%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brake_band")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:06:02::"))
+(HolonymLink s (WordSenseNode "brake_system%1:06:00::"))
+(HolonymLink s (WordSenseNode "brakes%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "thematic_vowel%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stem_vowel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vowel%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vowel_sound%1:10:00::"))
+(define x (WordNode "thematic_vowel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vowel%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vowel_sound%1:10:00::"))

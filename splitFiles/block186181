@@ -1,0 +1,5 @@
+(define s (WordSenseNode "zannichellia_palustris%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "horned_pondweed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pondweed%1:20:01::"))
+(define x (WordNode "Zannichellia_palustris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pondweed%1:20:01::"))

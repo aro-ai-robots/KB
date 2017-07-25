@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vernier_caliper%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vernier_caliper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caliper%1:06:00::"))
+(InheritanceLink s (WordSenseNode "calliper%1:06:00::"))
+(define x (WordNode "vernier_micrometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caliper%1:06:00::"))
+(InheritanceLink s (WordSenseNode "calliper%1:06:00::"))

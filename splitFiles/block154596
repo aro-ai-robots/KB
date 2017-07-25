@@ -1,0 +1,5 @@
+(define s (WordSenseNode "soak_through%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ooze_through%2:35:00::"))
+(define x (WordNode "soak_through")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ooze_through%2:35:00::"))

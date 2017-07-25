@@ -1,0 +1,5 @@
+(define s (WordSenseNode "silverplate%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "silverplate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%2:35:00::"))
+(define x (WordNode "silver-plate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%2:35:00::"))

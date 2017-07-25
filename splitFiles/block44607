@@ -1,0 +1,7 @@
+(define s (WordSenseNode "denatured_alcohol%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "denatured_alcohol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ethyl_alcohol%1:27:00::"))
+(InheritanceLink s (WordSenseNode "ethanol%1:27:00::"))
+(InheritanceLink s (WordSenseNode "fermentation_alcohol%1:27:00::"))
+(InheritanceLink s (WordSenseNode "grain_alcohol%1:27:00::"))
+(InheritanceLink (WordSenseNode "methylated_spirit%1:27:00::") s)

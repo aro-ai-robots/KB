@@ -1,0 +1,5 @@
+(define s (WordSenseNode "street_cleaner%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "street_cleaner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cleaner%1:18:00::"))
+(define x (WordNode "street_sweeper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cleaner%1:18:00::"))

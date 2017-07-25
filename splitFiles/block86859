@@ -1,0 +1,5 @@
+(define s (WordSenseNode "infliximab%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "infliximab")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anti-TNF_compound%1:06:00::"))
+(define x (WordNode "Remicade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anti-TNF_compound%1:06:00::"))

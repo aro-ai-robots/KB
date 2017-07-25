@@ -1,0 +1,4 @@
+(define s (WordSenseNode "physical_ability%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "physical_ability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ability%1:07:00::"))
+(InheritanceLink (WordSenseNode "voice%1:07:01::") s)

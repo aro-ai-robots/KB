@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cylinder%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cylinder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "container%1:06:00::"))
+(HolonymLink s (WordSenseNode "aqualung%1:06:00::"))
+(HolonymLink s (WordSenseNode "Aqua-Lung%1:06:00::"))
+(HolonymLink s (WordSenseNode "scuba%1:06:00::"))

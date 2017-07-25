@@ -1,0 +1,5 @@
+(define s (WordSenseNode "profess%2:32:04::")) (PartOfSpeechLink s verb)
+(define x (WordNode "profess")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "claim%2:32:00::"))
+(define x (WordNode "pretend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "claim%2:32:00::"))

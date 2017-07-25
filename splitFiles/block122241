@@ -1,0 +1,7 @@
+(define s (WordSenseNode "peg%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leg%1:08:01::"))
+(define x (WordNode "peg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leg%1:08:01::"))
+(define x (WordNode "stick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leg%1:08:01::"))

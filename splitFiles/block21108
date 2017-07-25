@@ -1,0 +1,4 @@
+(define s (WordSenseNode "briefing%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "briefing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "informing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "making_known%1:10:00::"))

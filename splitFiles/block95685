@@ -1,0 +1,5 @@
+(define s (WordSenseNode "leadership%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leadership")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ability%1:09:00::"))
+(InheritanceLink s (WordSenseNode "power%1:09:01::"))
+(InheritanceLink (WordSenseNode "generalship%1:09:00::") s)

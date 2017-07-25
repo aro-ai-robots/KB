@@ -1,0 +1,5 @@
+(define s (WordSenseNode "osculating_circle%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circle_of_curvature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circle%1:25:00::"))
+(define x (WordNode "osculating_circle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circle%1:25:00::"))

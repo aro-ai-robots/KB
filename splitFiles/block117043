@@ -1,0 +1,5 @@
+(define s (WordSenseNode "orchestrator%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orchestrator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arranger%1:18:01::"))
+(InheritanceLink s (WordSenseNode "adapter%1:18:00::"))
+(InheritanceLink s (WordSenseNode "transcriber%1:18:02::"))

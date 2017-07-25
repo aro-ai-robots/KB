@@ -1,0 +1,7 @@
+(define s (WordSenseNode "forelock%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "forelock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lock%1:08:00::"))
+(InheritanceLink s (WordSenseNode "curl%1:08:00::"))
+(InheritanceLink s (WordSenseNode "ringlet%1:08:00::"))
+(InheritanceLink s (WordSenseNode "whorl%1:08:00::"))
+(InheritanceLink (WordSenseNode "quiff%1:08:00::") s)

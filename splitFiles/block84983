@@ -1,0 +1,3 @@
+(define s (WordSenseNode "immunotherapy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "immunotherapy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "therapy%1:04:00::"))

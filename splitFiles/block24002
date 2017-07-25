@@ -1,0 +1,5 @@
+(define s (WordSenseNode "call%1:10:08::")) (PartOfSpeechLink s noun)
+(define x (WordNode "margin_call")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demand%1:10:00::"))
+(define x (WordNode "call")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demand%1:10:00::"))

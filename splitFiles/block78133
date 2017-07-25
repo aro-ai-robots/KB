@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hare_krishna%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Hare_Krishna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Hindu%1:18:01::"))
+(InheritanceLink s (WordSenseNode "Hindoo%1:18:01::"))
+(HolonymLink s (WordSenseNode "Hare_Krishna%1:14:00::"))
+(HolonymLink s (WordSenseNode "International_Society_for_Krishna_Consciousness%1:14:00::"))
+(HolonymLink s (WordSenseNode "ISKCON%1:14:00::"))

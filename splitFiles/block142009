@@ -1,0 +1,4 @@
+(define s (WordSenseNode "roman_legion%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Roman_Legion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "host%1:14:02::"))
+(InheritanceLink s (WordSenseNode "legion%1:14:03::"))

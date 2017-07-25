@@ -1,0 +1,5 @@
+(define s (WordSenseNode "polyostotic_fibrous_dysplasia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Albright's_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fibrous_dysplasia_of_bone%1:26:00::"))
+(define x (WordNode "polyostotic_fibrous_dysplasia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fibrous_dysplasia_of_bone%1:26:00::"))

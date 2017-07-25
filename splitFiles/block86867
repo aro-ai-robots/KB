@@ -1,0 +1,4 @@
+(define s (WordSenseNode "influence%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "influence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power%1:18:00::"))
+(InheritanceLink s (WordSenseNode "force%1:18:00::"))

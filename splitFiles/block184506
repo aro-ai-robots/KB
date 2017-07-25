@@ -1,0 +1,4 @@
+(define s (WordSenseNode "wood_tar%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wood_tar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_resin%1:27:00::"))
+(InheritanceLink (WordSenseNode "pine_tar%1:27:00::") s)

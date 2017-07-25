@@ -1,0 +1,7 @@
+(define s (WordSenseNode "corespondent%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "corespondent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "codefendant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "co-defendant%1:18:00::"))
+(define x (WordNode "co-respondent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "codefendant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "co-defendant%1:18:00::"))

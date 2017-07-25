@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rib_cage%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rib_cage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skeletal_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "thorax%1:08:01::"))
+(HolonymLink s (WordSenseNode "chest%1:08:00::"))
+(HolonymLink s (WordSenseNode "pectus%1:08:00::"))
+(HolonymLink s (WordSenseNode "axial_skeleton%1:08:00::"))

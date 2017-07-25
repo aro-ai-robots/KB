@@ -1,0 +1,5 @@
+(define s (WordSenseNode "walk%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "walk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accompany%2:38:00::"))
+(InheritanceLink (WordSenseNode "trot%2:38:02::") s)
+(InheritanceLink (WordSenseNode "march%2:38:04::") s)

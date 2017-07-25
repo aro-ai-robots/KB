@@ -1,0 +1,7 @@
+(define s (WordSenseNode "agnus_dei%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Agnus_Dei")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emblem%1:10:00::"))
+(InheritanceLink s (WordSenseNode "allegory%1:10:02::"))
+(define x (WordNode "Paschal_Lamb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emblem%1:10:00::"))
+(InheritanceLink s (WordSenseNode "allegory%1:10:02::"))

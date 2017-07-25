@@ -1,0 +1,3 @@
+(define s (WordSenseNode "designatum%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "designatum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "referent%1:10:00::"))

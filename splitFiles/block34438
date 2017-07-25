@@ -1,0 +1,8 @@
+(define s (WordSenseNode "comedian%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "comedian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "actor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "histrion%1:18:00::"))
+(InheritanceLink s (WordSenseNode "player%1:18:00::"))
+(InheritanceLink s (WordSenseNode "thespian%1:18:00::"))
+(InheritanceLink s (WordSenseNode "role_player%1:18:00::"))
+(InheritanceLink (WordSenseNode "comedienne%1:18:01::") s)

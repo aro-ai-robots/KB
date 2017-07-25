@@ -1,0 +1,4 @@
+(define s (WordSenseNode "transference%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transference")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "displacement%1:22:00::"))
+(InheritanceLink (WordSenseNode "countertransference%1:09:00::") s)

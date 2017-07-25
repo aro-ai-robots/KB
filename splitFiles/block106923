@@ -1,0 +1,5 @@
+(define s (WordSenseNode "minisub%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "minisub")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "submersible%1:06:01::"))
+(define x (WordNode "minisubmarine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "submersible%1:06:01::"))

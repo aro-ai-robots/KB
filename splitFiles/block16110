@@ -1,0 +1,4 @@
+(define s (WordSenseNode "beta_particle%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beta_particle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "particle%1:17:00::"))
+(InheritanceLink s (WordSenseNode "subatomic_particle%1:17:00::"))

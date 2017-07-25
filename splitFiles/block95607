@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lea%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linear_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "linear_measure%1:23:00::"))
+(HolonymLink (WordSenseNode "yard%1:23:00::") s)
+(HolonymLink (WordSenseNode "pace%1:23:00::") s)

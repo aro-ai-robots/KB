@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pillar_box%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pillar_box")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "postbox%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mailbox%1:06:01::"))
+(InheritanceLink s (WordSenseNode "letter_box%1:06:01::"))

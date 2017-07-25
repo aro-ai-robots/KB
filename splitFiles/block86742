@@ -1,0 +1,4 @@
+(define s (WordSenseNode "inferior_mesenteric_artery%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inferior_mesenteric_artery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mesenteric_artery%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arteria_mesenterica%1:08:00::"))

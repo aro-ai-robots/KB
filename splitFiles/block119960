@@ -1,0 +1,7 @@
+(define s (WordSenseNode "panchayat%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "panchayat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "council%1:14:01::"))
+(define x (WordNode "panchayet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "council%1:14:01::"))
+(define x (WordNode "punchayet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "council%1:14:01::"))

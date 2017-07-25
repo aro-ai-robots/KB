@@ -1,0 +1,7 @@
+(define s (WordSenseNode "might%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "might")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strength%1:07:00::"))
+(define x (WordNode "mightiness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strength%1:07:00::"))
+(define x (WordNode "power")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strength%1:07:00::"))

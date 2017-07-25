@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hepatic_lobe%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hepatic_lobe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lobe%1:08:00::"))
+(HolonymLink s (WordSenseNode "liver%1:08:00::"))

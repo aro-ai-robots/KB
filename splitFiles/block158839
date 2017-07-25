@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stander%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stander")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organism%1:03:00::"))
+(InheritanceLink s (WordSenseNode "being%1:03:00::"))
+(InheritanceLink (WordSenseNode "standee%1:18:00::") s)

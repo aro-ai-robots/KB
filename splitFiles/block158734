@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stand%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "defense%1:04:00::"))
+(InheritanceLink s (WordSenseNode "defence%1:04:00::"))
+(InheritanceLink s (WordSenseNode "defensive_measure%1:04:00::"))
+(InheritanceLink (WordSenseNode "repulsion%1:04:00::") s)
+(InheritanceLink (WordSenseNode "standoff%1:04:01::") s)

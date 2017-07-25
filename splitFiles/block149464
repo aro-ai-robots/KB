@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sextant%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sextant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angular_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "circumference%1:07:01::"))
+(HolonymLink (WordSenseNode "degree%1:23:00::") s)
+(HolonymLink (WordSenseNode "arcdegree%1:23:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "gluteus_maximus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gluteus_maximus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gluteus%1:08:00::"))
+(InheritanceLink s (WordSenseNode "gluteus_muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "gluteal_muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "glute%1:08:00::"))

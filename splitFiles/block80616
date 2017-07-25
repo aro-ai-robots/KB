@@ -1,0 +1,7 @@
+(define s (WordSenseNode "higher_national_diploma%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Higher_National_Diploma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diploma%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sheepskin%1:10:00::"))
+(define x (WordNode "HND")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diploma%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sheepskin%1:10:00::"))

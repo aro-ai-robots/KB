@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gy%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gray")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radioactivity_unit%1:23:00::"))
+(define x (WordNode "Gy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radioactivity_unit%1:23:00::"))

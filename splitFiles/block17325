@@ -1,0 +1,3 @@
+(define s (WordSenseNode "black_belt%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "black_belt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "badge%1:10:00::"))

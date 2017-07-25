@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tree_farm%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tree_farm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "forest%1:17:00::"))
+(InheritanceLink s (WordSenseNode "woodland%1:17:00::"))
+(InheritanceLink s (WordSenseNode "timberland%1:17:00::"))
+(InheritanceLink s (WordSenseNode "timber%1:17:00::"))
+(InheritanceLink (WordSenseNode "pinetum%1:17:00::") s)

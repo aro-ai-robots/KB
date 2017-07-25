@@ -1,0 +1,7 @@
+(define s (WordSenseNode "anionic_detergent%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anionic_detergent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detergent%1:27:00::"))
+(define x (WordNode "anionic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detergent%1:27:00::"))
+(define x (WordNode "non-ionic_detergent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detergent%1:27:00::"))

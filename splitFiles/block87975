@@ -1,0 +1,5 @@
+(define s (WordSenseNode "interfacial_surface_tension%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interfacial_tension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface_tension%1:19:00::"))
+(define x (WordNode "interfacial_surface_tension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface_tension%1:19:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pooch%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pooch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "purse%2:30:00::"))
+(define x (WordNode "pooch_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "purse%2:30:00::"))

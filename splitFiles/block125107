@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pile%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thread%1:06:00::"))
+(InheritanceLink s (WordSenseNode "yarn%1:06:00::"))
+(define x (WordNode "nap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thread%1:06:00::"))
+(InheritanceLink s (WordSenseNode "yarn%1:06:00::"))

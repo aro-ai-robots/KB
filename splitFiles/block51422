@@ -1,0 +1,6 @@
+(define s (WordSenseNode "earplug%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "earplug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "earphone%1:06:00::"))
+(InheritanceLink s (WordSenseNode "earpiece%1:06:00::"))
+(InheritanceLink s (WordSenseNode "headphone%1:06:00::"))
+(InheritanceLink s (WordSenseNode "phone%1:06:01::"))

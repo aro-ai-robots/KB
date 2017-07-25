@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pretend%2:40:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pretend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "claim%2:40:00::"))
+(InheritanceLink s (WordSenseNode "lay_claim%2:40:00::"))
+(InheritanceLink s (WordSenseNode "arrogate%2:40:02::"))

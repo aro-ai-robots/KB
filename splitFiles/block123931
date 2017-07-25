@@ -1,0 +1,5 @@
+(define s (WordSenseNode "phenolic_plastic%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phenolic_plastic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plastic%1:27:00::"))
+(define x (WordNode "phenolic_urea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plastic%1:27:00::"))

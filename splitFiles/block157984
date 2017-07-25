@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sputum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phlegm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mucus%1:08:00::"))
+(InheritanceLink s (WordSenseNode "mucous_secretion%1:08:00::"))
+(define x (WordNode "sputum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mucus%1:08:00::"))
+(InheritanceLink s (WordSenseNode "mucous_secretion%1:08:00::"))

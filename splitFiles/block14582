@@ -1,0 +1,7 @@
+(define s (WordSenseNode "be%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "be")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "vet%2:41:00::") s)
+(InheritanceLink (WordSenseNode "cox%2:41:00::") s)
+(define x (WordNode "follow")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "vet%2:41:00::") s)
+(InheritanceLink (WordSenseNode "cox%2:41:00::") s)

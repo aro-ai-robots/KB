@@ -1,0 +1,4 @@
+(define s (WordSenseNode "big_stick%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "big_stick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "display%1:10:01::"))
+(InheritanceLink s (WordSenseNode "show%1:10:03::"))

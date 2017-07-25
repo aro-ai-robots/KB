@@ -1,0 +1,7 @@
+(define s (WordSenseNode "programming%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scheduling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "planning%1:04:00::"))
+(define x (WordNode "programming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "planning%1:04:00::"))
+(define x (WordNode "programing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "planning%1:04:00::"))

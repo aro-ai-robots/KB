@@ -1,0 +1,4 @@
+(define s (WordSenseNode "virtual_reality%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "virtual_reality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_game%1:04:00::"))
+(InheritanceLink s (WordSenseNode "video_game%1:04:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "european_shrike%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "European_shrike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butcherbird%1:05:01::"))
+(define x (WordNode "Lanius_excubitor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butcherbird%1:05:01::"))

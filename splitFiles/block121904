@@ -1,0 +1,5 @@
+(define s (WordSenseNode "peacemaker%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Browning_machine_gun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine_gun%1:06:00::"))
+(define x (WordNode "Peacemaker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine_gun%1:06:00::"))

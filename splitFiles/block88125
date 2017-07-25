@@ -1,0 +1,4 @@
+(define s (WordSenseNode "international_candle%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "international_candle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "luminous_intensity_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "candlepower_unit%1:23:00::"))

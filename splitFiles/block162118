@@ -1,0 +1,4 @@
+(define s (WordSenseNode "subpopulation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subpopulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "population%1:09:00::"))
+(InheritanceLink s (WordSenseNode "universe%1:09:01::"))

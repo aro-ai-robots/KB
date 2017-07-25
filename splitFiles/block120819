@@ -1,0 +1,7 @@
+(define s (WordSenseNode "parricide%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parricide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "murderer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "liquidator%1:18:01::"))
+(InheritanceLink s (WordSenseNode "manslayer%1:18:00::"))
+(InheritanceLink (WordSenseNode "matricide%1:18:00::") s)
+(InheritanceLink (WordSenseNode "patricide%1:18:00::") s)

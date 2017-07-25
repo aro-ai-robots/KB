@@ -1,0 +1,7 @@
+(define s (WordSenseNode "perilune%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "periselene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "periapsis%1:15:00::"))
+(InheritanceLink s (WordSenseNode "point_of_periapsis%1:15:00::"))
+(define x (WordNode "perilune")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "periapsis%1:15:00::"))
+(InheritanceLink s (WordSenseNode "point_of_periapsis%1:15:00::"))

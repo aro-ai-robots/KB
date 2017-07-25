@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kismet%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kismet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "destiny%1:11:00::"))
+(InheritanceLink s (WordSenseNode "fate%1:11:00::"))
+(define x (WordNode "kismat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "destiny%1:11:00::"))
+(InheritanceLink s (WordSenseNode "fate%1:11:00::"))

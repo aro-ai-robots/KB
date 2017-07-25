@@ -1,0 +1,8 @@
+(define s (WordSenseNode "morning_dress%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "morning_dress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attire%1:06:00::"))
+(InheritanceLink s (WordSenseNode "garb%1:06:00::"))
+(InheritanceLink s (WordSenseNode "dress%1:06:01::"))
+(HolonymLink (WordSenseNode "swallow-tailed_coat%1:06:00::") s)
+(HolonymLink (WordSenseNode "swallowtail%1:06:00::") s)
+(HolonymLink (WordSenseNode "morning_coat%1:06:00::") s)

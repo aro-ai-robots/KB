@@ -1,0 +1,6 @@
+(define s (WordSenseNode "federal_home_loan_bank_system%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Federal_Home_Loan_Bank_System")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_institution%1:14:00::"))
+(InheritanceLink s (WordSenseNode "financial_organization%1:14:00::"))
+(InheritanceLink s (WordSenseNode "financial_organisation%1:14:00::"))
+(HolonymLink (WordSenseNode "Home_Loan_Bank%1:14:00::") s)

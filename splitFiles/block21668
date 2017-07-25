@@ -1,0 +1,7 @@
+(define s (WordSenseNode "brown-nose%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "butter_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flatter%2:32:00::"))
+(InheritanceLink s (WordSenseNode "blandish%2:32:00::"))
+(define x (WordNode "brown-nose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flatter%2:32:00::"))
+(InheritanceLink s (WordSenseNode "blandish%2:32:00::"))

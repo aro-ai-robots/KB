@@ -1,0 +1,7 @@
+(define s (WordSenseNode "millenarian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "millenarian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optimist%1:18:00::"))
+(define x (WordNode "millenarist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optimist%1:18:00::"))
+(define x (WordNode "chiliast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optimist%1:18:00::"))

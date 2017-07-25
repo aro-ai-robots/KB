@@ -1,0 +1,4 @@
+(define s (WordSenseNode "inflation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inflation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expansion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "enlargement%1:04:00::"))

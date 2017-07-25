@@ -1,0 +1,7 @@
+(define s (WordSenseNode "curliness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "curliness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curvature%1:07:01::"))
+(InheritanceLink s (WordSenseNode "curve%1:07:00::"))
+(define x (WordNode "waviness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curvature%1:07:01::"))
+(InheritanceLink s (WordSenseNode "curve%1:07:00::"))

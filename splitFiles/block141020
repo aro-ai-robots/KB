@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rim%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rim")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boundary%1:25:00::"))
+(InheritanceLink s (WordSenseNode "edge%1:25:00::"))
+(InheritanceLink s (WordSenseNode "bound%1:25:00::"))
+(InheritanceLink s (WordSenseNode "round_shape%1:25:00::"))

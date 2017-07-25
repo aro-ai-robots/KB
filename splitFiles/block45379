@@ -1,0 +1,7 @@
+(define s (WordSenseNode "desperation%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "despair")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "status%1:26:01::"))
+(define x (WordNode "desperation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "status%1:26:01::"))

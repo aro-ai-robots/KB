@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bedside_manner%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bedside_manner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manner%1:07:01::"))
+(InheritanceLink s (WordSenseNode "personal_manner%1:07:00::"))

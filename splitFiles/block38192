@@ -1,0 +1,4 @@
+(define s (WordSenseNode "correlation_table%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "correlation_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:14:00::"))
+(InheritanceLink s (WordSenseNode "tabular_array%1:14:00::"))

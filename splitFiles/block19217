@@ -1,0 +1,3 @@
+(define s (WordSenseNode "bone_age%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bone_age")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "age%1:07:00::"))

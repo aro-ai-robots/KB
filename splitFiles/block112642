@@ -1,0 +1,6 @@
+(define s (WordSenseNode "news_event%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "news_event")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "happening%1:11:00::"))
+(InheritanceLink s (WordSenseNode "occurrence%1:11:00::"))
+(InheritanceLink s (WordSenseNode "occurrent%1:11:00::"))
+(InheritanceLink s (WordSenseNode "natural_event%1:11:00::"))

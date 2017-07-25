@@ -1,0 +1,6 @@
+(define s (WordSenseNode "blind%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "screen%1:06:01::"))
+(InheritanceLink s (WordSenseNode "cover%1:06:02::"))
+(InheritanceLink s (WordSenseNode "covert%1:06:00::"))
+(InheritanceLink s (WordSenseNode "concealment%1:06:00::"))

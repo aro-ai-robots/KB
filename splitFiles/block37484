@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cooky_jar%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cookie_jar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jar%1:06:00::"))
+(define x (WordNode "cooky_jar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jar%1:06:00::"))

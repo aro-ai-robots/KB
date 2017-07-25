@@ -1,0 +1,5 @@
+(define s (WordSenseNode "oscillograph%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oscillograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recorder%1:06:01::"))
+(InheritanceLink s (WordSenseNode "recording_equipment%1:06:00::"))
+(InheritanceLink s (WordSenseNode "recording_machine%1:06:00::"))

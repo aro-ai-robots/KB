@@ -1,0 +1,7 @@
+(define s (WordSenseNode "juggernaut%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "juggernaut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power%1:18:00::"))
+(InheritanceLink s (WordSenseNode "force%1:18:00::"))
+(define x (WordNode "steamroller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power%1:18:00::"))
+(InheritanceLink s (WordSenseNode "force%1:18:00::"))

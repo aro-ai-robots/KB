@@ -1,0 +1,7 @@
+(define s (WordSenseNode "planer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_tool%1:06:00::"))
+(define x (WordNode "planer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_tool%1:06:00::"))
+(define x (WordNode "planing_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_tool%1:06:00::"))

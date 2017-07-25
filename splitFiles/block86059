@@ -1,0 +1,7 @@
+(define s (WordSenseNode "indecision%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "indecisiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irresoluteness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "irresolution%1:07:00::"))
+(define x (WordNode "indecision")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irresoluteness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "irresolution%1:07:00::"))

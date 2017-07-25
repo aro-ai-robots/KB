@@ -1,0 +1,4 @@
+(define s (WordSenseNode "neurophysiology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neurophysiology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neuroscience%1:09:00::"))
+(InheritanceLink s (WordSenseNode "physiology%1:09:00::"))

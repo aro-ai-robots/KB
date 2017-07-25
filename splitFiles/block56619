@@ -1,0 +1,7 @@
+(define s (WordSenseNode "exanthem%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exanthem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eruption%1:26:02::"))
+(define x (WordNode "exanthema")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eruption%1:26:02::"))
+(define x (WordNode "skin_eruption")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eruption%1:26:02::"))

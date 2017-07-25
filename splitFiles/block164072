@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sweet_wormwood%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sweet_wormwood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wormwood%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Artemisia%1:20:00::"))
+(define x (WordNode "Artemisia_annua")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wormwood%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Artemisia%1:20:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "score%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "score")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sheet_music%1:10:00::"))
+(HolonymLink (WordSenseNode "musical_notation%1:10:00::") s)
+(define x (WordNode "musical_score")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sheet_music%1:10:00::"))
+(HolonymLink (WordSenseNode "musical_notation%1:10:00::") s)

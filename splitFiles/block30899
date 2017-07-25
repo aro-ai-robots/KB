@@ -1,0 +1,5 @@
+(define s (WordSenseNode "church_bench%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pew")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bench%1:06:00::"))
+(define x (WordNode "church_bench")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bench%1:06:00::"))

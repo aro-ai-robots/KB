@@ -1,0 +1,7 @@
+(define s (WordSenseNode "book%1:10:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "book")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "section%1:10:00::"))
+(InheritanceLink s (WordSenseNode "subdivision%1:10:00::"))
+(InheritanceLink (WordSenseNode "Epistle%1:10:00::") s)
+(HolonymLink s (WordSenseNode "text%1:10:00::"))
+(HolonymLink s (WordSenseNode "textual_matter%1:10:00::"))

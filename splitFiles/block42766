@@ -1,0 +1,6 @@
+(define s (WordSenseNode "dateline%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dateline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:10:02::"))
+(HolonymLink s (WordSenseNode "dispatch%1:10:00::"))
+(HolonymLink s (WordSenseNode "despatch%1:10:00::"))
+(HolonymLink s (WordSenseNode "communique%1:10:00::"))

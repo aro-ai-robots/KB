@@ -1,0 +1,5 @@
+(define s (WordSenseNode "junk_dna%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "junk_DNA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deoxyribonucleic_acid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "desoxyribonucleic_acid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "DNA%1:27:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "beefcake%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beefcake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photograph%1:06:00::"))
+(InheritanceLink s (WordSenseNode "photo%1:06:00::"))
+(InheritanceLink s (WordSenseNode "exposure%1:06:00::"))
+(InheritanceLink s (WordSenseNode "picture%1:06:02::"))
+(InheritanceLink s (WordSenseNode "pic%1:06:00::"))

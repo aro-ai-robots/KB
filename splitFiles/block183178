@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wide_screen%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wide_screen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "screen%1:06:06::"))
+(InheritanceLink s (WordSenseNode "silver_screen%1:06:00::"))
+(InheritanceLink s (WordSenseNode "projection_screen%1:06:00::"))

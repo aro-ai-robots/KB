@@ -1,0 +1,8 @@
+(define s (WordSenseNode "shop_floor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shop_floor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "workplace%1:06:00::"))
+(InheritanceLink s (WordSenseNode "work%1:06:01::"))
+(HolonymLink s (WordSenseNode "factory%1:06:00::"))
+(HolonymLink s (WordSenseNode "mill%1:06:01::"))
+(HolonymLink s (WordSenseNode "manufacturing_plant%1:06:00::"))
+(HolonymLink s (WordSenseNode "manufactory%1:06:00::"))

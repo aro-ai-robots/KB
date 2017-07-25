@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mastery%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "command")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skillfulness%1:09:00::"))
+(define x (WordNode "control")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skillfulness%1:09:00::"))
+(define x (WordNode "mastery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skillfulness%1:09:00::"))

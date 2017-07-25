@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pilgrim%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pilgrim")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "believer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "worshiper%1:18:00::"))
+(InheritanceLink s (WordSenseNode "worshipper%1:18:00::"))
+(InheritanceLink (WordSenseNode "hajji%1:18:00::") s)
+(InheritanceLink (WordSenseNode "hadji%1:18:00::") s)
+(InheritanceLink (WordSenseNode "haji%1:18:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wool_stapler%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wool_stapler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grader%1:18:00::"))
+(define x (WordNode "woolsorter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grader%1:18:00::"))

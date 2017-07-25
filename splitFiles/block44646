@@ -1,0 +1,4 @@
+(define s (WordSenseNode "denier%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "denier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unit_of_measurement%1:23:00::"))
+(InheritanceLink s (WordSenseNode "unit%1:23:00::"))

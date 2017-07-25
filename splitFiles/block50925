@@ -1,0 +1,5 @@
+(define s (WordSenseNode "duodenal_smear%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paraduodenal_smear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alimentary_tract_smear%1:08:00::"))
+(define x (WordNode "duodenal_smear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alimentary_tract_smear%1:08:00::"))

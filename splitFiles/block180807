@@ -1,0 +1,5 @@
+(define s (WordSenseNode "war_advocacy%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "warmongering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hawkishness%1:09:00::"))
+(define x (WordNode "war_advocacy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hawkishness%1:09:00::"))

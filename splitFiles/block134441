@@ -1,0 +1,5 @@
+(define s (WordSenseNode "queue%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "queue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "list%1:10:00::"))
+(InheritanceLink s (WordSenseNode "listing%1:10:00::"))
+(InheritanceLink (WordSenseNode "push-down_queue%1:10:00::") s)

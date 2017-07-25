@@ -1,0 +1,5 @@
+(define s (WordSenseNode "charge-exchange_accelerator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "charge-exchange_accelerator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accelerator%1:06:01::"))
+(InheritanceLink s (WordSenseNode "particle_accelerator%1:06:00::"))
+(InheritanceLink s (WordSenseNode "atom_smasher%1:06:00::"))

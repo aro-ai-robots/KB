@@ -1,0 +1,5 @@
+(define s (WordSenseNode "scale_factor%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scale_factor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "multiplier%1:23:00::"))
+(InheritanceLink s (WordSenseNode "multiplier_factor%1:23:00::"))
+(InheritanceLink (WordSenseNode "time-scale_factor%1:23:00::") s)

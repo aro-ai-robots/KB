@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coryphaena_hippurus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Coryphaena_hippurus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dolphinfish%1:05:00::"))
+(InheritanceLink s (WordSenseNode "dolphin%1:05:01::"))
+(InheritanceLink s (WordSenseNode "mahimahi%1:05:00::"))

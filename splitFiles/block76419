@@ -1,0 +1,5 @@
+(define s (WordSenseNode "guinea_gold%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "red_brass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brass%1:27:00::"))
+(define x (WordNode "guinea_gold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brass%1:27:00::"))

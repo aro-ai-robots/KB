@@ -1,0 +1,7 @@
+(define s (WordSenseNode "materialisation%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "materialization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appearance%1:11:00::"))
+(define x (WordNode "materialisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appearance%1:11:00::"))
+(define x (WordNode "manifestation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appearance%1:11:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "active_site%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "active_site")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "site%1:15:02::"))
+(InheritanceLink s (WordSenseNode "situation%1:15:00::"))
+(HolonymLink s (WordSenseNode "enzyme%1:27:00::"))
+(HolonymLink s (WordSenseNode "antibody%1:27:00::"))

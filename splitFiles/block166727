@@ -1,0 +1,7 @@
+(define s (WordSenseNode "telegraph%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cable")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telecommunicate%2:32:00::"))
+(define x (WordNode "telegraph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telecommunicate%2:32:00::"))
+(define x (WordNode "wire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telecommunicate%2:32:00::"))

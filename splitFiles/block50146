@@ -1,0 +1,7 @@
+(define s (WordSenseNode "drip%2:35:10::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dribble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pour%2:38:03::"))
+(define x (WordNode "drip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pour%2:38:03::"))
+(define x (WordNode "drop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pour%2:38:03::"))

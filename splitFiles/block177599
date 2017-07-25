@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vaginismus%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vaginismus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contraction%1:04:01::"))
+(InheritanceLink s (WordSenseNode "muscular_contraction%1:04:00::"))
+(InheritanceLink s (WordSenseNode "muscle_contraction%1:04:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diopter%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diopter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unit_of_measurement%1:23:00::"))
+(InheritanceLink s (WordSenseNode "unit%1:23:00::"))
+(define x (WordNode "dioptre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unit_of_measurement%1:23:00::"))
+(InheritanceLink s (WordSenseNode "unit%1:23:00::"))

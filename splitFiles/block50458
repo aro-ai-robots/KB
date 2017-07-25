@@ -1,0 +1,5 @@
+(define s (WordSenseNode "druidism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "druidism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paganism%1:09:00::"))
+(InheritanceLink s (WordSenseNode "pagan_religion%1:09:00::"))
+(InheritanceLink s (WordSenseNode "heathenism%1:09:00::"))

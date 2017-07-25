@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hyphen%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hyphenate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spell%2:36:00::"))
+(InheritanceLink s (WordSenseNode "write%2:36:03::"))
+(define x (WordNode "hyphen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spell%2:36:00::"))
+(InheritanceLink s (WordSenseNode "write%2:36:03::"))

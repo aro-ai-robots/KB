@@ -1,0 +1,7 @@
+(define s (WordSenseNode "congeal%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "jell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solidify%2:30:00::"))
+(define x (WordNode "set")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solidify%2:30:00::"))
+(define x (WordNode "congeal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solidify%2:30:00::"))

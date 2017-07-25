@@ -1,0 +1,5 @@
+(define s (WordSenseNode "brachyuran%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brachyuran")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crustacean%1:05:00::"))
+(HolonymLink s (WordSenseNode "Brachyura%1:05:00::"))
+(HolonymLink s (WordSenseNode "suborder_Brachyura%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "high_fashion%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "haute_couture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fashion%1:09:00::"))
+(define x (WordNode "high_fashion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fashion%1:09:00::"))
+(define x (WordNode "high_style")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fashion%1:09:00::"))

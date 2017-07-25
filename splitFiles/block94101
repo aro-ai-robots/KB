@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lactogen%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lactogen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:27:00::"))
+(InheritanceLink (WordSenseNode "prolactin%1:27:00::") s)
+(InheritanceLink (WordSenseNode "lactogenic_hormone%1:27:00::") s)
+(InheritanceLink (WordSenseNode "luteotropin%1:27:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "protective_coloration%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "protective_coloration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coloration%1:07:00::"))
+(InheritanceLink s (WordSenseNode "colouration%1:07:00::"))
+(InheritanceLink (WordSenseNode "aposematic_coloration%1:07:00::") s)
+(InheritanceLink (WordSenseNode "warning_coloration%1:07:00::") s)
+(InheritanceLink (WordSenseNode "apatetic_coloration%1:07:00::") s)
+(InheritanceLink (WordSenseNode "cryptic_coloration%1:07:00::") s)

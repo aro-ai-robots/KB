@@ -1,0 +1,7 @@
+(define s (WordSenseNode "search_language%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "command_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "source_language%1:10:00::"))
+(define x (WordNode "query_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "source_language%1:10:00::"))
+(define x (WordNode "search_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "source_language%1:10:00::"))

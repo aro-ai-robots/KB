@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mexican_war%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mexican_War")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Buena_Vista%1:04:00::") s)
+(HolonymLink (WordSenseNode "Chapultepec%1:04:00::") s)

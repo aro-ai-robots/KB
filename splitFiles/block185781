@@ -1,0 +1,7 @@
+(define s (WordSenseNode "yellow_lupine%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yellow_lupine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lupine%1:20:00::"))
+(InheritanceLink s (WordSenseNode "lupin%1:20:00::"))
+(define x (WordNode "Lupinus_luteus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lupine%1:20:00::"))
+(InheritanceLink s (WordSenseNode "lupin%1:20:00::"))

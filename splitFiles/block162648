@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sulfurette%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sulfurette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%2:35:00::"))
+(InheritanceLink s (WordSenseNode "combine%2:35:01::"))
+(define x (WordNode "sulphurette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%2:35:00::"))
+(InheritanceLink s (WordSenseNode "combine%2:35:01::"))

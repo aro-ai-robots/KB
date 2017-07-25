@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bridle_road%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bridle_path")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "path%1:06:00::"))
+(define x (WordNode "bridle_road")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "path%1:06:00::"))

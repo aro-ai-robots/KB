@@ -1,0 +1,4 @@
+(define s (WordSenseNode "soft_money%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "soft_money")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "political_contribution%1:21:00::"))
+(InheritanceLink s (WordSenseNode "political_donation%1:21:00::"))

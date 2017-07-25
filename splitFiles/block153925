@@ -1,0 +1,7 @@
+(define s (WordSenseNode "smear%2:35:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "daub")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))
+(InheritanceLink (WordSenseNode "blood%2:35:00::") s)
+(define x (WordNode "smear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))
+(InheritanceLink (WordSenseNode "blood%2:35:00::") s)

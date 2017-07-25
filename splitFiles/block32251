@@ -1,0 +1,5 @@
+(define s (WordSenseNode "click_off%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "click_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perform%2:36:00::"))
+(InheritanceLink s (WordSenseNode "execute%2:36:01::"))
+(InheritanceLink s (WordSenseNode "do%2:36:01::"))

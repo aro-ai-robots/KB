@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pants_presser%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trouser_press")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "home_appliance%1:06:00::"))
+(InheritanceLink s (WordSenseNode "household_appliance%1:06:00::"))
+(define x (WordNode "pants_presser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "home_appliance%1:06:00::"))
+(InheritanceLink s (WordSenseNode "household_appliance%1:06:00::"))

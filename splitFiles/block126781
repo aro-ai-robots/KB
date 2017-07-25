@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pleomorphism%1:19:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polymorphism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "dimorphism%1:19:01::") s)
+(define x (WordNode "pleomorphism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "dimorphism%1:19:01::") s)

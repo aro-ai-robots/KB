@@ -1,0 +1,7 @@
+(define s (WordSenseNode "banti's_syndrome%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Banti's_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "blood_disorder%1:26:00::"))
+(define x (WordNode "Banti's_syndrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "blood_disorder%1:26:00::"))

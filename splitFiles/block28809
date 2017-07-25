@@ -1,0 +1,5 @@
+(define s (WordSenseNode "characteristic%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "characteristic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "property%1:07:00::"))
+(define x (WordNode "device_characteristic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "property%1:07:00::"))

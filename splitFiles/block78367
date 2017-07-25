@@ -1,0 +1,6 @@
+(define s (WordSenseNode "harvest_moon%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "harvest_moon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "full_moon%1:28:00::"))
+(InheritanceLink s (WordSenseNode "full-of-the-moon%1:28:00::"))
+(InheritanceLink s (WordSenseNode "full_phase_of_the_moon%1:28:00::"))
+(InheritanceLink s (WordSenseNode "full%1:28:00::"))

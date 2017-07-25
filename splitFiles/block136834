@@ -1,0 +1,5 @@
+(define s (WordSenseNode "recombinant_human_insulin%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recombinant_human_insulin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insulin%1:08:00::"))
+(define x (WordNode "Humulin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insulin%1:08:00::"))

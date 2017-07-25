@@ -1,0 +1,6 @@
+(define s (WordSenseNode "habitude%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "habitude")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "practice%1:04:00::"))
+(InheritanceLink s (WordSenseNode "pattern%1:04:00::"))
+(InheritanceLink (WordSenseNode "round%1:04:01::") s)
+(InheritanceLink (WordSenseNode "daily_round%1:04:00::") s)

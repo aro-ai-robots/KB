@@ -1,0 +1,8 @@
+(define s (WordSenseNode "shiism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Shiism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Islam%1:09:00::"))
+(InheritanceLink s (WordSenseNode "Islamism%1:09:00::"))
+(InheritanceLink s (WordSenseNode "Mohammedanism%1:09:00::"))
+(InheritanceLink s (WordSenseNode "Muhammadanism%1:09:00::"))
+(InheritanceLink s (WordSenseNode "Muslimism%1:09:00::"))
+(InheritanceLink (WordSenseNode "Ismailism%1:09:00::") s)

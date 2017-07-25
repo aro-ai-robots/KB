@@ -1,0 +1,4 @@
+(define s (WordSenseNode "spinning_frame%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spinning_frame")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spinning_machine%1:06:00::"))
+(HolonymLink (WordSenseNode "spindle%1:06:00::") s)

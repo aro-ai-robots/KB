@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hairpin_bend%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hairpin_bend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bend%1:06:00::"))
+(InheritanceLink s (WordSenseNode "curve%1:06:00::"))

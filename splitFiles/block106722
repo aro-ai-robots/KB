@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mimesis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mimesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disease%1:26:00::"))
+(HolonymLink s (WordSenseNode "hysteria%1:26:00::"))
+(HolonymLink s (WordSenseNode "hysterical_neurosis%1:26:00::"))

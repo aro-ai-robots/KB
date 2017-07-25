@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dipole_moment%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dipole_moment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "moment%1:19:00::"))
+(InheritanceLink (WordSenseNode "electric_dipole_moment%1:19:00::") s)
+(InheritanceLink (WordSenseNode "magnetic_dipole_moment%1:19:00::") s)

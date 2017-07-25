@@ -1,0 +1,5 @@
+(define s (WordSenseNode "potassium_ferrocyanide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "potassium_ferrocyanide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ferrocyanide%1:27:00::"))
+(define x (WordNode "yellow_prussiate_of_potash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ferrocyanide%1:27:00::"))

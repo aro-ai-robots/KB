@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mail-order_buying%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mail-order_buying")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buying%1:04:00::"))
+(InheritanceLink s (WordSenseNode "purchasing%1:04:00::"))
+(define x (WordNode "catalog_buying")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buying%1:04:00::"))
+(InheritanceLink s (WordSenseNode "purchasing%1:04:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "trading_stamp%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trading_stamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "token%1:10:00::"))
+(InheritanceLink s (WordSenseNode "item%1:10:01::"))

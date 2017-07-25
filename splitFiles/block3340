@@ -1,0 +1,6 @@
+(define s (WordSenseNode "agrobiology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "agrobiology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "science%1:09:00::"))
+(InheritanceLink s (WordSenseNode "scientific_discipline%1:09:00::"))
+(HolonymLink s (WordSenseNode "agronomy%1:09:00::"))
+(HolonymLink s (WordSenseNode "scientific_agriculture%1:09:00::"))

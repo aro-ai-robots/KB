@@ -1,0 +1,4 @@
+(define s (WordSenseNode "maund%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "maund")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weight_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "weight%1:23:00::"))

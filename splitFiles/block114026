@@ -1,0 +1,7 @@
+(define s (WordSenseNode "northern_europe%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "northern_Europe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geographical_area%1:15:00::"))
+(InheritanceLink s (WordSenseNode "geographic_area%1:15:00::"))
+(InheritanceLink s (WordSenseNode "geographical_region%1:15:00::"))
+(InheritanceLink s (WordSenseNode "geographic_region%1:15:00::"))
+(HolonymLink s (WordSenseNode "Europe%1:17:00::"))

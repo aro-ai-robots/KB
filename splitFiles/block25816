@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cardiac_output%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cardiac_output")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flow%1:28:00::"))
+(InheritanceLink s (WordSenseNode "flow_rate%1:28:00::"))
+(InheritanceLink s (WordSenseNode "rate_of_flow%1:28:00::"))

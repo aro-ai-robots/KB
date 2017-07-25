@@ -1,0 +1,5 @@
+(define s (WordSenseNode "barbershop%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "barbershop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shop%1:06:00::"))
+(InheritanceLink s (WordSenseNode "store%1:06:00::"))
+(HolonymLink (WordSenseNode "barber_chair%1:06:00::") s)

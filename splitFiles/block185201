@@ -1,0 +1,4 @@
+(define s (WordSenseNode "writing_arm%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "writing_arm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arm%1:06:02::"))
+(HolonymLink s (WordSenseNode "tablet-armed_chair%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "removable_disk%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "removable_disk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hard_disc%1:06:00::"))
+(InheritanceLink s (WordSenseNode "hard_disk%1:06:00::"))
+(InheritanceLink s (WordSenseNode "fixed_disk%1:06:00::"))

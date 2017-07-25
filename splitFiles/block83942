@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hypolipoproteinemia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypolipoproteinemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metabolic_disorder%1:26:00::"))
+(InheritanceLink (WordSenseNode "hypobetalipoproteinemia%1:26:00::") s)

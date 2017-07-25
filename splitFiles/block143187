@@ -1,0 +1,5 @@
+(define s (WordSenseNode "run-up%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "runup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "increase%1:11:00::"))
+(define x (WordNode "run-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "increase%1:11:00::"))

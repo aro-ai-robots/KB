@@ -1,0 +1,7 @@
+(define s (WordSenseNode "magnetic_levitation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magnetic_levitation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rail_technology%1:04:00::"))
+(InheritanceLink s (WordSenseNode "railroading%1:04:00::"))
+(define x (WordNode "maglev")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rail_technology%1:04:00::"))
+(InheritanceLink s (WordSenseNode "railroading%1:04:00::"))

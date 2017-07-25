@@ -1,0 +1,4 @@
+(define s (WordSenseNode "verst%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "verst")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linear_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "linear_measure%1:23:00::"))

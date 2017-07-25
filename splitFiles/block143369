@@ -1,0 +1,8 @@
+(define s (WordSenseNode "rush%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assail%2:33:00::"))
+(InheritanceLink s (WordSenseNode "assault%2:33:00::"))
+(InheritanceLink s (WordSenseNode "set_on%2:33:00::"))
+(InheritanceLink s (WordSenseNode "attack%2:33:02::"))
+(InheritanceLink (WordSenseNode "charge%2:33:00::") s)
+(InheritanceLink (WordSenseNode "bear_down%2:33:03::") s)

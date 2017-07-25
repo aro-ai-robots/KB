@@ -1,0 +1,4 @@
+(define s (WordSenseNode "firebrick%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "firebrick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brick%1:06:00::"))
+(HolonymLink (WordSenseNode "fireclay%1:27:00::") s)

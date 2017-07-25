@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gasbag%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "envelope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bag%1:06:00::"))
+(HolonymLink s (WordSenseNode "balloon%1:06:00::"))
+(define x (WordNode "gasbag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bag%1:06:00::"))
+(HolonymLink s (WordSenseNode "balloon%1:06:00::"))

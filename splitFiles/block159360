@@ -1,0 +1,5 @@
+(define s (WordSenseNode "steamroll%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "steamroll")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flatten%2:30:01::"))
+(define x (WordNode "steamroller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flatten%2:30:01::"))

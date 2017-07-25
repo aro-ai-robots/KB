@@ -1,0 +1,7 @@
+(define s (WordSenseNode "buffeting%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pounding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blow%1:11:00::"))
+(InheritanceLink s (WordSenseNode "bump%1:11:00::"))
+(define x (WordNode "buffeting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blow%1:11:00::"))
+(InheritanceLink s (WordSenseNode "bump%1:11:00::"))

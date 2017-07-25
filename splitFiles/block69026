@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_chinchilla%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Chinchilla")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Chinchillidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Chinchillidae%1:05:00::"))
+(HolonymLink (WordSenseNode "chinchilla%1:05:00::") s)
+(HolonymLink (WordSenseNode "Chinchilla_laniger%1:05:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_bufo%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Bufo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amphibian_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Bufonidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Bufonidae%1:05:00::"))
+(HolonymLink (WordSenseNode "bufo%1:05:00::") s)

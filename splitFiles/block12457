@@ -1,0 +1,8 @@
+(define s (WordSenseNode "backlog%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "backlog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accumulate%2:30:00::"))
+(InheritanceLink s (WordSenseNode "cumulate%2:30:00::"))
+(InheritanceLink s (WordSenseNode "conglomerate%2:30:00::"))
+(InheritanceLink s (WordSenseNode "pile_up%2:30:00::"))
+(InheritanceLink s (WordSenseNode "gather%2:30:00::"))
+(InheritanceLink s (WordSenseNode "amass%2:30:00::"))

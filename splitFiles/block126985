@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plug_fuse%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plug_fuse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fuse%1:06:01::"))
+(InheritanceLink s (WordSenseNode "electrical_fuse%1:06:00::"))
+(InheritanceLink s (WordSenseNode "safety_fuse%1:06:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ammonia_water%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ammonia_water")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquid%1:27:04::"))
+(define x (WordNode "ammonia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquid%1:27:04::"))
+(define x (WordNode "ammonium_hydroxide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquid%1:27:04::"))

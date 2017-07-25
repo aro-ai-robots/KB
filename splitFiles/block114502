@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nuisance_abatement%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "abatement_of_a_nuisance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abatement%1:04:00::"))
+(InheritanceLink (WordSenseNode "asbestos_abatement%1:04:00::") s)
+(define x (WordNode "nuisance_abatement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abatement%1:04:00::"))
+(InheritanceLink (WordSenseNode "asbestos_abatement%1:04:00::") s)

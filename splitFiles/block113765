@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nonstop_flight%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nonstop_flight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flight%1:04:02::"))
+(define x (WordNode "nonstop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flight%1:04:02::"))

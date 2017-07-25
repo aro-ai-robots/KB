@@ -1,0 +1,6 @@
+(define s (WordSenseNode "saint_anthony's_fire%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Saint_Anthony's_fire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skin_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "disease_of_the_skin%1:26:00::"))
+(InheritanceLink s (WordSenseNode "skin_disorder%1:26:00::"))
+(InheritanceLink (WordSenseNode "erysipelas%1:26:00::") s)

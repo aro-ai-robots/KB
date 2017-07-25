@@ -1,0 +1,5 @@
+(define s (WordSenseNode "look_back%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "look_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "look%2:39:00::"))
+(define x (WordNode "look_backward")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "look%2:39:00::"))

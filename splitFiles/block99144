@@ -1,0 +1,5 @@
+(define s (WordSenseNode "logomachy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "logomachy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "argument%1:10:00::"))
+(InheritanceLink s (WordSenseNode "argumentation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "debate%1:10:01::"))

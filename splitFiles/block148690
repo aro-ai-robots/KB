@@ -1,0 +1,7 @@
+(define s (WordSenseNode "separation%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "legal_separation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cessation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "surcease%1:11:00::"))
+(define x (WordNode "separation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cessation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "surcease%1:11:00::"))

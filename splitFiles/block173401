@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tugger%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "puller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))
+(define x (WordNode "tugger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))
+(define x (WordNode "dragger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))

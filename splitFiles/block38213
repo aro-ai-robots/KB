@@ -1,0 +1,6 @@
+(define s (WordSenseNode "corridor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "corridor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passageway%1:06:00::"))
+(InheritanceLink (WordSenseNode "gallery%1:06:02::") s)
+(InheritanceLink (WordSenseNode "hallway%1:06:00::") s)
+(InheritanceLink (WordSenseNode "hall%1:06:03::") s)

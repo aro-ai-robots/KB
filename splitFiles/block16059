@@ -1,0 +1,5 @@
+(define s (WordSenseNode "best_man%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "best_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "groomsman%1:18:00::"))
+(HolonymLink s (WordSenseNode "wedding%1:14:00::"))
+(HolonymLink s (WordSenseNode "wedding_party%1:14:00::"))

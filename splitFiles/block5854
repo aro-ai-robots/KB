@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anabolic_steroid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anabolic_steroid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steroid_hormone%1:27:00::"))
+(InheritanceLink s (WordSenseNode "steroid%1:27:02::"))
+(InheritanceLink s (WordSenseNode "sex_hormone%1:27:00::"))

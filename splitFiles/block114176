@@ -1,0 +1,6 @@
+(define s (WordSenseNode "notate%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "notate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "write_down%2:32:01::"))
+(InheritanceLink s (WordSenseNode "set_down%2:32:00::"))
+(InheritanceLink s (WordSenseNode "get_down%2:32:00::"))
+(InheritanceLink s (WordSenseNode "put_down%2:32:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "european_russia%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "European_Russia")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Russia%1:15:04::"))
+(HolonymLink s (WordSenseNode "Russian_Federation%1:15:00::"))
+(HolonymLink s (WordSenseNode "Europe%1:17:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dacite%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dacite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "volcanic_rock%1:27:00::"))
+(HolonymLink (WordSenseNode "plagioclase%1:27:00::") s)
+(HolonymLink (WordSenseNode "oligoclase%1:27:00::") s)

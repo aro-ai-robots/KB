@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hebrew%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Hebrew")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Canaanitic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Canaanitic_language%1:10:00::"))
+(InheritanceLink (WordSenseNode "Modern_Hebrew%1:10:00::") s)

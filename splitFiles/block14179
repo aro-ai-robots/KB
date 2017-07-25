@@ -1,0 +1,5 @@
+(define s (WordSenseNode "basting%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "basting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "moistening%1:04:00::"))
+(InheritanceLink s (WordSenseNode "dampening%1:04:00::"))
+(HolonymLink s (WordSenseNode "roasting%1:04:00::"))

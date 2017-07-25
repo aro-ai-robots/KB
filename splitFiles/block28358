@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chain%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "necklace%1:06:00::"))
+(define x (WordNode "string")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "necklace%1:06:00::"))
+(define x (WordNode "strand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "necklace%1:06:00::"))

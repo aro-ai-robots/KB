@@ -1,0 +1,4 @@
+(define s (WordSenseNode "clavichord%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clavichord")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keyboard_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stringed_instrument%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grub_street%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Grub_Street")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "world%1:14:01::"))
+(InheritanceLink s (WordSenseNode "domain%1:14:00::"))
+(HolonymLink (WordSenseNode "hack%1:18:01::") s)
+(HolonymLink (WordSenseNode "hack_writer%1:18:00::") s)
+(HolonymLink (WordSenseNode "literary_hack%1:18:00::") s)

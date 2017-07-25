@@ -1,0 +1,5 @@
+(define s (WordSenseNode "clam_chowder%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clam_chowder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chowder%1:13:00::"))
+(InheritanceLink (WordSenseNode "Manhattan_clam_chowder%1:13:00::") s)
+(InheritanceLink (WordSenseNode "New_England_clam_chowder%1:13:00::") s)

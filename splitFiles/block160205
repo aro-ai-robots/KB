@@ -1,0 +1,8 @@
+(define s (WordSenseNode "stockpile%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stockpile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pile%1:14:00::"))
+(InheritanceLink s (WordSenseNode "heap%1:14:00::"))
+(InheritanceLink s (WordSenseNode "mound%1:14:00::"))
+(InheritanceLink s (WordSenseNode "agglomerate%1:14:00::"))
+(InheritanceLink s (WordSenseNode "cumulation%1:14:00::"))
+(InheritanceLink s (WordSenseNode "cumulus%1:14:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hualpai%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Walapai")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Yuman%1:10:00::"))
+(define x (WordNode "Hualapai")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Yuman%1:10:00::"))
+(define x (WordNode "Hualpai")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Yuman%1:10:00::"))

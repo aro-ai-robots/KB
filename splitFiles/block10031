@@ -1,0 +1,7 @@
+(define s (WordSenseNode "asperger's_syndrome%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Asperger's_syndrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mental_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "mental_disturbance%1:26:00::"))
+(InheritanceLink s (WordSenseNode "disturbance%1:26:01::"))
+(InheritanceLink s (WordSenseNode "psychological_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "folie%1:26:00::"))

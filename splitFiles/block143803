@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sadism%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sadism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sexual_pleasure%1:12:00::"))
+(InheritanceLink (WordSenseNode "sadomasochism%1:12:00::") s)

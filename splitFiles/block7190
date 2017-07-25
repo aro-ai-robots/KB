@@ -1,0 +1,7 @@
+(define s (WordSenseNode "anthropocentricity%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anthropocentrism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "partiality%1:09:00::"))
+(InheritanceLink s (WordSenseNode "partisanship%1:09:00::"))
+(define x (WordNode "anthropocentricity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "partiality%1:09:00::"))
+(InheritanceLink s (WordSenseNode "partisanship%1:09:00::"))

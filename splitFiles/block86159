@@ -1,0 +1,5 @@
+(define s (WordSenseNode "index_of_refraction%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "refractive_index")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))
+(define x (WordNode "index_of_refraction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))

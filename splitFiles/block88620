@@ -1,0 +1,8 @@
+(define s (WordSenseNode "inventory_accounting%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inventory_accounting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accountancy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "accounting%1:04:00::"))
+(InheritanceLink (WordSenseNode "first_in_first_out%1:04:00::") s)
+(InheritanceLink (WordSenseNode "FIFO%1:04:00::") s)
+(InheritanceLink (WordSenseNode "last_in_first_out%1:04:00::") s)
+(InheritanceLink (WordSenseNode "LIFO%1:04:00::") s)

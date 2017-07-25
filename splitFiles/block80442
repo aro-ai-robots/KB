@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hierarch%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hierarch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "important_person%1:18:00::"))
+(InheritanceLink s (WordSenseNode "influential_person%1:18:00::"))
+(InheritanceLink s (WordSenseNode "personage%1:18:01::"))
+(HolonymLink s (WordSenseNode "hierarchy%1:14:01::"))
+(HolonymLink s (WordSenseNode "power_structure%1:14:00::"))
+(HolonymLink s (WordSenseNode "pecking_order%1:14:00::"))

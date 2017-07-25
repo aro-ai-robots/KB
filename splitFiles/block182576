@@ -1,0 +1,5 @@
+(define s (WordSenseNode "whipping_boy%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scapegoat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "victim%1:18:00::"))
+(define x (WordNode "whipping_boy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "victim%1:18:00::"))

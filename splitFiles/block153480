@@ -1,0 +1,7 @@
+(define s (WordSenseNode "slip%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "slip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evasion%1:04:00::"))
+(define x (WordNode "elusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evasion%1:04:00::"))
+(define x (WordNode "eluding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evasion%1:04:00::"))

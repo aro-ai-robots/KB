@@ -1,0 +1,4 @@
+(define s (WordSenseNode "travel_iron%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "travel_iron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "iron%1:06:00::"))
+(InheritanceLink s (WordSenseNode "smoothing_iron%1:06:00::"))

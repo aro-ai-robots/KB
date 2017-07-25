@@ -1,0 +1,5 @@
+(define s (WordSenseNode "irrupt%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "explode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "increase%2:30:00::"))
+(define x (WordNode "irrupt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "increase%2:30:00::"))

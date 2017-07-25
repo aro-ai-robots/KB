@@ -1,0 +1,7 @@
+(define s (WordSenseNode "humpback%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "humpback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cripple%1:18:00::"))
+(define x (WordNode "hunchback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cripple%1:18:00::"))
+(define x (WordNode "crookback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cripple%1:18:00::"))

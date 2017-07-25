@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dyscalculia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dyscalculia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "learning_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "learning_disability%1:26:00::"))

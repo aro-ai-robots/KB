@@ -1,0 +1,5 @@
+(define s (WordSenseNode "criticise%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "criticize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%2:33:00::"))
+(define x (WordNode "criticise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%2:33:00::"))

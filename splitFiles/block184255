@@ -1,0 +1,4 @@
+(define s (WordSenseNode "withholding%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "withholding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "subtraction%1:04:00::"))
+(InheritanceLink s (WordSenseNode "deduction%1:04:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scrutineer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scrutineer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "examiner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "inspector%1:18:00::"))
+(define x (WordNode "canvasser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "examiner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "inspector%1:18:00::"))

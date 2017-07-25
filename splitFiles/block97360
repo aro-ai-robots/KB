@@ -1,0 +1,7 @@
+(define s (WordSenseNode "liftman%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elevator_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elevator_operator%1:18:00::"))
+(define x (WordNode "elevator_boy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elevator_operator%1:18:00::"))
+(define x (WordNode "liftman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elevator_operator%1:18:00::"))

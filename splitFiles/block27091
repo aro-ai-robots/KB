@@ -1,0 +1,4 @@
+(define s (WordSenseNode "catechin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "catechin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tannin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "tannic_acid%1:27:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "criminal_law%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "criminal_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legal_code%1:10:00::"))
+(HolonymLink (WordSenseNode "Riot_Act%1:10:00::") s)

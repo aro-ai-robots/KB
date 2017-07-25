@@ -1,0 +1,4 @@
+(define s (WordSenseNode "field_crop%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "field_crop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crop%1:20:01::"))
+(InheritanceLink (WordSenseNode "field_corn%1:20:00::") s)

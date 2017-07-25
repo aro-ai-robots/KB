@@ -1,0 +1,5 @@
+(define s (WordSenseNode "console%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "console_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:06:01::"))
+(define x (WordNode "console")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:06:01::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "shrovetide%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Shrovetide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "season%1:28:01::"))
+(HolonymLink s (WordSenseNode "church_calendar%1:28:00::"))
+(HolonymLink s (WordSenseNode "ecclesiastical_calendar%1:28:00::"))
+(HolonymLink (WordSenseNode "Mardi_Gras%1:28:00::") s)
+(HolonymLink (WordSenseNode "Shrove_Tuesday%1:28:00::") s)
+(HolonymLink (WordSenseNode "pancake_day%1:28:00::") s)

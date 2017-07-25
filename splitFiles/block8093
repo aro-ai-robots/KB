@@ -1,0 +1,5 @@
+(define s (WordSenseNode "apposition%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "apposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "modification%1:24:00::"))
+(InheritanceLink s (WordSenseNode "qualifying%1:24:00::"))
+(InheritanceLink s (WordSenseNode "limiting%1:24:00::"))

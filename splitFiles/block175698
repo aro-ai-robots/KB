@@ -1,0 +1,7 @@
+(define s (WordSenseNode "unicycle%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unicycle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bicycle%2:38:00::"))
+(InheritanceLink s (WordSenseNode "cycle%2:38:01::"))
+(InheritanceLink s (WordSenseNode "bike%2:38:00::"))
+(InheritanceLink s (WordSenseNode "pedal%2:38:00::"))
+(InheritanceLink s (WordSenseNode "wheel%2:38:06::"))

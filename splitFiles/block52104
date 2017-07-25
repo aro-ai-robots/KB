@@ -1,0 +1,7 @@
+(define s (WordSenseNode "edp%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electronic_data_processing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "automatic_data_processing%1:22:00::"))
+(InheritanceLink s (WordSenseNode "ADP%1:22:00::"))
+(define x (WordNode "EDP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "automatic_data_processing%1:22:00::"))
+(InheritanceLink s (WordSenseNode "ADP%1:22:00::"))

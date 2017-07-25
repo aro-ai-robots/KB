@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pica%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eating_disorder%1:26:00::"))
+(InheritanceLink (WordSenseNode "geophagy%1:04:00::") s)
+(InheritanceLink (WordSenseNode "geophagia%1:04:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "death_knell%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "death_knell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "omen%1:11:00::"))
+(InheritanceLink s (WordSenseNode "portent%1:11:00::"))
+(InheritanceLink s (WordSenseNode "presage%1:11:00::"))
+(InheritanceLink s (WordSenseNode "prognostic%1:11:00::"))
+(InheritanceLink s (WordSenseNode "prognostication%1:11:00::"))
+(InheritanceLink s (WordSenseNode "prodigy%1:11:00::"))

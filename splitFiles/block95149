@@ -1,0 +1,8 @@
+(define s (WordSenseNode "lateran_council%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Lateran_Council")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "council%1:14:02::"))
+(InheritanceLink (WordSenseNode "First_Lateran_Council%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Second_Lateran_Council%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Third_Lateran_Council%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Fourth_Lateran_Council%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Fifth_Lateran_Council%1:14:00::") s)

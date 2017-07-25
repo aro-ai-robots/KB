@@ -1,0 +1,5 @@
+(define s (WordSenseNode "penitentiary%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "penitentiary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "correctional_institution%1:06:00::"))
+(define x (WordNode "pen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "correctional_institution%1:06:00::"))

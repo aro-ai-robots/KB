@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mile%1:23:07::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_indefinite_quantity%1:23:00::"))
+(InheritanceLink s (WordSenseNode "large_indefinite_amount%1:23:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "libidinal_energy%1:16:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "libidinal_energy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "psychic_energy%1:16:00::"))
+(InheritanceLink s (WordSenseNode "mental_energy%1:16:00::"))
+(InheritanceLink (WordSenseNode "cathexis%1:16:00::") s)
+(InheritanceLink (WordSenseNode "charge%1:16:00::") s)
+(InheritanceLink (WordSenseNode "acathexis%1:16:00::") s)

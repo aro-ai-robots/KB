@@ -1,0 +1,7 @@
+(define s (WordSenseNode "crop%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "handle%1:06:00::"))
+(InheritanceLink s (WordSenseNode "grip%1:06:01::"))
+(InheritanceLink s (WordSenseNode "handgrip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "hold%1:06:00::"))
+(HolonymLink s (WordSenseNode "whip%1:06:00::"))

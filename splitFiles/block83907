@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hypochondrium%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypochondrium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:08:00::"))
+(InheritanceLink s (WordSenseNode "region%1:08:00::"))
+(HolonymLink s (WordSenseNode "abdomen%1:08:00::"))
+(HolonymLink s (WordSenseNode "venter%1:08:00::"))
+(HolonymLink s (WordSenseNode "stomach%1:08:01::"))
+(HolonymLink s (WordSenseNode "belly%1:08:00::"))

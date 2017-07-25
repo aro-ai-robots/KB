@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hinging_post%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hinging_post")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gatepost%1:06:00::"))
+(define x (WordNode "swinging_post")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gatepost%1:06:00::"))

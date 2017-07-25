@@ -1,0 +1,4 @@
+(define s (WordSenseNode "endotracheal_tube%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "endotracheal_tube")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "catheter%1:06:00::"))
+(InheritanceLink (WordSenseNode "nasotracheal_tube%1:06:00::") s)

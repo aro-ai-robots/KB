@@ -1,0 +1,5 @@
+(define s (WordSenseNode "slouch%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "slouch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carriage%1:07:00::"))
+(InheritanceLink s (WordSenseNode "bearing%1:07:01::"))
+(InheritanceLink s (WordSenseNode "posture%1:07:01::"))

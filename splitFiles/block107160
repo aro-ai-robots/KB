@@ -1,0 +1,4 @@
+(define s (WordSenseNode "misconstruction%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "misconstruction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constituent%1:10:00::"))
+(InheritanceLink s (WordSenseNode "grammatical_constituent%1:10:00::"))

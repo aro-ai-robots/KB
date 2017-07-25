@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grade%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "grade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flush%2:35:03::"))
+(InheritanceLink s (WordSenseNode "level%2:35:01::"))
+(InheritanceLink s (WordSenseNode "even_out%2:35:00::"))
+(InheritanceLink s (WordSenseNode "even%2:35:00::"))
+(InheritanceLink (WordSenseNode "aggrade%2:35:00::") s)

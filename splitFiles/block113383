@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nolle_prosequi%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nolle_prosequi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "entry%1:10:01::"))
+(define x (WordNode "nol_pros")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "entry%1:10:01::"))

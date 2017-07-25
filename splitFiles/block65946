@@ -1,0 +1,8 @@
+(define s (WordSenseNode "front%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "front")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atmospheric_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "warm_front%1:19:00::") s)
+(InheritanceLink (WordSenseNode "cold_front%1:19:00::") s)
+(InheritanceLink (WordSenseNode "polar_front%1:19:00::") s)
+(InheritanceLink (WordSenseNode "occluded_front%1:19:00::") s)
+(InheritanceLink (WordSenseNode "occlusion%1:19:00::") s)

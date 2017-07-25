@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cock_sucking%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cock_sucking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fellatio%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fellation%1:04:00::"))
+(define x (WordNode "blowjob")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fellatio%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fellation%1:04:00::"))

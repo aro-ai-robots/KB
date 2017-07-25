@@ -1,0 +1,7 @@
+(define s (WordSenseNode "extermination%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "extinction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "annihilation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "disintegration%1:11:01::"))
+(define x (WordNode "extermination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "annihilation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "disintegration%1:11:01::"))

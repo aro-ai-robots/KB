@@ -1,0 +1,5 @@
+(define s (WordSenseNode "maple_sugar%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "maple_sugar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carbohydrate%1:27:00::"))
+(InheritanceLink s (WordSenseNode "saccharide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "sugar%1:27:00::"))

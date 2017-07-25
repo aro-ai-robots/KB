@@ -1,0 +1,7 @@
+(define s (WordSenseNode "locomotion%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "locomotion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mobility%1:07:00::"))
+(define x (WordNode "motive_power")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mobility%1:07:00::"))
+(define x (WordNode "motivity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mobility%1:07:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "betrayal%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "betrayal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "treason%1:07:00::"))
+(InheritanceLink s (WordSenseNode "subversiveness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "traitorousness%1:07:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ambivalency%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ambivalence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feeling%1:03:00::"))
+(InheritanceLink (WordSenseNode "conflict%1:12:00::") s)
+(define x (WordNode "ambivalency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feeling%1:03:00::"))
+(InheritanceLink (WordSenseNode "conflict%1:12:00::") s)

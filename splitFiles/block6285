@@ -1,0 +1,4 @@
+(define s (WordSenseNode "andromeda_galaxy%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Andromeda_galaxy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spiral_galaxy%1:14:00::"))
+(InheritanceLink s (WordSenseNode "spiral_nebula%1:14:00::"))

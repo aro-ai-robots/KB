@@ -1,0 +1,7 @@
+(define s (WordSenseNode "organ_of_hearing%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "organ_of_hearing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sense_organ%1:08:00::"))
+(InheritanceLink s (WordSenseNode "sensory_receptor%1:08:00::"))
+(InheritanceLink s (WordSenseNode "receptor%1:08:00::"))
+(InheritanceLink (WordSenseNode "organ_of_Corti%1:08:00::") s)
+(HolonymLink s (WordSenseNode "ear%1:08:00::"))

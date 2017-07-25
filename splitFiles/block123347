@@ -1,0 +1,5 @@
+(define s (WordSenseNode "personal_pronoun%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "personal_pronoun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pronoun%1:10:00::"))
+(InheritanceLink (WordSenseNode "reflexive_pronoun%1:10:00::") s)
+(InheritanceLink (WordSenseNode "reflexive%1:10:00::") s)

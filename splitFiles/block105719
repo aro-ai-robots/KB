@@ -1,0 +1,6 @@
+(define s (WordSenseNode "meteorology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "meteorology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "earth_science%1:09:00::"))
+(InheritanceLink (WordSenseNode "aerology%1:09:00::") s)
+(InheritanceLink (WordSenseNode "climatology%1:09:00::") s)
+(InheritanceLink (WordSenseNode "nephology%1:09:00::") s)

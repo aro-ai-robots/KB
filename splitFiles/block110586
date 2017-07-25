@@ -1,0 +1,7 @@
+(define s (WordSenseNode "myopia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "myopia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ametropia%1:26:00::"))
+(define x (WordNode "nearsightedness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ametropia%1:26:00::"))
+(define x (WordNode "shortsightedness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ametropia%1:26:00::"))

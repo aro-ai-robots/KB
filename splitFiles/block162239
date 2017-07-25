@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subsume%2:31:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "subsume")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "include%2:31:00::"))
+(define x (WordNode "colligate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "include%2:31:00::"))

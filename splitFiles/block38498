@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cote_d'azur%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "French_Riviera")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Riviera%1:15:00::"))
+(define x (WordNode "Cote_d'Azur")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Riviera%1:15:00::"))

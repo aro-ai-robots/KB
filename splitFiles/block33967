@@ -1,0 +1,3 @@
+(define s (WordSenseNode "colonoscopy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colonoscopy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endoscopy%1:04:00::"))

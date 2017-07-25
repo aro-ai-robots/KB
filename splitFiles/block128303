@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pop%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pop_music")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "popular_music%1:10:00::"))
+(InheritanceLink s (WordSenseNode "popular_music_genre%1:10:00::"))
+(define x (WordNode "pop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "popular_music%1:10:00::"))
+(InheritanceLink s (WordSenseNode "popular_music_genre%1:10:00::"))

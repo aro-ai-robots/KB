@@ -1,0 +1,5 @@
+(define s (WordSenseNode "music%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "music")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sound%1:09:00::"))
+(InheritanceLink s (WordSenseNode "auditory_sensation%1:09:00::"))
+(InheritanceLink (WordSenseNode "piano_music%1:09:00::") s)

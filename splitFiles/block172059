@@ -1,0 +1,7 @@
+(define s (WordSenseNode "treble_staff%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "treble_clef")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clef%1:10:00::"))
+(define x (WordNode "treble_staff")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clef%1:10:00::"))
+(define x (WordNode "G_clef")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clef%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "self-destruct%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "self-destruct")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "destroy%2:36:00::"))
+(InheritanceLink s (WordSenseNode "destruct%2:36:00::"))
+(define x (WordNode "self-destroy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "destroy%2:36:00::"))
+(InheritanceLink s (WordSenseNode "destruct%2:36:00::"))

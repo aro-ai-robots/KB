@@ -1,0 +1,6 @@
+(define s (WordSenseNode "taper%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "taper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "narrowing%1:07:00::"))
+(InheritanceLink (WordSenseNode "point%1:07:00::") s)
+(InheritanceLink (WordSenseNode "pointedness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "unpointedness%1:07:00::") s)

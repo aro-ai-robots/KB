@@ -1,0 +1,7 @@
+(define s (WordSenseNode "covenant%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "covenant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pledge%2:32:00::"))
+(InheritanceLink s (WordSenseNode "plight%2:32:00::"))
+(InheritanceLink (WordSenseNode "confirm%2:41:00::") s)
+(InheritanceLink (WordSenseNode "bar_mitzvah%2:41:00::") s)
+(InheritanceLink (WordSenseNode "bat_mitzvah%2:41:00::") s)

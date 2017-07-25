@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trifolium_alpinum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alpine_clover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clover%1:20:00::"))
+(InheritanceLink s (WordSenseNode "trefoil%1:20:01::"))
+(define x (WordNode "Trifolium_alpinum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clover%1:20:00::"))
+(InheritanceLink s (WordSenseNode "trefoil%1:20:01::"))

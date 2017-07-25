@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trestle%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trestle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "supporting_tower%1:06:00::"))
+(HolonymLink s (WordSenseNode "bridge%1:06:00::"))
+(HolonymLink s (WordSenseNode "span%1:06:00::"))

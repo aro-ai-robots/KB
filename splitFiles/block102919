@@ -1,0 +1,7 @@
+(define s (WordSenseNode "marinade%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "marinade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steep%2:30:00::"))
+(InheritanceLink s (WordSenseNode "infuse%2:30:00::"))
+(define x (WordNode "marinate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steep%2:30:00::"))
+(InheritanceLink s (WordSenseNode "infuse%2:30:00::"))

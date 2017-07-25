@@ -1,0 +1,6 @@
+(define s (WordSenseNode "recoding%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recoding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cryptography%1:04:00::"))
+(InheritanceLink s (WordSenseNode "coding%1:04:00::"))
+(InheritanceLink s (WordSenseNode "secret_writing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "steganography%1:04:00::"))

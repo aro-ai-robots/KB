@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quad%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quadruplet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sibling%1:18:00::"))
+(InheritanceLink s (WordSenseNode "sib%1:18:02::"))
+(define x (WordNode "quad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sibling%1:18:00::"))
+(InheritanceLink s (WordSenseNode "sib%1:18:02::"))

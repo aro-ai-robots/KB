@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blank_endorsement%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blank_endorsement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endorsement%1:10:04::"))
+(InheritanceLink s (WordSenseNode "indorsement%1:10:04::"))
+(define x (WordNode "endorsement_in_blank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endorsement%1:10:04::"))
+(InheritanceLink s (WordSenseNode "indorsement%1:10:04::"))

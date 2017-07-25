@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cyanide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cyanide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salt%1:27:00::"))
+(InheritanceLink (WordSenseNode "sodium_cyanide%1:27:00::") s)
+(InheritanceLink (WordSenseNode "potassium_cyanide%1:27:00::") s)

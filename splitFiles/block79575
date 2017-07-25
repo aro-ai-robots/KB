@@ -1,0 +1,7 @@
+(define s (WordSenseNode "help_oneself%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "help_oneself")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refrain%2:42:00::"))
+(InheritanceLink s (WordSenseNode "forbear%2:42:00::"))
+(define x (WordNode "help")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refrain%2:42:00::"))
+(InheritanceLink s (WordSenseNode "forbear%2:42:00::"))

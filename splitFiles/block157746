@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spray%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spray")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water_vapor%1:27:00::"))
+(InheritanceLink s (WordSenseNode "water_vapour%1:27:00::"))
+(InheritanceLink (WordSenseNode "sea_spray%1:27:00::") s)
+(InheritanceLink (WordSenseNode "spindrift%1:27:00::") s)
+(InheritanceLink (WordSenseNode "spoondrift%1:27:00::") s)

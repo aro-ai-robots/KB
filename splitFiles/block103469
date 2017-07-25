@@ -1,0 +1,7 @@
+(define s (WordSenseNode "masonry%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "masonry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%1:06:00::"))
+(InheritanceLink s (WordSenseNode "construction%1:06:00::"))
+(InheritanceLink (WordSenseNode "brickwork%1:06:00::") s)
+(InheritanceLink (WordSenseNode "dry_masonry%1:06:00::") s)
+(InheritanceLink (WordSenseNode "stonework%1:06:00::") s)

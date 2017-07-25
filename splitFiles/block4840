@@ -1,0 +1,5 @@
+(define s (WordSenseNode "alphanumerics%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alphanumerics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "character_set%1:10:00::"))
+(define x (WordNode "alphanumeric_characters")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "character_set%1:10:00::"))

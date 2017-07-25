@@ -1,0 +1,5 @@
+(define s (WordSenseNode "taoiseach%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "taoiseach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chancellor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "premier%1:18:01::"))
+(InheritanceLink s (WordSenseNode "prime_minister%1:18:00::"))

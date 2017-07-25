@@ -1,0 +1,5 @@
+(define s (WordSenseNode "red-eyed_vireo%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "red-eyed_vireo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vireo%1:05:00::"))
+(define x (WordNode "Vireo_olivaceous")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vireo%1:05:00::"))

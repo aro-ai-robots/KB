@@ -1,0 +1,5 @@
+(define s (WordSenseNode "blood_glucose%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blood_sugar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glucose%1:27:00::"))
+(define x (WordNode "blood_glucose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glucose%1:27:00::"))

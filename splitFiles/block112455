@@ -1,0 +1,4 @@
+(define s (WordSenseNode "neutron_star%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neutron_star")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "star%1:17:00::"))
+(InheritanceLink (WordSenseNode "pulsar%1:17:00::") s)

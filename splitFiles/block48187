@@ -1,0 +1,5 @@
+(define s (WordSenseNode "disunion%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disunion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separation%1:04:01::"))
+(InheritanceLink (WordSenseNode "detribalization%1:04:00::") s)
+(InheritanceLink (WordSenseNode "detribalisation%1:04:00::") s)

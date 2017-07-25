@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_clianthus%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Clianthus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rosid_dicot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Papilionoideae%1:20:00::"))
+(HolonymLink s (WordSenseNode "subfamily_Papilionoideae%1:20:00::"))
+(HolonymLink (WordSenseNode "glory_pea%1:20:00::") s)
+(HolonymLink (WordSenseNode "clianthus%1:20:00::") s)

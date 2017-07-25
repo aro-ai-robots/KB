@@ -1,0 +1,6 @@
+(define s (WordSenseNode "leviathan%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leviathan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "freak%1:18:00::"))
+(InheritanceLink s (WordSenseNode "monster%1:18:01::"))
+(InheritanceLink s (WordSenseNode "monstrosity%1:18:00::"))
+(InheritanceLink s (WordSenseNode "lusus_naturae%1:18:00::"))

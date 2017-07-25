@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cli%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "command_line_interface")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interface%1:10:00::"))
+(InheritanceLink s (WordSenseNode "user_interface%1:10:00::"))
+(define x (WordNode "CLI")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interface%1:10:00::"))
+(InheritanceLink s (WordSenseNode "user_interface%1:10:00::"))

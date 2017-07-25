@@ -1,0 +1,5 @@
+(define s (WordSenseNode "generator%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "generator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_device%1:06:00::"))
+(InheritanceLink (WordSenseNode "oscillator%1:06:00::") s)
+(InheritanceLink (WordSenseNode "pulse_generator%1:06:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "myoneural_junction%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neuromuscular_junction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "synapse%1:08:00::"))
+(define x (WordNode "myoneural_junction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "synapse%1:08:00::"))

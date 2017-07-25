@@ -1,0 +1,4 @@
+(define s (WordSenseNode "typist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "typist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "employee%1:18:00::"))
+(InheritanceLink (WordSenseNode "touch-typist%1:18:00::") s)

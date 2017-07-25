@@ -1,0 +1,5 @@
+(define s (WordSenseNode "personableness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "personableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personality%1:07:00::"))
+(HolonymLink (WordSenseNode "sociability%1:07:00::") s)
+(HolonymLink (WordSenseNode "sociableness%1:07:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "joint_chiefs%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Joint_Chiefs_of_Staff")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "executive_agency%1:14:00::"))
+(define x (WordNode "Joint_Chiefs")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "executive_agency%1:14:00::"))

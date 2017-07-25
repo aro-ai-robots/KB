@@ -1,0 +1,5 @@
+(define s (WordSenseNode "channel%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "distribution_channel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "marketing%1:04:02::"))
+(define x (WordNode "channel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "marketing%1:04:02::"))

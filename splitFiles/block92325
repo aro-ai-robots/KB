@@ -1,0 +1,5 @@
+(define s (WordSenseNode "keep%2:41:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "observe")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "make_good%2:41:00::") s)
+(define x (WordNode "keep")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "make_good%2:41:00::") s)

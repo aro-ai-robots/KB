@@ -1,0 +1,5 @@
+(define s (WordSenseNode "retroflexion%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "retroflection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "articulation%1:10:00::"))
+(define x (WordNode "retroflexion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "articulation%1:10:00::"))

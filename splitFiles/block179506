@@ -1,0 +1,7 @@
+(define s (WordSenseNode "virginal%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "virginal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harpsichord%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cembalo%1:06:00::"))
+(define x (WordNode "pair_of_virginals")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harpsichord%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cembalo%1:06:00::"))

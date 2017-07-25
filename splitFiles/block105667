@@ -1,0 +1,7 @@
+(define s (WordSenseNode "metaphysis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metaphysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:08:00::"))
+(InheritanceLink s (WordSenseNode "outgrowth%1:08:00::"))
+(InheritanceLink s (WordSenseNode "appendage%1:08:01::"))
+(HolonymLink s (WordSenseNode "long_bone%1:08:00::"))
+(HolonymLink s (WordSenseNode "os_longum%1:08:00::"))

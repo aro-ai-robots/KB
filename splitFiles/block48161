@@ -1,0 +1,5 @@
+(define s (WordSenseNode "district_line%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "district_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boundary%1:15:00::"))
+(InheritanceLink s (WordSenseNode "bound%1:15:00::"))
+(InheritanceLink s (WordSenseNode "bounds%1:15:00::"))

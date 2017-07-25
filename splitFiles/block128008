@@ -1,0 +1,4 @@
+(define s (WordSenseNode "polypeptide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polypeptide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "peptide%1:27:00::"))
+(HolonymLink s (WordSenseNode "protein%1:27:00::"))

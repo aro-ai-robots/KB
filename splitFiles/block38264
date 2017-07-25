@@ -1,0 +1,7 @@
+(define s (WordSenseNode "corsica%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Corse")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Mediterranean%1:17:00::"))
+(HolonymLink s (WordSenseNode "Mediterranean_Sea%1:17:00::"))
+(define x (WordNode "Corsica")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Mediterranean%1:17:00::"))
+(HolonymLink s (WordSenseNode "Mediterranean_Sea%1:17:00::"))

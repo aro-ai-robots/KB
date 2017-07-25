@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coulisse%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coulisse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flat%1:06:01::"))
+(define x (WordNode "wing_flat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flat%1:06:01::"))

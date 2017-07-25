@@ -1,0 +1,4 @@
+(define s (WordSenseNode "equidistribution%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "equidistribution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distribution%1:09:00::"))
+(InheritanceLink s (WordSenseNode "statistical_distribution%1:09:00::"))

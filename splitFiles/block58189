@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fake%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "juke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feint%1:04:00::"))
+(define x (WordNode "fake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feint%1:04:00::"))

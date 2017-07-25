@@ -1,0 +1,7 @@
+(define s (WordSenseNode "showstopper%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "show-stopper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attraction%1:07:00::"))
+(InheritanceLink s (WordSenseNode "attractiveness%1:07:01::"))
+(define x (WordNode "showstopper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attraction%1:07:00::"))
+(InheritanceLink s (WordSenseNode "attractiveness%1:07:01::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "countercoup%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "countercoup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coup_d'etat%1:04:00::"))
+(InheritanceLink s (WordSenseNode "coup%1:04:00::"))
+(InheritanceLink s (WordSenseNode "putsch%1:04:00::"))
+(InheritanceLink s (WordSenseNode "takeover%1:04:02::"))

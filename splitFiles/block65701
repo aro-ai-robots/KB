@@ -1,0 +1,6 @@
+(define s (WordSenseNode "freudian_slip%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Freudian_slip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slip%1:04:05::"))
+(InheritanceLink s (WordSenseNode "slip-up%1:04:01::"))
+(InheritanceLink s (WordSenseNode "miscue%1:04:01::"))
+(InheritanceLink s (WordSenseNode "parapraxis%1:04:00::"))

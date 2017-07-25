@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stupefy%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "immobilize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "immobilise%2:30:00::"))
+(define x (WordNode "stupefy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "immobilize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "immobilise%2:30:00::"))

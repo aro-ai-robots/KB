@@ -1,0 +1,7 @@
+(define s (WordSenseNode "visit%2:41:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "visit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tour%2:38:00::"))
+(InheritanceLink (WordSenseNode "take_in%2:41:00::") s)
+(define x (WordNode "see")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tour%2:38:00::"))
+(InheritanceLink (WordSenseNode "take_in%2:41:00::") s)

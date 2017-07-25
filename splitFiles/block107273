@@ -1,0 +1,4 @@
+(define s (WordSenseNode "misquote%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "misquote")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quote%2:32:00::"))
+(InheritanceLink s (WordSenseNode "cite%2:32:02::"))

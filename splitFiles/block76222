@@ -1,0 +1,6 @@
+(define s (WordSenseNode "guarantee%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "guarantee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assurance%1:10:01::"))
+(InheritanceLink s (WordSenseNode "pledge%1:10:00::"))
+(InheritanceLink (WordSenseNode "safety_net%1:10:00::") s)
+(InheritanceLink (WordSenseNode "full_faith_and_credit%1:10:00::") s)

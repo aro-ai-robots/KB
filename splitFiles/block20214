@@ -1,0 +1,5 @@
+(define s (WordSenseNode "brachium%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brachium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "branch%1:25:00::"))
+(InheritanceLink s (WordSenseNode "leg%1:25:00::"))
+(InheritanceLink s (WordSenseNode "ramification%1:25:00::"))

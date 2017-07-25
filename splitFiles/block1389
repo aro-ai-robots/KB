@@ -1,0 +1,7 @@
+(define s (WordSenseNode "achylia_gastrica%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "achylia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disorder%1:26:03::"))
+(InheritanceLink s (WordSenseNode "upset%1:26:03::"))
+(define x (WordNode "achylia_gastrica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disorder%1:26:03::"))
+(InheritanceLink s (WordSenseNode "upset%1:26:03::"))

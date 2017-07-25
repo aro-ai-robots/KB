@@ -1,0 +1,5 @@
+(define s (WordSenseNode "output_device%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "output_device")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "peripheral%1:06:00::"))
+(InheritanceLink s (WordSenseNode "computer_peripheral%1:06:00::"))
+(InheritanceLink s (WordSenseNode "peripheral_device%1:06:00::"))

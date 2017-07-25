@@ -1,0 +1,8 @@
+(define s (WordSenseNode "toroid%1:25:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toroid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solid%1:25:00::"))
+(InheritanceLink (WordSenseNode "ring%1:25:00::") s)
+(InheritanceLink (WordSenseNode "halo%1:25:00::") s)
+(InheritanceLink (WordSenseNode "annulus%1:25:00::") s)
+(InheritanceLink (WordSenseNode "doughnut%1:25:00::") s)
+(InheritanceLink (WordSenseNode "anchor_ring%1:25:00::") s)

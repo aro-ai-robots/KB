@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vers_libre%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "free_verse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "poem%1:10:00::"))
+(InheritanceLink s (WordSenseNode "verse_form%1:10:00::"))
+(define x (WordNode "vers_libre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "poem%1:10:00::"))
+(InheritanceLink s (WordSenseNode "verse_form%1:10:00::"))

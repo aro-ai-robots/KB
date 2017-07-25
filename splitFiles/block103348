@@ -1,0 +1,5 @@
+(define s (WordSenseNode "marxism-leninism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Leninism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "communism%1:09:00::"))
+(define x (WordNode "Marxism-Leninism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "communism%1:09:00::"))

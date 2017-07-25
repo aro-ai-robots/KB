@@ -1,0 +1,4 @@
+(define s (WordSenseNode "chlorophyll_b%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chlorophyll_b")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chlorophyll%1:05:00::"))
+(InheritanceLink s (WordSenseNode "chlorophyl%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "feed_back%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "feed_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "propose%2:32:00::"))
+(InheritanceLink s (WordSenseNode "suggest%2:32:00::"))
+(InheritanceLink s (WordSenseNode "advise%2:32:02::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "white_matsutake%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Armillaria_ponderosa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agaric%1:20:00::"))
+(define x (WordNode "white_matsutake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agaric%1:20:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reload%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "recharge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "load%2:35:02::"))
+(InheritanceLink s (WordSenseNode "charge%2:35:02::"))
+(define x (WordNode "reload")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "load%2:35:02::"))
+(InheritanceLink s (WordSenseNode "charge%2:35:02::"))

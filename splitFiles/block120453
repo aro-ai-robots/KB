@@ -1,0 +1,5 @@
+(define s (WordSenseNode "paramedical%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paramedic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paraprofessional%1:18:00::"))
+(define x (WordNode "paramedical")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paraprofessional%1:18:00::"))

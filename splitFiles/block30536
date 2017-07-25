@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chorioallantoic_membrane%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chorioallantois")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "membrane%1:08:00::"))
+(InheritanceLink s (WordSenseNode "tissue_layer%1:08:00::"))
+(define x (WordNode "chorioallantoic_membrane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "membrane%1:08:00::"))
+(InheritanceLink s (WordSenseNode "tissue_layer%1:08:00::"))

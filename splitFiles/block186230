@@ -1,0 +1,5 @@
+(define s (WordSenseNode "zea_mays_indentata%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dent_corn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "field_corn%1:20:00::"))
+(define x (WordNode "Zea_mays_indentata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "field_corn%1:20:00::"))

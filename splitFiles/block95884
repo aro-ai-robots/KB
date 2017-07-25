@@ -1,0 +1,4 @@
+(define s (WordSenseNode "leather_carp%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leather_carp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "domestic_carp%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Cyprinus_carpio%1:05:00::"))

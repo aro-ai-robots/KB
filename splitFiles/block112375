@@ -1,0 +1,8 @@
+(define s (WordSenseNode "neuromuscular_blocking_agent%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neuromuscular_blocking_agent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blocker%1:06:00::"))
+(InheritanceLink s (WordSenseNode "blocking_agent%1:06:00::"))
+(InheritanceLink (WordSenseNode "gallamine%1:27:00::") s)
+(InheritanceLink (WordSenseNode "Flaxedil%1:27:00::") s)
+(InheritanceLink (WordSenseNode "tubocurarine%1:27:00::") s)
+(InheritanceLink (WordSenseNode "curare%1:27:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "counterculture%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "counterculture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "culture%1:09:00::"))
+(InheritanceLink (WordSenseNode "flower_power%1:09:00::") s)

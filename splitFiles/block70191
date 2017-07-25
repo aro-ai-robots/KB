@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_loasa%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Loasa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dilleniid_dicot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Loasaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Loasaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "loasa_family%1:20:00::"))
+(HolonymLink (WordSenseNode "loasa%1:20:00::") s)

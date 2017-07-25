@@ -1,0 +1,7 @@
+(define s (WordSenseNode "latent_diabetes%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "latent_diabetes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diabetes_mellitus%1:26:00::"))
+(InheritanceLink s (WordSenseNode "DM%1:26:00::"))
+(define x (WordNode "chemical_diabetes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diabetes_mellitus%1:26:00::"))
+(InheritanceLink s (WordSenseNode "DM%1:26:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "calcium_carbonate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calcium_carbonate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carbonate%1:27:00::"))
+(InheritanceLink (WordSenseNode "dripstone%1:27:00::") s)
+(HolonymLink s (WordSenseNode "chalk%1:27:00::"))
+(HolonymLink s (WordSenseNode "calcite%1:27:00::"))

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "verso%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "verso")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "page%1:10:00::"))

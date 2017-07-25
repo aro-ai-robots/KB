@@ -1,0 +1,4 @@
+(define s (WordSenseNode "preposition%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "function_word%1:10:00::"))
+(InheritanceLink s (WordSenseNode "closed-class_word%1:10:00::"))

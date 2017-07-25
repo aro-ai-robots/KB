@@ -1,0 +1,7 @@
+(define s (WordSenseNode "school%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "school")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_group%1:14:00::"))
+(HolonymLink (WordSenseNode "fish%1:05:00::") s)
+(define x (WordNode "shoal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_group%1:14:00::"))
+(HolonymLink (WordSenseNode "fish%1:05:00::") s)

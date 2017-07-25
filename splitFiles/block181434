@@ -1,0 +1,5 @@
+(define s (WordSenseNode "watercolor%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "watercolour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paint%2:36:01::"))
+(define x (WordNode "watercolor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paint%2:36:01::"))

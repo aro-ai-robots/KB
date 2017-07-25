@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jug%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))
+(define x (WordNode "jugful")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inelasticity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inelasticity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_property%1:07:00::"))
+(InheritanceLink (WordSenseNode "deadness%1:07:01::") s)
+(InheritanceLink (WordSenseNode "stiffness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "rigidity%1:07:00::") s)
+(InheritanceLink (WordSenseNode "rigidness%1:07:00::") s)

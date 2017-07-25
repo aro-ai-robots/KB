@@ -1,0 +1,4 @@
+(define s (WordSenseNode "foil%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "foil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contrast%2:42:00::"))
+(InheritanceLink s (WordSenseNode "counterpoint%2:42:00::"))

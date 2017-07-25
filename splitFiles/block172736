@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tritium%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tritium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrogen%1:27:00::"))
+(InheritanceLink s (WordSenseNode "H%1:27:00::"))
+(InheritanceLink s (WordSenseNode "atomic_number_1%1:27:00::"))

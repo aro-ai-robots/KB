@@ -1,0 +1,6 @@
+(define s (WordSenseNode "outstay%2:42:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "outstay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "last_out%2:42:00::"))
+(InheritanceLink s (WordSenseNode "stay%2:42:03::"))
+(InheritanceLink s (WordSenseNode "ride_out%2:42:00::"))
+(InheritanceLink s (WordSenseNode "outride%2:42:00::"))

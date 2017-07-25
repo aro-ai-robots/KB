@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_andrena%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Andrena")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arthropod_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Andrenidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Andrenidae%1:05:00::"))
+(HolonymLink (WordSenseNode "andrena%1:05:00::") s)
+(HolonymLink (WordSenseNode "andrenid%1:05:00::") s)
+(HolonymLink (WordSenseNode "mining_bee%1:05:00::") s)

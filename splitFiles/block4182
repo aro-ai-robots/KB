@@ -1,0 +1,5 @@
+(define s (WordSenseNode "algebraic_language%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "algebraic_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "algorithmic_language%1:10:00::"))
+(InheritanceLink (WordSenseNode "ALGOL%1:10:00::") s)
+(InheritanceLink (WordSenseNode "FORTRAN%1:10:00::") s)

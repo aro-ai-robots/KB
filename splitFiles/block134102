@@ -1,0 +1,6 @@
+(define s (WordSenseNode "quantity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quantity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amount%1:07:00::"))
+(InheritanceLink (WordSenseNode "abundance%1:07:00::") s)
+(InheritanceLink (WordSenseNode "copiousness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "teemingness%1:07:00::") s)

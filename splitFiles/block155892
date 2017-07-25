@@ -1,0 +1,8 @@
+(define s (WordSenseNode "south_african%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "South_African")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "African%1:18:00::"))
+(InheritanceLink (WordSenseNode "Afrikaner%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Afrikander%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Boer%1:18:00::") s)
+(HolonymLink s (WordSenseNode "South_Africa%1:15:00::"))
+(HolonymLink s (WordSenseNode "Republic_of_South_Africa%1:15:00::"))

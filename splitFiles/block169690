@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tip%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "end%1:15:00::"))
+(InheritanceLink s (WordSenseNode "terminal%1:15:00::"))
+(InheritanceLink (WordSenseNode "fingertip%1:08:00::") s)
+(InheritanceLink (WordSenseNode "tiptoe%1:08:00::") s)
+(InheritanceLink (WordSenseNode "beak%1:20:00::") s)

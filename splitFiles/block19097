@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bombardier_beetle%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bombardier_beetle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ground_beetle%1:05:00::"))
+(InheritanceLink s (WordSenseNode "carabid_beetle%1:05:00::"))
+(HolonymLink s (WordSenseNode "Brachinus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Brachinus%1:05:00::"))

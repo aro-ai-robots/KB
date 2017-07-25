@@ -1,0 +1,5 @@
+(define s (WordSenseNode "student_nurse%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "probationer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nurse%1:18:00::"))
+(define x (WordNode "student_nurse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nurse%1:18:00::"))

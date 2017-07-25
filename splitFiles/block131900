@@ -1,0 +1,8 @@
+(define s (WordSenseNode "protective_covering%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "protective_covering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_covering%1:08:00::"))
+(InheritanceLink (WordSenseNode "armor%1:05:00::") s)
+(InheritanceLink (WordSenseNode "armour%1:05:00::") s)
+(InheritanceLink (WordSenseNode "scute%1:05:00::") s)
+(InheritanceLink (WordSenseNode "sclerite%1:05:00::") s)
+(InheritanceLink (WordSenseNode "clypeus%1:05:00::") s)

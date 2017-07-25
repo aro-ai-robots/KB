@@ -1,0 +1,7 @@
+(define s (WordSenseNode "triticum_dicoccum_dicoccoides%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wild_wheat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wheat%1:20:00::"))
+(define x (WordNode "wild_emmer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wheat%1:20:00::"))
+(define x (WordNode "Triticum_dicoccum_dicoccoides")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wheat%1:20:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "educational_program%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "educational_program")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "program%1:09:01::"))
+(InheritanceLink s (WordSenseNode "programme%1:09:01::"))
+(InheritanceLink (WordSenseNode "academic_program%1:09:00::") s)
+(InheritanceLink (WordSenseNode "training_program%1:09:00::") s)
+(InheritanceLink (WordSenseNode "vocational_program%1:09:00::") s)

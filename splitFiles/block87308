@@ -1,0 +1,5 @@
+(define s (WordSenseNode "input_routine%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "input_routine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utility_routine%1:10:00::"))
+(InheritanceLink s (WordSenseNode "service_routine%1:10:00::"))
+(HolonymLink s (WordSenseNode "input_program%1:10:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "nonfat_dry_milk%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nonfat_dry_milk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "powdered_milk%1:13:00::"))
+(InheritanceLink s (WordSenseNode "dry_milk%1:13:00::"))
+(InheritanceLink s (WordSenseNode "dried_milk%1:13:00::"))
+(InheritanceLink s (WordSenseNode "milk_powder%1:13:00::"))

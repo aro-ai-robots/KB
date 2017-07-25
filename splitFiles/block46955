@@ -1,0 +1,7 @@
+(define s (WordSenseNode "direct_quotation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "direct_discourse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "report%1:10:01::"))
+(InheritanceLink s (WordSenseNode "account%1:10:05::"))
+(define x (WordNode "direct_quotation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "report%1:10:01::"))
+(InheritanceLink s (WordSenseNode "account%1:10:05::"))

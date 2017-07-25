@@ -1,0 +1,6 @@
+(define s (WordSenseNode "freeholder%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "freeholder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "landowner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "landholder%1:18:00::"))
+(InheritanceLink s (WordSenseNode "property_owner%1:18:00::"))
+(InheritanceLink (WordSenseNode "yeoman%1:18:00::") s)

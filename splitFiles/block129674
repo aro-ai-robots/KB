@@ -1,0 +1,6 @@
+(define s (WordSenseNode "precious_metal%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "precious_metal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "valuable%1:21:00::"))
+(InheritanceLink (WordSenseNode "bullion%1:21:00::") s)
+(InheritanceLink (WordSenseNode "gold%1:21:00::") s)
+(InheritanceLink (WordSenseNode "silver%1:21:00::") s)

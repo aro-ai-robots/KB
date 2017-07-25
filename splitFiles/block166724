@@ -1,0 +1,5 @@
+(define s (WordSenseNode "telegnosis%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "telegnosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "psychic_communication%1:10:00::"))
+(InheritanceLink s (WordSenseNode "psychical_communication%1:10:00::"))
+(InheritanceLink s (WordSenseNode "anomalous_communication%1:10:00::"))

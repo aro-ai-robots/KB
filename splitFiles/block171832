@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trap%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "trap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confine%2:41:00::"))
+(InheritanceLink s (WordSenseNode "detain%2:41:00::"))
+(define x (WordNode "pin_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confine%2:41:00::"))
+(InheritanceLink s (WordSenseNode "detain%2:41:00::"))

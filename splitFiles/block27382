@@ -1,0 +1,5 @@
+(define s (WordSenseNode "caveat%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warning%1:10:00::"))
+(define x (WordNode "caveat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warning%1:10:00::"))

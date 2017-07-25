@@ -1,0 +1,7 @@
+(define s (WordSenseNode "itch%2:39:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rub")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irritate%2:29:00::"))
+(define x (WordNode "scratch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irritate%2:29:00::"))
+(define x (WordNode "itch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irritate%2:29:00::"))

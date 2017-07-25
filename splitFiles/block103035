@@ -1,0 +1,4 @@
+(define s (WordSenseNode "market_gardening%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "market_gardening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gardening%1:04:00::"))
+(InheritanceLink s (WordSenseNode "horticulture%1:04:00::"))

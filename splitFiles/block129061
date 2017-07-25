@@ -1,0 +1,7 @@
+(define s (WordSenseNode "potato_peel%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "potato_skin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snack_food%1:13:00::"))
+(define x (WordNode "potato_peel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snack_food%1:13:00::"))
+(define x (WordNode "potato_peelings")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snack_food%1:13:00::"))

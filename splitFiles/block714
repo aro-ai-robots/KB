@@ -1,0 +1,7 @@
+(define s (WordSenseNode "absorption_coefficient%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "absorption_coefficient")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))
+(define x (WordNode "coefficient_of_absorption")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))
+(define x (WordNode "absorptance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))

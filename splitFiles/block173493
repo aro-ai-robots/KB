@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tumultuous_disturbance%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "outburst")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disturbance%1:04:00::"))
+(define x (WordNode "tumultuous_disturbance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disturbance%1:04:00::"))

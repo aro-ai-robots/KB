@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pyrrhic%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pyrrhic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ritual_dancing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "ritual_dance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "ceremonial_dance%1:04:00::"))

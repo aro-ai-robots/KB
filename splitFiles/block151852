@@ -1,0 +1,7 @@
+(define s (WordSenseNode "silver_medal%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "silver_medal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trophy%1:06:00::"))
+(InheritanceLink s (WordSenseNode "prize%1:06:00::"))
+(define x (WordNode "silver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trophy%1:06:00::"))
+(InheritanceLink s (WordSenseNode "prize%1:06:00::"))

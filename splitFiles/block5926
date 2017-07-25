@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anal_personality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anal_personality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personality%1:07:00::"))
+(define x (WordNode "anal_retentive_personality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personality%1:07:00::"))

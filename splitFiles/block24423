@@ -1,0 +1,7 @@
+(define s (WordSenseNode "camp_bed%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bed%1:06:00::"))
+(HolonymLink (WordSenseNode "leg%1:06:01::") s)
+(define x (WordNode "camp_bed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bed%1:06:00::"))
+(HolonymLink (WordSenseNode "leg%1:06:01::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "luxation%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "luxation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shift%1:11:00::"))
+(InheritanceLink s (WordSenseNode "displacement%1:11:00::"))
+(InheritanceLink (WordSenseNode "subluxation%1:11:00::") s)

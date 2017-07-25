@@ -1,0 +1,7 @@
+(define s (WordSenseNode "altocumulus_cloud%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "altocumulus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cumulus%1:17:00::"))
+(InheritanceLink s (WordSenseNode "cumulus_cloud%1:17:00::"))
+(define x (WordNode "altocumulus_cloud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cumulus%1:17:00::"))
+(InheritanceLink s (WordSenseNode "cumulus_cloud%1:17:00::"))

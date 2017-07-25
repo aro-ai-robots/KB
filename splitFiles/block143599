@@ -1,0 +1,7 @@
+(define s (WordSenseNode "saber_rattling%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "saber_rattling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_action%1:04:00::"))
+(InheritanceLink s (WordSenseNode "action%1:04:03::"))
+(define x (WordNode "sabre_rattling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_action%1:04:00::"))
+(InheritanceLink s (WordSenseNode "action%1:04:03::"))

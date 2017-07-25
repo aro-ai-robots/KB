@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_idesia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Idesia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dilleniid_dicot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Flacourtiaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Flacourtiaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "flacourtia_family%1:20:00::"))
+(HolonymLink (WordSenseNode "idesia%1:20:00::") s)
+(HolonymLink (WordSenseNode "Idesia_polycarpa%1:20:00::") s)

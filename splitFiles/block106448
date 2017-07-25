@@ -1,0 +1,4 @@
+(define s (WordSenseNode "militant_tendency%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Militant_Tendency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "party%1:14:01::"))
+(InheritanceLink s (WordSenseNode "political_party%1:14:00::"))

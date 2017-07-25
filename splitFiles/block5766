@@ -1,0 +1,5 @@
+(define s (WordSenseNode "amplitude_distortion%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nonlinear_distortion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distortion%1:19:01::"))
+(define x (WordNode "amplitude_distortion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distortion%1:19:01::"))

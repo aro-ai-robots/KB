@@ -1,0 +1,8 @@
+(define s (WordSenseNode "whiff%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "whiff")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lefteye_flounder%1:05:00::"))
+(InheritanceLink s (WordSenseNode "lefteyed_flounder%1:05:00::"))
+(InheritanceLink (WordSenseNode "horned_whiff%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Citharichthys_cornutus%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Citharichthys%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Citharichthys%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "squark%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strange_quark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quark%1:17:00::"))
+(define x (WordNode "squark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quark%1:17:00::"))

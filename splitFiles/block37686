@@ -1,0 +1,5 @@
+(define s (WordSenseNode "copy%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "copy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "material%1:10:00::"))
+(HolonymLink s (WordSenseNode "journalism%1:10:00::"))
+(HolonymLink s (WordSenseNode "news_media%1:10:00::"))

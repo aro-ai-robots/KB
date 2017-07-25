@@ -1,0 +1,4 @@
+(define s (WordSenseNode "magnetic_bottle%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magnetic_bottle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "container%1:06:00::"))
+(HolonymLink s (WordSenseNode "tokamak%1:06:00::"))

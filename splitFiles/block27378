@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cave_in%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cave_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collapse%1:11:00::"))
+(define x (WordNode "subsidence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collapse%1:11:00::"))

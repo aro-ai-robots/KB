@@ -1,0 +1,7 @@
+(define s (WordSenseNode "staffer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "staff_member")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "employee%1:18:00::"))
+(HolonymLink s (WordSenseNode "staff%1:14:01::"))
+(define x (WordNode "staffer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "employee%1:18:00::"))
+(HolonymLink s (WordSenseNode "staff%1:14:01::"))

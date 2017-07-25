@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lepus_californicus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blacktail_jackrabbit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jackrabbit%1:05:00::"))
+(define x (WordNode "Lepus_californicus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jackrabbit%1:05:00::"))

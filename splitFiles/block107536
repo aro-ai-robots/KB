@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mnemonic%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mnemonic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:04:00::"))
+(InheritanceLink s (WordSenseNode "gimmick%1:04:00::"))
+(InheritanceLink s (WordSenseNode "twist%1:04:01::"))

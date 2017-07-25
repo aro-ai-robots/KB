@@ -1,0 +1,6 @@
+(define s (WordSenseNode "crater%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crater")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_depression%1:17:00::"))
+(InheritanceLink s (WordSenseNode "depression%1:17:00::"))
+(InheritanceLink (WordSenseNode "collector%1:17:00::") s)
+(InheritanceLink (WordSenseNode "lunar_crater%1:17:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "isotope%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "isotope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atom%1:27:00::"))
+(InheritanceLink (WordSenseNode "radioisotope%1:27:00::") s)
+(InheritanceLink (WordSenseNode "deuterium%1:27:00::") s)
+(InheritanceLink (WordSenseNode "heavy_hydrogen%1:27:00::") s)

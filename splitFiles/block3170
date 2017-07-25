@@ -1,0 +1,5 @@
+(define s (WordSenseNode "aggravation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aggravation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intensification%1:04:00::"))
+(define x (WordNode "exacerbation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intensification%1:04:00::"))

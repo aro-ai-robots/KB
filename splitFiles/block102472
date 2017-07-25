@@ -1,0 +1,5 @@
+(define s (WordSenseNode "manner_name%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "troponym")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "word%1:10:00::"))
+(define x (WordNode "manner_name")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "word%1:10:00::"))

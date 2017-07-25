@@ -1,0 +1,5 @@
+(define s (WordSenseNode "elastin%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elastin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scleroprotein%1:27:00::"))
+(InheritanceLink s (WordSenseNode "albuminoid%1:27:00::"))
+(HolonymLink s (WordSenseNode "elastic_tissue%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "meter%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "meter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhythmicity%1:07:00::"))
+(define x (WordNode "metre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhythmicity%1:07:00::"))
+(define x (WordNode "time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhythmicity%1:07:00::"))

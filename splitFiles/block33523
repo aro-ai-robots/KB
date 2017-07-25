@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cognitive_science%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cognitive_science")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "science%1:09:00::"))
+(InheritanceLink s (WordSenseNode "scientific_discipline%1:09:00::"))
+(HolonymLink (WordSenseNode "cognitive_neuroscience%1:09:00::") s)
+(HolonymLink (WordSenseNode "cognitive_psychology%1:09:00::") s)
+(HolonymLink (WordSenseNode "linguistics%1:09:00::") s)

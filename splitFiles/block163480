@@ -1,0 +1,6 @@
+(define s (WordSenseNode "surmise%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "surmise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deduce%2:31:00::"))
+(InheritanceLink s (WordSenseNode "infer%2:31:00::"))
+(InheritanceLink s (WordSenseNode "deduct%2:31:00::"))
+(InheritanceLink s (WordSenseNode "derive%2:31:00::"))

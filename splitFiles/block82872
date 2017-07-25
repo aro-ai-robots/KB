@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hug%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%2:35:01::"))
+(InheritanceLink s (WordSenseNode "adjoin%2:35:03::"))
+(InheritanceLink s (WordSenseNode "meet%2:35:00::"))
+(InheritanceLink s (WordSenseNode "contact%2:35:03::"))

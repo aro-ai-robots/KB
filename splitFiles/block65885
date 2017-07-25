@@ -1,0 +1,7 @@
+(define s (WordSenseNode "friulian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Friulian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Rhaeto-Romance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Rhaeto-Romanic%1:10:00::"))
+(define x (WordNode "Friuli")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Rhaeto-Romance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Rhaeto-Romanic%1:10:00::"))

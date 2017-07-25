@@ -1,0 +1,5 @@
+(define s (WordSenseNode "segregate%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "segregate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discriminate%2:41:12::"))
+(InheritanceLink s (WordSenseNode "separate%2:41:00::"))
+(InheritanceLink s (WordSenseNode "single_out%2:41:00::"))

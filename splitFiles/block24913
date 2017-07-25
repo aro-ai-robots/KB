@@ -1,0 +1,8 @@
+(define s (WordSenseNode "canthus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "canthus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corner%1:15:00::"))
+(InheritanceLink (WordSenseNode "nasal_canthus%1:08:00::") s)
+(InheritanceLink (WordSenseNode "temporal_canthus%1:08:00::") s)
+(HolonymLink s (WordSenseNode "eye%1:08:00::"))
+(HolonymLink s (WordSenseNode "oculus%1:08:00::"))
+(HolonymLink s (WordSenseNode "optic%1:08:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "turntable%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "turntable")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "platform%1:06:00::"))
+(HolonymLink s (WordSenseNode "record_player%1:06:00::"))
+(HolonymLink s (WordSenseNode "phonograph%1:06:01::"))

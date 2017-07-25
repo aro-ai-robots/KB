@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cupric_acetate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "verdigris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pigment%1:27:00::"))
+(define x (WordNode "cupric_acetate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pigment%1:27:00::"))

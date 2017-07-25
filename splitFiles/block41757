@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cycloid%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cycloid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roulette%1:25:00::"))
+(InheritanceLink s (WordSenseNode "line_roulette%1:25:00::"))
+(InheritanceLink (WordSenseNode "curate_cycloid%1:25:00::") s)
+(InheritanceLink (WordSenseNode "prolate_cycloid%1:25:00::") s)

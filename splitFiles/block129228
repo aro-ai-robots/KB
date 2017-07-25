@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pound%2:35:06::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pound")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "partition%2:35:00::"))
+(InheritanceLink s (WordSenseNode "partition_off%2:35:00::"))
+(define x (WordNode "pound_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "partition%2:35:00::"))
+(InheritanceLink s (WordSenseNode "partition_off%2:35:00::"))

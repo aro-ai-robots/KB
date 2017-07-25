@@ -1,0 +1,6 @@
+(define s (WordSenseNode "service_break%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "service_break")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "victory%1:11:00::"))
+(InheritanceLink s (WordSenseNode "triumph%1:11:00::"))
+(HolonymLink s (WordSenseNode "tennis%1:04:00::"))
+(HolonymLink s (WordSenseNode "lawn_tennis%1:04:00::"))

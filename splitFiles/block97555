@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ligustrum_lucidum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Chinese_privet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "privet%1:20:00::"))
+(define x (WordNode "white_wax_tree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "privet%1:20:00::"))
+(define x (WordNode "Ligustrum_lucidum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "privet%1:20:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "finitude%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "finiteness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(define x (WordNode "finitude")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(define x (WordNode "boundedness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))

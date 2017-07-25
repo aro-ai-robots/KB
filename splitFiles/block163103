@@ -1,0 +1,8 @@
+(define s (WordSenseNode "supernaturalism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "supernaturalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "belief%1:09:00::"))
+(InheritanceLink (WordSenseNode "magic%1:09:00::") s)
+(InheritanceLink (WordSenseNode "thaumaturgy%1:09:00::") s)
+(InheritanceLink (WordSenseNode "occultism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "exorcism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "dispossession%1:09:00::") s)

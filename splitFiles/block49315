@@ -1,0 +1,3 @@
+(define s (WordSenseNode "double_negative%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "double_negative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "negative%1:10:00::"))

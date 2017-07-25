@@ -1,0 +1,7 @@
+(define s (WordSenseNode "photo-offset%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "photo-offset_printing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "offset%1:10:00::"))
+(InheritanceLink s (WordSenseNode "offset_printing%1:10:00::"))
+(define x (WordNode "photo-offset")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "offset%1:10:00::"))
+(InheritanceLink s (WordSenseNode "offset_printing%1:10:00::"))

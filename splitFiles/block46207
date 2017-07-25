@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diction%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enunciation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "articulation%1:10:00::"))
+(InheritanceLink (WordSenseNode "mumbling%1:10:00::") s)
+(define x (WordNode "diction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "articulation%1:10:00::"))
+(InheritanceLink (WordSenseNode "mumbling%1:10:00::") s)

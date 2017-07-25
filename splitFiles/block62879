@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fleetness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fleetness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "celerity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "quickness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "rapidity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "rapidness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "speediness%1:07:00::"))

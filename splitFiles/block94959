@@ -1,0 +1,7 @@
+(define s (WordSenseNode "laryngopharynx%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laryngopharynx")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cavity%1:08:00::"))
+(InheritanceLink s (WordSenseNode "bodily_cavity%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cavum%1:08:00::"))
+(HolonymLink s (WordSenseNode "throat%1:08:00::"))
+(HolonymLink s (WordSenseNode "pharynx%1:08:00::"))

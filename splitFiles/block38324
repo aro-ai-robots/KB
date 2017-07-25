@@ -1,0 +1,5 @@
+(define s (WordSenseNode "corvus_brachyrhyncos%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "American_crow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crow%1:05:00::"))
+(define x (WordNode "Corvus_brachyrhyncos")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crow%1:05:00::"))

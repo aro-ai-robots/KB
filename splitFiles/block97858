@@ -1,0 +1,6 @@
+(define s (WordSenseNode "line%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electromagnetic_radiation%1:19:00::"))
+(InheritanceLink s (WordSenseNode "electromagnetic_wave%1:19:00::"))
+(InheritanceLink s (WordSenseNode "nonparticulate_radiation%1:19:00::"))
+(HolonymLink s (WordSenseNode "electromagnetic_spectrum%1:19:00::"))

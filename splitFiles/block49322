@@ -1,0 +1,5 @@
+(define s (WordSenseNode "double_quotes%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "double_quotes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quotation_mark%1:10:00::"))
+(InheritanceLink s (WordSenseNode "quote%1:10:00::"))
+(InheritanceLink s (WordSenseNode "inverted_comma%1:10:00::"))

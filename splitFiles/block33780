@@ -1,0 +1,5 @@
+(define s (WordSenseNode "collar%2:35:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "collar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seize%2:35:00::"))
+(InheritanceLink s (WordSenseNode "prehend%2:35:00::"))
+(InheritanceLink s (WordSenseNode "clutch%2:35:00::"))

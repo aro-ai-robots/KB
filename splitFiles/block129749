@@ -1,0 +1,5 @@
+(define s (WordSenseNode "predate%2:42:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "precede")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lie%2:42:00::"))
+(define x (WordNode "predate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lie%2:42:00::"))

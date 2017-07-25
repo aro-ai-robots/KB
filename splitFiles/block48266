@@ -1,0 +1,5 @@
+(define s (WordSenseNode "divergency%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "divergence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separation%1:04:01::"))
+(define x (WordNode "divergency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separation%1:04:01::"))

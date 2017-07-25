@@ -1,0 +1,8 @@
+(define s (WordSenseNode "collard%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "collard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kale%1:20:00::"))
+(InheritanceLink s (WordSenseNode "kail%1:20:00::"))
+(InheritanceLink s (WordSenseNode "cole%1:20:00::"))
+(InheritanceLink s (WordSenseNode "borecole%1:20:00::"))
+(InheritanceLink s (WordSenseNode "colewort%1:20:00::"))
+(InheritanceLink s (WordSenseNode "Brassica_oleracea_acephala%1:20:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rate_of_return%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rate_of_return")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rate%1:28:00::"))
+(InheritanceLink (WordSenseNode "return_on_invested_capital%1:28:00::") s)
+(InheritanceLink (WordSenseNode "return_on_investment%1:28:00::") s)
+(InheritanceLink (WordSenseNode "ROI%1:28:00::") s)

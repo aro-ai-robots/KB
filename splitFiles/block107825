@@ -1,0 +1,5 @@
+(define s (WordSenseNode "moiety%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moiety")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_group%1:14:00::"))
+(HolonymLink s (WordSenseNode "tribe%1:14:00::"))
+(HolonymLink s (WordSenseNode "folk%1:14:01::"))

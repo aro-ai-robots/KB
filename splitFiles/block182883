@@ -1,0 +1,5 @@
+(define s (WordSenseNode "white_rice%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_rice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rice%1:13:00::"))
+(define x (WordNode "polished_rice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rice%1:13:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "humanity%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "humanness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(define x (WordNode "humanity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(define x (WordNode "manhood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))

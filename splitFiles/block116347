@@ -1,0 +1,5 @@
+(define s (WordSenseNode "oneida%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Oneida")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Iroquoian%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Iroquois%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Iroquoian_language%1:10:00::"))

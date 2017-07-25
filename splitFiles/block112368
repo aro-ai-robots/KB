@@ -1,0 +1,7 @@
+(define s (WordSenseNode "neurologist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neurologist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "specialist%1:18:01::"))
+(InheritanceLink s (WordSenseNode "medical_specialist%1:18:00::"))
+(define x (WordNode "brain_doctor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "specialist%1:18:01::"))
+(InheritanceLink s (WordSenseNode "medical_specialist%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vacillate%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fluctuate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swing%2:30:08::"))
+(define x (WordNode "vacillate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swing%2:30:08::"))
+(define x (WordNode "waver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swing%2:30:08::"))

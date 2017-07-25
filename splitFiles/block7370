@@ -1,0 +1,7 @@
+(define s (WordSenseNode "antilog%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antilogarithm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "numeral%1:10:00::"))
+(InheritanceLink s (WordSenseNode "number%1:10:01::"))
+(define x (WordNode "antilog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "numeral%1:10:00::"))
+(InheritanceLink s (WordSenseNode "number%1:10:01::"))

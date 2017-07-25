@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dead_mail%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dead_letter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "letter%1:10:00::"))
+(InheritanceLink s (WordSenseNode "missive%1:10:00::"))
+(define x (WordNode "dead_mail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "letter%1:10:00::"))
+(InheritanceLink s (WordSenseNode "missive%1:10:00::"))

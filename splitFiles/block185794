@@ -1,0 +1,7 @@
+(define s (WordSenseNode "yellow_ochre%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yellow_ocher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ocher%1:27:00::"))
+(InheritanceLink s (WordSenseNode "ochre%1:27:00::"))
+(define x (WordNode "yellow_ochre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ocher%1:27:00::"))
+(InheritanceLink s (WordSenseNode "ochre%1:27:00::"))

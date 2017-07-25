@@ -1,0 +1,7 @@
+(define s (WordSenseNode "appropriator%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "appropriator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acquirer%1:18:00::"))
+(InheritanceLink (WordSenseNode "kleptomaniac%1:18:00::") s)
+(InheritanceLink (WordSenseNode "poacher%1:18:00::") s)
+(InheritanceLink (WordSenseNode "preemptor%1:18:01::") s)
+(InheritanceLink (WordSenseNode "pre-emptor%1:18:01::") s)

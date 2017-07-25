@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mufti%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mufti")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jurist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "legal_expert%1:18:00::"))
+(InheritanceLink (WordSenseNode "grand_mufti%1:18:00::") s)

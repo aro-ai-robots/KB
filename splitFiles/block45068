@@ -1,0 +1,7 @@
+(define s (WordSenseNode "derequisition%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "derequisition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "release%2:40:00::"))
+(InheritanceLink s (WordSenseNode "relinquish%2:40:01::"))
+(InheritanceLink s (WordSenseNode "resign%2:40:04::"))
+(InheritanceLink s (WordSenseNode "free%2:40:01::"))
+(InheritanceLink s (WordSenseNode "give_up%2:40:03::"))

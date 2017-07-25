@@ -1,0 +1,7 @@
+(define s (WordSenseNode "depersonalisation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "depersonalization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "objectification%1:04:00::"))
+(define x (WordNode "depersonalisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "objectification%1:04:00::"))
+(define x (WordNode "reification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "objectification%1:04:00::"))

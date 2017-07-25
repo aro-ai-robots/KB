@@ -1,0 +1,7 @@
+(define s (WordSenseNode "erythema_solare%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sunburn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "erythema%1:26:00::"))
+(InheritanceLink s (WordSenseNode "first-degree_burn%1:26:00::"))
+(define x (WordNode "erythema_solare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "erythema%1:26:00::"))
+(InheritanceLink s (WordSenseNode "first-degree_burn%1:26:00::"))

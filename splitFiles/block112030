@@ -1,0 +1,6 @@
+(define s (WordSenseNode "neonatology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neonatology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pediatrics%1:09:00::"))
+(InheritanceLink s (WordSenseNode "paediatrics%1:09:00::"))
+(InheritanceLink s (WordSenseNode "pediatric_medicine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "pedology%1:09:00::"))

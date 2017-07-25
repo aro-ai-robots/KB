@@ -1,0 +1,8 @@
+(define s (WordSenseNode "bank%1:17:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slope%1:17:00::"))
+(InheritanceLink s (WordSenseNode "incline%1:17:00::"))
+(InheritanceLink s (WordSenseNode "side%1:17:01::"))
+(InheritanceLink (WordSenseNode "riverbank%1:17:00::") s)
+(InheritanceLink (WordSenseNode "riverside%1:17:00::") s)
+(InheritanceLink (WordSenseNode "waterside%1:17:00::") s)

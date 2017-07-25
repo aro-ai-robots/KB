@@ -1,0 +1,4 @@
+(define s (WordSenseNode "congestive_heart_failure%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "congestive_heart_failure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heart_failure%1:26:00::"))
+(InheritanceLink s (WordSenseNode "coronary_failure%1:26:00::"))

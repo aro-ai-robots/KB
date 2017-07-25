@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cheops%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cheops")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Pharaoh%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Pharaoh_of_Egypt%1:18:00::"))
+(define x (WordNode "Khufu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Pharaoh%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Pharaoh_of_Egypt%1:18:00::"))

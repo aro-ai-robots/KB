@@ -1,0 +1,5 @@
+(define s (WordSenseNode "inspiration%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "divine_guidance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cognitive_factor%1:09:00::"))
+(define x (WordNode "inspiration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cognitive_factor%1:09:00::"))

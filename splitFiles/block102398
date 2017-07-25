@@ -1,0 +1,8 @@
+(define s (WordSenseNode "manifold%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "manifold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pipe%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pipage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "piping%1:06:00::"))
+(InheritanceLink (WordSenseNode "exhaust_manifold%1:06:00::") s)
+(InheritanceLink (WordSenseNode "inlet_manifold%1:06:00::") s)
+(InheritanceLink (WordSenseNode "intake_manifold%1:06:00::") s)

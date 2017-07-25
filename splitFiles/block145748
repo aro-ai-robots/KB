@@ -1,0 +1,5 @@
+(define s (WordSenseNode "scant%2:41:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "skimp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%2:41:02::"))
+(define x (WordNode "scant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%2:41:02::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "plate%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crust%1:17:00::"))
+(InheritanceLink s (WordSenseNode "Earth's_crust%1:17:00::"))
+(define x (WordNode "crustal_plate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crust%1:17:00::"))
+(InheritanceLink s (WordSenseNode "Earth's_crust%1:17:00::"))

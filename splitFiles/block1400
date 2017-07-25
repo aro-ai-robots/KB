@@ -1,0 +1,5 @@
+(define s (WordSenseNode "acid_dye%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acid_dye")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dye%1:27:00::"))
+(InheritanceLink s (WordSenseNode "dyestuff%1:27:00::"))
+(InheritanceLink (WordSenseNode "metallized_dye%1:27:00::") s)

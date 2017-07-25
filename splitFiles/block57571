@@ -1,0 +1,4 @@
+(define s (WordSenseNode "extractor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "extractor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "instrument%1:06:00::"))
+(InheritanceLink (WordSenseNode "forceps%1:06:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "satellite_transmitter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "satellite_transmitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transmitter%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sender%1:06:00::"))
+(HolonymLink s (WordSenseNode "communications_satellite%1:06:00::"))

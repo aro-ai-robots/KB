@@ -1,0 +1,5 @@
+(define s (WordSenseNode "declaratory_sentence%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "declarative_sentence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sentence%1:10:00::"))
+(define x (WordNode "declaratory_sentence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sentence%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "angle_bracket%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "angle_bracket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bracket%1:06:00::"))
+(InheritanceLink s (WordSenseNode "wall_bracket%1:06:00::"))
+(define x (WordNode "angle_iron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bracket%1:06:00::"))
+(InheritanceLink s (WordSenseNode "wall_bracket%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "contempt_of_court%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "contempt_of_court")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contempt%1:04:00::"))
+(InheritanceLink (WordSenseNode "civil_contempt%1:04:00::") s)
+(InheritanceLink (WordSenseNode "criminal_contempt%1:04:00::") s)

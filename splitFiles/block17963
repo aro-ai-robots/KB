@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blind_landing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blind_flying")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flight%1:04:00::"))
+(InheritanceLink s (WordSenseNode "flying%1:04:00::"))
+(define x (WordNode "blind_landing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flight%1:04:00::"))
+(InheritanceLink s (WordSenseNode "flying%1:04:00::"))

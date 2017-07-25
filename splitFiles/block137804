@@ -1,0 +1,5 @@
+(define s (WordSenseNode "regard%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "regard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "look%2:39:00::"))
+(define x (WordNode "consider")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "look%2:39:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "scale%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indicator%1:06:00::"))
+(InheritanceLink (WordSenseNode "vernier_scale%1:06:00::") s)
+(InheritanceLink (WordSenseNode "vernier%1:06:00::") s)

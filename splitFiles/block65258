@@ -1,0 +1,7 @@
+(define s (WordSenseNode "frat_house%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chapterhouse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "house%1:06:00::"))
+(define x (WordNode "fraternity_house")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "house%1:06:00::"))
+(define x (WordNode "frat_house")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "house%1:06:00::"))

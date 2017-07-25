@@ -1,0 +1,4 @@
+(define s (WordSenseNode "chairman_of_the_board%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chairman_of_the_board")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corporate_executive%1:18:00::"))
+(InheritanceLink s (WordSenseNode "business_executive%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cut%1:04:08::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stroke%1:04:00::"))
+(InheritanceLink s (WordSenseNode "shot%1:04:06::"))
+(define x (WordNode "undercut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stroke%1:04:00::"))
+(InheritanceLink s (WordSenseNode "shot%1:04:06::"))

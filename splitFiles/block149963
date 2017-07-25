@@ -1,0 +1,4 @@
+(define s (WordSenseNode "she-oak%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "she-oak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "casuarina%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Casuarina%1:20:00::"))

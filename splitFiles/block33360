@@ -1,0 +1,8 @@
+(define s (WordSenseNode "codeine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "codeine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opiate%1:06:00::"))
+(InheritanceLink s (WordSenseNode "analgesic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "anodyne%1:06:00::"))
+(InheritanceLink s (WordSenseNode "painkiller%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pain_pill%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antitussive%1:06:00::"))

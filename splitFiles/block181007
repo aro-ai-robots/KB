@@ -1,0 +1,8 @@
+(define s (WordSenseNode "wash%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-base_paint%1:06:00::"))
+(InheritanceLink (WordSenseNode "blackwash%1:06:00::") s)
+(InheritanceLink (WordSenseNode "calcimine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "color_wash%1:06:00::") s)
+(InheritanceLink (WordSenseNode "colour_wash%1:06:00::") s)
+(InheritanceLink (WordSenseNode "whitewash%1:06:00::") s)

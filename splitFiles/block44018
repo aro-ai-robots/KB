@@ -1,0 +1,6 @@
+(define s (WordSenseNode "defoliate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "defoliate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "denude%2:30:00::"))
+(InheritanceLink s (WordSenseNode "bare%2:30:00::"))
+(InheritanceLink s (WordSenseNode "denudate%2:30:00::"))
+(InheritanceLink s (WordSenseNode "strip%2:30:05::"))

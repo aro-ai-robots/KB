@@ -1,0 +1,7 @@
+(define s (WordSenseNode "klebsiella%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "klebsiella")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enteric_bacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "enterobacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "enterics%1:05:00::"))
+(InheritanceLink s (WordSenseNode "entric%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Klebsiella%1:05:00::"))

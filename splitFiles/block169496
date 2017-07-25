@@ -1,0 +1,7 @@
+(define s (WordSenseNode "time_of_arrival%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arrival_time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "point%1:28:00::"))
+(InheritanceLink s (WordSenseNode "point_in_time%1:28:00::"))
+(define x (WordNode "time_of_arrival")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "point%1:28:00::"))
+(InheritanceLink s (WordSenseNode "point_in_time%1:28:00::"))

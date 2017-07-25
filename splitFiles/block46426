@@ -1,0 +1,7 @@
+(define s (WordSenseNode "digest%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compilation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collection%1:10:00::"))
+(InheritanceLink s (WordSenseNode "compendium%1:10:01::"))
+(define x (WordNode "digest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collection%1:10:00::"))
+(InheritanceLink s (WordSenseNode "compendium%1:10:01::"))

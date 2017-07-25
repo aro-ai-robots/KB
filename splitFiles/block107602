@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mock-up%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mock-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "model%1:06:00::"))
+(InheritanceLink s (WordSenseNode "simulation%1:06:00::"))

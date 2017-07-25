@@ -1,0 +1,6 @@
+(define s (WordSenseNode "wall%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_object%1:03:00::"))
+(InheritanceLink (WordSenseNode "footwall%1:17:00::") s)
+(InheritanceLink (WordSenseNode "hanging_wall%1:17:00::") s)

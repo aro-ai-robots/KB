@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_stelis%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Stelis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monocot_genus%1:20:00::"))
+(InheritanceLink s (WordSenseNode "liliopsid_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Orchidaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Orchidaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "orchid_family%1:20:00::"))
+(HolonymLink (WordSenseNode "stelis%1:20:00::") s)

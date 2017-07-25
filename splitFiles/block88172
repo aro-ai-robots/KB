@@ -1,0 +1,7 @@
+(define s (WordSenseNode "internet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "internet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_network%1:06:00::"))
+(define x (WordNode "net")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_network%1:06:00::"))
+(define x (WordNode "cyberspace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_network%1:06:00::"))

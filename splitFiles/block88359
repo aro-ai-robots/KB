@@ -1,0 +1,7 @@
+(define s (WordSenseNode "intimate%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "suggest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imply%2:32:01::"))
+(InheritanceLink (WordSenseNode "make_out%2:32:03::") s)
+(define x (WordNode "intimate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imply%2:32:01::"))
+(InheritanceLink (WordSenseNode "make_out%2:32:03::") s)

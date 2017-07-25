@@ -1,0 +1,7 @@
+(define s (WordSenseNode "library_card%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "library_card")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card%1:10:01::"))
+(InheritanceLink s (WordSenseNode "identity_card%1:10:00::"))
+(define x (WordNode "borrower's_card")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card%1:10:01::"))
+(InheritanceLink s (WordSenseNode "identity_card%1:10:00::"))

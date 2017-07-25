@@ -1,0 +1,7 @@
+(define s (WordSenseNode "perceptibility%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "perceptibility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_property%1:07:00::"))
+(InheritanceLink (WordSenseNode "visibility%1:07:00::") s)
+(InheritanceLink (WordSenseNode "visibleness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "audibility%1:07:00::") s)
+(InheritanceLink (WordSenseNode "audibleness%1:07:00::") s)

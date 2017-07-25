@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rod%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "bacterium%1:05:00::"))
+(InheritanceLink (WordSenseNode "streptobacillus%1:05:00::") s)

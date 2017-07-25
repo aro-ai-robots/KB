@@ -1,0 +1,7 @@
+(define s (WordSenseNode "terminate%2:42:05::")) (PartOfSpeechLink s verb)
+(define x (WordNode "end")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(InheritanceLink (WordSenseNode "close%2:39:10::") s)
+(define x (WordNode "terminate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(InheritanceLink (WordSenseNode "close%2:39:10::") s)

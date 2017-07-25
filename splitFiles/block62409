@@ -1,0 +1,3 @@
+(define s (WordSenseNode "fixed-point_number%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fixed-point_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:23:00::"))

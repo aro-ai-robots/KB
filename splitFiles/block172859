@@ -1,0 +1,4 @@
+(define s (WordSenseNode "trophobiosis%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trophobiosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symbiosis%1:24:00::"))
+(InheritanceLink s (WordSenseNode "mutualism%1:24:00::"))

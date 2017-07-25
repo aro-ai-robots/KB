@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_chlorella%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Chlorella")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protoctist_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Chlorococcales%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Chlorococcales%1:05:00::"))
+(HolonymLink (WordSenseNode "chlorella%1:05:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "loch_ness%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Loch_Ness")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Scotland%1:15:00::"))
+(HolonymLink (WordSenseNode "Loch_Ness_monster%1:18:00::") s)
+(HolonymLink (WordSenseNode "Nessie%1:18:00::") s)

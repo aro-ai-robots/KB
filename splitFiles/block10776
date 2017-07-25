@@ -1,0 +1,7 @@
+(define s (WordSenseNode "atomic_clock%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "atomic_clock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timepiece%1:06:00::"))
+(InheritanceLink s (WordSenseNode "timekeeper%1:06:00::"))
+(InheritanceLink s (WordSenseNode "horologe%1:06:00::"))
+(InheritanceLink (WordSenseNode "ammonia_clock%1:06:00::") s)
+(InheritanceLink (WordSenseNode "caesium_clock%1:06:00::") s)

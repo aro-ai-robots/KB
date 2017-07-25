@@ -1,0 +1,7 @@
+(define s (WordSenseNode "simper%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "smirk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "smile%2:29:00::"))
+(InheritanceLink (WordSenseNode "fleer%2:29:00::") s)
+(define x (WordNode "simper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "smile%2:29:00::"))
+(InheritanceLink (WordSenseNode "fleer%2:29:00::") s)

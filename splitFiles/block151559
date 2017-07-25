@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sign%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evidence%1:09:00::"))
+(InheritanceLink s (WordSenseNode "grounds%1:09:00::"))
+(InheritanceLink (WordSenseNode "vital_sign%1:26:00::") s)
+(HolonymLink s (WordSenseNode "disease%1:26:00::"))

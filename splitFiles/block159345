@@ -1,0 +1,6 @@
+(define s (WordSenseNode "steam_shovel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "steam_shovel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_shovel%1:06:00::"))
+(InheritanceLink s (WordSenseNode "excavator%1:06:00::"))
+(InheritanceLink s (WordSenseNode "digger%1:06:00::"))
+(InheritanceLink s (WordSenseNode "shovel%1:06:02::"))

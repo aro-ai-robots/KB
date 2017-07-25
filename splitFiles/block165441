@@ -1,0 +1,7 @@
+(define s (WordSenseNode "take_up_arms%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "go_to_war")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "war%2:33:00::"))
+(define x (WordNode "take_arms")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "war%2:33:00::"))
+(define x (WordNode "take_up_arms")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "war%2:33:00::"))

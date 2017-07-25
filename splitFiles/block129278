@@ -1,0 +1,5 @@
+(define s (WordSenseNode "poverty_level%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "poverty_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personal_income%1:21:00::"))
+(define x (WordNode "poverty_level")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personal_income%1:21:00::"))

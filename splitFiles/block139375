@@ -1,0 +1,6 @@
+(define s (WordSenseNode "resmudge%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "resmudge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "smear%2:35:01::"))
+(InheritanceLink s (WordSenseNode "blur%2:35:00::"))
+(InheritanceLink s (WordSenseNode "smudge%2:35:00::"))
+(InheritanceLink s (WordSenseNode "smutch%2:35:00::"))

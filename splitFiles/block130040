@@ -1,0 +1,6 @@
+(define s (WordSenseNode "presage%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "presage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foreboding%1:12:00::"))
+(InheritanceLink s (WordSenseNode "premonition%1:12:00::"))
+(InheritanceLink s (WordSenseNode "presentiment%1:12:00::"))
+(InheritanceLink s (WordSenseNode "boding%1:12:00::"))

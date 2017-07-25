@@ -1,0 +1,8 @@
+(define s (WordSenseNode "penance%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "penance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sacrament%1:04:00::"))
+(InheritanceLink (WordSenseNode "confession%1:04:00::") s)
+(HolonymLink (WordSenseNode "absolution%1:04:00::") s)
+(HolonymLink (WordSenseNode "remission%1:04:00::") s)
+(HolonymLink (WordSenseNode "remittal%1:04:00::") s)
+(HolonymLink (WordSenseNode "remission_of_sin%1:04:00::") s)

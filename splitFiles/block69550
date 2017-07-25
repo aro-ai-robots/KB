@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_eriogonum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Eriogonum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dicot_genus%1:20:00::"))
+(InheritanceLink s (WordSenseNode "magnoliopsid_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Polygonaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Polygonaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "buckwheat_family%1:20:00::"))
+(HolonymLink (WordSenseNode "eriogonum%1:20:00::") s)

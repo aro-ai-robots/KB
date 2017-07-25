@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nacre%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mother-of-pearl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shell%1:27:00::"))
+(define x (WordNode "nacre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shell%1:27:00::"))

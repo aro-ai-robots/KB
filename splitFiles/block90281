@@ -1,0 +1,4 @@
+(define s (WordSenseNode "java%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Java")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object-oriented_programming_language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "object-oriented_programing_language%1:10:00::"))

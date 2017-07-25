@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trinil_man%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Java_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Homo_erectus%1:05:00::"))
+(define x (WordNode "Trinil_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Homo_erectus%1:05:00::"))

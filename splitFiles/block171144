@@ -1,0 +1,7 @@
+(define s (WordSenseNode "track_record%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "record")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accomplishment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "achievement%1:04:00::"))
+(define x (WordNode "track_record")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accomplishment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "achievement%1:04:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "scrap_metal%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scrap_metal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rubbish%1:27:00::"))
+(InheritanceLink s (WordSenseNode "trash%1:27:00::"))
+(InheritanceLink s (WordSenseNode "scrap%1:27:00::"))
+(InheritanceLink (WordSenseNode "scrap_iron%1:27:00::") s)

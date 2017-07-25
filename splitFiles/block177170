@@ -1,0 +1,5 @@
+(define s (WordSenseNode "urobilinogen%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "urobilinogen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chromogen%1:27:00::"))
+(define x (WordNode "stercobilinogen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chromogen%1:27:00::"))

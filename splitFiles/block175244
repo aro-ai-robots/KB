@@ -1,0 +1,7 @@
+(define s (WordSenseNode "undernourish%2:34:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "undernourish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feed%2:34:01::"))
+(InheritanceLink s (WordSenseNode "give%2:34:00::"))
+(define x (WordNode "malnourish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feed%2:34:01::"))
+(InheritanceLink s (WordSenseNode "give%2:34:00::"))

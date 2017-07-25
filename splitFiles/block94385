@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lambda_hyperon%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lambda_particle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hyperon%1:17:00::"))
+(define x (WordNode "lambda_hyperon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hyperon%1:17:00::"))

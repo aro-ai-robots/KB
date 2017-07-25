@@ -1,0 +1,7 @@
+(define s (WordSenseNode "teucrium_marum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cat_thyme")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "germander%1:20:00::"))
+(define x (WordNode "marum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "germander%1:20:00::"))
+(define x (WordNode "Teucrium_marum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "germander%1:20:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "frown_on%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "frown_on")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disapprove%2:31:00::"))
+(define x (WordNode "frown_upon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disapprove%2:31:00::"))

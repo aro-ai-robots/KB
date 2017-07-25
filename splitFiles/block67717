@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gaussian_distribution%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "normal_distribution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distribution%1:09:00::"))
+(InheritanceLink s (WordSenseNode "statistical_distribution%1:09:00::"))
+(define x (WordNode "Gaussian_distribution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distribution%1:09:00::"))
+(InheritanceLink s (WordSenseNode "statistical_distribution%1:09:00::"))

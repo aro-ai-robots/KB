@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hard_drug%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hard_drug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "narcotic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "controlled_substance%1:06:00::"))
+(InheritanceLink (WordSenseNode "cocaine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "cocain%1:06:00::") s)
+(InheritanceLink (WordSenseNode "heroin%1:06:00::") s)
+(InheritanceLink (WordSenseNode "diacetylmorphine%1:06:00::") s)

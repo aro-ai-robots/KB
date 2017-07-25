@@ -1,0 +1,6 @@
+(define s (WordSenseNode "procellariiform_seabird%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "procellariiform_seabird")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pelagic_bird%1:05:00::"))
+(InheritanceLink s (WordSenseNode "oceanic_bird%1:05:00::"))
+(HolonymLink s (WordSenseNode "Procellariiformes%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Procellariiformes%1:05:00::"))

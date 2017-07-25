@@ -1,0 +1,5 @@
+(define s (WordSenseNode "counterfeit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "counterfeit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imitation%1:06:00::"))
+(define x (WordNode "forgery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imitation%1:06:00::"))

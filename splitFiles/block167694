@@ -1,0 +1,7 @@
+(define s (WordSenseNode "texas_star%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prairia_Sabbatia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sabbatia%1:20:00::"))
+(define x (WordNode "Texas_star")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sabbatia%1:20:00::"))
+(define x (WordNode "Sabbatia_campestris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sabbatia%1:20:00::"))

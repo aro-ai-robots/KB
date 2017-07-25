@@ -1,0 +1,5 @@
+(define s (WordSenseNode "marionette%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "puppet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "figure%1:06:00::"))
+(define x (WordNode "marionette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "figure%1:06:00::"))

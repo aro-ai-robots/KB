@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tamarisk%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tamarisk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shrub%1:20:00::"))
+(InheritanceLink s (WordSenseNode "bush%1:20:00::"))
+(HolonymLink s (WordSenseNode "Tamarix%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Tamarix%1:20:00::"))

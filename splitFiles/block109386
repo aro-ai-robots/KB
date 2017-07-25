@@ -1,0 +1,7 @@
+(define s (WordSenseNode "movable_barrier%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "movable_barrier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "barrier%1:06:00::"))
+(InheritanceLink (WordSenseNode "chicane%1:06:00::") s)
+(InheritanceLink (WordSenseNode "door%1:06:00::") s)
+(InheritanceLink (WordSenseNode "gate%1:06:00::") s)
+(InheritanceLink (WordSenseNode "hatch%1:06:00::") s)

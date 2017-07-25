@@ -1,0 +1,8 @@
+(define s (WordSenseNode "fungus_gnat%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fungus_gnat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dipterous_insect%1:05:00::"))
+(InheritanceLink s (WordSenseNode "two-winged_insects%1:05:00::"))
+(InheritanceLink s (WordSenseNode "dipteran%1:05:00::"))
+(InheritanceLink s (WordSenseNode "dipteron%1:05:00::"))
+(HolonymLink s (WordSenseNode "Mycetophilidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Mycetophylidae%1:05:00::"))

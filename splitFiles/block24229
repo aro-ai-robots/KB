@@ -1,0 +1,7 @@
+(define s (WordSenseNode "calorimeter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calorimeter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "measuring_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "measuring_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "measuring_device%1:06:00::"))
+(InheritanceLink (WordSenseNode "bomb_calorimeter%1:06:00::") s)
+(InheritanceLink (WordSenseNode "bomb%1:06:01::") s)

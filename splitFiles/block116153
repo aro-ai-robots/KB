@@ -1,0 +1,3 @@
+(define s (WordSenseNode "omnibus%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "omnibus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthology%1:10:00::"))

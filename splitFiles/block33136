@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cobblers%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cobblers")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nonsense%1:10:00::"))
+(InheritanceLink s (WordSenseNode "bunk%1:10:01::"))
+(InheritanceLink s (WordSenseNode "nonsensicality%1:10:00::"))
+(InheritanceLink s (WordSenseNode "meaninglessness%1:10:00::"))
+(InheritanceLink s (WordSenseNode "hokum%1:10:00::"))

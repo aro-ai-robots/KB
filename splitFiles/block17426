@@ -1,0 +1,4 @@
+(define s (WordSenseNode "black_market%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "black_market")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "market%1:14:00::"))
+(HolonymLink (WordSenseNode "black_marketeer%1:18:00::") s)

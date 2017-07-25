@@ -1,0 +1,7 @@
+(define s (WordSenseNode "child_welfare_agency%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "child_welfare_agency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "administrative_unit%1:14:00::"))
+(InheritanceLink s (WordSenseNode "administrative_body%1:14:00::"))
+(define x (WordNode "child_welfare_service")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "administrative_unit%1:14:00::"))
+(InheritanceLink s (WordSenseNode "administrative_body%1:14:00::"))

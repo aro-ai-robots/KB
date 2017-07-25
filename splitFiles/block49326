@@ -1,0 +1,5 @@
+(define s (WordSenseNode "double_replacement_reaction%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "double_replacement_reaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "double_decomposition%1:22:00::"))
+(InheritanceLink s (WordSenseNode "double_decomposition_reaction%1:22:00::"))
+(InheritanceLink s (WordSenseNode "metathesis%1:22:00::"))

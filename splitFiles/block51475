@@ -1,0 +1,7 @@
+(define s (WordSenseNode "earwig%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "earwig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insect%1:05:00::"))
+(InheritanceLink (WordSenseNode "common_European_earwig%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Forficula_auricularia%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Dermaptera%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Dermaptera%1:05:00::"))

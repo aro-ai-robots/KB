@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pound_sign%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pound")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symbol%1:10:00::"))
+(define x (WordNode "pound_sign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symbol%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "supercharge%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "boost")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "increase%2:30:02::"))
+(define x (WordNode "advance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "increase%2:30:02::"))
+(define x (WordNode "supercharge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "increase%2:30:02::"))

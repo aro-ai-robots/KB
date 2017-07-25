@@ -1,0 +1,4 @@
+(define s (WordSenseNode "aerodontalgia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aerodontalgia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toothache%1:26:00::"))
+(InheritanceLink s (WordSenseNode "odontalgia%1:26:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "catalexis%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "catalexis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meter%1:10:00::"))
+(InheritanceLink s (WordSenseNode "metre%1:10:00::"))
+(InheritanceLink s (WordSenseNode "measure%1:10:01::"))
+(InheritanceLink s (WordSenseNode "beat%1:10:02::"))
+(InheritanceLink s (WordSenseNode "cadence%1:10:01::"))

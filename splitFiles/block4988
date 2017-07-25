@@ -1,0 +1,7 @@
+(define s (WordSenseNode "altostratus_cloud%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "altostratus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stratus%1:17:00::"))
+(InheritanceLink s (WordSenseNode "stratus_cloud%1:17:00::"))
+(define x (WordNode "altostratus_cloud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stratus%1:17:00::"))
+(InheritanceLink s (WordSenseNode "stratus_cloud%1:17:00::"))

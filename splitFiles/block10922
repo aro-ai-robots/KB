@@ -1,0 +1,7 @@
+(define s (WordSenseNode "atomization%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "atomization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "division%1:04:00::"))
+(define x (WordNode "atomisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "division%1:04:00::"))
+(define x (WordNode "fragmentation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "division%1:04:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cerebellar_hemisphere%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cerebellar_hemisphere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neural_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "cerebellum%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bronchial_pneumonia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bronchopneumonia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pneumonia%1:26:00::"))
+(InheritanceLink (WordSenseNode "aspiration_pneumonia%1:26:00::") s)
+(define x (WordNode "bronchial_pneumonia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pneumonia%1:26:00::"))
+(InheritanceLink (WordSenseNode "aspiration_pneumonia%1:26:00::") s)

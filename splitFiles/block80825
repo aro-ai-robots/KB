@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hipline%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hipline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:00::"))
+(HolonymLink s (WordSenseNode "garment%1:06:00::"))

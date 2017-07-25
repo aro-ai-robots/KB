@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stoop_to%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stoop_to")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "patronize%2:32:01::"))
+(InheritanceLink s (WordSenseNode "patronise%2:32:01::"))
+(InheritanceLink s (WordSenseNode "condescend%2:32:10::"))

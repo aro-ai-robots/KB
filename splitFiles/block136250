@@ -1,0 +1,5 @@
+(define s (WordSenseNode "read/write_head%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "read/write_head")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coil%1:06:01::"))
+(define x (WordNode "head")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coil%1:06:01::"))

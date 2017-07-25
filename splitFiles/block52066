@@ -1,0 +1,6 @@
+(define s (WordSenseNode "editorial_department%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "editorial_department")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "business_department%1:14:00::"))
+(InheritanceLink (WordSenseNode "city_desk%1:14:00::") s)
+(InheritanceLink (WordSenseNode "city_room%1:14:00::") s)
+(InheritanceLink (WordSenseNode "sports_desk%1:14:00::") s)

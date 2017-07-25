@@ -1,0 +1,5 @@
+(define s (WordSenseNode "telescope%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "telescope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "digest%2:30:00::"))
+(InheritanceLink s (WordSenseNode "condense%2:30:00::"))
+(InheritanceLink s (WordSenseNode "concentrate%2:30:07::"))

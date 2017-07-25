@@ -1,0 +1,6 @@
+(define s (WordSenseNode "positive%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "positive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "film%1:06:01::"))
+(InheritanceLink s (WordSenseNode "photographic_film%1:06:00::"))
+(HolonymLink s (WordSenseNode "slide%1:06:01::"))
+(HolonymLink s (WordSenseNode "lantern_slide%1:06:00::"))

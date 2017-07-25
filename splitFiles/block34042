@@ -1,0 +1,4 @@
+(define s (WordSenseNode "colorcast%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "colorcast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telecast%2:32:00::"))
+(InheritanceLink s (WordSenseNode "televise%2:32:00::"))

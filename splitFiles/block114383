@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nrna%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nuclear_RNA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ribonucleic_acid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "RNA%1:27:00::"))
+(define x (WordNode "nRNA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ribonucleic_acid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "RNA%1:27:00::"))

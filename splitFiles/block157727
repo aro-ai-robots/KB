@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sprachgefuhl%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sprachgefuhl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feeling%1:09:00::"))
+(InheritanceLink s (WordSenseNode "intuitive_feeling%1:09:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "endometrium%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "endometrium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mucous_membrane%1:08:00::"))
+(InheritanceLink s (WordSenseNode "mucosa%1:08:00::"))
+(HolonymLink s (WordSenseNode "uterus%1:08:00::"))
+(HolonymLink s (WordSenseNode "womb%1:08:00::"))
+(HolonymLink (WordSenseNode "decidua%1:08:00::") s)

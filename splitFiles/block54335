@@ -1,0 +1,8 @@
+(define s (WordSenseNode "enrichment%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enrichment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "improvement%1:04:00::"))
+(InheritanceLink (WordSenseNode "fortification%1:04:00::") s)
+(InheritanceLink (WordSenseNode "fertilization%1:11:01::") s)
+(InheritanceLink (WordSenseNode "fertilisation%1:11:01::") s)
+(InheritanceLink (WordSenseNode "fecundation%1:11:01::") s)
+(InheritanceLink (WordSenseNode "dressing%1:11:00::") s)

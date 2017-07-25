@@ -1,0 +1,8 @@
+(define s (WordSenseNode "operating_procedure%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "operating_procedure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "procedure%1:04:00::"))
+(InheritanceLink s (WordSenseNode "process%1:04:00::"))
+(InheritanceLink (WordSenseNode "standing_operating_procedure%1:04:00::") s)
+(InheritanceLink (WordSenseNode "standard_operating_procedure%1:04:00::") s)
+(InheritanceLink (WordSenseNode "SOP%1:04:00::") s)
+(InheritanceLink (WordSenseNode "standard_procedure%1:04:00::") s)

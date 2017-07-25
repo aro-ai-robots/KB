@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mate%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "officer%1:18:04::"))
+(InheritanceLink s (WordSenseNode "ship's_officer%1:18:00::"))
+(define x (WordNode "first_mate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "officer%1:18:04::"))
+(InheritanceLink s (WordSenseNode "ship's_officer%1:18:00::"))

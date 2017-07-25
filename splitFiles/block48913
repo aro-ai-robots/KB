@@ -1,0 +1,8 @@
+(define s (WordSenseNode "domination%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "domination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_control%1:04:00::"))
+(InheritanceLink (WordSenseNode "bossism%1:04:00::") s)
+(InheritanceLink (WordSenseNode "mastery%1:04:00::") s)
+(InheritanceLink (WordSenseNode "subordination%1:04:00::") s)
+(InheritanceLink (WordSenseNode "monopolization%1:04:00::") s)
+(InheritanceLink (WordSenseNode "monopolisation%1:04:00::") s)

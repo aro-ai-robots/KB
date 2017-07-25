@@ -1,0 +1,7 @@
+(define s (WordSenseNode "allocation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "allocation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assignment%1:04:02::"))
+(InheritanceLink s (WordSenseNode "assigning%1:04:00::"))
+(define x (WordNode "storage_allocation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assignment%1:04:02::"))
+(InheritanceLink s (WordSenseNode "assigning%1:04:00::"))

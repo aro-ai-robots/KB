@@ -1,0 +1,8 @@
+(define s (WordSenseNode "diversify%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "diversify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:01::"))
+(InheritanceLink s (WordSenseNode "alter%2:30:01::"))
+(InheritanceLink s (WordSenseNode "modify%2:30:10::"))
+(InheritanceLink (WordSenseNode "vary%2:30:04::") s)
+(InheritanceLink (WordSenseNode "variegate%2:30:00::") s)
+(InheritanceLink (WordSenseNode "motley%2:30:01::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "auditor%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "auditor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accountant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "comptroller%1:18:00::"))
+(InheritanceLink s (WordSenseNode "controller%1:18:00::"))
+(InheritanceLink (WordSenseNode "internal_auditor%1:18:00::") s)

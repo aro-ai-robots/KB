@@ -1,0 +1,5 @@
+(define s (WordSenseNode "second-place_finish%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "second-place_finish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finish%1:11:00::"))
+(define x (WordNode "runner-up_finish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finish%1:11:00::"))

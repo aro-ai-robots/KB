@@ -1,0 +1,4 @@
+(define s (WordSenseNode "precaution%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "precaution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circumspection%1:07:00::"))
+(InheritanceLink s (WordSenseNode "caution%1:07:01::"))

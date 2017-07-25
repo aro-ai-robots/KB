@@ -1,0 +1,5 @@
+(define s (WordSenseNode "deck%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "packet%1:06:00::"))
+(InheritanceLink (WordSenseNode "dime_bag%1:06:00::") s)
+(InheritanceLink (WordSenseNode "dime%1:06:00::") s)

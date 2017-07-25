@@ -1,0 +1,5 @@
+(define s (WordSenseNode "callorhinus_ursinus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Alaska_fur_seal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fur_seal%1:05:02::"))
+(define x (WordNode "Callorhinus_ursinus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fur_seal%1:05:02::"))

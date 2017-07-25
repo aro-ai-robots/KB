@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aeolian_harp%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aeolian_harp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harp%1:06:00::"))
+(define x (WordNode "aeolian_lyre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harp%1:06:00::"))
+(define x (WordNode "wind_harp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harp%1:06:00::"))

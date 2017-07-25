@@ -1,0 +1,4 @@
+(define s (WordSenseNode "quote%2:32:13::")) (PartOfSpeechLink s verb)
+(define x (WordNode "quote")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "give%2:40:07::"))
+(InheritanceLink (WordSenseNode "underquote%2:32:00::") s)

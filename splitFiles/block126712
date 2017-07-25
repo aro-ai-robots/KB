@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pleasure-unpleasure_principle%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pleasure_principle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "principle%1:09:00::"))
+(define x (WordNode "pleasure-pain_principle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "principle%1:09:00::"))
+(define x (WordNode "pleasure-unpleasure_principle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "principle%1:09:00::"))

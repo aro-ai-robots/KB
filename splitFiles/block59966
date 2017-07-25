@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fast_day%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fast_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_holiday%1:28:00::"))
+(InheritanceLink s (WordSenseNode "holy_day%1:28:01::"))
+(InheritanceLink (WordSenseNode "major_fast_day%1:28:00::") s)
+(InheritanceLink (WordSenseNode "minor_fast_day%1:28:00::") s)

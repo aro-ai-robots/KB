@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nickname%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dub")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "name%2:32:03::"))
+(InheritanceLink s (WordSenseNode "call%2:32:02::"))
+(define x (WordNode "nickname")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "name%2:32:03::"))
+(InheritanceLink s (WordSenseNode "call%2:32:02::"))

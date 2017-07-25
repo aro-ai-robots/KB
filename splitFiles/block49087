@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dope_sheet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dope_sheet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tip_sheet%1:10:00::"))
+(define x (WordNode "scratch_sheet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tip_sheet%1:10:00::"))

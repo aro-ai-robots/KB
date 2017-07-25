@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fraud_in_fact%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fraud_in_fact")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fraud%1:04:00::"))
+(define x (WordNode "positive_fraud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fraud%1:04:00::"))

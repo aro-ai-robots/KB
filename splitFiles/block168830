@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thrombus%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thrombus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clot%1:08:00::"))
+(InheritanceLink s (WordSenseNode "coagulum%1:08:00::"))
+(HolonymLink s (WordSenseNode "thrombosis%1:26:00::"))

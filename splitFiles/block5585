@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ammonium_ion%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ammonium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ammonia%1:27:00::"))
+(define x (WordNode "ammonium_ion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ammonia%1:27:00::"))

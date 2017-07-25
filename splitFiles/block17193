@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bitter_pea%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bitter_pea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shrub%1:20:00::"))
+(InheritanceLink s (WordSenseNode "bush%1:20:00::"))
+(HolonymLink s (WordSenseNode "Daviesia%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Daviesia%1:20:00::"))

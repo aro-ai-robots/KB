@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ovotestis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ovotestis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gonad%1:08:00::"))
+(InheritanceLink s (WordSenseNode "sex_gland%1:08:00::"))

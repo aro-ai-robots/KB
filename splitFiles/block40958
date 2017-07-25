@@ -1,0 +1,7 @@
+(define s (WordSenseNode "culmination%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "apogee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phase%1:28:00::"))
+(InheritanceLink s (WordSenseNode "stage%1:28:00::"))
+(define x (WordNode "culmination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phase%1:28:00::"))
+(InheritanceLink s (WordSenseNode "stage%1:28:00::"))

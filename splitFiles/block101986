@@ -1,0 +1,7 @@
+(define s (WordSenseNode "malposition%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "malposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "position%1:07:00::"))
+(InheritanceLink s (WordSenseNode "spatial_relation%1:07:00::"))
+(define x (WordNode "misplacement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "position%1:07:00::"))
+(InheritanceLink s (WordSenseNode "spatial_relation%1:07:00::"))

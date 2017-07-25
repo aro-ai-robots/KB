@@ -1,0 +1,7 @@
+(define s (WordSenseNode "saiga_tatarica%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "saiga")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antelope%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Saiga%1:05:00::"))
+(define x (WordNode "Saiga_tatarica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antelope%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Saiga%1:05:00::"))

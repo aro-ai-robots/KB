@@ -1,0 +1,7 @@
+(define s (WordSenseNode "crossbar%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crossbar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bar%1:06:00::"))
+(InheritanceLink (WordSenseNode "doubletree%1:06:00::") s)
+(InheritanceLink (WordSenseNode "whiffletree%1:06:00::") s)
+(InheritanceLink (WordSenseNode "whippletree%1:06:00::") s)
+(InheritanceLink (WordSenseNode "swingletree%1:06:00::") s)

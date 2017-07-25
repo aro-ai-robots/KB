@@ -1,0 +1,5 @@
+(define s (WordSenseNode "intermediate_temporal_artery%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intermediate_temporal_artery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temporal_artery%1:08:00::"))
+(define x (WordNode "arteria_temporalis_intermedia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temporal_artery%1:08:00::"))

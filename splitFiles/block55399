@@ -1,0 +1,5 @@
+(define s (WordSenseNode "erythema_nodosum%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "erythema_nodosum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "erythema%1:26:00::"))
+(InheritanceLink (WordSenseNode "erythema_nodosum_leprosum%1:26:00::") s)
+(InheritanceLink (WordSenseNode "ENL%1:26:00::") s)

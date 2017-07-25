@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fireguard%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "firebreak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "field%1:15:00::"))
+(define x (WordNode "fireguard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "field%1:15:00::"))

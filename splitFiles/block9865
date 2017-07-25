@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ascophyllum_nodosum%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bladderwrack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rockweed%1:05:00::"))
+(define x (WordNode "Ascophyllum_nodosum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rockweed%1:05:00::"))

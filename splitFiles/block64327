@@ -1,0 +1,5 @@
+(define s (WordSenseNode "foreleg%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foreleg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "forelimb%1:05:00::"))
+(HolonymLink s (WordSenseNode "quadruped%1:05:00::"))
+(HolonymLink (WordSenseNode "elbow%1:05:01::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scepter%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scepter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reign%1:26:00::"))
+(InheritanceLink s (WordSenseNode "sovereignty%1:26:02::"))
+(define x (WordNode "sceptre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reign%1:26:00::"))
+(InheritanceLink s (WordSenseNode "sovereignty%1:26:02::"))

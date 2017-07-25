@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rule_of_morphology%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "morphological_rule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%1:10:01::"))
+(InheritanceLink s (WordSenseNode "linguistic_rule%1:10:00::"))
+(define x (WordNode "rule_of_morphology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%1:10:01::"))
+(InheritanceLink s (WordSenseNode "linguistic_rule%1:10:00::"))

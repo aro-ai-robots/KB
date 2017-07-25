@@ -1,0 +1,4 @@
+(define s (WordSenseNode "journalism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "journalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "profession%1:04:00::"))
+(InheritanceLink (WordSenseNode "newspapering%1:04:00::") s)

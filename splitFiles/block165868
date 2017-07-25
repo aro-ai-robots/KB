@@ -1,0 +1,7 @@
+(define s (WordSenseNode "taoism%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Taoism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religion%1:14:00::"))
+(InheritanceLink s (WordSenseNode "faith%1:14:00::"))
+(InheritanceLink s (WordSenseNode "organized_religion%1:14:00::"))
+(HolonymLink (WordSenseNode "Taoist%1:18:00::") s)
+(HolonymLink (WordSenseNode "Tao%1:18:00::") s)

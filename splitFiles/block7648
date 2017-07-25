@@ -1,0 +1,3 @@
+(define s (WordSenseNode "ape%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imitate%2:42:00::"))

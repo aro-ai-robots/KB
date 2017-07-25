@@ -1,0 +1,6 @@
+(define s (WordSenseNode "molluscum%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "molluscum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skin_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "disease_of_the_skin%1:26:00::"))
+(InheritanceLink s (WordSenseNode "skin_disorder%1:26:00::"))
+(InheritanceLink (WordSenseNode "molluscum_contagiosum%1:26:00::") s)

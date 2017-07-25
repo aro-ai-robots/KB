@@ -1,0 +1,7 @@
+(define s (WordSenseNode "thymic_acid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thymol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phenol%1:27:00::"))
+(define x (WordNode "thyme_camphor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phenol%1:27:00::"))
+(define x (WordNode "thymic_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phenol%1:27:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "california_quail%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "California_quail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quail%1:05:01::"))
+(define x (WordNode "Lofortyx_californicus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quail%1:05:01::"))

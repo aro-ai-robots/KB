@@ -1,0 +1,4 @@
+(define s (WordSenseNode "jamaican%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Jamaican")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "West_Indian%1:18:00::"))
+(HolonymLink s (WordSenseNode "Jamaica%1:15:01::"))

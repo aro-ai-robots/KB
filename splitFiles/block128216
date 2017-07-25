@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pontifical%3:01:01::")) (PartOfSpeechLink s adj)
+(define x (WordNode "papal")) (WordSenseLink x s)
+(define x (WordNode "apostolic")) (WordSenseLink x s)
+(define x (WordNode "apostolical")) (WordSenseLink x s)
+(define x (WordNode "pontifical")) (WordSenseLink x s)

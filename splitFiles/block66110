@@ -1,0 +1,5 @@
+(define s (WordSenseNode "frustum%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frustum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solid%1:25:00::"))
+(InheritanceLink (WordSenseNode "truncated_pyramid%1:25:00::") s)
+(InheritanceLink (WordSenseNode "truncated_cone%1:25:00::") s)

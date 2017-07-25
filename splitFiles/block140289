@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rhapsody%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rhapsody")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epic_poem%1:10:00::"))
+(InheritanceLink s (WordSenseNode "heroic_poem%1:10:00::"))
+(InheritanceLink s (WordSenseNode "epic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "epos%1:10:00::"))

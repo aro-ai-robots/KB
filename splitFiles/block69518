@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_ephedra%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Ephedra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gymnosperm_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Ephedraceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Ephedraceae%1:20:00::"))
+(HolonymLink (WordSenseNode "ephedra%1:20:00::") s)
+(HolonymLink (WordSenseNode "joint_fir%1:20:01::") s)

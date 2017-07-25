@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tube_well%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "driven_well")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "well%1:06:00::"))
+(define x (WordNode "tube_well")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "well%1:06:00::"))

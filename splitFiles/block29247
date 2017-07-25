@@ -1,0 +1,7 @@
+(define s (WordSenseNode "check%2:30:10::")) (PartOfSpeechLink s verb)
+(define x (WordNode "check")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:01::"))
+(InheritanceLink (WordSenseNode "stem%2:30:00::") s)
+(InheritanceLink (WordSenseNode "stanch%2:30:00::") s)
+(InheritanceLink (WordSenseNode "staunch%2:30:00::") s)
+(InheritanceLink (WordSenseNode "halt%2:30:02::") s)

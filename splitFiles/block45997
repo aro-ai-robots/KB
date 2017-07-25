@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diamond%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rhombus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parallelogram%1:25:00::"))
+(define x (WordNode "rhomb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parallelogram%1:25:00::"))
+(define x (WordNode "diamond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parallelogram%1:25:00::"))

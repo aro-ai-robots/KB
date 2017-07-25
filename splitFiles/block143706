@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sacral_vertebra%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sacral_vertebra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vertebra%1:08:00::"))
+(HolonymLink s (WordSenseNode "sacrum%1:08:00::"))

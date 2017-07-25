@@ -1,0 +1,5 @@
+(define s (WordSenseNode "optimism%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "optimism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hope%1:12:00::"))
+(InheritanceLink (WordSenseNode "sanguinity%1:12:00::") s)
+(InheritanceLink (WordSenseNode "sanguineness%1:12:00::") s)

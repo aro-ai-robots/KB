@@ -1,0 +1,6 @@
+(define s (WordSenseNode "adar%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Adar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Jewish_calendar_month%1:28:00::"))
+(HolonymLink s (WordSenseNode "Jewish_calendar%1:28:00::"))
+(HolonymLink s (WordSenseNode "Hebrew_calendar%1:28:00::"))
+(HolonymLink (WordSenseNode "Purim%1:28:00::") s)

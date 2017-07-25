@@ -1,0 +1,6 @@
+(define s (WordSenseNode "complexion%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "complexion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "point_of_view%1:09:00::"))
+(InheritanceLink s (WordSenseNode "viewpoint%1:09:00::"))
+(InheritanceLink s (WordSenseNode "stand%1:09:00::"))
+(InheritanceLink s (WordSenseNode "standpoint%1:09:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "stringer%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stringer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brace%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bracing%1:06:00::"))

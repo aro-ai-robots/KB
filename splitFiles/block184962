@@ -1,0 +1,5 @@
+(define s (WordSenseNode "worsening%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "worsening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_state%1:04:00::"))
+(InheritanceLink (WordSenseNode "downturn%1:04:00::") s)
+(InheritanceLink (WordSenseNode "downswing%1:04:01::") s)

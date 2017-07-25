@@ -1,0 +1,7 @@
+(define s (WordSenseNode "coauthor%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coauthor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "author%1:18:00::"))
+(define x (WordNode "joint_author")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "author%1:18:00::"))

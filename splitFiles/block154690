@@ -1,0 +1,7 @@
+(define s (WordSenseNode "social_anthropologist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "social_anthropologist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthropologist%1:18:00::"))
+(InheritanceLink (WordSenseNode "ritualist%1:18:01::") s)
+(define x (WordNode "cultural_anthropologist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthropologist%1:18:00::"))
+(InheritanceLink (WordSenseNode "ritualist%1:18:01::") s)

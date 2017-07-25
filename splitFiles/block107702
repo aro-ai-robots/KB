@@ -1,0 +1,5 @@
+(define s (WordSenseNode "modern_era%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "modern_era")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "era%1:28:00::"))
+(InheritanceLink s (WordSenseNode "epoch%1:28:00::"))
+(InheritanceLink (WordSenseNode "information_age%1:28:00::") s)

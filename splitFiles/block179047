@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vicarship%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vicariate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "institution%1:14:00::"))
+(InheritanceLink s (WordSenseNode "establishment%1:14:00::"))
+(define x (WordNode "vicarship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "institution%1:14:00::"))
+(InheritanceLink s (WordSenseNode "establishment%1:14:00::"))

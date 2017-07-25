@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chilomeniscus_cinctus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "banded_sand_snake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sand_snake%1:05:00::"))
+(define x (WordNode "Chilomeniscus_cinctus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sand_snake%1:05:00::"))

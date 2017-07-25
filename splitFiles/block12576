@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bacterise%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bacterize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "subject%2:39:03::"))
+(define x (WordNode "bacterise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "subject%2:39:03::"))

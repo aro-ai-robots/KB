@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dampening%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moistening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wetting%1:04:00::"))
+(InheritanceLink (WordSenseNode "basting%1:04:01::") s)
+(define x (WordNode "dampening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wetting%1:04:00::"))
+(InheritanceLink (WordSenseNode "basting%1:04:01::") s)

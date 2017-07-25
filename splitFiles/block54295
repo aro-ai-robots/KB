@@ -1,0 +1,7 @@
+(define s (WordSenseNode "enlivener%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quickener")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:17:00::"))
+(define x (WordNode "invigorator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:17:00::"))
+(define x (WordNode "enlivener")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:17:00::"))

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "misspelling%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "misspelling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spelling%1:10:00::"))

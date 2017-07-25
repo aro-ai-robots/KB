@@ -1,0 +1,6 @@
+(define s (WordSenseNode "countermand%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "countermand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "command%1:10:00::"))
+(InheritanceLink s (WordSenseNode "bid%1:10:03::"))
+(InheritanceLink s (WordSenseNode "bidding%1:10:02::"))
+(InheritanceLink s (WordSenseNode "dictation%1:10:01::"))

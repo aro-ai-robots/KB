@@ -1,0 +1,7 @@
+(define s (WordSenseNode "concurrent_execution%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "multiprogramming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "execution%1:22:00::"))
+(InheritanceLink s (WordSenseNode "instruction_execution%1:22:00::"))
+(define x (WordNode "concurrent_execution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "execution%1:22:00::"))
+(InheritanceLink s (WordSenseNode "instruction_execution%1:22:00::"))

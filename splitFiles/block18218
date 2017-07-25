@@ -1,0 +1,8 @@
+(define s (WordSenseNode "bloodworm%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bloodworm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polychaete%1:05:00::"))
+(InheritanceLink s (WordSenseNode "polychete%1:05:00::"))
+(InheritanceLink s (WordSenseNode "polychaete_worm%1:05:00::"))
+(InheritanceLink s (WordSenseNode "polychete_worm%1:05:00::"))
+(HolonymLink s (WordSenseNode "Polycirrus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Polycirrus%1:05:00::"))

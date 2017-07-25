@@ -1,0 +1,7 @@
+(define s (WordSenseNode "crest%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emblem%1:06:00::"))
+(HolonymLink s (WordSenseNode "coat_of_arms%1:06:00::"))
+(HolonymLink s (WordSenseNode "arms%1:06:01::"))
+(HolonymLink s (WordSenseNode "blazon%1:06:00::"))
+(HolonymLink s (WordSenseNode "blazonry%1:06:00::"))

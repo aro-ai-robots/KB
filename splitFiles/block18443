@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blue_mountain_tea%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Blue_Mountain_tea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goldenrod%1:20:00::"))
+(define x (WordNode "sweet_goldenrod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goldenrod%1:20:00::"))
+(define x (WordNode "Solidago_odora")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goldenrod%1:20:00::"))

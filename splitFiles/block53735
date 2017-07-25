@@ -1,0 +1,8 @@
+(define s (WordSenseNode "enchanter's_nightshade%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enchanter's_nightshade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evening_primrose%1:20:00::"))
+(InheritanceLink (WordSenseNode "Alpine_enchanter's_nightshade%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Circaea_alpina%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Circaea_lutetiana%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Circaea%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Circaea%1:20:00::"))

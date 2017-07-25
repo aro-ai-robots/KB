@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tala%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tala")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Western_Samoan_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "sene%1:23:00::") s)

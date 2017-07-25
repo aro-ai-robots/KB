@@ -1,0 +1,7 @@
+(define s (WordSenseNode "peripateticism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Aristotelianism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "philosophical_doctrine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "philosophical_theory%1:09:00::"))
+(define x (WordNode "peripateticism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "philosophical_doctrine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "philosophical_theory%1:09:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plea_of_insanity%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "insanity_plea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plea%1:10:02::"))
+(define x (WordNode "plea_of_insanity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plea%1:10:02::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "strainer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strainer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "filter%1:06:00::"))
+(InheritanceLink (WordSenseNode "colander%1:06:00::") s)
+(InheritanceLink (WordSenseNode "cullender%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sieve%1:06:00::") s)
+(InheritanceLink (WordSenseNode "screen%1:06:02::") s)
+(InheritanceLink (WordSenseNode "tea-strainer%1:06:00::") s)

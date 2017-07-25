@@ -1,0 +1,4 @@
+(define s (WordSenseNode "miotic_eyedrop%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "miotic_eyedrop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eyedrop%1:04:00::"))
+(InheritanceLink s (WordSenseNode "eye-drop%1:04:00::"))

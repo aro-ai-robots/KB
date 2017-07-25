@@ -1,0 +1,7 @@
+(define s (WordSenseNode "occasion%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "occasion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opportunity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "chance%1:26:00::"))
+(InheritanceLink (WordSenseNode "sale%1:04:01::") s)
+(InheritanceLink (WordSenseNode "cut-rate_sale%1:04:00::") s)
+(InheritanceLink (WordSenseNode "sales_event%1:04:00::") s)

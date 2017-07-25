@@ -1,0 +1,7 @@
+(define s (WordSenseNode "homeopath%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "homeopath")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "practitioner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "practician%1:18:00::"))
+(define x (WordNode "homoeopath")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "practitioner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "practician%1:18:00::"))

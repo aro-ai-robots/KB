@@ -1,0 +1,7 @@
+(define s (WordSenseNode "european_barberry%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_barberry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "barberry%1:20:00::"))
+(define x (WordNode "European_barberry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "barberry%1:20:00::"))
+(define x (WordNode "Berberis_vulgaris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "barberry%1:20:00::"))

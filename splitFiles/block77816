@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hang%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gymnastic_exercise%1:04:00::"))
+(InheritanceLink (WordSenseNode "bent_hang%1:04:00::") s)
+(InheritanceLink (WordSenseNode "inverted_hang%1:04:00::") s)
+(InheritanceLink (WordSenseNode "lever_hang%1:04:00::") s)
+(InheritanceLink (WordSenseNode "reverse_hang%1:04:00::") s)
+(InheritanceLink (WordSenseNode "straight_hang%1:04:00::") s)

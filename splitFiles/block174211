@@ -1,0 +1,6 @@
+(define s (WordSenseNode "twitch%2:35:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "twitch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pull%2:35:00::"))
+(InheritanceLink s (WordSenseNode "draw%2:35:03::"))
+(InheritanceLink s (WordSenseNode "force%2:35:01::"))
+(InheritanceLink (WordSenseNode "skitter%2:35:00::") s)

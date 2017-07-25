@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cefobid%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cefoperazone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cephalosporin%1:06:00::"))
+(InheritanceLink s (WordSenseNode "Mefoxin%1:06:00::"))
+(define x (WordNode "Cefobid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cephalosporin%1:06:00::"))
+(InheritanceLink s (WordSenseNode "Mefoxin%1:06:00::"))

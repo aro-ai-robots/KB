@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lockout%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lockout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resistance%1:04:02::"))
+(InheritanceLink s (WordSenseNode "opposition%1:04:01::"))

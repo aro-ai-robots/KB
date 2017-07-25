@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lobster_a_la_newburg%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lobster_Newburg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seafood_Newburg%1:13:00::"))
+(define x (WordNode "lobster_a_la_Newburg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seafood_Newburg%1:13:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "two-dimensionality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "two-dimensionality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dimensionality%1:07:00::"))
+(define x (WordNode "flatness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dimensionality%1:07:00::"))
+(define x (WordNode "planeness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dimensionality%1:07:00::"))

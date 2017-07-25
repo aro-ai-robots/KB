@@ -1,0 +1,7 @@
+(define s (WordSenseNode "footplate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "footplate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "platform%1:06:00::"))
+(HolonymLink s (WordSenseNode "locomotive%1:06:00::"))
+(HolonymLink s (WordSenseNode "engine%1:06:01::"))
+(HolonymLink s (WordSenseNode "locomotive_engine%1:06:00::"))
+(HolonymLink s (WordSenseNode "railway_locomotive%1:06:00::"))

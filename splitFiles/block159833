@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stick_on%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "plaster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))
+(define x (WordNode "plaster_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))
+(define x (WordNode "stick_on")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))

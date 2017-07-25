@@ -1,0 +1,5 @@
+(define s (WordSenseNode "threshold_element%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "threshold_element")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logic_element%1:06:00::"))
+(define x (WordNode "threshold_gate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logic_element%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shoot%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "shoot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ache%2:39:00::"))
+(InheritanceLink s (WordSenseNode "smart%2:39:00::"))
+(InheritanceLink s (WordSenseNode "hurt%2:39:00::"))

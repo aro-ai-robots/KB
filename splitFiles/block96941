@@ -1,0 +1,8 @@
+(define s (WordSenseNode "lexical_meaning%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lexical_meaning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meaning%1:10:00::"))
+(InheritanceLink s (WordSenseNode "significance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "signification%1:10:00::"))
+(InheritanceLink s (WordSenseNode "import%1:10:00::"))
+(HolonymLink s (WordSenseNode "content_word%1:10:00::"))
+(HolonymLink s (WordSenseNode "open-class_word%1:10:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "catatonia%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "catatonia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tonicity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "tonus%1:26:00::"))
+(InheritanceLink s (WordSenseNode "tone%1:26:02::"))
+(HolonymLink s (WordSenseNode "catatonic_schizophrenia%1:26:00::"))
+(HolonymLink s (WordSenseNode "catatonic_type_schizophrenia%1:26:00::"))
+(HolonymLink s (WordSenseNode "catatonia%1:26:00::"))

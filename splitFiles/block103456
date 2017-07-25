@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mason's_trowel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brick_trowel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trowel%1:06:00::"))
+(define x (WordNode "mason's_trowel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trowel%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "put_out%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "smother")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snuff_out%2:30:00::"))
+(InheritanceLink s (WordSenseNode "extinguish%2:30:00::"))
+(define x (WordNode "put_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snuff_out%2:30:00::"))
+(InheritanceLink s (WordSenseNode "extinguish%2:30:00::"))

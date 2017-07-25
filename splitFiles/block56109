@@ -1,0 +1,5 @@
+(define s (WordSenseNode "euphuism%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "euphuism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expressive_style%1:10:00::"))
+(InheritanceLink s (WordSenseNode "style%1:10:00::"))
+(InheritanceLink (WordSenseNode "Gongorism%1:10:00::") s)

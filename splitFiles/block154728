@@ -1,0 +1,5 @@
+(define s (WordSenseNode "social_security%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Social_Security")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_insurance%1:04:00::"))
+(InheritanceLink (WordSenseNode "old-age_insurance%1:04:00::") s)
+(InheritanceLink (WordSenseNode "survivors_insurance%1:04:00::") s)

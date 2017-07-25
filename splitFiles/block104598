@@ -1,0 +1,5 @@
+(define s (WordSenseNode "medium%1:27:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "medium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquid%1:27:04::"))
+(InheritanceLink (WordSenseNode "megilp%1:27:00::") s)
+(InheritanceLink (WordSenseNode "magilp%1:27:00::") s)

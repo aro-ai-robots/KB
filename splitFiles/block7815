@@ -1,0 +1,8 @@
+(define s (WordSenseNode "apomixis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "apomixis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "asexual_reproduction%1:22:00::"))
+(InheritanceLink s (WordSenseNode "agamogenesis%1:22:00::"))
+(InheritanceLink (WordSenseNode "apogamy%1:22:00::") s)
+(InheritanceLink (WordSenseNode "parthenocarpy%1:22:00::") s)
+(InheritanceLink (WordSenseNode "parthenogenesis%1:22:00::") s)
+(InheritanceLink (WordSenseNode "parthenogeny%1:22:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "acidity%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acidity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pH%1:07:00::"))
+(InheritanceLink s (WordSenseNode "pH_scale%1:07:00::"))
+(InheritanceLink (WordSenseNode "hyperacidity%1:07:00::") s)

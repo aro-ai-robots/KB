@@ -1,0 +1,7 @@
+(define s (WordSenseNode "feast_of_sacrifice%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Id_al-Adha")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feast_day%1:28:00::"))
+(InheritanceLink s (WordSenseNode "fete_day%1:28:00::"))
+(define x (WordNode "Feast_of_Sacrifice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feast_day%1:28:00::"))
+(InheritanceLink s (WordSenseNode "fete_day%1:28:00::"))

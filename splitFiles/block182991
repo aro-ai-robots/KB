@@ -1,0 +1,7 @@
+(define s (WordSenseNode "whitewater%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_water")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foam%1:17:00::"))
+(InheritanceLink s (WordSenseNode "froth%1:17:00::"))
+(define x (WordNode "whitewater")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foam%1:17:00::"))
+(InheritanceLink s (WordSenseNode "froth%1:17:00::"))

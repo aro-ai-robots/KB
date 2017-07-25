@@ -1,0 +1,4 @@
+(define s (WordSenseNode "growing%1:22:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "growing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "production%1:04:00::"))
+(InheritanceLink (WordSenseNode "epitaxy%1:22:00::") s)

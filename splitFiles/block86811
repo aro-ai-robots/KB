@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inflaming%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inflammation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arousal%1:04:00::"))
+(InheritanceLink s (WordSenseNode "rousing%1:04:00::"))
+(define x (WordNode "inflaming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arousal%1:04:00::"))
+(InheritanceLink s (WordSenseNode "rousing%1:04:00::"))

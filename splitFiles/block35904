@@ -1,0 +1,8 @@
+(define s (WordSenseNode "condor%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "condor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "New_World_vulture%1:05:00::"))
+(InheritanceLink s (WordSenseNode "cathartid%1:05:00::"))
+(InheritanceLink (WordSenseNode "Andean_condor%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Vultur_gryphus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "California_condor%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Gymnogyps_californianus%1:05:00::") s)

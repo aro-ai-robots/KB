@@ -1,0 +1,7 @@
+(define s (WordSenseNode "predictability%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "predictability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "certainty%1:07:00::"))
+(InheritanceLink s (WordSenseNode "sure_thing%1:07:00::"))
+(InheritanceLink s (WordSenseNode "foregone_conclusion%1:07:00::"))
+(InheritanceLink (WordSenseNode "determinateness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "definiteness%1:07:00::") s)

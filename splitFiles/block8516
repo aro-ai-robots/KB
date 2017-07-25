@@ -1,0 +1,5 @@
+(define s (WordSenseNode "arcella%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arcella")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protozoan%1:05:00::"))
+(InheritanceLink s (WordSenseNode "protozoon%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Arcella%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "parlance%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parlance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formulation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "expression%1:10:01::"))
+(define x (WordNode "idiom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formulation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "expression%1:10:01::"))

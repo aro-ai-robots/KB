@@ -1,0 +1,7 @@
+(define s (WordSenseNode "corbel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "corbel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bracket%1:06:00::"))
+(InheritanceLink s (WordSenseNode "wall_bracket%1:06:00::"))
+(define x (WordNode "truss")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bracket%1:06:00::"))
+(InheritanceLink s (WordSenseNode "wall_bracket%1:06:00::"))

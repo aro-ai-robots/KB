@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flute%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flute")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "groove%1:25:00::"))
+(InheritanceLink s (WordSenseNode "channel%1:25:00::"))
+(define x (WordNode "fluting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "groove%1:25:00::"))
+(InheritanceLink s (WordSenseNode "channel%1:25:00::"))

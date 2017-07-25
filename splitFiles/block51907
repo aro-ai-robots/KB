@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ecphonesis%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ecphonesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhetorical_device%1:10:00::"))
+(define x (WordNode "exclamation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhetorical_device%1:10:00::"))

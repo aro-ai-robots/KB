@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anglicanism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Anglicanism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Protestantism%1:09:00::"))
+(InheritanceLink (WordSenseNode "Anglo-Catholicism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "High_Anglicanism%1:09:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "regret%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "regret")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refuse%2:32:00::"))
+(InheritanceLink s (WordSenseNode "decline%2:32:00::"))

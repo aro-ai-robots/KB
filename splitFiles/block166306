@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tax_evasion%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tax_evasion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evasion%1:04:02::"))
+(InheritanceLink s (WordSenseNode "nonpayment%1:04:00::"))

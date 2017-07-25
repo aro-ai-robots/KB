@@ -1,0 +1,8 @@
+(define s (WordSenseNode "unsanitariness%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unsanitariness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sanitary_condition%1:26:00::"))
+(InheritanceLink (WordSenseNode "filth%1:26:00::") s)
+(InheritanceLink (WordSenseNode "filthiness%1:26:00::") s)
+(InheritanceLink (WordSenseNode "foulness%1:26:00::") s)
+(InheritanceLink (WordSenseNode "nastiness%1:26:00::") s)
+(InheritanceLink (WordSenseNode "dunghill%1:26:00::") s)

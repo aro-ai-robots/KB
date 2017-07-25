@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spectator_pump%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spectator_pump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pump%1:06:01::"))
+(define x (WordNode "spectator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pump%1:06:01::"))

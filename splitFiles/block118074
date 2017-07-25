@@ -1,0 +1,5 @@
+(define s (WordSenseNode "osteomalacia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "osteomalacia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "malacia%1:26:00::"))
+(HolonymLink (WordSenseNode "demineralization%1:26:00::") s)
+(HolonymLink (WordSenseNode "demineralisation%1:26:00::") s)

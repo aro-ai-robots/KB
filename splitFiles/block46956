@@ -1,0 +1,5 @@
+(define s (WordSenseNode "direct_sum%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "direct_sum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "union%1:14:03::"))
+(InheritanceLink s (WordSenseNode "sum%1:14:01::"))
+(InheritanceLink s (WordSenseNode "join%1:14:00::"))

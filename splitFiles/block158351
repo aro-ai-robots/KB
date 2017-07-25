@@ -1,0 +1,7 @@
+(define s (WordSenseNode "st._lucia%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Saint_Lucia")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Saint_Lucia%1:15:00::"))
+(HolonymLink s (WordSenseNode "St._Lucia%1:15:00::"))
+(define x (WordNode "St._Lucia")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Saint_Lucia%1:15:00::"))
+(HolonymLink s (WordSenseNode "St._Lucia%1:15:00::"))

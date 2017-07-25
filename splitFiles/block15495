@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bella_sombra%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ombu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pokeweed%1:20:00::"))
+(define x (WordNode "bella_sombra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pokeweed%1:20:00::"))
+(define x (WordNode "Phytolacca_dioica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pokeweed%1:20:00::"))

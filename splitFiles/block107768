@@ -1,0 +1,7 @@
+(define s (WordSenseNode "modulation%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:10:01::"))
+(InheritanceLink s (WordSenseNode "musical_passage%1:10:00::"))
+(define x (WordNode "modulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:10:01::"))
+(InheritanceLink s (WordSenseNode "musical_passage%1:10:00::"))

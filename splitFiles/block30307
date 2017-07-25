@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chlorosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chlorosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "iron_deficiency_anemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "iron_deficiency_anaemia%1:26:00::"))
+(define x (WordNode "greensickness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "iron_deficiency_anemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "iron_deficiency_anaemia%1:26:00::"))

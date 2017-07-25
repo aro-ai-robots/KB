@@ -1,0 +1,8 @@
+(define s (WordSenseNode "moderator%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moderator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mediator%1:18:00::"))
+(InheritanceLink s (WordSenseNode "go-between%1:18:00::"))
+(InheritanceLink s (WordSenseNode "intermediator%1:18:00::"))
+(InheritanceLink s (WordSenseNode "intermediary%1:18:00::"))
+(InheritanceLink s (WordSenseNode "intercessor%1:18:00::"))
+(InheritanceLink (WordSenseNode "modifier%1:18:01::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "granuloma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "granuloma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tumor%1:26:00::"))
+(InheritanceLink s (WordSenseNode "tumour%1:26:00::"))
+(InheritanceLink s (WordSenseNode "neoplasm%1:26:00::"))
+(InheritanceLink (WordSenseNode "gumma%1:26:00::") s)

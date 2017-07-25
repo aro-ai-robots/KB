@@ -1,0 +1,5 @@
+(define s (WordSenseNode "one-night_stand%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "one-night_stand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "promiscuity%1:04:00::"))
+(InheritanceLink s (WordSenseNode "promiscuousness%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sleeping_around%1:04:00::"))

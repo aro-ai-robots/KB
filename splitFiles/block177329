@@ -1,0 +1,5 @@
+(define s (WordSenseNode "usher_out%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dismiss")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "say_farewell%2:32:00::"))
+(define x (WordNode "usher_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "say_farewell%2:32:00::"))

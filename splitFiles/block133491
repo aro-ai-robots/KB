@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pushup%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pushup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arm_exercise%1:04:00::"))
+(InheritanceLink (WordSenseNode "widegrip_pushup%1:04:00::") s)
+(define x (WordNode "press-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arm_exercise%1:04:00::"))
+(InheritanceLink (WordSenseNode "widegrip_pushup%1:04:00::") s)

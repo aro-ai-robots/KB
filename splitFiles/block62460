@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flaccid_paralysis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flaccid_paralysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nervous_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "neurological_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "neurological_disease%1:26:00::"))

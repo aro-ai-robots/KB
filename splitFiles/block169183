@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ticket_tout%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scalper%1:18:00::"))
+(define x (WordNode "ticket_tout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scalper%1:18:00::"))

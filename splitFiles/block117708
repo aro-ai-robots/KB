@@ -1,0 +1,8 @@
+(define s (WordSenseNode "originality%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "originality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ability%1:09:00::"))
+(InheritanceLink s (WordSenseNode "power%1:09:01::"))
+(InheritanceLink (WordSenseNode "innovativeness%1:09:00::") s)
+(InheritanceLink (WordSenseNode "unconventionality%1:09:00::") s)
+(InheritanceLink (WordSenseNode "novelty%1:09:00::") s)
+(InheritanceLink (WordSenseNode "freshness%1:09:00::") s)

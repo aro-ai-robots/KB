@@ -1,0 +1,7 @@
+(define s (WordSenseNode "map%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "map")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "represent%2:36:01::"))
+(InheritanceLink s (WordSenseNode "interpret%2:36:01::"))
+(InheritanceLink (WordSenseNode "chart%2:31:13::") s)
+(InheritanceLink (WordSenseNode "plat%2:31:00::") s)
+(InheritanceLink (WordSenseNode "plot%2:31:01::") s)

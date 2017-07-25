@@ -1,0 +1,5 @@
+(define s (WordSenseNode "taliban%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Taliban")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_movement%1:14:00::"))
+(define x (WordNode "Taleban")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_movement%1:14:00::"))

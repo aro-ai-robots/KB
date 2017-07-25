@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fine_structure%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fine_structure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spectrum_line%1:10:00::"))
+(HolonymLink s (WordSenseNode "atomic_spectrum%1:19:00::"))

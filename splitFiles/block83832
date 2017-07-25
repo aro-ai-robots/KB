@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hypertext_mark-up_language%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypertext_markup_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "markup_language%1:10:00::"))
+(define x (WordNode "hypertext_mark-up_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "markup_language%1:10:00::"))
+(define x (WordNode "HTML")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "markup_language%1:10:00::"))

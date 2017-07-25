@@ -1,0 +1,7 @@
+(define s (WordSenseNode "real_life%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "real_world")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "world%1:09:00::"))
+(InheritanceLink s (WordSenseNode "reality%1:09:00::"))
+(define x (WordNode "real_life")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "world%1:09:00::"))
+(InheritanceLink s (WordSenseNode "reality%1:09:00::"))

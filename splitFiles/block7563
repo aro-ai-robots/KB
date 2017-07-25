@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anvil%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anvil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "block%1:06:00::"))
+(HolonymLink s (WordSenseNode "forge%1:06:00::"))
+(HolonymLink s (WordSenseNode "smithy%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "molecular_formula%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "molecular_formula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formula%1:10:03::"))
+(InheritanceLink s (WordSenseNode "chemical_formula%1:10:00::"))
+(InheritanceLink (WordSenseNode "structural_formula%1:10:00::") s)

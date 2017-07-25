@@ -1,0 +1,7 @@
+(define s (WordSenseNode "freshwater_bass%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "freshwater_bass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bass%1:05:00::"))
+(HolonymLink s (WordSenseNode "Centrarchidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Centrarchidae%1:05:00::"))
+(HolonymLink (WordSenseNode "freshwater_bass%1:13:00::") s)
+(HolonymLink (WordSenseNode "bass%1:13:01::") s)

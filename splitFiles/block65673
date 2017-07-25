@@ -1,0 +1,8 @@
+(define s (WordSenseNode "fresnel_lens%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Fresnel_lens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lens%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lense%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lens_system%1:06:00::"))
+(HolonymLink s (WordSenseNode "headlight%1:06:00::"))
+(HolonymLink s (WordSenseNode "headlamp%1:06:00::"))
+(HolonymLink s (WordSenseNode "searchlight%1:06:00::"))

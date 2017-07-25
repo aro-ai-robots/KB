@@ -1,0 +1,5 @@
+(define s (WordSenseNode "leave_behind%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "leave_behind")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "outdistance%2:38:00::") s)
+(InheritanceLink (WordSenseNode "outstrip%2:38:00::") s)
+(InheritanceLink (WordSenseNode "distance%2:38:00::") s)

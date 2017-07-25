@@ -1,0 +1,7 @@
+(define s (WordSenseNode "counterspy%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "counterspy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spy%1:18:00::"))
+(InheritanceLink s (WordSenseNode "undercover_agent%1:18:00::"))
+(define x (WordNode "mole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spy%1:18:00::"))
+(InheritanceLink s (WordSenseNode "undercover_agent%1:18:00::"))

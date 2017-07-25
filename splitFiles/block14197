@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bat%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hit%2:35:00::"))
+(InheritanceLink (WordSenseNode "switch-hit%2:35:00::") s)

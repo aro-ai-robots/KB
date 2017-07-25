@@ -1,0 +1,5 @@
+(define s (WordSenseNode "incubation%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "incubation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phase%1:28:00::"))
+(InheritanceLink s (WordSenseNode "stage%1:28:00::"))
+(HolonymLink s (WordSenseNode "infection%1:26:00::"))

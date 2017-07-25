@@ -1,0 +1,6 @@
+(define s (WordSenseNode "aggression%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aggression")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "combat%1:04:00::"))
+(InheritanceLink s (WordSenseNode "armed_combat%1:04:00::"))
+(HolonymLink s (WordSenseNode "war%1:04:00::"))
+(HolonymLink s (WordSenseNode "warfare%1:04:00::"))

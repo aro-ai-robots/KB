@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tomato_blight%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tomato_blight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blight%1:26:01::"))
+(define x (WordNode "tomato_yellows")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blight%1:26:01::"))

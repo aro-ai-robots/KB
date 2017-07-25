@@ -1,0 +1,5 @@
+(define s (WordSenseNode "recall%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abrogation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "repeal%1:04:00::"))
+(InheritanceLink s (WordSenseNode "annulment%1:04:01::"))

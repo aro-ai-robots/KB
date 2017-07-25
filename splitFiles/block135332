@@ -1,0 +1,7 @@
+(define s (WordSenseNode "raise%2:30:13::")) (PartOfSpeechLink s verb)
+(define x (WordNode "lift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "end%2:30:01::"))
+(InheritanceLink s (WordSenseNode "terminate%2:30:01::"))
+(define x (WordNode "raise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "end%2:30:01::"))
+(InheritanceLink s (WordSenseNode "terminate%2:30:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "singlestick%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "singlestick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stick%1:06:00::"))
+(define x (WordNode "fencing_stick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stick%1:06:00::"))
+(define x (WordNode "backsword")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stick%1:06:00::"))

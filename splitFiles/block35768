@@ -1,0 +1,7 @@
+(define s (WordSenseNode "concordat%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "covenant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "written_agreement%1:10:00::"))
+(define x (WordNode "compact")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "written_agreement%1:10:00::"))
+(define x (WordNode "concordat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "written_agreement%1:10:00::"))

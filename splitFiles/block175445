@@ -1,0 +1,4 @@
+(define s (WordSenseNode "unemployed_person%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unemployed_person")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nonworker%1:18:00::"))
+(InheritanceLink (WordSenseNode "hunger_marcher%1:18:00::") s)

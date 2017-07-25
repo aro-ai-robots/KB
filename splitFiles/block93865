@@ -1,0 +1,5 @@
+(define s (WordSenseNode "l._monocytogenes%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Listeria_monocytogenes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "listeria%1:05:00::"))
+(define x (WordNode "L._monocytogenes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "listeria%1:05:00::"))

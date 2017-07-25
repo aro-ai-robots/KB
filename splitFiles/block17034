@@ -1,0 +1,3 @@
+(define s (WordSenseNode "birthday_card%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "birthday_card")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "greeting_card%1:10:00::"))

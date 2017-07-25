@@ -1,0 +1,6 @@
+(define s (WordSenseNode "myeloma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "myeloma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "malignant_tumor%1:26:00::"))
+(InheritanceLink s (WordSenseNode "malignant_neoplasm%1:26:00::"))
+(InheritanceLink s (WordSenseNode "metastatic_tumor%1:26:00::"))
+(InheritanceLink (WordSenseNode "multiple_myeloma%1:26:00::") s)

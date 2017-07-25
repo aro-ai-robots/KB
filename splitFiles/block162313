@@ -1,0 +1,7 @@
+(define s (WordSenseNode "subwoofer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subwoofer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loudspeaker%1:06:00::"))
+(InheritanceLink s (WordSenseNode "speaker%1:06:00::"))
+(InheritanceLink s (WordSenseNode "speaker_unit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "loudspeaker_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "speaker_system%1:06:00::"))

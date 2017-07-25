@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tin_hat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hard_hat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "helmet%1:06:00::"))
+(define x (WordNode "tin_hat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "helmet%1:06:00::"))
+(define x (WordNode "safety_hat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "helmet%1:06:00::"))

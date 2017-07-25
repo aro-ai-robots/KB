@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cure%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preserve%2:30:00::"))
+(InheritanceLink s (WordSenseNode "keep%2:30:10::"))
+(InheritanceLink (WordSenseNode "dun%2:30:01::") s)

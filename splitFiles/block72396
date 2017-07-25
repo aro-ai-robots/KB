@@ -1,0 +1,8 @@
+(define s (WordSenseNode "get_off%2:38:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "get_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exit%2:38:00::"))
+(InheritanceLink s (WordSenseNode "go_out%2:38:00::"))
+(InheritanceLink s (WordSenseNode "get_out%2:38:01::"))
+(InheritanceLink s (WordSenseNode "leave%2:38:00::"))
+(InheritanceLink (WordSenseNode "detrain%2:38:00::") s)
+(InheritanceLink (WordSenseNode "deplane%2:38:00::") s)

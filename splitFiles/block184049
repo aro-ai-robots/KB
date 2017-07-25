@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wipeout%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wipeout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spill%1:04:01::"))
+(InheritanceLink s (WordSenseNode "tumble%1:04:01::"))
+(InheritanceLink s (WordSenseNode "fall%1:04:01::"))

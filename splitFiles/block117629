@@ -1,0 +1,6 @@
+(define s (WordSenseNode "organized_labor%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "organized_labor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "labor%1:14:00::"))
+(InheritanceLink s (WordSenseNode "labour%1:14:00::"))
+(InheritanceLink s (WordSenseNode "working_class%1:14:00::"))
+(InheritanceLink s (WordSenseNode "proletariat%1:14:00::"))

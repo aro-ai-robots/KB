@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rag%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "break_up%2:30:00::"))
+(InheritanceLink s (WordSenseNode "fragment%2:30:00::"))
+(InheritanceLink s (WordSenseNode "fragmentize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "fragmentise%2:30:00::"))

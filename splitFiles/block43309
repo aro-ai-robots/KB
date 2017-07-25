@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dec%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "declination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angular_distance%1:25:00::"))
+(define x (WordNode "celestial_latitude")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angular_distance%1:25:00::"))
+(define x (WordNode "dec")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angular_distance%1:25:00::"))

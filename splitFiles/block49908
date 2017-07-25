@@ -1,0 +1,4 @@
+(define s (WordSenseNode "drawl%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drawl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accent%1:10:01::"))
+(InheritanceLink s (WordSenseNode "speech_pattern%1:10:00::"))

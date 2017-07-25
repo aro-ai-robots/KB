@@ -1,0 +1,5 @@
+(define s (WordSenseNode "distributor%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "allocator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "authority%1:18:01::"))
+(define x (WordNode "distributor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "authority%1:18:01::"))

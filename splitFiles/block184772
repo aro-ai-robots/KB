@@ -1,0 +1,7 @@
+(define s (WordSenseNode "work_out%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "work_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "develop%2:30:01::"))
+(InheritanceLink s (WordSenseNode "make_grow%2:30:00::"))
+(define x (WordNode "work_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "develop%2:30:01::"))
+(InheritanceLink s (WordSenseNode "make_grow%2:30:00::"))

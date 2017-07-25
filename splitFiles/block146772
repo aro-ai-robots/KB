@@ -1,0 +1,7 @@
+(define s (WordSenseNode "screen_door%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "screen_door")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "door%1:06:00::"))
+(HolonymLink (WordSenseNode "screen%1:06:00::") s)
+(define x (WordNode "screen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "door%1:06:00::"))
+(HolonymLink (WordSenseNode "screen%1:06:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "post_hoc%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "post_hoc")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logical_fallacy%1:09:00::"))
+(define x (WordNode "post_hoc_ergo_propter_hoc")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logical_fallacy%1:09:00::"))

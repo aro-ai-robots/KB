@@ -1,0 +1,5 @@
+(define s (WordSenseNode "band%1:06:05::")) (PartOfSpeechLink s noun)
+(define x (WordNode "band")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "slip%1:06:03::"))
+(InheritanceLink s (WordSenseNode "loop%1:25:00::"))

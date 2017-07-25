@@ -1,0 +1,5 @@
+(define s (WordSenseNode "callitris_cupressiformis%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Port_Jackson_pine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cypress_pine%1:20:00::"))
+(define x (WordNode "Callitris_cupressiformis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cypress_pine%1:20:00::"))

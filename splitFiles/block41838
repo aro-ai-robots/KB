@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cyme%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cyme")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflorescence%1:20:00::"))
+(InheritanceLink (WordSenseNode "cymule%1:20:00::") s)
+(InheritanceLink (WordSenseNode "glomerule%1:20:00::") s)
+(InheritanceLink (WordSenseNode "scorpioid_cyme%1:20:00::") s)

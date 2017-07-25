@@ -1,0 +1,8 @@
+(define s (WordSenseNode "convent%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "convent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_residence%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cloister%1:06:00::"))
+(InheritanceLink (WordSenseNode "abbey%1:06:01::") s)
+(InheritanceLink (WordSenseNode "nunnery%1:06:00::") s)
+(HolonymLink (WordSenseNode "cell%1:06:02::") s)
+(HolonymLink (WordSenseNode "cubicle%1:06:02::") s)

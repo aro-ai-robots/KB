@@ -1,0 +1,7 @@
+(define s (WordSenseNode "seat%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "seat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "supply%2:40:00::"))
+(InheritanceLink s (WordSenseNode "provide%2:40:00::"))
+(InheritanceLink s (WordSenseNode "render%2:40:02::"))
+(InheritanceLink s (WordSenseNode "furnish%2:40:00::"))
+(InheritanceLink (WordSenseNode "reseat%2:40:01::") s)

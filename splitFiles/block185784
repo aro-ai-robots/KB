@@ -1,0 +1,7 @@
+(define s (WordSenseNode "yellow_marrow%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yellow_marrow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "marrow%1:08:00::"))
+(InheritanceLink s (WordSenseNode "bone_marrow%1:08:00::"))
+(define x (WordNode "yellow_bone_marrow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "marrow%1:08:00::"))
+(InheritanceLink s (WordSenseNode "bone_marrow%1:08:00::"))

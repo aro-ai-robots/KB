@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hall%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "building%1:06:00::"))
+(InheritanceLink s (WordSenseNode "edifice%1:06:00::"))
+(InheritanceLink (WordSenseNode "city_hall%1:06:00::") s)
+(InheritanceLink (WordSenseNode "guildhall%1:06:00::") s)
+(InheritanceLink (WordSenseNode "lyceum%1:06:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dustpan%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dustpan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))
+(define x (WordNode "dustpanful")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))

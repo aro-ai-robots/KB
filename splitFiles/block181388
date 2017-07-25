@@ -1,0 +1,5 @@
+(define s (WordSenseNode "water_skin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "waterskin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skin%1:06:02::"))
+(define x (WordNode "water_skin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skin%1:06:02::"))

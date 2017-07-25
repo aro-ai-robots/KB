@@ -1,0 +1,5 @@
+(define s (WordSenseNode "power_meter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electric_meter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meter%1:06:00::"))
+(define x (WordNode "power_meter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meter%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "angiotensin_i%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "angiotensin_I")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angiotensin%1:06:00::"))
+(InheritanceLink s (WordSenseNode "angiotonin%1:06:00::"))
+(InheritanceLink s (WordSenseNode "Hypertensin%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "enjambement%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enjambment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prosody%1:10:00::"))
+(InheritanceLink s (WordSenseNode "inflection%1:10:00::"))
+(define x (WordNode "enjambement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prosody%1:10:00::"))
+(InheritanceLink s (WordSenseNode "inflection%1:10:00::"))

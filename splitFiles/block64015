@@ -1,0 +1,7 @@
+(define s (WordSenseNode "foot%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "foot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "add%2:31:00::"))
+(InheritanceLink s (WordSenseNode "add_together%2:31:00::"))
+(define x (WordNode "foot_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "add%2:31:00::"))
+(InheritanceLink s (WordSenseNode "add_together%2:31:00::"))

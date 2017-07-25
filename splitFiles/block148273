@@ -1,0 +1,8 @@
+(define s (WordSenseNode "semester%1:28:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "semester")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "school_term%1:28:00::"))
+(InheritanceLink s (WordSenseNode "academic_term%1:28:00::"))
+(InheritanceLink s (WordSenseNode "academic_session%1:28:00::"))
+(InheritanceLink s (WordSenseNode "session%1:28:00::"))
+(HolonymLink s (WordSenseNode "school_year%1:28:00::"))
+(HolonymLink s (WordSenseNode "academic_year%1:28:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "park%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "park")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gear%1:06:04::"))
+(InheritanceLink s (WordSenseNode "gear_mechanism%1:06:00::"))

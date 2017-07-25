@@ -1,0 +1,6 @@
+(define s (WordSenseNode "gulf_of_guinea%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Gulf_of_Guinea")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Atlantic%1:17:00::"))
+(HolonymLink s (WordSenseNode "Atlantic_Ocean%1:17:00::"))
+(HolonymLink (WordSenseNode "Bioko%1:15:00::") s)
+(HolonymLink (WordSenseNode "Bight_of_Benin%1:17:00::") s)

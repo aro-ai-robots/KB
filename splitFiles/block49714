@@ -1,0 +1,4 @@
+(define s (WordSenseNode "drain_basket%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drain_basket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "filter%1:06:00::"))
+(HolonymLink s (WordSenseNode "sink%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "air_bladder%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "air_bladder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sac%1:08:00::"))
+(define x (WordNode "swim_bladder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sac%1:08:00::"))
+(define x (WordNode "float")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sac%1:08:00::"))

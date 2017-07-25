@@ -1,0 +1,7 @@
+(define s (WordSenseNode "word_deafness%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "auditory_aphasia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aphasia%1:26:00::"))
+(define x (WordNode "acoustic_aphasia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aphasia%1:26:00::"))
+(define x (WordNode "word_deafness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aphasia%1:26:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "myometrium%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "myometrium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "smooth_muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "involuntary_muscle%1:08:00::"))
+(HolonymLink s (WordSenseNode "uterus%1:08:00::"))
+(HolonymLink s (WordSenseNode "womb%1:08:00::"))

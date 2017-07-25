@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cracker%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cracker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "programmer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "computer_programmer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "coder%1:18:00::"))
+(InheritanceLink s (WordSenseNode "software_engineer%1:18:00::"))

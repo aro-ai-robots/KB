@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dump%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "copy%1:10:01::"))
+(InheritanceLink s (WordSenseNode "written_matter%1:10:00::"))
+(InheritanceLink (WordSenseNode "core_dump%1:10:00::") s)

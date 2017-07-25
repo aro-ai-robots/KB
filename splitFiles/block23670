@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cage%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confine%2:41:00::"))
+(InheritanceLink s (WordSenseNode "detain%2:41:00::"))
+(define x (WordNode "cage_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confine%2:41:00::"))
+(InheritanceLink s (WordSenseNode "detain%2:41:00::"))

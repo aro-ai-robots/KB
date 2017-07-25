@@ -1,0 +1,5 @@
+(define s (WordSenseNode "butanol%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "butyl_alcohol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alcohol%1:27:00::"))
+(define x (WordNode "butanol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alcohol%1:27:00::"))

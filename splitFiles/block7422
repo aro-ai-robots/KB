@@ -1,0 +1,4 @@
+(define s (WordSenseNode "antiphrasis%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antiphrasis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhetorical_device%1:10:00::"))
+(HolonymLink s (WordSenseNode "irony%1:10:00::"))

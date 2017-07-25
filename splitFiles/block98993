@@ -1,0 +1,7 @@
+(define s (WordSenseNode "locust%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "locust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "short-horned_grasshopper%1:05:00::"))
+(InheritanceLink s (WordSenseNode "acridid%1:05:00::"))
+(InheritanceLink (WordSenseNode "migratory_locust%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Locusta_migratoria%1:05:00::") s)
+(InheritanceLink (WordSenseNode "migratory_grasshopper%1:05:00::") s)

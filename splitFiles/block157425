@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spodoptera_exigua%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Spodoptera_exigua")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "noctuid_moth%1:05:00::"))
+(InheritanceLink s (WordSenseNode "noctuid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "owlet_moth%1:05:00::"))
+(HolonymLink s (WordSenseNode "Spodoptera%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Spodoptera%1:05:00::"))

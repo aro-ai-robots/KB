@@ -1,0 +1,5 @@
+(define s (WordSenseNode "confederate_flag%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Stars_and_Bars")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flag%1:06:00::"))
+(define x (WordNode "Confederate_flag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flag%1:06:00::"))

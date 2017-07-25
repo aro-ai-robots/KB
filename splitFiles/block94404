@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lame%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cripple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maim%2:29:00::"))
+(InheritanceLink (WordSenseNode "hamstring%2:29:00::") s)
+(define x (WordNode "lame")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maim%2:29:00::"))
+(InheritanceLink (WordSenseNode "hamstring%2:29:00::") s)

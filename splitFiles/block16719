@@ -1,0 +1,5 @@
+(define s (WordSenseNode "binder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "binder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ligament%1:06:00::"))
+(define x (WordNode "ligature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ligament%1:06:00::"))

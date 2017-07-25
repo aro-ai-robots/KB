@@ -1,0 +1,7 @@
+(define s (WordSenseNode "drinking_vessel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drinking_vessel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vessel%1:06:01::"))
+(InheritanceLink (WordSenseNode "loving_cup%1:06:01::") s)
+(InheritanceLink (WordSenseNode "mug%1:06:00::") s)
+(InheritanceLink (WordSenseNode "stoup%1:06:02::") s)
+(InheritanceLink (WordSenseNode "tankard%1:06:00::") s)

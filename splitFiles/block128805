@@ -1,0 +1,7 @@
+(define s (WordSenseNode "post-maturity%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "post-maturity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maturity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "matureness%1:26:00::"))
+(define x (WordNode "post-menopause")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maturity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "matureness%1:26:00::"))

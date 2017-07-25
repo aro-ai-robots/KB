@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_borrelia%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Borrelia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Treponemataceae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Treponemataceae%1:05:00::"))
+(HolonymLink (WordSenseNode "borrelia%1:05:00::") s)
+(HolonymLink (WordSenseNode "Borrelia_burgdorferi%1:05:00::") s)
+(HolonymLink (WordSenseNode "Lime_disease_spirochete%1:05:00::") s)

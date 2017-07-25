@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tra-la-la%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tra-la")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refrain%1:10:00::"))
+(InheritanceLink s (WordSenseNode "chorus%1:10:00::"))
+(define x (WordNode "tra-la-la")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refrain%1:10:00::"))
+(InheritanceLink s (WordSenseNode "chorus%1:10:00::"))

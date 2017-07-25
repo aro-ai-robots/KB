@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stock_car%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stock_car")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "racer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "race_car%1:06:00::"))
+(InheritanceLink s (WordSenseNode "racing_car%1:06:00::"))

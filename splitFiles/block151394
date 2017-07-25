@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sidereal_hour%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sidereal_hour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hour%1:28:00::"))
+(InheritanceLink s (WordSenseNode "hr%1:28:00::"))
+(InheritanceLink s (WordSenseNode "60_minutes%1:28:00::"))
+(InheritanceLink s (WordSenseNode "sidereal_time%1:28:00::"))

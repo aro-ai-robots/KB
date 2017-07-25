@@ -1,0 +1,5 @@
+(define s (WordSenseNode "enzyme-linked-immunosorbent_serologic_assay%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enzyme-linked-immunosorbent_serologic_assay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assay%1:04:00::"))
+(define x (WordNode "ELISA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assay%1:04:00::"))

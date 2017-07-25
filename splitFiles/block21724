@@ -1,0 +1,7 @@
+(define s (WordSenseNode "brownshirt%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Brownshirt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Nazi%1:18:00::"))
+(InheritanceLink s (WordSenseNode "German_Nazi%1:18:00::"))
+(HolonymLink s (WordSenseNode "SA%1:14:00::"))
+(HolonymLink s (WordSenseNode "Sturmabteilung%1:14:00::"))
+(HolonymLink s (WordSenseNode "Storm_Troops%1:14:00::"))

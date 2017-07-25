@@ -1,0 +1,8 @@
+(define s (WordSenseNode "button%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "button")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fastener%1:06:00::"))
+(InheritanceLink s (WordSenseNode "fastening%1:06:00::"))
+(InheritanceLink s (WordSenseNode "holdfast%1:06:00::"))
+(InheritanceLink s (WordSenseNode "fixing%1:06:00::"))
+(InheritanceLink (WordSenseNode "coat_button%1:06:00::") s)
+(InheritanceLink (WordSenseNode "shirt_button%1:06:00::") s)

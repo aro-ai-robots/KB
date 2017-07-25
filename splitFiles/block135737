@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rappel%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rappel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "descent%1:04:00::"))
+(define x (WordNode "abseil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "descent%1:04:00::"))

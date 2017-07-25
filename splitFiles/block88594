@@ -1,0 +1,5 @@
+(define s (WordSenseNode "invasion%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "invasion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "penetration%1:04:00::"))
+(InheritanceLink s (WordSenseNode "incursion%1:04:00::"))
+(InheritanceLink (WordSenseNode "inroad%1:04:00::") s)

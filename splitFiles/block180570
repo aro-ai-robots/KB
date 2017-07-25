@@ -1,0 +1,7 @@
+(define s (WordSenseNode "walker%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "walker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))
+(define x (WordNode "baby-walker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))
+(define x (WordNode "go-cart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))

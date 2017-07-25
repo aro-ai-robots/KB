@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spelling_checker%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spell-checker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dictionary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lexicon%1:10:00::"))
+(define x (WordNode "spelling_checker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dictionary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lexicon%1:10:00::"))

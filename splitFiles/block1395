@@ -1,0 +1,7 @@
+(define s (WordSenseNode "acid-base_equilibrium%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acid-base_equilibrium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_equilibrium%1:22:00::"))
+(InheritanceLink s (WordSenseNode "equilibrium%1:22:00::"))
+(define x (WordNode "acid-base_balance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_equilibrium%1:22:00::"))
+(InheritanceLink s (WordSenseNode "equilibrium%1:22:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "drip_feed%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drip_feed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "administration%1:04:01::"))
+(InheritanceLink s (WordSenseNode "giving_medication%1:04:00::"))

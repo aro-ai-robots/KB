@@ -1,0 +1,7 @@
+(define s (WordSenseNode "circulating_library%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lending_library")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "library%1:06:00::"))
+(InheritanceLink s (WordSenseNode "depository_library%1:06:00::"))
+(define x (WordNode "circulating_library")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "library%1:06:00::"))
+(InheritanceLink s (WordSenseNode "depository_library%1:06:00::"))

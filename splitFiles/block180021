@@ -1,0 +1,7 @@
+(define s (WordSenseNode "volatility%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "volatility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irresoluteness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "irresolution%1:07:00::"))
+(define x (WordNode "unpredictability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irresoluteness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "irresolution%1:07:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "white_pages%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_pages")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phonebook%1:10:00::"))
+(InheritanceLink s (WordSenseNode "phone_book%1:10:00::"))
+(InheritanceLink s (WordSenseNode "telephone_book%1:10:00::"))
+(InheritanceLink s (WordSenseNode "telephone_directory%1:10:00::"))

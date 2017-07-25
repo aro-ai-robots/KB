@@ -1,0 +1,6 @@
+(define s (WordSenseNode "headband%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "headband")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:06:00::"))
+(InheritanceLink (WordSenseNode "taenia%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tenia%1:06:00::") s)
+(InheritanceLink (WordSenseNode "fillet%1:06:00::") s)

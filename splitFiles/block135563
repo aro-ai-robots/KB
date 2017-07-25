@@ -1,0 +1,5 @@
+(define s (WordSenseNode "random_sample%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "random_sample")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sample_distribution%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sample%1:09:01::"))
+(InheritanceLink s (WordSenseNode "sampling%1:09:00::"))

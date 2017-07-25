@@ -1,0 +1,4 @@
+(define s (WordSenseNode "die%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "die")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shaping_tool%1:06:00::"))
+(InheritanceLink (WordSenseNode "stamp%1:06:02::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pamlico%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pamlico")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Algonquian%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Algonquin%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Algonquian_language%1:10:00::"))

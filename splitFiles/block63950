@@ -1,0 +1,5 @@
+(define s (WordSenseNode "food_chain%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "food_chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_phenomenon%1:19:00::"))
+(HolonymLink s (WordSenseNode "food_web%1:19:00::"))
+(HolonymLink s (WordSenseNode "food_cycle%1:19:00::"))

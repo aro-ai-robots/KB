@@ -1,0 +1,7 @@
+(define s (WordSenseNode "venae_cerebrum_inferior%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inferior_cerebral_vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cerebral_vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena_cerebri%1:08:00::"))
+(define x (WordNode "venae_cerebrum_inferior")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cerebral_vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena_cerebri%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "boilers_suit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "overall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coverall%1:06:02::"))
+(define x (WordNode "boilersuit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coverall%1:06:02::"))
+(define x (WordNode "boilers_suit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coverall%1:06:02::"))

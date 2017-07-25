@@ -1,0 +1,4 @@
+(define s (WordSenseNode "overbid%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overbid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bid%2:40:01::"))
+(InheritanceLink s (WordSenseNode "call%2:40:05::"))

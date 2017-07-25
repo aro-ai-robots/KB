@@ -1,0 +1,7 @@
+(define s (WordSenseNode "follow%2:36:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "play_along")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "play%2:36:12::"))
+(define x (WordNode "accompany")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "play%2:36:12::"))
+(define x (WordNode "follow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "play%2:36:12::"))

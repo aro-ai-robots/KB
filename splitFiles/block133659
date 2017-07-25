@@ -1,0 +1,5 @@
+(define s (WordSenseNode "px%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "post_exchange")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commissary%1:06:00::"))
+(define x (WordNode "PX")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commissary%1:06:00::"))

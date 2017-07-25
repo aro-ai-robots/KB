@@ -1,0 +1,8 @@
+(define s (WordSenseNode "north_dravidian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "North_Dravidian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Dravidian%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Dravidic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Dravidian_language%1:10:00::"))
+(InheritanceLink (WordSenseNode "Kurux%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Malto%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Brahui%1:10:00::") s)

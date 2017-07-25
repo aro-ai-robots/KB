@@ -1,0 +1,7 @@
+(define s (WordSenseNode "earflap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "earflap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flap%1:06:00::"))
+(HolonymLink s (WordSenseNode "cap%1:06:00::"))
+(define x (WordNode "earlap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flap%1:06:00::"))
+(HolonymLink s (WordSenseNode "cap%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "air_mass%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "air_mass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atmosphere%1:26:00::"))
+(InheritanceLink s (WordSenseNode "atmospheric_state%1:26:00::"))
+(InheritanceLink (WordSenseNode "high%1:26:00::") s)
+(InheritanceLink (WordSenseNode "low%1:26:00::") s)
+(InheritanceLink (WordSenseNode "depression%1:26:01::") s)

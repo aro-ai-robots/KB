@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gentrify%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "gentrify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refurbish%2:30:00::"))
+(InheritanceLink s (WordSenseNode "renovate%2:30:01::"))
+(InheritanceLink s (WordSenseNode "freshen_up%2:30:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "medical_institution%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "medical_institution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "institution%1:14:00::"))
+(InheritanceLink s (WordSenseNode "establishment%1:14:00::"))
+(InheritanceLink (WordSenseNode "clinic%1:14:00::") s)
+(InheritanceLink (WordSenseNode "extended_care_facility%1:14:00::") s)
+(InheritanceLink (WordSenseNode "hospital%1:14:00::") s)

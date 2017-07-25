@@ -1,0 +1,7 @@
+(define s (WordSenseNode "itchy_feet%1:16:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wanderlust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "urge%1:16:00::"))
+(InheritanceLink s (WordSenseNode "impulse%1:16:00::"))
+(define x (WordNode "itchy_feet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "urge%1:16:00::"))
+(InheritanceLink s (WordSenseNode "impulse%1:16:00::"))

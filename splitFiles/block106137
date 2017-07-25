@@ -1,0 +1,4 @@
+(define s (WordSenseNode "microscopic_field%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "microscopic_field")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "field%1:09:01::"))
+(InheritanceLink s (WordSenseNode "field_of_view%1:09:00::"))

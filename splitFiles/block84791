@@ -1,0 +1,6 @@
+(define s (WordSenseNode "imitation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "imitation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "copying%1:04:00::"))
+(InheritanceLink (WordSenseNode "echo%1:04:00::") s)
+(InheritanceLink (WordSenseNode "emulation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "mimicry%1:04:01::") s)

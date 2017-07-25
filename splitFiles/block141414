@@ -1,0 +1,7 @@
+(define s (WordSenseNode "roadside%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wayside")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edge%1:06:01::"))
+(HolonymLink s (WordSenseNode "way%1:06:00::"))
+(define x (WordNode "roadside")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edge%1:06:01::"))
+(HolonymLink s (WordSenseNode "way%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hunter-gatherer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hunter-gatherer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "savage%1:18:00::"))
+(InheritanceLink s (WordSenseNode "barbarian%1:18:00::"))
+(HolonymLink s (WordSenseNode "hunting_and_gathering_tribe%1:14:00::"))
+(HolonymLink s (WordSenseNode "hunting_and_gathering_society%1:14:00::"))

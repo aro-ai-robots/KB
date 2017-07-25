@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trouser_clip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bicycle_clip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clip%1:06:01::"))
+(define x (WordNode "trouser_clip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clip%1:06:01::"))

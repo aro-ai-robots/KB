@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dime_novel%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dime_novel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "novel%1:10:00::"))
+(define x (WordNode "penny_dreadful")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "novel%1:10:00::"))

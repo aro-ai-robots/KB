@@ -1,0 +1,5 @@
+(define s (WordSenseNode "buckyball%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "buckminsterfullerene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fullerene%1:27:00::"))
+(define x (WordNode "buckyball")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fullerene%1:27:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spectacled_caiman%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spectacled_caiman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caiman%1:05:00::"))
+(InheritanceLink s (WordSenseNode "cayman%1:05:00::"))
+(define x (WordNode "Caiman_sclerops")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caiman%1:05:00::"))
+(InheritanceLink s (WordSenseNode "cayman%1:05:00::"))

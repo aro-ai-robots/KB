@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rampage%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rampage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%2:41:00::"))
+(InheritanceLink s (WordSenseNode "move%2:41:00::"))
+(InheritanceLink (WordSenseNode "riot%2:41:00::") s)

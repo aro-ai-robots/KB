@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stamping_machine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stamping_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_tool%1:06:00::"))
+(define x (WordNode "stamper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_tool%1:06:00::"))

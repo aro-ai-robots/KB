@@ -1,0 +1,4 @@
+(define s (WordSenseNode "wasp_waist%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wasp_waist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "waist%1:08:00::"))
+(InheritanceLink s (WordSenseNode "waistline%1:08:00::"))

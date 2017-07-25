@@ -1,0 +1,4 @@
+(define s (WordSenseNode "target_cell%1:08:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "target_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "somatic_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vegetative_cell%1:08:00::"))

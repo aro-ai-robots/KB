@@ -1,0 +1,5 @@
+(define s (WordSenseNode "caseworm%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caseworm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "larva%1:05:00::"))
+(InheritanceLink (WordSenseNode "caddisworm%1:05:00::") s)
+(InheritanceLink (WordSenseNode "strawworm%1:05:02::") s)

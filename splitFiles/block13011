@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ballistic_missile%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ballistic_missile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "missile%1:06:01::"))
+(InheritanceLink (WordSenseNode "intercontinental_ballistic_missile%1:06:00::") s)
+(InheritanceLink (WordSenseNode "ICBM%1:06:00::") s)

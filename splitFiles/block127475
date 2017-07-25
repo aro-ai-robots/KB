@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pointedness%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pointedness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "directness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "straightness%1:07:03::"))

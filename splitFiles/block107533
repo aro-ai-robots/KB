@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mmpi%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Minnesota_Multiphasic_Personality_Inventory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "self-report_personality_inventory%1:10:00::"))
+(InheritanceLink s (WordSenseNode "self-report_inventory%1:10:00::"))
+(define x (WordNode "MMPI")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "self-report_personality_inventory%1:10:00::"))
+(InheritanceLink s (WordSenseNode "self-report_inventory%1:10:00::"))

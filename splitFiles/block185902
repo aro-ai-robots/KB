@@ -1,0 +1,6 @@
+(define s (WordSenseNode "yes-no_question%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yes-no_question")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "question%1:10:03::"))
+(InheritanceLink s (WordSenseNode "interrogation%1:10:01::"))
+(InheritanceLink s (WordSenseNode "interrogative%1:10:00::"))
+(InheritanceLink s (WordSenseNode "interrogative_sentence%1:10:00::"))

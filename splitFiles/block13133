@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ban%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ban")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Romanian_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "leu%1:23:00::"))

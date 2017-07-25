@@ -1,0 +1,6 @@
+(define s (WordSenseNode "suspend%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "suspend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:01::"))
+(InheritanceLink s (WordSenseNode "alter%2:30:01::"))
+(InheritanceLink s (WordSenseNode "modify%2:30:10::"))
+(InheritanceLink (WordSenseNode "resuspend%2:30:00::") s)

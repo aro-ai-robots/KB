@@ -1,0 +1,4 @@
+(define s (WordSenseNode "vice_chancellor%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vice_chancellor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "administrator%1:18:00::"))
+(InheritanceLink s (WordSenseNode "decision_maker%1:18:00::"))

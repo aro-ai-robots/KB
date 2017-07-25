@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cycling%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cycling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sport%1:04:00::"))
+(InheritanceLink s (WordSenseNode "athletics%1:04:00::"))
+(InheritanceLink (WordSenseNode "bicycling%1:04:00::") s)
+(InheritanceLink (WordSenseNode "motorcycling%1:04:01::") s)
+(InheritanceLink (WordSenseNode "dune_cycling%1:04:00::") s)

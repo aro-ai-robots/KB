@@ -1,0 +1,7 @@
+(define s (WordSenseNode "relationship%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "relationship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))
+(InheritanceLink (WordSenseNode "anaclisis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "love_affair%1:26:00::") s)
+(InheritanceLink (WordSenseNode "romance%1:26:00::") s)
+(InheritanceLink (WordSenseNode "sexual_relationship%1:26:00::") s)

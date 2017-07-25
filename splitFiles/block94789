@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lapel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lapel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lap%1:06:00::"))
+(InheritanceLink s (WordSenseNode "overlap%1:06:00::"))
+(InheritanceLink (WordSenseNode "revers%1:06:00::") s)
+(InheritanceLink (WordSenseNode "revere%1:06:00::") s)

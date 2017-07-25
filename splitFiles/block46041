@@ -1,0 +1,5 @@
+(define s (WordSenseNode "diaphragm%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diaphragm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disk%1:06:00::"))
+(InheritanceLink s (WordSenseNode "disc%1:06:00::"))
+(HolonymLink s (WordSenseNode "electro-acoustic_transducer%1:06:00::"))

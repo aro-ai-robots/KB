@@ -1,0 +1,7 @@
+(define s (WordSenseNode "warrant%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "justify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confirm%2:32:00::"))
+(InheritanceLink s (WordSenseNode "reassert%2:32:00::"))
+(define x (WordNode "warrant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confirm%2:32:00::"))
+(InheritanceLink s (WordSenseNode "reassert%2:32:00::"))

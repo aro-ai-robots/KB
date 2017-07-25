@@ -1,0 +1,5 @@
+(define s (WordSenseNode "patronym%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "patronymic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "name%1:10:00::"))
+(define x (WordNode "patronym")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "name%1:10:00::"))

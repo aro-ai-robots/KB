@@ -1,0 +1,7 @@
+(define s (WordSenseNode "turfan%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Turfan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tocharian%1:10:00::"))
+(define x (WordNode "East_Tocharian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tocharian%1:10:00::"))
+(define x (WordNode "Turfan_dialect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tocharian%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scenic_railway%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scenic_railway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "railway%1:06:00::"))
+(InheritanceLink s (WordSenseNode "railroad%1:06:00::"))
+(InheritanceLink s (WordSenseNode "railroad_line%1:06:00::"))
+(InheritanceLink s (WordSenseNode "railway_line%1:06:01::"))
+(InheritanceLink s (WordSenseNode "railway_system%1:06:00::"))

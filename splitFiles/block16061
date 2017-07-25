@@ -1,0 +1,7 @@
+(define s (WordSenseNode "best_seller%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "best_seller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trade_book%1:10:00::"))
+(InheritanceLink s (WordSenseNode "trade_edition%1:10:00::"))
+(define x (WordNode "bestseller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trade_book%1:10:00::"))
+(InheritanceLink s (WordSenseNode "trade_edition%1:10:00::"))

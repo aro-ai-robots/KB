@@ -1,0 +1,5 @@
+(define s (WordSenseNode "joy%2:37:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "gladden")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "overjoy%2:37:00::") s)
+(define x (WordNode "joy")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "overjoy%2:37:00::") s)

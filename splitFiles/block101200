@@ -1,0 +1,5 @@
+(define s (WordSenseNode "magnetic_equator%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aclinic_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:00::"))
+(define x (WordNode "magnetic_equator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:00::"))

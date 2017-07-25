@@ -1,0 +1,5 @@
+(define s (WordSenseNode "synapsis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "synapsis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "biological_process%1:22:00::"))
+(HolonymLink s (WordSenseNode "leptotene%1:22:00::"))

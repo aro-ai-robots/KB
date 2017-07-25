@@ -1,0 +1,5 @@
+(define s (WordSenseNode "oxidation_state%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oxidation_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:23:00::"))
+(define x (WordNode "oxidation_state")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:23:00::"))

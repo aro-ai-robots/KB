@@ -1,0 +1,7 @@
+(define s (WordSenseNode "combination%1:14:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "combination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alliance%1:14:00::"))
+(InheritanceLink s (WordSenseNode "coalition%1:14:00::"))
+(InheritanceLink s (WordSenseNode "alignment%1:14:00::"))
+(InheritanceLink s (WordSenseNode "alinement%1:14:00::"))
+(InheritanceLink (WordSenseNode "combination_in_restraint_of_trade%1:14:00::") s)

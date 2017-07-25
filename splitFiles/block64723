@@ -1,0 +1,7 @@
+(define s (WordSenseNode "forward_passer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "passer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ball_carrier%1:18:00::"))
+(InheritanceLink s (WordSenseNode "runner%1:18:05::"))
+(define x (WordNode "forward_passer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ball_carrier%1:18:00::"))
+(InheritanceLink s (WordSenseNode "runner%1:18:05::"))

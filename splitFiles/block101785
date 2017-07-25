@@ -1,0 +1,7 @@
+(define s (WordSenseNode "malaria%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "malaria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protozoal_infection%1:26:00::"))
+(InheritanceLink (WordSenseNode "blackwater_fever%1:26:00::") s)
+(InheritanceLink (WordSenseNode "jungle_fever%1:26:00::") s)
+(HolonymLink (WordSenseNode "ague%1:26:01::") s)
+(HolonymLink (WordSenseNode "chills_and_fever%1:26:00::") s)

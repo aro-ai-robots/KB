@@ -1,0 +1,7 @@
+(define s (WordSenseNode "plank%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "policy%1:10:00::"))
+(HolonymLink s (WordSenseNode "platform%1:10:00::"))
+(HolonymLink s (WordSenseNode "political_platform%1:10:00::"))
+(HolonymLink s (WordSenseNode "political_program%1:10:00::"))
+(HolonymLink s (WordSenseNode "program%1:10:04::"))

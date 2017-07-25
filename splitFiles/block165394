@@ -1,0 +1,7 @@
+(define s (WordSenseNode "take_over%2:41:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "repeat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%2:41:00::"))
+(InheritanceLink s (WordSenseNode "move%2:41:00::"))
+(define x (WordNode "take_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%2:41:00::"))
+(InheritanceLink s (WordSenseNode "move%2:41:00::"))

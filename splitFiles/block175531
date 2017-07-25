@@ -1,0 +1,6 @@
+(define s (WordSenseNode "unfasten%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unfasten")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "undo%2:35:00::"))
+(InheritanceLink (WordSenseNode "unchain%2:35:00::") s)
+(InheritanceLink (WordSenseNode "unzip%2:35:00::") s)
+(InheritanceLink (WordSenseNode "unbend%2:35:01::") s)

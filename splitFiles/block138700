@@ -1,0 +1,4 @@
+(define s (WordSenseNode "reorient%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reorient")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turn%2:38:02::"))
+(InheritanceLink (WordSenseNode "tip%2:38:02::") s)

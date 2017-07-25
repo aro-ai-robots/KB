@@ -1,0 +1,4 @@
+(define s (WordSenseNode "beckman_thermometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Beckman_thermometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mercury_thermometer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mercury-in-glass_thermometer%1:06:00::"))

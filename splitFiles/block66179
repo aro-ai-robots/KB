@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fuel%2:40:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fuel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "take_in%2:35:02::"))
+(InheritanceLink s (WordSenseNode "take_up%2:35:01::"))
+(InheritanceLink (WordSenseNode "refuel%2:40:00::") s)

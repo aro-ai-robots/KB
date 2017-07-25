@@ -1,0 +1,5 @@
+(define s (WordSenseNode "economics_profession%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "economics_profession")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "profession%1:14:00::"))
+(HolonymLink (WordSenseNode "economist%1:18:00::") s)
+(HolonymLink (WordSenseNode "economic_expert%1:18:00::") s)

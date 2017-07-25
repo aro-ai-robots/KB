@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tertiary_syphilis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tertiary_syphilis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "syphilis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "syph%1:26:00::"))
+(InheritanceLink s (WordSenseNode "pox%1:26:01::"))
+(InheritanceLink s (WordSenseNode "lues_venerea%1:26:00::"))
+(InheritanceLink s (WordSenseNode "lues%1:26:00::"))

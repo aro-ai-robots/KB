@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chloasma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chloasma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))
+(define x (WordNode "melasma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))
+(define x (WordNode "mask_of_pregnancy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))

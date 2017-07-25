@@ -1,0 +1,4 @@
+(define s (WordSenseNode "subcontract%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "subcontract")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%2:41:00::"))
+(InheritanceLink s (WordSenseNode "do_work%2:41:00::"))

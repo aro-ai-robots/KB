@@ -1,0 +1,4 @@
+(define s (WordSenseNode "molecular_genetics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "molecular_genetics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "genetics%1:09:00::"))
+(InheritanceLink s (WordSenseNode "genetic_science%1:09:00::"))

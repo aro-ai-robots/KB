@@ -1,0 +1,6 @@
+(define s (WordSenseNode "reye's_syndrome%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Reye's_syndrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brain_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "encephalopathy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "brain_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "syndrome%1:26:00::"))

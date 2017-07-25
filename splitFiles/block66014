@@ -1,0 +1,7 @@
+(define s (WordSenseNode "frost_over%2:43:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ice_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "frost_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "ice_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))

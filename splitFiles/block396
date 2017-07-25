@@ -1,0 +1,5 @@
+(define s (WordSenseNode "abfarad%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "abfarad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capacitance_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "farad%1:23:00::") s)
+(HolonymLink (WordSenseNode "F%1:23:00::") s)

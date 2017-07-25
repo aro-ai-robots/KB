@@ -1,0 +1,7 @@
+(define s (WordSenseNode "disintegrate%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "disintegrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_integrity%2:30:00::"))
+(define x (WordNode "decay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_integrity%2:30:00::"))
+(define x (WordNode "decompose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_integrity%2:30:00::"))

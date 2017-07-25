@@ -1,0 +1,4 @@
+(define s (WordSenseNode "marker%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "marker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing_implement%1:06:00::"))
+(InheritanceLink (WordSenseNode "highlighter%1:06:00::") s)

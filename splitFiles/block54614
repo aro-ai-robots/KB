@@ -1,0 +1,4 @@
+(define s (WordSenseNode "environmentalism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "environmentalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preservation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "saving%1:04:01::"))

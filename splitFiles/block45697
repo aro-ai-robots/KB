@@ -1,0 +1,7 @@
+(define s (WordSenseNode "developmentally_challenged%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mentally_retarded")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "people%1:14:00::"))
+(define x (WordNode "retarded")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "people%1:14:00::"))
+(define x (WordNode "developmentally_challenged")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "people%1:14:00::"))

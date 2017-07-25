@@ -1,0 +1,5 @@
+(define s (WordSenseNode "corpus_callosum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "corpus_callosum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commissure%1:08:00::"))
+(HolonymLink s (WordSenseNode "forebrain%1:08:00::"))
+(HolonymLink s (WordSenseNode "prosencephalon%1:08:00::"))

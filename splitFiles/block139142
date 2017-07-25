@@ -1,0 +1,4 @@
+(define s (WordSenseNode "requiem%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Requiem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mass%1:10:00::"))
+(HolonymLink s (WordSenseNode "Requiem%1:04:00::"))

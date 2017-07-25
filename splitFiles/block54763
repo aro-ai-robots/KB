@@ -1,0 +1,6 @@
+(define s (WordSenseNode "epidendron%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epidendron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orchid%1:20:00::"))
+(InheritanceLink s (WordSenseNode "orchidaceous_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "Epidendrum%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Epidendrum%1:20:00::"))

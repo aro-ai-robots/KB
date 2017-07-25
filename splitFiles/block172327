@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tribromoethyl_alcohol%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tribromoethanol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intravenous_anesthetic%1:06:00::"))
+(define x (WordNode "tribromoethyl_alcohol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intravenous_anesthetic%1:06:00::"))

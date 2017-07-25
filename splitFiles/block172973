@@ -1,0 +1,7 @@
+(define s (WordSenseNode "truce%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "armistice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "peace%1:26:00::"))
+(define x (WordNode "cease-fire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "peace%1:26:00::"))
+(define x (WordNode "truce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "peace%1:26:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bridge_hand%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bridge_hand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand%1:14:00::"))
+(InheritanceLink s (WordSenseNode "deal%1:14:00::"))
+(InheritanceLink (WordSenseNode "chicane%1:14:00::") s)
+(HolonymLink (WordSenseNode "strong_suit%1:14:00::") s)

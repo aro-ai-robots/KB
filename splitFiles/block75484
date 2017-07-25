@@ -1,0 +1,6 @@
+(define s (WordSenseNode "greeneye%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "greeneye")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soft-finned_fish%1:05:00::"))
+(InheritanceLink s (WordSenseNode "malacopterygian%1:05:00::"))
+(HolonymLink s (WordSenseNode "Chlorophthalmidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Chlorophthalmidae%1:05:00::"))

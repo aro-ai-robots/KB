@@ -1,0 +1,7 @@
+(define s (WordSenseNode "least_squares%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "least_squares")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statistical_method%1:09:00::"))
+(InheritanceLink s (WordSenseNode "statistical_procedure%1:09:00::"))
+(define x (WordNode "method_of_least_squares")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statistical_method%1:09:00::"))
+(InheritanceLink s (WordSenseNode "statistical_procedure%1:09:00::"))

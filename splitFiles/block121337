@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pasta%1:13:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pasta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dish%1:13:00::"))
+(InheritanceLink (WordSenseNode "spaghetti%1:13:01::") s)
+(InheritanceLink (WordSenseNode "cannelloni%1:13:00::") s)
+(InheritanceLink (WordSenseNode "lasagna%1:13:02::") s)
+(InheritanceLink (WordSenseNode "lasagne%1:13:02::") s)
+(InheritanceLink (WordSenseNode "macaroni_and_cheese%1:13:00::") s)

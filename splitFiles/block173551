@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tunica_conjunctiva_palpebrarum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "palpebra_conjunctiva")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conjunctiva%1:08:00::"))
+(define x (WordNode "conjunctival_layer_of_eyelids")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conjunctiva%1:08:00::"))
+(define x (WordNode "tunica_conjunctiva_palpebrarum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conjunctiva%1:08:00::"))

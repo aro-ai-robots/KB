@@ -1,0 +1,5 @@
+(define s (WordSenseNode "map_maker%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cartographer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geographer%1:18:00::"))
+(define x (WordNode "map_maker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geographer%1:18:00::"))

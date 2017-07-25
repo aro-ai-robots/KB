@@ -1,0 +1,7 @@
+(define s (WordSenseNode "subsidence%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "settling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sinking%1:11:00::"))
+(define x (WordNode "subsiding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sinking%1:11:00::"))
+(define x (WordNode "subsidence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sinking%1:11:00::"))

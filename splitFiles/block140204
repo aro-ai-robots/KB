@@ -1,0 +1,5 @@
+(define s (WordSenseNode "revolver%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "revolving_door")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "door%1:06:00::"))
+(define x (WordNode "revolver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "door%1:06:00::"))

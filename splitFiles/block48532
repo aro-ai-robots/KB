@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dock%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "withhold%2:40:01::"))
+(InheritanceLink s (WordSenseNode "deduct%2:40:00::"))
+(InheritanceLink s (WordSenseNode "recoup%2:40:01::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hyoscyamine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hyoscyamine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alkaloid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "poison%1:27:00::"))
+(InheritanceLink s (WordSenseNode "toxicant%1:27:00::"))
+(InheritanceLink s (WordSenseNode "poisonous_substance%1:27:00::"))

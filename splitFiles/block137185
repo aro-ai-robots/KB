@@ -1,0 +1,8 @@
+(define s (WordSenseNode "red_herring%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "red_herring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diversion%1:04:01::"))
+(InheritanceLink s (WordSenseNode "deviation%1:04:01::"))
+(InheritanceLink s (WordSenseNode "digression%1:04:00::"))
+(InheritanceLink s (WordSenseNode "deflection%1:04:00::"))
+(InheritanceLink s (WordSenseNode "deflexion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "divagation%1:04:00::"))

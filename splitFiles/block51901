@@ -1,0 +1,4 @@
+(define s (WordSenseNode "economy_of_scale%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "economy_of_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "economy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "saving%1:04:00::"))

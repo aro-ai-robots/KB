@@ -1,0 +1,4 @@
+(define s (WordSenseNode "individualism%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "individualism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "belief%1:09:00::"))
+(InheritanceLink (WordSenseNode "rugged_individualism%1:09:00::") s)

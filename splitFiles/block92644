@@ -1,0 +1,4 @@
+(define s (WordSenseNode "keycard%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "keycard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card%1:10:01::"))
+(InheritanceLink s (WordSenseNode "identity_card%1:10:00::"))

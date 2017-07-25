@@ -1,0 +1,7 @@
+(define s (WordSenseNode "patron%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "patron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "owner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "proprietor%1:18:00::"))
+(InheritanceLink (WordSenseNode "host%1:18:00::") s)
+(InheritanceLink (WordSenseNode "innkeeper%1:18:00::") s)
+(InheritanceLink (WordSenseNode "boniface%1:18:01::") s)

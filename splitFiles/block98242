@@ -1,0 +1,8 @@
+(define s (WordSenseNode "liquefaction%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "liquefaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phase_change%1:22:00::"))
+(InheritanceLink s (WordSenseNode "phase_transition%1:22:00::"))
+(InheritanceLink s (WordSenseNode "state_change%1:22:00::"))
+(InheritanceLink s (WordSenseNode "physical_change%1:22:00::"))
+(InheritanceLink (WordSenseNode "dissolving%1:22:00::") s)
+(InheritanceLink (WordSenseNode "dissolution%1:22:01::") s)

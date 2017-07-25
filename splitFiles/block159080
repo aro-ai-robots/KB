@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stasis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stasis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inaction%1:26:00::"))
+(InheritanceLink s (WordSenseNode "inactivity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "inactiveness%1:26:00::"))

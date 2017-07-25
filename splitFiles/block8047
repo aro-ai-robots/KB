@@ -1,0 +1,7 @@
+(define s (WordSenseNode "applied_anatomy%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clinical_anatomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anatomy%1:09:00::"))
+(InheritanceLink s (WordSenseNode "general_anatomy%1:09:00::"))
+(define x (WordNode "applied_anatomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anatomy%1:09:00::"))
+(InheritanceLink s (WordSenseNode "general_anatomy%1:09:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sphyrna_tudes%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "smalleye_hammerhead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hammerhead%1:05:00::"))
+(InheritanceLink s (WordSenseNode "hammerhead_shark%1:05:00::"))
+(define x (WordNode "Sphyrna_tudes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hammerhead%1:05:00::"))
+(InheritanceLink s (WordSenseNode "hammerhead_shark%1:05:00::"))

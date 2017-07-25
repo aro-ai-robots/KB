@@ -1,0 +1,4 @@
+(define s (WordSenseNode "short_saphenous_vein%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "short_saphenous_vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saphenous_vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena_saphena%1:08:00::"))

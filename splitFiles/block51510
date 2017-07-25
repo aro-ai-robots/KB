@@ -1,0 +1,4 @@
+(define s (WordSenseNode "east-west_direction%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "east-west_direction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "direction%1:15:00::"))
+(InheritanceLink s (WordSenseNode "way%1:15:00::"))

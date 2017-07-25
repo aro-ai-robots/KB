@@ -1,0 +1,4 @@
+(define s (WordSenseNode "jazz_age%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Jazz_Age")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "historic_period%1:28:00::"))
+(InheritanceLink s (WordSenseNode "age%1:28:02::"))

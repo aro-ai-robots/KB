@@ -1,0 +1,7 @@
+(define s (WordSenseNode "texas_bluebonnet%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Texas_bluebonnet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lupine%1:20:00::"))
+(InheritanceLink s (WordSenseNode "lupin%1:20:00::"))
+(define x (WordNode "Lupinus_texensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lupine%1:20:00::"))
+(InheritanceLink s (WordSenseNode "lupin%1:20:00::"))

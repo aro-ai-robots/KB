@@ -1,0 +1,8 @@
+(define s (WordSenseNode "brazilwood%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brazilwood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wood%1:27:00::"))
+(HolonymLink s (WordSenseNode "brazilwood%1:20:00::"))
+(HolonymLink s (WordSenseNode "peachwood%1:20:00::"))
+(HolonymLink s (WordSenseNode "peach-wood%1:20:00::"))
+(HolonymLink s (WordSenseNode "pernambuco_wood%1:20:00::"))
+(HolonymLink s (WordSenseNode "Caesalpinia_echinata%1:20:00::"))

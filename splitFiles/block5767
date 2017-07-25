@@ -1,0 +1,5 @@
+(define s (WordSenseNode "amplitude_level%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amplitude_level")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "degree%1:07:00::"))
+(InheritanceLink s (WordSenseNode "grade%1:07:00::"))
+(InheritanceLink s (WordSenseNode "level%1:07:00::"))

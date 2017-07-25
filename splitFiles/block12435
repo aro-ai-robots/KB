@@ -1,0 +1,4 @@
+(define s (WordSenseNode "backgrounder%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "backgrounder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "press_conference%1:10:00::"))
+(InheritanceLink s (WordSenseNode "news_conference%1:10:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "german_monetary_unit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "German_monetary_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monetary_unit%1:23:00::"))
+(InheritanceLink (WordSenseNode "mark%1:23:00::") s)
+(InheritanceLink (WordSenseNode "German_mark%1:23:00::") s)
+(InheritanceLink (WordSenseNode "Deutsche_Mark%1:23:00::") s)
+(InheritanceLink (WordSenseNode "Deutschmark%1:23:00::") s)
+(InheritanceLink (WordSenseNode "pfennig%1:23:00::") s)

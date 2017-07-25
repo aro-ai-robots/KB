@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sex_chromatin%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sex_chromatin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chromatin%1:08:00::"))
+(InheritanceLink s (WordSenseNode "chromatin_granule%1:08:00::"))

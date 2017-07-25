@@ -1,0 +1,4 @@
+(define s (WordSenseNode "strategic_warning%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strategic_warning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warning%1:10:00::"))
+(InheritanceLink (WordSenseNode "warning_of_war%1:10:00::") s)

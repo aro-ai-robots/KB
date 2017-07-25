@@ -1,0 +1,7 @@
+(define s (WordSenseNode "still%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "still")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "apparatus%1:06:00::"))
+(InheritanceLink s (WordSenseNode "setup%1:06:00::"))
+(InheritanceLink (WordSenseNode "Coffey_still%1:06:00::") s)
+(HolonymLink (WordSenseNode "condenser%1:06:03::") s)
+(HolonymLink (WordSenseNode "retort%1:06:00::") s)

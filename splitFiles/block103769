@@ -1,0 +1,5 @@
+(define s (WordSenseNode "material_resource%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "material_resource")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assets%1:21:00::"))
+(InheritanceLink (WordSenseNode "wealth%1:21:02::") s)
+(InheritanceLink (WordSenseNode "riches%1:21:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "angulation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "angulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "measurement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "measuring%1:04:00::"))
+(InheritanceLink s (WordSenseNode "measure%1:04:00::"))
+(InheritanceLink s (WordSenseNode "mensuration%1:04:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "liquidizer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blender")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mixer%1:06:00::"))
+(define x (WordNode "liquidizer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mixer%1:06:00::"))
+(define x (WordNode "liquidiser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mixer%1:06:00::"))

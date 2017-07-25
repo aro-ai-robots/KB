@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fibrillation%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fibrillation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "twitch%1:26:00::"))
+(InheritanceLink s (WordSenseNode "twitching%1:26:00::"))
+(InheritanceLink s (WordSenseNode "vellication%1:26:00::"))
+(InheritanceLink (WordSenseNode "atrial_fibrillation%1:26:00::") s)
+(InheritanceLink (WordSenseNode "ventricular_fibrillation%1:26:00::") s)

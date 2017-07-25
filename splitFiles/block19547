@@ -1,0 +1,7 @@
+(define s (WordSenseNode "border%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "border")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edge%1:06:01::"))
+(InheritanceLink (WordSenseNode "edging%1:06:00::") s)
+(InheritanceLink (WordSenseNode "selvage%1:06:01::") s)
+(InheritanceLink (WordSenseNode "selvedge%1:06:01::") s)
+(InheritanceLink (WordSenseNode "verge%1:06:00::") s)

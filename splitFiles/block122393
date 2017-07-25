@@ -1,0 +1,5 @@
+(define s (WordSenseNode "penalty_box%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "penalty_box")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bench%1:06:00::"))
+(HolonymLink s (WordSenseNode "ice_hockey_rink%1:06:00::"))
+(HolonymLink s (WordSenseNode "ice-hockey_rink%1:06:00::"))

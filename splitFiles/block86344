@@ -1,0 +1,4 @@
+(define s (WordSenseNode "indirect_discourse%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "indirect_discourse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "report%1:10:01::"))
+(InheritanceLink s (WordSenseNode "account%1:10:05::"))

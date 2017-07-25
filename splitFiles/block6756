@@ -1,0 +1,4 @@
+(define s (WordSenseNode "anna%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Pakistani_monetary_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "Indian_monetary_unit%1:23:00::"))

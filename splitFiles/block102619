@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mao%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monoamine_oxidase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enzyme%1:27:00::"))
+(define x (WordNode "MAO")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enzyme%1:27:00::"))

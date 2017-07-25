@@ -1,0 +1,7 @@
+(define s (WordSenseNode "whizzbang%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "whizbang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shell%1:06:00::"))
+(define x (WordNode "whizzbang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shell%1:06:00::"))
+(define x (WordNode "whizbang_shell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shell%1:06:00::"))

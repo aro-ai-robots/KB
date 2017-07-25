@@ -1,0 +1,7 @@
+(define s (WordSenseNode "whisk%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "whisk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wipe%2:35:00::"))
+(InheritanceLink s (WordSenseNode "pass_over%2:35:00::"))
+(define x (WordNode "whisk_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wipe%2:35:00::"))
+(InheritanceLink s (WordSenseNode "pass_over%2:35:00::"))

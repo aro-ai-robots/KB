@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_trichodesmium%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Trichodesmium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Oscillatoriaceae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Oscillatoriaceae%1:05:00::"))
+(HolonymLink (WordSenseNode "trichodesmium%1:05:00::") s)

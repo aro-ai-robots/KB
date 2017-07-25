@@ -1,0 +1,5 @@
+(define s (WordSenseNode "paste-up%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paste-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "composition%1:06:00::"))
+(InheritanceLink (WordSenseNode "collage%1:06:00::") s)
+(InheritanceLink (WordSenseNode "montage%1:06:00::") s)

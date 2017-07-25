@@ -1,0 +1,6 @@
+(define s (WordSenseNode "shower%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plumbing_fixture%1:06:00::"))
+(HolonymLink s (WordSenseNode "shower_stall%1:06:00::"))
+(HolonymLink s (WordSenseNode "shower_bath%1:06:00::"))
+(HolonymLink (WordSenseNode "showerhead%1:06:00::") s)

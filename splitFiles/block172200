@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trentino-alto_adige%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Trentino-Alto_Adige")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Italy%1:15:00::"))
+(HolonymLink s (WordSenseNode "Italian_Republic%1:15:00::"))
+(HolonymLink s (WordSenseNode "Italia%1:15:00::"))
+(HolonymLink (WordSenseNode "Trento%1:15:00::") s)
+(HolonymLink (WordSenseNode "Trent%1:15:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "contest%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "contest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "competition%1:04:00::"))
+(InheritanceLink s (WordSenseNode "contention%1:04:00::"))
+(InheritanceLink s (WordSenseNode "rivalry%1:04:00::"))
+(InheritanceLink (WordSenseNode "battle_of_wits%1:04:00::") s)
+(InheritanceLink (WordSenseNode "bidding_contest%1:04:00::") s)
+(InheritanceLink (WordSenseNode "popularity_contest%1:04:00::") s)

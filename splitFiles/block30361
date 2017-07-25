@@ -1,0 +1,6 @@
+(define s (WordSenseNode "choir%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "choir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:06:00::"))
+(HolonymLink s (WordSenseNode "chancel%1:06:00::"))
+(HolonymLink s (WordSenseNode "sanctuary%1:06:00::"))
+(HolonymLink s (WordSenseNode "bema%1:06:00::"))

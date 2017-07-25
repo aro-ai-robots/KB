@@ -1,0 +1,5 @@
+(define s (WordSenseNode "acousticophobia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phonophobia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "simple_phobia%1:26:00::"))
+(define x (WordNode "acousticophobia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "simple_phobia%1:26:00::"))

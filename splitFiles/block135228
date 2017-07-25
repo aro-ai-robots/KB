@@ -1,0 +1,4 @@
+(define s (WordSenseNode "railhead%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "railhead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "end%1:15:00::"))
+(InheritanceLink s (WordSenseNode "terminal%1:15:00::"))

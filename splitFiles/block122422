@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pendulum_clock%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pendulum_clock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clock%1:06:00::"))
+(InheritanceLink (WordSenseNode "grandfather_clock%1:06:00::") s)
+(InheritanceLink (WordSenseNode "longcase_clock%1:06:00::") s)

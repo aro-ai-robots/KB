@@ -1,0 +1,5 @@
+(define s (WordSenseNode "recitative%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recitative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:10:01::"))
+(InheritanceLink s (WordSenseNode "musical_passage%1:10:00::"))
+(InheritanceLink (WordSenseNode "arioso%1:10:00::") s)

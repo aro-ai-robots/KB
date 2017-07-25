@@ -1,0 +1,7 @@
+(define s (WordSenseNode "intimacy%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "closeness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "belonging%1:12:00::"))
+(InheritanceLink (WordSenseNode "togetherness%1:12:00::") s)
+(define x (WordNode "intimacy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "belonging%1:12:00::"))
+(InheritanceLink (WordSenseNode "togetherness%1:12:00::") s)

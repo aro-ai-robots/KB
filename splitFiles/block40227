@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cross-link%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cross-link")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_bond%1:19:00::"))
+(InheritanceLink s (WordSenseNode "bond%1:19:00::"))
+(define x (WordNode "cross-linkage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_bond%1:19:00::"))
+(InheritanceLink s (WordSenseNode "bond%1:19:00::"))

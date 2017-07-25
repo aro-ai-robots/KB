@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fixation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "obsession")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preoccupation%1:09:02::"))
+(define x (WordNode "fixation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preoccupation%1:09:02::"))

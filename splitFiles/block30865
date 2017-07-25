@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chukchi%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Chukchi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tongue%1:10:00::"))
+(define x (WordNode "Chukchi_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tongue%1:10:00::"))

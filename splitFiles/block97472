@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lighten%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "relieve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mitigate%2:30:04::"))
+(define x (WordNode "lighten")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mitigate%2:30:04::"))

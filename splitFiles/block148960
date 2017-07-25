@@ -1,0 +1,5 @@
+(define s (WordSenseNode "serratia_marcescens%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Serratia_marcescens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_species%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Serratia%1:05:00::"))
+(HolonymLink s (WordSenseNode "Serratia%1:05:00::"))

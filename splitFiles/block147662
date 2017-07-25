@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sector%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_memory_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "block%1:23:00::"))
+(HolonymLink s (WordSenseNode "allocation_unit%1:23:00::"))

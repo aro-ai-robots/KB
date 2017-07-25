@@ -1,0 +1,7 @@
+(define s (WordSenseNode "leicestershire%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Leicestershire")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "England%1:15:00::"))
+(HolonymLink (WordSenseNode "Leicester%1:15:00::") s)
+(define x (WordNode "Leicester")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "England%1:15:00::"))
+(HolonymLink (WordSenseNode "Leicester%1:15:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pistol_grip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pistol_grip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stock%1:06:02::"))
+(InheritanceLink s (WordSenseNode "gunstock%1:06:00::"))

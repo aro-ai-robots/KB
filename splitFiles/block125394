@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pinger%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pinger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pulse_generator%1:06:00::"))
+(HolonymLink s (WordSenseNode "sonar%1:06:00::"))
+(HolonymLink s (WordSenseNode "echo_sounder%1:06:00::"))
+(HolonymLink s (WordSenseNode "asdic%1:06:00::"))

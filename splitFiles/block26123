@@ -1,0 +1,7 @@
+(define s (WordSenseNode "carolina_buckthorn%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Carolina_buckthorn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buckthorn%1:20:02::"))
+(define x (WordNode "indian_cherry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buckthorn%1:20:02::"))
+(define x (WordNode "Rhamnus_carolinianus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buckthorn%1:20:02::"))

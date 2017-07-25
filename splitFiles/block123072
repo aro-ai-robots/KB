@@ -1,0 +1,5 @@
+(define s (WordSenseNode "perishableness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "perishability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unsatisfactoriness%1:07:00::"))
+(define x (WordNode "perishableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unsatisfactoriness%1:07:00::"))

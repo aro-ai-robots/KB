@@ -1,0 +1,5 @@
+(define s (WordSenseNode "punks%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "punks")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "youth_subculture%1:14:00::"))
+(HolonymLink (WordSenseNode "punk_rocker%1:18:00::") s)
+(HolonymLink (WordSenseNode "punk%1:18:02::") s)

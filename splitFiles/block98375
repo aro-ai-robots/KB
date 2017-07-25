@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lit_crit%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "literary_criticism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_study%1:09:00::"))
+(define x (WordNode "lit_crit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_study%1:09:00::"))

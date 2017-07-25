@@ -1,0 +1,7 @@
+(define s (WordSenseNode "operation_code%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "operation_code")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "code%1:10:02::"))
+(InheritanceLink s (WordSenseNode "computer_code%1:10:00::"))
+(define x (WordNode "order_code")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "code%1:10:02::"))
+(InheritanceLink s (WordSenseNode "computer_code%1:10:00::"))

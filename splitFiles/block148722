@@ -1,0 +1,8 @@
+(define s (WordSenseNode "septation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "septation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "division%1:04:02::"))
+(InheritanceLink s (WordSenseNode "partition%1:04:00::"))
+(InheritanceLink s (WordSenseNode "partitioning%1:04:00::"))
+(InheritanceLink s (WordSenseNode "segmentation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sectionalization%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sectionalisation%1:04:00::"))

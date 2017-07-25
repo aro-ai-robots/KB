@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subornation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subornation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "provocation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "incitement%1:10:01::"))
+(InheritanceLink (WordSenseNode "subornation_of_perjury%1:10:00::") s)

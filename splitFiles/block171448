@@ -1,0 +1,8 @@
+(define s (WordSenseNode "transact%2:40:14::")) (PartOfSpeechLink s verb)
+(define x (WordNode "transact")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interact%2:41:00::"))
+(InheritanceLink (WordSenseNode "deal%2:40:00::") s)
+(InheritanceLink (WordSenseNode "sell%2:40:01::") s)
+(InheritanceLink (WordSenseNode "trade%2:40:11::") s)
+(InheritanceLink (WordSenseNode "turn_over%2:40:01::") s)
+(InheritanceLink (WordSenseNode "bank%2:40:02::") s)

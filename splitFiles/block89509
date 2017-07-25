@@ -1,0 +1,7 @@
+(define s (WordSenseNode "italian_lira%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lira")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Italian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centesimo%1:23:00::") s)
+(define x (WordNode "Italian_lira")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Italian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centesimo%1:23:00::") s)

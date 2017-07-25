@@ -1,0 +1,5 @@
+(define s (WordSenseNode "precipice%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "precipice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cliff%1:17:00::"))
+(InheritanceLink s (WordSenseNode "drop%1:17:00::"))
+(InheritanceLink s (WordSenseNode "drop-off%1:17:00::"))

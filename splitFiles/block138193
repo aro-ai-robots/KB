@@ -1,0 +1,5 @@
+(define s (WordSenseNode "relative_molecular_mass%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "molecular_weight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mass%1:07:00::"))
+(define x (WordNode "relative_molecular_mass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mass%1:07:00::"))

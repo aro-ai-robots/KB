@@ -1,0 +1,7 @@
+(define s (WordSenseNode "world_wide_web%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "World_Wide_Web")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_network%1:06:00::"))
+(define x (WordNode "WWW")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_network%1:06:00::"))
+(define x (WordNode "web")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_network%1:06:00::"))

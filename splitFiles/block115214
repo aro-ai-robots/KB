@@ -1,0 +1,5 @@
+(define s (WordSenseNode "occult%2:39:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "eclipse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "overshadow%2:39:00::"))
+(define x (WordNode "occult")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "overshadow%2:39:00::"))

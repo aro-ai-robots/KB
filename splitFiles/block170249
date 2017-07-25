@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tomentum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tomentum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capillary%1:08:00::"))
+(InheritanceLink s (WordSenseNode "capillary_vessel%1:08:00::"))
+(define x (WordNode "tomentum_cerebri")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capillary%1:08:00::"))
+(InheritanceLink s (WordSenseNode "capillary_vessel%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cotilion%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cotillion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ball%1:11:00::"))
+(InheritanceLink s (WordSenseNode "formal%1:11:00::"))
+(define x (WordNode "cotilion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ball%1:11:00::"))
+(InheritanceLink s (WordSenseNode "formal%1:11:00::"))

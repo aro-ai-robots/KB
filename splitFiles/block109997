@@ -1,0 +1,5 @@
+(define s (WordSenseNode "murphy's_law%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Murphy's_Law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gnome%1:10:00::"))
+(define x (WordNode "Sod's_Law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gnome%1:10:00::"))

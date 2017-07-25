@@ -1,0 +1,3 @@
+(define s (WordSenseNode "major_lobe%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "major_lobe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lobe%1:10:00::"))

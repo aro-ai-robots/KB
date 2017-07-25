@@ -1,0 +1,7 @@
+(define s (WordSenseNode "medicaid_funds%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Medicaid_funds")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "funds%1:21:00::"))
+(InheritanceLink s (WordSenseNode "finances%1:21:00::"))
+(InheritanceLink s (WordSenseNode "monetary_resource%1:21:00::"))
+(InheritanceLink s (WordSenseNode "cash_in_hand%1:21:00::"))
+(InheritanceLink s (WordSenseNode "pecuniary_resource%1:21:00::"))

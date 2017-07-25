@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anaglyph%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anaglyph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glyptic_art%1:06:00::"))
+(InheritanceLink s (WordSenseNode "glyptography%1:06:00::"))
+(InheritanceLink (WordSenseNode "cameo%1:06:00::") s)

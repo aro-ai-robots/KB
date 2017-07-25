@@ -1,0 +1,7 @@
+(define s (WordSenseNode "snatch%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kidnapping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capture%1:04:01::"))
+(InheritanceLink s (WordSenseNode "seizure%1:04:02::"))
+(define x (WordNode "snatch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capture%1:04:01::"))
+(InheritanceLink s (WordSenseNode "seizure%1:04:02::"))

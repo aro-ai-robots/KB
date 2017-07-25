@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lift%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "layer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bed%1:06:04::"))
+(InheritanceLink (WordSenseNode "top_lift%1:06:00::") s)
+(HolonymLink s (WordSenseNode "heel%1:06:00::"))

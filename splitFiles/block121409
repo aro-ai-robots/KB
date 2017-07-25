@@ -1,0 +1,7 @@
+(define s (WordSenseNode "patagonia%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Patagonia")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Argentina%1:15:00::"))
+(HolonymLink s (WordSenseNode "Argentine_Republic%1:15:00::"))
+(HolonymLink s (WordSenseNode "Chile%1:15:00::"))
+(HolonymLink s (WordSenseNode "Republic_of_Chile%1:15:00::"))
+(HolonymLink (WordSenseNode "Patagonian_Desert%1:15:00::") s)

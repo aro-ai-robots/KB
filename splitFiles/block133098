@@ -1,0 +1,7 @@
+(define s (WordSenseNode "punctuate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "punctuate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "add%2:30:00::"))
+(InheritanceLink (WordSenseNode "quote%2:32:07::") s)
+(define x (WordNode "mark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "add%2:30:00::"))
+(InheritanceLink (WordSenseNode "quote%2:32:07::") s)

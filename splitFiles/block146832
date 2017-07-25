@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scribbler%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scribe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "journalist%1:18:00::"))
+(define x (WordNode "scribbler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "journalist%1:18:00::"))
+(define x (WordNode "penman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "journalist%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_astilbe%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Astilbe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rosid_dicot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Saxifragaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Saxifragaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "saxifrage_family%1:20:00::"))
+(HolonymLink (WordSenseNode "astilbe%1:20:00::") s)

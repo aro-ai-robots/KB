@@ -1,0 +1,4 @@
+(define s (WordSenseNode "collation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "collation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "comparison%1:04:00::"))
+(InheritanceLink s (WordSenseNode "comparing%1:04:00::"))

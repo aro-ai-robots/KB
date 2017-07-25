@@ -1,0 +1,7 @@
+(define s (WordSenseNode "non-cash_expense%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "non-cash_expense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expense%1:21:00::"))
+(InheritanceLink s (WordSenseNode "disbursal%1:21:00::"))
+(InheritanceLink s (WordSenseNode "disbursement%1:21:00::"))
+(InheritanceLink (WordSenseNode "depreciation%1:21:00::") s)
+(InheritanceLink (WordSenseNode "wear_and_tear%1:21:00::") s)

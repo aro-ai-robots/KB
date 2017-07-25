@@ -1,0 +1,6 @@
+(define s (WordSenseNode "conversion%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conversion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "score%1:04:00::"))
+(InheritanceLink (WordSenseNode "point_after%1:04:00::") s)
+(InheritanceLink (WordSenseNode "point_after_touchdown%1:04:00::") s)
+(InheritanceLink (WordSenseNode "extra_point%1:04:00::") s)

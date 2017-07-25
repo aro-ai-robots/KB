@@ -1,0 +1,5 @@
+(define s (WordSenseNode "end%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "end")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lineman%1:18:00::"))
+(InheritanceLink (WordSenseNode "split_end%1:18:00::") s)
+(InheritanceLink (WordSenseNode "tight_end%1:18:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "separation%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interval")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distance%1:07:00::"))
+(InheritanceLink (WordSenseNode "clearance%1:07:00::") s)
+(define x (WordNode "separation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distance%1:07:00::"))
+(InheritanceLink (WordSenseNode "clearance%1:07:00::") s)

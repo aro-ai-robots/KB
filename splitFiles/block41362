@@ -1,0 +1,6 @@
+(define s (WordSenseNode "curvilinear_regression%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "curvilinear_regression")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "regression%1:09:00::"))
+(InheritanceLink s (WordSenseNode "simple_regression%1:09:00::"))
+(InheritanceLink s (WordSenseNode "regression_toward_the_mean%1:09:00::"))
+(InheritanceLink s (WordSenseNode "statistical_regression%1:09:00::"))

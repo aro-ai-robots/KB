@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chino%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chino")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trouser%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pant%1:06:00::"))
+(HolonymLink (WordSenseNode "chino%1:06:00::") s)

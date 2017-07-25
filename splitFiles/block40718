@@ -1,0 +1,5 @@
+(define s (WordSenseNode "crystal_gazing%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crystal_gazing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prophecy%1:09:00::"))
+(InheritanceLink s (WordSenseNode "prognostication%1:09:00::"))
+(InheritanceLink s (WordSenseNode "vaticination%1:09:00::"))

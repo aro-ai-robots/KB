@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cladogram%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cladogram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tree%1:25:00::"))
+(InheritanceLink s (WordSenseNode "tree_diagram%1:25:00::"))

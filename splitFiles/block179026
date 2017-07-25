@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vibrio_fetus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Vibrio_fetus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vibrio%1:05:00::"))
+(InheritanceLink s (WordSenseNode "vibrion%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Vibrio%1:05:00::"))

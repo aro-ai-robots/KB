@@ -1,0 +1,4 @@
+(define s (WordSenseNode "deny%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deny")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "withhold%2:40:00::"))
+(InheritanceLink s (WordSenseNode "keep_back%2:40:00::"))

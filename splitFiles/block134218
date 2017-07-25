@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quartz_battery%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quartz_battery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stamp_mill%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stamping_mill%1:06:00::"))
+(define x (WordNode "quartz_mill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stamp_mill%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stamping_mill%1:06:00::"))

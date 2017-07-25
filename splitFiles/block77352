@@ -1,0 +1,5 @@
+(define s (WordSenseNode "half-intensity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "half-intensity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intensity%1:07:03::"))
+(InheritanceLink s (WordSenseNode "strength%1:07:04::"))
+(InheritanceLink s (WordSenseNode "intensity_level%1:07:00::"))

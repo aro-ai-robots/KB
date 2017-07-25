@@ -1,0 +1,7 @@
+(define s (WordSenseNode "angina%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "angina_pectoris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heart_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "cardiopathy%1:26:00::"))
+(define x (WordNode "angina")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heart_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "cardiopathy%1:26:00::"))

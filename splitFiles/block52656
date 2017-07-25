@@ -1,0 +1,5 @@
+(define s (WordSenseNode "elder_hand%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eldest_hand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card_player%1:18:00::"))
+(define x (WordNode "elder_hand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card_player%1:18:00::"))

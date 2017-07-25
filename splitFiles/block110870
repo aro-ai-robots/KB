@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nail_removal%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nail_pulling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "torture%1:04:00::"))
+(InheritanceLink s (WordSenseNode "torturing%1:04:00::"))
+(define x (WordNode "nail_removal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "torture%1:04:00::"))
+(InheritanceLink s (WordSenseNode "torturing%1:04:00::"))

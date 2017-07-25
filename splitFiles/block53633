@@ -1,0 +1,7 @@
+(define s (WordSenseNode "empty_tomb%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cenotaph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "memorial%1:06:00::"))
+(InheritanceLink s (WordSenseNode "monument%1:06:00::"))
+(define x (WordNode "empty_tomb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "memorial%1:06:00::"))
+(InheritanceLink s (WordSenseNode "monument%1:06:00::"))

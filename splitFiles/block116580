@@ -1,0 +1,7 @@
+(define s (WordSenseNode "opener%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "opener")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand_tool%1:06:00::"))
+(InheritanceLink (WordSenseNode "bottle_opener%1:06:00::") s)
+(InheritanceLink (WordSenseNode "can_opener%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tin_opener%1:06:00::") s)
+(InheritanceLink (WordSenseNode "latchstring%1:06:00::") s)

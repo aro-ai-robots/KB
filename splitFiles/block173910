@@ -1,0 +1,7 @@
+(define s (WordSenseNode "turnround%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "turnaround")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preparation%1:04:02::"))
+(InheritanceLink s (WordSenseNode "readying%1:04:00::"))
+(define x (WordNode "turnround")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preparation%1:04:02::"))
+(InheritanceLink s (WordSenseNode "readying%1:04:00::"))

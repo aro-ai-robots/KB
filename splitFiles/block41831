@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cyma_reversa%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ogee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyma%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cymatium%1:06:00::"))
+(define x (WordNode "cyma_reversa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyma%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cymatium%1:06:00::"))

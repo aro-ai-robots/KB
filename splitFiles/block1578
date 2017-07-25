@@ -1,0 +1,5 @@
+(define s (WordSenseNode "acris_gryllus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eastern_cricket_frog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cricket_frog%1:05:00::"))
+(define x (WordNode "Acris_gryllus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cricket_frog%1:05:00::"))

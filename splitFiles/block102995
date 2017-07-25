@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mark%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "notice")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "take_notice%2:39:00::") s)
+(define x (WordNode "mark")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "take_notice%2:39:00::") s)
+(define x (WordNode "note")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "take_notice%2:39:00::") s)

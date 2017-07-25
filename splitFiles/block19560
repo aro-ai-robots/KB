@@ -1,0 +1,4 @@
+(define s (WordSenseNode "border_patrol%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "border_patrol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "patrol%1:14:01::"))
+(HolonymLink (WordSenseNode "border_patrolman%1:18:00::") s)

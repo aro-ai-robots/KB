@@ -1,0 +1,7 @@
+(define s (WordSenseNode "proxy%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "proxy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:18:02::"))
+(define x (WordNode "placeholder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:18:02::"))
+(define x (WordNode "procurator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:18:02::"))

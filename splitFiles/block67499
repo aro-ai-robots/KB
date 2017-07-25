@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gas_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gas_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "facility%1:06:00::"))
+(InheritanceLink s (WordSenseNode "installation%1:06:00::"))
+(HolonymLink s (WordSenseNode "infrastructure%1:06:00::"))
+(HolonymLink s (WordSenseNode "base%1:06:06::"))
+(HolonymLink (WordSenseNode "gas_main%1:06:00::") s)

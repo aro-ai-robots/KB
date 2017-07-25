@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stevia%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stevia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "herb%1:20:00::"))
+(InheritanceLink s (WordSenseNode "herbaceous_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "Piqueria%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Piqueria%1:20:00::"))

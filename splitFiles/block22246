@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bulgarian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Bulgarian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "European%1:18:00::"))
+(HolonymLink s (WordSenseNode "Bulgaria%1:15:00::"))
+(HolonymLink s (WordSenseNode "Republic_of_Bulgaria%1:15:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "townsman%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "townsman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "peer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "equal%1:18:00::"))
+(InheritanceLink s (WordSenseNode "match%1:18:00::"))
+(InheritanceLink s (WordSenseNode "compeer%1:18:00::"))

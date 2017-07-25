@@ -1,0 +1,5 @@
+(define s (WordSenseNode "abkhasian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Abkhazian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Circassian%1:10:00::"))
+(define x (WordNode "Abkhasian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Circassian%1:10:00::"))

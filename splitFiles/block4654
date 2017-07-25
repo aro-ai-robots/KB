@@ -1,0 +1,7 @@
+(define s (WordSenseNode "allurement%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "solicitation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enticement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "temptation%1:04:00::"))
+(define x (WordNode "allurement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enticement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "temptation%1:04:00::"))

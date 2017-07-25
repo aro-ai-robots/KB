@@ -1,0 +1,7 @@
+(define s (WordSenseNode "accomplished_fact%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fait_accompli")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accomplishment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "achievement%1:04:00::"))
+(define x (WordNode "accomplished_fact")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accomplishment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "achievement%1:04:00::"))

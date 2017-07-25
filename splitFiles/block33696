@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cold_water%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cold_water")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disparagement%1:10:00::"))
+(InheritanceLink s (WordSenseNode "depreciation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "derogation%1:10:00::"))

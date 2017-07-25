@@ -1,0 +1,8 @@
+(define s (WordSenseNode "dervish%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dervish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fakir%1:18:00::"))
+(InheritanceLink s (WordSenseNode "fakeer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "faqir%1:18:00::"))
+(InheritanceLink s (WordSenseNode "faquir%1:18:00::"))
+(InheritanceLink (WordSenseNode "whirling_dervish%1:18:00::") s)
+(InheritanceLink (WordSenseNode "whirler%1:18:00::") s)

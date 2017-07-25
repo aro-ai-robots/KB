@@ -1,0 +1,7 @@
+(define s (WordSenseNode "litter_basket%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "litterbin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bin%1:06:00::"))
+(define x (WordNode "litter_basket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bin%1:06:00::"))
+(define x (WordNode "litter-basket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bin%1:06:00::"))

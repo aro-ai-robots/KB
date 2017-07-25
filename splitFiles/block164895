@@ -1,0 +1,3 @@
+(define s (WordSenseNode "table_talk%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "table_talk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conversation%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nigella_damascena%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "love-in-a-mist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nigella%1:20:00::"))
+(define x (WordNode "Nigella_damascena")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nigella%1:20:00::"))

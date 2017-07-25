@@ -1,0 +1,4 @@
+(define s (WordSenseNode "machmeter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "machmeter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "speedometer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "speed_indicator%1:06:00::"))

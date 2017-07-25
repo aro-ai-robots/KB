@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vamp_up%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "vamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "patch%2:35:00::"))
+(InheritanceLink s (WordSenseNode "piece%2:35:02::"))
+(define x (WordNode "vamp_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "patch%2:35:00::"))
+(InheritanceLink s (WordSenseNode "piece%2:35:02::"))

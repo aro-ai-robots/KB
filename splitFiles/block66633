@@ -1,0 +1,5 @@
+(define s (WordSenseNode "future%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "future")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tense%1:10:00::"))
+(define x (WordNode "future_tense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tense%1:10:00::"))

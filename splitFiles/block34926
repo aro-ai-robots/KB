@@ -1,0 +1,4 @@
+(define s (WordSenseNode "common_touch%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_touch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%1:07:01::"))
+(InheritanceLink s (WordSenseNode "signature%1:07:00::"))

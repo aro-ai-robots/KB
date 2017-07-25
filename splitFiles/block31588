@@ -1,0 +1,5 @@
+(define s (WordSenseNode "claimant%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "claimant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "applicant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "applier%1:18:00::"))
+(InheritanceLink (WordSenseNode "Pretender%1:18:02::") s)

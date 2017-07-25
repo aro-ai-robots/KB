@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antiquark%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antiquark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elementary_particle%1:17:00::"))
+(InheritanceLink s (WordSenseNode "fundamental_particle%1:17:00::"))
+(HolonymLink s (WordSenseNode "hadron%1:17:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spark_gap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spark_gap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gap%1:06:00::"))
+(InheritanceLink s (WordSenseNode "crack%1:06:00::"))
+(HolonymLink s (WordSenseNode "induction_coil%1:06:00::"))

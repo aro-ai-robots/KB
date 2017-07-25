@@ -1,0 +1,8 @@
+(define s (WordSenseNode "old_country%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "old_country")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fatherland%1:15:00::"))
+(InheritanceLink s (WordSenseNode "homeland%1:15:00::"))
+(InheritanceLink s (WordSenseNode "motherland%1:15:00::"))
+(InheritanceLink s (WordSenseNode "mother_country%1:15:00::"))
+(InheritanceLink s (WordSenseNode "country_of_origin%1:15:00::"))
+(InheritanceLink s (WordSenseNode "native_land%1:15:00::"))

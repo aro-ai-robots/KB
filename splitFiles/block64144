@@ -1,0 +1,7 @@
+(define s (WordSenseNode "foramen_magnum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foramen_magnum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foramen%1:08:00::"))
+(InheritanceLink s (WordSenseNode "hiatus%1:08:00::"))
+(HolonymLink s (WordSenseNode "cranium%1:08:00::"))
+(HolonymLink s (WordSenseNode "braincase%1:08:00::"))
+(HolonymLink s (WordSenseNode "brainpan%1:08:00::"))

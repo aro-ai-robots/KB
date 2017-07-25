@@ -1,0 +1,7 @@
+(define s (WordSenseNode "federal_job_safety_law%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "occupational_safety_and_health_act")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legislation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "statute_law%1:10:00::"))
+(define x (WordNode "federal_job_safety_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legislation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "statute_law%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "white-faced_hornet%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bald-faced_hornet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hornet%1:05:00::"))
+(define x (WordNode "white-faced_hornet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hornet%1:05:00::"))
+(define x (WordNode "Vespula_maculata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hornet%1:05:00::"))

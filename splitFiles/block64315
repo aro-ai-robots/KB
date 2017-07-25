@@ -1,0 +1,5 @@
+(define s (WordSenseNode "foreign_office%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Foreign_Office")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ministry%1:14:00::"))
+(InheritanceLink (WordSenseNode "French_Foreign_Office%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Quai_d'Orsay%1:14:00::") s)

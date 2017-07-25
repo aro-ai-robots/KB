@@ -1,0 +1,5 @@
+(define s (WordSenseNode "panic_button%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "panic_button")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "push_button%1:06:00::"))
+(InheritanceLink s (WordSenseNode "push%1:06:00::"))
+(InheritanceLink s (WordSenseNode "button%1:06:01::"))

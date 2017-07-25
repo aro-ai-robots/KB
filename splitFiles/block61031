@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fibrinolysin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plasmin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enzyme%1:27:00::"))
+(InheritanceLink (WordSenseNode "plasminogen%1:27:00::") s)
+(define x (WordNode "fibrinolysin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enzyme%1:27:00::"))
+(InheritanceLink (WordSenseNode "plasminogen%1:27:00::") s)

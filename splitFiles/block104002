@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mauritian_rupee%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mauritian_rupee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mauritian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "cent%1:23:00::") s)
+(define x (WordNode "rupee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mauritian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "cent%1:23:00::") s)

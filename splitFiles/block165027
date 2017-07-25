@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tactile_agnosia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "astereognosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agnosia%1:26:00::"))
+(define x (WordNode "tactile_agnosia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agnosia%1:26:00::"))

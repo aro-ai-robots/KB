@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cardiac_sphincter%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cardiac_sphincter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physiological_sphincter%1:08:00::"))
+(HolonymLink s (WordSenseNode "esophagus%1:08:00::"))
+(HolonymLink s (WordSenseNode "oesophagus%1:08:00::"))
+(HolonymLink s (WordSenseNode "gorge%1:08:00::"))
+(HolonymLink s (WordSenseNode "gullet%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cork_tree%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cork_tree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coral_tree%1:20:00::"))
+(InheritanceLink s (WordSenseNode "erythrina%1:20:00::"))
+(define x (WordNode "Erythrina_vespertilio")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coral_tree%1:20:00::"))
+(InheritanceLink s (WordSenseNode "erythrina%1:20:00::"))

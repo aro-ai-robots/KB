@@ -1,0 +1,6 @@
+(define s (WordSenseNode "united_nations_secretariat%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "United_Nations_Secretariat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secretariat%1:14:00::"))
+(InheritanceLink s (WordSenseNode "secretariate%1:14:00::"))
+(HolonymLink s (WordSenseNode "United_Nations%1:14:00::"))
+(HolonymLink s (WordSenseNode "UN%1:14:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sensitivity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sensitivity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_property%1:07:00::"))
+(InheritanceLink (WordSenseNode "frequency_response%1:07:00::") s)
+(define x (WordNode "sensitiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_property%1:07:00::"))
+(InheritanceLink (WordSenseNode "frequency_response%1:07:00::") s)

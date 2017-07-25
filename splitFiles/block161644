@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stypsis%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "astringency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contractility%1:07:00::"))
+(define x (WordNode "stypsis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contractility%1:07:00::"))

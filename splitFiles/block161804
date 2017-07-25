@@ -1,0 +1,4 @@
+(define s (WordSenseNode "subeditor%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subeditor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "editor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "editor_in_chief%1:18:00::"))

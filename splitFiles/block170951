@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tower_block%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "high-rise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tower%1:06:00::"))
+(define x (WordNode "tower_block")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tower%1:06:00::"))

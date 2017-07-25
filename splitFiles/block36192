@@ -1,0 +1,4 @@
+(define s (WordSenseNode "congener%1:03:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "congener")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "whole%1:03:00::"))
+(InheritanceLink s (WordSenseNode "unit%1:03:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dissolution_of_marriage%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dissolution_of_marriage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "annulment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "invalidation%1:04:00::"))

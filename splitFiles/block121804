@@ -1,0 +1,7 @@
+(define s (WordSenseNode "paye%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "PAYE")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "withholding_tax%1:21:00::"))
+(InheritanceLink s (WordSenseNode "withholding%1:21:00::"))
+(define x (WordNode "pay_as_you_earn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "withholding_tax%1:21:00::"))
+(InheritanceLink s (WordSenseNode "withholding%1:21:00::"))

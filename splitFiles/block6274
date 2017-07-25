@@ -1,0 +1,7 @@
+(define s (WordSenseNode "androgeny%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "androgenesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parthenogenesis%1:22:00::"))
+(InheritanceLink s (WordSenseNode "parthenogeny%1:22:00::"))
+(define x (WordNode "androgeny")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parthenogenesis%1:22:00::"))
+(InheritanceLink s (WordSenseNode "parthenogeny%1:22:00::"))

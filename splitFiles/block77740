@@ -1,0 +1,7 @@
+(define s (WordSenseNode "handicapped%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disabled")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "people%1:14:00::"))
+(InheritanceLink (WordSenseNode "the_halt%1:14:00::") s)
+(define x (WordNode "handicapped")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "people%1:14:00::"))
+(InheritanceLink (WordSenseNode "the_halt%1:14:00::") s)

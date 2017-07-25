@@ -1,0 +1,6 @@
+(define s (WordSenseNode "compound_lens%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compound_lens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lens%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lense%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lens_system%1:06:00::"))
+(InheritanceLink (WordSenseNode "achromatic_lens%1:06:00::") s)

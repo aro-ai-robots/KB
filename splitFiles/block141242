@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rise_to_power%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "accession")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attainment%1:04:00::"))
+(define x (WordNode "rise_to_power")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attainment%1:04:00::"))

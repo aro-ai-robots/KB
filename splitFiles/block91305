@@ -1,0 +1,4 @@
+(define s (WordSenseNode "journal%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "journal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "periodical%1:10:00::"))
+(InheritanceLink (WordSenseNode "annals%1:10:01::") s)

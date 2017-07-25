@@ -1,0 +1,5 @@
+(define s (WordSenseNode "counsel_to_the_crown%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Counsel_to_the_Crown")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "barrister%1:18:00::"))
+(InheritanceLink (WordSenseNode "King's_Counsel%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Queen's_Counsel%1:18:00::") s)

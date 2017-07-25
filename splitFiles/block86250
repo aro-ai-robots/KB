@@ -1,0 +1,4 @@
+(define s (WordSenseNode "indian_reservation%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Indian_reservation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reservation%1:15:00::"))
+(InheritanceLink s (WordSenseNode "reserve%1:15:00::"))

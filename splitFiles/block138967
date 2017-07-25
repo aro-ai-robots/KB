@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reproduce%2:36:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reproduce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "re-create%2:31:00::"))
+(InheritanceLink (WordSenseNode "catch%2:36:12::") s)
+(InheritanceLink (WordSenseNode "get%2:36:14::") s)

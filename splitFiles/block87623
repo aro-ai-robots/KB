@@ -1,0 +1,5 @@
+(define s (WordSenseNode "instroke%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "instroke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "throw%1:11:00::"))
+(InheritanceLink s (WordSenseNode "stroke%1:11:00::"))
+(InheritanceLink s (WordSenseNode "cam_stroke%1:11:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mucin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mucin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glycoprotein%1:27:00::"))
+(HolonymLink s (WordSenseNode "mucus%1:08:00::"))
+(HolonymLink s (WordSenseNode "mucous_secretion%1:08:00::"))

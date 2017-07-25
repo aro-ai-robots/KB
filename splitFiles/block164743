@@ -1,0 +1,7 @@
+(define s (WordSenseNode "system%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plan_of_action%1:09:00::"))
+(InheritanceLink (WordSenseNode "credit_system%1:09:00::") s)
+(InheritanceLink (WordSenseNode "legal_system%1:09:00::") s)
+(InheritanceLink (WordSenseNode "pricing_system%1:09:00::") s)
+(InheritanceLink (WordSenseNode "promotion_system%1:09:00::") s)

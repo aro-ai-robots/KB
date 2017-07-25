@@ -1,0 +1,4 @@
+(define s (WordSenseNode "underevaluation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "underevaluation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appraisal%1:09:00::"))
+(InheritanceLink s (WordSenseNode "assessment%1:09:00::"))

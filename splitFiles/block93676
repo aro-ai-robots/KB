@@ -1,0 +1,6 @@
+(define s (WordSenseNode "kraurosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kraurosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atrophy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "wasting%1:26:00::"))
+(InheritanceLink s (WordSenseNode "wasting_away%1:26:00::"))
+(InheritanceLink (WordSenseNode "kraurosis_vulvae%1:26:00::") s)

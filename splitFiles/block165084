@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tagalog%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Tagalog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Philippine%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Filipino%1:10:00::"))

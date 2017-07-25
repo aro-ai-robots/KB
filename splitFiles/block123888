@@ -1,0 +1,8 @@
+(define s (WordSenseNode "phasianid%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phasianid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "game_bird%1:05:00::"))
+(InheritanceLink (WordSenseNode "pheasant%1:05:00::") s)
+(InheritanceLink (WordSenseNode "quail%1:05:01::") s)
+(InheritanceLink (WordSenseNode "partridge%1:05:01::") s)
+(HolonymLink s (WordSenseNode "Phasianidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Phasianidae%1:05:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "transit_zone%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transit_zone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zone%1:15:02::"))
+(InheritanceLink s (WordSenseNode "geographical_zone%1:15:00::"))

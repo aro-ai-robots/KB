@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hermit%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anchorite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eremite%1:18:00::"))
+(define x (WordNode "hermit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eremite%1:18:00::"))

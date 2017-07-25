@@ -1,0 +1,4 @@
+(define s (WordSenseNode "typhoid_bacteriophage%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "typhoid_bacteriophage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteriophage%1:05:00::"))
+(InheritanceLink s (WordSenseNode "phage%1:05:00::"))

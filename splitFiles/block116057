@@ -1,0 +1,7 @@
+(define s (WordSenseNode "olive_drab%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "olive_drab")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_uniform%1:06:00::"))
+(HolonymLink (WordSenseNode "olive_drab%1:06:00::") s)
+(define x (WordNode "olive-drab_uniform")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_uniform%1:06:00::"))
+(HolonymLink (WordSenseNode "olive_drab%1:06:00::") s)

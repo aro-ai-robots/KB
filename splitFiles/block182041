@@ -1,0 +1,8 @@
+(define s (WordSenseNode "weld%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "weld")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "join%2:35:00::"))
+(InheritanceLink s (WordSenseNode "conjoin%2:35:00::"))
+(InheritanceLink (WordSenseNode "spotweld%2:35:00::") s)
+(InheritanceLink (WordSenseNode "spot-weld%2:35:00::") s)
+(InheritanceLink (WordSenseNode "butt-weld%2:35:00::") s)
+(InheritanceLink (WordSenseNode "buttweld%2:35:00::") s)

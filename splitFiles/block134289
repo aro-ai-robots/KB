@@ -1,0 +1,5 @@
+(define s (WordSenseNode "queen_bee%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "queen_bee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "queen%1:05:01::"))
+(HolonymLink s (WordSenseNode "Apoidea%1:05:00::"))
+(HolonymLink s (WordSenseNode "superfamily_Apoidea%1:05:00::"))

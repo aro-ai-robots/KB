@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rigidness%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inflexibility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unadaptability%1:07:00::"))
+(define x (WordNode "rigidity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unadaptability%1:07:00::"))
+(define x (WordNode "rigidness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unadaptability%1:07:00::"))

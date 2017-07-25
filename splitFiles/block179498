@@ -1,0 +1,7 @@
+(define s (WordSenseNode "virgin_birth%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Virgin_Birth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theological_doctrine%1:09:00::"))
+(HolonymLink s (WordSenseNode "Christian_theology%1:09:00::"))
+(define x (WordNode "Nativity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theological_doctrine%1:09:00::"))
+(HolonymLink s (WordSenseNode "Christian_theology%1:09:00::"))

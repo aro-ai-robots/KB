@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lymphoblast%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lymphoblast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lymphocyte%1:08:00::"))
+(InheritanceLink s (WordSenseNode "lymph_cell%1:08:00::"))

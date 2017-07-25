@@ -1,0 +1,5 @@
+(define s (WordSenseNode "communication_trench%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "approach_trench")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trench%1:06:00::"))
+(define x (WordNode "communication_trench")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trench%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "monopolizer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monopolist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "selfish_person%1:18:00::"))
+(define x (WordNode "monopolizer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "selfish_person%1:18:00::"))
+(define x (WordNode "monopoliser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "selfish_person%1:18:00::"))

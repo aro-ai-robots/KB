@@ -1,0 +1,4 @@
+(define s (WordSenseNode "teleprompter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Teleprompter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prompter%1:06:00::"))
+(InheritanceLink s (WordSenseNode "autocue%1:06:00::"))

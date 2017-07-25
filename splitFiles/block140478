@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rhus_dermatitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Rhus_dermatitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contact_dermatitis%1:26:00::"))
+(InheritanceLink (WordSenseNode "poison_ivy%1:26:00::") s)
+(InheritanceLink (WordSenseNode "poison_oak%1:26:00::") s)
+(InheritanceLink (WordSenseNode "poison_sumac%1:26:00::") s)

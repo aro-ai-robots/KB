@@ -1,0 +1,4 @@
+(define s (WordSenseNode "teratogen%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "teratogen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:17:00::"))
+(InheritanceLink (WordSenseNode "thalidomide%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "men's_furnishings%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "haberdashery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drygoods%1:06:00::"))
+(InheritanceLink s (WordSenseNode "soft_goods%1:06:00::"))
+(define x (WordNode "men's_furnishings")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drygoods%1:06:00::"))
+(InheritanceLink s (WordSenseNode "soft_goods%1:06:00::"))

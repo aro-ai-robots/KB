@@ -1,0 +1,5 @@
+(define s (WordSenseNode "demystify%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "demystify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clarify%2:32:00::"))
+(InheritanceLink s (WordSenseNode "clear_up%2:32:00::"))
+(InheritanceLink s (WordSenseNode "elucidate%2:32:00::"))

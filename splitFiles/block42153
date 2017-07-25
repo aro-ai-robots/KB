@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dactyloscopidae%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dactyloscopidae")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fish_family%1:05:00::"))
+(HolonymLink (WordSenseNode "sand_stargazer%1:05:00::") s)
+(define x (WordNode "family_Dactyloscopidae")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fish_family%1:05:00::"))
+(HolonymLink (WordSenseNode "sand_stargazer%1:05:00::") s)

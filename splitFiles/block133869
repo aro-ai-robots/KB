@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pythium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pythium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fungus%1:20:00::"))
+(InheritanceLink (WordSenseNode "damping_off_fungus%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Pythium_debaryanum%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Pythium%1:20:00::"))

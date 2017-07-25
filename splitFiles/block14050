@@ -1,0 +1,5 @@
+(define s (WordSenseNode "basket_flower%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "basket_flower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centaury%1:20:01::"))
+(define x (WordNode "Centaurea_americana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centaury%1:20:01::"))

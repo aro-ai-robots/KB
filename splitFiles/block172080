@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tree_cricket%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tree_cricket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cricket%1:05:00::"))
+(InheritanceLink (WordSenseNode "snowy_tree_cricket%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Oecanthus_fultoni%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Oecanthus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Oecanthus%1:05:00::"))

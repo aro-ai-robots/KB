@@ -1,0 +1,5 @@
+(define s (WordSenseNode "scrabble%2:35:13::")) (PartOfSpeechLink s verb)
+(define x (WordNode "grope_for")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feel%2:39:10::"))
+(define x (WordNode "scrabble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feel%2:39:10::"))

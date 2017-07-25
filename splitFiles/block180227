@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vowel_system%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vowel_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phonemic_system%1:10:00::"))
+(define x (WordNode "vocalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phonemic_system%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "feeder%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bird_feeder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))
+(define x (WordNode "birdfeeder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))
+(define x (WordNode "feeder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))

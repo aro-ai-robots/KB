@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mihrab%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mihrab")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "design%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pattern%1:06:00::"))
+(InheritanceLink s (WordSenseNode "figure%1:06:01::"))
+(HolonymLink s (WordSenseNode "prayer_rug%1:06:00::"))
+(HolonymLink s (WordSenseNode "prayer_mat%1:06:00::"))

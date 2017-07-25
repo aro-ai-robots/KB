@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fuse%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fuse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "melt%2:30:01::"))
+(InheritanceLink s (WordSenseNode "run%2:30:00::"))
+(InheritanceLink s (WordSenseNode "melt_down%2:30:00::"))

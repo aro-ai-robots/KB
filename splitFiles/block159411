@@ -1,0 +1,6 @@
+(define s (WordSenseNode "steel_trap%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "steel_trap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acuteness%1:09:00::"))
+(InheritanceLink s (WordSenseNode "acuity%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sharpness%1:09:01::"))
+(InheritanceLink s (WordSenseNode "keenness%1:09:00::"))

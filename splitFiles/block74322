@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gooseneck%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gooseneck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curve%1:25:00::"))
+(InheritanceLink s (WordSenseNode "curved_shape%1:25:00::"))

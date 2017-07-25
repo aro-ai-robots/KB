@@ -1,0 +1,8 @@
+(define s (WordSenseNode "purine%1:27:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "base%1:27:00::"))
+(InheritanceLink s (WordSenseNode "alkali%1:27:00::"))
+(InheritanceLink (WordSenseNode "adenine%1:27:00::") s)
+(InheritanceLink (WordSenseNode "A%1:27:02::") s)
+(InheritanceLink (WordSenseNode "guanine%1:27:00::") s)
+(InheritanceLink (WordSenseNode "G%1:27:01::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "beam_balance%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beam_balance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "balance%1:06:00::"))
+(InheritanceLink (WordSenseNode "analytical_balance%1:06:00::") s)
+(InheritanceLink (WordSenseNode "chemical_balance%1:06:00::") s)

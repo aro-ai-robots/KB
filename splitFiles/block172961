@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trove%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "treasure_trove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "treasure%1:21:00::"))
+(InheritanceLink s (WordSenseNode "hoarded_wealth%1:21:00::"))
+(define x (WordNode "trove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "treasure%1:21:00::"))
+(InheritanceLink s (WordSenseNode "hoarded_wealth%1:21:00::"))

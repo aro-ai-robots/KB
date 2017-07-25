@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ice_maker%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ice_maker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_appliance%1:06:00::"))
+(HolonymLink s (WordSenseNode "electric_refrigerator%1:06:00::"))
+(HolonymLink s (WordSenseNode "fridge%1:06:00::"))

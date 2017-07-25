@@ -1,0 +1,6 @@
+(define s (WordSenseNode "commission%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "commission")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "authorize%2:32:00::"))
+(InheritanceLink s (WordSenseNode "authorise%2:32:00::"))
+(InheritanceLink s (WordSenseNode "pass%2:32:00::"))
+(InheritanceLink s (WordSenseNode "clear%2:32:01::"))

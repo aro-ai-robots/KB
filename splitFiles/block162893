@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sundrops%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sundrops")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evening_primrose%1:20:00::"))
+(define x (WordNode "Oenothera_fruticosa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evening_primrose%1:20:00::"))

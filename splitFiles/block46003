@@ -1,0 +1,4 @@
+(define s (WordSenseNode "diamond_point%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diamond_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "point%1:06:00::"))
+(HolonymLink s (WordSenseNode "stylus%1:06:01::"))

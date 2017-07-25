@@ -1,0 +1,4 @@
+(define s (WordSenseNode "topos%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "topos")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theme%1:09:01::"))
+(InheritanceLink s (WordSenseNode "motif%1:09:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "launder%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "launder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:04::"))
+(InheritanceLink s (WordSenseNode "exchange%2:30:00::"))
+(InheritanceLink s (WordSenseNode "commute%2:30:02::"))
+(InheritanceLink s (WordSenseNode "convert%2:30:02::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bar_graph%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bar_chart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chart%1:10:00::"))
+(InheritanceLink (WordSenseNode "histogram%1:10:00::") s)
+(define x (WordNode "bar_graph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chart%1:10:00::"))
+(InheritanceLink (WordSenseNode "histogram%1:10:00::") s)

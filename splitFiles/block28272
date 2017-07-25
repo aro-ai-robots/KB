@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cgs%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cgs")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metric_system%1:23:00::"))
+(define x (WordNode "cgs_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metric_system%1:23:00::"))

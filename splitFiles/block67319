@@ -1,0 +1,8 @@
+(define s (WordSenseNode "garden_snail%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "garden_snail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snail%1:05:00::"))
+(InheritanceLink (WordSenseNode "brown_snail%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Helix_aspersa%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Helix_hortensis%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Helix%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Helix%1:05:00::"))

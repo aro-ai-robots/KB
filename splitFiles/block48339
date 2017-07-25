@@ -1,0 +1,7 @@
+(define s (WordSenseNode "divine_revelation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "revelation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "informing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "making_known%1:10:00::"))
+(define x (WordNode "divine_revelation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "informing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "making_known%1:10:00::"))

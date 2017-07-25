@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nuke%2:33:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "atom-bomb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bombard%2:33:00::"))
+(InheritanceLink s (WordSenseNode "bomb%2:33:00::"))
+(define x (WordNode "nuke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bombard%2:33:00::"))
+(InheritanceLink s (WordSenseNode "bomb%2:33:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "touchline%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "touchline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sideline%1:15:00::"))
+(InheritanceLink s (WordSenseNode "out_of_bounds%1:15:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "census_taker%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "census_taker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "official%1:18:01::"))
+(InheritanceLink s (WordSenseNode "functionary%1:18:00::"))
+(define x (WordNode "enumerator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "official%1:18:01::"))
+(InheritanceLink s (WordSenseNode "functionary%1:18:00::"))

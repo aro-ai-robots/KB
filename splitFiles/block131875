@@ -1,0 +1,3 @@
+(define s (WordSenseNode "protamine%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "protamine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "simple_protein%1:27:00::"))

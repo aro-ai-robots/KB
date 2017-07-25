@@ -1,0 +1,5 @@
+(define s (WordSenseNode "square_mile%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "square_mile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "square_measure%1:23:00::"))
+(InheritanceLink (WordSenseNode "section%1:23:00::") s)

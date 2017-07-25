@@ -1,0 +1,6 @@
+(define s (WordSenseNode "woolly_bear_moth%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "woolly_bear_moth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "woolly_bear%1:05:00::"))
+(InheritanceLink s (WordSenseNode "woolly_bear_caterpillar%1:05:00::"))
+(HolonymLink s (WordSenseNode "Arctiidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Arctiidae%1:05:00::"))

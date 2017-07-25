@@ -1,0 +1,7 @@
+(define s (WordSenseNode "deviation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deviation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abnormality%1:04:00::"))
+(InheritanceLink s (WordSenseNode "irregularity%1:04:00::"))
+(define x (WordNode "deviance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abnormality%1:04:00::"))
+(InheritanceLink s (WordSenseNode "irregularity%1:04:00::"))

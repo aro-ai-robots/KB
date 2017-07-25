@@ -1,0 +1,5 @@
+(define s (WordSenseNode "yakuza%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yakuza")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organized_crime%1:14:00::"))
+(InheritanceLink s (WordSenseNode "gangland%1:14:00::"))
+(InheritanceLink s (WordSenseNode "gangdom%1:14:00::"))

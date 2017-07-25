@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dentate_nucleus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dentate_nucleus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nucleus%1:08:01::"))
+(HolonymLink s (WordSenseNode "cerebellum%1:08:00::"))

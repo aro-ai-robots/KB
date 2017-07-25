@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ditch_spade%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ditch_spade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spade%1:06:00::"))
+(define x (WordNode "long-handled_spade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spade%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "improvisation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "extemporization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "performance%1:04:01::"))
+(define x (WordNode "extemporisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "performance%1:04:01::"))
+(define x (WordNode "improvisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "performance%1:04:01::"))

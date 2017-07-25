@@ -1,0 +1,4 @@
+(define s (WordSenseNode "call_in%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "call_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "invite%2:35:00::"))
+(InheritanceLink s (WordSenseNode "ask_in%2:35:00::"))

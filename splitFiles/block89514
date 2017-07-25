@@ -1,0 +1,4 @@
+(define s (WordSenseNode "italian_region%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Italian_region")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:15:01::"))
+(InheritanceLink s (WordSenseNode "province%1:15:00::"))

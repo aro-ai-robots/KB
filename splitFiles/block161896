@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subjugation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oppression")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "persecution%1:04:00::"))
+(define x (WordNode "subjugation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "persecution%1:04:00::"))

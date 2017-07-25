@@ -1,0 +1,7 @@
+(define s (WordSenseNode "splenius_muscle%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "splenius")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skeletal_muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "striated_muscle%1:08:00::"))
+(define x (WordNode "splenius_muscle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skeletal_muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "striated_muscle%1:08:00::"))

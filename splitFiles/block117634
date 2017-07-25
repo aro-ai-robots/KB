@@ -1,0 +1,4 @@
+(define s (WordSenseNode "organon%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "organon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "system%1:09:00::"))
+(InheritanceLink s (WordSenseNode "system_of_rules%1:09:00::"))

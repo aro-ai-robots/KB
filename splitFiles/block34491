@@ -1,0 +1,8 @@
+(define s (WordSenseNode "comic_book%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "comic_book")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magazine%1:10:00::"))
+(InheritanceLink s (WordSenseNode "mag%1:10:00::"))
+(HolonymLink (WordSenseNode "comic_strip%1:10:00::") s)
+(HolonymLink (WordSenseNode "cartoon_strip%1:10:00::") s)
+(HolonymLink (WordSenseNode "strip%1:10:00::") s)
+(HolonymLink (WordSenseNode "funnies%1:10:00::") s)

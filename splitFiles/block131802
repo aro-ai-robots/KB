@@ -1,0 +1,5 @@
+(define s (WordSenseNode "prosimian%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prosimian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "primate%1:05:00::"))
+(HolonymLink s (WordSenseNode "Prosimii%1:05:00::"))
+(HolonymLink s (WordSenseNode "suborder_Prosimii%1:05:00::"))

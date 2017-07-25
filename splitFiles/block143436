@@ -1,0 +1,5 @@
+(define s (WordSenseNode "russian_wolfhound%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "borzoi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wolfhound%1:05:00::"))
+(define x (WordNode "Russian_wolfhound")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wolfhound%1:05:00::"))

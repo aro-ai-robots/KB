@@ -1,0 +1,7 @@
+(define s (WordSenseNode "arbutus_unedo%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strawberry_tree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arbutus%1:20:00::"))
+(define x (WordNode "Irish_strawberry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arbutus%1:20:00::"))
+(define x (WordNode "Arbutus_unedo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arbutus%1:20:00::"))

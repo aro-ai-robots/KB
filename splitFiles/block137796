@@ -1,0 +1,5 @@
+(define s (WordSenseNode "regard%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gaze")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stare%1:04:00::"))
+(define x (WordNode "regard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stare%1:04:00::"))

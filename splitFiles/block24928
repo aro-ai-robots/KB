@@ -1,0 +1,6 @@
+(define s (WordSenseNode "canton%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "canton")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "administrative_district%1:15:00::"))
+(InheritanceLink s (WordSenseNode "administrative_division%1:15:00::"))
+(InheritanceLink s (WordSenseNode "territorial_division%1:15:00::"))
+(InheritanceLink (WordSenseNode "Swiss_canton%1:15:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "galactose%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "galactose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sucrose%1:27:00::"))
+(InheritanceLink s (WordSenseNode "saccharose%1:27:00::"))
+(define x (WordNode "brain_sugar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sucrose%1:27:00::"))
+(InheritanceLink s (WordSenseNode "saccharose%1:27:00::"))

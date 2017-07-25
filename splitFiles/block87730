@@ -1,0 +1,6 @@
+(define s (WordSenseNode "insure%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "insure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protect%2:33:00::"))
+(InheritanceLink (WordSenseNode "reinsure%2:32:00::") s)
+(InheritanceLink (WordSenseNode "reinsure%2:40:00::") s)
+(InheritanceLink (WordSenseNode "coinsure%2:40:00::") s)

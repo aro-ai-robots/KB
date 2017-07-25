@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tailpipe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tailpipe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pipe%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pipage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "piping%1:06:00::"))
+(HolonymLink s (WordSenseNode "exhaust%1:06:00::"))
+(HolonymLink s (WordSenseNode "exhaust_system%1:06:00::"))

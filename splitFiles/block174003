@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tuvalu%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Tuvalu")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Tuvalu%1:15:01::"))
+(HolonymLink s (WordSenseNode "Ellice_Islands%1:15:00::"))
+(HolonymLink (WordSenseNode "Funafuti%1:15:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "green_beret%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Green_Beret")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soldier%1:18:00::"))
+(HolonymLink s (WordSenseNode "Special_Forces%1:14:00::"))
+(HolonymLink s (WordSenseNode "U._S._Army_Special_Forces%1:14:00::"))
+(HolonymLink s (WordSenseNode "United_States_Army_Special_Forces%1:14:00::"))

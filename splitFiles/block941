@@ -1,0 +1,8 @@
+(define s (WordSenseNode "acceleration%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acceleration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%1:11:00::"))
+(InheritanceLink s (WordSenseNode "alteration%1:11:00::"))
+(InheritanceLink s (WordSenseNode "modification%1:11:00::"))
+(InheritanceLink (WordSenseNode "pickup%1:07:00::") s)
+(InheritanceLink (WordSenseNode "getaway%1:07:00::") s)
+(InheritanceLink (WordSenseNode "precipitation%1:07:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "haemosiderin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hemosiderin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pigment%1:27:00::"))
+(HolonymLink (WordSenseNode "ferric_oxide%1:27:00::") s)
+(define x (WordNode "haemosiderin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pigment%1:27:00::"))
+(HolonymLink (WordSenseNode "ferric_oxide%1:27:00::") s)

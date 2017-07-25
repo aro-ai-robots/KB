@@ -1,0 +1,5 @@
+(define s (WordSenseNode "kelvin%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kelvin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature_unit%1:23:00::"))
+(define x (WordNode "K")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature_unit%1:23:00::"))

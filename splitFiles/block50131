@@ -1,0 +1,8 @@
+(define s (WordSenseNode "drinker%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drinker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consumer%1:18:00::"))
+(InheritanceLink (WordSenseNode "gulper%1:18:00::") s)
+(InheritanceLink (WordSenseNode "guzzler%1:18:01::") s)
+(InheritanceLink (WordSenseNode "quaffer%1:18:00::") s)
+(InheritanceLink (WordSenseNode "sipper%1:18:00::") s)
+(InheritanceLink (WordSenseNode "sucker%1:18:00::") s)

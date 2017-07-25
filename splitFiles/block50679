@@ -1,0 +1,6 @@
+(define s (WordSenseNode "duck_down%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "duck_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "down%1:05:00::"))
+(InheritanceLink s (WordSenseNode "down_feather%1:05:00::"))
+(InheritanceLink (WordSenseNode "eiderdown%1:05:00::") s)
+(HolonymLink s (WordSenseNode "duck%1:05:00::"))

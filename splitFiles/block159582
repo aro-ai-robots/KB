@@ -1,0 +1,7 @@
+(define s (WordSenseNode "step%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quantify%2:30:00::"))
+(InheritanceLink s (WordSenseNode "measure%2:30:00::"))
+(define x (WordNode "step")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quantify%2:30:00::"))
+(InheritanceLink s (WordSenseNode "measure%2:30:00::"))

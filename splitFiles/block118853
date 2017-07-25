@@ -1,0 +1,6 @@
+(define s (WordSenseNode "overspend%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overspend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consume%2:34:02::"))
+(InheritanceLink s (WordSenseNode "squander%2:34:00::"))
+(InheritanceLink s (WordSenseNode "waste%2:34:00::"))
+(InheritanceLink s (WordSenseNode "ware%2:34:00::"))

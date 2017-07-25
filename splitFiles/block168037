@@ -1,0 +1,7 @@
+(define s (WordSenseNode "theory%1:09:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "theory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "belief%1:09:00::"))
+(InheritanceLink (WordSenseNode "egoism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "patchwork%1:09:00::") s)
+(InheritanceLink (WordSenseNode "hodgepodge%1:09:00::") s)
+(InheritanceLink (WordSenseNode "jumble%1:09:00::") s)

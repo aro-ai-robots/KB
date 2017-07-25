@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flintlock%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flintlock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "muzzle_loader%1:06:00::"))
+(HolonymLink (WordSenseNode "flintlock%1:06:00::") s)
+(define x (WordNode "firelock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "muzzle_loader%1:06:00::"))
+(HolonymLink (WordSenseNode "flintlock%1:06:00::") s)

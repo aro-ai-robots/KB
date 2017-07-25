@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wiretapper%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tapper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eavesdropper%1:18:00::"))
+(define x (WordNode "wiretapper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eavesdropper%1:18:00::"))
+(define x (WordNode "phone_tapper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eavesdropper%1:18:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "processing_time%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "processing_time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_interval%1:28:00::"))
+(InheritanceLink s (WordSenseNode "interval%1:28:00::"))
+(InheritanceLink (WordSenseNode "command_processing_overhead_time%1:28:00::") s)
+(InheritanceLink (WordSenseNode "command_processing_overhead%1:28:00::") s)
+(InheritanceLink (WordSenseNode "command_overhead%1:28:00::") s)
+(InheritanceLink (WordSenseNode "overhead%1:28:00::") s)

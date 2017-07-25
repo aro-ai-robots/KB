@@ -1,0 +1,5 @@
+(define s (WordSenseNode "titer%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "titer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concentration%1:07:02::"))
+(define x (WordNode "titre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concentration%1:07:02::"))

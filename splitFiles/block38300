@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cortinarius_atkinsonianus%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cortinarius_atkinsonianus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agaric%1:20:00::"))
+(HolonymLink s (WordSenseNode "Cortinarius%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Cortinarius%1:20:00::"))

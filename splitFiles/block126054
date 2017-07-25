@@ -1,0 +1,4 @@
+(define s (WordSenseNode "placer_mining%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "placer_mining")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mining%1:04:00::"))
+(InheritanceLink s (WordSenseNode "excavation%1:04:00::"))

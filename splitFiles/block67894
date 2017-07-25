@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gemination%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "duplication")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "copying%1:04:00::"))
+(define x (WordNode "gemination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "copying%1:04:00::"))

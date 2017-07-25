@@ -1,0 +1,5 @@
+(define s (WordSenseNode "orient%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "orient")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lie%2:42:00::"))
+(define x (WordNode "point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lie%2:42:00::"))

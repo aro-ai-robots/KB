@@ -1,0 +1,7 @@
+(define s (WordSenseNode "detergence%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "detergency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utility%1:07:00::"))
+(InheritanceLink s (WordSenseNode "usefulness%1:07:00::"))
+(define x (WordNode "detergence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utility%1:07:00::"))
+(InheritanceLink s (WordSenseNode "usefulness%1:07:00::"))

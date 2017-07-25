@@ -1,0 +1,5 @@
+(define s (WordSenseNode "freezing_point%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "freezing_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature%1:07:00::"))
+(define x (WordNode "melting_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature%1:07:00::"))

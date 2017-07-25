@@ -1,0 +1,7 @@
+(define s (WordSenseNode "porphyritic_rock%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "porphyry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "igneous_rock%1:27:00::"))
+(HolonymLink (WordSenseNode "groundmass%1:27:00::") s)
+(define x (WordNode "porphyritic_rock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "igneous_rock%1:27:00::"))
+(HolonymLink (WordSenseNode "groundmass%1:27:00::") s)

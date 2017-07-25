@@ -1,0 +1,8 @@
+(define s (WordSenseNode "elephantiasis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elephantiasis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypertrophy%1:26:00::"))
+(InheritanceLink (WordSenseNode "elephantiasis_neuromatosa%1:26:00::") s)
+(InheritanceLink (WordSenseNode "elephantiasis_scroti%1:26:00::") s)
+(InheritanceLink (WordSenseNode "chyloderma%1:26:00::") s)
+(InheritanceLink (WordSenseNode "nevoid_elephantiasis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "pachyderma%1:26:00::") s)

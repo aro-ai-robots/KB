@@ -1,0 +1,5 @@
+(define s (WordSenseNode "teredo%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "teredo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shipworm%1:05:00::"))
+(InheritanceLink s (WordSenseNode "teredinid%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Teredo%1:05:00::"))

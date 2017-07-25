@@ -1,0 +1,7 @@
+(define s (WordSenseNode "agglutination%1:22:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "agglutination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "biological_process%1:22:00::"))
+(InheritanceLink (WordSenseNode "hemagglutination%1:22:00::") s)
+(InheritanceLink (WordSenseNode "haemagglutination%1:22:00::") s)
+(InheritanceLink (WordSenseNode "isoagglutination%1:22:00::") s)

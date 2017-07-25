@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cleat%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cleat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fastener%1:06:00::"))
+(InheritanceLink s (WordSenseNode "fastening%1:06:00::"))
+(InheritanceLink s (WordSenseNode "holdfast%1:06:00::"))
+(InheritanceLink s (WordSenseNode "fixing%1:06:00::"))

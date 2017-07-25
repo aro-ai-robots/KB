@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stress%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force%1:19:00::"))
+(InheritanceLink (WordSenseNode "tension%1:19:00::") s)
+(InheritanceLink (WordSenseNode "breaking_point%1:19:00::") s)

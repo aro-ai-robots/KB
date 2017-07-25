@@ -1,0 +1,6 @@
+(define s (WordSenseNode "newburgh%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Newburgh")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "New_York%1:15:00::"))
+(HolonymLink s (WordSenseNode "New_York_State%1:15:00::"))
+(HolonymLink s (WordSenseNode "Empire_State%1:15:00::"))
+(HolonymLink s (WordSenseNode "NY%1:15:00::"))

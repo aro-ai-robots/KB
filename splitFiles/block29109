@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chaser%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pursuer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "follower%1:18:01::"))
+(InheritanceLink (WordSenseNode "bounty_hunter%1:18:01::") s)
+(define x (WordNode "chaser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "follower%1:18:01::"))
+(InheritanceLink (WordSenseNode "bounty_hunter%1:18:01::") s)

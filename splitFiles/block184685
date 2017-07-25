@@ -1,0 +1,7 @@
+(define s (WordSenseNode "word_order%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "word_order")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ordering%1:14:00::"))
+(InheritanceLink s (WordSenseNode "order%1:14:00::"))
+(InheritanceLink s (WordSenseNode "ordination%1:14:00::"))
+(HolonymLink s (WordSenseNode "text%1:10:00::"))
+(HolonymLink s (WordSenseNode "textual_matter%1:10:00::"))

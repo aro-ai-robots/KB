@@ -1,0 +1,3 @@
+(define s (WordSenseNode "savings_bond%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "savings_bond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "government_bond%1:21:00::"))

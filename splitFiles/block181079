@@ -1,0 +1,6 @@
+(define s (WordSenseNode "washington_monument%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Washington_Monument")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Washington%1:15:01::"))
+(HolonymLink s (WordSenseNode "Washington_D.C.%1:15:00::"))
+(HolonymLink s (WordSenseNode "American_capital%1:15:00::"))
+(HolonymLink s (WordSenseNode "capital_of_the_United_States%1:15:00::"))

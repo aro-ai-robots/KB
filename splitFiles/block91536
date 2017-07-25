@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jukebox%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jukebox")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "record_player%1:06:00::"))
+(InheritanceLink s (WordSenseNode "phonograph%1:06:01::"))
+(define x (WordNode "nickelodeon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "record_player%1:06:00::"))
+(InheritanceLink s (WordSenseNode "phonograph%1:06:01::"))

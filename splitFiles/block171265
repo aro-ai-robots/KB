@@ -1,0 +1,8 @@
+(define s (WordSenseNode "traffic_lane%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "traffic_lane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lane%1:06:01::"))
+(InheritanceLink (WordSenseNode "bus_lane%1:06:00::") s)
+(InheritanceLink (WordSenseNode "fast_lane%1:06:00::") s)
+(InheritanceLink (WordSenseNode "slow_lane%1:06:00::") s)
+(HolonymLink s (WordSenseNode "highway%1:06:00::"))
+(HolonymLink s (WordSenseNode "main_road%1:06:00::"))

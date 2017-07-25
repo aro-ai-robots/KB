@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hydrochlorofluorocarbon%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hydrochlorofluorocarbon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chlorofluorocarbon%1:27:00::"))
+(InheritanceLink s (WordSenseNode "CFC%1:27:00::"))
+(define x (WordNode "HCFC")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chlorofluorocarbon%1:27:00::"))
+(InheritanceLink s (WordSenseNode "CFC%1:27:00::"))

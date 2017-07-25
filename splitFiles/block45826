@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dew_point%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dew_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature%1:07:00::"))
+(InheritanceLink s (WordSenseNode "saturation_point%1:26:00::"))

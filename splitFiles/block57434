@@ -1,0 +1,7 @@
+(define s (WordSenseNode "extension%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "extension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expansion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "enlargement%1:04:00::"))
+(InheritanceLink (WordSenseNode "spread%1:04:00::") s)
+(InheritanceLink (WordSenseNode "spreading%1:04:00::") s)
+(InheritanceLink (WordSenseNode "stretch%1:04:02::") s)

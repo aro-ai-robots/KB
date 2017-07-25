@@ -1,0 +1,6 @@
+(define s (WordSenseNode "boot_camp%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boot_camp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camp%1:06:00::"))
+(InheritanceLink s (WordSenseNode "encampment%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cantonment%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bivouac%1:06:00::"))

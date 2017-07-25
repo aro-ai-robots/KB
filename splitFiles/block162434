@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sudoku%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sudoku")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "puzzle%1:10:00::"))
+(InheritanceLink s (WordSenseNode "puzzler%1:10:00::"))
+(InheritanceLink s (WordSenseNode "mystifier%1:10:00::"))
+(InheritanceLink s (WordSenseNode "teaser%1:10:00::"))

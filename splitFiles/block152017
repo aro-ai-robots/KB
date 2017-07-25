@@ -1,0 +1,8 @@
+(define s (WordSenseNode "simplification%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "simplification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elimination%1:04:02::"))
+(InheritanceLink s (WordSenseNode "riddance%1:04:01::"))
+(InheritanceLink (WordSenseNode "oversimplification%1:04:00::") s)
+(InheritanceLink (WordSenseNode "simplism%1:04:00::") s)
+(InheritanceLink (WordSenseNode "rationalization%1:04:01::") s)
+(InheritanceLink (WordSenseNode "rationalisation%1:04:01::") s)

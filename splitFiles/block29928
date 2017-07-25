@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chimaera_monstrosa%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rabbitfish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chimaera%1:05:01::"))
+(define x (WordNode "Chimaera_monstrosa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chimaera%1:05:01::"))

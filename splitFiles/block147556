@@ -1,0 +1,7 @@
+(define s (WordSenseNode "secret_police%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "secret_police")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "police%1:14:00::"))
+(InheritanceLink s (WordSenseNode "police_force%1:14:00::"))
+(InheritanceLink s (WordSenseNode "constabulary%1:14:00::"))
+(InheritanceLink s (WordSenseNode "law%1:14:01::"))
+(InheritanceLink (WordSenseNode "Gestapo%1:14:00::") s)

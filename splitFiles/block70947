@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_plesiosaurus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Plesiosaurus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reptile_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Plesiosauria%1:05:00::"))
+(HolonymLink s (WordSenseNode "suborder_Plesiosauria%1:05:00::"))
+(HolonymLink (WordSenseNode "plesiosaur%1:05:00::") s)
+(HolonymLink (WordSenseNode "plesiosaurus%1:05:00::") s)

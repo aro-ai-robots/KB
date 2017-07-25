@@ -1,0 +1,8 @@
+(define s (WordSenseNode "welding%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "welding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fastening%1:04:00::"))
+(InheritanceLink s (WordSenseNode "attachment%1:04:00::"))
+(InheritanceLink (WordSenseNode "butt_welding%1:04:00::") s)
+(InheritanceLink (WordSenseNode "butt-welding%1:04:00::") s)
+(InheritanceLink (WordSenseNode "spot_welding%1:04:00::") s)
+(InheritanceLink (WordSenseNode "spot-welding%1:04:00::") s)

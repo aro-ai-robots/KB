@@ -1,0 +1,7 @@
+(define s (WordSenseNode "corallorhiza_trifida%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "early_coral_root")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coral_root%1:20:00::"))
+(define x (WordNode "pale_coral_root")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coral_root%1:20:00::"))
+(define x (WordNode "Corallorhiza_trifida")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coral_root%1:20:00::"))

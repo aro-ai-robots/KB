@@ -1,0 +1,4 @@
+(define s (WordSenseNode "count%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "count")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recite%2:32:00::"))
+(InheritanceLink (WordSenseNode "count_down%2:32:00::") s)

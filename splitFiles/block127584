@@ -1,0 +1,6 @@
+(define s (WordSenseNode "polar_circle%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polar_circle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "latitude%1:15:01::"))
+(InheritanceLink s (WordSenseNode "line_of_latitude%1:15:00::"))
+(InheritanceLink s (WordSenseNode "parallel_of_latitude%1:15:00::"))
+(InheritanceLink s (WordSenseNode "parallel%1:15:00::"))

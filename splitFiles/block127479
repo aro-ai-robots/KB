@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pointer%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cursor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indicator%1:06:00::"))
+(define x (WordNode "pointer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indicator%1:06:00::"))

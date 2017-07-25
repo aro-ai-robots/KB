@@ -1,0 +1,5 @@
+(define s (WordSenseNode "superior_vena_cava%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "superior_vena_cava")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vena_cava%1:08:00::"))
+(define x (WordNode "precava")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vena_cava%1:08:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hoover%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Hoover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vacuum%1:06:00::"))
+(InheritanceLink s (WordSenseNode "vacuum_cleaner%1:06:00::"))

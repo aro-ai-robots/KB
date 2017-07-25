@@ -1,0 +1,7 @@
+(define s (WordSenseNode "accentuation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "emphasizing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "action%1:04:02::"))
+(define x (WordNode "accenting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "action%1:04:02::"))
+(define x (WordNode "accentuation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "action%1:04:02::"))

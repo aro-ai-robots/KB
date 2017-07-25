@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ration_out%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allocate%2:40:00::"))
+(InheritanceLink s (WordSenseNode "apportion%2:40:01::"))
+(define x (WordNode "ration_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allocate%2:40:00::"))
+(InheritanceLink s (WordSenseNode "apportion%2:40:01::"))

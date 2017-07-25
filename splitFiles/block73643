@@ -1,0 +1,7 @@
+(define s (WordSenseNode "go-around%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "overshoot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "landing_approach%1:04:00::"))
+(define x (WordNode "wave-off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "landing_approach%1:04:00::"))
+(define x (WordNode "go-around")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "landing_approach%1:04:00::"))

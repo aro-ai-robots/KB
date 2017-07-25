@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cataract%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cataract")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eye_disease%1:26:00::"))
+(InheritanceLink (WordSenseNode "cortical_cataract%1:26:00::") s)
+(InheritanceLink (WordSenseNode "nuclear_cataract%1:26:00::") s)
+(InheritanceLink (WordSenseNode "posterior_subcapsular_cataract%1:26:00::") s)

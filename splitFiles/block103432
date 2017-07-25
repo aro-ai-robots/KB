@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mask%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "mask")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))
+(define x (WordNode "block_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))

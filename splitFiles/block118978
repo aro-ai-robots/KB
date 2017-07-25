@@ -1,0 +1,7 @@
+(define s (WordSenseNode "own%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "own")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "prepossess%2:40:00::") s)
+(define x (WordNode "have")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "prepossess%2:40:00::") s)
+(define x (WordNode "possess")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "prepossess%2:40:00::") s)

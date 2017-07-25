@@ -1,0 +1,4 @@
+(define s (WordSenseNode "electric_socket%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electric_socket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "socket%1:06:00::"))
+(HolonymLink s (WordSenseNode "lamp%1:06:01::"))

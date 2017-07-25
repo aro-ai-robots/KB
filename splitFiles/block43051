@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dead_axle%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dead_axle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "axle%1:06:00::"))
+(InheritanceLink (WordSenseNode "axletree%1:06:00::") s)

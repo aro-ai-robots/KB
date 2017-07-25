@@ -1,0 +1,7 @@
+(define s (WordSenseNode "truncus_pulmonalis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pulmonary_trunk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pulmonary_artery%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arteria_pulmonalis%1:08:00::"))
+(define x (WordNode "truncus_pulmonalis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pulmonary_artery%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arteria_pulmonalis%1:08:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "edible_sea_urchin%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "edible_sea_urchin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sea_urchin%1:05:00::"))
+(define x (WordNode "Echinus_esculentus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sea_urchin%1:05:00::"))

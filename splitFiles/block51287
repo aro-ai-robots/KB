@@ -1,0 +1,5 @@
+(define s (WordSenseNode "e-commerce%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "e-commerce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commerce%1:04:00::"))
+(InheritanceLink s (WordSenseNode "commercialism%1:04:00::"))
+(InheritanceLink s (WordSenseNode "mercantilism%1:04:00::"))

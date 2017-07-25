@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bounded_interval%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "closed_interval")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interval%1:09:00::"))
+(define x (WordNode "bounded_interval")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interval%1:09:00::"))

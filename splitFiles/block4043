@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aleph-null%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aleph-null")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_integer%1:23:00::"))
+(define x (WordNode "aleph-nought")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_integer%1:23:00::"))
+(define x (WordNode "aleph-zero")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_integer%1:23:00::"))

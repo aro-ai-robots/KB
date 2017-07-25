@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tread%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tread")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface%1:06:00::"))
+(HolonymLink s (WordSenseNode "pneumatic_tire%1:06:00::"))
+(HolonymLink s (WordSenseNode "pneumatic_tyre%1:06:00::"))

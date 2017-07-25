@@ -1,0 +1,7 @@
+(define s (WordSenseNode "permanent%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "permanent_wave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:08:00::"))
+(define x (WordNode "permanent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:08:00::"))
+(define x (WordNode "perm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:08:00::"))

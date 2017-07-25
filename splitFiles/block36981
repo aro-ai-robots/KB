@@ -1,0 +1,4 @@
+(define s (WordSenseNode "continental_glacier%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "continental_glacier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glacier%1:17:00::"))
+(InheritanceLink (WordSenseNode "polar_glacier%1:17:00::") s)

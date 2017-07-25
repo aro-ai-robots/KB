@@ -1,0 +1,7 @@
+(define s (WordSenseNode "demotic_script%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Demotic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hieratic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "hieratic_script%1:10:00::"))
+(define x (WordNode "Demotic_script")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hieratic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "hieratic_script%1:10:00::"))

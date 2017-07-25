@@ -1,0 +1,5 @@
+(define s (WordSenseNode "demilitarized_zone%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "demilitarized_zone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zone%1:15:01::"))
+(define x (WordNode "DMZ")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zone%1:15:01::"))

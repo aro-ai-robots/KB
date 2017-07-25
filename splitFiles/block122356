@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pelycosaur%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pelycosaur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "synapsid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "synapsid_reptile%1:05:00::"))
+(HolonymLink s (WordSenseNode "Pelycosauria%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Pelycosauria%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "blind%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "blind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "darken%2:30:01::"))
+(define x (WordNode "dim")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "darken%2:30:01::"))

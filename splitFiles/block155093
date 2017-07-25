@@ -1,0 +1,5 @@
+(define s (WordSenseNode "solar_flare%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "solar_flare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solar_radiation%1:19:00::"))
+(define x (WordNode "flare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solar_radiation%1:19:00::"))

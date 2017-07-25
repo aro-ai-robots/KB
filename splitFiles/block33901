@@ -1,0 +1,4 @@
+(define s (WordSenseNode "collocation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "collocation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "language_unit%1:10:00::"))
+(InheritanceLink s (WordSenseNode "linguistic_unit%1:10:00::"))

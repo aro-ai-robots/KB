@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tenterhook%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tenterhook")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hook%1:06:01::"))
+(InheritanceLink s (WordSenseNode "claw%1:06:00::"))
+(HolonymLink s (WordSenseNode "tenter%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kentish%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kentish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Old_English%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Anglo-Saxon%1:10:00::"))
+(define x (WordNode "Jutish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Old_English%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Anglo-Saxon%1:10:00::"))

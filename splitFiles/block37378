@@ -1,0 +1,8 @@
+(define s (WordSenseNode "conveyance%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conveyance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legal_document%1:10:00::"))
+(InheritanceLink s (WordSenseNode "legal_instrument%1:10:00::"))
+(InheritanceLink s (WordSenseNode "official_document%1:10:00::"))
+(InheritanceLink s (WordSenseNode "instrument%1:10:00::"))
+(InheritanceLink (WordSenseNode "quitclaim%1:10:00::") s)
+(InheritanceLink (WordSenseNode "quitclaim_deed%1:10:00::") s)

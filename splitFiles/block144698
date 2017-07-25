@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sanctum_sanctorum%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "holy_of_holies")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sanctuary%1:06:02::"))
+(HolonymLink s (WordSenseNode "Tabernacle%1:06:00::"))
+(define x (WordNode "sanctum_sanctorum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sanctuary%1:06:02::"))
+(HolonymLink s (WordSenseNode "Tabernacle%1:06:00::"))

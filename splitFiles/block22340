@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bulletin_board%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bulletin_board")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board%1:06:00::"))
+(InheritanceLink (WordSenseNode "call-board%1:06:00::") s)
+(define x (WordNode "notice_board")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board%1:06:00::"))
+(InheritanceLink (WordSenseNode "call-board%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "balance%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "balance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "equality%1:07:00::"))
+(InheritanceLink (WordSenseNode "trial_balance%1:21:00::") s)
+(HolonymLink s (WordSenseNode "account%1:21:02::"))
+(HolonymLink s (WordSenseNode "accounting%1:21:00::"))
+(HolonymLink s (WordSenseNode "account_statement%1:21:00::"))

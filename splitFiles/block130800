@@ -1,0 +1,6 @@
+(define s (WordSenseNode "printing_operation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "printing_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:22:00::"))
+(InheritanceLink (WordSenseNode "carriage_return%1:22:00::") s)
+(InheritanceLink (WordSenseNode "line_feed%1:22:00::") s)
+(InheritanceLink (WordSenseNode "new_line%1:22:00::") s)

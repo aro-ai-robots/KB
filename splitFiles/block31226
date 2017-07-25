@@ -1,0 +1,7 @@
+(define s (WordSenseNode "circulation%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "systemic_circulation%1:19:00::") s)
+(InheritanceLink (WordSenseNode "pulmonary_circulation%1:19:00::") s)
+(InheritanceLink (WordSenseNode "vitelline_circulation%1:19:00::") s)
+(HolonymLink (WordSenseNode "blood_pressure%1:19:00::") s)

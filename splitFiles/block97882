@@ -1,0 +1,7 @@
+(define s (WordSenseNode "line_engraving%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "linecut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "engraving%1:06:00::"))
+(define x (WordNode "line_block")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "engraving%1:06:00::"))
+(define x (WordNode "line_engraving")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "engraving%1:06:00::"))

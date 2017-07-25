@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flux%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flux")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flow%1:11:00::"))
+(InheritanceLink s (WordSenseNode "flowing%1:11:00::"))
+(define x (WordNode "fluxion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flow%1:11:00::"))
+(InheritanceLink s (WordSenseNode "flowing%1:11:00::"))

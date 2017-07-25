@@ -1,0 +1,6 @@
+(define s (WordSenseNode "talk_down%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "talk_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "minimize%2:32:00::"))
+(InheritanceLink s (WordSenseNode "belittle%2:32:01::"))
+(InheritanceLink s (WordSenseNode "denigrate%2:32:00::"))
+(InheritanceLink s (WordSenseNode "derogate%2:32:00::"))

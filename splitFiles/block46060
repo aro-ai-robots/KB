@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diary_keeper%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diarist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:01::"))
+(define x (WordNode "diary_keeper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:01::"))
+(define x (WordNode "journalist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:01::"))

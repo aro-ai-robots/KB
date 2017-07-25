@@ -1,0 +1,5 @@
+(define s (WordSenseNode "acid_precipitation%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acid_rain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air_pollution%1:26:00::"))
+(define x (WordNode "acid_precipitation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air_pollution%1:26:00::"))

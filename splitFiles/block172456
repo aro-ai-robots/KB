@@ -1,0 +1,6 @@
+(define s (WordSenseNode "trident%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trident")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spear%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lance%1:06:00::"))
+(InheritanceLink s (WordSenseNode "shaft%1:06:05::"))
+(HolonymLink (WordSenseNode "prong%1:06:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "peg%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "peg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "regulator%1:06:00::"))
+(HolonymLink s (WordSenseNode "stringed_instrument%1:06:00::"))

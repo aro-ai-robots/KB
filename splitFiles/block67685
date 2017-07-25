@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gauge%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gauge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distance%1:07:01::"))
+(InheritanceLink s (WordSenseNode "length%1:07:03::"))
+(InheritanceLink (WordSenseNode "broad_gauge%1:06:00::") s)
+(InheritanceLink (WordSenseNode "narrow_gauge%1:06:00::") s)
+(InheritanceLink (WordSenseNode "standard_gauge%1:06:00::") s)

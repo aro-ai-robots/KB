@@ -1,0 +1,4 @@
+(define s (WordSenseNode "claim%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "claim")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demand%1:04:00::"))
+(InheritanceLink (WordSenseNode "insurance_claim%1:04:00::") s)

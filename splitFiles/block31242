@@ -1,0 +1,5 @@
+(define s (WordSenseNode "circumference%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circumference")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "length%1:07:00::"))
+(HolonymLink (WordSenseNode "sextant%1:23:00::") s)
+(HolonymLink (WordSenseNode "straight_angle%1:23:00::") s)

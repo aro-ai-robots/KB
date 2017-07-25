@@ -1,0 +1,6 @@
+(define s (WordSenseNode "street_name%1:10:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "street_name")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appellation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "denomination%1:10:00::"))
+(InheritanceLink s (WordSenseNode "designation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "appellative%1:10:00::"))

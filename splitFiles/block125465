@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pinnule%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pinna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leaflet%1:20:00::"))
+(define x (WordNode "pinnule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leaflet%1:20:00::"))

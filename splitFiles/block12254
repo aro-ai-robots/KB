@@ -1,0 +1,7 @@
+(define s (WordSenseNode "babytalk%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "baby_talk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "non-standard_speech%1:10:00::"))
+(define x (WordNode "babytalk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "non-standard_speech%1:10:00::"))
+(define x (WordNode "motherese")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "non-standard_speech%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mantle%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mantle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "layer%1:15:00::"))
+(HolonymLink s (WordSenseNode "lithosphere%1:17:00::"))
+(HolonymLink s (WordSenseNode "geosphere%1:17:00::"))
+(HolonymLink (WordSenseNode "lower_mantle%1:17:00::") s)
+(HolonymLink (WordSenseNode "upper_mantle%1:17:00::") s)

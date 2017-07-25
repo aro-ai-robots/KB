@@ -1,0 +1,5 @@
+(define s (WordSenseNode "solidify%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "solidify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_integrity%2:30:00::"))
+(InheritanceLink (WordSenseNode "consolidate%2:30:03::") s)
+(InheritanceLink (WordSenseNode "concrete%2:30:00::") s)

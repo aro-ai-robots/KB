@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vermis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vermis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neural_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "cerebellum%1:08:00::"))
+(define x (WordNode "vermis_cerebelli")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neural_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "cerebellum%1:08:00::"))

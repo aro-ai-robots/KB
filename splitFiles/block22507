@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bunk_off%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bunk_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%2:42:00::"))
+(InheritanceLink s (WordSenseNode "skip%2:42:00::"))
+(define x (WordNode "play_hooky")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%2:42:00::"))
+(InheritanceLink s (WordSenseNode "skip%2:42:00::"))

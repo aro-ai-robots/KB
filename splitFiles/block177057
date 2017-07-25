@@ -1,0 +1,7 @@
+(define s (WordSenseNode "urarthritis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arthritis%1:26:00::"))
+(define x (WordNode "gouty_arthritis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arthritis%1:26:00::"))
+(define x (WordNode "urarthritis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arthritis%1:26:00::"))

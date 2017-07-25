@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gift_wrapping%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gift_wrapping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wrapping%1:06:00::"))
+(InheritanceLink s (WordSenseNode "wrap%1:06:01::"))
+(InheritanceLink s (WordSenseNode "wrapper%1:06:02::"))

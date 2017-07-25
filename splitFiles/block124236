@@ -1,0 +1,7 @@
+(define s (WordSenseNode "phonology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phonology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "descriptive_linguistics%1:09:00::"))
+(InheritanceLink (WordSenseNode "orthoepy%1:09:00::") s)
+(define x (WordNode "phonemics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "descriptive_linguistics%1:09:00::"))
+(InheritanceLink (WordSenseNode "orthoepy%1:09:00::") s)

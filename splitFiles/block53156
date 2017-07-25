@@ -1,0 +1,7 @@
+(define s (WordSenseNode "elizabethan_sonnet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Shakespearean_sonnet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sonnet%1:10:00::"))
+(define x (WordNode "Elizabethan_sonnet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sonnet%1:10:00::"))
+(define x (WordNode "English_sonnet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sonnet%1:10:00::"))

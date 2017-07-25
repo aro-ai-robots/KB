@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ex-spouse%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ex-spouse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adult%1:18:00::"))
+(InheritanceLink s (WordSenseNode "grownup%1:18:01::"))

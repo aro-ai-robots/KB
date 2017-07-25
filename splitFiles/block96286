@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lemma%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lemma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heading%1:10:00::"))
+(InheritanceLink s (WordSenseNode "header%1:10:00::"))
+(InheritanceLink s (WordSenseNode "head%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "regulus_calendula%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ruby-crowned_kinglet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kinglet%1:05:00::"))
+(define x (WordNode "ruby-crowned_wren")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kinglet%1:05:00::"))
+(define x (WordNode "Regulus_calendula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kinglet%1:05:00::"))

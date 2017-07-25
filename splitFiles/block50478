@@ -1,0 +1,6 @@
+(define s (WordSenseNode "drumbeat%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drumbeat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "signal%1:10:00::"))
+(InheritanceLink s (WordSenseNode "signaling%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sign%1:10:03::"))
+(InheritanceLink (WordSenseNode "tattoo%1:10:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "monition%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "summons%1:10:00::"))
+(InheritanceLink s (WordSenseNode "process%1:10:00::"))
+(define x (WordNode "process_of_monition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "summons%1:10:00::"))
+(InheritanceLink s (WordSenseNode "process%1:10:00::"))

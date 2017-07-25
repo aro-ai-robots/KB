@@ -1,0 +1,4 @@
+(define s (WordSenseNode "alibi%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "alibi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "excuse%2:32:03::"))
+(InheritanceLink s (WordSenseNode "explain%2:32:02::"))

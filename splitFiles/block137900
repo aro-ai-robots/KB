@@ -1,0 +1,7 @@
+(define s (WordSenseNode "registration_number%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "license_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:10:02::"))
+(InheritanceLink s (WordSenseNode "identification_number%1:10:00::"))
+(define x (WordNode "registration_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:10:02::"))
+(InheritanceLink s (WordSenseNode "identification_number%1:10:00::"))

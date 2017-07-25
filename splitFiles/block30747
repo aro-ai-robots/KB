@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chronic_glaucoma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chronic_glaucoma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glaucoma%1:26:00::"))
+(define x (WordNode "open-angle_glaucoma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glaucoma%1:26:00::"))

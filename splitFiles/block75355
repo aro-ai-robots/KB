@@ -1,0 +1,5 @@
+(define s (WordSenseNode "greece%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Greece")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Balkan_country%1:15:00::"))
+(InheritanceLink s (WordSenseNode "Balkan_nation%1:15:00::"))
+(InheritanceLink s (WordSenseNode "Balkan_state%1:15:00::"))

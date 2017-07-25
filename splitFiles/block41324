@@ -1,0 +1,6 @@
+(define s (WordSenseNode "curtain_raiser%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "curtain_raiser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "first_step%1:04:00::"))
+(InheritanceLink s (WordSenseNode "initiative%1:04:00::"))
+(InheritanceLink s (WordSenseNode "opening_move%1:04:00::"))
+(InheritanceLink s (WordSenseNode "opening%1:04:03::"))

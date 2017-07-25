@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ghostwrite%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ghost")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "author%2:36:00::"))
+(define x (WordNode "ghostwrite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "author%2:36:00::"))

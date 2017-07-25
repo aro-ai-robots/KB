@@ -1,0 +1,6 @@
+(define s (WordSenseNode "filling%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "filling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_integrity%1:04:00::"))
+(InheritanceLink (WordSenseNode "saturation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "flood%1:04:00::") s)
+(InheritanceLink (WordSenseNode "flowage%1:04:00::") s)

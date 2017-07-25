@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pothook%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pothook")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hook%1:06:01::"))
+(InheritanceLink s (WordSenseNode "claw%1:06:00::"))
+(InheritanceLink (WordSenseNode "trammel%1:06:02::") s)

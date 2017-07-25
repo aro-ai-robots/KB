@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hackamore%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "halter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "headgear%1:06:01::"))
+(HolonymLink s (WordSenseNode "harness%1:06:00::"))
+(define x (WordNode "hackamore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "headgear%1:06:01::"))
+(HolonymLink s (WordSenseNode "harness%1:06:00::"))

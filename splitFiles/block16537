@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bilge%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bilge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water%1:27:00::"))
+(InheritanceLink s (WordSenseNode "H2O%1:27:00::"))
+(define x (WordNode "bilge_water")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water%1:27:00::"))
+(InheritanceLink s (WordSenseNode "H2O%1:27:00::"))

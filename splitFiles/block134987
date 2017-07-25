@@ -1,0 +1,7 @@
+(define s (WordSenseNode "radio_antenna%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radio_antenna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "omnidirectional_antenna%1:06:00::"))
+(InheritanceLink s (WordSenseNode "nondirectional_antenna%1:06:00::"))
+(define x (WordNode "radio_aerial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "omnidirectional_antenna%1:06:00::"))
+(InheritanceLink s (WordSenseNode "nondirectional_antenna%1:06:00::"))

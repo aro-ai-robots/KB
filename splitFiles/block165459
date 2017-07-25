@@ -1,0 +1,5 @@
+(define s (WordSenseNode "takeover%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "takeover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buyout%1:04:00::"))
+(InheritanceLink (WordSenseNode "hostile_takeover%1:04:00::") s)
+(InheritanceLink (WordSenseNode "friendly_takeover%1:04:00::") s)

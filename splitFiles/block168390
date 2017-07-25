@@ -1,0 +1,7 @@
+(define s (WordSenseNode "third_base%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "third_base")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "base%1:06:02::"))
+(InheritanceLink s (WordSenseNode "bag%1:06:03::"))
+(define x (WordNode "third")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "base%1:06:02::"))
+(InheritanceLink s (WordSenseNode "bag%1:06:03::"))

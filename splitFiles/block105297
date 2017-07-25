@@ -1,0 +1,4 @@
+(define s (WordSenseNode "merchantability%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "merchantability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))
+(InheritanceLink (WordSenseNode "sale%1:26:00::") s)

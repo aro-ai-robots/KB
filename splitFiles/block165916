@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tape%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attach%2:35:01::"))
+(InheritanceLink (WordSenseNode "scotch_tape%2:35:00::") s)
+(InheritanceLink (WordSenseNode "sellotape%2:35:00::") s)

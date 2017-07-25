@@ -1,0 +1,6 @@
+(define s (WordSenseNode "invigilation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "invigilation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "supervision%1:04:00::"))
+(InheritanceLink s (WordSenseNode "supervising%1:04:00::"))
+(InheritanceLink s (WordSenseNode "superintendence%1:04:00::"))
+(InheritanceLink s (WordSenseNode "oversight%1:04:01::"))

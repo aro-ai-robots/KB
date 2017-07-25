@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cirrhosis_of_the_liver%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cirrhosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liver_disease%1:26:00::"))
+(define x (WordNode "cirrhosis_of_the_liver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liver_disease%1:26:00::"))

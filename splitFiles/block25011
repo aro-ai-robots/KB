@@ -1,0 +1,7 @@
+(define s (WordSenseNode "capacitance%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "capacitance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_phenomenon%1:19:00::"))
+(define x (WordNode "electrical_capacity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_phenomenon%1:19:00::"))
+(define x (WordNode "capacity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_phenomenon%1:19:00::"))

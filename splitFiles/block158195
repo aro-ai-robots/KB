@@ -1,0 +1,6 @@
+(define s (WordSenseNode "squeezer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "squeezer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_utensil%1:06:00::"))
+(InheritanceLink (WordSenseNode "reamer%1:06:01::") s)
+(InheritanceLink (WordSenseNode "juicer%1:06:00::") s)
+(InheritanceLink (WordSenseNode "juice_reamer%1:06:00::") s)

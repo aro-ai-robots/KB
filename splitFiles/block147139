@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sea_pen%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sea_pen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthozoan%1:05:00::"))
+(InheritanceLink s (WordSenseNode "actinozoan%1:05:00::"))
+(HolonymLink s (WordSenseNode "Pennatula%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Pennatula%1:05:00::"))

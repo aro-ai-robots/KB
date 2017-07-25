@@ -1,0 +1,4 @@
+(define s (WordSenseNode "abbe_condenser%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Abbe_condenser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condenser%1:06:00::"))
+(InheritanceLink s (WordSenseNode "optical_condenser%1:06:00::"))

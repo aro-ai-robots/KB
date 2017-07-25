@@ -1,0 +1,7 @@
+(define s (WordSenseNode "favour%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "favor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "advantage%1:07:00::"))
+(InheritanceLink s (WordSenseNode "vantage%1:07:00::"))
+(define x (WordNode "favour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "advantage%1:07:00::"))
+(InheritanceLink s (WordSenseNode "vantage%1:07:00::"))

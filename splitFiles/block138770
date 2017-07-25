@@ -1,0 +1,7 @@
+(define s (WordSenseNode "repellent%1:27:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "repellent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_compound%1:27:00::"))
+(define x (WordNode "repellant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_compound%1:27:00::"))

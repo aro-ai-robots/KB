@@ -1,0 +1,7 @@
+(define s (WordSenseNode "plastic_explosive%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plastic_explosive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "explosive_compound%1:06:00::"))
+(HolonymLink s (WordSenseNode "plastic_bomb%1:06:00::"))
+(define x (WordNode "plastique")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "explosive_compound%1:06:00::"))
+(HolonymLink s (WordSenseNode "plastic_bomb%1:06:00::"))

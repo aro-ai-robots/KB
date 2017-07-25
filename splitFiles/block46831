@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diplococcus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diplococcus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "bacterium%1:05:00::"))
+(InheritanceLink (WordSenseNode "pneumococcus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Diplococcus_pneumoniae%1:05:00::") s)
+(HolonymLink s (WordSenseNode "genus_Diplococcus%1:05:00::"))

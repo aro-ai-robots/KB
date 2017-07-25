@@ -1,0 +1,8 @@
+(define s (WordSenseNode "youth_culture%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "youth_culture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "subculture%1:14:00::"))
+(InheritanceLink s (WordSenseNode "coevals%1:14:00::"))
+(InheritanceLink s (WordSenseNode "contemporaries%1:14:00::"))
+(InheritanceLink s (WordSenseNode "generation%1:14:01::"))
+(InheritanceLink (WordSenseNode "hip-hop%1:14:00::") s)
+(InheritanceLink (WordSenseNode "youth_subculture%1:14:00::") s)

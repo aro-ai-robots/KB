@@ -1,0 +1,4 @@
+(define s (WordSenseNode "esoterica%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "esoterica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secret%1:10:01::"))
+(InheritanceLink s (WordSenseNode "arcanum%1:10:00::"))

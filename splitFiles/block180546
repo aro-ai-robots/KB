@@ -1,0 +1,6 @@
+(define s (WordSenseNode "walk-up%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "walk-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "apartment_building%1:06:00::"))
+(InheritanceLink s (WordSenseNode "apartment_house%1:06:00::"))
+(HolonymLink (WordSenseNode "walk-up_apartment%1:06:00::") s)
+(HolonymLink (WordSenseNode "walk-up%1:06:01::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "waiter's_assistant%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "busboy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dining-room_attendant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "restaurant_attendant%1:18:00::"))
+(define x (WordNode "waiter's_assistant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dining-room_attendant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "restaurant_attendant%1:18:00::"))

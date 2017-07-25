@@ -1,0 +1,6 @@
+(define s (WordSenseNode "medial_condyle%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "medial_condyle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condyle%1:08:00::"))
+(HolonymLink s (WordSenseNode "femur%1:08:00::"))
+(HolonymLink s (WordSenseNode "thighbone%1:08:00::"))
+(HolonymLink s (WordSenseNode "femoris%1:08:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ripen%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ripen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mature%2:30:00::"))
+(InheritanceLink s (WordSenseNode "maturate%2:30:00::"))
+(InheritanceLink s (WordSenseNode "grow%2:30:04::"))

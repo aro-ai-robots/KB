@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tuition_fee%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tuition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fee%1:21:00::"))
+(define x (WordNode "tuition_fee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fee%1:21:00::"))

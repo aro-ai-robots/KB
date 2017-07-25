@@ -1,0 +1,7 @@
+(define s (WordSenseNode "solo_blast%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "solo_homer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "homer%1:04:00::"))
+(InheritanceLink s (WordSenseNode "home_run%1:04:00::"))
+(define x (WordNode "solo_blast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "homer%1:04:00::"))
+(InheritanceLink s (WordSenseNode "home_run%1:04:00::"))

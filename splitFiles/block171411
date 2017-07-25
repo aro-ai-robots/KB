@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tramp_steamer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tramp_steamer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steamer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "steamship%1:06:00::"))
+(define x (WordNode "tramp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steamer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "steamship%1:06:00::"))

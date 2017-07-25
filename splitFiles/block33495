@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cogency%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cogency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relevance%1:24:00::"))
+(InheritanceLink s (WordSenseNode "relevancy%1:24:00::"))

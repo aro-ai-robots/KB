@@ -1,0 +1,7 @@
+(define s (WordSenseNode "unite%2:42:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "have%2:42:00::"))
+(InheritanceLink s (WordSenseNode "feature%2:42:00::"))
+(define x (WordNode "combine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "have%2:42:00::"))
+(InheritanceLink s (WordSenseNode "feature%2:42:00::"))

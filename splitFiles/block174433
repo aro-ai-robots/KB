@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tyrothricin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tyrothricin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antibiotic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antibiotic_drug%1:06:00::"))
+(HolonymLink (WordSenseNode "tyrocidine%1:06:00::") s)
+(HolonymLink (WordSenseNode "tyrocidin%1:06:00::") s)

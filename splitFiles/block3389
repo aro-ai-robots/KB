@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ahem%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utterance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vocalization%1:10:01::"))
+(define x (WordNode "ahem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utterance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vocalization%1:10:01::"))

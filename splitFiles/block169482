@@ -1,0 +1,5 @@
+(define s (WordSenseNode "time_constant%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "time_constant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_interval%1:28:00::"))
+(InheritanceLink s (WordSenseNode "interval%1:28:00::"))
+(InheritanceLink (WordSenseNode "relaxation_time%1:28:00::") s)

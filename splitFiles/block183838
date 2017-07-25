@@ -1,0 +1,7 @@
+(define s (WordSenseNode "windward%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "windward")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "direction%1:24:00::"))
+(InheritanceLink (WordSenseNode "to_windward%1:24:00::") s)
+(InheritanceLink (WordSenseNode "windward_side%1:24:00::") s)
+(InheritanceLink (WordSenseNode "weatherboard%1:24:00::") s)
+(InheritanceLink (WordSenseNode "weather_side%1:24:00::") s)

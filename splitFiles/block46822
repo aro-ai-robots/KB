@@ -1,0 +1,4 @@
+(define s (WordSenseNode "diphthong%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diphthong")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vowel%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vowel_sound%1:10:00::"))

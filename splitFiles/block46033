@@ -1,0 +1,5 @@
+(define s (WordSenseNode "diaper_rash%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diaper_rash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dermatitis%1:26:00::"))
+(define x (WordNode "diaper_dermatitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dermatitis%1:26:00::"))

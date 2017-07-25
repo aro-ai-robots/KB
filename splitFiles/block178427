@@ -1,0 +1,7 @@
+(define s (WordSenseNode "venae_labiales_anteriores%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "venae_labiales_anteriores")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "labial_vein%1:08:01::"))
+(InheritanceLink s (WordSenseNode "vena_labialis%1:08:01::"))
+(define x (WordNode "anterior_labial_veins")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "labial_vein%1:08:01::"))
+(InheritanceLink s (WordSenseNode "vena_labialis%1:08:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "clump%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "clump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "walk%2:38:00::"))
+(define x (WordNode "clomp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "walk%2:38:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "schrodinger_equation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Schrodinger_equation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "differential_equation%1:10:00::"))
+(define x (WordNode "Schrodinger_wave_equation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "differential_equation%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "plot%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "diagram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "draw%2:36:00::"))
+(InheritanceLink (WordSenseNode "graph%2:36:01::") s)
+(define x (WordNode "plot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "draw%2:36:00::"))
+(InheritanceLink (WordSenseNode "graph%2:36:01::") s)

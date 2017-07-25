@@ -1,0 +1,5 @@
+(define s (WordSenseNode "technical_analysis_of_stock_trends%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "technical_analysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "analysis%1:04:00::"))
+(define x (WordNode "technical_analysis_of_stock_trends")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "analysis%1:04:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "come%2:31:14::")) (PartOfSpeechLink s verb)
+(define x (WordNode "occur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "become%2:42:00::"))
+(define x (WordNode "come")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "become%2:42:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sensory_hair%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "whisker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hair%1:05:02::"))
+(define x (WordNode "vibrissa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hair%1:05:02::"))
+(define x (WordNode "sensory_hair")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hair%1:05:02::"))

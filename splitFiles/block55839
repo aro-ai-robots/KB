@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ethnic_slur%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ethnic_slur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aspersion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "slur%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "iodide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "iodide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "halide%1:27:00::"))
+(InheritanceLink (WordSenseNode "potassium_iodide%1:27:00::") s)
+(InheritanceLink (WordSenseNode "hydrogen_iodide%1:27:00::") s)
+(InheritanceLink (WordSenseNode "silver_iodide%1:27:00::") s)
+(InheritanceLink (WordSenseNode "sodium_iodide%1:27:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "thalamostriate_vein%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thalamostriate_vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena%1:08:00::"))
+(InheritanceLink s (WordSenseNode "venous_blood_vessel%1:08:00::"))
+(InheritanceLink (WordSenseNode "superior_thalamostriate_vein%1:08:00::") s)
+(InheritanceLink (WordSenseNode "inferior_thalamostriate_vein%1:08:00::") s)
+(InheritanceLink (WordSenseNode "striate_vein%1:08:00::") s)

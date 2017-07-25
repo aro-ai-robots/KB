@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pablum%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drivel%1:10:00::"))
+(InheritanceLink s (WordSenseNode "garbage%1:10:00::"))
+(define x (WordNode "pablum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drivel%1:10:00::"))
+(InheritanceLink s (WordSenseNode "garbage%1:10:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "megalomania%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "megalomania")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mental_illness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "mental_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "psychopathy%1:26:00::"))
+(HolonymLink (WordSenseNode "delusions_of_grandeur%1:26:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lymphangiectasia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lymphangiectasia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ectasia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ectasis%1:26:00::"))
+(define x (WordNode "lymphangiectasis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ectasia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ectasis%1:26:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "segregation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "segregation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "biological_process%1:22:00::"))
+(HolonymLink s (WordSenseNode "meiosis%1:22:00::"))
+(HolonymLink s (WordSenseNode "miosis%1:22:00::"))
+(HolonymLink s (WordSenseNode "reduction_division%1:22:00::"))

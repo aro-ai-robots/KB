@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ledger_line%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ledger_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:10:01::"))
+(HolonymLink s (WordSenseNode "musical_notation%1:10:00::"))
+(define x (WordNode "leger_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:10:01::"))
+(HolonymLink s (WordSenseNode "musical_notation%1:10:00::"))

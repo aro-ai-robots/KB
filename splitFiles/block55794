@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ether%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ether")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medium%1:10:00::"))
+(define x (WordNode "aether")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medium%1:10:00::"))

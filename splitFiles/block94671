@@ -1,0 +1,7 @@
+(define s (WordSenseNode "language%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "linguistic_process")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "higher_cognitive_process%1:09:00::"))
+(InheritanceLink (WordSenseNode "reading%1:09:00::") s)
+(define x (WordNode "language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "higher_cognitive_process%1:09:00::"))
+(InheritanceLink (WordSenseNode "reading%1:09:00::") s)

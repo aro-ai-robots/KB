@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chorion%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chorion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sac%1:08:00::"))
+(HolonymLink s (WordSenseNode "amniote%1:05:00::"))
+(HolonymLink s (WordSenseNode "fetal_membrane%1:08:00::"))
+(HolonymLink (WordSenseNode "chorionic_villus%1:05:00::") s)

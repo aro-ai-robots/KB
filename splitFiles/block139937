@@ -1,0 +1,7 @@
+(define s (WordSenseNode "return%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "come_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reappear%2:30:00::"))
+(InheritanceLink s (WordSenseNode "re-emerge%2:30:00::"))
+(define x (WordNode "return")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reappear%2:30:00::"))
+(InheritanceLink s (WordSenseNode "re-emerge%2:30:00::"))

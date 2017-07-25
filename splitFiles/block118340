@@ -1,0 +1,7 @@
+(define s (WordSenseNode "outfielder%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "outfielder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fielder%1:18:00::"))
+(InheritanceLink (WordSenseNode "right_fielder%1:18:00::") s)
+(InheritanceLink (WordSenseNode "center_fielder%1:18:00::") s)
+(InheritanceLink (WordSenseNode "centerfielder%1:18:00::") s)
+(InheritanceLink (WordSenseNode "left_fielder%1:18:00::") s)

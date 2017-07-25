@@ -1,0 +1,5 @@
+(define s (WordSenseNode "casein_paint%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "casein_paint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-base_paint%1:06:00::"))
+(define x (WordNode "casein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-base_paint%1:06:00::"))

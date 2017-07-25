@@ -1,0 +1,4 @@
+(define s (WordSenseNode "suicide_bomber%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "suicide_bomber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "terrorist%1:18:00::"))
+(InheritanceLink (WordSenseNode "kamikaze%1:18:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "middle_temporal_vein%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "middle_temporal_vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temporal_vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena_temporalis%1:08:00::"))

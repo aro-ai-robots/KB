@@ -1,0 +1,5 @@
+(define s (WordSenseNode "white_wood_aster%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_wood_aster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wood_aster%1:20:00::"))
+(define x (WordNode "Aster_divaricatus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wood_aster%1:20:00::"))

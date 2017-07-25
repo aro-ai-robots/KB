@@ -1,0 +1,7 @@
+(define s (WordSenseNode "logogram%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "logogram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ideogram%1:10:00::"))
+(InheritanceLink s (WordSenseNode "ideograph%1:10:00::"))
+(define x (WordNode "logograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ideogram%1:10:00::"))
+(InheritanceLink s (WordSenseNode "ideograph%1:10:00::"))

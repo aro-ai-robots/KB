@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gig%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carriage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "equipage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "rig%1:06:03::"))

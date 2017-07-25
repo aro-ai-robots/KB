@@ -1,0 +1,7 @@
+(define s (WordSenseNode "beta_globulin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transferrin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "globulin%1:27:00::"))
+(define x (WordNode "beta_globulin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "globulin%1:27:00::"))
+(define x (WordNode "siderophilin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "globulin%1:27:00::"))

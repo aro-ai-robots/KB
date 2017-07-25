@@ -1,0 +1,5 @@
+(define s (WordSenseNode "oxyopia%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oxyopia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acuity%1:09:01::"))
+(InheritanceLink s (WordSenseNode "visual_acuity%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sharp-sightedness%1:09:00::"))

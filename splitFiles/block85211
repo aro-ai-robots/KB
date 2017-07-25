@@ -1,0 +1,6 @@
+(define s (WordSenseNode "implied_trust%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "implied_trust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trust%1:21:03::"))
+(InheritanceLink (WordSenseNode "constructive_trust%1:21:00::") s)
+(InheritanceLink (WordSenseNode "involuntary_trust%1:21:00::") s)
+(InheritanceLink (WordSenseNode "resulting_trust%1:21:00::") s)

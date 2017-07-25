@@ -1,0 +1,5 @@
+(define s (WordSenseNode "art_nouveau%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "art_nouveau")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "school%1:14:02::"))
+(InheritanceLink s (WordSenseNode "artistic_movement%1:14:00::"))
+(InheritanceLink s (WordSenseNode "art_movement%1:14:00::"))

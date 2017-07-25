@@ -1,0 +1,8 @@
+(define s (WordSenseNode "conch%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gastropod%1:05:00::"))
+(InheritanceLink s (WordSenseNode "univalve%1:05:00::"))
+(InheritanceLink (WordSenseNode "giant_conch%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Strombus_gigas%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Strombus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Strombus%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rein%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strap%1:06:01::"))
+(InheritanceLink (WordSenseNode "bearing_rein%1:06:00::") s)
+(InheritanceLink (WordSenseNode "checkrein%1:06:00::") s)
+(InheritanceLink (WordSenseNode "leading_rein%1:06:00::") s)
+(HolonymLink s (WordSenseNode "bridle%1:06:00::"))

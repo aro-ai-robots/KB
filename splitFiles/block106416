@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mile%1:23:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linear_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "linear_measure%1:23:00::"))
+(define x (WordNode "Roman_mile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linear_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "linear_measure%1:23:00::"))

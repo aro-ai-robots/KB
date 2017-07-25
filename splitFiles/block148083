@@ -1,0 +1,5 @@
+(define s (WordSenseNode "self-deception%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-deception")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misconception%1:09:00::"))
+(define x (WordNode "self-deceit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misconception%1:09:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sink%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "slump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drop%2:30:00::"))
+(define x (WordNode "fall_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drop%2:30:00::"))
+(define x (WordNode "sink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drop%2:30:00::"))

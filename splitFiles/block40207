@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cross-examination%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cross-examination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interrogation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "examination%1:10:01::"))
+(InheritanceLink s (WordSenseNode "interrogatory%1:10:00::"))
+(HolonymLink (WordSenseNode "cross-question%1:10:00::") s)
+(HolonymLink (WordSenseNode "leading_question%1:10:00::") s)

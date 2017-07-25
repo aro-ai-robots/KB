@@ -1,0 +1,7 @@
+(define s (WordSenseNode "imbrication%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "imbrication")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covering%1:06:00::"))
+(define x (WordNode "overlapping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covering%1:06:00::"))
+(define x (WordNode "lapping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covering%1:06:00::"))

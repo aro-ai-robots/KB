@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sublimate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sublimate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gas%1:27:00::"))
+(InheritanceLink (WordSenseNode "mercuric_chloride%1:27:00::") s)
+(InheritanceLink (WordSenseNode "mercury_chloride%1:27:00::") s)
+(InheritanceLink (WordSenseNode "bichloride_of_mercury%1:27:00::") s)
+(InheritanceLink (WordSenseNode "corrosive_sublimate%1:27:00::") s)

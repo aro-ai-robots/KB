@@ -1,0 +1,5 @@
+(define s (WordSenseNode "porcupine_ball%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "porcupine_ball")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meatball%1:13:00::"))
+(define x (WordNode "porcupines")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meatball%1:13:00::"))

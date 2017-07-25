@@ -1,0 +1,7 @@
+(define s (WordSenseNode "coast_live_oak%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coast_live_oak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "live_oak%1:20:00::"))
+(define x (WordNode "California_live_oak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "live_oak%1:20:00::"))
+(define x (WordNode "Quercus_agrifolia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "live_oak%1:20:00::"))

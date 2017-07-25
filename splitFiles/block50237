@@ -1,0 +1,6 @@
+(define s (WordSenseNode "driveshaft%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "driveshaft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rotating_shaft%1:06:00::"))
+(InheritanceLink s (WordSenseNode "shaft%1:06:01::"))
+(HolonymLink s (WordSenseNode "drive_line%1:06:00::"))
+(HolonymLink s (WordSenseNode "drive_line_system%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "episcopacy%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "episcopacy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "people%1:14:00::"))
+(define x (WordNode "episcopate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "people%1:14:00::"))

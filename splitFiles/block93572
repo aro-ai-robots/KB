@@ -1,0 +1,5 @@
+(define s (WordSenseNode "komi%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Komi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Permic%1:10:00::"))
+(define x (WordNode "Zyrian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Permic%1:10:00::"))

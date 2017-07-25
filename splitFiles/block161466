@@ -1,0 +1,8 @@
+(define s (WordSenseNode "study_hall%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "study_hall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_period%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period_of_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period%1:28:00::"))
+(HolonymLink s (WordSenseNode "school%1:28:00::"))
+(HolonymLink s (WordSenseNode "schooltime%1:28:00::"))
+(HolonymLink s (WordSenseNode "school_day%1:28:01::"))

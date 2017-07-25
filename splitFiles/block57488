@@ -1,0 +1,4 @@
+(define s (WordSenseNode "external_iliac_vein%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "external_iliac_vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "iliac_vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena_iliaca%1:08:00::"))

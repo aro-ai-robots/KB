@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dp%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "displaced_person")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refugee%1:18:00::"))
+(define x (WordNode "DP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refugee%1:18:00::"))
+(define x (WordNode "stateless_person")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refugee%1:18:00::"))

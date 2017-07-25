@@ -1,0 +1,4 @@
+(define s (WordSenseNode "streptococcus_anhemolyticus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Streptococcus_anhemolyticus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_species%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Streptococcus%1:05:00::"))

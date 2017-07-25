@@ -1,0 +1,6 @@
+(define s (WordSenseNode "aesop's_fables%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Aesop's_fables")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fable%1:10:00::"))
+(InheritanceLink s (WordSenseNode "parable%1:10:00::"))
+(InheritanceLink s (WordSenseNode "allegory%1:10:00::"))
+(InheritanceLink s (WordSenseNode "apologue%1:10:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tetrasaccharide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tetrasaccharide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oligosaccharide%1:27:00::"))
+(InheritanceLink (WordSenseNode "stachyose%1:27:00::") s)

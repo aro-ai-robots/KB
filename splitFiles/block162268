@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subtraction%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subtraction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arithmetic_operation%1:04:00::"))
+(define x (WordNode "minus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arithmetic_operation%1:04:00::"))

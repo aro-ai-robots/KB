@@ -1,0 +1,5 @@
+(define s (WordSenseNode "business_agent%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "business_agent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:18:02::"))
+(InheritanceLink (WordSenseNode "actor's_agent%1:18:00::") s)
+(InheritanceLink (WordSenseNode "theatrical_agent%1:18:00::") s)

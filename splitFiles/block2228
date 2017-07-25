@@ -1,0 +1,5 @@
+(define s (WordSenseNode "adjutant_general%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adjutant_general")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjutant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "aide%1:18:01::"))
+(InheritanceLink s (WordSenseNode "aide-de-camp%1:18:00::"))

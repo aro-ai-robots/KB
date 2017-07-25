@@ -1,0 +1,4 @@
+(define s (WordSenseNode "plastic_bag%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plastic_bag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bag%1:06:00::"))
+(InheritanceLink (WordSenseNode "bin_liner%1:06:00::") s)

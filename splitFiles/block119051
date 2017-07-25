@@ -1,0 +1,8 @@
+(define s (WordSenseNode "oxidative_phosphorylation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oxidative_phosphorylation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "biological_process%1:22:00::"))
+(HolonymLink s (WordSenseNode "Krebs_cycle%1:22:00::"))
+(HolonymLink s (WordSenseNode "Krebs_citric_acid_cycle%1:22:00::"))
+(HolonymLink s (WordSenseNode "citric_acid_cycle%1:22:00::"))
+(HolonymLink s (WordSenseNode "tricarboxylic_acid_cycle%1:22:00::"))

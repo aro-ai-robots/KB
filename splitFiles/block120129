@@ -1,0 +1,5 @@
+(define s (WordSenseNode "panto%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "panto")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mime%1:04:00::"))
+(InheritanceLink s (WordSenseNode "pantomime%1:04:00::"))
+(InheritanceLink s (WordSenseNode "dumb_show%1:04:00::"))

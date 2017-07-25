@@ -1,0 +1,5 @@
+(define s (WordSenseNode "privy_council%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "privy_council")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "council%1:14:01::"))
+(InheritanceLink (WordSenseNode "divan%1:14:00::") s)
+(InheritanceLink (WordSenseNode "diwan%1:14:00::") s)

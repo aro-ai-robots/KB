@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fall%1:11:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weakening%1:11:00::"))
+(InheritanceLink (WordSenseNode "anticlimax%1:11:00::") s)
+(define x (WordNode "downfall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weakening%1:11:00::"))
+(InheritanceLink (WordSenseNode "anticlimax%1:11:00::") s)

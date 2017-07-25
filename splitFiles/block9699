@@ -1,0 +1,8 @@
+(define s (WordSenseNode "arum%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "starch%1:27:00::"))
+(InheritanceLink s (WordSenseNode "amylum%1:27:00::"))
+(HolonymLink s (WordSenseNode "cuckoopint%1:20:00::"))
+(HolonymLink s (WordSenseNode "lords-and-ladies%1:20:00::"))
+(HolonymLink s (WordSenseNode "jack-in-the-pulpit%1:20:02::"))
+(HolonymLink s (WordSenseNode "Arum_maculatum%1:20:00::"))

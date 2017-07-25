@@ -1,0 +1,7 @@
+(define s (WordSenseNode "job_action%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "job_action")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "direct_action%1:04:00::"))
+(InheritanceLink (WordSenseNode "go-slow%1:04:00::") s)
+(InheritanceLink (WordSenseNode "work_to_rule%1:04:00::") s)
+(InheritanceLink (WordSenseNode "strike%1:04:00::") s)
+(InheritanceLink (WordSenseNode "work_stoppage%1:04:00::") s)

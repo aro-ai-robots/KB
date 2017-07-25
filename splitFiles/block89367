@@ -1,0 +1,5 @@
+(define s (WordSenseNode "isolate%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "isolate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "get%2:40:00::"))
+(InheritanceLink s (WordSenseNode "acquire%2:40:00::"))
+(InheritanceLink (WordSenseNode "preisolate%2:30:00::") s)

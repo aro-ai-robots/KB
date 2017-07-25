@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pickup%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pickup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corrective%1:06:00::"))
+(InheritanceLink s (WordSenseNode "restorative%1:06:00::"))
+(define x (WordNode "pick-me-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corrective%1:06:00::"))
+(InheritanceLink s (WordSenseNode "restorative%1:06:00::"))

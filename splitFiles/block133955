@@ -1,0 +1,5 @@
+(define s (WordSenseNode "quadrant%1:15:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quadrant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:00::"))
+(define x (WordNode "quarter-circle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "oil_filter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oil_filter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "filter%1:06:00::"))
+(HolonymLink s (WordSenseNode "lubricating_system%1:06:00::"))
+(HolonymLink s (WordSenseNode "force-feed_lubricating_system%1:06:00::"))
+(HolonymLink s (WordSenseNode "force_feed%1:06:00::"))
+(HolonymLink s (WordSenseNode "pressure-feed_lubricating_system%1:06:00::"))
+(HolonymLink s (WordSenseNode "pressure_feed%1:06:00::"))

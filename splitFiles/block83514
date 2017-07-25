@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hydrogen_atom%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hydrogen_atom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atom%1:27:00::"))
+(InheritanceLink (WordSenseNode "acidic_hydrogen%1:27:00::") s)
+(InheritanceLink (WordSenseNode "acid_hydrogen%1:27:00::") s)
+(InheritanceLink (WordSenseNode "deuterium%1:27:00::") s)
+(InheritanceLink (WordSenseNode "heavy_hydrogen%1:27:00::") s)
+(HolonymLink (WordSenseNode "hydrogen_ion%1:17:00::") s)

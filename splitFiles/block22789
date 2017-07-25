@@ -1,0 +1,7 @@
+(define s (WordSenseNode "burst%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "burst")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "activity%1:04:00::"))
+(InheritanceLink (WordSenseNode "fits_and_starts%1:04:00::") s)
+(define x (WordNode "fit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "activity%1:04:00::"))
+(InheritanceLink (WordSenseNode "fits_and_starts%1:04:00::") s)

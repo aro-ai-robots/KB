@@ -1,0 +1,7 @@
+(define s (WordSenseNode "antisocial_personality_disorder%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antisocial_personality_disorder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personality_disorder%1:26:00::"))
+(define x (WordNode "sociopathic_personality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personality_disorder%1:26:00::"))
+(define x (WordNode "psychopathic_personality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personality_disorder%1:26:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hypochondria%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypochondria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anxiety%1:26:00::"))
+(InheritanceLink s (WordSenseNode "anxiousness%1:26:00::"))
+(define x (WordNode "hypochondriasis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anxiety%1:26:00::"))
+(InheritanceLink s (WordSenseNode "anxiousness%1:26:00::"))

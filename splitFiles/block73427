@@ -1,0 +1,5 @@
+(define s (WordSenseNode "glove%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boxing_glove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boxing_equipment%1:06:00::"))
+(define x (WordNode "glove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boxing_equipment%1:06:00::"))

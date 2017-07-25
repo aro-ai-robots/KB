@@ -1,0 +1,6 @@
+(define s (WordSenseNode "surgical_dressing%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "surgical_dressing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dressing%1:06:00::"))
+(InheritanceLink s (WordSenseNode "medical_dressing%1:06:00::"))
+(HolonymLink (WordSenseNode "gauze%1:06:01::") s)
+(HolonymLink (WordSenseNode "gauze_bandage%1:06:00::") s)

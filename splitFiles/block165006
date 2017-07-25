@@ -1,0 +1,7 @@
+(define s (WordSenseNode "taco%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "greaser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mexican%1:18:00::"))
+(define x (WordNode "wetback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mexican%1:18:00::"))
+(define x (WordNode "taco")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mexican%1:18:00::"))

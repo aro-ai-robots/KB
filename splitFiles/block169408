@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tilt%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tilt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "partiality%1:09:00::"))
+(InheritanceLink s (WordSenseNode "partisanship%1:09:00::"))

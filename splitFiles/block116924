@@ -1,0 +1,4 @@
+(define s (WordSenseNode "oral_contraception%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oral_contraception")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contraception%1:04:00::"))
+(InheritanceLink s (WordSenseNode "contraceptive_method%1:04:00::"))

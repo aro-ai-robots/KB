@@ -1,0 +1,5 @@
+(define s (WordSenseNode "family_pythonidae%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pythonidae")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reptile_family%1:05:00::"))
+(define x (WordNode "family_Pythonidae")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reptile_family%1:05:00::"))

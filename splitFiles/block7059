@@ -1,0 +1,7 @@
+(define s (WordSenseNode "antecede%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "predate")) (WordSenseLink x s)
+(define x (WordNode "precede")) (WordSenseLink x s)
+(define x (WordNode "forego")) (WordSenseLink x s)
+(define x (WordNode "forgo")) (WordSenseLink x s)
+(define x (WordNode "antecede")) (WordSenseLink x s)
+(define x (WordNode "antedate")) (WordSenseLink x s)

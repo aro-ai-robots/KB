@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cosign%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cosign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endorse%2:32:00::"))
+(InheritanceLink s (WordSenseNode "indorse%2:32:00::"))
+(define x (WordNode "co-sign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endorse%2:32:00::"))
+(InheritanceLink s (WordSenseNode "indorse%2:32:00::"))

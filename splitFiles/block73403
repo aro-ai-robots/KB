@@ -1,0 +1,5 @@
+(define s (WordSenseNode "glossodynia_exfoliativa%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Moeller's_glossitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glossitis%1:26:00::"))
+(define x (WordNode "glossodynia_exfoliativa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glossitis%1:26:00::"))

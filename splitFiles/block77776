@@ -1,0 +1,5 @@
+(define s (WordSenseNode "handloom%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "handloom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loom%1:06:00::"))
+(InheritanceLink (WordSenseNode "high-warp_loom%1:06:00::") s)
+(InheritanceLink (WordSenseNode "low-warp-loom%1:06:00::") s)

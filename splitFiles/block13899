@@ -1,0 +1,7 @@
+(define s (WordSenseNode "basal_temperature%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "basal_body_temperature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_temperature%1:07:00::"))
+(InheritanceLink s (WordSenseNode "blood_heat%1:07:00::"))
+(define x (WordNode "basal_temperature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_temperature%1:07:00::"))
+(InheritanceLink s (WordSenseNode "blood_heat%1:07:00::"))

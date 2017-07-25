@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chimney_corner%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chimney_corner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corner%1:06:02::"))
+(InheritanceLink s (WordSenseNode "nook%1:06:00::"))
+(define x (WordNode "inglenook")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corner%1:06:02::"))
+(InheritanceLink s (WordSenseNode "nook%1:06:00::"))

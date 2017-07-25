@@ -1,0 +1,7 @@
+(define s (WordSenseNode "adder%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "calculator%1:18:00::"))
+(InheritanceLink s (WordSenseNode "reckoner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "figurer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "estimator%1:18:00::"))
+(InheritanceLink s (WordSenseNode "computer%1:18:00::"))

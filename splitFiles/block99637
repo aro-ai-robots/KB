@@ -1,0 +1,5 @@
+(define s (WordSenseNode "losings%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "losings")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_loss%1:21:00::"))
+(define x (WordNode "losses")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_loss%1:21:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_psilophyton%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Psilophyton")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fern_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Psilophytaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Psilophytaceae%1:20:00::"))
+(HolonymLink (WordSenseNode "psilophyton%1:20:00::") s)

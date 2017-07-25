@@ -1,0 +1,8 @@
+(define s (WordSenseNode "kicker%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kicker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "football_player%1:18:00::"))
+(InheritanceLink s (WordSenseNode "footballer%1:18:00::"))
+(InheritanceLink (WordSenseNode "dropkicker%1:18:00::") s)
+(InheritanceLink (WordSenseNode "place-kicker%1:18:00::") s)
+(InheritanceLink (WordSenseNode "placekicker%1:18:00::") s)
+(InheritanceLink (WordSenseNode "punter%1:18:00::") s)

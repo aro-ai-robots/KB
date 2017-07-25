@@ -1,0 +1,7 @@
+(define s (WordSenseNode "effect%2:41:15::")) (PartOfSpeechLink s verb)
+(define x (WordNode "effect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%2:41:00::"))
+(InheritanceLink s (WordSenseNode "move%2:41:00::"))
+(InheritanceLink (WordSenseNode "bring_to_bear%2:41:00::") s)
+(InheritanceLink (WordSenseNode "carry%2:41:00::") s)
+(InheritanceLink (WordSenseNode "backdate%2:41:00::") s)

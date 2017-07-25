@@ -1,0 +1,7 @@
+(define s (WordSenseNode "noseband%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "noseband")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strap%1:06:01::"))
+(HolonymLink s (WordSenseNode "bridle%1:06:00::"))
+(define x (WordNode "nosepiece")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strap%1:06:01::"))
+(HolonymLink s (WordSenseNode "bridle%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tridymite%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tridymite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mineral%1:27:00::"))
+(HolonymLink (WordSenseNode "silica%1:27:00::") s)
+(HolonymLink (WordSenseNode "silicon_oxide%1:27:00::") s)
+(HolonymLink (WordSenseNode "silicon_dioxide%1:27:00::") s)

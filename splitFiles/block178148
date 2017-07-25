@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vector_algebra%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vector_algebra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "algebra%1:09:00::"))
+(InheritanceLink (WordSenseNode "decomposition%1:09:00::") s)
+(InheritanceLink (WordSenseNode "vector_decomposition%1:09:00::") s)

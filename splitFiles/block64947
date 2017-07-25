@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fowl_cholera%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fowl_cholera")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "blood_poisoning%1:26:00::"))
+(InheritanceLink s (WordSenseNode "septicemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "septicaemia%1:26:00::"))

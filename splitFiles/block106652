@@ -1,0 +1,5 @@
+(define s (WordSenseNode "millime%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "millime")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tunisian_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "Tunisian_dirham%1:23:00::"))
+(HolonymLink s (WordSenseNode "dirham%1:23:03::"))

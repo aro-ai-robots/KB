@@ -1,0 +1,8 @@
+(define s (WordSenseNode "ldl_cholesterol%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "LDL_cholesterol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cholesterol%1:27:00::"))
+(InheritanceLink s (WordSenseNode "cholesterin%1:27:00::"))
+(InheritanceLink (WordSenseNode "oxidized_LDL_cholesterol%1:27:00::") s)
+(HolonymLink s (WordSenseNode "low-density_lipoprotein%1:27:00::"))
+(HolonymLink s (WordSenseNode "LDL%1:27:00::"))
+(HolonymLink s (WordSenseNode "beta-lipoprotein%1:27:00::"))

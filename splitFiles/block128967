@@ -1,0 +1,5 @@
+(define s (WordSenseNode "postural_hypotension%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orthostatic_hypotension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypotension%1:26:00::"))
+(define x (WordNode "postural_hypotension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypotension%1:26:00::"))

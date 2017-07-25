@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fountain_pen%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fountain_pen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pen%1:06:00::"))
+(HolonymLink (WordSenseNode "ink_cartridge%1:06:00::") s)

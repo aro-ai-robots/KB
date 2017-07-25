@@ -1,0 +1,8 @@
+(define s (WordSenseNode "youngness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "youngness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "age%1:07:00::"))
+(InheritanceLink (WordSenseNode "youth%1:07:00::") s)
+(InheritanceLink (WordSenseNode "youthfulness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "juvenility%1:07:00::") s)
+(InheritanceLink (WordSenseNode "childishness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "puerility%1:07:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "calcium_chloride%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calcium_chloride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salt%1:27:00::"))
+(HolonymLink s (WordSenseNode "seawater%1:27:00::"))
+(HolonymLink s (WordSenseNode "saltwater%1:27:00::"))
+(HolonymLink s (WordSenseNode "brine%1:27:00::"))

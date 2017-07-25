@@ -1,0 +1,3 @@
+(define s (WordSenseNode "tax_form%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tax_form")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "form%1:10:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "prologue%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prologue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "introduction%1:10:00::"))
+(HolonymLink s (WordSenseNode "dramatic_composition%1:10:00::"))
+(HolonymLink s (WordSenseNode "dramatic_work%1:10:00::"))

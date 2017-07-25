@@ -1,0 +1,5 @@
+(define s (WordSenseNode "prompt%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prompt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cue%1:10:00::"))
+(define x (WordNode "prompting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cue%1:10:00::"))

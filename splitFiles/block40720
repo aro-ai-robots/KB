@@ -1,0 +1,5 @@
+(define s (WordSenseNode "crystal_microphone%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crystal_microphone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "microphone%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mike%1:06:00::"))
+(HolonymLink (WordSenseNode "crystal%1:06:02::") s)

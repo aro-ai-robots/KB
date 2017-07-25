@@ -1,0 +1,4 @@
+(define s (WordSenseNode "rand%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "South_African_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "cent%1:23:00::") s)

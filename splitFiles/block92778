@@ -1,0 +1,4 @@
+(define s (WordSenseNode "kick_turn%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kick_turn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turn%1:04:01::"))
+(InheritanceLink s (WordSenseNode "turning%1:04:00::"))

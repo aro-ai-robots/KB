@@ -1,0 +1,7 @@
+(define s (WordSenseNode "meat-packing_business%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "meatpacking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "packaging%1:04:00::"))
+(define x (WordNode "meat_packing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "packaging%1:04:00::"))
+(define x (WordNode "meat-packing_business")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "packaging%1:04:00::"))

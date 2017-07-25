@@ -1,0 +1,3 @@
+(define s (WordSenseNode "phenylalanine%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phenylalanine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "essential_amino_acid%1:27:00::"))

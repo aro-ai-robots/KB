@@ -1,0 +1,5 @@
+(define s (WordSenseNode "health_maintenance_organization%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "health_maintenance_organization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "health_insurance%1:21:00::"))
+(define x (WordNode "HMO")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "health_insurance%1:21:00::"))

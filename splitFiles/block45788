@@ -1,0 +1,7 @@
+(define s (WordSenseNode "devitalize%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "devitalize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:01::"))
+(InheritanceLink (WordSenseNode "eviscerate%2:30:03::") s)
+(define x (WordNode "devitalise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:01::"))
+(InheritanceLink (WordSenseNode "eviscerate%2:30:03::") s)

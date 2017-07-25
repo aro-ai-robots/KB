@@ -1,0 +1,7 @@
+(define s (WordSenseNode "landed_gentry%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "landed_gentry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gentry%1:14:00::"))
+(InheritanceLink s (WordSenseNode "aristocracy%1:14:02::"))
+(define x (WordNode "squirearchy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gentry%1:14:00::"))
+(InheritanceLink s (WordSenseNode "aristocracy%1:14:02::"))

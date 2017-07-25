@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sixth_sense%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "insight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intuition%1:09:00::"))
+(define x (WordNode "sixth_sense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intuition%1:09:00::"))

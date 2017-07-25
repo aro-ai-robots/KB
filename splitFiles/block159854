@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stickle%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stickle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "argue%2:32:00::"))
+(InheritanceLink s (WordSenseNode "contend%2:32:01::"))
+(InheritanceLink s (WordSenseNode "debate%2:32:01::"))
+(InheritanceLink s (WordSenseNode "fence%2:32:00::"))

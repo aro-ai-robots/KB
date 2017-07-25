@@ -1,0 +1,7 @@
+(define s (WordSenseNode "climbing_salamander%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "climbing_salamander")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salamander%1:05:00::"))
+(InheritanceLink (WordSenseNode "arboreal_salamander%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Aneides_lugubris%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Aneides%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Aneides%1:05:00::"))

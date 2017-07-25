@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hare's-foot_fern%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hare's-foot_fern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "davallia%1:20:00::"))
+(InheritanceLink (WordSenseNode "Canary_Island_hare's_foot_fern%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Davallia_canariensis%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Australian_hare's_foot%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Davallia_pyxidata%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Davallia%1:20:00::"))

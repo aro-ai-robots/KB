@@ -1,0 +1,3 @@
+(define s (WordSenseNode "absentee_ballot%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "absentee_ballot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ballot%1:10:00::"))

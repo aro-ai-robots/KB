@@ -1,0 +1,7 @@
+(define s (WordSenseNode "h%1:23:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Planck's_constant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "factor_of_proportionality%1:23:00::"))
+(InheritanceLink s (WordSenseNode "constant_of_proportionality%1:23:00::"))
+(define x (WordNode "h")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "factor_of_proportionality%1:23:00::"))
+(InheritanceLink s (WordSenseNode "constant_of_proportionality%1:23:00::"))

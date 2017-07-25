@@ -1,0 +1,5 @@
+(define s (WordSenseNode "underbelly%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "underbelly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weak_part%1:07:00::"))
+(InheritanceLink s (WordSenseNode "weak_spot%1:07:00::"))
+(InheritanceLink s (WordSenseNode "soft_spot%1:07:00::"))

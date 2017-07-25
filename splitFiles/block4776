@@ -1,0 +1,6 @@
+(define s (WordSenseNode "alpenstock%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alpenstock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "staff%1:06:00::"))
+(HolonymLink (WordSenseNode "point%1:25:00::") s)
+(HolonymLink (WordSenseNode "tip%1:25:00::") s)
+(HolonymLink (WordSenseNode "peak%1:25:01::") s)

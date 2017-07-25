@@ -1,0 +1,7 @@
+(define s (WordSenseNode "constructive_eviction%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eviction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compulsion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "coercion%1:04:00::"))
+(define x (WordNode "constructive_eviction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compulsion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "coercion%1:04:00::"))

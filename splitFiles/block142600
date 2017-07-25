@@ -1,0 +1,7 @@
+(define s (WordSenseNode "round_out%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "round_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "complete%2:30:02::"))
+(InheritanceLink s (WordSenseNode "finish%2:30:02::"))
+(define x (WordNode "finish_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "complete%2:30:02::"))
+(InheritanceLink s (WordSenseNode "finish%2:30:02::"))

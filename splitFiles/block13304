@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bank_card%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bank_card")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "credit_card%1:21:00::"))
+(InheritanceLink s (WordSenseNode "charge_card%1:21:00::"))
+(InheritanceLink s (WordSenseNode "charge_plate%1:21:00::"))
+(InheritanceLink s (WordSenseNode "plastic%1:21:00::"))

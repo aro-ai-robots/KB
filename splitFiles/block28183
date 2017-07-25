@@ -1,0 +1,8 @@
+(define s (WordSenseNode "cervical_cap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cervical_cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contraceptive%1:06:00::"))
+(InheritanceLink s (WordSenseNode "preventive%1:06:02::"))
+(InheritanceLink s (WordSenseNode "preventative%1:06:02::"))
+(InheritanceLink s (WordSenseNode "contraceptive_device%1:06:00::"))
+(InheritanceLink s (WordSenseNode "prophylactic_device%1:06:00::"))
+(InheritanceLink s (WordSenseNode "birth_control_device%1:06:00::"))

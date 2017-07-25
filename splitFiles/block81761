@@ -1,0 +1,3 @@
+(define s (WordSenseNode "homophone%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "homophone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "homonym%1:10:00::"))

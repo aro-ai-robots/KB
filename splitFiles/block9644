@@ -1,0 +1,8 @@
+(define s (WordSenseNode "artificiality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "artificiality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unnaturalness%1:07:00::"))
+(InheritanceLink (WordSenseNode "staginess%1:07:00::") s)
+(InheritanceLink (WordSenseNode "theatricality%1:07:00::") s)
+(InheritanceLink (WordSenseNode "pretension%1:07:00::") s)
+(InheritanceLink (WordSenseNode "pretense%1:07:00::") s)
+(InheritanceLink (WordSenseNode "pretence%1:07:00::") s)

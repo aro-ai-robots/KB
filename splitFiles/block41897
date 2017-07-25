@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cypher%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cipher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "message%1:10:01::"))
+(define x (WordNode "cypher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "message%1:10:01::"))

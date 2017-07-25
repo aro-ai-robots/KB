@@ -1,0 +1,4 @@
+(define s (WordSenseNode "xerographic_printer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "xerographic_printer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "page_printer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "page-at-a-time_printer%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lockstep%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lockstep")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "standing_operating_procedure%1:04:00::"))
+(InheritanceLink s (WordSenseNode "standard_operating_procedure%1:04:00::"))
+(InheritanceLink s (WordSenseNode "SOP%1:04:00::"))
+(InheritanceLink s (WordSenseNode "standard_procedure%1:04:00::"))

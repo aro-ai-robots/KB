@@ -1,0 +1,4 @@
+(define s (WordSenseNode "rheumatic_aortitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rheumatic_aortitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aortitis%1:26:00::"))
+(HolonymLink s (WordSenseNode "rheumatic_fever%1:26:00::"))

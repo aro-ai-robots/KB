@@ -1,0 +1,5 @@
+(define s (WordSenseNode "microscope_stage%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "platform%1:06:00::"))
+(define x (WordNode "microscope_stage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "platform%1:06:00::"))

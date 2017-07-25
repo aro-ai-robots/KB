@@ -1,0 +1,4 @@
+(define s (WordSenseNode "postmaster%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "postmaster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "master%1:18:03::"))
+(InheritanceLink (WordSenseNode "postmistress%1:18:00::") s)

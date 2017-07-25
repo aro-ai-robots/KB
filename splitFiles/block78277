@@ -1,0 +1,8 @@
+(define s (WordSenseNode "harpullia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "harpullia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tulipwood_tree%1:20:00::"))
+(InheritanceLink (WordSenseNode "harpulla%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Harpullia_cupanioides%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Moreton_Bay_tulipwood%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Harpullia_pendula%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Harpullia%1:20:00::"))

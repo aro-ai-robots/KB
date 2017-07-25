@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ivory_tower%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ivory_tower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cognitive_state%1:09:00::"))
+(InheritanceLink s (WordSenseNode "state_of_mind%1:09:01::"))

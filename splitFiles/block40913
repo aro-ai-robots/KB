@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cue%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "prompt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inform%2:32:00::"))
+(define x (WordNode "remind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inform%2:32:00::"))
+(define x (WordNode "cue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inform%2:32:00::"))

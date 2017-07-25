@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cage%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constraint%1:26:00::"))
+(InheritanceLink s (WordSenseNode "restraint%1:26:00::"))
+(InheritanceLink (WordSenseNode "iron_cage%1:26:00::") s)

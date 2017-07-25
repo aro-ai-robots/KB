@@ -1,0 +1,7 @@
+(define s (WordSenseNode "break_apart%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "crash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disintegrate%2:30:00::"))
+(define x (WordNode "break_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disintegrate%2:30:00::"))
+(define x (WordNode "break_apart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disintegrate%2:30:00::"))

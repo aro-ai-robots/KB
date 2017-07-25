@@ -1,0 +1,6 @@
+(define s (WordSenseNode "oxyacetylene%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oxyacetylene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mixture%1:27:00::"))
+(HolonymLink (WordSenseNode "acetylene%1:27:00::") s)
+(HolonymLink (WordSenseNode "ethyne%1:27:00::") s)
+(HolonymLink (WordSenseNode "alkyne%1:27:00::") s)

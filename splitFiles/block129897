@@ -1,0 +1,5 @@
+(define s (WordSenseNode "prejudice%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "prejudice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disadvantage%2:41:00::"))
+(InheritanceLink s (WordSenseNode "disfavor%2:41:00::"))
+(InheritanceLink s (WordSenseNode "disfavour%2:41:00::"))

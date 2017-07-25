@@ -1,0 +1,5 @@
+(define s (WordSenseNode "water_lobelia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "water_lobelia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lobelia%1:20:00::"))
+(define x (WordNode "Lobelia_dortmanna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lobelia%1:20:00::"))

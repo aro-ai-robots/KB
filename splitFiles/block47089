@@ -1,0 +1,6 @@
+(define s (WordSenseNode "disambiguation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disambiguation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clarification%1:10:00::"))
+(InheritanceLink s (WordSenseNode "elucidation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "illumination%1:10:00::"))
+(InheritanceLink (WordSenseNode "lexical_disambiguation%1:10:00::") s)

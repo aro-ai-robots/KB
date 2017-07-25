@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cedar_waxwing%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cedar_waxwing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "waxwing%1:05:00::"))
+(define x (WordNode "cedarbird")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "waxwing%1:05:00::"))
+(define x (WordNode "Bombycilla_cedrorun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "waxwing%1:05:00::"))

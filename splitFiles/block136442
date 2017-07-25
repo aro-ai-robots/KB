@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rear%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "position%1:15:00::"))
+(InheritanceLink s (WordSenseNode "place%1:15:05::"))
+(define x (WordNode "rear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "position%1:15:00::"))
+(InheritanceLink s (WordSenseNode "place%1:15:05::"))

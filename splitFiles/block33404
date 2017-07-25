@@ -1,0 +1,8 @@
+(define s (WordSenseNode "coelenterate_family%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coelenterate_family")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "family%1:14:03::"))
+(InheritanceLink (WordSenseNode "Pennatulidae%1:05:00::") s)
+(InheritanceLink (WordSenseNode "family_Pennatulidae%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Animalia%1:05:00::"))
+(HolonymLink s (WordSenseNode "kingdom_Animalia%1:05:00::"))
+(HolonymLink s (WordSenseNode "animal_kingdom%1:05:00::"))

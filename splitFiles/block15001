@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bed-and-breakfast%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bed_and_breakfast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boarding_house%1:06:00::"))
+(InheritanceLink s (WordSenseNode "boardinghouse%1:06:00::"))
+(define x (WordNode "bed-and-breakfast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boarding_house%1:06:00::"))
+(InheritanceLink s (WordSenseNode "boardinghouse%1:06:00::"))

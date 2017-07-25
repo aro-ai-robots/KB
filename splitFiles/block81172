@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hoe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hoe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tool%1:06:00::"))
+(InheritanceLink (WordSenseNode "scuffle%1:06:00::") s)
+(InheritanceLink (WordSenseNode "scuffle_hoe%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Dutch_hoe%1:06:00::") s)
+(HolonymLink (WordSenseNode "hoe_handle%1:06:00::") s)

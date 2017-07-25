@@ -1,0 +1,6 @@
+(define s (WordSenseNode "peasant%1:18:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "peasant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agricultural_laborer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "agricultural_labourer%1:18:00::"))
+(InheritanceLink (WordSenseNode "fellah%1:18:00::") s)
+(HolonymLink s (WordSenseNode "peasantry%1:14:00::"))

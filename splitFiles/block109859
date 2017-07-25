@@ -1,0 +1,5 @@
+(define s (WordSenseNode "multitudinousness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "multitudinousness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "numerousness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "numerosity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "multiplicity%1:07:00::"))

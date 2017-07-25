@@ -1,0 +1,6 @@
+(define s (WordSenseNode "urinary_tract_infection%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "urinary_tract_infection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflammatory_disease%1:26:00::"))
+(InheritanceLink (WordSenseNode "cystitis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "pyelonephritis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "urethritis%1:26:00::") s)

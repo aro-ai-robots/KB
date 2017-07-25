@@ -1,0 +1,6 @@
+(define s (WordSenseNode "air_horn%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "air_horn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intake%1:06:00::"))
+(InheritanceLink s (WordSenseNode "inlet%1:06:00::"))
+(HolonymLink s (WordSenseNode "carburetor%1:06:00::"))
+(HolonymLink s (WordSenseNode "carburettor%1:06:00::"))

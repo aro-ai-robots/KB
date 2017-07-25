@@ -1,0 +1,5 @@
+(define s (WordSenseNode "maharajah%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "maharaja")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prince%1:18:00::"))
+(define x (WordNode "maharajah")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prince%1:18:00::"))

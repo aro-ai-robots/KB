@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jar%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "clash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conflict%2:42:00::"))
+(define x (WordNode "jar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conflict%2:42:00::"))
+(define x (WordNode "collide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conflict%2:42:00::"))

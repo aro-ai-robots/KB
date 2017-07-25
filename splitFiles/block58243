@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fall%2:30:08::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_state%2:30:00::"))
+(InheritanceLink s (WordSenseNode "turn%2:30:04::"))
+(InheritanceLink (WordSenseNode "drop%2:30:09::") s)
+(InheritanceLink (WordSenseNode "fall_in_love%2:30:00::") s)

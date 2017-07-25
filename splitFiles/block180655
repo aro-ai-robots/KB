@@ -1,0 +1,8 @@
+(define s (WordSenseNode "wallflower%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wallflower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower%1:20:00::"))
+(InheritanceLink (WordSenseNode "Siberian_wall_flower%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Erysimum_allionii%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Cheiranthus_allionii%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Erysimum%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Erysimum%1:20:00::"))

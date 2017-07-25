@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sixpack%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "six-pack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carton%1:06:00::"))
+(define x (WordNode "six_pack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carton%1:06:00::"))
+(define x (WordNode "sixpack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carton%1:06:00::"))

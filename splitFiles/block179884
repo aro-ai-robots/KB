@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vizsla%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vizsla")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pointer%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Spanish_pointer%1:05:00::"))
+(define x (WordNode "Hungarian_pointer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pointer%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Spanish_pointer%1:05:00::"))

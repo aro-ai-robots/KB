@@ -1,0 +1,5 @@
+(define s (WordSenseNode "share%1:21:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "share")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stock_certificate%1:21:00::"))
+(InheritanceLink s (WordSenseNode "stock%1:21:02::"))
+(HolonymLink s (WordSenseNode "stock%1:21:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "aegean_island%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Aegean_island")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "island%1:17:00::"))
+(HolonymLink s (WordSenseNode "Aegean%1:17:00::"))
+(HolonymLink s (WordSenseNode "Aegean_Sea%1:17:00::"))

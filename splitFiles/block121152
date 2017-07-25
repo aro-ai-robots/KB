@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pass%2:41:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "legislate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ordain%2:41:01::"))
+(InheritanceLink s (WordSenseNode "enact%2:41:00::"))
+(define x (WordNode "pass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ordain%2:41:01::"))
+(InheritanceLink s (WordSenseNode "enact%2:41:00::"))

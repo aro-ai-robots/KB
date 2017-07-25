@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bile_acid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bile_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steroid%1:27:00::"))
+(InheritanceLink (WordSenseNode "cholic_acid%1:27:00::") s)

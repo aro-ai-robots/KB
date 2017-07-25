@@ -1,0 +1,7 @@
+(define s (WordSenseNode "take_out%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "take_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buy%2:40:00::"))
+(InheritanceLink s (WordSenseNode "purchase%2:40:00::"))
+(define x (WordNode "buy_food")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buy%2:40:00::"))
+(InheritanceLink s (WordSenseNode "purchase%2:40:00::"))

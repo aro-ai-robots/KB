@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pinion%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pinion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gear%1:06:00::"))
+(InheritanceLink s (WordSenseNode "gear_wheel%1:06:00::"))
+(InheritanceLink s (WordSenseNode "geared_wheel%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cogwheel%1:06:00::"))
+(InheritanceLink (WordSenseNode "lantern_pinion%1:06:00::") s)
+(InheritanceLink (WordSenseNode "lantern_wheel%1:06:00::") s)

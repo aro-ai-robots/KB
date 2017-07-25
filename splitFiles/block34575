@@ -1,0 +1,5 @@
+(define s (WordSenseNode "commend%2:32:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "commend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "praise%2:32:00::"))
+(define x (WordNode "recommend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "praise%2:32:00::"))

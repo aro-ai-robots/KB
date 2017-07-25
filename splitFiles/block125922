@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pituophis_melanoleucus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gopher_snake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bull_snake%1:05:00::"))
+(InheritanceLink s (WordSenseNode "bull-snake%1:05:00::"))
+(define x (WordNode "Pituophis_melanoleucus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bull_snake%1:05:00::"))
+(InheritanceLink s (WordSenseNode "bull-snake%1:05:00::"))

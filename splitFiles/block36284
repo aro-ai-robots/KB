@@ -1,0 +1,7 @@
+(define s (WordSenseNode "congressional_district%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "congressional_district")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "district%1:15:00::"))
+(InheritanceLink s (WordSenseNode "territory%1:15:00::"))
+(InheritanceLink s (WordSenseNode "territorial_dominion%1:15:00::"))
+(InheritanceLink s (WordSenseNode "dominion%1:15:00::"))
+(HolonymLink s (WordSenseNode "American_state%1:15:00::"))

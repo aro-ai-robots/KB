@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bearing_wall%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bearing_wall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wall%1:06:00::"))
+(InheritanceLink s (WordSenseNode "support%1:06:00::"))

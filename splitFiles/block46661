@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dinar%1:23:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Jordanian_dinar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Jordanian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "fils%1:23:00::") s)
+(define x (WordNode "dinar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Jordanian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "fils%1:23:00::") s)

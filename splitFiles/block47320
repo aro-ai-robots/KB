@@ -1,0 +1,5 @@
+(define s (WordSenseNode "discount%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "discount")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mark_down%2:40:00::"))
+(InheritanceLink (WordSenseNode "allow%2:40:01::") s)
+(InheritanceLink (WordSenseNode "rebate%2:40:00::") s)

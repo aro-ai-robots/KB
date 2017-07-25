@@ -1,0 +1,8 @@
+(define s (WordSenseNode "erg%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "erg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "heat_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "energy_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "joule%1:23:00::"))
+(HolonymLink s (WordSenseNode "J%1:23:00::"))
+(HolonymLink s (WordSenseNode "watt_second%1:23:00::"))

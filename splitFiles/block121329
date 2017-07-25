@@ -1,0 +1,7 @@
+(define s (WordSenseNode "past_participle%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "past_participle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "participle%1:10:00::"))
+(InheritanceLink s (WordSenseNode "participial%1:10:00::"))
+(define x (WordNode "perfect_participle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "participle%1:10:00::"))
+(InheritanceLink s (WordSenseNode "participial%1:10:00::"))

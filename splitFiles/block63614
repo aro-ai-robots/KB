@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flying_buttress%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flying_buttress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buttress%1:06:00::"))
+(InheritanceLink s (WordSenseNode "buttressing%1:06:00::"))
+(define x (WordNode "arc-boutant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buttress%1:06:00::"))
+(InheritanceLink s (WordSenseNode "buttressing%1:06:00::"))

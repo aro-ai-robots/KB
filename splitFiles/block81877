@@ -1,0 +1,5 @@
+(define s (WordSenseNode "honor_guard%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "honor_guard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "escort%1:18:02::"))
+(define x (WordNode "guard_of_honor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "escort%1:18:02::"))

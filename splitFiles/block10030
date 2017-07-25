@@ -1,0 +1,6 @@
+(define s (WordSenseNode "asper%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "asper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Turkish_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "kurus%1:23:00::"))
+(HolonymLink s (WordSenseNode "piaster%1:23:01::"))
+(HolonymLink s (WordSenseNode "piastre%1:23:01::"))

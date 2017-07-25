@@ -1,0 +1,5 @@
+(define s (WordSenseNode "checkout_counter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "checkout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "counter%1:06:00::"))
+(define x (WordNode "checkout_counter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "counter%1:06:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "canopy%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "canopy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covering%1:06:00::"))
+(HolonymLink s (WordSenseNode "cockpit%1:06:00::"))

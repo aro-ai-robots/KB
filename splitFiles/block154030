@@ -1,0 +1,7 @@
+(define s (WordSenseNode "smokeless_powder%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "smokeless_powder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "explosive%1:06:00::"))
+(HolonymLink (WordSenseNode "pyrocellulose%1:27:00::") s)
+(define x (WordNode "Ballistite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "explosive%1:06:00::"))
+(HolonymLink (WordSenseNode "pyrocellulose%1:27:00::") s)

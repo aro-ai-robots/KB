@@ -1,0 +1,7 @@
+(define s (WordSenseNode "congress_gaiter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "congress_boot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shoe%1:06:00::"))
+(define x (WordNode "congress_shoe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shoe%1:06:00::"))
+(define x (WordNode "congress_gaiter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shoe%1:06:00::"))

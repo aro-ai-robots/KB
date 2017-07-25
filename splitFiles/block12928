@@ -1,0 +1,6 @@
+(define s (WordSenseNode "balkan_wars%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Balkan_Wars")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Balkan_Peninsula%1:15:00::"))
+(HolonymLink s (WordSenseNode "Balkans%1:15:01::"))
+(HolonymLink (WordSenseNode "Lule_Burgas%1:04:00::") s)
+(HolonymLink (WordSenseNode "battle_of_Lule_Burgas%1:04:00::") s)

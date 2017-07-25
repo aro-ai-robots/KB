@@ -1,0 +1,4 @@
+(define s (WordSenseNode "high-water_mark%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "high-water_mark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water_line%1:15:01::"))
+(InheritanceLink s (WordSenseNode "watermark%1:15:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fluoroform%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fluoroform")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "haloform%1:27:00::"))
+(define x (WordNode "trifluoromethane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "haloform%1:27:00::"))

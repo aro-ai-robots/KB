@@ -1,0 +1,8 @@
+(define s (WordSenseNode "delay_line%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "delay_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circuit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "electrical_circuit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "electric_circuit%1:06:00::"))
+(InheritanceLink (WordSenseNode "acoustic_delay_line%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sonic_delay_line%1:06:00::") s)
+(InheritanceLink (WordSenseNode "electromagnetic_delay_line%1:06:00::") s)

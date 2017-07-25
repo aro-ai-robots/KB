@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subbing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subbing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%1:04:00::"))
+(define x (WordNode "substituting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%1:04:00::"))

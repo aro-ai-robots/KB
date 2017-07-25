@@ -1,0 +1,8 @@
+(define s (WordSenseNode "vermouth%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vermouth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wine%1:13:00::"))
+(InheritanceLink s (WordSenseNode "vino%1:13:00::"))
+(InheritanceLink (WordSenseNode "sweet_vermouth%1:13:00::") s)
+(InheritanceLink (WordSenseNode "Italian_vermouth%1:13:00::") s)
+(InheritanceLink (WordSenseNode "dry_vermouth%1:13:00::") s)
+(InheritanceLink (WordSenseNode "French_vermouth%1:13:00::") s)

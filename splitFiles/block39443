@@ -1,0 +1,4 @@
+(define s (WordSenseNode "crankcase%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crankcase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "housing%1:06:01::"))
+(HolonymLink s (WordSenseNode "reciprocating_engine%1:06:00::"))

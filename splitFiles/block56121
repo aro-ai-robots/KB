@@ -1,0 +1,5 @@
+(define s (WordSenseNode "eurasian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Eurasian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "European%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Asian%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Asiatic%1:18:00::"))

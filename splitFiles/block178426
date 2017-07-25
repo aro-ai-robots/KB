@@ -1,0 +1,4 @@
+(define s (WordSenseNode "venae_interlobulares_renis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "venae_interlobulares_renis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "venae_renis%1:08:00::"))
+(HolonymLink s (WordSenseNode "kidney%1:08:00::"))

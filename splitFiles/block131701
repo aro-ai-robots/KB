@@ -1,0 +1,7 @@
+(define s (WordSenseNode "proportional_counter_tube%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "proportional_counter_tube")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "counter_tube%1:06:00::"))
+(InheritanceLink (WordSenseNode "boron_counter_tube%1:06:00::") s)
+(define x (WordNode "proportional_counter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "counter_tube%1:06:00::"))
+(InheritanceLink (WordSenseNode "boron_counter_tube%1:06:00::") s)

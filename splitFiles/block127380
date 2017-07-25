@@ -1,0 +1,8 @@
+(define s (WordSenseNode "poi%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "poi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dish%1:13:00::"))
+(HolonymLink (WordSenseNode "taro%1:13:00::") s)
+(HolonymLink (WordSenseNode "taro_root%1:13:00::") s)
+(HolonymLink (WordSenseNode "cocoyam%1:13:00::") s)
+(HolonymLink (WordSenseNode "dasheen%1:13:00::") s)
+(HolonymLink (WordSenseNode "edda%1:13:00::") s)

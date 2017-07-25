@@ -1,0 +1,7 @@
+(define s (WordSenseNode "erb-duchenne_paralysis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Erb's_palsy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paralysis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "palsy%1:26:00::"))
+(define x (WordNode "Erb-Duchenne_paralysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paralysis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "palsy%1:26:00::"))

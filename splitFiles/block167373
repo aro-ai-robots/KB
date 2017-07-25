@@ -1,0 +1,7 @@
+(define s (WordSenseNode "terra_incognita%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unknown")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:01::"))
+(define x (WordNode "unknown_region")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:01::"))
+(define x (WordNode "terra_incognita")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:01::"))

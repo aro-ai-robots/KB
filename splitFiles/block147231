@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sealed_instrument%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sealed_instrument")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contract%1:10:00::"))
+(define x (WordNode "contract_under_seal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contract%1:10:00::"))
+(define x (WordNode "special_contract")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contract%1:10:00::"))

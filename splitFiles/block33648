@@ -1,0 +1,7 @@
+(define s (WordSenseNode "colaptes_auratus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yellow-shafted_flicker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flicker%1:05:00::"))
+(define x (WordNode "Colaptes_auratus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flicker%1:05:00::"))
+(define x (WordNode "yellowhammer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flicker%1:05:00::"))

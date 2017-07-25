@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rest%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support%1:06:00::"))
+(InheritanceLink (WordSenseNode "armrest%1:06:00::") s)
+(InheritanceLink (WordSenseNode "chin_rest%1:06:00::") s)
+(InheritanceLink (WordSenseNode "headrest%1:06:00::") s)

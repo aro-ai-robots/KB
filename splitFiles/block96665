@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lesser_centaury%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lesser_centaury")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centaury%1:20:02::"))
+(define x (WordNode "Centaurium_minus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centaury%1:20:02::"))

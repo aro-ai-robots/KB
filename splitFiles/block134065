@@ -1,0 +1,7 @@
+(define s (WordSenseNode "qualm%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scruple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anxiety%1:12:00::"))
+(define x (WordNode "qualm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anxiety%1:12:00::"))
+(define x (WordNode "misgiving")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anxiety%1:12:00::"))

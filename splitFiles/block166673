@@ -1,0 +1,5 @@
+(define s (WordSenseNode "teetotal%2:34:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "teetotal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abstain%2:34:00::"))
+(InheritanceLink s (WordSenseNode "refrain%2:34:00::"))
+(InheritanceLink s (WordSenseNode "desist%2:34:00::"))

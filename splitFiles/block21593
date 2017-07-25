@@ -1,0 +1,7 @@
+(define s (WordSenseNode "brook_thistle%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brook_thistle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plume_thistle%1:20:00::"))
+(InheritanceLink s (WordSenseNode "plumed_thistle%1:20:00::"))
+(define x (WordNode "Cirsium_rivulare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plume_thistle%1:20:00::"))
+(InheritanceLink s (WordSenseNode "plumed_thistle%1:20:00::"))

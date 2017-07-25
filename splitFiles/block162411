@@ -1,0 +1,5 @@
+(define s (WordSenseNode "suction_pump%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "suction_pump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pump%1:06:00::"))
+(InheritanceLink (WordSenseNode "stomach_pump%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sump_pump%1:06:00::") s)

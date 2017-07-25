@@ -1,0 +1,7 @@
+(define s (WordSenseNode "leaf_cast%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "needle_blight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leaf_blight%1:26:00::"))
+(define x (WordNode "needle_cast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leaf_blight%1:26:00::"))
+(define x (WordNode "leaf_cast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leaf_blight%1:26:00::"))

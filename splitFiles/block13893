@@ -1,0 +1,5 @@
+(define s (WordSenseNode "basal_body_temperature_method%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "basal_body_temperature_method_of_family_planning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_family_planning%1:04:00::"))
+(define x (WordNode "basal_body_temperature_method")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_family_planning%1:04:00::"))

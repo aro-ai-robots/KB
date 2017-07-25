@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nairobi%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Nairobi")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Kenya%1:15:00::"))
+(HolonymLink s (WordSenseNode "Republic_of_Kenya%1:15:00::"))
+(define x (WordNode "capital_of_Kenya")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Kenya%1:15:00::"))
+(HolonymLink s (WordSenseNode "Republic_of_Kenya%1:15:00::"))

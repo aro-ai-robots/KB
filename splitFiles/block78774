@@ -1,0 +1,5 @@
+(define s (WordSenseNode "head_count%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "head_count")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "count%1:23:00::"))
+(define x (WordNode "headcount")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "count%1:23:00::"))

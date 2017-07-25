@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sexual_pleasure%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sexual_pleasure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pleasure%1:12:00::"))
+(InheritanceLink s (WordSenseNode "pleasance%1:12:00::"))
+(InheritanceLink (WordSenseNode "algolagnia%1:12:00::") s)
+(InheritanceLink (WordSenseNode "algophilia%1:12:00::") s)
+(InheritanceLink (WordSenseNode "sadism%1:12:00::") s)
+(InheritanceLink (WordSenseNode "masochism%1:12:00::") s)

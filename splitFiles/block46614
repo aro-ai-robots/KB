@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dimetane%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brompheniramine_maleate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antihistamine%1:06:00::"))
+(HolonymLink s (WordSenseNode "Dimetapp%1:06:00::"))
+(define x (WordNode "Dimetane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antihistamine%1:06:00::"))
+(HolonymLink s (WordSenseNode "Dimetapp%1:06:00::"))

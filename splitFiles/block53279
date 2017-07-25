@@ -1,0 +1,5 @@
+(define s (WordSenseNode "emasculate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "emasculate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:01::"))
+(define x (WordNode "castrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:01::"))

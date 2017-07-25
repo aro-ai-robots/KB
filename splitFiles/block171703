@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transom%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crosspiece%1:06:00::"))
+(define x (WordNode "traverse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crosspiece%1:06:00::"))

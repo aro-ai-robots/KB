@@ -1,0 +1,7 @@
+(define s (WordSenseNode "caution%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "caution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warn%2:32:00::"))
+(define x (WordNode "admonish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warn%2:32:00::"))
+(define x (WordNode "monish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warn%2:32:00::"))

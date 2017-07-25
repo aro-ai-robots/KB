@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dry_wash%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "streambed%1:17:00::"))
+(InheritanceLink s (WordSenseNode "creek_bed%1:17:00::"))
+(define x (WordNode "dry_wash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "streambed%1:17:00::"))
+(InheritanceLink s (WordSenseNode "creek_bed%1:17:00::"))

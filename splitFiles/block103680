@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "floor_cover%1:06:00::"))
+(InheritanceLink s (WordSenseNode "floor_covering%1:06:00::"))
+(InheritanceLink (WordSenseNode "doormat%1:06:00::") s)
+(InheritanceLink (WordSenseNode "welcome_mat%1:06:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hereditary_motor_and_sensory_neuropathy%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Charcot-Marie-Tooth_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neuropathy%1:26:00::"))
+(define x (WordNode "hereditary_motor_and_sensory_neuropathy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neuropathy%1:26:00::"))

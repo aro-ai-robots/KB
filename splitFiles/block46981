@@ -1,0 +1,6 @@
+(define s (WordSenseNode "directive%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "directive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pronouncement%1:10:00::"))
+(InheritanceLink s (WordSenseNode "dictum%1:10:00::"))
+(InheritanceLink s (WordSenseNode "say-so%1:10:00::"))
+(InheritanceLink (WordSenseNode "Presidential_Directive%1:10:00::") s)

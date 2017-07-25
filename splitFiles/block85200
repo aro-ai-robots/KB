@@ -1,0 +1,5 @@
+(define s (WordSenseNode "implicate%2:42:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "implicate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "involve%2:42:01::"))
+(InheritanceLink s (WordSenseNode "affect%2:42:00::"))
+(InheritanceLink s (WordSenseNode "regard%2:42:00::"))

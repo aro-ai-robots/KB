@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cradle%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rocker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trough%1:06:02::"))
+(define x (WordNode "cradle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trough%1:06:02::"))

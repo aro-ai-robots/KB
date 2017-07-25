@@ -1,0 +1,7 @@
+(define s (WordSenseNode "purple_milk_vetch%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purple_milk_vetch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "milk_vetch%1:20:00::"))
+(InheritanceLink s (WordSenseNode "milk-vetch%1:20:00::"))
+(define x (WordNode "Astragalus_danicus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "milk_vetch%1:20:00::"))
+(InheritanceLink s (WordSenseNode "milk-vetch%1:20:00::"))

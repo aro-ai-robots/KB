@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mother-in-law%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mother-in-law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mother%1:18:00::"))
+(InheritanceLink s (WordSenseNode "female_parent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "in-law%1:18:00::"))
+(InheritanceLink s (WordSenseNode "relative-in-law%1:18:00::"))

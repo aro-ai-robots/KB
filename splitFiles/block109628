@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mud_turtle%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mud_turtle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turtle%1:05:00::"))
+(InheritanceLink (WordSenseNode "musk_turtle%1:05:00::") s)
+(InheritanceLink (WordSenseNode "stinkpot%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Kinosternon%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Kinosternon%1:05:00::"))

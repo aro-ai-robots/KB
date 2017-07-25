@@ -1,0 +1,8 @@
+(define s (WordSenseNode "zizz%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "zizz")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nap%1:04:00::"))
+(InheritanceLink s (WordSenseNode "catnap%1:04:00::"))
+(InheritanceLink s (WordSenseNode "cat_sleep%1:04:00::"))
+(InheritanceLink s (WordSenseNode "forty_winks%1:04:00::"))
+(InheritanceLink s (WordSenseNode "short_sleep%1:04:00::"))
+(InheritanceLink s (WordSenseNode "snooze%1:04:00::"))

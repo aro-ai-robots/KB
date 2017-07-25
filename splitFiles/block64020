@@ -1,0 +1,6 @@
+(define s (WordSenseNode "foot-pound%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foot-pound")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "heat_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "energy_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "foot-ton%1:23:00::"))

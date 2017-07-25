@@ -1,0 +1,7 @@
+(define s (WordSenseNode "particle_beam%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "particle_beam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beam%1:19:01::"))
+(InheritanceLink s (WordSenseNode "ray%1:19:01::"))
+(InheritanceLink s (WordSenseNode "electron_beam%1:19:00::"))
+(InheritanceLink (WordSenseNode "ion_beam%1:19:00::") s)
+(InheritanceLink (WordSenseNode "ionic_beam%1:19:00::") s)

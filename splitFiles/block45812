@@ -1,0 +1,8 @@
+(define s (WordSenseNode "devotion%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "devotion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prayer%1:04:00::"))
+(InheritanceLink s (WordSenseNode "supplication%1:04:01::"))
+(InheritanceLink (WordSenseNode "bhakti%1:04:00::") s)
+(InheritanceLink (WordSenseNode "novena%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Stations%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Stations_of_the_Cross%1:04:00::") s)

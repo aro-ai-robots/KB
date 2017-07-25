@@ -1,0 +1,6 @@
+(define s (WordSenseNode "moment%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force%1:19:00::"))
+(InheritanceLink (WordSenseNode "moment_of_inertia%1:19:00::") s)
+(InheritanceLink (WordSenseNode "moment_of_a_couple%1:19:00::") s)
+(InheritanceLink (WordSenseNode "dipole_moment%1:19:00::") s)

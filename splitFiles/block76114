@@ -1,0 +1,5 @@
+(define s (WordSenseNode "grub%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grub")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "larva%1:05:00::"))
+(InheritanceLink (WordSenseNode "maggot%1:05:00::") s)
+(InheritanceLink (WordSenseNode "leatherjacket%1:05:03::") s)

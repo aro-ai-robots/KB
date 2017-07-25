@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wesleyan_methodist_church%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Wesleyan_Methodist_Church")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Methodist_denomination%1:14:00::"))
+(HolonymLink (WordSenseNode "Wesleyan%1:18:00::") s)
+(define x (WordNode "Wesleyan_Methodists")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Methodist_denomination%1:14:00::"))
+(HolonymLink (WordSenseNode "Wesleyan%1:18:00::") s)

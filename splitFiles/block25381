@@ -1,0 +1,5 @@
+(define s (WordSenseNode "capitulum%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "capitulum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_organ%1:20:00::"))
+(define x (WordNode "head")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_organ%1:20:00::"))

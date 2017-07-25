@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mail_train%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mail_train")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "train%1:06:00::"))
+(InheritanceLink s (WordSenseNode "railroad_train%1:06:00::"))
+(HolonymLink (WordSenseNode "mail_car%1:06:00::") s)

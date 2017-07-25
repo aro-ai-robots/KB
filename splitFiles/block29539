@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chenopodium_hybridum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sowbane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goosefoot%1:20:00::"))
+(define x (WordNode "red_goosefoot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goosefoot%1:20:00::"))
+(define x (WordNode "Chenopodium_hybridum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goosefoot%1:20:00::"))

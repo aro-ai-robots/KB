@@ -1,0 +1,6 @@
+(define s (WordSenseNode "voltage_drop%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "voltage_drop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drop%1:07:00::"))
+(InheritanceLink s (WordSenseNode "dip%1:07:00::"))
+(InheritanceLink s (WordSenseNode "fall%1:07:00::"))
+(InheritanceLink s (WordSenseNode "free_fall%1:07:00::"))

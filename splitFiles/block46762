@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dionysia%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dionysia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "festival%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fete%1:04:00::"))
+(define x (WordNode "Bacchanalia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "festival%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fete%1:04:00::"))

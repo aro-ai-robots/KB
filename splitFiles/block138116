@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reject%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cull")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decision_making%1:09:00::"))
+(InheritanceLink s (WordSenseNode "deciding%1:09:00::"))
+(define x (WordNode "reject")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decision_making%1:09:00::"))
+(InheritanceLink s (WordSenseNode "deciding%1:09:00::"))

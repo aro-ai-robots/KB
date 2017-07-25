@@ -1,0 +1,5 @@
+(define s (WordSenseNode "united_states_code%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "United_States_Code")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legal_code%1:10:00::"))
+(define x (WordNode "U._S._Code")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legal_code%1:10:00::"))

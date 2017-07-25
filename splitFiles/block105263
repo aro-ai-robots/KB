@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mercalli_scale%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mercalli_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scale%1:24:03::"))
+(InheritanceLink s (WordSenseNode "scale_of_measurement%1:24:00::"))
+(InheritanceLink s (WordSenseNode "graduated_table%1:24:00::"))
+(InheritanceLink s (WordSenseNode "ordered_series%1:24:00::"))

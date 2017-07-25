@@ -1,0 +1,7 @@
+(define s (WordSenseNode "duct%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "duct")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_part%1:20:00::"))
+(InheritanceLink s (WordSenseNode "plant_structure%1:20:00::"))
+(InheritanceLink (WordSenseNode "laticifer%1:20:00::") s)
+(HolonymLink s (WordSenseNode "vascular_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "tracheophyte%1:20:00::"))

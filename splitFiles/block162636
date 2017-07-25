@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sulfonylurea%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sulfonylurea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antidiabetic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antidiabetic_drug%1:06:00::"))
+(InheritanceLink (WordSenseNode "tolazamide%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Tolinase%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tolbutamide%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Orinase%1:06:00::") s)

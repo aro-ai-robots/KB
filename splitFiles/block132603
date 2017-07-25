@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pubescence%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "puberty")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_of_life%1:28:00::"))
+(HolonymLink s (WordSenseNode "adolescence%1:28:00::"))
+(define x (WordNode "pubescence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_of_life%1:28:00::"))
+(HolonymLink s (WordSenseNode "adolescence%1:28:00::"))

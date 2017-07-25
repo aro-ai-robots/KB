@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shittimwood%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shittimwood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wood%1:27:00::"))
+(HolonymLink s (WordSenseNode "shittah%1:20:00::"))
+(HolonymLink s (WordSenseNode "shittah_tree%1:20:00::"))

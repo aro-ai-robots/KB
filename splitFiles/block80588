@@ -1,0 +1,7 @@
+(define s (WordSenseNode "high_stepper%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stepper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "horse%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Equus_caballus%1:05:00::"))
+(define x (WordNode "high_stepper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "horse%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Equus_caballus%1:05:00::"))

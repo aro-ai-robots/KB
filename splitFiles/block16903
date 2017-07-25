@@ -1,0 +1,5 @@
+(define s (WordSenseNode "biprism%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "biprism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_device%1:06:00::"))
+(HolonymLink (WordSenseNode "prism%1:06:00::") s)
+(HolonymLink (WordSenseNode "optical_prism%1:06:00::") s)

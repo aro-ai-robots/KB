@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grapnel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grapnel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anchor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ground_tackle%1:06:00::"))
+(define x (WordNode "grapnel_anchor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anchor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ground_tackle%1:06:00::"))

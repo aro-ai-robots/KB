@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pembroke_welsh_corgi%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pembroke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corgi%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Welsh_corgi%1:05:00::"))
+(define x (WordNode "Pembroke_Welsh_corgi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corgi%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Welsh_corgi%1:05:00::"))

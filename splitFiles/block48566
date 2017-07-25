@@ -1,0 +1,7 @@
+(define s (WordSenseNode "doctor_of_dental_surgery%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Doctor_of_Dental_Surgery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "doctor's_degree%1:10:00::"))
+(InheritanceLink s (WordSenseNode "doctorate%1:10:00::"))
+(define x (WordNode "DDS")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "doctor's_degree%1:10:00::"))
+(InheritanceLink s (WordSenseNode "doctorate%1:10:00::"))

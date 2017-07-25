@@ -1,0 +1,5 @@
+(define s (WordSenseNode "macrospore%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "megaspore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spore%1:20:00::"))
+(define x (WordNode "macrospore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spore%1:20:00::"))

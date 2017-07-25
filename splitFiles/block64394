@@ -1,0 +1,5 @@
+(define s (WordSenseNode "foretaste%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foretaste")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expectation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "outlook%1:09:00::"))
+(InheritanceLink s (WordSenseNode "prospect%1:09:01::"))

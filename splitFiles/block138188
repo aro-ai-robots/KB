@@ -1,0 +1,7 @@
+(define s (WordSenseNode "relative_density%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "relative_density")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "density%1:07:00::"))
+(InheritanceLink s (WordSenseNode "denseness%1:07:00::"))
+(InheritanceLink (WordSenseNode "specific_gravity%1:07:00::") s)
+(InheritanceLink (WordSenseNode "vapor_density%1:07:00::") s)
+(InheritanceLink (WordSenseNode "vapour_density%1:07:00::") s)

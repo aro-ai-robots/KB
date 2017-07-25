@@ -1,0 +1,7 @@
+(define s (WordSenseNode "negative_feedback_circuit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "control_circuit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feedback_circuit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "feedback_loop%1:06:00::"))
+(define x (WordNode "negative_feedback_circuit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feedback_circuit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "feedback_loop%1:06:00::"))

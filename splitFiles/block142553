@@ -1,0 +1,5 @@
+(define s (WordSenseNode "round%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "round")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "applause%1:10:00::"))
+(InheritanceLink s (WordSenseNode "hand_clapping%1:10:00::"))
+(InheritanceLink s (WordSenseNode "clapping%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fsb%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "federal_savings_bank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "savings_bank%1:14:00::"))
+(define x (WordNode "FSB")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "savings_bank%1:14:00::"))

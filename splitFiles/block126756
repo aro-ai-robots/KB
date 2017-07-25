@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pleiades%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pleiades")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Taurus%1:17:00::"))
+(HolonymLink (WordSenseNode "Sterope%1:17:00::") s)
+(HolonymLink (WordSenseNode "Asterope%1:17:00::") s)

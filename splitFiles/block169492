@@ -1,0 +1,6 @@
+(define s (WordSenseNode "time_limit%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "time_limit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_period%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period_of_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period%1:28:00::"))
+(InheritanceLink (WordSenseNode "limitation%1:28:00::") s)

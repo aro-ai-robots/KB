@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kbo%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kuiper_belt_object")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "minor_planet%1:17:00::"))
+(InheritanceLink s (WordSenseNode "planetoid%1:17:00::"))
+(define x (WordNode "KBO")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "minor_planet%1:17:00::"))
+(InheritanceLink s (WordSenseNode "planetoid%1:17:00::"))

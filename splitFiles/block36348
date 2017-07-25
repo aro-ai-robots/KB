@@ -1,0 +1,5 @@
+(define s (WordSenseNode "conjugation%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conjugation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflection%1:24:00::"))
+(InheritanceLink s (WordSenseNode "inflexion%1:24:00::"))
+(HolonymLink (WordSenseNode "verb%1:10:01::") s)

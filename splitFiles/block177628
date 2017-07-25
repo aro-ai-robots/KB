@@ -1,0 +1,6 @@
+(define s (WordSenseNode "valediction%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "valediction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "farewell%1:04:00::"))
+(InheritanceLink s (WordSenseNode "leave%1:04:00::"))
+(InheritanceLink s (WordSenseNode "leave-taking%1:04:00::"))
+(InheritanceLink s (WordSenseNode "parting%1:04:00::"))

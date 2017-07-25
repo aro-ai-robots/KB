@@ -1,0 +1,5 @@
+(define s (WordSenseNode "greenbelt%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "greenbelt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "belt%1:15:00::"))
+(define x (WordNode "greenway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "belt%1:15:00::"))

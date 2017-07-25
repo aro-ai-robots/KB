@@ -1,0 +1,7 @@
+(define s (WordSenseNode "positivist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "positivist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nonreligious_person%1:18:00::"))
+(InheritanceLink (WordSenseNode "logical_positivist%1:18:00::") s)
+(define x (WordNode "rationalist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nonreligious_person%1:18:00::"))
+(InheritanceLink (WordSenseNode "logical_positivist%1:18:00::") s)

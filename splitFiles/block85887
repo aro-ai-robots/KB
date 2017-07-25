@@ -1,0 +1,5 @@
+(define s (WordSenseNode "incompetent_cervix%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "incompetent_cervix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cervix%1:08:02::"))
+(InheritanceLink s (WordSenseNode "uterine_cervix%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cervix_uteri%1:08:00::"))

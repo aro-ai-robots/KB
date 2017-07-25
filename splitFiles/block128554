@@ -1,0 +1,7 @@
+(define s (WordSenseNode "portal_system%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "portal_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vascular_system%1:08:00::"))
+(HolonymLink (WordSenseNode "portal_vein%1:08:00::") s)
+(HolonymLink (WordSenseNode "hepatic_portal_vein%1:08:00::") s)
+(HolonymLink (WordSenseNode "portal%1:08:00::") s)
+(HolonymLink (WordSenseNode "vena_portae%1:08:00::") s)

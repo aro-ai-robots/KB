@@ -1,0 +1,5 @@
+(define s (WordSenseNode "greco-roman_wrestling%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Greco-Roman_wrestling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wrestling%1:04:00::"))
+(InheritanceLink s (WordSenseNode "rassling%1:04:00::"))
+(InheritanceLink s (WordSenseNode "grappling%1:04:01::"))

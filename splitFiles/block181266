@@ -1,0 +1,6 @@
+(define s (WordSenseNode "water_chestnut%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "water_chestnut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tuber%1:20:00::"))
+(HolonymLink s (WordSenseNode "water_chestnut%1:20:01::"))
+(HolonymLink s (WordSenseNode "Chinese_water_chestnut%1:20:00::"))
+(HolonymLink s (WordSenseNode "Eleocharis_dulcis%1:20:00::"))

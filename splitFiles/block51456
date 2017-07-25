@@ -1,0 +1,5 @@
+(define s (WordSenseNode "earthenware_jar%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jar%1:06:00::"))
+(define x (WordNode "earthenware_jar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jar%1:06:00::"))

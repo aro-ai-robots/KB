@@ -1,0 +1,5 @@
+(define s (WordSenseNode "whitebait%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "whitebait")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "young_fish%1:05:00::"))
+(HolonymLink s (WordSenseNode "soft-finned_fish%1:05:00::"))
+(HolonymLink s (WordSenseNode "malacopterygian%1:05:00::"))

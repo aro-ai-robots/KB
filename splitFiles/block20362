@@ -1,0 +1,5 @@
+(define s (WordSenseNode "brainstorm%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "brainstorm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "think%2:31:00::"))
+(InheritanceLink s (WordSenseNode "cogitate%2:31:00::"))
+(InheritanceLink s (WordSenseNode "cerebrate%2:31:00::"))

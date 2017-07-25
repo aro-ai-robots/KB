@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hydrazine%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hydrazine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reducing_agent%1:27:00::"))
+(InheritanceLink s (WordSenseNode "reducer%1:27:00::"))
+(InheritanceLink s (WordSenseNode "reductant%1:27:00::"))
+(HolonymLink s (WordSenseNode "rocket_fuel%1:27:00::"))
+(HolonymLink s (WordSenseNode "rocket_propellant%1:27:00::"))
+(HolonymLink s (WordSenseNode "rocket_propellent%1:27:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sledgehammer%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sledgehammer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hammer%2:35:00::"))
+(define x (WordNode "sledge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hammer%2:35:00::"))

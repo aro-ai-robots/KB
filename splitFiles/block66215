@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fuji%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fuji")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flowering_cherry%1:20:00::"))
+(define x (WordNode "fuji_cherry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flowering_cherry%1:20:00::"))
+(define x (WordNode "Prunus_incisa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flowering_cherry%1:20:00::"))

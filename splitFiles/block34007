@@ -1,0 +1,7 @@
+(define s (WordSenseNode "color_spectrum%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "visible_spectrum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spectrum%1:19:00::"))
+(HolonymLink s (WordSenseNode "electromagnetic_spectrum%1:19:00::"))
+(define x (WordNode "color_spectrum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spectrum%1:19:00::"))
+(HolonymLink s (WordSenseNode "electromagnetic_spectrum%1:19:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "conjunction%1:24:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conjunction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grammatical_relation%1:24:00::"))
+(InheritanceLink (WordSenseNode "coordinating_conjunction%1:24:00::") s)
+(InheritanceLink (WordSenseNode "subordinating_conjunction%1:24:00::") s)
+(InheritanceLink (WordSenseNode "copulative_conjunction%1:24:00::") s)
+(InheritanceLink (WordSenseNode "disjunctive_conjunction%1:24:00::") s)
+(InheritanceLink (WordSenseNode "adversative_conjunction%1:24:00::") s)

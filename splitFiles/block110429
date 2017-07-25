@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mutual_affection%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mutual_understanding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sympathy%1:24:00::"))
+(define x (WordNode "mutual_affection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sympathy%1:24:00::"))

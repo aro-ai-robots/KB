@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hematoidin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bilirubin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_pigment%1:27:00::"))
+(define x (WordNode "hematoidin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_pigment%1:27:00::"))
+(define x (WordNode "haematoidin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_pigment%1:27:00::"))

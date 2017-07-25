@@ -1,0 +1,5 @@
+(define s (WordSenseNode "absolute_threshold%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "absolute_threshold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "threshold%1:09:00::"))
+(InheritanceLink s (WordSenseNode "limen%1:09:00::"))
+(InheritanceLink (WordSenseNode "pain_threshold%1:09:00::") s)

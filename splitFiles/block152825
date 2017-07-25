@@ -1,0 +1,8 @@
+(define s (WordSenseNode "skiing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "skiing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sport%1:04:00::"))
+(InheritanceLink s (WordSenseNode "athletics%1:04:00::"))
+(InheritanceLink (WordSenseNode "cross-country_skiing%1:04:00::") s)
+(InheritanceLink (WordSenseNode "ski_jumping%1:04:00::") s)
+(HolonymLink (WordSenseNode "traversal%1:04:00::") s)
+(HolonymLink (WordSenseNode "traverse%1:04:00::") s)

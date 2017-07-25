@@ -1,0 +1,5 @@
+(define s (WordSenseNode "enhancer%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attention%1:09:02::"))
+(define x (WordNode "enhancer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attention%1:09:02::"))

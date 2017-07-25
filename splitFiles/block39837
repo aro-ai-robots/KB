@@ -1,0 +1,6 @@
+(define s (WordSenseNode "crescendo%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crescendo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "volume%1:07:02::"))
+(InheritanceLink s (WordSenseNode "loudness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "intensity%1:07:02::"))
+(InheritanceLink (WordSenseNode "swell%1:07:00::") s)

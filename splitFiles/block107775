@@ -1,0 +1,6 @@
+(define s (WordSenseNode "modulus%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "modulus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))
+(InheritanceLink (WordSenseNode "coefficient_of_elasticity%1:23:00::") s)
+(InheritanceLink (WordSenseNode "modulus_of_elasticity%1:23:00::") s)
+(InheritanceLink (WordSenseNode "elastic_modulus%1:23:00::") s)

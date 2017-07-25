@@ -1,0 +1,8 @@
+(define s (WordSenseNode "dirty_trick%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dirty_trick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antic%1:04:00::"))
+(InheritanceLink s (WordSenseNode "joke%1:04:00::"))
+(InheritanceLink s (WordSenseNode "prank%1:04:00::"))
+(InheritanceLink s (WordSenseNode "trick%1:04:00::"))
+(InheritanceLink s (WordSenseNode "caper%1:04:02::"))
+(InheritanceLink s (WordSenseNode "put-on%1:04:01::"))

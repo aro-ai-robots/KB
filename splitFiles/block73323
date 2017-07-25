@@ -1,0 +1,7 @@
+(define s (WordSenseNode "globetrotter%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "globetrotter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cosmopolitan%1:18:00::"))
+(InheritanceLink s (WordSenseNode "cosmopolite%1:18:00::"))
+(define x (WordNode "world_traveler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cosmopolitan%1:18:00::"))
+(InheritanceLink s (WordSenseNode "cosmopolite%1:18:00::"))

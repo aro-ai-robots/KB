@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pruritus%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pruritus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "itch%1:09:00::"))
+(InheritanceLink s (WordSenseNode "itchiness%1:09:00::"))
+(InheritanceLink s (WordSenseNode "itching%1:09:00::"))
+(InheritanceLink (WordSenseNode "pruritus_ani%1:09:00::") s)
+(InheritanceLink (WordSenseNode "pruritus_vulvae%1:09:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chartism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Chartism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ethic%1:09:00::"))
+(InheritanceLink s (WordSenseNode "moral_principle%1:09:00::"))
+(InheritanceLink s (WordSenseNode "value-system%1:09:00::"))
+(InheritanceLink s (WordSenseNode "value_orientation%1:09:00::"))

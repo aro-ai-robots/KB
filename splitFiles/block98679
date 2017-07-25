@@ -1,0 +1,5 @@
+(define s (WordSenseNode "living_trust%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "living_trust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trust%1:21:03::"))
+(define x (WordNode "inter_vivos_trust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trust%1:21:03::"))

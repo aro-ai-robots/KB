@@ -1,0 +1,5 @@
+(define s (WordSenseNode "legal_assistant%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paralegal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paraprofessional%1:18:00::"))
+(define x (WordNode "legal_assistant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paraprofessional%1:18:00::"))

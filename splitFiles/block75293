@@ -1,0 +1,7 @@
+(define s (WordSenseNode "great_skua%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "great_skua")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skua%1:05:00::"))
+(InheritanceLink s (WordSenseNode "bonxie%1:05:00::"))
+(define x (WordNode "Catharacta_skua")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skua%1:05:00::"))
+(InheritanceLink s (WordSenseNode "bonxie%1:05:00::"))

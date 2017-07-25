@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lobe%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lobe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loop%1:25:00::"))
+(InheritanceLink (WordSenseNode "major_lobe%1:10:00::") s)
+(HolonymLink s (WordSenseNode "radiation_pattern%1:10:00::"))
+(HolonymLink s (WordSenseNode "radiation_diagram%1:10:00::"))
+(HolonymLink s (WordSenseNode "pattern%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "badminton_equipment%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "badminton_equipment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sports_equipment%1:06:00::"))
+(InheritanceLink (WordSenseNode "shuttlecock%1:06:00::") s)
+(InheritanceLink (WordSenseNode "bird%1:06:01::") s)
+(InheritanceLink (WordSenseNode "birdie%1:06:00::") s)
+(InheritanceLink (WordSenseNode "shuttle%1:06:02::") s)

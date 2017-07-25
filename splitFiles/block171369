@@ -1,0 +1,6 @@
+(define s (WordSenseNode "training_table%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "training_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board%1:13:00::"))
+(InheritanceLink s (WordSenseNode "table%1:13:01::"))
+(HolonymLink s (WordSenseNode "mess%1:06:00::"))
+(HolonymLink s (WordSenseNode "mess_hall%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sickness_benefit%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sick_benefit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "benefit%1:21:00::"))
+(define x (WordNode "sickness_benefit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "benefit%1:21:00::"))

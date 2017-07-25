@@ -1,0 +1,5 @@
+(define s (WordSenseNode "writing_board%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "writing_board")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work_surface%1:06:00::"))
+(InheritanceLink (WordSenseNode "clipboard%1:06:00::") s)
+(InheritanceLink (WordSenseNode "lapboard%1:06:00::") s)

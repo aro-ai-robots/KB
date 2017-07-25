@@ -1,0 +1,7 @@
+(define s (WordSenseNode "treasury_shares%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "treasury_stock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stock%1:21:00::"))
+(define x (WordNode "treasury_shares")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stock%1:21:00::"))
+(define x (WordNode "reacquired_stock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stock%1:21:00::"))

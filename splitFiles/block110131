@@ -1,0 +1,6 @@
+(define s (WordSenseNode "musculus_sphincter_ductus_pancreatici%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "musculus_sphincter_ductus_pancreatici")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sphincter%1:08:00::"))
+(InheritanceLink s (WordSenseNode "anatomical_sphincter%1:08:00::"))
+(InheritanceLink s (WordSenseNode "sphincter_muscle%1:08:00::"))
+(HolonymLink s (WordSenseNode "pancreatic_duct%1:08:00::"))

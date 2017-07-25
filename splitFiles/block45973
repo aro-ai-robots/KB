@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dialyse%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dialyse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separate%2:35:02::"))
+(define x (WordNode "dialyze")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separate%2:35:02::"))

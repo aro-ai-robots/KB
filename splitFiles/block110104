@@ -1,0 +1,5 @@
+(define s (WordSenseNode "musculus_adductor_brevis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "musculus_adductor_brevis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adductor%1:08:00::"))
+(InheritanceLink s (WordSenseNode "adductor_muscle%1:08:00::"))
+(HolonymLink s (WordSenseNode "thigh%1:08:00::"))

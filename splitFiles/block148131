@@ -1,0 +1,5 @@
+(define s (WordSenseNode "self-incrimination%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-incrimination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "incrimination%1:10:00::"))
+(InheritanceLink s (WordSenseNode "inculpation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "blame%1:10:01::"))

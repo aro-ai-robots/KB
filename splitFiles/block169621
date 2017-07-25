@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tinea_capitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tinea_capitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tinea%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ringworm%1:26:00::"))
+(InheritanceLink s (WordSenseNode "roundworm%1:26:00::"))

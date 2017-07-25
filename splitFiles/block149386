@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sewage_disposal%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sewage_disposal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disposal%1:04:00::"))
+(InheritanceLink s (WordSenseNode "disposition%1:04:00::"))

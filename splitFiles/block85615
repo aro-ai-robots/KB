@@ -1,0 +1,5 @@
+(define s (WordSenseNode "inadequateness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inadequacy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unsatisfactoriness%1:07:00::"))
+(define x (WordNode "inadequateness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unsatisfactoriness%1:07:00::"))

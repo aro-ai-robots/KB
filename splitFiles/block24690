@@ -1,0 +1,8 @@
+(define s (WordSenseNode "candlewick%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "candlewick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wick%1:06:00::"))
+(InheritanceLink s (WordSenseNode "taper%1:06:01::"))
+(HolonymLink s (WordSenseNode "candle%1:06:00::"))
+(HolonymLink s (WordSenseNode "taper%1:06:00::"))
+(HolonymLink s (WordSenseNode "wax_light%1:06:00::"))
+(HolonymLink (WordSenseNode "snuff%1:27:00::") s)

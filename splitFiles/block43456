@@ -1,0 +1,5 @@
+(define s (WordSenseNode "decimalisation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decimalization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%1:04:00::"))
+(define x (WordNode "decimalisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%1:04:00::"))

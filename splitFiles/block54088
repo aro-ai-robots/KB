@@ -1,0 +1,4 @@
+(define s (WordSenseNode "engage%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "engage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%2:35:00::"))
+(InheritanceLink (WordSenseNode "lock%2:30:00::") s)

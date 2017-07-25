@@ -1,0 +1,5 @@
+(define s (WordSenseNode "celestial_pole%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "celestial_point%1:15:00::"))
+(define x (WordNode "celestial_pole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "celestial_point%1:15:00::"))

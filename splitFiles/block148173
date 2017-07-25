@@ -1,0 +1,5 @@
+(define s (WordSenseNode "self-reproach%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-reproach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproach%1:10:00::"))
+(define x (WordNode "self-reproof")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproach%1:10:00::"))

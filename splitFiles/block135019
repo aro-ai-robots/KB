@@ -1,0 +1,5 @@
+(define s (WordSenseNode "radioactive_dust%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fallout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dust%1:27:00::"))
+(define x (WordNode "radioactive_dust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dust%1:27:00::"))

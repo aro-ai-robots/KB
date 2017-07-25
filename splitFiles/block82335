@@ -1,0 +1,5 @@
+(define s (WordSenseNode "horsepower-hour%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "horsepower-hour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "heat_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "energy_unit%1:23:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "invert_soap%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cationic_detergent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detergent%1:27:00::"))
+(InheritanceLink (WordSenseNode "cetrimide%1:27:00::") s)
+(define x (WordNode "invert_soap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detergent%1:27:00::"))
+(InheritanceLink (WordSenseNode "cetrimide%1:27:00::") s)

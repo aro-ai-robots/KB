@@ -1,0 +1,6 @@
+(define s (WordSenseNode "approve%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "approve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evaluate%2:31:01::"))
+(InheritanceLink s (WordSenseNode "pass_judgment%2:31:00::"))
+(InheritanceLink s (WordSenseNode "judge%2:31:00::"))
+(InheritanceLink (WordSenseNode "rubberstamp%2:31:00::") s)

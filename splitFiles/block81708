@@ -1,0 +1,7 @@
+(define s (WordSenseNode "homo_sapiens_sapiens%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Homo_sapiens_sapiens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Homo_sapiens%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Homo%1:05:00::"))
+(define x (WordNode "modern_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Homo_sapiens%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Homo%1:05:00::"))

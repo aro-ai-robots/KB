@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fisa%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Foreign_Intelligence_Surveillance_Act")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legislative_act%1:10:00::"))
+(InheritanceLink s (WordSenseNode "statute%1:10:00::"))
+(define x (WordNode "FISA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legislative_act%1:10:00::"))
+(InheritanceLink s (WordSenseNode "statute%1:10:00::"))

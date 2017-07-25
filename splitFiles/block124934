@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pier%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support%1:06:00::"))
+(HolonymLink s (WordSenseNode "wall%1:06:00::"))

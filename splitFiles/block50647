@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dubliner%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dubliner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Irish_person%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Irelander%1:18:00::"))
+(HolonymLink s (WordSenseNode "Dublin%1:15:00::"))
+(HolonymLink s (WordSenseNode "Irish_capital%1:15:00::"))
+(HolonymLink s (WordSenseNode "capital_of_Ireland%1:15:00::"))

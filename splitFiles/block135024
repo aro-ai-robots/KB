@@ -1,0 +1,5 @@
+(define s (WordSenseNode "radioactive_waste%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radioactive_waste")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radioactive_material%1:27:00::"))
+(InheritanceLink (WordSenseNode "high-level_radioactive_waste%1:27:00::") s)
+(InheritanceLink (WordSenseNode "low-level_radioactive_waste%1:27:00::") s)

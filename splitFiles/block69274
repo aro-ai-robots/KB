@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_cyclops%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Cyclops")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arthropod_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Copepoda%1:05:00::"))
+(HolonymLink s (WordSenseNode "subclass_Copepoda%1:05:00::"))
+(HolonymLink (WordSenseNode "cyclops%1:05:00::") s)
+(HolonymLink (WordSenseNode "water_flea%1:05:02::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mu-meson%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "muon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lepton%1:17:00::"))
+(define x (WordNode "negative_muon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lepton%1:17:00::"))
+(define x (WordNode "mu-meson")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lepton%1:17:00::"))

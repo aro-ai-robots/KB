@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reversion%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reversion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mutation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "genetic_mutation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "chromosomal_mutation%1:11:00::"))

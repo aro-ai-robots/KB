@@ -1,0 +1,7 @@
+(define s (WordSenseNode "don%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preceptor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "teacher%1:18:00::"))
+(InheritanceLink s (WordSenseNode "instructor%1:18:00::"))
+(define x (WordNode "don")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "teacher%1:18:00::"))
+(InheritanceLink s (WordSenseNode "instructor%1:18:00::"))

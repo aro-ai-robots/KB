@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bhang%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bhang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soft_drug%1:06:00::"))
+(HolonymLink s (WordSenseNode "Indian_hemp%1:20:02::"))
+(HolonymLink s (WordSenseNode "Cannabis_indica%1:20:00::"))

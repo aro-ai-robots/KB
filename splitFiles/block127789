@@ -1,0 +1,6 @@
+(define s (WordSenseNode "politick%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "politick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prosecute%2:41:02::"))
+(InheritanceLink s (WordSenseNode "engage%2:41:06::"))
+(InheritanceLink s (WordSenseNode "pursue%2:41:00::"))
+(InheritanceLink (WordSenseNode "logroll%2:41:00::") s)

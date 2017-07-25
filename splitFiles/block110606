@@ -1,0 +1,8 @@
+(define s (WordSenseNode "myotonia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "myotonia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tonicity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "tonus%1:26:00::"))
+(InheritanceLink s (WordSenseNode "tone%1:26:02::"))
+(InheritanceLink (WordSenseNode "acromyotonia%1:26:00::") s)
+(InheritanceLink (WordSenseNode "myotonia_congenita%1:26:00::") s)
+(InheritanceLink (WordSenseNode "Thomsen's_disease%1:26:00::") s)

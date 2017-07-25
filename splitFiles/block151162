@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shunt_circuit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parallel_circuit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "closed_circuit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "loop%1:06:03::"))
+(define x (WordNode "shunt_circuit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "closed_circuit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "loop%1:06:03::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "roman_arch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Roman_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "round_arch%1:06:00::"))
+(define x (WordNode "semicircular_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "round_arch%1:06:00::"))

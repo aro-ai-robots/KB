@@ -1,0 +1,7 @@
+(define s (WordSenseNode "whitethroat%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "greater_whitethroat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warbler%1:05:00::"))
+(define x (WordNode "whitethroat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warbler%1:05:00::"))
+(define x (WordNode "Sylvia_communis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warbler%1:05:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "crinoid%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crinoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "echinoderm%1:05:00::"))
+(InheritanceLink (WordSenseNode "sea_lily%1:05:00::") s)
+(InheritanceLink (WordSenseNode "feather_star%1:05:00::") s)
+(InheritanceLink (WordSenseNode "comatulid%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Crinoidea%1:05:00::"))
+(HolonymLink s (WordSenseNode "class_Crinoidea%1:05:00::"))

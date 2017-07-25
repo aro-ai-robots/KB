@@ -1,0 +1,7 @@
+(define s (WordSenseNode "church_school%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "church_school")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_school%1:14:00::"))
+(InheritanceLink (WordSenseNode "Catholic_school%1:14:00::") s)
+(define x (WordNode "parochial_school")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_school%1:14:00::"))
+(InheritanceLink (WordSenseNode "Catholic_school%1:14:00::") s)

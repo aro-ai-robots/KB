@@ -1,0 +1,7 @@
+(define s (WordSenseNode "razorback%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "razorback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swine%1:05:00::"))
+(define x (WordNode "razorback_hog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swine%1:05:00::"))
+(define x (WordNode "razorbacked_hog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swine%1:05:00::"))

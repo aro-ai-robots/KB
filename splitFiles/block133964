@@ -1,0 +1,5 @@
+(define s (WordSenseNode "quadratic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quadratic_equation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "equation%1:10:00::"))
+(define x (WordNode "quadratic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "equation%1:10:00::"))

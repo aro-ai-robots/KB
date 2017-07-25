@@ -1,0 +1,7 @@
+(define s (WordSenseNode "prospect%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prognosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_diagnosis%1:04:00::"))
+(define x (WordNode "prospect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_diagnosis%1:04:00::"))
+(define x (WordNode "medical_prognosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_diagnosis%1:04:00::"))

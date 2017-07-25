@@ -1,0 +1,7 @@
+(define s (WordSenseNode "idolization%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "idolization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))
+(InheritanceLink (WordSenseNode "bardolatry%1:04:00::") s)
+(define x (WordNode "idolisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))
+(InheritanceLink (WordSenseNode "bardolatry%1:04:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "erodium_texanum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Texas_storksbill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "storksbill%1:20:00::"))
+(InheritanceLink s (WordSenseNode "heron's_bill%1:20:00::"))
+(define x (WordNode "Erodium_texanum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "storksbill%1:20:00::"))
+(InheritanceLink s (WordSenseNode "heron's_bill%1:20:00::"))

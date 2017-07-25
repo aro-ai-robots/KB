@@ -1,0 +1,7 @@
+(define s (WordSenseNode "desolate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "depopulate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shrink%2:30:01::"))
+(InheritanceLink s (WordSenseNode "reduce%2:30:05::"))
+(define x (WordNode "desolate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shrink%2:30:01::"))
+(InheritanceLink s (WordSenseNode "reduce%2:30:05::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "once-over%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "once-over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "examination%1:04:00::"))
+(InheritanceLink s (WordSenseNode "scrutiny%1:04:00::"))
+(define x (WordNode "look-over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "examination%1:04:00::"))
+(InheritanceLink s (WordSenseNode "scrutiny%1:04:00::"))

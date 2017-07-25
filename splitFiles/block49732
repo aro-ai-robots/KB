@@ -1,0 +1,8 @@
+(define s (WordSenseNode "drama%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drama")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing_style%1:10:00::"))
+(InheritanceLink s (WordSenseNode "literary_genre%1:10:00::"))
+(InheritanceLink s (WordSenseNode "genre%1:10:02::"))
+(InheritanceLink (WordSenseNode "closet_drama%1:10:00::") s)
+(InheritanceLink (WordSenseNode "comedy%1:10:00::") s)
+(InheritanceLink (WordSenseNode "tragedy%1:10:00::") s)

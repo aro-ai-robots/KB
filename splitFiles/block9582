@@ -1,0 +1,7 @@
+(define s (WordSenseNode "articles_of_incorporation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "articles_of_incorporation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legal_document%1:10:00::"))
+(InheritanceLink s (WordSenseNode "legal_instrument%1:10:00::"))
+(InheritanceLink s (WordSenseNode "official_document%1:10:00::"))
+(InheritanceLink s (WordSenseNode "instrument%1:10:00::"))
+(HolonymLink s (WordSenseNode "charter%1:10:00::"))

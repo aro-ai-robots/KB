@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pot%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implant%2:35:00::"))
+(InheritanceLink s (WordSenseNode "engraft%2:35:00::"))
+(InheritanceLink s (WordSenseNode "embed%2:35:00::"))
+(InheritanceLink s (WordSenseNode "imbed%2:35:00::"))
+(InheritanceLink s (WordSenseNode "plant%2:35:01::"))
+(InheritanceLink (WordSenseNode "repot%2:35:00::") s)

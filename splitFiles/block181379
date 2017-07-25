@@ -1,0 +1,5 @@
+(define s (WordSenseNode "water_right%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "water_right")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "right%1:07:00::"))
+(define x (WordNode "riparian_right")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "right%1:07:00::"))

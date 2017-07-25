@@ -1,0 +1,6 @@
+(define s (WordSenseNode "exit%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "departure%1:04:00::"))
+(InheritanceLink s (WordSenseNode "going%1:04:01::"))
+(InheritanceLink s (WordSenseNode "going_away%1:04:00::"))
+(InheritanceLink s (WordSenseNode "leaving%1:04:00::"))

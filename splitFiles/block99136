@@ -1,0 +1,5 @@
+(define s (WordSenseNode "logo%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "logo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trademark%1:10:00::"))
+(define x (WordNode "logotype")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trademark%1:10:00::"))

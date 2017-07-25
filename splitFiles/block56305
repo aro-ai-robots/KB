@@ -1,0 +1,6 @@
+(define s (WordSenseNode "evacuation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "evacuation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "withdrawal%1:04:00::"))
+(InheritanceLink (WordSenseNode "medical_evacuation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "medevac%1:04:00::") s)
+(InheritanceLink (WordSenseNode "medivac%1:04:00::") s)

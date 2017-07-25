@@ -1,0 +1,5 @@
+(define s (WordSenseNode "medical_community%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "medical_profession")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "health_profession%1:14:00::"))
+(define x (WordNode "medical_community")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "health_profession%1:14:00::"))

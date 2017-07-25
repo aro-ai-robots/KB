@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_cathaya%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Cathaya")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gymnosperm_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Pinaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Pinaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "pine_family%1:20:00::"))
+(HolonymLink (WordSenseNode "Cathaya%1:20:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tax-exempt_security%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tax-exempt_security")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "security%1:21:04::"))
+(InheritanceLink s (WordSenseNode "certificate%1:21:00::"))
+(define x (WordNode "tax-exempt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "security%1:21:04::"))
+(InheritanceLink s (WordSenseNode "certificate%1:21:00::"))

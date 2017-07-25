@@ -1,0 +1,8 @@
+(define s (WordSenseNode "opal%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "opal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mineral%1:27:00::"))
+(InheritanceLink s (WordSenseNode "opaque_gem%1:27:00::"))
+(InheritanceLink (WordSenseNode "black_opal%1:27:00::") s)
+(InheritanceLink (WordSenseNode "fire_opal%1:27:00::") s)
+(InheritanceLink (WordSenseNode "girasol%1:27:00::") s)
+(InheritanceLink (WordSenseNode "harlequin_opal%1:27:00::") s)

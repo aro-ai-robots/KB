@@ -1,0 +1,5 @@
+(define s (WordSenseNode "old_style%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "old_style")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proportional_font%1:10:00::"))
+(define x (WordNode "old_style_font")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proportional_font%1:10:00::"))

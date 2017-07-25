@@ -1,0 +1,5 @@
+(define s (WordSenseNode "weston_cell%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Weston_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "standard_cell%1:06:00::"))
+(define x (WordNode "cadmium_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "standard_cell%1:06:00::"))

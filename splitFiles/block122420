@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pendragon%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pendragon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "headman%1:18:00::"))
+(InheritanceLink s (WordSenseNode "tribal_chief%1:18:00::"))
+(InheritanceLink s (WordSenseNode "chieftain%1:18:00::"))
+(InheritanceLink s (WordSenseNode "chief%1:18:02::"))

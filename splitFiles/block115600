@@ -1,0 +1,7 @@
+(define s (WordSenseNode "office%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "office")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rite%1:04:01::"))
+(InheritanceLink s (WordSenseNode "religious_rite%1:04:00::"))
+(InheritanceLink (WordSenseNode "Divine_Office%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Little_Office%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Office_of_the_Dead%1:04:00::") s)

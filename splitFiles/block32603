@@ -1,0 +1,5 @@
+(define s (WordSenseNode "closed-circuit_television%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "closed-circuit_television")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "television%1:06:00::"))
+(InheritanceLink s (WordSenseNode "television_system%1:06:00::"))
+(InheritanceLink (WordSenseNode "surveillance_system%1:06:00::") s)

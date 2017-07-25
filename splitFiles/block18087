@@ -1,0 +1,5 @@
+(define s (WordSenseNode "block_out%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "block_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sketch%2:32:00::"))
+(InheritanceLink s (WordSenseNode "outline%2:32:00::"))
+(InheritanceLink s (WordSenseNode "adumbrate%2:32:00::"))

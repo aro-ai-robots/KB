@@ -1,0 +1,5 @@
+(define s (WordSenseNode "accumulator_register%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "accumulator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "register%1:06:03::"))
+(define x (WordNode "accumulator_register")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "register%1:06:03::"))

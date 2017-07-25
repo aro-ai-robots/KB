@@ -1,0 +1,4 @@
+(define s (WordSenseNode "straight_poker%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "straight_poker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "poker%1:04:00::"))
+(InheritanceLink s (WordSenseNode "poker_game%1:04:00::"))

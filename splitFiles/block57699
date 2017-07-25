@@ -1,0 +1,5 @@
+(define s (WordSenseNode "eye_dialect%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eye_dialect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dialect%1:10:00::"))
+(InheritanceLink s (WordSenseNode "idiom%1:10:00::"))
+(InheritanceLink s (WordSenseNode "accent%1:10:03::"))

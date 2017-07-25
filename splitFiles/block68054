@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genetic_code%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genetic_code")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ordering%1:14:00::"))
+(InheritanceLink s (WordSenseNode "order%1:14:00::"))
+(InheritanceLink s (WordSenseNode "ordination%1:14:00::"))
+(InheritanceLink (WordSenseNode "triplet_code%1:14:00::") s)

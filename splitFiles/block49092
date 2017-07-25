@@ -1,0 +1,5 @@
+(define s (WordSenseNode "doppler_effect%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Doppler_effect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "propagation%1:19:00::"))
+(define x (WordNode "Doppler_shift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "propagation%1:19:00::"))

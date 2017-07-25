@@ -1,0 +1,6 @@
+(define s (WordSenseNode "yield_up%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "yield_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surrender%2:40:00::"))
+(InheritanceLink s (WordSenseNode "cede%2:40:00::"))
+(InheritanceLink s (WordSenseNode "deliver%2:40:02::"))
+(InheritanceLink s (WordSenseNode "give_up%2:40:01::"))

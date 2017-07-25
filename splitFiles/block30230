@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chlamydia_psittaci%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Chlamydia_psittaci")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chlamydia%1:05:00::"))
+(define x (WordNode "C._psittaci")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chlamydia%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_lynx%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Lynx")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Felidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Felidae%1:05:00::"))
+(HolonymLink (WordSenseNode "lynx%1:05:00::") s)
+(HolonymLink (WordSenseNode "catamount%1:05:02::") s)

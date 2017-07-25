@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lever%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lever")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tumbler%1:06:01::"))
+(HolonymLink s (WordSenseNode "lever_lock%1:06:00::"))
+(define x (WordNode "lever_tumbler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tumbler%1:06:01::"))
+(HolonymLink s (WordSenseNode "lever_lock%1:06:00::"))

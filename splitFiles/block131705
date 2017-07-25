@@ -1,0 +1,7 @@
+(define s (WordSenseNode "proportional_sampling%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stratified_sampling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sampling%1:04:00::"))
+(define x (WordNode "representative_sampling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sampling%1:04:00::"))
+(define x (WordNode "proportional_sampling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sampling%1:04:00::"))

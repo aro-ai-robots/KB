@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ssa%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Social_Security_Administration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "independent_agency%1:14:00::"))
+(define x (WordNode "SSA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "independent_agency%1:14:00::"))

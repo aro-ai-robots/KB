@@ -1,0 +1,7 @@
+(define s (WordSenseNode "water_hammer%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "water_hammer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bang%1:11:00::"))
+(InheritanceLink s (WordSenseNode "clap%1:11:00::"))
+(InheritanceLink s (WordSenseNode "eruption%1:11:01::"))
+(InheritanceLink s (WordSenseNode "blast%1:11:01::"))
+(InheritanceLink s (WordSenseNode "bam%1:11:00::"))

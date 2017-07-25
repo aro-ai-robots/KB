@@ -1,0 +1,7 @@
+(define s (WordSenseNode "substructure%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "infrastructure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%1:07:00::"))
+(HolonymLink s (WordSenseNode "system%1:06:00::"))
+(define x (WordNode "substructure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%1:07:00::"))
+(HolonymLink s (WordSenseNode "system%1:06:00::"))

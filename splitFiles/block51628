@@ -1,0 +1,7 @@
+(define s (WordSenseNode "easy_mark%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sitting_duck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "victim%1:18:01::"))
+(InheritanceLink s (WordSenseNode "dupe%1:18:00::"))
+(define x (WordNode "easy_mark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "victim%1:18:01::"))
+(InheritanceLink s (WordSenseNode "dupe%1:18:00::"))

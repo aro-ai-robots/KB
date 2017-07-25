@@ -1,0 +1,4 @@
+(define s (WordSenseNode "blue_point_siamese%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blue_point_Siamese")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Siamese_cat%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Siamese%1:05:00::"))

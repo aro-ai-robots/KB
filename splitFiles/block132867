@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pull%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pull")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "injure%2:29:00::"))
+(InheritanceLink s (WordSenseNode "wound%2:29:00::"))
+(define x (WordNode "overstretch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "injure%2:29:00::"))
+(InheritanceLink s (WordSenseNode "wound%2:29:00::"))

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "drain%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "drain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "empty%2:30:01::"))

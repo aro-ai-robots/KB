@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ransack%2:35:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "comb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "search%2:35:01::"))
+(define x (WordNode "ransack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "search%2:35:01::"))

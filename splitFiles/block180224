@@ -1,0 +1,3 @@
+(define s (WordSenseNode "vowel_point%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vowel_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vowel%1:10:01::"))

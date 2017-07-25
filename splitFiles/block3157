@@ -1,0 +1,6 @@
+(define s (WordSenseNode "agglutination_test%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "agglutination_test")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_test%1:09:00::"))
+(InheritanceLink (WordSenseNode "heterophil_test%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Widal_test%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Widal's_test%1:09:00::") s)

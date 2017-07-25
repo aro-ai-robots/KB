@@ -1,0 +1,6 @@
+(define s (WordSenseNode "expressionism%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "expressionism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artistic_movement%1:14:00::"))
+(InheritanceLink s (WordSenseNode "art_movement%1:14:00::"))
+(InheritanceLink (WordSenseNode "neoexpressionism%1:14:00::") s)
+(InheritanceLink (WordSenseNode "supra_expressionism%1:14:00::") s)

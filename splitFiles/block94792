@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lapidary%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lapidary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "engraver%1:18:01::"))
+(define x (WordNode "lapidist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "engraver%1:18:01::"))

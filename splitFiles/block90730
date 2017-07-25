@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jirrbal%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dyirbal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Australian%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Aboriginal_Australian%1:10:00::"))
+(define x (WordNode "Jirrbal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Australian%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Aboriginal_Australian%1:10:00::"))

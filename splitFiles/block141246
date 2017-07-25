@@ -1,0 +1,5 @@
+(define s (WordSenseNode "riser%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "riser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structural_member%1:06:00::"))
+(HolonymLink s (WordSenseNode "step%1:06:00::"))
+(HolonymLink s (WordSenseNode "stair%1:06:00::"))

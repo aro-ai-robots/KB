@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coin_slot%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coin_slot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slot%1:06:00::"))
+(HolonymLink s (WordSenseNode "slot_machine%1:06:00::"))
+(HolonymLink s (WordSenseNode "coin_machine%1:06:00::"))

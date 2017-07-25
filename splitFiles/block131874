@@ -1,0 +1,5 @@
+(define s (WordSenseNode "protagonist%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "protagonist")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "antihero%1:18:00::") s)
+(define x (WordNode "agonist")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "antihero%1:18:00::") s)

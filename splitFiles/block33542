@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cohabitation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cohabitation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inhabitancy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "inhabitation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "habitation%1:04:00::"))
+(InheritanceLink (WordSenseNode "concubinage%1:04:00::") s)

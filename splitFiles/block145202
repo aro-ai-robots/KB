@@ -1,0 +1,7 @@
+(define s (WordSenseNode "satellite_television%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "satellite_television")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "television%1:06:00::"))
+(InheritanceLink s (WordSenseNode "television_system%1:06:00::"))
+(define x (WordNode "satellite_TV")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "television%1:06:00::"))
+(InheritanceLink s (WordSenseNode "television_system%1:06:00::"))

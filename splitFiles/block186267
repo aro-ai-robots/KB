@@ -1,0 +1,5 @@
+(define s (WordSenseNode "zen%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Zen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Buddhism%1:09:00::"))
+(define x (WordNode "Zen_Buddhism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Buddhism%1:09:00::"))

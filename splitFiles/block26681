@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cassette_tape%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cassette_tape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnetic_tape%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mag_tape%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tape%1:06:04::"))
+(HolonymLink s (WordSenseNode "cassette%1:06:00::"))

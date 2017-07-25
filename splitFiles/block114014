@@ -1,0 +1,5 @@
+(define s (WordSenseNode "northern_baptist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Northern_Baptist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Baptist%1:18:00::"))
+(HolonymLink s (WordSenseNode "American_Baptist_Convention%1:14:00::"))
+(HolonymLink s (WordSenseNode "Northern_Baptist_Convention%1:14:00::"))

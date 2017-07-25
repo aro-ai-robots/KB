@@ -1,0 +1,7 @@
+(define s (WordSenseNode "index%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "index")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finger%1:08:00::"))
+(define x (WordNode "index_finger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finger%1:08:00::"))
+(define x (WordNode "forefinger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finger%1:08:00::"))

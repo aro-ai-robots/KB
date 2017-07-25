@@ -1,0 +1,8 @@
+(define s (WordSenseNode "typesetting_machine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "typesetting_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "printer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "printing_machine%1:06:00::"))
+(InheritanceLink (WordSenseNode "Linotype%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Linotype_machine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "monotype%1:06:00::") s)
+(HolonymLink (WordSenseNode "keyboard%1:06:01::") s)

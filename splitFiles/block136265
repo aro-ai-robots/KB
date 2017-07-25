@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reader%1:18:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "proofreader")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "printer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "pressman%1:18:00::"))
+(define x (WordNode "reader")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "printer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "pressman%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "web%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "web")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weave%2:36:00::"))
+(InheritanceLink s (WordSenseNode "tissue%2:36:00::"))
+(define x (WordNode "net")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weave%2:36:00::"))
+(InheritanceLink s (WordSenseNode "tissue%2:36:00::"))

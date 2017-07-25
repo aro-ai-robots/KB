@@ -1,0 +1,7 @@
+(define s (WordSenseNode "least_shrew%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "least_shrew")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shrew%1:05:00::"))
+(InheritanceLink s (WordSenseNode "shrewmouse%1:05:00::"))
+(define x (WordNode "Cryptotis_parva")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shrew%1:05:00::"))
+(InheritanceLink s (WordSenseNode "shrewmouse%1:05:00::"))

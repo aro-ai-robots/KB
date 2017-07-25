@@ -1,0 +1,8 @@
+(define s (WordSenseNode "direct_mail%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "direct_mail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ad%1:10:00::"))
+(InheritanceLink s (WordSenseNode "advertisement%1:10:00::"))
+(InheritanceLink s (WordSenseNode "advertizement%1:10:00::"))
+(InheritanceLink s (WordSenseNode "advertising%1:10:00::"))
+(InheritanceLink s (WordSenseNode "advertizing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "advert%1:10:00::"))

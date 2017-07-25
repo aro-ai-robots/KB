@@ -1,0 +1,7 @@
+(define s (WordSenseNode "infliximab%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "infliximab")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monoclonal_antibody%1:27:00::"))
+(InheritanceLink s (WordSenseNode "monoclonal%1:27:00::"))
+(define x (WordNode "Remicade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monoclonal_antibody%1:27:00::"))
+(InheritanceLink s (WordSenseNode "monoclonal%1:27:00::"))

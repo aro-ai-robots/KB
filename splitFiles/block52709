@@ -1,0 +1,5 @@
+(define s (WordSenseNode "electric_bill%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electric_bill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bill%1:10:01::"))
+(InheritanceLink s (WordSenseNode "account%1:10:02::"))
+(InheritanceLink s (WordSenseNode "invoice%1:10:00::"))

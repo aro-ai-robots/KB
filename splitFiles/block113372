@@ -1,0 +1,5 @@
+(define s (WordSenseNode "noisemaker%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "noisemaker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))
+(InheritanceLink (WordSenseNode "horn%1:06:06::") s)
+(InheritanceLink (WordSenseNode "thunderer%1:06:00::") s)

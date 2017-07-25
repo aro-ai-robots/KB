@@ -1,0 +1,8 @@
+(define s (WordSenseNode "straighten%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "straighten")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_posture%2:38:00::"))
+(InheritanceLink (WordSenseNode "rear%2:38:00::") s)
+(InheritanceLink (WordSenseNode "rise_up%2:38:01::") s)
+(InheritanceLink (WordSenseNode "draw_up%2:38:02::") s)
+(InheritanceLink (WordSenseNode "pull_up%2:38:03::") s)
+(InheritanceLink (WordSenseNode "straighten_up%2:38:01::") s)

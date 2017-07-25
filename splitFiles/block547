@@ -1,0 +1,7 @@
+(define s (WordSenseNode "abound_in%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "abound_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "occur%2:42:03::"))
+(define x (WordNode "teem_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "occur%2:42:03::"))
+(define x (WordNode "pullulate_with")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "occur%2:42:03::"))

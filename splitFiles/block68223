@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genuflect%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "scrape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bow%2:38:00::"))
+(define x (WordNode "kowtow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bow%2:38:00::"))
+(define x (WordNode "genuflect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bow%2:38:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ground_substance%1:08:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hyaloplasm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cytoplasm%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cytol%1:08:00::"))
+(define x (WordNode "ground_substance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cytoplasm%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cytol%1:08:00::"))

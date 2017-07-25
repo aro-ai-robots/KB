@@ -1,0 +1,6 @@
+(define s (WordSenseNode "capture%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "capture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chess_move%1:04:00::"))
+(InheritanceLink (WordSenseNode "en_passant%1:04:00::") s)
+(InheritanceLink (WordSenseNode "exchange%1:04:04::") s)
+(InheritanceLink (WordSenseNode "exchange%1:04:05::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "evolve%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "evolve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "develop%2:30:00::"))
+(InheritanceLink (WordSenseNode "speciate%2:30:00::") s)
+(InheritanceLink (WordSenseNode "differentiate%2:30:05::") s)
+(InheritanceLink (WordSenseNode "specialize%2:30:07::") s)
+(InheritanceLink (WordSenseNode "specialise%2:30:07::") s)
+(InheritanceLink (WordSenseNode "derive%2:30:01::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "epikeratophakia%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epikeratophakia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keratoplasty%1:04:00::"))
+(InheritanceLink s (WordSenseNode "corneal_graft%1:04:00::"))
+(InheritanceLink s (WordSenseNode "corneal_transplant%1:04:00::"))

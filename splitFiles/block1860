@@ -1,0 +1,5 @@
+(define s (WordSenseNode "acuminate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "acuminate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sharpen%2:30:08::"))
+(InheritanceLink s (WordSenseNode "taper%2:30:00::"))
+(InheritanceLink s (WordSenseNode "point%2:30:00::"))

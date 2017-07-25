@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lyophilise%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "lyophilize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "freeze-dry%2:30:00::"))
+(define x (WordNode "lyophilise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "freeze-dry%2:30:00::"))

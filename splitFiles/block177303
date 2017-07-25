@@ -1,0 +1,7 @@
+(define s (WordSenseNode "use%2:41:04::")) (PartOfSpeechLink s verb)
+(define x (WordNode "practice")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "follow%2:41:11::") s)
+(define x (WordNode "apply")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "follow%2:41:11::") s)
+(define x (WordNode "use")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "follow%2:41:11::") s)

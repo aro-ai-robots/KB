@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bns%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Bachelor_of_Naval_Science")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bachelor's_degree%1:10:00::"))
+(InheritanceLink s (WordSenseNode "baccalaureate%1:10:00::"))
+(define x (WordNode "BNS")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bachelor's_degree%1:10:00::"))
+(InheritanceLink s (WordSenseNode "baccalaureate%1:10:00::"))

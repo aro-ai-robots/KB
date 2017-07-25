@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cypraea_tigris%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tiger_cowrie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cowrie%1:05:00::"))
+(InheritanceLink s (WordSenseNode "cowry%1:05:00::"))
+(define x (WordNode "Cypraea_tigris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cowrie%1:05:00::"))
+(InheritanceLink s (WordSenseNode "cowry%1:05:00::"))

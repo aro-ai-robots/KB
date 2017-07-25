@@ -1,0 +1,6 @@
+(define s (WordSenseNode "intergalactic_space%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intergalactic_space")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:00::"))
+(InheritanceLink s (WordSenseNode "part%1:15:00::"))
+(HolonymLink s (WordSenseNode "outer_space%1:15:00::"))
+(HolonymLink s (WordSenseNode "space%1:15:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "capparis_spinosa%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_caper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caper%1:20:00::"))
+(HolonymLink (WordSenseNode "caper%1:13:00::") s)
+(define x (WordNode "Capparis_spinosa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caper%1:20:00::"))
+(HolonymLink (WordSenseNode "caper%1:13:00::") s)

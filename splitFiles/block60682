@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fencesitter%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mugwump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "individualist%1:18:00::"))
+(define x (WordNode "independent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "individualist%1:18:00::"))
+(define x (WordNode "fencesitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "individualist%1:18:00::"))

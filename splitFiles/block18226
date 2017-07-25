@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bloody_shame%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Virgin_Mary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Bloody_Mary%1:13:00::"))
+(define x (WordNode "bloody_shame")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Bloody_Mary%1:13:00::"))

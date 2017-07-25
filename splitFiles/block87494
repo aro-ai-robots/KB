@@ -1,0 +1,5 @@
+(define s (WordSenseNode "insolvency%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "insolvency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_condition%1:26:00::"))
+(InheritanceLink (WordSenseNode "bankruptcy%1:26:00::") s)
+(InheritanceLink (WordSenseNode "failure%1:26:02::") s)

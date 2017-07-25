@@ -1,0 +1,5 @@
+(define s (WordSenseNode "marginalia%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "marginalia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "note%1:10:00::"))
+(InheritanceLink (WordSenseNode "scholium%1:10:00::") s)
+(InheritanceLink (WordSenseNode "scholia%1:10:00::") s)

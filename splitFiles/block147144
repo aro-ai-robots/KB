@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sea_power%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sea_power")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_capability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "military_strength%1:07:00::"))
+(InheritanceLink s (WordSenseNode "strength%1:07:05::"))
+(InheritanceLink s (WordSenseNode "military_posture%1:07:00::"))
+(InheritanceLink s (WordSenseNode "posture%1:07:02::"))

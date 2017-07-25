@@ -1,0 +1,6 @@
+(define s (WordSenseNode "acquired_hemochromatosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acquired_hemochromatosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hemochromatosis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "iron-storage_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "iron_overload%1:26:00::"))
+(InheritanceLink s (WordSenseNode "bronzed_diabetes%1:26:00::"))

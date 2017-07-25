@@ -1,0 +1,8 @@
+(define s (WordSenseNode "place%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "place")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cognition%1:03:00::"))
+(InheritanceLink s (WordSenseNode "knowledge%1:03:00::"))
+(InheritanceLink s (WordSenseNode "noesis%1:03:00::"))
+(InheritanceLink (WordSenseNode "level%1:09:00::") s)
+(InheritanceLink (WordSenseNode "layer%1:09:00::") s)
+(InheritanceLink (WordSenseNode "stratum%1:09:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lansoprazole%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lansoprazole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acid%1:27:00::"))
+(define x (WordNode "Prevacid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acid%1:27:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "metencephalon%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metencephalon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hindbrain%1:08:00::"))
+(InheritanceLink s (WordSenseNode "rhombencephalon%1:08:00::"))

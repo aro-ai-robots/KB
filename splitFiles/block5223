@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ambystoma_talpoideum%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mole_salamander")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ambystomid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "ambystomid_salamander%1:05:00::"))
+(define x (WordNode "Ambystoma_talpoideum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ambystomid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "ambystomid_salamander%1:05:00::"))

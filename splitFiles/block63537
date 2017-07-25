@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flux%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flux")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))
+(define x (WordNode "state_of_flux")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))

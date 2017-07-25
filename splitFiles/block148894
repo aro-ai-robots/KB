@@ -1,0 +1,5 @@
+(define s (WordSenseNode "serin%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "serin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finch%1:05:00::"))
+(HolonymLink s (WordSenseNode "Serinus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Serinus%1:05:00::"))

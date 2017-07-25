@@ -1,0 +1,5 @@
+(define s (WordSenseNode "matronymic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "matronymic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "name%1:10:00::"))
+(define x (WordNode "metronymic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "name%1:10:00::"))

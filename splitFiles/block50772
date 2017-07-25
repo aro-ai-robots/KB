@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dugout_canoe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dugout_canoe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canoe%1:06:00::"))
+(define x (WordNode "dugout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canoe%1:06:00::"))
+(define x (WordNode "pirogue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canoe%1:06:00::"))

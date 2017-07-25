@@ -1,0 +1,7 @@
+(define s (WordSenseNode "beaner%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beanball")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pitch%1:04:03::"))
+(InheritanceLink s (WordSenseNode "delivery%1:04:03::"))
+(define x (WordNode "beaner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pitch%1:04:03::"))
+(InheritanceLink s (WordSenseNode "delivery%1:04:03::"))

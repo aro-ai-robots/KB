@@ -1,0 +1,7 @@
+(define s (WordSenseNode "evaporite%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "evaporite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sediment%1:17:00::"))
+(InheritanceLink s (WordSenseNode "deposit%1:17:00::"))
+(HolonymLink s (WordSenseNode "seawater%1:27:00::"))
+(HolonymLink s (WordSenseNode "saltwater%1:27:00::"))
+(HolonymLink s (WordSenseNode "brine%1:27:00::"))

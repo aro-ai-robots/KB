@@ -1,0 +1,5 @@
+(define s (WordSenseNode "italian_sonnet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Petrarchan_sonnet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sonnet%1:10:00::"))
+(define x (WordNode "Italian_sonnet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sonnet%1:10:00::"))

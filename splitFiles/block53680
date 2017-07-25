@@ -1,0 +1,7 @@
+(define s (WordSenseNode "enamel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enamel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coating%1:06:00::"))
+(InheritanceLink s (WordSenseNode "coat%1:06:01::"))
+(InheritanceLink (WordSenseNode "nail_polish%1:06:00::") s)
+(InheritanceLink (WordSenseNode "nail_enamel%1:06:00::") s)
+(InheritanceLink (WordSenseNode "nail_varnish%1:06:00::") s)

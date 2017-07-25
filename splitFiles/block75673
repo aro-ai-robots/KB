@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gridlock%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gridlock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "traffic_jam%1:14:00::"))
+(InheritanceLink s (WordSenseNode "snarl-up%1:14:00::"))

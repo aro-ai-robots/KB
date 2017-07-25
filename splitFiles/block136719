@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reciprocal-inhibition_therapy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reciprocal_inhibition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "behavior_therapy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "behavior_modification%1:04:00::"))
+(define x (WordNode "reciprocal-inhibition_therapy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "behavior_therapy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "behavior_modification%1:04:00::"))

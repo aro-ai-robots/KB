@@ -1,0 +1,4 @@
+(define s (WordSenseNode "richard_iii%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Richard_III")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "York%1:14:00::"))
+(HolonymLink s (WordSenseNode "House_of_York%1:14:00::"))

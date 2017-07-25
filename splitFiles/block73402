@@ -1,0 +1,7 @@
+(define s (WordSenseNode "glossodynia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glossalgia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pain%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hurting%1:26:00::"))
+(define x (WordNode "glossodynia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pain%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hurting%1:26:00::"))

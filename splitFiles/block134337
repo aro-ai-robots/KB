@@ -1,0 +1,5 @@
+(define s (WordSenseNode "quenched_steel%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quenched_steel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steel%1:27:00::"))
+(InheritanceLink (WordSenseNode "oil-hardened_steel%1:27:00::") s)
+(HolonymLink (WordSenseNode "martensite%1:27:00::") s)

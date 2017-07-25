@@ -1,0 +1,6 @@
+(define s (WordSenseNode "circuit_court_of_appeals%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circuit_court_of_appeals")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appellate_court%1:14:00::"))
+(InheritanceLink s (WordSenseNode "appeals_court%1:14:00::"))
+(InheritanceLink s (WordSenseNode "court_of_appeals%1:14:00::"))
+(HolonymLink s (WordSenseNode "judicial_branch%1:14:00::"))

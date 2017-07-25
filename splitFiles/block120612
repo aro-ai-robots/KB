@@ -1,0 +1,5 @@
+(define s (WordSenseNode "parenthetical%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parenthetical_expression")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjunct%1:10:00::"))
+(define x (WordNode "parenthetical")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjunct%1:10:00::"))

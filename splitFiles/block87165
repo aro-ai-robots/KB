@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ink%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquid_body_substance%1:08:00::"))
+(InheritanceLink s (WordSenseNode "bodily_fluid%1:08:00::"))
+(InheritanceLink s (WordSenseNode "body_fluid%1:08:00::"))
+(InheritanceLink s (WordSenseNode "humor%1:08:00::"))
+(InheritanceLink s (WordSenseNode "humour%1:08:00::"))

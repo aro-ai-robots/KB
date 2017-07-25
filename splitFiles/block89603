@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ivory_coast_franc%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ivory_Coast_franc")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "franc%1:23:00::"))
+(HolonymLink (WordSenseNode "centime%1:23:00::") s)
+(define x (WordNode "Cote_d'Ivoire_franc")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "franc%1:23:00::"))
+(HolonymLink (WordSenseNode "centime%1:23:00::") s)

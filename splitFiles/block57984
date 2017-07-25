@@ -1,0 +1,5 @@
+(define s (WordSenseNode "factuality%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "factuality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(define x (WordNode "factualness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))

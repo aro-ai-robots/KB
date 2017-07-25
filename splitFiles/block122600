@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pentatone%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pentatonic_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gapped_scale%1:10:00::"))
+(define x (WordNode "pentatone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gapped_scale%1:10:00::"))

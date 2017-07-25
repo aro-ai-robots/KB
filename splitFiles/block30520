@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chordomesoderm%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chordamesoderm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mesoderm%1:05:00::"))
+(InheritanceLink s (WordSenseNode "mesoblast%1:05:00::"))
+(define x (WordNode "chordomesoderm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mesoderm%1:05:00::"))
+(InheritanceLink s (WordSenseNode "mesoblast%1:05:00::"))

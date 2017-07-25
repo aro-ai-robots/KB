@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flashover%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flashover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discharge%1:19:00::"))
+(InheritanceLink s (WordSenseNode "spark%1:19:00::"))
+(InheritanceLink s (WordSenseNode "arc%1:19:00::"))
+(InheritanceLink s (WordSenseNode "electric_arc%1:19:00::"))
+(InheritanceLink s (WordSenseNode "electric_discharge%1:19:00::"))

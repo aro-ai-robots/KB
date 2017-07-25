@@ -1,0 +1,8 @@
+(define s (WordSenseNode "magistrate%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magistrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "judge%1:18:00::"))
+(InheritanceLink s (WordSenseNode "justice%1:18:00::"))
+(InheritanceLink s (WordSenseNode "jurist%1:18:01::"))
+(InheritanceLink (WordSenseNode "justice_of_the_peace%1:18:00::") s)
+(InheritanceLink (WordSenseNode "stipendiary%1:18:00::") s)
+(InheritanceLink (WordSenseNode "stipendiary_magistrate%1:18:00::") s)

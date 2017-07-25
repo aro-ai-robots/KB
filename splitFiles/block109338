@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mousepad%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mousepad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mat%1:06:03::"))
+(define x (WordNode "mouse_mat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mat%1:06:03::"))

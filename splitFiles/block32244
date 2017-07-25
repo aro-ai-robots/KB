@@ -1,0 +1,8 @@
+(define s (WordSenseNode "click%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "click")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pronounce%2:32:01::"))
+(InheritanceLink s (WordSenseNode "articulate%2:32:00::"))
+(InheritanceLink s (WordSenseNode "enounce%2:32:00::"))
+(InheritanceLink s (WordSenseNode "sound_out%2:32:01::"))
+(InheritanceLink s (WordSenseNode "enunciate%2:32:01::"))
+(InheritanceLink s (WordSenseNode "say%2:32:02::"))

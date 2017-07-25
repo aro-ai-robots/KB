@@ -1,0 +1,4 @@
+(define s (WordSenseNode "crossbar%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crossbar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crosspiece%1:06:00::"))
+(HolonymLink s (WordSenseNode "goalpost%1:06:00::"))

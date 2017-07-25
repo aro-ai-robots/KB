@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lilium_martagon%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Turk's-cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lily%1:20:00::"))
+(define x (WordNode "martagon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lily%1:20:00::"))
+(define x (WordNode "Lilium_martagon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lily%1:20:00::"))

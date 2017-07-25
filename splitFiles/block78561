@@ -1,0 +1,4 @@
+(define s (WordSenseNode "have_it_coming%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "have_it_coming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deserve%2:42:00::"))
+(InheritanceLink s (WordSenseNode "merit%2:42:04::"))

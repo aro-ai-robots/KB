@@ -1,0 +1,4 @@
+(define s (WordSenseNode "prevailing_party%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prevailing_party")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "litigant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "litigator%1:18:00::"))

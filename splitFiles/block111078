@@ -1,0 +1,4 @@
+(define s (WordSenseNode "narcosis%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "narcosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unconsciousness%1:09:00::"))
+(InheritanceLink (WordSenseNode "nitrogen_narcosis%1:09:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "liquid_bleach%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "liquid_bleach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solution%1:27:00::"))
+(HolonymLink (WordSenseNode "bleaching_agent%1:27:00::") s)
+(HolonymLink (WordSenseNode "bleach%1:27:00::") s)
+(HolonymLink (WordSenseNode "blanching_agent%1:27:00::") s)
+(HolonymLink (WordSenseNode "whitener%1:27:00::") s)

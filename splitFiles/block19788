@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bottleneck%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bottleneck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "part%1:06:00::"))
+(InheritanceLink s (WordSenseNode "portion%1:06:00::"))

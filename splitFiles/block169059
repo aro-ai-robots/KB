@@ -1,0 +1,7 @@
+(define s (WordSenseNode "thymus_serpyllum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wild_thyme")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thyme%1:20:00::"))
+(define x (WordNode "creeping_thyme")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thyme%1:20:00::"))
+(define x (WordNode "Thymus_serpyllum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thyme%1:20:00::"))

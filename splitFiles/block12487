@@ -1,0 +1,4 @@
+(define s (WordSenseNode "backspace_character%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "backspace_character")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "control_character%1:10:00::"))
+(InheritanceLink s (WordSenseNode "ASCII_control_character%1:10:00::"))

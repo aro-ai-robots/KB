@@ -1,0 +1,7 @@
+(define s (WordSenseNode "old_world_jay%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Old_World_jay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jay%1:05:00::"))
+(InheritanceLink (WordSenseNode "common_European_jay%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Garullus_garullus%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Garrulus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Garrulus%1:05:00::"))

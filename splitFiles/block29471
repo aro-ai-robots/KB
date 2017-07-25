@@ -1,0 +1,8 @@
+(define s (WordSenseNode "chemical_irritant%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chemical_irritant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:01::"))
+(InheritanceLink (WordSenseNode "capsaicin%1:27:00::") s)
+(InheritanceLink (WordSenseNode "gingerol%1:27:00::") s)
+(InheritanceLink (WordSenseNode "piperin%1:27:00::") s)
+(InheritanceLink (WordSenseNode "piperine%1:27:00::") s)
+(InheritanceLink (WordSenseNode "isothiocyanate%1:27:00::") s)

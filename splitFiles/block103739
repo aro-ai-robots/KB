@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "match")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "duplicate%1:06:00::"))
+(InheritanceLink s (WordSenseNode "duplication%1:06:00::"))
+(define x (WordNode "mate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "duplicate%1:06:00::"))
+(InheritanceLink s (WordSenseNode "duplication%1:06:00::"))

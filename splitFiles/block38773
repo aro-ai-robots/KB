@@ -1,0 +1,5 @@
+(define s (WordSenseNode "countermeasure%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "countermeasure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "measure%1:04:01::"))
+(InheritanceLink s (WordSenseNode "step%1:04:02::"))
+(InheritanceLink (WordSenseNode "countermine%1:04:00::") s)

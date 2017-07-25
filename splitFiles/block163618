@@ -1,0 +1,8 @@
+(define s (WordSenseNode "suspense%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "suspense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "doubt%1:09:00::"))
+(InheritanceLink s (WordSenseNode "uncertainty%1:09:00::"))
+(InheritanceLink s (WordSenseNode "incertitude%1:09:00::"))
+(InheritanceLink s (WordSenseNode "dubiety%1:09:00::"))
+(InheritanceLink s (WordSenseNode "doubtfulness%1:09:00::"))
+(InheritanceLink s (WordSenseNode "dubiousness%1:09:00::"))

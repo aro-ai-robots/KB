@@ -1,0 +1,7 @@
+(define s (WordSenseNode "au_pair%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "au_pair")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foreigner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "alien%1:18:00::"))
+(InheritanceLink s (WordSenseNode "noncitizen%1:18:00::"))
+(InheritanceLink s (WordSenseNode "outlander%1:18:00::"))
+(InheritanceLink (WordSenseNode "au_pair_girl%1:18:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "brevet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brevet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "document%1:10:00::"))
+(InheritanceLink s (WordSenseNode "written_document%1:10:00::"))
+(InheritanceLink s (WordSenseNode "papers%1:10:00::"))

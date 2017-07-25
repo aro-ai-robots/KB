@@ -1,0 +1,4 @@
+(define s (WordSenseNode "riding_mower%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "riding_mower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_mower%1:06:00::"))
+(InheritanceLink s (WordSenseNode "motor_mower%1:06:00::"))

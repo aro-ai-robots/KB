@@ -1,0 +1,8 @@
+(define s (WordSenseNode "lineman%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lineman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "position%1:04:02::"))
+(InheritanceLink (WordSenseNode "center%1:04:02::") s)
+(InheritanceLink (WordSenseNode "guard%1:04:02::") s)
+(InheritanceLink (WordSenseNode "tackle%1:04:02::") s)
+(InheritanceLink (WordSenseNode "end%1:04:02::") s)
+(HolonymLink s (WordSenseNode "linemen%1:14:00::"))

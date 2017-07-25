@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gamma%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gamma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "field_strength_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "oersted%1:23:00::"))

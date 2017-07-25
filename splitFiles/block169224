@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tide%1:11:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "variation%1:11:01::"))
+(InheritanceLink s (WordSenseNode "fluctuation%1:11:00::"))

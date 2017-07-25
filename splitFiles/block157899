@@ -1,0 +1,4 @@
+(define s (WordSenseNode "spritsail%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spritsail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fore-and-aft_sail%1:06:00::"))
+(HolonymLink (WordSenseNode "sprit%1:06:00::") s)

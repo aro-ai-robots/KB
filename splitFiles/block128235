@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pony_express%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pony_express")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "express%1:10:00::"))
+(InheritanceLink s (WordSenseNode "express_mail%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rnase%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ribonuclease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transferase%1:27:00::"))
+(define x (WordNode "ribonucleinase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transferase%1:27:00::"))
+(define x (WordNode "RNase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transferase%1:27:00::"))

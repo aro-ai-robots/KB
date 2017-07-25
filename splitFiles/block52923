@@ -1,0 +1,6 @@
+(define s (WordSenseNode "electronic_text%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electronic_text")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "text%1:10:00::"))
+(InheritanceLink s (WordSenseNode "textual_matter%1:10:00::"))
+(InheritanceLink (WordSenseNode "machine-displayable_text%1:10:00::") s)
+(InheritanceLink (WordSenseNode "machine-readable_text%1:10:00::") s)

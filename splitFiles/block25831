@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cardinal%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cardinal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bishop%1:18:00::"))
+(InheritanceLink (WordSenseNode "dean%1:18:01::") s)
+(HolonymLink s (WordSenseNode "Sacred_College%1:14:00::"))
+(HolonymLink s (WordSenseNode "College_of_Cardinals%1:14:00::"))

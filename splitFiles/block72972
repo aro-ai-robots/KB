@@ -1,0 +1,4 @@
+(define s (WordSenseNode "give_birth%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "give_birth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "create_by_mental_act%2:36:00::"))
+(InheritanceLink s (WordSenseNode "create_mentally%2:36:00::"))

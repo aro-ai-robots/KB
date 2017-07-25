@@ -1,0 +1,7 @@
+(define s (WordSenseNode "raise_a_stink%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "raise_hell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%2:32:00::"))
+(define x (WordNode "make_a_stink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%2:32:00::"))
+(define x (WordNode "raise_a_stink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%2:32:00::"))

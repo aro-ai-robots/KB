@@ -1,0 +1,4 @@
+(define s (WordSenseNode "acrostic%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acrostic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_composition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "literary_work%1:10:00::"))

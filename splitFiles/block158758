@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stand-down%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "standdown")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%1:04:00::"))
+(InheritanceLink s (WordSenseNode "stoppage%1:04:00::"))
+(define x (WordNode "stand-down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%1:04:00::"))
+(InheritanceLink s (WordSenseNode "stoppage%1:04:00::"))

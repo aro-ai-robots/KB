@@ -1,0 +1,6 @@
+(define s (WordSenseNode "japanese_beech%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Japanese_beech")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beech%1:20:00::"))
+(InheritanceLink s (WordSenseNode "beech_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "Fagus%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Fagus%1:20:00::"))

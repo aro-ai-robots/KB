@@ -1,0 +1,4 @@
+(define s (WordSenseNode "thinking_cap%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thinking_cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state_of_mind%1:26:02::"))
+(InheritanceLink s (WordSenseNode "frame_of_mind%1:26:00::"))

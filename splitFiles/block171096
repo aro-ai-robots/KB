@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tracheid%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tracheid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vascular_tissue%1:20:00::"))
+(HolonymLink s (WordSenseNode "xylem%1:20:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gas-cooled_reactor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gas-cooled_reactor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nuclear_reactor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reactor%1:06:00::"))

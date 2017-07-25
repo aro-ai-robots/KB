@@ -1,0 +1,3 @@
+(define s (WordSenseNode "tensimeter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tensimeter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manometer%1:06:00::"))

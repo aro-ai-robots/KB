@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ventral_fin%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pelvic_fin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fin%1:05:00::"))
+(define x (WordNode "ventral_fin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fin%1:05:00::"))

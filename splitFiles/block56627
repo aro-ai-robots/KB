@@ -1,0 +1,7 @@
+(define s (WordSenseNode "exasperate%2:37:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "exacerbate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anger%2:37:00::"))
+(define x (WordNode "exasperate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anger%2:37:00::"))
+(define x (WordNode "aggravate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anger%2:37:00::"))

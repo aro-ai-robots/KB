@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cloud%1:26:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cloud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gloom%1:26:02::"))
+(InheritanceLink s (WordSenseNode "gloominess%1:26:02::"))
+(InheritanceLink s (WordSenseNode "glumness%1:26:00::"))

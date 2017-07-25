@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lock%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "lock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fasten%2:35:01::"))
+(InheritanceLink s (WordSenseNode "fix%2:35:00::"))
+(InheritanceLink s (WordSenseNode "secure%2:35:01::"))
+(InheritanceLink (WordSenseNode "padlock%2:35:00::") s)
+(InheritanceLink (WordSenseNode "bolt%2:35:00::") s)

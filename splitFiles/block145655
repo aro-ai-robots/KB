@@ -1,0 +1,5 @@
+(define s (WordSenseNode "scalene_triangle%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scalene_triangle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "triangle%1:25:00::"))
+(InheritanceLink s (WordSenseNode "trigon%1:25:00::"))
+(InheritanceLink s (WordSenseNode "trilateral%1:25:00::"))

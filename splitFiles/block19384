@@ -1,0 +1,3 @@
+(define s (WordSenseNode "book_up%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "book_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reserve%2:32:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "quantify%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "quantify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "specify%2:32:02::"))
+(InheritanceLink s (WordSenseNode "set%2:32:00::"))
+(InheritanceLink s (WordSenseNode "determine%2:32:03::"))
+(InheritanceLink s (WordSenseNode "define%2:32:01::"))
+(InheritanceLink s (WordSenseNode "fix%2:32:03::"))
+(InheritanceLink s (WordSenseNode "limit%2:32:00::"))

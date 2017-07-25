@@ -1,0 +1,6 @@
+(define s (WordSenseNode "graduate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "graduate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "measuring_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "measuring_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "measuring_device%1:06:00::"))
+(InheritanceLink (WordSenseNode "graduated_cylinder%1:06:00::") s)

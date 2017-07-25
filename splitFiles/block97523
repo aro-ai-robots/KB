@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lightning_rod%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lightning_rod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conductor%1:06:00::"))
+(define x (WordNode "lightning_conductor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conductor%1:06:00::"))

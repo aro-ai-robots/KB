@@ -1,0 +1,8 @@
+(define s (WordSenseNode "ready-mix%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ready-mix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "convenience_food%1:13:00::"))
+(InheritanceLink s (WordSenseNode "mix%1:13:00::"))
+(InheritanceLink s (WordSenseNode "premix%1:13:00::"))
+(InheritanceLink (WordSenseNode "brownie_mix%1:13:00::") s)
+(InheritanceLink (WordSenseNode "cake_mix%1:13:00::") s)
+(InheritanceLink (WordSenseNode "lemonade_mix%1:13:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sea%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ocean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_indefinite_quantity%1:23:00::"))
+(InheritanceLink s (WordSenseNode "large_indefinite_amount%1:23:00::"))
+(define x (WordNode "sea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_indefinite_quantity%1:23:00::"))
+(InheritanceLink s (WordSenseNode "large_indefinite_amount%1:23:00::"))

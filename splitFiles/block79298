@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hedging%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hedge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "security%1:21:01::"))
+(InheritanceLink s (WordSenseNode "protection%1:21:00::"))
+(define x (WordNode "hedging")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "security%1:21:01::"))
+(InheritanceLink s (WordSenseNode "protection%1:21:00::"))

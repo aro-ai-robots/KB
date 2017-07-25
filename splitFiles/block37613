@@ -1,0 +1,7 @@
+(define s (WordSenseNode "copestone%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "finishing_touch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%1:09:03::"))
+(define x (WordNode "capstone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%1:09:03::"))
+(define x (WordNode "copestone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%1:09:03::"))

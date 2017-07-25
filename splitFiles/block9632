@@ -1,0 +1,5 @@
+(define s (WordSenseNode "artificial_heart%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "artificial_heart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implant%1:06:00::"))
+(InheritanceLink (WordSenseNode "Jarvik_heart%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Jarvik_artificial_heart%1:06:00::") s)

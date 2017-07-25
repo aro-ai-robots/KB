@@ -1,0 +1,7 @@
+(define s (WordSenseNode "variola_major%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "variola_major")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "variola_virus%1:05:00::"))
+(InheritanceLink s (WordSenseNode "smallpox_virus%1:05:00::"))
+(define x (WordNode "variola_major_virus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "variola_virus%1:05:00::"))
+(InheritanceLink s (WordSenseNode "smallpox_virus%1:05:00::"))

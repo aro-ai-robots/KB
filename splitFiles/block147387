@@ -1,0 +1,5 @@
+(define s (WordSenseNode "seborrheic_dermatitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seborrheic_dermatitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dermatitis%1:26:00::"))
+(define x (WordNode "seborrheic_eczema")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dermatitis%1:26:00::"))

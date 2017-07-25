@@ -1,0 +1,5 @@
+(define s (WordSenseNode "barium_peroxide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "barium_dioxide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baryta%1:27:00::"))
+(define x (WordNode "barium_peroxide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baryta%1:27:00::"))

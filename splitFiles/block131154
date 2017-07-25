@@ -1,0 +1,8 @@
+(define s (WordSenseNode "producer%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "producer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creator%1:18:00::"))
+(InheritanceLink (WordSenseNode "film_maker%1:18:00::") s)
+(InheritanceLink (WordSenseNode "filmmaker%1:18:00::") s)
+(InheritanceLink (WordSenseNode "film_producer%1:18:00::") s)
+(InheritanceLink (WordSenseNode "movie_maker%1:18:00::") s)
+(InheritanceLink (WordSenseNode "theatrical_producer%1:18:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "narrowing%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "narrowing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decrease%1:22:00::"))
+(InheritanceLink s (WordSenseNode "decrement%1:22:00::"))

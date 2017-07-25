@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rickshaw%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jinrikisha")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cart%1:06:00::"))
+(define x (WordNode "ricksha")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cart%1:06:00::"))
+(define x (WordNode "rickshaw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cart%1:06:00::"))

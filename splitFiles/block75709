@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grillwork%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))
+(define x (WordNode "grille")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))
+(define x (WordNode "grillwork")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "stephanotis%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stephanotis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shrub%1:20:00::"))
+(InheritanceLink s (WordSenseNode "bush%1:20:00::"))
+(InheritanceLink (WordSenseNode "Madagascar_jasmine%1:20:00::") s)
+(InheritanceLink (WordSenseNode "waxflower%1:20:03::") s)
+(InheritanceLink (WordSenseNode "Stephanotis_floribunda%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Stephanotis%1:20:00::"))

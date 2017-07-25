@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shag%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fabric%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cloth%1:06:00::"))
+(InheritanceLink s (WordSenseNode "material%1:06:00::"))
+(InheritanceLink s (WordSenseNode "textile%1:06:00::"))
+(HolonymLink s (WordSenseNode "shag_rug%1:06:00::"))

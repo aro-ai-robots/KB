@@ -1,0 +1,5 @@
+(define s (WordSenseNode "time-delay_measuring_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "time-delay_measuring_instrument")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chronoscope%1:06:00::"))
+(define x (WordNode "time-delay_measuring_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chronoscope%1:06:00::"))

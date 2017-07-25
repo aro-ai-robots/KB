@@ -1,0 +1,5 @@
+(define s (WordSenseNode "yam%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tuber%1:20:00::"))
+(HolonymLink s (WordSenseNode "yam%1:20:00::"))
+(HolonymLink s (WordSenseNode "yam_plant%1:20:00::"))

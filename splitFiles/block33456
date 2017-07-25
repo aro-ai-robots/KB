@@ -1,0 +1,8 @@
+(define s (WordSenseNode "coffee_cup%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coffee_cup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cup%1:06:00::"))
+(InheritanceLink (WordSenseNode "demitasse%1:06:00::") s)
+(HolonymLink (WordSenseNode "handle%1:06:00::") s)
+(HolonymLink (WordSenseNode "grip%1:06:01::") s)
+(HolonymLink (WordSenseNode "handgrip%1:06:00::") s)
+(HolonymLink (WordSenseNode "hold%1:06:00::") s)

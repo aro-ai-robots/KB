@@ -1,0 +1,4 @@
+(define s (WordSenseNode "factorial%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "factorial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "product%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mathematical_product%1:09:00::"))

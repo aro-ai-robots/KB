@@ -1,0 +1,5 @@
+(define s (WordSenseNode "virion%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "virion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "particle%1:17:00::"))
+(InheritanceLink s (WordSenseNode "subatomic_particle%1:17:00::"))
+(HolonymLink (WordSenseNode "capsid%1:05:00::") s)

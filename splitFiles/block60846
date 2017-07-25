@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fertility_drug%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fertility_drug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drug%1:06:00::"))
+(InheritanceLink (WordSenseNode "clomiphene%1:06:00::") s)
+(InheritanceLink (WordSenseNode "clomiphene_citrate%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Clomid%1:06:00::") s)

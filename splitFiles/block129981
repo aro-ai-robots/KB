@@ -1,0 +1,8 @@
+(define s (WordSenseNode "preoccupy%2:37:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "preoccupy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "control%2:41:00::"))
+(InheritanceLink s (WordSenseNode "command%2:41:00::"))
+(InheritanceLink (WordSenseNode "haunt%2:37:00::") s)
+(InheritanceLink (WordSenseNode "obsess%2:37:00::") s)
+(InheritanceLink (WordSenseNode "ghost%2:37:00::") s)
+(InheritanceLink (WordSenseNode "prepossess%2:37:00::") s)

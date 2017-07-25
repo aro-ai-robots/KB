@@ -1,0 +1,5 @@
+(define s (WordSenseNode "foredeck%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foredeck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deck%1:06:00::"))
+(HolonymLink s (WordSenseNode "weather_deck%1:06:00::"))
+(HolonymLink s (WordSenseNode "shelter_deck%1:06:00::"))

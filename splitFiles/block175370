@@ -1,0 +1,7 @@
+(define s (WordSenseNode "undivided_right%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "undivided_interest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interest%1:21:03::"))
+(InheritanceLink s (WordSenseNode "stake%1:21:02::"))
+(define x (WordNode "undivided_right")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interest%1:21:03::"))
+(InheritanceLink s (WordSenseNode "stake%1:21:02::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "joint_direct_attack_munition%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Joint_Direct_Attack_Munition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guidance_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "guidance_device%1:06:00::"))
+(define x (WordNode "JDAM")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guidance_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "guidance_device%1:06:00::"))

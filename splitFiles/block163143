@@ -1,0 +1,7 @@
+(define s (WordSenseNode "supersedure%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "supersedure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "replacement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "replacing%1:04:00::"))
+(define x (WordNode "supersession")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "replacement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "replacing%1:04:00::"))

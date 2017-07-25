@@ -1,0 +1,4 @@
+(define s (WordSenseNode "believe%2:31:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "believe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "believe%2:31:00::"))
+(InheritanceLink (WordSenseNode "misbelieve%2:31:00::") s)

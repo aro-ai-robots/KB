@@ -1,0 +1,5 @@
+(define s (WordSenseNode "descriptive_geometry%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "projective_geometry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geometry%1:09:00::"))
+(define x (WordNode "descriptive_geometry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geometry%1:09:00::"))

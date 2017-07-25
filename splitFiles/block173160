@@ -1,0 +1,4 @@
+(define s (WordSenseNode "trust%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "trust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lend%2:40:00::"))
+(InheritanceLink s (WordSenseNode "loan%2:40:00::"))

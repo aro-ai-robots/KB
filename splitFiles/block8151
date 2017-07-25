@@ -1,0 +1,6 @@
+(define s (WordSenseNode "approach%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "approach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "address%2:32:01::"))
+(InheritanceLink s (WordSenseNode "accost%2:32:01::"))
+(InheritanceLink s (WordSenseNode "come_up_to%2:32:00::"))
+(InheritanceLink (WordSenseNode "hit%2:32:12::") s)

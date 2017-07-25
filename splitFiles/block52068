@@ -1,0 +1,7 @@
+(define s (WordSenseNode "editorialist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "columnist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "journalist%1:18:00::"))
+(InheritanceLink (WordSenseNode "newspaper_columnist%1:18:00::") s)
+(define x (WordNode "editorialist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "journalist%1:18:00::"))
+(InheritanceLink (WordSenseNode "newspaper_columnist%1:18:00::") s)

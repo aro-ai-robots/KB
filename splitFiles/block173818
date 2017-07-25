@@ -1,0 +1,6 @@
+(define s (WordSenseNode "turn_out%2:40:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "turn_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "equip%2:40:00::"))
+(InheritanceLink s (WordSenseNode "fit%2:40:00::"))
+(InheritanceLink s (WordSenseNode "fit_out%2:40:00::"))
+(InheritanceLink s (WordSenseNode "outfit%2:40:00::"))

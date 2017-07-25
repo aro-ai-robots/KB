@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dormer_window%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dormer_window")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:00::"))
+(InheritanceLink (WordSenseNode "oxeye%1:06:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "furrow%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "furrow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trench%1:06:01::"))
+(InheritanceLink (WordSenseNode "cut%1:06:00::") s)
+(InheritanceLink (WordSenseNode "gash%1:06:00::") s)

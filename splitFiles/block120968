@@ -1,0 +1,5 @@
+(define s (WordSenseNode "particular_proposition%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "particular")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proposition%1:10:00::"))
+(define x (WordNode "particular_proposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proposition%1:10:00::"))

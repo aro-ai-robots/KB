@@ -1,0 +1,6 @@
+(define s (WordSenseNode "coordinating_conjunction%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coordinating_conjunction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conjunction%1:10:00::"))
+(InheritanceLink s (WordSenseNode "conjunctive%1:10:00::"))
+(InheritanceLink s (WordSenseNode "connective%1:10:00::"))
+(InheritanceLink s (WordSenseNode "continuative%1:10:00::"))

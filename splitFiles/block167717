@@ -1,0 +1,8 @@
+(define s (WordSenseNode "texture%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "texture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "visual_property%1:07:00::"))
+(InheritanceLink (WordSenseNode "grain%1:07:00::") s)
+(InheritanceLink (WordSenseNode "marbleization%1:07:00::") s)
+(InheritanceLink (WordSenseNode "marbleisation%1:07:00::") s)
+(InheritanceLink (WordSenseNode "marbleizing%1:07:00::") s)
+(InheritanceLink (WordSenseNode "marbleising%1:07:00::") s)

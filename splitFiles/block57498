@@ -1,0 +1,7 @@
+(define s (WordSenseNode "externalisation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "externalization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attribution%1:09:00::"))
+(InheritanceLink s (WordSenseNode "ascription%1:09:00::"))
+(define x (WordNode "externalisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attribution%1:09:00::"))
+(InheritanceLink s (WordSenseNode "ascription%1:09:00::"))

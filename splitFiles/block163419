@@ -1,0 +1,7 @@
+(define s (WordSenseNode "surfeit%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "surfeit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fullness%1:26:00::"))
+(define x (WordNode "excess")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fullness%1:26:00::"))
+(define x (WordNode "overabundance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fullness%1:26:00::"))

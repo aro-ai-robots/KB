@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sermon_on_the_mount%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Sermon_on_the_Mount")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Beatitude%1:10:00::") s)
+(HolonymLink (WordSenseNode "Lord's_Prayer%1:10:00::") s)

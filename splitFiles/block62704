@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flashlight_battery%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flashlight_battery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dry_battery%1:06:00::"))
+(HolonymLink s (WordSenseNode "flashlight%1:06:00::"))
+(HolonymLink s (WordSenseNode "torch%1:06:00::"))

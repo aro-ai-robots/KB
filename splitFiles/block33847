@@ -1,0 +1,7 @@
+(define s (WordSenseNode "college_girl%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "co-ed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "undergraduate%1:18:00::"))
+(InheritanceLink s (WordSenseNode "undergrad%1:18:00::"))
+(define x (WordNode "college_girl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "undergraduate%1:18:00::"))
+(InheritanceLink s (WordSenseNode "undergrad%1:18:00::"))

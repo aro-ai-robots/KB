@@ -1,0 +1,5 @@
+(define s (WordSenseNode "down_easter%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mainer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "American%1:18:00::"))
+(define x (WordNode "Down_Easter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "American%1:18:00::"))

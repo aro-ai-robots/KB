@@ -1,0 +1,6 @@
+(define s (WordSenseNode "false_chamomile%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "false_chamomile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wildflower%1:20:00::"))
+(InheritanceLink s (WordSenseNode "wild_flower%1:20:00::"))
+(HolonymLink s (WordSenseNode "Boltonia%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Boltonia%1:20:00::"))

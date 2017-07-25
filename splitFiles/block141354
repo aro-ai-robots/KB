@@ -1,0 +1,7 @@
+(define s (WordSenseNode "riveter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "riveting_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:00::"))
+(define x (WordNode "riveter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:00::"))
+(define x (WordNode "rivetter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:00::"))

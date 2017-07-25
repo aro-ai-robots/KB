@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hao%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hao")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Vietnamese_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "dong%1:23:00::"))

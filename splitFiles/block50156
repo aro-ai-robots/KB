@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drip_pan%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drip_pan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pan%1:06:00::"))
+(HolonymLink s (WordSenseNode "refrigerator%1:06:00::"))
+(HolonymLink s (WordSenseNode "icebox%1:06:00::"))

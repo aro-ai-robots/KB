@@ -1,0 +1,4 @@
+(define s (WordSenseNode "chloroquine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chloroquine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antimalarial%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antimalarial_drug%1:06:00::"))

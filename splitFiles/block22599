@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bureaucracy%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bureaucracy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "government%1:14:00::"))
+(InheritanceLink s (WordSenseNode "authorities%1:14:00::"))
+(InheritanceLink s (WordSenseNode "regime%1:14:00::"))

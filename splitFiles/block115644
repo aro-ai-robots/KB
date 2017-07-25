@@ -1,0 +1,6 @@
+(define s (WordSenseNode "officiation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "officiation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "performance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "execution%1:04:02::"))
+(InheritanceLink s (WordSenseNode "carrying_out%1:04:01::"))
+(InheritanceLink s (WordSenseNode "carrying_into_action%1:04:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gas-discharge_lamp%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electric-discharge_lamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electric_lamp%1:06:00::"))
+(define x (WordNode "gas-discharge_lamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electric_lamp%1:06:00::"))

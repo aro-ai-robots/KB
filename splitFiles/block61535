@@ -1,0 +1,7 @@
+(define s (WordSenseNode "film%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "film")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_object%1:03:00::"))
+(InheritanceLink (WordSenseNode "scum%1:06:00::") s)
+(InheritanceLink (WordSenseNode "slick%1:06:01::") s)
+(InheritanceLink (WordSenseNode "soap_film%1:06:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "softness%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "softness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sound_property%1:07:00::"))
+(InheritanceLink (WordSenseNode "faintness%1:07:01::") s)
+(InheritanceLink (WordSenseNode "decrescendo%1:07:00::") s)
+(InheritanceLink (WordSenseNode "diminuendo%1:07:00::") s)
+(InheritanceLink (WordSenseNode "piano%1:07:00::") s)
+(InheritanceLink (WordSenseNode "pianissimo%1:07:00::") s)

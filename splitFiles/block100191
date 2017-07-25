@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lug%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:06:00::"))
+(HolonymLink s (WordSenseNode "lug_wrench%1:06:00::"))

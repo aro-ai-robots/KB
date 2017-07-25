@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tontine%1:21:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tontine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "life_insurance%1:21:00::"))
+(InheritanceLink s (WordSenseNode "life_assurance%1:21:00::"))
+(define x (WordNode "tontine_insurance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "life_insurance%1:21:00::"))
+(InheritanceLink s (WordSenseNode "life_assurance%1:21:00::"))

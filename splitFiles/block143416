@@ -1,0 +1,7 @@
+(define s (WordSenseNode "russian_almond%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Russian_almond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "almond_tree%1:20:00::"))
+(define x (WordNode "dwarf_Russian_almond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "almond_tree%1:20:00::"))
+(define x (WordNode "Prunus_tenella")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "almond_tree%1:20:00::"))

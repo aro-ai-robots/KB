@@ -1,0 +1,4 @@
+(define s (WordSenseNode "theremin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "theremin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "electronic_musical_instrument%1:06:00::"))

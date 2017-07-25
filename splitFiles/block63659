@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fm%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frequency_modulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "modulation%1:10:00::"))
+(define x (WordNode "FM")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "modulation%1:10:00::"))

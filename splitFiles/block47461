@@ -1,0 +1,7 @@
+(define s (WordSenseNode "disforest%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deforest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clear%2:30:01::"))
+(define x (WordNode "disforest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clear%2:30:01::"))
+(define x (WordNode "disafforest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clear%2:30:01::"))

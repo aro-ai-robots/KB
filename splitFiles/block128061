@@ -1,0 +1,7 @@
+(define s (WordSenseNode "polystichum_braunii%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Braun's_holly_fern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holly_fern%1:20:00::"))
+(define x (WordNode "prickly_shield_fern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holly_fern%1:20:00::"))
+(define x (WordNode "Polystichum_braunii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holly_fern%1:20:00::"))

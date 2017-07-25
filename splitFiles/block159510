@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stem_cell%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stem_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "somatic_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vegetative_cell%1:08:00::"))
+(InheritanceLink (WordSenseNode "hematopoeitic_stem_cell%1:08:00::") s)

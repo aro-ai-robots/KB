@@ -1,0 +1,7 @@
+(define s (WordSenseNode "default%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "default")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fail%2:41:02::"))
+(InheritanceLink s (WordSenseNode "neglect%2:41:00::"))
+(define x (WordNode "default_on")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fail%2:41:02::"))
+(InheritanceLink s (WordSenseNode "neglect%2:41:00::"))

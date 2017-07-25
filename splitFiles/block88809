@@ -1,0 +1,7 @@
+(define s (WordSenseNode "iodopsin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "iodopsin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photopigment%1:27:00::"))
+(HolonymLink s (WordSenseNode "cone%1:08:00::"))
+(HolonymLink s (WordSenseNode "cone_cell%1:08:00::"))
+(HolonymLink s (WordSenseNode "retinal_cone%1:08:00::"))
+(HolonymLink (WordSenseNode "opsin%1:27:00::") s)

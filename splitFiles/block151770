@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sill%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structural_member%1:06:00::"))
+(InheritanceLink (WordSenseNode "doorsill%1:06:00::") s)
+(InheritanceLink (WordSenseNode "doorstep%1:06:00::") s)
+(InheritanceLink (WordSenseNode "threshold%1:06:01::") s)
+(InheritanceLink (WordSenseNode "windowsill%1:06:00::") s)

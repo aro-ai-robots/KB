@@ -1,0 +1,5 @@
+(define s (WordSenseNode "turntable%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "turntable")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tray%1:06:00::"))
+(define x (WordNode "lazy_Susan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tray%1:06:00::"))

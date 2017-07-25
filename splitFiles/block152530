@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sisterhood%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sisterhood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sect%1:14:01::"))
+(InheritanceLink s (WordSenseNode "religious_sect%1:14:00::"))
+(InheritanceLink s (WordSenseNode "religious_order%1:14:00::"))
+(HolonymLink (WordSenseNode "Sister%1:18:01::") s)
+(HolonymLink (WordSenseNode "Beguine%1:18:00::") s)

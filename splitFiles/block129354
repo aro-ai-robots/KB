@@ -1,0 +1,3 @@
+(define s (WordSenseNode "power_pack%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "power_pack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_converter%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "weird_sister%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Norn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Norse_deity%1:18:00::"))
+(define x (WordNode "weird_sister")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Norse_deity%1:18:00::"))

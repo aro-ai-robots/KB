@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mine%2:34:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "mine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exploit%2:34:01::"))
+(InheritanceLink s (WordSenseNode "tap%2:34:00::"))
+(InheritanceLink (WordSenseNode "strip_mine%2:34:00::") s)
+(InheritanceLink (WordSenseNode "surface_mine%2:34:00::") s)
+(InheritanceLink (WordSenseNode "surface-mine%2:34:00::") s)

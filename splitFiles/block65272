@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fraternization%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fraternization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "association%1:04:00::"))
+(define x (WordNode "fraternisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "association%1:04:00::"))

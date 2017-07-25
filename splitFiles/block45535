@@ -1,0 +1,7 @@
+(define s (WordSenseNode "determent%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "determent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discouragement%1:10:00::"))
+(define x (WordNode "deterrence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discouragement%1:10:00::"))
+(define x (WordNode "intimidation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discouragement%1:10:00::"))

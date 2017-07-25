@@ -1,0 +1,6 @@
+(define s (WordSenseNode "beatitude%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Beatitude")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saying%1:10:00::"))
+(InheritanceLink s (WordSenseNode "expression%1:10:00::"))
+(InheritanceLink s (WordSenseNode "locution%1:10:00::"))
+(HolonymLink s (WordSenseNode "Sermon_on_the_Mount%1:10:00::"))

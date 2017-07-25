@@ -1,0 +1,6 @@
+(define s (WordSenseNode "haul%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "haul")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transport%2:35:00::"))
+(InheritanceLink s (WordSenseNode "carry%2:35:02::"))
+(InheritanceLink (WordSenseNode "piggyback%2:35:02::") s)
+(InheritanceLink (WordSenseNode "piggyback%2:35:03::") s)

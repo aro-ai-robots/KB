@@ -1,0 +1,7 @@
+(define s (WordSenseNode "philosopher's_stone%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "philosopher's_stone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:01::"))
+(define x (WordNode "philosophers'_stone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:01::"))
+(define x (WordNode "elixir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:01::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "peroration%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "peroration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conclusion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "end%1:10:00::"))
+(InheritanceLink s (WordSenseNode "close%1:10:00::"))
+(InheritanceLink s (WordSenseNode "closing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "ending%1:10:01::"))
+(HolonymLink s (WordSenseNode "oration%1:10:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "weapons_carrier%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "weapons_carrier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_vehicle%1:06:00::"))
+(InheritanceLink s (WordSenseNode "self-propelled_vehicle%1:06:00::"))

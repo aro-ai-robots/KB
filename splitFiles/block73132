@@ -1,0 +1,5 @@
+(define s (WordSenseNode "glass%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "looking_glass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mirror%1:06:00::"))
+(define x (WordNode "glass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mirror%1:06:00::"))

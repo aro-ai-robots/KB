@@ -1,0 +1,5 @@
+(define s (WordSenseNode "greengage_plum%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "greengage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plum%1:13:00::"))
+(define x (WordNode "greengage_plum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plum%1:13:00::"))

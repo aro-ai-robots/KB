@@ -1,0 +1,5 @@
+(define s (WordSenseNode "epithalamium%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epithalamium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ode%1:10:00::"))
+(InheritanceLink (WordSenseNode "prothalamion%1:10:00::") s)
+(InheritanceLink (WordSenseNode "prothalamium%1:10:00::") s)

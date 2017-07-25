@@ -1,0 +1,4 @@
+(define s (WordSenseNode "phantom_limb%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phantom_limb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "illusion%1:09:01::"))
+(InheritanceLink s (WordSenseNode "semblance%1:09:00::"))

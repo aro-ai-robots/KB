@@ -1,0 +1,5 @@
+(define s (WordSenseNode "highway_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "highway_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transportation_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "transportation%1:06:00::"))
+(InheritanceLink s (WordSenseNode "transit%1:06:01::"))

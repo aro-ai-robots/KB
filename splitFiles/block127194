@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pneumococcal_vaccine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pneumococcal_vaccine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vaccine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "vaccinum%1:06:00::"))
+(define x (WordNode "Pneumovax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vaccine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "vaccinum%1:06:00::"))

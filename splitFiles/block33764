@@ -1,0 +1,7 @@
+(define s (WordSenseNode "collapse%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "collapse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fold%2:35:00::"))
+(InheritanceLink s (WordSenseNode "fold_up%2:35:00::"))
+(InheritanceLink s (WordSenseNode "turn_up%2:35:00::"))
+(InheritanceLink (WordSenseNode "deflate%2:35:01::") s)
+(InheritanceLink (WordSenseNode "concertina%2:38:00::") s)

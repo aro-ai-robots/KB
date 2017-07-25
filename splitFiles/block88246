@@ -1,0 +1,5 @@
+(define s (WordSenseNode "interrogate%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "interrogate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ask%2:32:04::"))
+(define x (WordNode "question")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ask%2:32:04::"))

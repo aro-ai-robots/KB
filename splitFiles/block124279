@@ -1,0 +1,8 @@
+(define s (WordSenseNode "photocathode%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "photocathode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cathode%1:06:00::"))
+(HolonymLink s (WordSenseNode "photoelectric_cell%1:06:00::"))
+(HolonymLink s (WordSenseNode "photoconductive_cell%1:06:00::"))
+(HolonymLink s (WordSenseNode "photocell%1:06:00::"))
+(HolonymLink s (WordSenseNode "electric_eye%1:06:00::"))
+(HolonymLink s (WordSenseNode "magic_eye%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fire_escape%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fire_escape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stairway%1:06:00::"))
+(InheritanceLink s (WordSenseNode "staircase%1:06:00::"))
+(define x (WordNode "emergency_exit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stairway%1:06:00::"))
+(InheritanceLink s (WordSenseNode "staircase%1:06:00::"))

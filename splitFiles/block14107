@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bass_viol%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "viola_da_gamba")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "viol%1:06:00::"))
+(define x (WordNode "gamba")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "viol%1:06:00::"))
+(define x (WordNode "bass_viol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "viol%1:06:00::"))

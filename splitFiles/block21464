@@ -1,0 +1,6 @@
+(define s (WordSenseNode "brocket%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brocket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deer%1:05:00::"))
+(InheritanceLink s (WordSenseNode "cervid%1:05:00::"))
+(HolonymLink s (WordSenseNode "Mazama%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Mazama%1:05:00::"))

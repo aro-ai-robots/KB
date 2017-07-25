@@ -1,0 +1,7 @@
+(define s (WordSenseNode "viaticus_settlement%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "viatical_settlement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquidation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "settlement%1:04:00::"))
+(define x (WordNode "viaticus_settlement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquidation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "settlement%1:04:00::"))

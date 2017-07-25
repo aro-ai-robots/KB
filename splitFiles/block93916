@@ -1,0 +1,6 @@
+(define s (WordSenseNode "labium%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "labium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "external_body_part%1:08:00::"))
+(InheritanceLink (WordSenseNode "labia_majora%1:08:00::") s)
+(InheritanceLink (WordSenseNode "labia_minora%1:08:00::") s)
+(HolonymLink s (WordSenseNode "vulva%1:08:00::"))

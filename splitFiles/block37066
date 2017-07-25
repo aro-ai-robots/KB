@@ -1,0 +1,7 @@
+(define s (WordSenseNode "contract%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "contract")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bridge%1:04:00::"))
+(InheritanceLink (WordSenseNode "no-trump%1:04:00::") s)
+(define x (WordNode "contract_bridge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bridge%1:04:00::"))
+(InheritanceLink (WordSenseNode "no-trump%1:04:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "point_system%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "point_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orthography%1:10:00::"))
+(InheritanceLink s (WordSenseNode "writing_system%1:10:00::"))
+(InheritanceLink (WordSenseNode "braille%1:10:00::") s)

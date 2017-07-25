@@ -1,0 +1,8 @@
+(define s (WordSenseNode "crumb%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crumb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "morsel%1:13:00::"))
+(InheritanceLink s (WordSenseNode "bit%1:13:00::"))
+(InheritanceLink s (WordSenseNode "bite%1:13:01::"))
+(InheritanceLink (WordSenseNode "breadcrumb%1:13:00::") s)
+(InheritanceLink (WordSenseNode "cracker_crumbs%1:13:00::") s)
+(HolonymLink s (WordSenseNode "baked_goods%1:13:00::"))

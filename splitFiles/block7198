@@ -1,0 +1,8 @@
+(define s (WordSenseNode "anthropoid_ape%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anthropoid_ape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ape%1:05:00::"))
+(InheritanceLink (WordSenseNode "great_ape%1:05:00::") s)
+(InheritanceLink (WordSenseNode "pongid%1:05:00::") s)
+(InheritanceLink (WordSenseNode "lesser_ape%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Anthropoidea%1:05:00::"))
+(HolonymLink s (WordSenseNode "suborder_Anthropoidea%1:05:00::"))

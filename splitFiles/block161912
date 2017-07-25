@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sublimate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sublime")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(InheritanceLink (WordSenseNode "resublime%2:30:00::") s)
+(define x (WordNode "sublimate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(InheritanceLink (WordSenseNode "resublime%2:30:00::") s)

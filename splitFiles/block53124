@@ -1,0 +1,7 @@
+(define s (WordSenseNode "elision%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exception")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "omission%1:09:00::"))
+(define x (WordNode "exclusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "omission%1:09:00::"))
+(define x (WordNode "elision")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "omission%1:09:00::"))

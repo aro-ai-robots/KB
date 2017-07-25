@@ -1,0 +1,7 @@
+(define s (WordSenseNode "red_coral%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opaque_gem%1:27:00::"))
+(define x (WordNode "red_coral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opaque_gem%1:27:00::"))
+(define x (WordNode "precious_coral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opaque_gem%1:27:00::"))

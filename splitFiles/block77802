@@ -1,0 +1,7 @@
+(define s (WordSenseNode "handstamp%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "handstamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stamp%1:06:00::"))
+(define x (WordNode "rubber_stamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stamp%1:06:00::"))

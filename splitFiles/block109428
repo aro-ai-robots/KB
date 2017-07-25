@@ -1,0 +1,7 @@
+(define s (WordSenseNode "move_up%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ascend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "move_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "rise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))

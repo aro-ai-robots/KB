@@ -1,0 +1,5 @@
+(define s (WordSenseNode "forlorn_hope%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "forlorn_hope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enterprise%1:04:00::"))
+(InheritanceLink s (WordSenseNode "endeavor%1:04:01::"))
+(InheritanceLink s (WordSenseNode "endeavour%1:04:01::"))

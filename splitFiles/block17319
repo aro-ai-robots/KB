@@ -1,0 +1,5 @@
+(define s (WordSenseNode "black_bean%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "black_bean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_bean%1:13:00::"))
+(define x (WordNode "turtle_bean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_bean%1:13:00::"))

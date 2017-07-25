@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chimneysweeper%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chimneysweeper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cleaner%1:18:00::"))
+(define x (WordNode "chimneysweep")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cleaner%1:18:00::"))
+(define x (WordNode "sweep")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cleaner%1:18:00::"))

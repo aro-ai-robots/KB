@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sleeper%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sleeper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "achiever%1:18:00::"))
+(InheritanceLink s (WordSenseNode "winner%1:18:02::"))
+(InheritanceLink s (WordSenseNode "success%1:18:00::"))
+(InheritanceLink s (WordSenseNode "succeeder%1:18:00::"))

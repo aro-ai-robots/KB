@@ -1,0 +1,4 @@
+(define s (WordSenseNode "money%1:21:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "money")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "currency%1:21:00::"))
+(InheritanceLink (WordSenseNode "sterling%1:21:00::") s)

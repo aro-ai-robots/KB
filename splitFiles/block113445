@@ -1,0 +1,5 @@
+(define s (WordSenseNode "non-market_economy%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "non-market_economy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "economy%1:14:00::"))
+(InheritanceLink s (WordSenseNode "economic_system%1:14:00::"))
+(InheritanceLink (WordSenseNode "managed_economy%1:14:00::") s)

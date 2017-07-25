@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bag%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pack%2:35:00::"))
+(InheritanceLink (WordSenseNode "pouch%2:35:00::") s)

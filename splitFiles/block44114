@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dehydrate%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dehydrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preserve%2:30:00::"))
+(InheritanceLink s (WordSenseNode "keep%2:30:10::"))
+(define x (WordNode "desiccate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preserve%2:30:00::"))
+(InheritanceLink s (WordSenseNode "keep%2:30:10::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chenille_cord%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chenille")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cord%1:06:00::"))
+(HolonymLink s (WordSenseNode "chenille%1:06:00::"))
+(define x (WordNode "chenille_cord")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cord%1:06:00::"))
+(HolonymLink s (WordSenseNode "chenille%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coelophysis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coelophysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ceratosaur%1:05:00::"))
+(InheritanceLink s (WordSenseNode "ceratosaurus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Ceratosaurus%1:05:00::"))

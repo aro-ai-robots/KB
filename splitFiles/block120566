@@ -1,0 +1,3 @@
+(define s (WordSenseNode "parcel_post%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parcel_post")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mail%1:10:01::"))

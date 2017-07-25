@@ -1,0 +1,6 @@
+(define s (WordSenseNode "theater_company%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "theater_company")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "company%1:14:02::"))
+(InheritanceLink s (WordSenseNode "troupe%1:14:00::"))
+(InheritanceLink (WordSenseNode "stock_company%1:14:01::") s)
+(InheritanceLink (WordSenseNode "repertory_company%1:14:00::") s)

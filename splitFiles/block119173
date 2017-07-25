@@ -1,0 +1,5 @@
+(define s (WordSenseNode "p-n-p_transistor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "p-n-p_transistor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transistor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "junction_transistor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "electronic_transistor%1:06:00::"))

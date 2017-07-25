@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gastroesophageal_reflux%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gastroesophageal_reflux")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reflux%1:26:00::"))
+(define x (WordNode "esophageal_reflux")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reflux%1:26:00::"))
+(define x (WordNode "oesophageal_reflux")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reflux%1:26:00::"))

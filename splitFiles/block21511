@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bromide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bromide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "halide%1:27:00::"))
+(InheritanceLink (WordSenseNode "hydrogen_bromide%1:27:00::") s)
+(InheritanceLink (WordSenseNode "methyl_bromide%1:27:00::") s)
+(InheritanceLink (WordSenseNode "silver_bromide%1:27:00::") s)

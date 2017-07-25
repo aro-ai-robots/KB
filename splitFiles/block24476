@@ -1,0 +1,6 @@
+(define s (WordSenseNode "camphor%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "camphor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_resin%1:27:00::"))
+(HolonymLink s (WordSenseNode "mothball%1:06:00::"))
+(HolonymLink s (WordSenseNode "camphor_ball%1:06:00::"))
+(HolonymLink s (WordSenseNode "celluloid%1:27:00::"))

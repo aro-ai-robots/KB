@@ -1,0 +1,7 @@
+(define s (WordSenseNode "addressing_machine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "addressing_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "printer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "printing_machine%1:06:00::"))
+(define x (WordNode "Addressograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "printer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "printing_machine%1:06:00::"))

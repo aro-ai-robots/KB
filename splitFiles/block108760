@@ -1,0 +1,6 @@
+(define s (WordSenseNode "morph%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "morph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contort%2:35:00::"))
+(InheritanceLink s (WordSenseNode "deform%2:35:02::"))
+(InheritanceLink s (WordSenseNode "distort%2:35:00::"))
+(InheritanceLink s (WordSenseNode "wring%2:35:01::"))

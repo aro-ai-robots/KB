@@ -1,0 +1,7 @@
+(define s (WordSenseNode "zen_buddhism%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Zen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Buddhism%1:14:00::"))
+(HolonymLink (WordSenseNode "Zen_Buddhist%1:18:00::") s)
+(define x (WordNode "Zen_Buddhism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Buddhism%1:14:00::"))
+(HolonymLink (WordSenseNode "Zen_Buddhist%1:18:00::") s)

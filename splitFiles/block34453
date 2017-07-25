@@ -1,0 +1,6 @@
+(define s (WordSenseNode "comet%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "comet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "extraterrestrial_object%1:17:00::"))
+(InheritanceLink s (WordSenseNode "estraterrestrial_body%1:17:00::"))
+(HolonymLink (WordSenseNode "coma%1:17:00::") s)
+(HolonymLink (WordSenseNode "nucleus%1:17:01::") s)

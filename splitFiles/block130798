@@ -1,0 +1,5 @@
+(define s (WordSenseNode "printing_ink%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "printer's_ink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ink%1:27:01::"))
+(define x (WordNode "printing_ink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ink%1:27:01::"))

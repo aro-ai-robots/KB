@@ -1,0 +1,8 @@
+(define s (WordSenseNode "north_american%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "North_American")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "American%1:18:01::"))
+(InheritanceLink (WordSenseNode "Bermudan%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Bermudian%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Canadian%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Central_American%1:18:00::") s)
+(HolonymLink s (WordSenseNode "North_America%1:17:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tin_opener%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "can_opener")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opener%1:06:00::"))
+(InheritanceLink (WordSenseNode "church_key%1:06:00::") s)
+(define x (WordNode "tin_opener")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opener%1:06:00::"))
+(InheritanceLink (WordSenseNode "church_key%1:06:00::") s)

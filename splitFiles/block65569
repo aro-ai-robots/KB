@@ -1,0 +1,5 @@
+(define s (WordSenseNode "french_lavender%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "French_lavender")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lavender%1:20:00::"))
+(define x (WordNode "Lavandula_stoechas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lavender%1:20:00::"))

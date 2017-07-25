@@ -1,0 +1,4 @@
+(define s (WordSenseNode "critical_angle%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "critical_angle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angle_of_incidence%1:25:00::"))
+(InheritanceLink s (WordSenseNode "incidence_angle%1:25:00::"))

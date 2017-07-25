@@ -1,0 +1,7 @@
+(define s (WordSenseNode "deferral%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deferral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abeyance%1:26:00::"))
+(InheritanceLink s (WordSenseNode "suspension%1:26:00::"))
+(define x (WordNode "recess")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abeyance%1:26:00::"))
+(InheritanceLink s (WordSenseNode "suspension%1:26:00::"))

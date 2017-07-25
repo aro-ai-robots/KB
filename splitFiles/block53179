@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ellipticity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oblateness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roundedness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "bulginess%1:07:00::"))
+(define x (WordNode "ellipticity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roundedness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "bulginess%1:07:00::"))

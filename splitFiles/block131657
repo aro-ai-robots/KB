@@ -1,0 +1,5 @@
+(define s (WordSenseNode "property_right%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "property_right")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ownership%1:21:00::"))
+(InheritanceLink (WordSenseNode "public_domain%1:21:00::") s)
+(InheritanceLink (WordSenseNode "accession%1:21:01::") s)

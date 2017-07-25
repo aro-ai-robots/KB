@@ -1,0 +1,8 @@
+(define s (WordSenseNode "beachwear%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beachwear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clothing%1:06:00::"))
+(InheritanceLink s (WordSenseNode "article_of_clothing%1:06:00::"))
+(InheritanceLink s (WordSenseNode "vesture%1:06:00::"))
+(InheritanceLink s (WordSenseNode "wear%1:06:00::"))
+(InheritanceLink s (WordSenseNode "wearable%1:06:00::"))
+(InheritanceLink s (WordSenseNode "habiliment%1:06:00::"))

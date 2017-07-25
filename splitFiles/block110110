@@ -1,0 +1,8 @@
+(define s (WordSenseNode "musculus_articularis_genus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "musculus_articularis_genus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "articular_muscle%1:08:00::"))
+(HolonymLink s (WordSenseNode "knee%1:08:00::"))
+(HolonymLink s (WordSenseNode "knee_joint%1:08:00::"))
+(HolonymLink s (WordSenseNode "human_knee%1:08:00::"))
+(HolonymLink s (WordSenseNode "articulatio_genus%1:08:00::"))
+(HolonymLink s (WordSenseNode "genu%1:08:00::"))

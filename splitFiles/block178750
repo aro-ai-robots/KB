@@ -1,0 +1,7 @@
+(define s (WordSenseNode "verpa_bohemica%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Verpa_bohemica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Verpa%1:20:00::"))
+(InheritanceLink s (WordSenseNode "bell_morel%1:20:00::"))
+(define x (WordNode "early_morel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Verpa%1:20:00::"))
+(InheritanceLink s (WordSenseNode "bell_morel%1:20:00::"))

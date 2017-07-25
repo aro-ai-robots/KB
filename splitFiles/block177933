@@ -1,0 +1,6 @@
+(define s (WordSenseNode "variable%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "variable")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symbol%1:10:00::"))
+(InheritanceLink (WordSenseNode "placeholder%1:10:00::") s)
+(InheritanceLink (WordSenseNode "unknown%1:10:00::") s)
+(InheritanceLink (WordSenseNode "unknown_quantity%1:10:00::") s)

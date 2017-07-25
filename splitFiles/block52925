@@ -1,0 +1,4 @@
+(define s (WordSenseNode "electronic_voltmeter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electronic_voltmeter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "voltmeter%1:06:00::"))
+(InheritanceLink (WordSenseNode "digital_voltmeter%1:06:00::") s)

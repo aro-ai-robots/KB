@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plane%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "plane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%2:35:00::"))
+(define x (WordNode "shave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%2:35:00::"))

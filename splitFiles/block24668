@@ -1,0 +1,8 @@
+(define s (WordSenseNode "candied_citrus_peel%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "candied_citrus_peel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "candied_fruit%1:13:00::"))
+(InheritanceLink s (WordSenseNode "succade%1:13:00::"))
+(InheritanceLink s (WordSenseNode "crystallized_fruit%1:13:00::"))
+(InheritanceLink (WordSenseNode "grapefruit_peel%1:13:00::") s)
+(InheritanceLink (WordSenseNode "lemon_peel%1:13:01::") s)
+(InheritanceLink (WordSenseNode "orange_peel%1:13:01::") s)

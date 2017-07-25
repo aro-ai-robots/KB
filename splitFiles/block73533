@@ -1,0 +1,5 @@
+(define s (WordSenseNode "glycerol_tristearate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tristearin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glyceryl_ester%1:27:00::"))
+(define x (WordNode "glycerol_tristearate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glyceryl_ester%1:27:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dimetrodon%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dimetrodon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "synapsid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "synapsid_reptile%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Dimetrodon%1:05:00::"))

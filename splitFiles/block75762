@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grip%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bobby_pin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hairpin%1:06:00::"))
+(define x (WordNode "hairgrip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hairpin%1:06:00::"))
+(define x (WordNode "grip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hairpin%1:06:00::"))

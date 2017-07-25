@@ -1,0 +1,5 @@
+(define s (WordSenseNode "phoenician%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Phoenician")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Canaanitic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Canaanitic_language%1:10:00::"))
+(InheritanceLink (WordSenseNode "Punic%1:10:00::") s)

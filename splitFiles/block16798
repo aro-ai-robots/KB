@@ -1,0 +1,8 @@
+(define s (WordSenseNode "biographer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "biographer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "author%1:18:00::"))
+(InheritanceLink (WordSenseNode "autobiographer%1:18:00::") s)
+(InheritanceLink (WordSenseNode "hagiographer%1:18:00::") s)
+(InheritanceLink (WordSenseNode "hagiographist%1:18:00::") s)
+(InheritanceLink (WordSenseNode "hagiologist%1:18:00::") s)

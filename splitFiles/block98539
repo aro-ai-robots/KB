@@ -1,0 +1,4 @@
+(define s (WordSenseNode "little_league%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "little_league")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baseball_league%1:14:00::"))
+(HolonymLink (WordSenseNode "little-league_team%1:14:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sunset%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sunset")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "periodic_event%1:11:00::"))
+(InheritanceLink s (WordSenseNode "recurrent_event%1:11:00::"))

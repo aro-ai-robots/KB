@@ -1,0 +1,7 @@
+(define s (WordSenseNode "physical_rehabilitation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "physical_rehabilitation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rehabilitation%1:04:01::"))
+(define x (WordNode "physical_restoration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rehabilitation%1:04:01::"))
+(define x (WordNode "therapeutic_rehabilitation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rehabilitation%1:04:01::"))

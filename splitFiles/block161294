@@ -1,0 +1,3 @@
+(define s (WordSenseNode "stroma%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stroma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_tissue%1:08:00::"))

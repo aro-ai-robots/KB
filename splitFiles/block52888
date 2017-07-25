@@ -1,0 +1,7 @@
+(define s (WordSenseNode "electronegativity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electronegativity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tendency%1:07:00::"))
+(InheritanceLink s (WordSenseNode "inclination%1:07:00::"))
+(define x (WordNode "negativity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tendency%1:07:00::"))
+(InheritanceLink s (WordSenseNode "inclination%1:07:00::"))

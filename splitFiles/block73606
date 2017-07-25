@@ -1,0 +1,5 @@
+(define s (WordSenseNode "go%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "go")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board_game%1:04:00::"))
+(define x (WordNode "go_game")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board_game%1:04:00::"))

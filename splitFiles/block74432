@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gothic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Gothic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "East_Germanic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "East_Germanic_language%1:10:00::"))

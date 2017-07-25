@@ -1,0 +1,7 @@
+(define s (WordSenseNode "supporting_fire%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "supporting_fire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fire%1:04:00::"))
+(InheritanceLink s (WordSenseNode "firing%1:04:03::"))
+(InheritanceLink (WordSenseNode "close_supporting_fire%1:04:00::") s)
+(InheritanceLink (WordSenseNode "deep_supporting_fire%1:04:00::") s)
+(InheritanceLink (WordSenseNode "direct_supporting_fire%1:04:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "god%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "god")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "superior%1:18:01::"))
+(InheritanceLink s (WordSenseNode "higher-up%1:18:00::"))
+(InheritanceLink s (WordSenseNode "superordinate%1:18:00::"))

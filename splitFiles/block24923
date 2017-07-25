@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cantillation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cantillation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intonation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "chanting%1:04:00::"))

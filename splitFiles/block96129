@@ -1,0 +1,7 @@
+(define s (WordSenseNode "legal_fraud%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "constructive_fraud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fraud%1:04:00::"))
+(InheritanceLink (WordSenseNode "fraud_in_law%1:04:00::") s)
+(define x (WordNode "legal_fraud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fraud%1:04:00::"))
+(InheritanceLink (WordSenseNode "fraud_in_law%1:04:00::") s)

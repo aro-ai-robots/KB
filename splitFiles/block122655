@@ -1,0 +1,7 @@
+(define s (WordSenseNode "people_in_power%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ruling_class")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "upper_class%1:14:00::"))
+(InheritanceLink s (WordSenseNode "upper_crust%1:14:00::"))
+(define x (WordNode "people_in_power")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "upper_class%1:14:00::"))
+(InheritanceLink s (WordSenseNode "upper_crust%1:14:00::"))

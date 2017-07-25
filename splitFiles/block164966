@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tachymeter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tachymeter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theodolite%1:06:00::"))
+(InheritanceLink s (WordSenseNode "transit%1:06:00::"))
+(define x (WordNode "tacheometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theodolite%1:06:00::"))
+(InheritanceLink s (WordSenseNode "transit%1:06:00::"))

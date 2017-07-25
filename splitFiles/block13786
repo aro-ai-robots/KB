@@ -1,0 +1,5 @@
+(define s (WordSenseNode "barrel%1:23:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "barrel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))
+(define x (WordNode "barrelful")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))

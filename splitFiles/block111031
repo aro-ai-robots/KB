@@ -1,0 +1,5 @@
+(define s (WordSenseNode "naphthol%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "naphthol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phenol%1:27:00::"))
+(InheritanceLink (WordSenseNode "alpha-naphthol%1:27:00::") s)
+(InheritanceLink (WordSenseNode "beta-naphthol%1:27:00::") s)

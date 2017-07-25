@@ -1,0 +1,7 @@
+(define s (WordSenseNode "yellow_jack%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yellow_jack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infectious_disease%1:26:00::"))
+(define x (WordNode "yellow_fever")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infectious_disease%1:26:00::"))
+(define x (WordNode "black_vomit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infectious_disease%1:26:00::"))

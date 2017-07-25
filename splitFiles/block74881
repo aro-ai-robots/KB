@@ -1,0 +1,5 @@
+(define s (WordSenseNode "granulate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "granulate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "form%2:30:05::"))
+(define x (WordNode "grain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "form%2:30:05::"))

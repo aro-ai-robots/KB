@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rhumb%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rhumb_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:00::"))
+(define x (WordNode "rhumb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:00::"))
+(define x (WordNode "loxodrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anticipatory_breach%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anticipatory_breach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "breach_of_contract%1:04:00::"))
+(define x (WordNode "constructive_breach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "breach_of_contract%1:04:00::"))

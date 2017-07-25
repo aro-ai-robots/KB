@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_chlamydia%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Chlamydia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Chlamydiaceae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Chlamydiaceae%1:05:00::"))
+(HolonymLink (WordSenseNode "chlamydia%1:05:00::") s)

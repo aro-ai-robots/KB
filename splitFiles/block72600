@@ -1,0 +1,7 @@
+(define s (WordSenseNode "giant_squid%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "architeuthis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "squid%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Architeuthis%1:05:00::"))
+(define x (WordNode "giant_squid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "squid%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Architeuthis%1:05:00::"))

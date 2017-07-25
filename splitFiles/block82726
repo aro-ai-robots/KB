@@ -1,0 +1,5 @@
+(define s (WordSenseNode "how-d'ye-do%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "how-do-you-do")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "situation%1:26:02::"))
+(define x (WordNode "how-d'ye-do")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "situation%1:26:02::"))

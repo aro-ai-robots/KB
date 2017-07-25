@@ -1,0 +1,4 @@
+(define s (WordSenseNode "filler%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "filler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "copy%1:10:01::"))
+(InheritanceLink s (WordSenseNode "written_matter%1:10:00::"))

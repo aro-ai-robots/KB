@@ -1,0 +1,6 @@
+(define s (WordSenseNode "interstitial_tissue%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interstitial_tissue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_tissue%1:08:00::"))
+(InheritanceLink s (WordSenseNode "plant_tissue%1:20:00::"))
+(InheritanceLink (WordSenseNode "neuroglia%1:08:00::") s)
+(InheritanceLink (WordSenseNode "glia%1:08:00::") s)

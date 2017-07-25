@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gospel%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gospel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "truth%1:10:00::"))
+(InheritanceLink s (WordSenseNode "true_statement%1:10:00::"))
+(define x (WordNode "gospel_truth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "truth%1:10:00::"))
+(InheritanceLink s (WordSenseNode "true_statement%1:10:00::"))

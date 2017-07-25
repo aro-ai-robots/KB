@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mongolia%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mongolia")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Asia%1:17:00::"))
+(HolonymLink (WordSenseNode "Mongolia%1:15:00::") s)
+(HolonymLink (WordSenseNode "Mongolian_People's_Republic%1:15:00::") s)
+(HolonymLink (WordSenseNode "Outer_Mongolia%1:15:00::") s)

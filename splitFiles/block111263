@@ -1,0 +1,8 @@
+(define s (WordSenseNode "national_bank%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "national_bank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commercial_bank%1:14:00::"))
+(InheritanceLink s (WordSenseNode "full_service_bank%1:14:00::"))
+(HolonymLink s (WordSenseNode "Federal_Reserve_System%1:14:00::"))
+(HolonymLink s (WordSenseNode "Federal_Reserve%1:14:00::"))
+(HolonymLink s (WordSenseNode "Fed%1:14:00::"))
+(HolonymLink s (WordSenseNode "FRS%1:14:00::"))

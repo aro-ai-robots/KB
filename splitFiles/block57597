@@ -1,0 +1,7 @@
+(define s (WordSenseNode "extraterrestrial%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "extraterrestrial_being")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypothetical_creature%1:18:00::"))
+(define x (WordNode "extraterrestrial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypothetical_creature%1:18:00::"))
+(define x (WordNode "alien")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypothetical_creature%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gamble%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gamble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "risk%1:04:00::"))
+(InheritanceLink s (WordSenseNode "peril%1:04:00::"))
+(InheritanceLink s (WordSenseNode "danger%1:04:00::"))
+(InheritanceLink (WordSenseNode "long_shot%1:04:00::") s)
+(InheritanceLink (WordSenseNode "raise%1:04:01::") s)

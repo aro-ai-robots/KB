@@ -1,0 +1,6 @@
+(define s (WordSenseNode "jumping%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jumping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "track_and_field%1:04:00::"))
+(InheritanceLink (WordSenseNode "broad_jump%1:04:00::") s)
+(InheritanceLink (WordSenseNode "long_jump%1:04:00::") s)
+(InheritanceLink (WordSenseNode "high_jump%1:04:00::") s)

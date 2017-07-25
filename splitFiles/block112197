@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nervure%1:05:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rib%1:08:02::"))
+(define x (WordNode "nervure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rib%1:08:02::"))

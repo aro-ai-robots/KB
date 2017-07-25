@@ -1,0 +1,4 @@
+(define s (WordSenseNode "corrugated_iron%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "corrugated_iron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sheet_metal%1:06:00::"))
+(HolonymLink (WordSenseNode "galvanized_iron%1:27:00::") s)

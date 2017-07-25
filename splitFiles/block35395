@@ -1,0 +1,6 @@
+(define s (WordSenseNode "compound_eye%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compound_eye")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eye%1:08:00::"))
+(InheritanceLink s (WordSenseNode "oculus%1:08:00::"))
+(InheritanceLink s (WordSenseNode "optic%1:08:00::"))
+(HolonymLink (WordSenseNode "ommatidium%1:08:00::") s)

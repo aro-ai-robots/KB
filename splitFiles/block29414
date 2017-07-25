@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chelation%1:22:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chelation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "chemical_change%1:22:00::"))
+(InheritanceLink s (WordSenseNode "chemical_action%1:22:00::"))

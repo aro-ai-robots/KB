@@ -1,0 +1,5 @@
+(define s (WordSenseNode "birch_rod%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "birch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "switch%1:06:00::"))
+(define x (WordNode "birch_rod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "switch%1:06:00::"))

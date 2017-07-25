@@ -1,0 +1,5 @@
+(define s (WordSenseNode "single-propeller_plane%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "single_prop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "propeller_plane%1:06:00::"))
+(define x (WordNode "single-propeller_plane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "propeller_plane%1:06:00::"))

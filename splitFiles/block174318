@@ -1,0 +1,6 @@
+(define s (WordSenseNode "type%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "type")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "block%1:06:00::"))
+(InheritanceLink (WordSenseNode "kern%1:06:00::") s)
+(InheritanceLink (WordSenseNode "quad%1:06:01::") s)
+(InheritanceLink (WordSenseNode "space%1:06:00::") s)

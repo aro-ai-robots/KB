@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jamb%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jamb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "upright%1:06:01::"))
+(InheritanceLink s (WordSenseNode "vertical%1:06:00::"))
+(InheritanceLink (WordSenseNode "doorjamb%1:06:00::") s)
+(InheritanceLink (WordSenseNode "doorpost%1:06:00::") s)
+(HolonymLink s (WordSenseNode "window_frame%1:06:00::"))

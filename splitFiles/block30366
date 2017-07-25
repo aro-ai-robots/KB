@@ -1,0 +1,7 @@
+(define s (WordSenseNode "choir_school%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "choir_school")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preparatory_school%1:14:00::"))
+(InheritanceLink s (WordSenseNode "prep_school%1:14:00::"))
+(define x (WordNode "schola_cantorum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preparatory_school%1:14:00::"))
+(InheritanceLink s (WordSenseNode "prep_school%1:14:00::"))

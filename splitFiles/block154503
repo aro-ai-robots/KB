@@ -1,0 +1,5 @@
+(define s (WordSenseNode "snowcap%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "snowcap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covering%1:17:00::"))
+(InheritanceLink s (WordSenseNode "natural_covering%1:17:00::"))
+(InheritanceLink s (WordSenseNode "cover%1:17:00::"))

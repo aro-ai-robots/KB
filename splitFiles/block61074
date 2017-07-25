@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fictionalization%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fictionalization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_composition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "literary_work%1:10:00::"))
+(define x (WordNode "fictionalisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_composition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "literary_work%1:10:00::"))

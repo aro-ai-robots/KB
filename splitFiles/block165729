@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tang%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sea_tangle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kelp%1:05:00::"))
+(define x (WordNode "tang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kelp%1:05:00::"))

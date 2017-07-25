@@ -1,0 +1,7 @@
+(define s (WordSenseNode "also-ran%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "loser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contestant%1:18:00::"))
+(InheritanceLink (WordSenseNode "old_maid%1:18:02::") s)
+(define x (WordNode "also-ran")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contestant%1:18:00::"))
+(InheritanceLink (WordSenseNode "old_maid%1:18:02::") s)

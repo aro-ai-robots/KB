@@ -1,0 +1,7 @@
+(define s (WordSenseNode "unesco%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "United_Nations_Educational_Scientific_and_Cultural_Organization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "United_Nations_agency%1:14:00::"))
+(InheritanceLink s (WordSenseNode "UN_agency%1:14:00::"))
+(define x (WordNode "UNESCO")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "United_Nations_agency%1:14:00::"))
+(InheritanceLink s (WordSenseNode "UN_agency%1:14:00::"))

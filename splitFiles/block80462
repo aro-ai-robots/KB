@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hieroglyphic%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hieroglyph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing%1:10:01::"))
+(define x (WordNode "hieroglyphic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing%1:10:01::"))

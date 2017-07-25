@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bologram%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bologram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recording%1:06:00::"))
+(define x (WordNode "bolograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recording%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "short_list%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "short_list")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "list%1:10:00::"))
+(InheritanceLink s (WordSenseNode "listing%1:10:00::"))
+(define x (WordNode "shortlist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "list%1:10:00::"))
+(InheritanceLink s (WordSenseNode "listing%1:10:00::"))

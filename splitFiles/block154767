@@ -1,0 +1,5 @@
+(define s (WordSenseNode "socialize%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "socialize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "educate%2:41:00::"))
+(define x (WordNode "socialise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "educate%2:41:00::"))

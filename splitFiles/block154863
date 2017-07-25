@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sodium_ethylmercurithiosalicylate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thimerosal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antiseptic%1:06:00::"))
+(define x (WordNode "sodium_ethylmercurithiosalicylate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antiseptic%1:06:00::"))
+(define x (WordNode "Merthiolate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antiseptic%1:06:00::"))

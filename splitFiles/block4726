@@ -1,0 +1,8 @@
+(define s (WordSenseNode "aloe%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aloe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "succulent%1:20:00::"))
+(InheritanceLink (WordSenseNode "cape_aloe%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Aloe_ferox%1:20:00::") s)
+(InheritanceLink (WordSenseNode "burn_plant%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Aloe_vera%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Aloe%1:20:00::"))

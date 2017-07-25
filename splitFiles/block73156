@@ -1,0 +1,6 @@
+(define s (WordSenseNode "glass_wool%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glass_wool")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insulator%1:27:00::"))
+(InheritanceLink s (WordSenseNode "dielectric%1:27:00::"))
+(InheritanceLink s (WordSenseNode "nonconductor%1:27:00::"))
+(InheritanceLink s (WordSenseNode "filter%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rendition%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rendition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "performance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "public_presentation%1:10:00::"))
+(define x (WordNode "rendering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "performance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "public_presentation%1:10:00::"))

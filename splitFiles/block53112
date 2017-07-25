@@ -1,0 +1,8 @@
+(define s (WordSenseNode "elimination_tournament%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elimination_tournament")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tournament%1:11:00::"))
+(InheritanceLink s (WordSenseNode "tourney%1:11:00::"))
+(HolonymLink (WordSenseNode "final%1:11:00::") s)
+(HolonymLink (WordSenseNode "quarterfinal%1:11:00::") s)
+(HolonymLink (WordSenseNode "semifinal%1:11:00::") s)
+(HolonymLink (WordSenseNode "semi%1:11:00::") s)

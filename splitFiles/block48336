@@ -1,0 +1,4 @@
+(define s (WordSenseNode "divine_law%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "divine_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "law%1:09:00::"))
+(InheritanceLink s (WordSenseNode "natural_law%1:09:00::"))

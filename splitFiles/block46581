@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diluent%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dilutant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:27:00::"))
+(define x (WordNode "diluent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:27:00::"))
+(define x (WordNode "thinner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:27:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "zinfandel%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Zinfandel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vinifera%1:20:00::"))
+(InheritanceLink s (WordSenseNode "vinifera_grape%1:20:00::"))
+(InheritanceLink s (WordSenseNode "common_grape_vine%1:20:00::"))
+(InheritanceLink s (WordSenseNode "Vitis_vinifera%1:20:00::"))
+(HolonymLink (WordSenseNode "zinfandel%1:13:00::") s)

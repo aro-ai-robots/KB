@@ -1,0 +1,4 @@
+(define s (WordSenseNode "superior_thyroid_vein%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "superior_thyroid_vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thyroid_vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena_thyroidea%1:08:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transaction_file%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transaction_file")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_file%1:10:00::"))
+(define x (WordNode "detail_file")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_file%1:10:00::"))

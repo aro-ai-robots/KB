@@ -1,0 +1,8 @@
+(define s (WordSenseNode "humiliation%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "humiliation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shame%1:26:00::"))
+(InheritanceLink s (WordSenseNode "disgrace%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ignominy%1:26:00::"))
+(InheritanceLink (WordSenseNode "abasement%1:26:00::") s)
+(InheritanceLink (WordSenseNode "degradation%1:26:00::") s)
+(InheritanceLink (WordSenseNode "abjection%1:26:01::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "foul%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foul")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "violation%1:04:04::"))
+(InheritanceLink s (WordSenseNode "infringement%1:04:01::"))
+(InheritanceLink (WordSenseNode "foul_ball%1:04:00::") s)
+(InheritanceLink (WordSenseNode "personal_foul%1:04:00::") s)
+(InheritanceLink (WordSenseNode "technical_foul%1:04:00::") s)
+(InheritanceLink (WordSenseNode "technical%1:04:00::") s)

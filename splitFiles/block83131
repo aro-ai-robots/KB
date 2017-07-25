@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hungarian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Hungarian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ugric%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Ugrian%1:10:00::"))
+(define x (WordNode "Magyar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ugric%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Ugrian%1:10:00::"))

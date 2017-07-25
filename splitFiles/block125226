@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pilotless_aircraft%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heavier-than-air_craft%1:06:00::"))
+(define x (WordNode "pilotless_aircraft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heavier-than-air_craft%1:06:00::"))
+(define x (WordNode "radio-controlled_aircraft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heavier-than-air_craft%1:06:00::"))

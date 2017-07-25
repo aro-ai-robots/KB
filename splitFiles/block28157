@@ -1,0 +1,7 @@
+(define s (WordSenseNode "certification%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "documentation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confirmation%1:10:00::"))
+(define x (WordNode "certification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confirmation%1:10:00::"))
+(define x (WordNode "corroboration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confirmation%1:10:00::"))

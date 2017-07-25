@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quirk_molding%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quirk_molding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "molding%1:06:01::"))
+(InheritanceLink s (WordSenseNode "moulding%1:06:01::"))
+(define x (WordNode "quirk_moulding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "molding%1:06:01::"))
+(InheritanceLink s (WordSenseNode "moulding%1:06:01::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "martyr%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "martyr")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "victim%1:18:00::"))
+(InheritanceLink (WordSenseNode "Polycarp%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Saint_Polycarp%1:18:00::") s)
+(InheritanceLink (WordSenseNode "St._Polycarp%1:18:00::") s)

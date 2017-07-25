@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scribe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scriber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "awl%1:06:00::"))
+(define x (WordNode "scribe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "awl%1:06:00::"))
+(define x (WordNode "scratch_awl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "awl%1:06:00::"))

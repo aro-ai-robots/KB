@@ -1,0 +1,7 @@
+(define s (WordSenseNode "obligato%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "obbligato")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "section%1:10:00::"))
+(InheritanceLink s (WordSenseNode "subdivision%1:10:00::"))
+(define x (WordNode "obligato")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "section%1:10:00::"))
+(InheritanceLink s (WordSenseNode "subdivision%1:10:00::"))

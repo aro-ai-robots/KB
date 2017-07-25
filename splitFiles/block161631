@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stylostixis%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acupuncture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "treatment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "intervention%1:04:02::"))
+(define x (WordNode "stylostixis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "treatment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "intervention%1:04:02::"))

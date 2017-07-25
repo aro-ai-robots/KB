@@ -1,0 +1,4 @@
+(define s (WordSenseNode "plastic_laminate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plastic_laminate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "laminate%1:06:00::"))
+(InheritanceLink (WordSenseNode "Formica%1:06:00::") s)

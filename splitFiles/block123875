@@ -1,0 +1,5 @@
+(define s (WordSenseNode "phase_space%1:03:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phase_space")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "space%1:03:00::"))
+(InheritanceLink s (WordSenseNode "infinite%1:03:00::"))
+(InheritanceLink (WordSenseNode "dynamical_system%1:09:00::") s)

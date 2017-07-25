@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antecedent%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antecedent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temporal_relation%1:24:00::"))
+(define x (WordNode "forerunner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temporal_relation%1:24:00::"))

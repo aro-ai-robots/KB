@@ -1,0 +1,6 @@
+(define s (WordSenseNode "visual_hallucination%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "visual_hallucination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hallucination%1:26:00::"))
+(InheritanceLink (WordSenseNode "chromatism%1:26:00::") s)
+(InheritanceLink (WordSenseNode "pink_elephants%1:26:00::") s)
+(InheritanceLink (WordSenseNode "zoopsia%1:26:00::") s)

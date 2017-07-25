@@ -1,0 +1,7 @@
+(define s (WordSenseNode "osmotic_pressure%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "osmotic_pressure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure%1:19:00::"))
+(InheritanceLink s (WordSenseNode "pressure_level%1:19:00::"))
+(InheritanceLink s (WordSenseNode "force_per_unit_area%1:19:00::"))
+(InheritanceLink (WordSenseNode "hypertonicity%1:26:01::") s)
+(InheritanceLink (WordSenseNode "hypotonicity%1:26:01::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "keep_pace%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "keep_step")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keep_up%2:33:00::"))
+(define x (WordNode "keep_pace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keep_up%2:33:00::"))

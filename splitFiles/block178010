@@ -1,0 +1,5 @@
+(define s (WordSenseNode "variorum_edition%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "variorum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edition%1:10:02::"))
+(define x (WordNode "variorum_edition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edition%1:10:02::"))

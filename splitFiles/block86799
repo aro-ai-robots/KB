@@ -1,0 +1,7 @@
+(define s (WordSenseNode "infinity%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eternity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time%1:03:00::"))
+(InheritanceLink (WordSenseNode "alpha_and_omega%1:28:00::") s)
+(define x (WordNode "infinity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time%1:03:00::"))
+(InheritanceLink (WordSenseNode "alpha_and_omega%1:28:00::") s)

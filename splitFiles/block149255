@@ -1,0 +1,7 @@
+(define s (WordSenseNode "setting%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "place_setting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "service%1:06:00::"))
+(InheritanceLink s (WordSenseNode "table_service%1:06:00::"))
+(define x (WordNode "setting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "service%1:06:00::"))
+(InheritanceLink s (WordSenseNode "table_service%1:06:00::"))

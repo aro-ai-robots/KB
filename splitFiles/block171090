@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tracer_bullet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tracer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ammunition%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ammo%1:06:00::"))
+(define x (WordNode "tracer_bullet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ammunition%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ammo%1:06:00::"))

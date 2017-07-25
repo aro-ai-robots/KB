@@ -1,0 +1,5 @@
+(define s (WordSenseNode "underline%2:32:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "underline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mark%2:30:00::"))
+(define x (WordNode "underscore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mark%2:30:00::"))

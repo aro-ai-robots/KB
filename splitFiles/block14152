@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bastard_title%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "half_title")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "page%1:10:00::"))
+(define x (WordNode "bastard_title")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "page%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sufficiency%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enough")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relative_quantity%1:23:00::"))
+(InheritanceLink (WordSenseNode "fill%1:23:00::") s)
+(define x (WordNode "sufficiency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relative_quantity%1:23:00::"))
+(InheritanceLink (WordSenseNode "fill%1:23:00::") s)

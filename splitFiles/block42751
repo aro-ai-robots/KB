@@ -1,0 +1,4 @@
+(define s (WordSenseNode "date%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "date")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "go_out%2:38:02::"))
+(InheritanceLink (WordSenseNode "double-date%2:41:00::") s)

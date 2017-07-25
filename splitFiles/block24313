@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cam%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rotating_mechanism%1:06:00::"))
+(InheritanceLink (WordSenseNode "distributor_cam%1:06:00::") s)

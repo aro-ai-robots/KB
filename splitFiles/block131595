@@ -1,0 +1,4 @@
+(define s (WordSenseNode "propagandist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "propagandist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "communicator%1:18:00::"))
+(InheritanceLink (WordSenseNode "sloganeer%1:18:00::") s)

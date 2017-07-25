@@ -1,0 +1,7 @@
+(define s (WordSenseNode "screen_off%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "screen_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "partition%2:30:00::"))
+(InheritanceLink s (WordSenseNode "zone%2:30:00::"))
+(define x (WordNode "separate_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "partition%2:30:00::"))
+(InheritanceLink s (WordSenseNode "zone%2:30:00::"))

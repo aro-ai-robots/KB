@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jet_lag%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jet_lag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fatigue%1:26:00::"))
+(InheritanceLink s (WordSenseNode "weariness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "tiredness%1:26:00::"))

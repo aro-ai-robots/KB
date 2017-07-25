@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tradespeople%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tradespeople")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "people%1:14:00::"))
+(HolonymLink (WordSenseNode "shopkeeper%1:18:00::") s)
+(HolonymLink (WordSenseNode "tradesman%1:18:00::") s)
+(HolonymLink (WordSenseNode "storekeeper%1:18:00::") s)
+(HolonymLink (WordSenseNode "market_keeper%1:18:00::") s)

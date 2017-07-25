@@ -1,0 +1,4 @@
+(define s (WordSenseNode "circus%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "show%1:04:00::"))
+(InheritanceLink (WordSenseNode "three-ring_circus%1:04:00::") s)

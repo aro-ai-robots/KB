@@ -1,0 +1,5 @@
+(define s (WordSenseNode "phot%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "illumination_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "lux%1:23:00::") s)
+(HolonymLink (WordSenseNode "lx%1:23:01::") s)

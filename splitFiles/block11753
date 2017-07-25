@@ -1,0 +1,4 @@
+(define s (WordSenseNode "autumnal_equinox%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "autumnal_equinox")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "equinoctial_point%1:15:00::"))
+(InheritanceLink s (WordSenseNode "equinox%1:15:00::"))

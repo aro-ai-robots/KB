@@ -1,0 +1,5 @@
+(define s (WordSenseNode "frogmouth%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frogmouth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caprimulgiform_bird%1:05:00::"))
+(HolonymLink s (WordSenseNode "Podargidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Podargidae%1:05:00::"))

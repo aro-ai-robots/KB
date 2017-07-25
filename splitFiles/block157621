@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sports_section%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sports_section")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "section%1:10:00::"))
+(InheritanceLink s (WordSenseNode "subdivision%1:10:00::"))
+(HolonymLink s (WordSenseNode "newspaper%1:10:00::"))
+(HolonymLink s (WordSenseNode "paper%1:10:03::"))
+(HolonymLink (WordSenseNode "sports_page%1:10:00::") s)

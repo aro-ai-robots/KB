@@ -1,0 +1,4 @@
+(define s (WordSenseNode "homemaking%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "homemaking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "management%1:04:00::"))
+(InheritanceLink s (WordSenseNode "direction%1:04:00::"))

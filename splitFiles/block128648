@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pos_tagger%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "part-of-speech_tagger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tagger%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tagging_program%1:10:00::"))
+(define x (WordNode "pos_tagger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tagger%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tagging_program%1:10:00::"))

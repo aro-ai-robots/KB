@@ -1,0 +1,7 @@
+(define s (WordSenseNode "iteration%1:22:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "iteration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_process%1:03:00::"))
+(define x (WordNode "loop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_process%1:03:00::"))

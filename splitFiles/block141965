@@ -1,0 +1,5 @@
+(define s (WordSenseNode "roly-poly%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roly-poly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pudding%1:13:00::"))
+(define x (WordNode "roly-poly_pudding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pudding%1:13:00::"))

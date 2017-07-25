@@ -1,0 +1,5 @@
+(define s (WordSenseNode "microvolt%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "microvolt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "potential_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "volt%1:23:00::"))
+(HolonymLink s (WordSenseNode "V%1:23:00::"))

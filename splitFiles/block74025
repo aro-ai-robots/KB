@@ -1,0 +1,5 @@
+(define s (WordSenseNode "golden_shiner%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "golden_shiner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shiner%1:05:00::"))
+(define x (WordNode "Notemigonus_crysoleucas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shiner%1:05:00::"))

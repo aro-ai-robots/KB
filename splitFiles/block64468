@@ -1,0 +1,4 @@
+(define s (WordSenseNode "forint%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "forint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Hungarian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "filler%1:23:00::") s)

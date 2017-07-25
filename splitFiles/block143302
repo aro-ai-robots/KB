@@ -1,0 +1,4 @@
+(define s (WordSenseNode "running_title%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "running_title")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "running_head%1:10:00::"))
+(InheritanceLink s (WordSenseNode "running_headline%1:10:00::"))

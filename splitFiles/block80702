@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hillbilly_music%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hillbilly_music")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "country_music%1:10:00::"))
+(InheritanceLink s (WordSenseNode "country_and_western%1:10:00::"))
+(InheritanceLink s (WordSenseNode "C_and_W%1:10:00::"))

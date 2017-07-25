@@ -1,0 +1,4 @@
+(define s (WordSenseNode "raw_wound%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "raw_wound")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wound%1:26:00::"))
+(InheritanceLink s (WordSenseNode "lesion%1:26:02::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "male-patterned_baldness%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "male-patterned_baldness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baldness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "phalacrosis%1:26:00::"))
+(define x (WordNode "male_pattern_baldness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baldness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "phalacrosis%1:26:00::"))

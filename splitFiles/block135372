@@ -1,0 +1,6 @@
+(define s (WordSenseNode "raison_d'etre%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "raison_d'etre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "function%1:07:00::"))
+(InheritanceLink s (WordSenseNode "purpose%1:07:00::"))
+(InheritanceLink s (WordSenseNode "role%1:07:00::"))
+(InheritanceLink s (WordSenseNode "use%1:07:00::"))

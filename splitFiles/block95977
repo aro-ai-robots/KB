@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lectern%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lectern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stand%1:06:04::"))
+(define x (WordNode "reading_desk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stand%1:06:04::"))

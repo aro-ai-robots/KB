@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kos%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kos")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linear_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "linear_measure%1:23:00::"))
+(define x (WordNode "coss")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linear_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "linear_measure%1:23:00::"))

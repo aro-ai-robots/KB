@@ -1,0 +1,6 @@
+(define s (WordSenseNode "flare_path%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flare_path")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "airstrip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "flight_strip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "landing_strip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "strip%1:06:02::"))

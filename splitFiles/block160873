@@ -1,0 +1,4 @@
+(define s (WordSenseNode "streamline_flow%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "streamline_flow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flow%1:22:00::"))
+(InheritanceLink (WordSenseNode "laminar_flow%1:19:00::") s)

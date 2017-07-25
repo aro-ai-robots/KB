@@ -1,0 +1,7 @@
+(define s (WordSenseNode "community_of_interests%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "community")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agreement%1:26:01::"))
+(InheritanceLink s (WordSenseNode "accord%1:26:00::"))
+(define x (WordNode "community_of_interests")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agreement%1:26:01::"))
+(InheritanceLink s (WordSenseNode "accord%1:26:00::"))

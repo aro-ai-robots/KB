@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bismark%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Berlin_doughnut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "raised_doughnut%1:13:00::"))
+(define x (WordNode "bismark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "raised_doughnut%1:13:00::"))
+(define x (WordNode "jelly_doughnut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "raised_doughnut%1:13:00::"))

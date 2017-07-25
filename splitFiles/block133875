@@ -1,0 +1,7 @@
+(define s (WordSenseNode "python_molurus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Indian_python")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "python%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Python%1:05:00::"))
+(define x (WordNode "Python_molurus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "python%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Python%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "purkinje_fiber%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Purkinje_fiber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardiac_muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "heart_muscle%1:08:00::"))
+(HolonymLink s (WordSenseNode "Purkinje_network%1:08:00::"))
+(HolonymLink s (WordSenseNode "Purkinje's_tissue%1:08:00::"))
+(HolonymLink s (WordSenseNode "Purkinje's_system%1:08:00::"))

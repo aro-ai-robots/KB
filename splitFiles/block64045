@@ -1,0 +1,8 @@
+(define s (WordSenseNode "football_official%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "football_official")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "official%1:18:00::"))
+(InheritanceLink (WordSenseNode "back_judge%1:18:00::") s)
+(InheritanceLink (WordSenseNode "field_judge%1:18:00::") s)
+(InheritanceLink (WordSenseNode "head_linesman%1:18:00::") s)
+(InheritanceLink (WordSenseNode "line_judge%1:18:00::") s)
+(InheritanceLink (WordSenseNode "side_judge%1:18:00::") s)

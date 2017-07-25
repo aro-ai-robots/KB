@@ -1,0 +1,4 @@
+(define s (WordSenseNode "electric_toothbrush%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electric_toothbrush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toothbrush%1:06:00::"))
+(HolonymLink (WordSenseNode "electric_motor%1:06:00::") s)

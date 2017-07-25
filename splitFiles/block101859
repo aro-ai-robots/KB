@@ -1,0 +1,6 @@
+(define s (WordSenseNode "male_orgasm%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "male_orgasm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orgasm%1:04:00::"))
+(InheritanceLink s (WordSenseNode "climax%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sexual_climax%1:04:00::"))
+(InheritanceLink s (WordSenseNode "coming%1:04:00::"))

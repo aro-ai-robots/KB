@@ -1,0 +1,7 @@
+(define s (WordSenseNode "writ_of_mandamus%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mandamus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writ%1:10:00::"))
+(InheritanceLink s (WordSenseNode "judicial_writ%1:10:00::"))
+(define x (WordNode "writ_of_mandamus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writ%1:10:00::"))
+(InheritanceLink s (WordSenseNode "judicial_writ%1:10:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dichromat%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dichromat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "color-blind_person%1:18:00::"))
+(InheritanceLink (WordSenseNode "uniocular_dichromat%1:18:00::") s)

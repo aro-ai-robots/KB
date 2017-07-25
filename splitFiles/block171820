@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tranylcypromine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tranylcypromine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monoamine_oxidase_inhibitor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "MAOI%1:06:00::"))

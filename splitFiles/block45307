@@ -1,0 +1,6 @@
+(define s (WordSenseNode "designer_drug%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "designer_drug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "psychoactive_drug%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mind-altering_drug%1:06:00::"))
+(InheritanceLink s (WordSenseNode "consciousness-altering_drug%1:06:00::"))
+(InheritanceLink s (WordSenseNode "psychoactive_substance%1:06:00::"))

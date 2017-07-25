@@ -1,0 +1,6 @@
+(define s (WordSenseNode "reticulum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reticulum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "network%1:14:00::"))
+(InheritanceLink s (WordSenseNode "web%1:14:00::"))
+(InheritanceLink (WordSenseNode "neural_network%1:08:00::") s)
+(InheritanceLink (WordSenseNode "neural_net%1:08:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "rind%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "material%1:27:00::"))
+(InheritanceLink s (WordSenseNode "stuff%1:27:00::"))
+(InheritanceLink (WordSenseNode "bacon_rind%1:13:00::") s)
+(InheritanceLink (WordSenseNode "peel%1:13:00::") s)
+(InheritanceLink (WordSenseNode "skin%1:13:00::") s)
+(InheritanceLink (WordSenseNode "cheese_rind%1:13:00::") s)

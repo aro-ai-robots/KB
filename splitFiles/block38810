@@ -1,0 +1,5 @@
+(define s (WordSenseNode "countersignature%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "countersignature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "signature%1:10:00::"))
+(define x (WordNode "countersign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "signature%1:10:00::"))

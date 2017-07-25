@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reenforcement%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reinforcement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confirmation%1:10:00::"))
+(define x (WordNode "reenforcement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confirmation%1:10:00::"))

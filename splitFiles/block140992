@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rigor_mortis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rigor_mortis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stiffening%1:22:00::"))
+(InheritanceLink s (WordSenseNode "rigidifying%1:22:00::"))
+(InheritanceLink s (WordSenseNode "rigidification%1:22:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "locator%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "locator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surveyor%1:18:00::"))
+(define x (WordNode "locater")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surveyor%1:18:00::"))

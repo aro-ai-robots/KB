@@ -1,0 +1,5 @@
+(define s (WordSenseNode "groove%2:35:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "groove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "incise%2:35:00::"))
+(InheritanceLink (WordSenseNode "dado%2:35:00::") s)
+(InheritanceLink (WordSenseNode "mill%2:35:00::") s)

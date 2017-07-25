@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hold_back%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "conceal")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "occult%2:39:00::") s)
+(define x (WordNode "hold_back")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "occult%2:39:00::") s)
+(define x (WordNode "hold_in")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "occult%2:39:00::") s)

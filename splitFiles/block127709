@@ -1,0 +1,5 @@
+(define s (WordSenseNode "policyholder%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "policyholder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "customer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "client%1:18:01::"))
+(InheritanceLink s (WordSenseNode "holder%1:18:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "publish%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "publish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "create_verbally%2:36:00::"))
+(define x (WordNode "write")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "create_verbally%2:36:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "drop-leaf%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drop-leaf")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leaf%1:06:00::"))
+(HolonymLink s (WordSenseNode "drop-leaf_table%1:06:00::"))

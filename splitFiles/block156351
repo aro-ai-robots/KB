@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spasmodic_laryngitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "croup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angina%1:26:00::"))
+(define x (WordNode "spasmodic_laryngitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angina%1:26:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sun%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "important_person%1:18:00::"))
+(InheritanceLink s (WordSenseNode "influential_person%1:18:00::"))
+(InheritanceLink s (WordSenseNode "personage%1:18:01::"))

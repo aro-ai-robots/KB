@@ -1,0 +1,7 @@
+(define s (WordSenseNode "votary%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "votary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "priest%1:18:01::"))
+(InheritanceLink s (WordSenseNode "non-Christian_priest%1:18:00::"))
+(InheritanceLink (WordSenseNode "vestal_virgin%1:18:00::") s)
+(InheritanceLink (WordSenseNode "bacchant%1:18:00::") s)
+(InheritanceLink (WordSenseNode "bacchante%1:18:00::") s)

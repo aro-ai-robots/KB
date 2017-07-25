@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bell_push%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bell_push")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "push_button%1:06:00::"))
+(InheritanceLink s (WordSenseNode "push%1:06:00::"))
+(InheritanceLink s (WordSenseNode "button%1:06:01::"))

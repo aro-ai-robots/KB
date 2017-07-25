@@ -1,0 +1,5 @@
+(define s (WordSenseNode "correspondence%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parallelism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "similarity%1:07:00::"))
+(define x (WordNode "correspondence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "similarity%1:07:00::"))

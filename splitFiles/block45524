@@ -1,0 +1,7 @@
+(define s (WordSenseNode "deter%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disapprove%2:32:00::"))
+(InheritanceLink s (WordSenseNode "reject%2:32:00::"))
+(define x (WordNode "discourage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disapprove%2:32:00::"))
+(InheritanceLink s (WordSenseNode "reject%2:32:00::"))

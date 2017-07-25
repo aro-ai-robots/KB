@@ -1,0 +1,5 @@
+(define s (WordSenseNode "determinism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "determinism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "philosophical_doctrine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "philosophical_theory%1:09:00::"))
+(InheritanceLink (WordSenseNode "fatalism%1:09:00::") s)

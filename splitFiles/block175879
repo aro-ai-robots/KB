@@ -1,0 +1,7 @@
+(define s (WordSenseNode "united_mine_workers%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "United_Mine_Workers_of_America")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "industrial_union%1:14:00::"))
+(InheritanceLink s (WordSenseNode "vertical_union%1:14:00::"))
+(define x (WordNode "United_Mine_Workers")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "industrial_union%1:14:00::"))
+(InheritanceLink s (WordSenseNode "vertical_union%1:14:00::"))

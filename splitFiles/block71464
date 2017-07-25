@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_spirillum%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Spirillum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Spirillaceae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Spirillaceae%1:05:00::"))
+(HolonymLink (WordSenseNode "spirillum%1:05:02::") s)

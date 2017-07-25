@@ -1,0 +1,5 @@
+(define s (WordSenseNode "morning_prayer%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "matins")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canonical_hour%1:28:00::"))
+(define x (WordNode "morning_prayer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canonical_hour%1:28:00::"))

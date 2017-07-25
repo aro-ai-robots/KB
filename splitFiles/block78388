@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hash_mark%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "service_stripe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insignia%1:10:00::"))
+(define x (WordNode "hashmark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insignia%1:10:00::"))
+(define x (WordNode "hash_mark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insignia%1:10:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "surcharge%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "surcharge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "overprint%2:36:00::"))
+(InheritanceLink s (WordSenseNode "print_over%2:36:00::"))

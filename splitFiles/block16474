@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bigamy%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bigamy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "marriage%1:26:00::"))
+(InheritanceLink s (WordSenseNode "matrimony%1:26:00::"))
+(InheritanceLink s (WordSenseNode "union%1:26:02::"))
+(InheritanceLink s (WordSenseNode "spousal_relationship%1:26:00::"))
+(InheritanceLink s (WordSenseNode "wedlock%1:26:00::"))

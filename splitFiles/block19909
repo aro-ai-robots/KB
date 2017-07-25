@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bounder%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bounder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jumper%1:18:00::"))
+(define x (WordNode "leaper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jumper%1:18:00::"))

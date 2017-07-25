@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lace_bug%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lace_bug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leaf_bug%1:05:00::"))
+(InheritanceLink s (WordSenseNode "plant_bug%1:05:00::"))
+(HolonymLink s (WordSenseNode "Tingidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Tingidae%1:05:00::"))

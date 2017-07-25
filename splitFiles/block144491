@@ -1,0 +1,7 @@
+(define s (WordSenseNode "salvelinus_alpinus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Arctic_char")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "char%1:05:00::"))
+(InheritanceLink s (WordSenseNode "charr%1:05:00::"))
+(define x (WordNode "Salvelinus_alpinus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "char%1:05:00::"))
+(InheritanceLink s (WordSenseNode "charr%1:05:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "dome%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concave_shape%1:25:00::"))
+(InheritanceLink s (WordSenseNode "concavity%1:25:00::"))
+(InheritanceLink s (WordSenseNode "incurvation%1:25:00::"))
+(InheritanceLink s (WordSenseNode "incurvature%1:25:00::"))

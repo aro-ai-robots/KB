@@ -1,0 +1,6 @@
+(define s (WordSenseNode "filling%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "filling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concoction%1:13:00::"))
+(InheritanceLink s (WordSenseNode "mixture%1:13:00::"))
+(InheritanceLink s (WordSenseNode "intermixture%1:13:00::"))
+(InheritanceLink (WordSenseNode "lekvar%1:13:00::") s)

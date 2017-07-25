@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vcr%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "videocassette_recorder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tape_recorder%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tape_machine%1:06:00::"))
+(define x (WordNode "VCR")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tape_recorder%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tape_machine%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jewelry_dealer%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jewelry_dealer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dealer%1:14:00::"))
+(define x (WordNode "jewelry_store")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dealer%1:14:00::"))

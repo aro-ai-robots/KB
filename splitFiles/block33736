@@ -1,0 +1,4 @@
+(define s (WordSenseNode "coliphage%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coliphage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteriophage%1:05:00::"))
+(InheritanceLink s (WordSenseNode "phage%1:05:00::"))

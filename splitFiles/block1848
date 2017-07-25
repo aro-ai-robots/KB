@@ -1,0 +1,5 @@
+(define s (WordSenseNode "actuator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "actuator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanism%1:06:00::"))
+(InheritanceLink (WordSenseNode "rotary_actuator%1:06:00::") s)
+(InheritanceLink (WordSenseNode "positioner%1:06:00::") s)

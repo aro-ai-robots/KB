@@ -1,0 +1,7 @@
+(define s (WordSenseNode "phosphocreatine%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phosphocreatine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(define x (WordNode "creatine_phosphate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(define x (WordNode "creatine_phosphoric_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "appeal_board%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "appeal_board")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board%1:14:00::"))
+(define x (WordNode "appeals_board")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board%1:14:00::"))
+(define x (WordNode "board_of_appeals")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board%1:14:00::"))

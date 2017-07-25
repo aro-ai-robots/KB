@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kyoto%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kyoto")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Honshu%1:15:00::"))
+(HolonymLink s (WordSenseNode "Hondo%1:15:00::"))
+(HolonymLink s (WordSenseNode "Japan%1:15:00::"))
+(HolonymLink s (WordSenseNode "Nippon%1:15:00::"))
+(HolonymLink s (WordSenseNode "Nihon%1:15:00::"))

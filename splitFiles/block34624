@@ -1,0 +1,3 @@
+(define s (WordSenseNode "commercial_paper%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commercial_paper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cash_equivalent%1:21:00::"))

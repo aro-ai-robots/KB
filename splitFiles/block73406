@@ -1,0 +1,7 @@
+(define s (WordSenseNode "glossopharyngeal_nerve%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glossopharyngeal_nerve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cranial_nerve%1:08:00::"))
+(define x (WordNode "nervus_glossopharyngeus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cranial_nerve%1:08:00::"))
+(define x (WordNode "ninth_cranial_nerve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cranial_nerve%1:08:00::"))

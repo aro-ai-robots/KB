@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cruiserweight%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "light_heavyweight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prizefighter%1:18:01::"))
+(InheritanceLink s (WordSenseNode "gladiator%1:18:01::"))
+(define x (WordNode "cruiserweight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prizefighter%1:18:01::"))
+(InheritanceLink s (WordSenseNode "gladiator%1:18:01::"))

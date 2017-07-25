@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cruise_control%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cruise_control")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "control%1:06:00::"))
+(InheritanceLink s (WordSenseNode "controller%1:06:00::"))

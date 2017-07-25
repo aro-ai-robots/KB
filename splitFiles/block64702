@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fortunetelling%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fortunetelling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prediction%1:10:00::"))
+(InheritanceLink s (WordSenseNode "foretelling%1:10:00::"))
+(InheritanceLink s (WordSenseNode "forecasting%1:10:00::"))
+(InheritanceLink s (WordSenseNode "prognostication%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "open-door_policy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "open-door_policy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trade_policy%1:10:00::"))
+(InheritanceLink s (WordSenseNode "national_trading_policy%1:10:00::"))
+(define x (WordNode "open_door")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trade_policy%1:10:00::"))
+(InheritanceLink s (WordSenseNode "national_trading_policy%1:10:00::"))

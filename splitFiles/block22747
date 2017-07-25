@@ -1,0 +1,5 @@
+(define s (WordSenseNode "burnup%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "burnup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consumption%1:04:00::"))
+(InheritanceLink s (WordSenseNode "using_up%1:04:00::"))
+(InheritanceLink s (WordSenseNode "expenditure%1:04:01::"))

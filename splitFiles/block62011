@@ -1,0 +1,8 @@
+(define s (WordSenseNode "firewood%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "firewood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fuel%1:27:00::"))
+(InheritanceLink (WordSenseNode "cordwood%1:27:00::") s)
+(InheritanceLink (WordSenseNode "backlog%1:27:00::") s)
+(InheritanceLink (WordSenseNode "brand%1:27:00::") s)
+(InheritanceLink (WordSenseNode "firebrand%1:27:00::") s)
+(InheritanceLink (WordSenseNode "pine_knot%1:27:00::") s)

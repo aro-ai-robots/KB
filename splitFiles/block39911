@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cricetus_cricetus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Eurasian_hamster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hamster%1:05:00::"))
+(define x (WordNode "Cricetus_cricetus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hamster%1:05:00::"))

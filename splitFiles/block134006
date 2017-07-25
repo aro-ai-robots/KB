@@ -1,0 +1,6 @@
+(define s (WordSenseNode "quaff%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quaff")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "draft%1:13:00::"))
+(InheritanceLink s (WordSenseNode "draught%1:13:00::"))
+(InheritanceLink s (WordSenseNode "potation%1:13:00::"))
+(InheritanceLink s (WordSenseNode "tipple%1:13:00::"))

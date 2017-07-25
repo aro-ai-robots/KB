@@ -1,0 +1,7 @@
+(define s (WordSenseNode "insulate%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "insulate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:01::"))
+(InheritanceLink s (WordSenseNode "alter%2:30:01::"))
+(InheritanceLink s (WordSenseNode "modify%2:30:10::"))
+(InheritanceLink (WordSenseNode "weatherstrip%2:30:00::") s)
+(InheritanceLink (WordSenseNode "soundproof%2:30:00::") s)

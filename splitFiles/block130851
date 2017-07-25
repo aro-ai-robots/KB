@@ -1,0 +1,7 @@
+(define s (WordSenseNode "prisoner_of_war%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prisoner_of_war")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prisoner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "captive%1:18:00::"))
+(define x (WordNode "POW")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prisoner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "captive%1:18:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "trunk_lid%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trunk_lid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lid%1:06:00::"))
+(HolonymLink s (WordSenseNode "trunk%1:06:00::"))

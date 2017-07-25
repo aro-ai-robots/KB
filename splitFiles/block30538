@@ -1,0 +1,4 @@
+(define s (WordSenseNode "choriomeningitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "choriomeningitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meningitis%1:26:00::"))
+(InheritanceLink (WordSenseNode "lymphocytic_choriomeningitis%1:26:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "defensive_attitude%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "defensive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attitude%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mental_attitude%1:09:00::"))
+(define x (WordNode "defensive_attitude")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attitude%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mental_attitude%1:09:00::"))

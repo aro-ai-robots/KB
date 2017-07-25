@@ -1,0 +1,7 @@
+(define s (WordSenseNode "floating_mine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "floating_mine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mine%1:06:00::"))
+(InheritanceLink (WordSenseNode "magnetic_mine%1:06:00::") s)
+(define x (WordNode "marine_mine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mine%1:06:00::"))
+(InheritanceLink (WordSenseNode "magnetic_mine%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lichtenoid_eczema%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lichtenoid_eczema")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eczema%1:26:00::"))
+(define x (WordNode "chronic_eczema")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eczema%1:26:00::"))
+(define x (WordNode "eczema_hypertrophicum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eczema%1:26:00::"))

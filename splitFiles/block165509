@@ -1,0 +1,4 @@
+(define s (WordSenseNode "talipes_calcaneus%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "talipes_calcaneus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clubfoot%1:26:00::"))
+(InheritanceLink s (WordSenseNode "talipes%1:26:00::"))

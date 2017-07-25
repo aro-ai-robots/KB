@@ -1,0 +1,4 @@
+(define s (WordSenseNode "handover%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "handover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relinquishment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "relinquishing%1:04:00::"))

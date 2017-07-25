@@ -1,0 +1,4 @@
+(define s (WordSenseNode "coalface%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coalface")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "face%1:06:00::"))
+(HolonymLink s (WordSenseNode "coal_seam%1:15:00::"))

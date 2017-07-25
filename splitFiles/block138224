@@ -1,0 +1,7 @@
+(define s (WordSenseNode "relaxation_behavior%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "relaxation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exponential_decay%1:22:00::"))
+(InheritanceLink s (WordSenseNode "exponential_return%1:22:00::"))
+(define x (WordNode "relaxation_behavior")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exponential_decay%1:22:00::"))
+(InheritanceLink s (WordSenseNode "exponential_return%1:22:00::"))

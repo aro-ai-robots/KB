@@ -1,0 +1,5 @@
+(define s (WordSenseNode "expose%2:39:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "expose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "subject%2:39:03::"))
+(InheritanceLink (WordSenseNode "overexpose%2:39:01::") s)
+(InheritanceLink (WordSenseNode "underexpose%2:39:01::") s)

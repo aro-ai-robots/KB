@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spike%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "spike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "banish%2:41:00::"))
+(InheritanceLink s (WordSenseNode "relegate%2:41:01::"))
+(InheritanceLink s (WordSenseNode "bar%2:41:00::"))

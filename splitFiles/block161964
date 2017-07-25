@@ -1,0 +1,7 @@
+(define s (WordSenseNode "submerse%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "submerge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "immerse%2:35:00::"))
+(InheritanceLink s (WordSenseNode "plunge%2:35:01::"))
+(define x (WordNode "submerse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "immerse%2:35:00::"))
+(InheritanceLink s (WordSenseNode "plunge%2:35:01::"))

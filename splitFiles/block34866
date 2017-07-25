@@ -1,0 +1,6 @@
+(define s (WordSenseNode "common_noun%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_noun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "noun%1:10:00::"))
+(InheritanceLink (WordSenseNode "verbal_noun%1:10:00::") s)
+(InheritanceLink (WordSenseNode "deverbal_noun%1:10:00::") s)
+(InheritanceLink (WordSenseNode "adnoun%1:10:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fight%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "competitiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aggressiveness%1:07:00::"))
+(define x (WordNode "fight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aggressiveness%1:07:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "catch%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "catch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board%2:38:00::"))
+(InheritanceLink s (WordSenseNode "get_on%2:38:03::"))
+(InheritanceLink (WordSenseNode "get%2:38:12::") s)

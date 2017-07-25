@@ -1,0 +1,4 @@
+(define s (WordSenseNode "blind_person%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blind_person")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "visually_impaired_person%1:18:00::"))
+(HolonymLink s (WordSenseNode "blind%1:14:00::"))

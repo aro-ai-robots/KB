@@ -1,0 +1,7 @@
+(define s (WordSenseNode "acoustic_delay_line%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acoustic_delay_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delay_line%1:06:00::"))
+(HolonymLink s (WordSenseNode "acoustic_storage%1:06:00::"))
+(define x (WordNode "sonic_delay_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delay_line%1:06:00::"))
+(HolonymLink s (WordSenseNode "acoustic_storage%1:06:00::"))

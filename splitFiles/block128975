@@ -1,0 +1,5 @@
+(define s (WordSenseNode "posturing%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "posturing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conceit%1:07:00::"))
+(InheritanceLink s (WordSenseNode "conceitedness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "vanity%1:07:00::"))

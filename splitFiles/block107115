@@ -1,0 +1,4 @@
+(define s (WordSenseNode "misapplication%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "misapplication")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "application%1:04:02::"))
+(InheritanceLink s (WordSenseNode "practical_application%1:04:00::"))

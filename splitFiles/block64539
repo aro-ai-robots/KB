@@ -1,0 +1,6 @@
+(define s (WordSenseNode "formality%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "formality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conformity%1:04:00::"))
+(InheritanceLink s (WordSenseNode "conformation%1:04:01::"))
+(InheritanceLink s (WordSenseNode "compliance%1:04:02::"))
+(InheritanceLink s (WordSenseNode "abidance%1:04:02::"))

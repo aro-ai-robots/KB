@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_angiopteris%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Angiopteris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fern_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Marattiaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Marattiaceae%1:20:00::"))
+(HolonymLink (WordSenseNode "angiopteris%1:20:00::") s)
+(HolonymLink (WordSenseNode "giant_fern%1:20:00::") s)
+(HolonymLink (WordSenseNode "Angiopteris_evecta%1:20:00::") s)

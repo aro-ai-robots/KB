@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gestational_age%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fetal_age")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "age%1:07:00::"))
+(define x (WordNode "fertilization_age")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "age%1:07:00::"))
+(define x (WordNode "gestational_age")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "age%1:07:00::"))

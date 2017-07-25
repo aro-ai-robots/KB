@@ -1,0 +1,3 @@
+(define s (WordSenseNode "shipping_agent%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shipping_agent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:18:02::"))

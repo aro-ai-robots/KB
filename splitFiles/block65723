@@ -1,0 +1,8 @@
+(define s (WordSenseNode "friction_clutch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "friction_clutch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clutch%1:06:00::"))
+(InheritanceLink (WordSenseNode "cone_clutch%1:06:00::") s)
+(InheritanceLink (WordSenseNode "cone_friction_clutch%1:06:00::") s)
+(InheritanceLink (WordSenseNode "disk_clutch%1:06:00::") s)
+(InheritanceLink (WordSenseNode "slip_clutch%1:06:00::") s)
+(InheritanceLink (WordSenseNode "slip_friction_clutch%1:06:00::") s)

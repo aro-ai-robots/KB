@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sunblind%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "awning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canopy%1:06:00::"))
+(define x (WordNode "sunshade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canopy%1:06:00::"))
+(define x (WordNode "sunblind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canopy%1:06:00::"))

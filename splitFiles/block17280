@@ -1,0 +1,7 @@
+(define s (WordSenseNode "black-capped_chickadee%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "black-capped_chickadee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chickadee%1:05:00::"))
+(define x (WordNode "blackcap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chickadee%1:05:00::"))
+(define x (WordNode "Parus_atricapillus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chickadee%1:05:00::"))

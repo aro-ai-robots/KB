@@ -1,0 +1,3 @@
+(define s (WordSenseNode "lead_sheet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lead_sheet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sheet_music%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "monarchy%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monarchy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "autocracy%1:14:00::"))
+(InheritanceLink s (WordSenseNode "autarchy%1:14:00::"))
+(InheritanceLink (WordSenseNode "parliamentary_monarchy%1:14:00::") s)
+(InheritanceLink (WordSenseNode "kingdom%1:14:01::") s)
+(InheritanceLink (WordSenseNode "empire%1:14:00::") s)

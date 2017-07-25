@@ -1,0 +1,3 @@
+(define s (WordSenseNode "intranet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intranet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_network%1:06:00::"))

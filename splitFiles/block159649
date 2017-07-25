@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stepladder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "step_ladder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ladder%1:06:00::"))
+(define x (WordNode "stepladder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ladder%1:06:00::"))

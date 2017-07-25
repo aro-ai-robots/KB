@@ -1,0 +1,4 @@
+(define s (WordSenseNode "last_word%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "last_word")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "argument%1:10:02::"))
+(InheritanceLink s (WordSenseNode "statement%1:10:02::"))

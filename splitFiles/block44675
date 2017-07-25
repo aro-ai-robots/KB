@@ -1,0 +1,4 @@
+(define s (WordSenseNode "denominator%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "denominator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "divisor%1:23:00::"))
+(InheritanceLink (WordSenseNode "common_denominator%1:23:00::") s)

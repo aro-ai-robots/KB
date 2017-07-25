@@ -1,0 +1,7 @@
+(define s (WordSenseNode "yank%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Yankee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "American%1:18:00::"))
+(define x (WordNode "Yank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "American%1:18:00::"))
+(define x (WordNode "Yankee-Doodle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "American%1:18:00::"))

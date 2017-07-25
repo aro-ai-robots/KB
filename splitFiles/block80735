@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hinayana_buddhism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Hinayana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Theravada%1:09:00::"))
+(InheritanceLink s (WordSenseNode "Theravada_Buddhism%1:09:00::"))
+(define x (WordNode "Hinayana_Buddhism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Theravada%1:09:00::"))
+(InheritanceLink s (WordSenseNode "Theravada_Buddhism%1:09:00::"))

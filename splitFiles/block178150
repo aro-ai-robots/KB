@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vector_product%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vector_product")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vector%1:09:00::"))
+(define x (WordNode "cross_product")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vector%1:09:00::"))

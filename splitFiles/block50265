@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dromaeosaur%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dromaeosaur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maniraptor%1:05:00::"))
+(HolonymLink s (WordSenseNode "Dromaeosauridae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Dromaeosauridae%1:05:00::"))

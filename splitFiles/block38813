@@ -1,0 +1,7 @@
+(define s (WordSenseNode "countersink%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "set")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bury%2:35:01::"))
+(InheritanceLink s (WordSenseNode "sink%2:35:00::"))
+(define x (WordNode "countersink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bury%2:35:01::"))
+(InheritanceLink s (WordSenseNode "sink%2:35:00::"))

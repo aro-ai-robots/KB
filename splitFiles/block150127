@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shell_corporation%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shell_corporation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corporation%1:14:00::"))
+(InheritanceLink s (WordSenseNode "corp%1:14:00::"))
+(define x (WordNode "shell_entity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corporation%1:14:00::"))
+(InheritanceLink s (WordSenseNode "corp%1:14:00::"))

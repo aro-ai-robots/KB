@@ -1,0 +1,4 @@
+(define s (WordSenseNode "curdle%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "curdle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spoil%2:30:00::"))
+(InheritanceLink s (WordSenseNode "go_bad%2:30:00::"))

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "squamous_cell%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "squamous_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epithelial_cell%1:08:00::"))

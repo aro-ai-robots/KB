@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shoetree%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elongate%2:30:00::"))
+(InheritanceLink s (WordSenseNode "stretch%2:30:04::"))
+(define x (WordNode "shoetree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elongate%2:30:00::"))
+(InheritanceLink s (WordSenseNode "stretch%2:30:04::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "daggerboard%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "daggerboard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centerboard%1:06:00::"))
+(InheritanceLink s (WordSenseNode "centreboard%1:06:00::"))
+(InheritanceLink s (WordSenseNode "drop_keel%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sliding_keel%1:06:00::"))

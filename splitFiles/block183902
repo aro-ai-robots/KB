@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wing_chair%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wing_chair")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "easy_chair%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lounge_chair%1:06:00::"))
+(InheritanceLink s (WordSenseNode "overstuffed_chair%1:06:00::"))

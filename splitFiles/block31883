@@ -1,0 +1,5 @@
+(define s (WordSenseNode "classical_mechanics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "classical_mechanics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanics%1:09:00::"))
+(define x (WordNode "Newtonian_mechanics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanics%1:09:00::"))

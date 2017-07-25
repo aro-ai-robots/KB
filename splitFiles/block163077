@@ -1,0 +1,5 @@
+(define s (WordSenseNode "superiority_complex%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "superiority_complex")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "egotism%1:07:00::"))
+(InheritanceLink s (WordSenseNode "self-importance%1:07:00::"))
+(InheritanceLink s (WordSenseNode "swelled_head%1:07:00::"))

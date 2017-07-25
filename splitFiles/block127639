@@ -1,0 +1,7 @@
+(define s (WordSenseNode "poleax%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "poleax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ax%1:06:00::"))
+(InheritanceLink s (WordSenseNode "axe%1:06:00::"))
+(define x (WordNode "poleaxe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ax%1:06:00::"))
+(InheritanceLink s (WordSenseNode "axe%1:06:00::"))

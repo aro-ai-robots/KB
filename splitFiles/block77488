@@ -1,0 +1,7 @@
+(define s (WordSenseNode "haloalkane%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alkyl_halide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "haloform%1:27:00::") s)
+(define x (WordNode "haloalkane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "haloform%1:27:00::") s)

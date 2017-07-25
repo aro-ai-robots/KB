@@ -1,0 +1,7 @@
+(define s (WordSenseNode "zootoxin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "animal_toxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toxin%1:27:00::"))
+(InheritanceLink (WordSenseNode "venom%1:27:00::") s)
+(define x (WordNode "zootoxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toxin%1:27:00::"))
+(InheritanceLink (WordSenseNode "venom%1:27:00::") s)

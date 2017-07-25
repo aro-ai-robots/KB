@@ -1,0 +1,5 @@
+(define s (WordSenseNode "euphausia_pacifica%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Euphausia_pacifica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "krill%1:05:00::"))
+(HolonymLink s (WordSenseNode "Euphausiacea%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Euphausiacea%1:05:00::"))

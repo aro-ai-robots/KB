@@ -1,0 +1,7 @@
+(define s (WordSenseNode "building_site%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vacant_lot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lot%1:15:00::"))
+(InheritanceLink (WordSenseNode "sandlot%1:15:00::") s)
+(define x (WordNode "building_site")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lot%1:15:00::"))
+(InheritanceLink (WordSenseNode "sandlot%1:15:00::") s)

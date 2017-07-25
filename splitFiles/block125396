@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pingpong_table%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "table-tennis_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:06:01::"))
+(define x (WordNode "ping-pong_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:06:01::"))
+(define x (WordNode "pingpong_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:06:01::"))

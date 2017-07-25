@@ -1,0 +1,4 @@
+(define s (WordSenseNode "quarantine%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quarantine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "isolation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "closing_off%1:04:00::"))

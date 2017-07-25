@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pinion%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pinion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disable%2:30:00::"))
+(InheritanceLink s (WordSenseNode "disenable%2:30:00::"))
+(InheritanceLink s (WordSenseNode "incapacitate%2:30:00::"))

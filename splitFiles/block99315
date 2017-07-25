@@ -1,0 +1,7 @@
+(define s (WordSenseNode "longfin_mako%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "longfin_mako")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mako%1:05:00::"))
+(InheritanceLink s (WordSenseNode "mako_shark%1:05:00::"))
+(define x (WordNode "Isurus_paucus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mako%1:05:00::"))
+(InheritanceLink s (WordSenseNode "mako_shark%1:05:00::"))

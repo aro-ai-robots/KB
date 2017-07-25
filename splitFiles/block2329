@@ -1,0 +1,5 @@
+(define s (WordSenseNode "adobe%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adobe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clay%1:27:00::"))
+(HolonymLink s (WordSenseNode "adobe%1:06:00::"))
+(HolonymLink s (WordSenseNode "adobe_brick%1:06:00::"))

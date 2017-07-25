@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kick%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recoil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "movement%1:11:00::"))
+(InheritanceLink s (WordSenseNode "motion%1:11:00::"))
+(define x (WordNode "kick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "movement%1:11:00::"))
+(InheritanceLink s (WordSenseNode "motion%1:11:00::"))

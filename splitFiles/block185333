@@ -1,0 +1,3 @@
+(define s (WordSenseNode "x_chromosome%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "X_chromosome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sex_chromosome%1:08:00::"))

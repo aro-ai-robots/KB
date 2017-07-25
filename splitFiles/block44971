@@ -1,0 +1,6 @@
+(define s (WordSenseNode "depreciate%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "depreciate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "devalue%2:30:00::"))
+(InheritanceLink (WordSenseNode "expense%2:30:00::") s)
+(InheritanceLink (WordSenseNode "write_off%2:30:00::") s)
+(InheritanceLink (WordSenseNode "write_down%2:30:10::") s)

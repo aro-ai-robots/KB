@@ -1,0 +1,3 @@
+(define s (WordSenseNode "vital_statistics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vital_statistics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statistic%1:09:00::"))

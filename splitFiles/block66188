@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fuel_injection_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fuel_injection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_system%1:06:00::"))
+(define x (WordNode "fuel_injection_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_system%1:06:00::"))

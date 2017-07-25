@@ -1,0 +1,7 @@
+(define s (WordSenseNode "homeotic_gene%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "homeotic_gene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gene%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cistron%1:08:00::"))
+(InheritanceLink s (WordSenseNode "factor%1:08:00::"))
+(InheritanceLink (WordSenseNode "homeobox%1:08:00::") s)
+(InheritanceLink (WordSenseNode "homeobox_gene%1:08:00::") s)

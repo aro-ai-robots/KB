@@ -1,0 +1,7 @@
+(define s (WordSenseNode "zoom_lens%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "telephoto_lens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camera_lens%1:06:00::"))
+(InheritanceLink s (WordSenseNode "optical_lens%1:06:00::"))
+(define x (WordNode "zoom_lens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camera_lens%1:06:00::"))
+(InheritanceLink s (WordSenseNode "optical_lens%1:06:00::"))

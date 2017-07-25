@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lipogram%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lipogram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "text%1:10:00::"))
+(InheritanceLink s (WordSenseNode "textual_matter%1:10:00::"))

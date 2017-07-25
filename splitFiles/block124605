@@ -1,0 +1,8 @@
+(define s (WordSenseNode "phytoplankton%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phytoplankton")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant%1:03:00::"))
+(InheritanceLink s (WordSenseNode "flora%1:03:00::"))
+(InheritanceLink s (WordSenseNode "plant_life%1:03:00::"))
+(InheritanceLink (WordSenseNode "planktonic_algae%1:05:00::") s)
+(InheritanceLink (WordSenseNode "diatom%1:05:00::") s)
+(HolonymLink s (WordSenseNode "plankton%1:05:00::"))

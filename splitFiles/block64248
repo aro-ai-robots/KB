@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fore_wing%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "forewing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wing%1:05:00::"))
+(define x (WordNode "fore-wing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wing%1:05:00::"))
+(define x (WordNode "fore_wing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wing%1:05:00::"))

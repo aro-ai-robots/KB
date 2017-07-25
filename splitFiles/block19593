@@ -1,0 +1,7 @@
+(define s (WordSenseNode "boring%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "production%1:04:02::"))
+(define x (WordNode "drilling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "production%1:04:02::"))
+(define x (WordNode "oil_production")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "production%1:04:02::"))

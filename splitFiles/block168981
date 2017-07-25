@@ -1,0 +1,3 @@
+(define s (WordSenseNode "thumbprint%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thumbprint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fingerprint%1:10:01::"))

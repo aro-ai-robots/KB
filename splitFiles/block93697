@@ -1,0 +1,7 @@
+(define s (WordSenseNode "krona%1:23:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Swedish_krona")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Swedish_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "ore%1:23:00::") s)
+(define x (WordNode "krona")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Swedish_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "ore%1:23:00::") s)

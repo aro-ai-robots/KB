@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sleeper_cell%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sleeper_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cell%1:14:00::"))
+(InheritanceLink s (WordSenseNode "cadre%1:14:01::"))

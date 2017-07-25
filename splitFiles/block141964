@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rolodex%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Rolodex")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card_index%1:06:00::"))
+(InheritanceLink s (WordSenseNode "card_catalog%1:06:00::"))
+(InheritanceLink s (WordSenseNode "card_catalogue%1:06:00::"))

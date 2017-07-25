@@ -1,0 +1,7 @@
+(define s (WordSenseNode "word%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "promise%1:10:00::"))
+(define x (WordNode "word")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "promise%1:10:00::"))
+(define x (WordNode "word_of_honor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "promise%1:10:00::"))

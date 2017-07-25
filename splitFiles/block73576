@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gnatcatcher%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gnatcatcher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warbler%1:05:00::"))
+(HolonymLink s (WordSenseNode "Polioptila%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Polioptila%1:05:00::"))

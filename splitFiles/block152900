@@ -1,0 +1,7 @@
+(define s (WordSenseNode "skin_patch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transdermal_patch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pad%1:06:00::"))
+(InheritanceLink (WordSenseNode "estradiol_patch%1:06:00::") s)
+(define x (WordNode "skin_patch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pad%1:06:00::"))
+(InheritanceLink (WordSenseNode "estradiol_patch%1:06:00::") s)

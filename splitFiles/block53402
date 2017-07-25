@@ -1,0 +1,7 @@
+(define s (WordSenseNode "emend%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "emend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "better%2:30:01::"))
+(InheritanceLink s (WordSenseNode "improve%2:30:01::"))
+(InheritanceLink s (WordSenseNode "amend%2:30:00::"))
+(InheritanceLink s (WordSenseNode "ameliorate%2:30:01::"))
+(InheritanceLink s (WordSenseNode "meliorate%2:30:01::"))

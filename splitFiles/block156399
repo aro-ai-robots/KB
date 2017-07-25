@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spatula%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spatula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand_tool%1:06:00::"))
+(InheritanceLink (WordSenseNode "palette_knife%1:06:00::") s)
+(InheritanceLink (WordSenseNode "putty_knife%1:06:00::") s)
+(InheritanceLink (WordSenseNode "slice%1:06:00::") s)
+(HolonymLink (WordSenseNode "blade%1:06:00::") s)

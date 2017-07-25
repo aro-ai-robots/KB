@@ -1,0 +1,7 @@
+(define s (WordSenseNode "book%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "book")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "record%2:32:00::"))
+(InheritanceLink s (WordSenseNode "enter%2:32:04::"))
+(InheritanceLink s (WordSenseNode "put_down%2:32:05::"))
+(InheritanceLink (WordSenseNode "ticket%2:41:00::") s)
+(InheritanceLink (WordSenseNode "fine%2:41:00::") s)

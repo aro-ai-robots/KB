@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stretch_mark%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stretch_mark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:07:00::"))
+(InheritanceLink s (WordSenseNode "banding%1:07:00::"))
+(InheritanceLink s (WordSenseNode "stria%1:07:00::"))
+(InheritanceLink s (WordSenseNode "striation%1:07:00::"))

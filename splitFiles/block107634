@@ -1,0 +1,8 @@
+(define s (WordSenseNode "modality%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "modality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "treatment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "intervention%1:04:02::"))
+(InheritanceLink (WordSenseNode "diathermy%1:04:00::") s)
+(HolonymLink s (WordSenseNode "physical_therapy%1:04:00::"))
+(HolonymLink s (WordSenseNode "physiotherapy%1:04:00::"))
+(HolonymLink s (WordSenseNode "physiatrics%1:04:00::"))

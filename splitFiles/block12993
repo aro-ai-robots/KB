@@ -1,0 +1,3 @@
+(define s (WordSenseNode "ballet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ballet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "music%1:10:00::"))

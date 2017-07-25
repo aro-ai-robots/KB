@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ephemeral%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ephemeron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insect%1:05:00::"))
+(define x (WordNode "ephemeral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insect%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "markoff_chain%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Markov_chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Markov_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "Markoff_process%1:22:00::"))
+(define x (WordNode "Markoff_chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Markov_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "Markoff_process%1:22:00::"))

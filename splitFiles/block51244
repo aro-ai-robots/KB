@@ -1,0 +1,6 @@
+(define s (WordSenseNode "dysmenorrhea%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dysmenorrhea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pain%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hurting%1:26:00::"))
+(InheritanceLink (WordSenseNode "primary_dysmenorrhea%1:26:00::") s)
+(InheritanceLink (WordSenseNode "secondary_dysmenorrhea%1:26:00::") s)

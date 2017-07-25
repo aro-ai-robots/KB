@@ -1,0 +1,7 @@
+(define s (WordSenseNode "relay_race%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "relay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "race%1:11:00::"))
+(InheritanceLink (WordSenseNode "torch_race%1:11:00::") s)
+(define x (WordNode "relay_race")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "race%1:11:00::"))
+(InheritanceLink (WordSenseNode "torch_race%1:11:00::") s)

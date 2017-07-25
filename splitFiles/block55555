@@ -1,0 +1,7 @@
+(define s (WordSenseNode "esox_americanus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "redfin_pickerel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pickerel%1:05:00::"))
+(define x (WordNode "barred_pickerel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pickerel%1:05:00::"))
+(define x (WordNode "Esox_americanus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pickerel%1:05:00::"))

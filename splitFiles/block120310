@@ -1,0 +1,7 @@
+(define s (WordSenseNode "par_value%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "par_value")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "value%1:07:00::"))
+(define x (WordNode "face_value")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "value%1:07:00::"))
+(define x (WordNode "nominal_value")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "value%1:07:00::"))

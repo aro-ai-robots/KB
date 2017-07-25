@@ -1,0 +1,5 @@
+(define s (WordSenseNode "holistic_theory%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "holism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theory%1:09:00::"))
+(define x (WordNode "holistic_theory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theory%1:09:00::"))

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "intermission%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intermission")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pause%1:04:00::"))

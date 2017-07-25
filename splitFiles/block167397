@@ -1,0 +1,5 @@
+(define s (WordSenseNode "terrestrial_guidance%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "terrestrial_guidance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steering%1:04:00::"))
+(InheritanceLink s (WordSenseNode "guidance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "direction%1:04:01::"))

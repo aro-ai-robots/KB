@@ -1,0 +1,4 @@
+(define s (WordSenseNode "algorithm_error%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "algorithm_error")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "error%1:11:00::"))
+(InheritanceLink s (WordSenseNode "computer_error%1:11:00::"))

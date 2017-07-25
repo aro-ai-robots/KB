@@ -1,0 +1,5 @@
+(define s (WordSenseNode "methodological_analysis%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "methodology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epistemology%1:09:00::"))
+(define x (WordNode "methodological_analysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epistemology%1:09:00::"))

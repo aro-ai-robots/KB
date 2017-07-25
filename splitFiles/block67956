@@ -1,0 +1,5 @@
+(define s (WordSenseNode "general_baptist%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Arminian_Baptist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Baptist_denomination%1:14:00::"))
+(define x (WordNode "General_Baptist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Baptist_denomination%1:14:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kingbolt%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kingbolt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bolt%1:06:00::"))
+(define x (WordNode "kingpin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bolt%1:06:00::"))
+(define x (WordNode "swivel_pin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bolt%1:06:00::"))

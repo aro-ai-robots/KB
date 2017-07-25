@@ -1,0 +1,5 @@
+(define s (WordSenseNode "overboil%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "boil_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boil%2:30:01::"))
+(define x (WordNode "overboil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boil%2:30:01::"))

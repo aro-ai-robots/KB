@@ -1,0 +1,7 @@
+(define s (WordSenseNode "olive%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "olive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fruit%1:20:00::"))
+(HolonymLink s (WordSenseNode "olive%1:20:00::"))
+(HolonymLink s (WordSenseNode "European_olive_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "Olea_europaea%1:20:00::"))
+(HolonymLink (WordSenseNode "olive_oil%1:13:00::") s)

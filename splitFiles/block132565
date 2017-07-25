@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pterygoid_process%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pterygoid_process")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:08:00::"))
+(InheritanceLink s (WordSenseNode "outgrowth%1:08:00::"))
+(InheritanceLink s (WordSenseNode "appendage%1:08:01::"))
+(HolonymLink s (WordSenseNode "sphenoid_bone%1:08:00::"))
+(HolonymLink s (WordSenseNode "sphenoid%1:08:00::"))
+(HolonymLink s (WordSenseNode "os_sphenoidale%1:08:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "diving_petrel%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diving_petrel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pelagic_bird%1:05:00::"))
+(InheritanceLink s (WordSenseNode "oceanic_bird%1:05:00::"))
+(HolonymLink s (WordSenseNode "Pelecanoididae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Pelecanoididae%1:05:00::"))

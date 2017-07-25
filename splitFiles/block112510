@@ -1,0 +1,7 @@
+(define s (WordSenseNode "new_guinea%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "New_Guinea")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Pacific%1:17:00::"))
+(HolonymLink s (WordSenseNode "Pacific_Ocean%1:17:00::"))
+(HolonymLink (WordSenseNode "Papuan%1:18:00::") s)
+(HolonymLink (WordSenseNode "Papua_New_Guinea%1:15:00::") s)
+(HolonymLink (WordSenseNode "Independent_State_of_Papua_New_Guinea%1:15:00::") s)

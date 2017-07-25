@@ -1,0 +1,8 @@
+(define s (WordSenseNode "chachalaca%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chachalaca")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gallinaceous_bird%1:05:00::"))
+(InheritanceLink s (WordSenseNode "gallinacean%1:05:00::"))
+(InheritanceLink (WordSenseNode "Texas_chachalaca%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Ortilis_vetula_macalli%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Ortalis%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Ortalis%1:05:00::"))

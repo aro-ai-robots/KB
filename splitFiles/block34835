@@ -1,0 +1,4 @@
+(define s (WordSenseNode "common_logarithm%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_logarithm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logarithm%1:10:00::"))
+(InheritanceLink s (WordSenseNode "log%1:10:01::"))

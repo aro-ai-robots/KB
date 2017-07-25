@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ammeter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ammeter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meter%1:06:00::"))
+(InheritanceLink (WordSenseNode "milliammeter%1:06:00::") s)

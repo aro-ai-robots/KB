@@ -1,0 +1,5 @@
+(define s (WordSenseNode "civic_spirit%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "civic_pride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pride%1:12:01::"))
+(define x (WordNode "civic_spirit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pride%1:12:01::"))

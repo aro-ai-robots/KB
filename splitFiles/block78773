@@ -1,0 +1,4 @@
+(define s (WordSenseNode "head_cold%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "head_cold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cold%1:26:00::"))
+(InheritanceLink s (WordSenseNode "common_cold%1:26:00::"))

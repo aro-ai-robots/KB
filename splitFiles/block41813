@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cygnus_columbianus_bewickii%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Bewick's_swan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tundra_swan%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Cygnus_columbianus%1:05:00::"))
+(define x (WordNode "Cygnus_columbianus_bewickii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tundra_swan%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Cygnus_columbianus%1:05:00::"))

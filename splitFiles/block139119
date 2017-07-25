@@ -1,0 +1,5 @@
+(define s (WordSenseNode "repulsive_force%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "repulsion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force%1:19:00::"))
+(define x (WordNode "repulsive_force")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force%1:19:00::"))

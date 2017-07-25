@@ -1,0 +1,8 @@
+(define s (WordSenseNode "strengthen%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "strengthen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(InheritanceLink (WordSenseNode "consolidate%2:30:02::") s)
+(InheritanceLink (WordSenseNode "proof%2:30:00::") s)
+(InheritanceLink (WordSenseNode "back%2:30:01::") s)
+(InheritanceLink (WordSenseNode "sandbag%2:30:00::") s)
+(InheritanceLink (WordSenseNode "toughen%2:30:00::") s)

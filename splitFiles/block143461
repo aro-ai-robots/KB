@@ -1,0 +1,4 @@
+(define s (WordSenseNode "rustication%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rustication")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "suspension%1:04:01::"))
+(InheritanceLink s (WordSenseNode "temporary_removal%1:04:00::"))

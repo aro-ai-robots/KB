@@ -1,0 +1,7 @@
+(define s (WordSenseNode "phenytoin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diphenylhydantoin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydantoin%1:06:00::"))
+(define x (WordNode "phenytoin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydantoin%1:06:00::"))
+(define x (WordNode "Dilantin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydantoin%1:06:00::"))

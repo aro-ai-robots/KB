@@ -1,0 +1,5 @@
+(define s (WordSenseNode "monument%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monument")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "site%1:15:00::"))
+(InheritanceLink s (WordSenseNode "land_site%1:15:00::"))
+(InheritanceLink (WordSenseNode "market_cross%1:15:00::") s)

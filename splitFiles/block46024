@@ -1,0 +1,5 @@
+(define s (WordSenseNode "diapason_stop%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diapason")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organ_stop%1:06:00::"))
+(define x (WordNode "diapason_stop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organ_stop%1:06:00::"))

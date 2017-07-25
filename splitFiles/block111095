@@ -1,0 +1,8 @@
+(define s (WordSenseNode "naris%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "naris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orifice%1:08:00::"))
+(InheritanceLink s (WordSenseNode "opening%1:08:00::"))
+(InheritanceLink s (WordSenseNode "porta%1:08:00::"))
+(InheritanceLink (WordSenseNode "nostril%1:08:00::") s)
+(InheritanceLink (WordSenseNode "anterior_naris%1:08:00::") s)
+(InheritanceLink (WordSenseNode "posterior_naris%1:08:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sarcomere%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sarcomere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "segment%1:17:00::"))
+(HolonymLink s (WordSenseNode "myofibril%1:08:00::"))
+(HolonymLink s (WordSenseNode "myofibrilla%1:08:00::"))
+(HolonymLink s (WordSenseNode "sarcostyle%1:08:00::"))

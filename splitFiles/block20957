@@ -1,0 +1,7 @@
+(define s (WordSenseNode "breeze_block%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cinder_block")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "building_block%1:06:00::"))
+(define x (WordNode "clinker_block")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "building_block%1:06:00::"))
+(define x (WordNode "breeze_block")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "building_block%1:06:00::"))

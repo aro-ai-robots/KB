@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cargo_cult%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cargo_cult")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cult%1:09:00::"))
+(InheritanceLink s (WordSenseNode "cultus%1:09:00::"))
+(InheritanceLink s (WordSenseNode "religious_cult%1:09:00::"))

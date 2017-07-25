@@ -1,0 +1,7 @@
+(define s (WordSenseNode "suspension_point%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "suspension_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "period%1:10:00::"))
+(InheritanceLink s (WordSenseNode "point%1:10:00::"))
+(InheritanceLink s (WordSenseNode "full_stop%1:10:00::"))
+(InheritanceLink s (WordSenseNode "stop%1:10:01::"))
+(InheritanceLink s (WordSenseNode "full_point%1:10:00::"))

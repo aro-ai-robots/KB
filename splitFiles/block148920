@@ -1,0 +1,7 @@
+(define s (WordSenseNode "serjeant-at-arms%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sergeant_at_arms")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "officeholder%1:18:02::"))
+(InheritanceLink s (WordSenseNode "officer%1:18:02::"))
+(define x (WordNode "serjeant-at-arms")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "officeholder%1:18:02::"))
+(InheritanceLink s (WordSenseNode "officer%1:18:02::"))

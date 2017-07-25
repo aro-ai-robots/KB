@@ -1,0 +1,7 @@
+(define s (WordSenseNode "movement%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "movement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "action%1:06:00::"))
+(InheritanceLink s (WordSenseNode "action_mechanism%1:06:00::"))
+(HolonymLink s (WordSenseNode "watch%1:06:00::"))
+(HolonymLink s (WordSenseNode "ticker%1:06:01::"))
+(HolonymLink s (WordSenseNode "clock%1:06:00::"))

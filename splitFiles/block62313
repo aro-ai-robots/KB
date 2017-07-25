@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fit%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paroxysm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attack%1:26:00::"))
+(define x (WordNode "fit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attack%1:26:00::"))
+(define x (WordNode "convulsion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attack%1:26:00::"))

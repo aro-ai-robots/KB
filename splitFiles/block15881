@@ -1,0 +1,6 @@
+(define s (WordSenseNode "berber%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Berber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "African%1:18:00::"))
+(InheritanceLink (WordSenseNode "Almoravid%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Riff%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Riffian%1:18:00::") s)

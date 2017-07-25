@@ -1,0 +1,7 @@
+(define s (WordSenseNode "box_camera%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "box_camera")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camera%1:06:00::"))
+(InheritanceLink s (WordSenseNode "photographic_camera%1:06:00::"))
+(define x (WordNode "box_Kodak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camera%1:06:00::"))
+(InheritanceLink s (WordSenseNode "photographic_camera%1:06:00::"))

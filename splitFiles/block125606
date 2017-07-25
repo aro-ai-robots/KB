@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pipe_up%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pipe_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perform%2:36:00::"))
+(InheritanceLink s (WordSenseNode "execute%2:36:01::"))
+(InheritanceLink s (WordSenseNode "do%2:36:01::"))

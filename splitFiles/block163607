@@ -1,0 +1,8 @@
+(define s (WordSenseNode "suspect%2:32:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "suspect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "think%2:31:03::"))
+(InheritanceLink s (WordSenseNode "opine%2:31:02::"))
+(InheritanceLink s (WordSenseNode "suppose%2:31:00::"))
+(InheritanceLink s (WordSenseNode "imagine%2:31:01::"))
+(InheritanceLink s (WordSenseNode "reckon%2:31:02::"))
+(InheritanceLink s (WordSenseNode "guess%2:31:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "family%1:14:05::")) (PartOfSpeechLink s noun)
+(define x (WordNode "family")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "association%1:14:00::"))
+(InheritanceLink (WordSenseNode "koinonia%1:14:00::") s)
+(define x (WordNode "fellowship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "association%1:14:00::"))
+(InheritanceLink (WordSenseNode "koinonia%1:14:00::") s)

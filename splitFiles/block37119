@@ -1,0 +1,5 @@
+(define s (WordSenseNode "contrail%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "contrail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:17:00::"))
+(define x (WordNode "condensation_trail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:17:00::"))

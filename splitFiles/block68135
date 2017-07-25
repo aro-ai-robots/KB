@@ -1,0 +1,5 @@
+(define s (WordSenseNode "genoese%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Genoese")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Italian%1:18:00::"))
+(HolonymLink s (WordSenseNode "Genoa%1:15:00::"))
+(HolonymLink s (WordSenseNode "Genova%1:15:00::"))

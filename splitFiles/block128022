@@ -1,0 +1,6 @@
+(define s (WordSenseNode "polyphosphoric_acid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polyphosphoric_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxyacid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "oxygen_acid%1:27:00::"))
+(InheritanceLink (WordSenseNode "metaphosphoric_acid%1:27:00::") s)
+(InheritanceLink (WordSenseNode "pyrophosphoric_acid%1:27:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hyperbilirubinemia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hyperbilirubinemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pathology%1:26:00::"))
+(InheritanceLink (WordSenseNode "hyperbilirubinemia_of_the_newborn%1:26:00::") s)
+(InheritanceLink (WordSenseNode "neonatal_hyperbilirubinemia%1:26:00::") s)
+(HolonymLink s (WordSenseNode "jaundice%1:26:00::"))
+(HolonymLink s (WordSenseNode "icterus%1:26:00::"))

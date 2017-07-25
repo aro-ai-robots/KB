@@ -1,0 +1,5 @@
+(define s (WordSenseNode "crew_cut%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crew_cut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "haircut%1:08:00::"))
+(define x (WordNode "flattop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "haircut%1:08:00::"))

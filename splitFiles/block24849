@@ -1,0 +1,7 @@
+(define s (WordSenseNode "canon_law%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "canon_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "law%1:14:00::"))
+(InheritanceLink s (WordSenseNode "jurisprudence%1:14:00::"))
+(define x (WordNode "ecclesiastical_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "law%1:14:00::"))
+(InheritanceLink s (WordSenseNode "jurisprudence%1:14:00::"))

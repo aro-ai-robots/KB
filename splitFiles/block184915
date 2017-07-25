@@ -1,0 +1,3 @@
+(define s (WordSenseNode "worm%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "worm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "malevolent_program%1:10:00::"))

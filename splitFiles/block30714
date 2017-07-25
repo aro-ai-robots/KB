@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chrome%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chromium%1:27:00::"))
+(InheritanceLink s (WordSenseNode "Cr%1:27:00::"))
+(InheritanceLink s (WordSenseNode "atomic_number_24%1:27:00::"))

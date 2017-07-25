@@ -1,0 +1,7 @@
+(define s (WordSenseNode "strobe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stroboscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scientific_instrument%1:06:00::"))
+(define x (WordNode "strobe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scientific_instrument%1:06:00::"))
+(define x (WordNode "strobe_light")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scientific_instrument%1:06:00::"))

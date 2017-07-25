@@ -1,0 +1,7 @@
+(define s (WordSenseNode "periscope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "periscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_instrument%1:06:00::"))
+(HolonymLink s (WordSenseNode "submarine%1:06:00::"))
+(HolonymLink s (WordSenseNode "pigboat%1:06:00::"))
+(HolonymLink s (WordSenseNode "sub%1:06:00::"))
+(HolonymLink s (WordSenseNode "U-boat%1:06:00::"))

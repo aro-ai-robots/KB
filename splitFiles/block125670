@@ -1,0 +1,7 @@
+(define s (WordSenseNode "piquancy%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "piquancy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(define x (WordNode "piquance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(define x (WordNode "piquantness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))

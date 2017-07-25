@@ -1,0 +1,7 @@
+(define s (WordSenseNode "indifference%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nonchalance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carefreeness%1:07:00::"))
+(define x (WordNode "unconcern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carefreeness%1:07:00::"))
+(define x (WordNode "indifference")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carefreeness%1:07:00::"))

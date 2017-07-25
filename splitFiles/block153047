@@ -1,0 +1,5 @@
+(define s (WordSenseNode "skyrocket%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rocket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "visual_signal%1:10:00::"))
+(define x (WordNode "skyrocket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "visual_signal%1:10:00::"))

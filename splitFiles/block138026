@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rehearing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "relistening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "listening%1:04:00::"))
+(InheritanceLink s (WordSenseNode "hearing%1:04:00::"))
+(define x (WordNode "rehearing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "listening%1:04:00::"))
+(InheritanceLink s (WordSenseNode "hearing%1:04:00::"))

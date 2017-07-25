@@ -1,0 +1,8 @@
+(define s (WordSenseNode "rocker%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rocker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adolescent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "stripling%1:18:00::"))
+(InheritanceLink s (WordSenseNode "teenager%1:18:00::"))
+(InheritanceLink s (WordSenseNode "teen%1:18:00::"))
+(HolonymLink s (WordSenseNode "rockers%1:14:00::"))
+(HolonymLink s (WordSenseNode "bikers%1:14:00::"))

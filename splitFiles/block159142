@@ -1,0 +1,8 @@
+(define s (WordSenseNode "statement%1:10:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "statement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theme%1:10:02::"))
+(InheritanceLink s (WordSenseNode "melodic_theme%1:10:00::"))
+(InheritanceLink s (WordSenseNode "musical_theme%1:10:00::"))
+(InheritanceLink s (WordSenseNode "idea%1:10:00::"))
+(InheritanceLink (WordSenseNode "augmentation%1:10:00::") s)
+(InheritanceLink (WordSenseNode "diminution%1:10:00::") s)

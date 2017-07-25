@@ -1,0 +1,7 @@
+(define s (WordSenseNode "acrylic_fiber%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acrylic_fiber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "man-made_fiber%1:27:00::"))
+(InheritanceLink s (WordSenseNode "synthetic_fiber%1:27:00::"))
+(define x (WordNode "acrylic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "man-made_fiber%1:27:00::"))
+(InheritanceLink s (WordSenseNode "synthetic_fiber%1:27:00::"))

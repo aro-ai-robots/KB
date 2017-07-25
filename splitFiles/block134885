@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rad%1:23:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angular_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "milliradian%1:23:00::") s)
+(define x (WordNode "rad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angular_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "milliradian%1:23:00::") s)

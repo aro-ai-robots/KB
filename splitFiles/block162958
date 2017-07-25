@@ -1,0 +1,5 @@
+(define s (WordSenseNode "super%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "superintendent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caretaker%1:18:00::"))
+(define x (WordNode "super")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caretaker%1:18:00::"))

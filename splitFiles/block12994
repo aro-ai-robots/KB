@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ballet_company%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ballet_company")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "company%1:14:02::"))
+(InheritanceLink s (WordSenseNode "troupe%1:14:00::"))
+(HolonymLink (WordSenseNode "corps_de_ballet%1:14:00::") s)
+(HolonymLink (WordSenseNode "ensemble%1:14:01::") s)
+(HolonymLink (WordSenseNode "ballet_dancer%1:18:00::") s)

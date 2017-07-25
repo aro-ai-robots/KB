@@ -1,0 +1,4 @@
+(define s (WordSenseNode "reign%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "govern%2:41:00::"))
+(InheritanceLink s (WordSenseNode "rule%2:41:00::"))

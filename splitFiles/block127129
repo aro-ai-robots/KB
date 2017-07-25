@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pluralize%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pluralize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflect%2:32:01::"))
+(define x (WordNode "pluralise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflect%2:32:01::"))

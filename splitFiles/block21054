@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bride-gift%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bride-gift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wedding_present%1:21:00::"))
+(InheritanceLink s (WordSenseNode "wedding_gift%1:21:00::"))

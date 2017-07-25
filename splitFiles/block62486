@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flag_of_truce%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_flag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flag%1:06:00::"))
+(define x (WordNode "flag_of_truce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flag%1:06:00::"))

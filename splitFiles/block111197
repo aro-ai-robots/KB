@@ -1,0 +1,4 @@
+(define s (WordSenseNode "nasogastric_feeding%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nasogastric_feeding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "forced_feeding%1:04:00::"))
+(InheritanceLink s (WordSenseNode "gavage%1:04:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pathogenesis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pathogenesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pathologic_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "pathological_process%1:22:00::"))
+(InheritanceLink (WordSenseNode "focalization%1:22:00::") s)
+(InheritanceLink (WordSenseNode "focalisation%1:22:00::") s)

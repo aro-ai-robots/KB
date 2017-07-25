@@ -1,0 +1,6 @@
+(define s (WordSenseNode "occasion%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "occasion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cause%2:36:00::"))
+(InheritanceLink s (WordSenseNode "do%2:36:02::"))
+(InheritanceLink s (WordSenseNode "make%2:36:08::"))
+(InheritanceLink (WordSenseNode "inspire%2:36:00::") s)

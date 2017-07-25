@@ -1,0 +1,4 @@
+(define s (WordSenseNode "nasal_septum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nasal_septum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "septum%1:08:00::"))
+(HolonymLink (WordSenseNode "vomer%1:08:00::") s)

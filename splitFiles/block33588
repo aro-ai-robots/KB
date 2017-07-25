@@ -1,0 +1,7 @@
+(define s (WordSenseNode "coigne%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quoin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wedge%1:06:00::"))
+(define x (WordNode "coign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wedge%1:06:00::"))
+(define x (WordNode "coigne")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wedge%1:06:00::"))

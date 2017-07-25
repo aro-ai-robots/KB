@@ -1,0 +1,7 @@
+(define s (WordSenseNode "burlap_bag%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gunnysack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bag%1:06:00::"))
+(define x (WordNode "gunny_sack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bag%1:06:00::"))
+(define x (WordNode "burlap_bag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bag%1:06:00::"))

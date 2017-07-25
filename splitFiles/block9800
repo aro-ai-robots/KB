@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ascending_colon%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ascending_colon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colon%1:08:00::"))
+(HolonymLink s (WordSenseNode "large_intestine%1:08:00::"))
+(HolonymLink (WordSenseNode "ascending_artery%1:08:00::") s)
+(HolonymLink (WordSenseNode "arteria_ascendens%1:08:00::") s)

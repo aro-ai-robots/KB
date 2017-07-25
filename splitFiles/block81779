@@ -1,0 +1,4 @@
+(define s (WordSenseNode "homozygote%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "homozygote")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zygote%1:08:00::"))
+(InheritanceLink s (WordSenseNode "fertilized_ovum%1:08:00::"))

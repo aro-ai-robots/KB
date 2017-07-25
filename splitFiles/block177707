@@ -1,0 +1,5 @@
+(define s (WordSenseNode "valois%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Valois")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dynasty%1:14:00::"))
+(HolonymLink (WordSenseNode "Henry_II%1:18:02::") s)
+(HolonymLink (WordSenseNode "Henry_III%1:18:02::") s)

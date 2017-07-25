@@ -1,0 +1,7 @@
+(define s (WordSenseNode "umayyad%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Umayyad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dynasty%1:14:00::"))
+(define x (WordNode "Ommiad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dynasty%1:14:00::"))
+(define x (WordNode "Omayyad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dynasty%1:14:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "have_a_look%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "take_a_look")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "look%2:39:00::"))
+(define x (WordNode "have_a_look")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "look%2:39:00::"))
+(define x (WordNode "get_a_load")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "look%2:39:00::"))

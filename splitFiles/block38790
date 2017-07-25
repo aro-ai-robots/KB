@@ -1,0 +1,5 @@
+(define s (WordSenseNode "counterpoint%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "counterpoint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polyphony%1:10:00::"))
+(InheritanceLink s (WordSenseNode "polyphonic_music%1:10:00::"))
+(InheritanceLink s (WordSenseNode "concerted_music%1:10:00::"))

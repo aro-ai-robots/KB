@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stipulation%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stipulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concession%1:10:01::"))
+(define x (WordNode "judicial_admission")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concession%1:10:01::"))

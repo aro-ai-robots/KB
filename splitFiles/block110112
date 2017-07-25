@@ -1,0 +1,7 @@
+(define s (WordSenseNode "musculus_biceps_femoris%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "musculus_biceps_femoris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biceps%1:08:00::"))
+(HolonymLink s (WordSenseNode "thigh%1:08:00::"))
+(define x (WordNode "femoral_biceps")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biceps%1:08:00::"))
+(HolonymLink s (WordSenseNode "thigh%1:08:00::"))

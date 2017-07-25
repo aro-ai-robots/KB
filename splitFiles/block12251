@@ -1,0 +1,7 @@
+(define s (WordSenseNode "babysitter%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "babysitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keeper%1:18:02::"))
+(define x (WordNode "baby-sitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keeper%1:18:02::"))
+(define x (WordNode "sitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keeper%1:18:02::"))

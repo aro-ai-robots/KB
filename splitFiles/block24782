@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cannabin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cannabin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_resin%1:27:00::"))
+(define x (WordNode "cannabis_resin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_resin%1:27:00::"))

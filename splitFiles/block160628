@@ -1,0 +1,4 @@
+(define s (WordSenseNode "straightness%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "straightness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curvature%1:07:01::"))
+(InheritanceLink s (WordSenseNode "curve%1:07:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_grison%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Grison")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Mustelidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Mustelidae%1:05:00::"))
+(HolonymLink (WordSenseNode "grison%1:05:00::") s)
+(HolonymLink (WordSenseNode "Grison_vittatus%1:05:00::") s)
+(HolonymLink (WordSenseNode "Galictis_vittatus%1:05:00::") s)

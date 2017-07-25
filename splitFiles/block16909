@@ -1,0 +1,5 @@
+(define s (WordSenseNode "biquadratic_equation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "biquadratic_equation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "equation%1:10:00::"))
+(define x (WordNode "biquadratic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "equation%1:10:00::"))

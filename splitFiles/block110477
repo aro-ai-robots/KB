@@ -1,0 +1,5 @@
+(define s (WordSenseNode "myanmar_monetary_unit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Myanmar_monetary_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monetary_unit%1:23:00::"))
+(InheritanceLink (WordSenseNode "kyat%1:23:00::") s)
+(InheritanceLink (WordSenseNode "pya%1:23:00::") s)

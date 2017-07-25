@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_aepyornis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Aepyornis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bird_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Aepyornidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Aepyornidae%1:05:00::"))
+(HolonymLink (WordSenseNode "elephant_bird%1:05:00::") s)
+(HolonymLink (WordSenseNode "aepyornis%1:05:00::") s)

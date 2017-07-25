@@ -1,0 +1,6 @@
+(define s (WordSenseNode "soul%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "soul")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gospel%1:10:03::"))
+(InheritanceLink s (WordSenseNode "gospel_singing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "black_music%1:10:00::"))
+(InheritanceLink s (WordSenseNode "African-American_music%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tugrik%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tugrik")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mongolian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "mongo%1:23:00::") s)
+(define x (WordNode "tughrik")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Mongolian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "mongo%1:23:00::") s)

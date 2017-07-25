@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drip_culture%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drip_culture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydroponics%1:04:00::"))
+(InheritanceLink s (WordSenseNode "aquiculture%1:04:00::"))
+(InheritanceLink s (WordSenseNode "tank_farming%1:04:00::"))

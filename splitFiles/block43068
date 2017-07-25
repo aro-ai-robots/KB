@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dead_march%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "funeral_march")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "processional_march%1:10:00::"))
+(InheritanceLink s (WordSenseNode "recessional_march%1:10:00::"))
+(define x (WordNode "dead_march")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "processional_march%1:10:00::"))
+(InheritanceLink s (WordSenseNode "recessional_march%1:10:00::"))

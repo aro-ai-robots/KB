@@ -1,0 +1,7 @@
+(define s (WordSenseNode "remand%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "remit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "challenge%2:32:00::"))
+(define x (WordNode "remand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "challenge%2:32:00::"))
+(define x (WordNode "send_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "challenge%2:32:00::"))

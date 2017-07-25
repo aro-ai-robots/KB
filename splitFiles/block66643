@@ -1,0 +1,5 @@
+(define s (WordSenseNode "futures_contract%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "futures_contract")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "derivative_instrument%1:10:00::"))
+(InheritanceLink s (WordSenseNode "derivative%1:10:01::"))
+(InheritanceLink (WordSenseNode "stock-index_futures%1:10:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "electronic_scanner%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scanner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detector%1:06:01::"))
+(define x (WordNode "electronic_scanner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detector%1:06:01::"))

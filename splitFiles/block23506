@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cachet%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cachet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warrant%1:10:00::"))
+(define x (WordNode "lettre_de_cachet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warrant%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "even_out%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "even")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "regularize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "regularise%2:30:00::"))
+(define x (WordNode "even_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "regularize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "regularise%2:30:00::"))

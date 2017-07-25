@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vena_epigastrica_superficialis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "superficial_epigastric_vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epigastric_vein%1:08:00::"))
+(define x (WordNode "vena_epigastrica_superficialis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epigastric_vein%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "accommodation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "accommodation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aid%1:04:00::"))
+(InheritanceLink s (WordSenseNode "assist%1:04:01::"))
+(InheritanceLink s (WordSenseNode "assistance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "help%1:04:00::"))
+(InheritanceLink (WordSenseNode "service%1:04:06::") s)

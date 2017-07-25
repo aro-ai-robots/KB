@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mental_block%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "block")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inability%1:09:00::"))
+(InheritanceLink (WordSenseNode "writer's_block%1:09:00::") s)
+(define x (WordNode "mental_block")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inability%1:09:00::"))
+(InheritanceLink (WordSenseNode "writer's_block%1:09:00::") s)

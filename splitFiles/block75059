@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grave_accent%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grave_accent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accent%1:10:02::"))
+(InheritanceLink s (WordSenseNode "accent_mark%1:10:00::"))
+(define x (WordNode "grave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accent%1:10:02::"))
+(InheritanceLink s (WordSenseNode "accent_mark%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "carrying_out%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "execution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enforcement%1:04:00::"))
+(define x (WordNode "implementation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enforcement%1:04:00::"))
+(define x (WordNode "carrying_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enforcement%1:04:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "clorox%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Clorox")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bleaching_agent%1:27:00::"))
+(InheritanceLink s (WordSenseNode "bleach%1:27:00::"))
+(InheritanceLink s (WordSenseNode "blanching_agent%1:27:00::"))
+(InheritanceLink s (WordSenseNode "whitener%1:27:00::"))

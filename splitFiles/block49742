@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dramatic_event%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drama")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "episode%1:11:00::"))
+(InheritanceLink (WordSenseNode "night_terror%1:11:00::") s)
+(define x (WordNode "dramatic_event")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "episode%1:11:00::"))
+(InheritanceLink (WordSenseNode "night_terror%1:11:00::") s)

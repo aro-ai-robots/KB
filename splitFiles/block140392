@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rhizoctinia_disease%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rhizoctinia_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_disease%1:26:00::"))
+(InheritanceLink (WordSenseNode "little_potato%1:26:00::") s)
+(InheritanceLink (WordSenseNode "rosette%1:26:00::") s)
+(InheritanceLink (WordSenseNode "russet_scab%1:26:00::") s)
+(InheritanceLink (WordSenseNode "stem_canker%1:26:00::") s)

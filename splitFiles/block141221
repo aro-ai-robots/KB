@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rise%1:11:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:11:01::"))
+(InheritanceLink s (WordSenseNode "moving_ridge%1:11:00::"))
+(define x (WordNode "rise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:11:01::"))
+(InheritanceLink s (WordSenseNode "moving_ridge%1:11:00::"))

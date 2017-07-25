@@ -1,0 +1,7 @@
+(define s (WordSenseNode "drafting%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drafting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trade%1:04:00::"))
+(InheritanceLink s (WordSenseNode "craft%1:04:00::"))
+(define x (WordNode "mechanical_drawing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trade%1:04:00::"))
+(InheritanceLink s (WordSenseNode "craft%1:04:00::"))

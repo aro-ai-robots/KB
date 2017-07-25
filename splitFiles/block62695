@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flasher%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exhibitionist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compulsive%1:18:00::"))
+(InheritanceLink (WordSenseNode "streaker%1:18:00::") s)
+(define x (WordNode "flasher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compulsive%1:18:00::"))
+(InheritanceLink (WordSenseNode "streaker%1:18:00::") s)

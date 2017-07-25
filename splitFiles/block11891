@@ -1,0 +1,5 @@
+(define s (WordSenseNode "avogadro's_number%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Avogadro's_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constant%1:23:00::"))
+(define x (WordNode "Avogadro_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constant%1:23:00::"))

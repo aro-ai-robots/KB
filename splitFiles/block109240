@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mountain_fever%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Rocky_Mountain_spotted_fever")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spotted_fever%1:26:00::"))
+(define x (WordNode "mountain_fever")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spotted_fever%1:26:00::"))
+(define x (WordNode "tick_fever")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spotted_fever%1:26:00::"))

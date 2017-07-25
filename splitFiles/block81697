@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hominy%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hominy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corn%1:13:00::"))
+(InheritanceLink s (WordSenseNode "edible_corn%1:13:00::"))
+(InheritanceLink (WordSenseNode "lye_hominy%1:13:00::") s)
+(InheritanceLink (WordSenseNode "pearl_hominy%1:13:00::") s)

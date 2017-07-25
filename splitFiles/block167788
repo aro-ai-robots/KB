@@ -1,0 +1,8 @@
+(define s (WordSenseNode "thanks%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thanks")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acknowledgment%1:10:00::"))
+(InheritanceLink s (WordSenseNode "acknowledgement%1:10:00::"))
+(InheritanceLink (WordSenseNode "appreciation%1:10:00::") s)
+(InheritanceLink (WordSenseNode "thank_you%1:10:00::") s)
+(InheritanceLink (WordSenseNode "bow%1:10:00::") s)
+(InheritanceLink (WordSenseNode "curtain_call%1:10:00::") s)

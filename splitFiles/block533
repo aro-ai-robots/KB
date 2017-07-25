@@ -1,0 +1,4 @@
+(define s (WordSenseNode "abort%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "abort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "end%2:30:01::"))
+(InheritanceLink s (WordSenseNode "terminate%2:30:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "circumambulate%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "circumambulate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circle%2:38:01::"))
+(define x (WordNode "walk_around")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circle%2:38:01::"))

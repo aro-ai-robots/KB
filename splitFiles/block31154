@@ -1,0 +1,5 @@
+(define s (WordSenseNode "circaea_alpina%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Alpine_enchanter's_nightshade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enchanter's_nightshade%1:20:00::"))
+(define x (WordNode "Circaea_alpina")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enchanter's_nightshade%1:20:00::"))

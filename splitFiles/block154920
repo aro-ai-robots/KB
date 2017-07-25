@@ -1,0 +1,5 @@
+(define s (WordSenseNode "soft-shell_crab%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "soft-shell_crab")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crab%1:05:00::"))
+(define x (WordNode "soft-shelled_crab")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crab%1:05:00::"))

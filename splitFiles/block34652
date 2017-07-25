@@ -1,0 +1,8 @@
+(define s (WordSenseNode "commissary%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commissary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shop%1:06:00::"))
+(InheritanceLink s (WordSenseNode "store%1:06:00::"))
+(InheritanceLink (WordSenseNode "post_exchange%1:06:00::") s)
+(InheritanceLink (WordSenseNode "PX%1:06:00::") s)
+(InheritanceLink (WordSenseNode "slop_chest%1:06:00::") s)
+(InheritanceLink (WordSenseNode "small_stores%1:06:00::") s)

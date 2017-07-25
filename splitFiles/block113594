@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nonfiction%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nonfiction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prose%1:10:00::"))
+(InheritanceLink (WordSenseNode "article%1:10:00::") s)
+(define x (WordNode "nonfictional_prose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prose%1:10:00::"))
+(InheritanceLink (WordSenseNode "article%1:10:00::") s)

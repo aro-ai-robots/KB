@@ -1,0 +1,4 @@
+(define s (WordSenseNode "manpad%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "MANPAD")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface-to-air_missile%1:06:00::"))
+(InheritanceLink s (WordSenseNode "SAM%1:06:00::"))

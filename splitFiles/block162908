@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sunken_arch%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sunken_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "instep%1:08:00::"))
+(define x (WordNode "fallen_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "instep%1:08:00::"))

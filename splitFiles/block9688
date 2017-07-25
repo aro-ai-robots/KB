@@ -1,0 +1,6 @@
+(define s (WordSenseNode "arts_and_crafts%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arts_and_crafts")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "art%1:04:00::"))
+(InheritanceLink s (WordSenseNode "artistic_creation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "artistic_production%1:04:00::"))
+(InheritanceLink (WordSenseNode "handicraft%1:04:00::") s)

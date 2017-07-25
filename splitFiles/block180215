@@ -1,0 +1,4 @@
+(define s (WordSenseNode "vouchsafe%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "vouchsafe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allow%2:40:00::"))
+(InheritanceLink s (WordSenseNode "grant%2:40:01::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "achromia%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "achromia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colorlessness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "colourlessness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "achromatism%1:07:00::"))
+(InheritanceLink s (WordSenseNode "achromaticity%1:07:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "roof%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "roof")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))
+(InheritanceLink (WordSenseNode "thatch%2:35:00::") s)
+(InheritanceLink (WordSenseNode "shingle%2:35:00::") s)
+(InheritanceLink (WordSenseNode "slate%2:35:00::") s)

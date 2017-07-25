@@ -1,0 +1,7 @@
+(define s (WordSenseNode "osteoblast%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "osteoblast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embryonic_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "formative_cell%1:08:00::"))
+(define x (WordNode "bone-forming_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embryonic_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "formative_cell%1:08:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "alopecia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alopecia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baldness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "phalacrosis%1:26:00::"))
+(InheritanceLink (WordSenseNode "alopecia_areata%1:26:00::") s)

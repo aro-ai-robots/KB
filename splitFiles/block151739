@@ -1,0 +1,5 @@
+(define s (WordSenseNode "silk_road%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Silk_Road")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Gansu%1:15:00::") s)
+(HolonymLink (WordSenseNode "Kansu%1:15:00::") s)
+(HolonymLink (WordSenseNode "Gansu_province%1:15:00::") s)

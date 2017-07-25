@@ -1,0 +1,7 @@
+(define s (WordSenseNode "must%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "must")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "necessity%1:17:00::"))
+(InheritanceLink s (WordSenseNode "essential%1:17:00::"))
+(InheritanceLink s (WordSenseNode "requirement%1:17:00::"))
+(InheritanceLink s (WordSenseNode "requisite%1:17:00::"))
+(InheritanceLink s (WordSenseNode "necessary%1:17:00::"))

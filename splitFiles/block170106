@@ -1,0 +1,5 @@
+(define s (WordSenseNode "toilet_roll%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toilet_roll")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toilet_tissue%1:27:00::"))
+(InheritanceLink s (WordSenseNode "toilet_paper%1:27:00::"))
+(InheritanceLink s (WordSenseNode "bathroom_tissue%1:27:00::"))

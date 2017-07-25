@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mountain_alder%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mountain_maple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maple%1:20:00::"))
+(define x (WordNode "mountain_alder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maple%1:20:00::"))
+(define x (WordNode "Acer_spicatum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maple%1:20:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "choke%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "choke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "valve%1:06:00::"))
+(InheritanceLink (WordSenseNode "automatic_choke%1:06:00::") s)
+(HolonymLink s (WordSenseNode "fuel_system%1:06:00::"))

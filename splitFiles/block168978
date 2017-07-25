@@ -1,0 +1,6 @@
+(define s (WordSenseNode "thumbhole%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thumbhole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hole%1:06:00::"))
+(HolonymLink s (WordSenseNode "woodwind%1:06:00::"))
+(HolonymLink s (WordSenseNode "woodwind_instrument%1:06:00::"))
+(HolonymLink s (WordSenseNode "wood%1:06:01::"))

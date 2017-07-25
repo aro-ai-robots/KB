@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mortmain%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dead_hand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:07:00::"))
+(define x (WordNode "dead_hand_of_the_past")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:07:00::"))
+(define x (WordNode "mortmain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:07:00::"))

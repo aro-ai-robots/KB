@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fomite%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fomite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_object%1:03:00::"))
+(define x (WordNode "vehicle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_object%1:03:00::"))

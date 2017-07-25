@@ -1,0 +1,7 @@
+(define s (WordSenseNode "regularization%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "regulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "control%1:04:00::"))
+(define x (WordNode "regularization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "control%1:04:00::"))
+(define x (WordNode "regularisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "control%1:04:00::"))

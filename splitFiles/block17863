@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bleep%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beep")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sound%1:11:00::"))
+(define x (WordNode "bleep")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sound%1:11:00::"))

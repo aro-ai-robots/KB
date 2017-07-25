@@ -1,0 +1,7 @@
+(define s (WordSenseNode "five-hitter%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "five-hitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baseball%1:04:00::"))
+(InheritanceLink s (WordSenseNode "baseball_game%1:04:00::"))
+(define x (WordNode "5-hitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baseball%1:04:00::"))
+(InheritanceLink s (WordSenseNode "baseball_game%1:04:00::"))

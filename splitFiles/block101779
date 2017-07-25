@@ -1,0 +1,5 @@
+(define s (WordSenseNode "malaprop%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "malapropism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misstatement%1:10:00::"))
+(define x (WordNode "malaprop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misstatement%1:10:00::"))

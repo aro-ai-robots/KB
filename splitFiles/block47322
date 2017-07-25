@@ -1,0 +1,7 @@
+(define s (WordSenseNode "discount_chain%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "discount_chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chain%1:14:02::"))
+(HolonymLink (WordSenseNode "discount_house%1:06:00::") s)
+(HolonymLink (WordSenseNode "discount_store%1:06:00::") s)
+(HolonymLink (WordSenseNode "discounter%1:06:00::") s)
+(HolonymLink (WordSenseNode "wholesale_house%1:06:00::") s)

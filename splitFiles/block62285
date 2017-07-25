@@ -1,0 +1,8 @@
+(define s (WordSenseNode "fissipedia%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Fissipedia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "placental%1:05:00::"))
+(InheritanceLink s (WordSenseNode "placental_mammal%1:05:00::"))
+(InheritanceLink s (WordSenseNode "eutherian%1:05:00::"))
+(InheritanceLink s (WordSenseNode "eutherian_mammal%1:05:00::"))
+(HolonymLink s (WordSenseNode "Eutheria%1:05:00::"))
+(HolonymLink s (WordSenseNode "subclass_Eutheria%1:05:00::"))

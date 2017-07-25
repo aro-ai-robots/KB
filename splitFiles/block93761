@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kuomintang%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kuomintang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "party%1:14:01::"))
+(InheritanceLink s (WordSenseNode "political_party%1:14:00::"))
+(define x (WordNode "Guomindang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "party%1:14:01::"))
+(InheritanceLink s (WordSenseNode "political_party%1:14:00::"))

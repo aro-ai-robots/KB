@@ -1,0 +1,5 @@
+(define s (WordSenseNode "common_nutcracker%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_nutcracker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nutcracker%1:05:00::"))
+(define x (WordNode "Nucifraga_caryocatactes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nutcracker%1:05:00::"))

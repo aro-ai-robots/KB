@@ -1,0 +1,8 @@
+(define s (WordSenseNode "force%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "force")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:07:00::"))
+(InheritanceLink (WordSenseNode "pressure%1:07:00::") s)
+(InheritanceLink (WordSenseNode "duress%1:07:00::") s)
+(InheritanceLink (WordSenseNode "heartbeat%1:07:00::") s)
+(InheritanceLink (WordSenseNode "lifeblood%1:07:00::") s)
+(InheritanceLink (WordSenseNode "wheel%1:07:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "id%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "id")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "instinct%1:09:00::"))
+(InheritanceLink s (WordSenseNode "inherent_aptitude%1:09:00::"))
+(HolonymLink s (WordSenseNode "unconscious_mind%1:09:00::"))
+(HolonymLink s (WordSenseNode "unconscious%1:09:00::"))

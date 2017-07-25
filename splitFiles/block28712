@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chant%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_song%1:10:00::"))
+(InheritanceLink (WordSenseNode "plainsong%1:10:00::") s)
+(InheritanceLink (WordSenseNode "plainchant%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Gregorian_chant%1:10:00::") s)

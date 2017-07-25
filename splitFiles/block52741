@@ -1,0 +1,7 @@
+(define s (WordSenseNode "electric_locomotive%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electric_locomotive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "locomotive%1:06:00::"))
+(InheritanceLink s (WordSenseNode "engine%1:06:01::"))
+(InheritanceLink s (WordSenseNode "locomotive_engine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "railway_locomotive%1:06:00::"))
+(HolonymLink (WordSenseNode "electric_motor%1:06:00::") s)

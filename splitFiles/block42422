@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dance%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:38:00::"))
+(InheritanceLink (WordSenseNode "glissade%2:38:00::") s)
+(InheritanceLink (WordSenseNode "chasse%2:38:00::") s)
+(InheritanceLink (WordSenseNode "sashay%2:38:02::") s)
+(InheritanceLink (WordSenseNode "capriole%2:38:00::") s)

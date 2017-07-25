@@ -1,0 +1,7 @@
+(define s (WordSenseNode "habitableness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "habitability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fitness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "fittingness%1:07:00::"))
+(define x (WordNode "habitableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fitness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "fittingness%1:07:00::"))

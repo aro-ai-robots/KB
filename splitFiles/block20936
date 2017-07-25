@@ -1,0 +1,6 @@
+(define s (WordSenseNode "breeches_buoy%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "breeches_buoy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "life_buoy%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lifesaver%1:06:00::"))
+(InheritanceLink s (WordSenseNode "life_belt%1:06:00::"))
+(InheritanceLink s (WordSenseNode "life_ring%1:06:00::"))

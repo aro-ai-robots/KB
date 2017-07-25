@@ -1,0 +1,4 @@
+(define s (WordSenseNode "incorrectly%4:02:01::")) (PartOfSpeechLink s adv)
+(define x (WordNode "incorrectly")) (WordSenseLink x s)
+(define x (WordNode "wrongly")) (WordSenseLink x s)
+(define x (WordNode "wrong")) (WordSenseLink x s)

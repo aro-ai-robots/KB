@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chemical_attraction%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "affinity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force%1:19:00::"))
+(define x (WordNode "chemical_attraction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force%1:19:00::"))

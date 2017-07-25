@@ -1,0 +1,5 @@
+(define s (WordSenseNode "descriptive_adjective%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "descriptive_adjective")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjective%1:10:00::"))
+(define x (WordNode "qualifying_adjective")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjective%1:10:00::"))

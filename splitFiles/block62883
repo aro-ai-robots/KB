@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flemish%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Flemish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Dutch%1:10:00::"))
+(define x (WordNode "Flemish_dialect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Dutch%1:10:00::"))

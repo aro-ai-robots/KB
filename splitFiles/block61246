@@ -1,0 +1,5 @@
+(define s (WordSenseNode "field_trial%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "field_trial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "test%1:04:00::"))
+(InheritanceLink s (WordSenseNode "trial%1:04:00::"))
+(InheritanceLink s (WordSenseNode "run%1:04:06::"))

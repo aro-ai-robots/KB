@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sura%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sura")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "section%1:10:00::"))
+(InheritanceLink s (WordSenseNode "subdivision%1:10:00::"))
+(HolonymLink s (WordSenseNode "Koran%1:10:00::"))
+(HolonymLink s (WordSenseNode "Quran%1:10:00::"))
+(HolonymLink s (WordSenseNode "al-Qur'an%1:10:00::"))
+(HolonymLink s (WordSenseNode "Book%1:10:05::"))

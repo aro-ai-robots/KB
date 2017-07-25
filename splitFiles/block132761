@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pudendum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pudendum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "genitalia%1:08:00::"))
+(InheritanceLink s (WordSenseNode "genital_organ%1:08:00::"))
+(InheritanceLink s (WordSenseNode "genitals%1:08:00::"))
+(InheritanceLink s (WordSenseNode "private_parts%1:08:00::"))
+(InheritanceLink s (WordSenseNode "privates%1:08:00::"))
+(InheritanceLink s (WordSenseNode "crotch%1:08:01::"))

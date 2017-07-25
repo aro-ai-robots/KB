@@ -1,0 +1,7 @@
+(define s (WordSenseNode "life_estate%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "life_estate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "estate%1:21:02::"))
+(InheritanceLink (WordSenseNode "dower%1:21:00::") s)
+(define x (WordNode "estate_for_life")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "estate%1:21:02::"))
+(InheritanceLink (WordSenseNode "dower%1:21:00::") s)

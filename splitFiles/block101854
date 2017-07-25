@@ -1,0 +1,5 @@
+(define s (WordSenseNode "male_hypogonadism%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "male_hypogonadism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypogonadism%1:26:00::"))
+(define x (WordNode "eunuchoidism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypogonadism%1:26:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cobbler's_last%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "last")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holding_device%1:06:00::"))
+(define x (WordNode "shoemaker's_last")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holding_device%1:06:00::"))
+(define x (WordNode "cobbler's_last")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holding_device%1:06:00::"))

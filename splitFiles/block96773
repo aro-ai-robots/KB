@@ -1,0 +1,7 @@
+(define s (WordSenseNode "letterpress%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "relief_printing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "printing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "printing_process%1:10:00::"))
+(define x (WordNode "letterpress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "printing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "printing_process%1:10:00::"))

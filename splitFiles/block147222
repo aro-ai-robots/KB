@@ -1,0 +1,5 @@
+(define s (WordSenseNode "seal_limbs%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phocomelia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meromelia%1:26:00::"))
+(define x (WordNode "seal_limbs")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meromelia%1:26:00::"))

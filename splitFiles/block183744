@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wind_power%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wind_generation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alternative_energy%1:19:00::"))
+(define x (WordNode "wind_power")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alternative_energy%1:19:00::"))

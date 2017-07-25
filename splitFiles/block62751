@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flatcar%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flatcar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "freight_car%1:06:00::"))
+(define x (WordNode "flatbed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "freight_car%1:06:00::"))
+(define x (WordNode "flat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "freight_car%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "thoracic_duct%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thoracic_duct")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lymph_vessel%1:08:00::"))
+(InheritanceLink s (WordSenseNode "lymphatic_vessel%1:08:00::"))
+(HolonymLink s (WordSenseNode "lymphatic_system%1:08:00::"))
+(HolonymLink s (WordSenseNode "systema_lymphaticum%1:08:00::"))

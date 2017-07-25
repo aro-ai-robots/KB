@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gentianella%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gentianella")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gentian%1:20:00::"))
+(define x (WordNode "Gentiana_acaulis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gentian%1:20:00::"))

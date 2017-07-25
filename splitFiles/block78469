@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hate_mail%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hate_mail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mail%1:14:00::"))
+(InheritanceLink s (WordSenseNode "post%1:14:00::"))

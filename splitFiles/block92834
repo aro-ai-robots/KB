@@ -1,0 +1,5 @@
+(define s (WordSenseNode "kilderkin%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kilderkin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "British_capacity_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "Imperial_capacity_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "firkin%1:23:00::") s)

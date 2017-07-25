@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stack%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "load%2:35:01::"))
+(InheritanceLink s (WordSenseNode "lade%2:35:01::"))
+(InheritanceLink s (WordSenseNode "laden%2:35:01::"))
+(InheritanceLink s (WordSenseNode "load_up%2:35:00::"))

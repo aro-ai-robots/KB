@@ -1,0 +1,7 @@
+(define s (WordSenseNode "craving%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "craving")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "desire%1:12:00::"))
+(InheritanceLink (WordSenseNode "appetite%1:12:00::") s)
+(InheritanceLink (WordSenseNode "appetency%1:12:00::") s)
+(InheritanceLink (WordSenseNode "appetence%1:12:00::") s)
+(InheritanceLink (WordSenseNode "addiction%1:12:00::") s)

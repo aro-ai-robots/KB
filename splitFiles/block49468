@@ -1,0 +1,4 @@
+(define s (WordSenseNode "down-and-out%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "down-and-out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "poor_person%1:18:00::"))
+(InheritanceLink s (WordSenseNode "have-not%1:18:00::"))

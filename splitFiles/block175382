@@ -1,0 +1,6 @@
+(define s (WordSenseNode "undoing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "undoing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "about-face%1:04:01::"))
+(InheritanceLink s (WordSenseNode "volte-face%1:04:00::"))
+(InheritanceLink s (WordSenseNode "reversal%1:04:05::"))
+(InheritanceLink s (WordSenseNode "policy_change%1:04:00::"))

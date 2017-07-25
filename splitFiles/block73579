@@ -1,0 +1,6 @@
+(define s (WordSenseNode "gnathostome%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gnathostome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vertebrate%1:05:00::"))
+(InheritanceLink s (WordSenseNode "craniate%1:05:00::"))
+(HolonymLink s (WordSenseNode "Gnathostomata%1:05:00::"))
+(HolonymLink s (WordSenseNode "superclass_Gnathostomata%1:05:00::"))

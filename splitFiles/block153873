@@ -1,0 +1,6 @@
+(define s (WordSenseNode "smart_card%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "smart_card")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "open-end_credit%1:21:00::"))
+(InheritanceLink s (WordSenseNode "revolving_credit%1:21:00::"))
+(InheritanceLink s (WordSenseNode "charge_account_credit%1:21:00::"))
+(InheritanceLink s (WordSenseNode "positive_identification%1:10:00::"))

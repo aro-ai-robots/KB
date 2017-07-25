@@ -1,0 +1,4 @@
+(define s (WordSenseNode "backspace%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "backspace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "type%2:32:00::"))
+(InheritanceLink s (WordSenseNode "typewrite%2:32:00::"))

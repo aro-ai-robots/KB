@@ -1,0 +1,4 @@
+(define s (WordSenseNode "redundancy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "redundancy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repetitiveness%1:10:00::"))
+(InheritanceLink s (WordSenseNode "repetitiousness%1:10:00::"))

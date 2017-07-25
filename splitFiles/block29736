@@ -1,0 +1,3 @@
+(define s (WordSenseNode "chicken_farm%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chicken_farm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "farm%1:06:00::"))

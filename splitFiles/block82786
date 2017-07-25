@@ -1,0 +1,7 @@
+(define s (WordSenseNode "http%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypertext_transfer_protocol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protocol%1:10:01::"))
+(InheritanceLink s (WordSenseNode "communications_protocol%1:10:00::"))
+(define x (WordNode "HTTP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protocol%1:10:01::"))
+(InheritanceLink s (WordSenseNode "communications_protocol%1:10:00::"))

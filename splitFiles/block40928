@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cul_de_sac%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cul")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:06:00::"))
+(define x (WordNode "cul_de_sac")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:06:00::"))
+(define x (WordNode "dead_end")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:06:00::"))

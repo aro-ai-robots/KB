@@ -1,0 +1,4 @@
+(define s (WordSenseNode "methylated_spirit%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "methylated_spirit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "denatured_alcohol%1:27:00::"))
+(InheritanceLink (WordSenseNode "surgical_spirit%1:27:00::") s)

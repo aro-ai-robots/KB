@@ -1,0 +1,4 @@
+(define s (WordSenseNode "next_of_kin%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "next_of_kin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relative%1:18:00::"))
+(InheritanceLink s (WordSenseNode "relation%1:18:00::"))

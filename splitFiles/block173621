@@ -1,0 +1,5 @@
+(define s (WordSenseNode "turbot%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "turbot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flounder%1:13:00::"))
+(HolonymLink s (WordSenseNode "turbot%1:05:00::"))
+(HolonymLink s (WordSenseNode "Psetta_maxima%1:05:00::"))

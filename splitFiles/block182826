@@ -1,0 +1,4 @@
+(define s (WordSenseNode "white_lie%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_lie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lie%1:10:00::"))
+(InheritanceLink s (WordSenseNode "prevarication%1:10:00::"))

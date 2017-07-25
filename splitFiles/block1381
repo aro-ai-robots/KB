@@ -1,0 +1,6 @@
+(define s (WordSenseNode "achromatin%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "achromatin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_substance%1:08:00::"))
+(HolonymLink s (WordSenseNode "nucleus%1:08:00::"))
+(HolonymLink s (WordSenseNode "cell_nucleus%1:08:00::"))
+(HolonymLink s (WordSenseNode "karyon%1:08:00::"))

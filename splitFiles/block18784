@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bodkin%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "poniard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dagger%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sticker%1:06:00::"))
+(define x (WordNode "bodkin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dagger%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sticker%1:06:00::"))

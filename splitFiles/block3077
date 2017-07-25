@@ -1,0 +1,7 @@
+(define s (WordSenseNode "agave_tequilana%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Agave_tequilana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agave%1:20:00::"))
+(InheritanceLink s (WordSenseNode "century_plant%1:20:00::"))
+(InheritanceLink s (WordSenseNode "American_aloe%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Agave%1:20:00::"))
+(HolonymLink (WordSenseNode "tequila%1:13:00::") s)

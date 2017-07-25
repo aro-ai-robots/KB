@@ -1,0 +1,7 @@
+(define s (WordSenseNode "service_agency%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "service_agency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agency%1:14:01::"))
+(define x (WordNode "service_bureau")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agency%1:14:01::"))
+(define x (WordNode "service_firm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agency%1:14:01::"))

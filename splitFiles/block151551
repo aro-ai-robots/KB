@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sign%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gesture%1:10:00::"))
+(InheritanceLink s (WordSenseNode "motion%1:10:00::"))
+(HolonymLink s (WordSenseNode "sign_language%1:10:00::"))
+(HolonymLink s (WordSenseNode "signing%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "great-niece%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "great-niece")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "niece%1:18:00::"))
+(define x (WordNode "grandniece")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "niece%1:18:00::"))

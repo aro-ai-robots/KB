@@ -1,0 +1,5 @@
+(define s (WordSenseNode "active_agent%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "active_agent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_agent%1:27:00::"))
+(define x (WordNode "active")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_agent%1:27:00::"))

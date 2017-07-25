@@ -1,0 +1,7 @@
+(define s (WordSenseNode "call_mark%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "call_mark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mark%1:10:00::"))
+(define x (WordNode "call_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mark%1:10:00::"))
+(define x (WordNode "pressmark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mark%1:10:00::"))

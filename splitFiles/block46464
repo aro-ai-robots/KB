@@ -1,0 +1,5 @@
+(define s (WordSenseNode "digital-analog_converter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "digital-analog_converter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "data_converter%1:06:00::"))
+(define x (WordNode "digital-to-analog_converter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "data_converter%1:06:00::"))

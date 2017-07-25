@@ -1,0 +1,4 @@
+(define s (WordSenseNode "curling_iron%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "curling_iron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "home_appliance%1:06:00::"))
+(InheritanceLink s (WordSenseNode "household_appliance%1:06:00::"))

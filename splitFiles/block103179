@@ -1,0 +1,6 @@
+(define s (WordSenseNode "marrowbone%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "marrowbone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bone%1:08:00::"))
+(InheritanceLink s (WordSenseNode "os%1:08:00::"))
+(HolonymLink (WordSenseNode "marrow%1:13:02::") s)
+(HolonymLink (WordSenseNode "bone_marrow%1:13:00::") s)

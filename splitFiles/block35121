@@ -1,0 +1,7 @@
+(define s (WordSenseNode "company%1:14:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "company")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "army_unit%1:14:00::"))
+(InheritanceLink (WordSenseNode "trainband%1:14:00::") s)
+(HolonymLink s (WordSenseNode "battalion%1:14:00::"))
+(HolonymLink s (WordSenseNode "battle_group%1:14:00::"))
+(HolonymLink (WordSenseNode "platoon%1:14:00::") s)

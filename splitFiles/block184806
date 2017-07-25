@@ -1,0 +1,7 @@
+(define s (WordSenseNode "workday%1:28:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "workday")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weekday%1:28:00::"))
+(define x (WordNode "working_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weekday%1:28:00::"))
+(define x (WordNode "work_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weekday%1:28:00::"))

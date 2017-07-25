@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genova%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Genoa")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Liguria%1:15:00::"))
+(HolonymLink (WordSenseNode "Genoese%1:18:00::") s)
+(define x (WordNode "Genova")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Liguria%1:15:00::"))
+(HolonymLink (WordSenseNode "Genoese%1:18:00::") s)

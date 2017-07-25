@@ -1,0 +1,5 @@
+(define s (WordSenseNode "atheism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "atheism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_orientation%1:09:00::"))
+(define x (WordNode "godlessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_orientation%1:09:00::"))

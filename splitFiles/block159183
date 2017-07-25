@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stationary_wave%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "standing_wave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:11:00::"))
+(InheritanceLink s (WordSenseNode "undulation%1:11:00::"))
+(define x (WordNode "stationary_wave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:11:00::"))
+(InheritanceLink s (WordSenseNode "undulation%1:11:00::"))

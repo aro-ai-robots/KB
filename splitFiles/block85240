@@ -1,0 +1,4 @@
+(define s (WordSenseNode "import_duty%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "import_duty")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "duty%1:21:00::"))
+(InheritanceLink s (WordSenseNode "tariff%1:21:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spoil%2:37:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "itch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "desire%2:37:00::"))
+(InheritanceLink s (WordSenseNode "want%2:37:00::"))
+(define x (WordNode "spoil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "desire%2:37:00::"))
+(InheritanceLink s (WordSenseNode "want%2:37:00::"))

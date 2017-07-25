@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gallicism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Gallicism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loanword%1:10:00::"))
+(InheritanceLink s (WordSenseNode "loan%1:10:00::"))

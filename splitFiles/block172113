@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tree_swallow%1:05:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white-bellied_swallow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swallow%1:05:00::"))
+(define x (WordNode "tree_swallow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swallow%1:05:00::"))
+(define x (WordNode "Iridoprocne_bicolor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swallow%1:05:00::"))

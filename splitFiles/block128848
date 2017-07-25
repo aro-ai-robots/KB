@@ -1,0 +1,5 @@
+(define s (WordSenseNode "postcava%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inferior_vena_cava")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vena_cava%1:08:00::"))
+(define x (WordNode "postcava")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vena_cava%1:08:00::"))

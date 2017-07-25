@@ -1,0 +1,6 @@
+(define s (WordSenseNode "keel%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "keel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carina%1:08:00::"))
+(HolonymLink s (WordSenseNode "carinate%1:05:00::"))
+(HolonymLink s (WordSenseNode "carinate_bird%1:05:00::"))
+(HolonymLink s (WordSenseNode "flying_bird%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "join_battle%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "join_battle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contend%2:33:01::"))
+(InheritanceLink s (WordSenseNode "fight%2:33:00::"))
+(InheritanceLink s (WordSenseNode "struggle%2:33:00::"))

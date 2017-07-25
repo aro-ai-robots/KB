@@ -1,0 +1,6 @@
+(define s (WordSenseNode "flathead%1:05:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flathead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scorpaenoid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "scorpaenoid_fish%1:05:00::"))
+(HolonymLink s (WordSenseNode "Platycephalidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Platycephalidae%1:05:00::"))

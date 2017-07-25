@@ -1,0 +1,8 @@
+(define s (WordSenseNode "zamia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "zamia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cycad%1:20:00::"))
+(InheritanceLink (WordSenseNode "coontie%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Florida_arrowroot%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Seminole_bread%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Zamia_pumila%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Zamia%1:20:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "afterimage%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "afterimage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "memory_image%1:09:00::"))
+(InheritanceLink (WordSenseNode "aftertaste%1:09:00::") s)
+(define x (WordNode "aftersensation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "memory_image%1:09:00::"))
+(InheritanceLink (WordSenseNode "aftertaste%1:09:00::") s)

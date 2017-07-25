@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spinal_fusion%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "correction%1:04:01::"))
+(define x (WordNode "spinal_fusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "correction%1:04:01::"))

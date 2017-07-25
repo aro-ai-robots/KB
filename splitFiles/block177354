@@ -1,0 +1,6 @@
+(define s (WordSenseNode "usualness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "usualness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commonness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "commonplaceness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "everydayness%1:07:00::"))
+(InheritanceLink (WordSenseNode "familiarity%1:07:01::") s)

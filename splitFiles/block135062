@@ -1,0 +1,4 @@
+(define s (WordSenseNode "radiopharmaceutical%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radiopharmaceutical")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pharmaceutical%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pharmaceutic%1:06:00::"))

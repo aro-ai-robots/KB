@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pansy%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pansy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "viola%1:20:00::"))
+(define x (WordNode "Viola_tricolor_hortensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "viola%1:20:00::"))

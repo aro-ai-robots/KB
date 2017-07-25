@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cartridge_ejector%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cartridge_ejector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanism%1:06:00::"))
+(HolonymLink s (WordSenseNode "gun%1:06:00::"))
+(define x (WordNode "ejector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanism%1:06:00::"))
+(HolonymLink s (WordSenseNode "gun%1:06:00::"))

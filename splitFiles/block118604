@@ -1,0 +1,6 @@
+(define s (WordSenseNode "overburden%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overburden")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "burden%2:35:00::"))
+(InheritanceLink s (WordSenseNode "burthen%2:35:00::"))
+(InheritanceLink s (WordSenseNode "weight%2:35:00::"))
+(InheritanceLink s (WordSenseNode "weight_down%2:35:00::"))

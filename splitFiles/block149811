@@ -1,0 +1,4 @@
+(define s (WordSenseNode "shape_constancy%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shape_constancy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constancy%1:09:00::"))
+(InheritanceLink s (WordSenseNode "perceptual_constancy%1:09:00::"))

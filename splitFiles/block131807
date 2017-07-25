@@ -1,0 +1,7 @@
+(define s (WordSenseNode "prosodion%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "processional")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_music%1:10:00::"))
+(InheritanceLink s (WordSenseNode "church_music%1:10:00::"))
+(define x (WordNode "prosodion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_music%1:10:00::"))
+(InheritanceLink s (WordSenseNode "church_music%1:10:00::"))

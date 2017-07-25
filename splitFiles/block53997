@@ -1,0 +1,4 @@
+(define s (WordSenseNode "endowment_insurance%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "endowment_insurance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "life_insurance%1:21:00::"))
+(InheritanceLink s (WordSenseNode "life_assurance%1:21:00::"))

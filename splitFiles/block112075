@@ -1,0 +1,6 @@
+(define s (WordSenseNode "nephelinite%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nephelinite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mineral%1:27:00::"))
+(HolonymLink (WordSenseNode "nepheline%1:27:00::") s)
+(HolonymLink (WordSenseNode "nephelite%1:27:00::") s)
+(HolonymLink (WordSenseNode "pyroxene%1:27:00::") s)

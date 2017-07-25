@@ -1,0 +1,5 @@
+(define s (WordSenseNode "concert-goer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concert-goer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consumer%1:18:00::"))
+(define x (WordNode "music_lover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consumer%1:18:00::"))

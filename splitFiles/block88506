@@ -1,0 +1,6 @@
+(define s (WordSenseNode "introversion%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "introversion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unsociability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "unsociableness%1:07:00::"))
+(InheritanceLink (WordSenseNode "inwardness%1:07:02::") s)
+(InheritanceLink (WordSenseNode "internality%1:07:00::") s)

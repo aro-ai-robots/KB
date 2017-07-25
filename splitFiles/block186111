@@ -1,0 +1,7 @@
+(define s (WordSenseNode "yugoslavian_dinar%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Yugoslavian_dinar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Yugoslavian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "para%1:23:00::") s)
+(define x (WordNode "dinar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Yugoslavian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "para%1:23:00::") s)

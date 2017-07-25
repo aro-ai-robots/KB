@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pier_glass%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pier_glass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mirror%1:06:00::"))
+(define x (WordNode "pier_mirror")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mirror%1:06:00::"))

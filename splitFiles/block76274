@@ -1,0 +1,7 @@
+(define s (WordSenseNode "guava%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "guava")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edible_fruit%1:13:00::"))
+(HolonymLink s (WordSenseNode "guava%1:20:01::"))
+(HolonymLink s (WordSenseNode "true_guava%1:20:00::"))
+(HolonymLink s (WordSenseNode "guava_bush%1:20:00::"))
+(HolonymLink s (WordSenseNode "Psidium_guajava%1:20:00::"))

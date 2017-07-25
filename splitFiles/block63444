@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fluorapatite%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fluorapatite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "apatite%1:27:00::"))
+(HolonymLink (WordSenseNode "fluorine%1:27:00::") s)
+(HolonymLink (WordSenseNode "F%1:27:00::") s)
+(HolonymLink (WordSenseNode "atomic_number_9%1:27:00::") s)

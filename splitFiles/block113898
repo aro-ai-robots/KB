@@ -1,0 +1,7 @@
+(define s (WordSenseNode "norman-french%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Norman-French")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "French%1:10:00::"))
+(define x (WordNode "Norman_French")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "French%1:10:00::"))
+(define x (WordNode "Old_North_French")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "French%1:10:00::"))

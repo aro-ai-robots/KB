@@ -1,0 +1,5 @@
+(define s (WordSenseNode "kaaba%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kaaba")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Mecca%1:15:00::"))
+(define x (WordNode "Caaba")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Mecca%1:15:00::"))

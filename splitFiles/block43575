@@ -1,0 +1,5 @@
+(define s (WordSenseNode "decoction_mashing%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decoction_process")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boiling%1:22:00::"))
+(define x (WordNode "decoction_mashing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boiling%1:22:00::"))

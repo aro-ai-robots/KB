@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_treponema%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Treponema")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Treponemataceae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Treponemataceae%1:05:00::"))
+(HolonymLink (WordSenseNode "treponema%1:05:00::") s)

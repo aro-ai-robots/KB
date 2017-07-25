@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hydrarthrosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hydrarthrosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflammation%1:26:00::"))
+(InheritanceLink s (WordSenseNode "redness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "rubor%1:26:00::"))
+(InheritanceLink (WordSenseNode "water_on_the_knee%1:26:00::") s)

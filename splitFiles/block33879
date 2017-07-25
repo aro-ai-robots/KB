@@ -1,0 +1,4 @@
+(define s (WordSenseNode "collimator%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "collimator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telescope%1:06:00::"))
+(InheritanceLink s (WordSenseNode "scope%1:06:02::"))

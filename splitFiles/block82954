@@ -1,0 +1,5 @@
+(define s (WordSenseNode "human_immunodeficiency_virus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "human_immunodeficiency_virus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retrovirus%1:05:00::"))
+(define x (WordNode "HIV")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retrovirus%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drove_chisel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chisel%1:06:00::"))
+(define x (WordNode "drove_chisel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chisel%1:06:00::"))

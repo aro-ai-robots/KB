@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transmittance%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transmittance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))
+(define x (WordNode "transmission")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "right_hemisphere%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "right_hemisphere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hemisphere%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cerebral_hemisphere%1:08:00::"))
+(define x (WordNode "right_brain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hemisphere%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cerebral_hemisphere%1:08:00::"))

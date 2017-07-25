@@ -1,0 +1,7 @@
+(define s (WordSenseNode "credit_hour%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "semester_hour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "credit%1:04:00::"))
+(InheritanceLink s (WordSenseNode "course_credit%1:04:00::"))
+(define x (WordNode "credit_hour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "credit%1:04:00::"))
+(InheritanceLink s (WordSenseNode "course_credit%1:04:00::"))

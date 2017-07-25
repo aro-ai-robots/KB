@@ -1,0 +1,5 @@
+(define s (WordSenseNode "litmus_paper%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "litmus_paper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paper%1:27:00::"))
+(HolonymLink (WordSenseNode "litmus%1:27:00::") s)
+(HolonymLink (WordSenseNode "litmus_test%1:27:00::") s)

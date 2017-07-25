@@ -1,0 +1,5 @@
+(define s (WordSenseNode "radial_pulse%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radial_pulse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pulse%1:28:00::"))
+(InheritanceLink s (WordSenseNode "pulse_rate%1:28:00::"))
+(InheritanceLink s (WordSenseNode "heart_rate%1:28:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "background_knowledge%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "background")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information%1:09:00::"))
+(define x (WordNode "background_knowledge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information%1:09:00::"))

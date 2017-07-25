@@ -1,0 +1,6 @@
+(define s (WordSenseNode "brokerage_account%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brokerage_account")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "account%1:26:00::"))
+(InheritanceLink s (WordSenseNode "business_relationship%1:26:00::"))
+(InheritanceLink (WordSenseNode "cash_account%1:21:00::") s)
+(InheritanceLink (WordSenseNode "margin_account%1:21:00::") s)

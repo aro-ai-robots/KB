@@ -1,0 +1,8 @@
+(define s (WordSenseNode "blow%2:43:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "blow")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "breeze%2:43:00::") s)
+(InheritanceLink (WordSenseNode "set_in%2:43:00::") s)
+(InheritanceLink (WordSenseNode "waft%2:43:00::") s)
+(InheritanceLink (WordSenseNode "storm%2:43:00::") s)
+(InheritanceLink (WordSenseNode "squall%2:43:00::") s)
+(InheritanceLink (WordSenseNode "bluster%2:43:00::") s)

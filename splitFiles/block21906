@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bubble%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bubble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "globule%1:17:00::"))
+(InheritanceLink (WordSenseNode "air_bubble%1:17:00::") s)
+(InheritanceLink (WordSenseNode "foam%1:17:00::") s)
+(InheritanceLink (WordSenseNode "froth%1:17:00::") s)
+(InheritanceLink (WordSenseNode "soap_bubble%1:17:00::") s)

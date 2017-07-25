@@ -1,0 +1,8 @@
+(define s (WordSenseNode "snow%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "snow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "layer%1:15:00::"))
+(InheritanceLink (WordSenseNode "corn_snow%1:27:00::") s)
+(InheritanceLink (WordSenseNode "crud%1:27:01::") s)
+(HolonymLink s (WordSenseNode "snowball%1:06:00::"))
+(HolonymLink (WordSenseNode "snowflake%1:19:00::") s)
+(HolonymLink (WordSenseNode "flake%1:19:00::") s)

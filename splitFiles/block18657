@@ -1,0 +1,7 @@
+(define s (WordSenseNode "boarding_pass%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boarding_card")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pass%1:10:03::"))
+(InheritanceLink s (WordSenseNode "laissez_passer%1:10:00::"))
+(define x (WordNode "boarding_pass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pass%1:10:03::"))
+(InheritanceLink s (WordSenseNode "laissez_passer%1:10:00::"))

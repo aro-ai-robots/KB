@@ -1,0 +1,7 @@
+(define s (WordSenseNode "slender_loris%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "slender_loris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lemur%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Loris%1:05:00::"))
+(define x (WordNode "Loris_gracilis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lemur%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Loris%1:05:00::"))

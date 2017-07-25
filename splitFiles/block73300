@@ -1,0 +1,5 @@
+(define s (WordSenseNode "global_climate_change%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "climate_change")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature_change%1:22:00::"))
+(define x (WordNode "global_climate_change")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature_change%1:22:00::"))

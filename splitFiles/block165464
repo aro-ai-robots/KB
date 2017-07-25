@@ -1,0 +1,7 @@
+(define s (WordSenseNode "takeover_target%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "target_company")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "company%1:14:01::"))
+(InheritanceLink (WordSenseNode "sleeping_beauty%1:14:00::") s)
+(define x (WordNode "takeover_target")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "company%1:14:01::"))
+(InheritanceLink (WordSenseNode "sleeping_beauty%1:14:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cynopterus_sphinx%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cynopterus_sphinx")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fruit_bat%1:05:00::"))
+(InheritanceLink s (WordSenseNode "megabat%1:05:00::"))
+(HolonymLink s (WordSenseNode "Cynopterus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Cynopterus%1:05:00::"))

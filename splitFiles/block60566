@@ -1,0 +1,5 @@
+(define s (WordSenseNode "felled_seam%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seam%1:06:00::"))
+(define x (WordNode "felled_seam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seam%1:06:00::"))

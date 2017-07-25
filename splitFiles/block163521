@@ -1,0 +1,5 @@
+(define s (WordSenseNode "surrebutter%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "surrebutter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pleading%1:10:00::"))
+(define x (WordNode "surrebuttal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pleading%1:10:00::"))

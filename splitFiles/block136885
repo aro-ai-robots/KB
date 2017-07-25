@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reconstitute%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "restructure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%2:30:00::"))
+(define x (WordNode "reconstitute")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%2:30:00::"))

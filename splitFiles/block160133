@@ -1,0 +1,8 @@
+(define s (WordSenseNode "stock%2:40:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "supply%2:40:00::"))
+(InheritanceLink s (WordSenseNode "provide%2:40:00::"))
+(InheritanceLink s (WordSenseNode "render%2:40:02::"))
+(InheritanceLink s (WordSenseNode "furnish%2:40:00::"))
+(InheritanceLink (WordSenseNode "plant%2:40:00::") s)
+(InheritanceLink (WordSenseNode "restock%2:40:00::") s)

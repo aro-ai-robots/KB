@@ -1,0 +1,7 @@
+(define s (WordSenseNode "centralisation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "centralization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gather%1:04:00::"))
+(InheritanceLink s (WordSenseNode "gathering%1:04:01::"))
+(define x (WordNode "centralisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gather%1:04:00::"))
+(InheritanceLink s (WordSenseNode "gathering%1:04:01::"))

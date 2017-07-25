@@ -1,0 +1,5 @@
+(define s (WordSenseNode "common_knowledge%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_knowledge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_knowledge%1:09:00::"))
+(InheritanceLink s (WordSenseNode "general_knowledge%1:09:00::"))
+(InheritanceLink (WordSenseNode "ancient_history%1:09:00::") s)

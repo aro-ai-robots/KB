@@ -1,0 +1,8 @@
+(define s (WordSenseNode "purge%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "purge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acquit%2:32:00::"))
+(InheritanceLink s (WordSenseNode "assoil%2:32:01::"))
+(InheritanceLink s (WordSenseNode "clear%2:32:00::"))
+(InheritanceLink s (WordSenseNode "discharge%2:32:00::"))
+(InheritanceLink s (WordSenseNode "exonerate%2:32:00::"))
+(InheritanceLink s (WordSenseNode "exculpate%2:32:00::"))

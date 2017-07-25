@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nitrate_bacterium%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nitrate_bacterium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nitrobacterium%1:05:00::"))
+(define x (WordNode "nitric_bacterium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nitrobacterium%1:05:00::"))

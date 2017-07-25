@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mushroom_cloud%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mushroom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:19:01::"))
+(define x (WordNode "mushroom_cloud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:19:01::"))
+(define x (WordNode "mushroom-shaped_cloud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:19:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "laxity%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laxness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "status%1:26:01::"))
+(define x (WordNode "laxity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "status%1:26:01::"))

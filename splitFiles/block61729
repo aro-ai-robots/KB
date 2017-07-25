@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fineness%1:07:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fineness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "superiority%1:07:00::"))
+(InheritanceLink s (WordSenseNode "high_quality%1:07:00::"))
+(define x (WordNode "choiceness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "superiority%1:07:00::"))
+(InheritanceLink s (WordSenseNode "high_quality%1:07:00::"))

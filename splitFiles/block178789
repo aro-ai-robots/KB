@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vertebral_arch%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neural_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arch%1:08:00::"))
+(HolonymLink s (WordSenseNode "centrum%1:08:00::"))
+(define x (WordNode "vertebral_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arch%1:08:00::"))
+(HolonymLink s (WordSenseNode "centrum%1:08:00::"))

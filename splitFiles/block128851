@@ -1,0 +1,4 @@
+(define s (WordSenseNode "postdate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "postdate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chronologize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "chronologise%2:30:00::"))

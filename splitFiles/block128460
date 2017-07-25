@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pork-and-veal_goulash%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pork-and-veal_goulash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goulash%1:13:00::"))
+(InheritanceLink s (WordSenseNode "Hungarian_goulash%1:13:00::"))
+(InheritanceLink s (WordSenseNode "gulyas%1:13:00::"))

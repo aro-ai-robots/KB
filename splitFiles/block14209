@@ -1,0 +1,4 @@
+(define s (WordSenseNode "batch_processing%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "batch_processing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "execution%1:22:00::"))
+(InheritanceLink s (WordSenseNode "instruction_execution%1:22:00::"))

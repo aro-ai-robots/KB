@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shigella_dysentariae%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shiga_bacillus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shigella%1:05:00::"))
+(define x (WordNode "Shigella_dysentariae")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shigella%1:05:00::"))

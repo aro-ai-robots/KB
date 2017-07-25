@@ -1,0 +1,7 @@
+(define s (WordSenseNode "armored_scale%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "armored_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scale_insect%1:05:00::"))
+(InheritanceLink (WordSenseNode "San_Jose_scale%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Aspidiotus_perniciosus%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Diaspididae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Diaspididae%1:05:00::"))

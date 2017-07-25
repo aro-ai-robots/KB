@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_crocus%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Crocus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liliid_monocot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Iridaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Iridaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "iris_family%1:20:00::"))
+(HolonymLink (WordSenseNode "crocus%1:20:00::") s)

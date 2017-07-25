@@ -1,0 +1,5 @@
+(define s (WordSenseNode "footboard%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "footboard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "panel%1:06:00::"))
+(HolonymLink s (WordSenseNode "bedstead%1:06:00::"))
+(HolonymLink s (WordSenseNode "bedframe%1:06:00::"))

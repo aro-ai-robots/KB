@@ -1,0 +1,4 @@
+(define s (WordSenseNode "moneymaker%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moneymaker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capitalist%1:18:00::"))
+(InheritanceLink (WordSenseNode "moneygrubber%1:18:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gorgon%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Gorgon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mythical_monster%1:18:00::"))
+(InheritanceLink s (WordSenseNode "mythical_creature%1:18:00::"))
+(InheritanceLink (WordSenseNode "Medusa%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Stheno%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Euryale%1:18:00::") s)

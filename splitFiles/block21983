@@ -1,0 +1,8 @@
+(define s (WordSenseNode "bucket%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bucket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "put%2:35:00::"))
+(InheritanceLink s (WordSenseNode "set%2:35:00::"))
+(InheritanceLink s (WordSenseNode "place%2:35:00::"))
+(InheritanceLink s (WordSenseNode "pose%2:35:02::"))
+(InheritanceLink s (WordSenseNode "position%2:35:00::"))
+(InheritanceLink s (WordSenseNode "lay%2:35:01::"))

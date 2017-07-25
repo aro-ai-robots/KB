@@ -1,0 +1,4 @@
+(define s (WordSenseNode "naira%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "naira")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Nigerian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "kobo%1:23:00::") s)

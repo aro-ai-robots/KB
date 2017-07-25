@@ -1,0 +1,6 @@
+(define s (WordSenseNode "peck%1:23:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "peck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "United_States_dry_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "bushel%1:23:02::"))
+(HolonymLink (WordSenseNode "quart%1:23:03::") s)
+(HolonymLink (WordSenseNode "dry_quart%1:23:00::") s)

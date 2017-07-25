@@ -1,0 +1,5 @@
+(define s (WordSenseNode "parallel_processing%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "multiprocessing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "data_processing%1:22:00::"))
+(define x (WordNode "parallel_processing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "data_processing%1:22:00::"))

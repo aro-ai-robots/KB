@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nifedipine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nifedipine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "calcium_blocker%1:06:00::"))
+(InheritanceLink s (WordSenseNode "calcium-channel_blocker%1:06:00::"))
+(define x (WordNode "Procardia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "calcium_blocker%1:06:00::"))
+(InheritanceLink s (WordSenseNode "calcium-channel_blocker%1:06:00::"))

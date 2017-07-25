@@ -1,0 +1,6 @@
+(define s (WordSenseNode "figwort%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "figwort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "woody_plant%1:20:00::"))
+(InheritanceLink s (WordSenseNode "ligneous_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "Scrophularia%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Scrophularia%1:20:00::"))

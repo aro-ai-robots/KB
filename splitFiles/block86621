@@ -1,0 +1,5 @@
+(define s (WordSenseNode "inessentiality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inessentiality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unimportance%1:07:00::"))
+(InheritanceLink (WordSenseNode "dispensability%1:07:00::") s)
+(InheritanceLink (WordSenseNode "dispensableness%1:07:00::") s)

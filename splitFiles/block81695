@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hominoid%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hominoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "primate%1:05:00::"))
+(InheritanceLink (WordSenseNode "proconsul%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Aegyptopithecus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Algeripithecus_minutus%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Hominoidea%1:05:00::"))
+(HolonymLink s (WordSenseNode "superfamily_Hominoidea%1:05:00::"))

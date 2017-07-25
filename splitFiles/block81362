@@ -1,0 +1,4 @@
+(define s (WordSenseNode "holding_company%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "holding_company")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "company%1:14:01::"))
+(InheritanceLink (WordSenseNode "bank_holding_company%1:14:00::") s)

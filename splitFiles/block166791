@@ -1,0 +1,7 @@
+(define s (WordSenseNode "telephone_plug%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "telephone_plug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plug%1:06:03::"))
+(InheritanceLink s (WordSenseNode "male_plug%1:06:00::"))
+(define x (WordNode "phone_plug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plug%1:06:03::"))
+(InheritanceLink s (WordSenseNode "male_plug%1:06:00::"))

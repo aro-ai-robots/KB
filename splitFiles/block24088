@@ -1,0 +1,4 @@
+(define s (WordSenseNode "call_waiting%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "call_waiting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telephone%1:10:00::"))
+(InheritanceLink s (WordSenseNode "telephony%1:10:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mastiff_bat%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mastiff_bat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carnivorous_bat%1:05:00::"))
+(InheritanceLink s (WordSenseNode "microbat%1:05:00::"))
+(HolonymLink s (WordSenseNode "Eumops%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Eumops%1:05:00::"))

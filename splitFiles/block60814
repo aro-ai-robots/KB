@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ferris_wheel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ferris_wheel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rotating_mechanism%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ride%1:06:00::"))

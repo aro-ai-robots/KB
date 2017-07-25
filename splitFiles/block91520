@@ -1,0 +1,7 @@
+(define s (WordSenseNode "juicer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reamer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "squeezer%1:06:00::"))
+(define x (WordNode "juicer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "squeezer%1:06:00::"))
+(define x (WordNode "juice_reamer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "squeezer%1:06:00::"))

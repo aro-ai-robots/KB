@@ -1,0 +1,7 @@
+(define s (WordSenseNode "unbalance%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "imbalance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disequilibrium%1:26:00::"))
+(define x (WordNode "instability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disequilibrium%1:26:00::"))
+(define x (WordNode "unbalance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disequilibrium%1:26:00::"))

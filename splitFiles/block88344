@@ -1,0 +1,4 @@
+(define s (WordSenseNode "intestinal_flora%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intestinal_flora")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "microorganism%1:05:00::"))
+(InheritanceLink s (WordSenseNode "micro-organism%1:05:00::"))

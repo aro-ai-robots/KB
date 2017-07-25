@@ -1,0 +1,7 @@
+(define s (WordSenseNode "commend%2:32:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "commend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "entrust%2:40:00::"))
+(InheritanceLink s (WordSenseNode "intrust%2:40:00::"))
+(InheritanceLink s (WordSenseNode "trust%2:40:00::"))
+(InheritanceLink s (WordSenseNode "confide%2:40:00::"))
+(InheritanceLink s (WordSenseNode "commit%2:40:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tier%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))
+(define x (WordNode "tier_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))

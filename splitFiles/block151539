@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sigmoid_colon%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sigmoid_colon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colon%1:08:00::"))
+(HolonymLink s (WordSenseNode "large_intestine%1:08:00::"))
+(define x (WordNode "sigmoid_flexure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colon%1:08:00::"))
+(HolonymLink s (WordSenseNode "large_intestine%1:08:00::"))

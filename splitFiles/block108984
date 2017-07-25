@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mother_lode%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mother_lode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lode%1:19:00::"))
+(InheritanceLink s (WordSenseNode "load%1:19:00::"))
+(define x (WordNode "champion_lode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lode%1:19:00::"))
+(InheritanceLink s (WordSenseNode "load%1:19:00::"))

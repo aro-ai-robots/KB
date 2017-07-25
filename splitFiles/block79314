@@ -1,0 +1,5 @@
+(define s (WordSenseNode "heedfulness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mindfulness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attentiveness%1:07:01::"))
+(define x (WordNode "heedfulness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attentiveness%1:07:01::"))

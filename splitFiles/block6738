@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ankle_bracelet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anklet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bracelet%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bangle%1:06:01::"))
+(define x (WordNode "ankle_bracelet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bracelet%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bangle%1:06:01::"))

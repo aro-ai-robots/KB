@@ -1,0 +1,7 @@
+(define s (WordSenseNode "type_specimen%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "type_specimen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "model%1:09:02::"))
+(InheritanceLink s (WordSenseNode "example%1:09:02::"))
+(define x (WordNode "holotype")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "model%1:09:02::"))
+(InheritanceLink s (WordSenseNode "example%1:09:02::"))

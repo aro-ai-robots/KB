@@ -1,0 +1,5 @@
+(define s (WordSenseNode "footfault%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "footfault")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fault%1:04:01::"))
+(HolonymLink s (WordSenseNode "tennis%1:04:00::"))
+(HolonymLink s (WordSenseNode "lawn_tennis%1:04:00::"))

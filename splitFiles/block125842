@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pitcher%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pitcher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))
+(define x (WordNode "pitcherful")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))

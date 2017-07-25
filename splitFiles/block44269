@@ -1,0 +1,5 @@
+(define s (WordSenseNode "delinquency%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "delinquency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nonpayment%1:21:00::"))
+(InheritanceLink s (WordSenseNode "default%1:21:00::"))
+(InheritanceLink s (WordSenseNode "nonremittal%1:21:00::"))

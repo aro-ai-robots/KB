@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bar_mitzvah%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bar_mitzvah")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "initiation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "induction%1:11:00::"))
+(InheritanceLink s (WordSenseNode "installation%1:11:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gangliocyte%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ganglion_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "neuron%1:08:00::"))
+(define x (WordNode "gangliocyte")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "neuron%1:08:00::"))

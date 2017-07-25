@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sigmoidoscopy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sigmoidoscopy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endoscopy%1:04:00::"))
+(define x (WordNode "flexible_sigmoidoscopy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endoscopy%1:04:00::"))

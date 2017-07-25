@@ -1,0 +1,5 @@
+(define s (WordSenseNode "homogeneous_polynomial%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "homogeneous_polynomial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polynomial%1:09:00::"))
+(InheritanceLink s (WordSenseNode "multinomial%1:09:00::"))
+(InheritanceLink (WordSenseNode "quantic%1:09:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "induced_abortion%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "induced_abortion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abortion%1:04:00::"))
+(InheritanceLink (WordSenseNode "aborticide%1:04:00::") s)
+(InheritanceLink (WordSenseNode "feticide%1:04:00::") s)
+(InheritanceLink (WordSenseNode "therapeutic_abortion%1:04:00::") s)
+(InheritanceLink (WordSenseNode "suction_curettage%1:04:00::") s)
+(InheritanceLink (WordSenseNode "vacuum_aspiration%1:04:00::") s)

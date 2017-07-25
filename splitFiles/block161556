@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stupefaction%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stupefaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astonishment%1:12:00::"))
+(InheritanceLink s (WordSenseNode "amazement%1:12:00::"))
+(InheritanceLink (WordSenseNode "daze%1:12:00::") s)
+(InheritanceLink (WordSenseNode "shock%1:12:01::") s)
+(InheritanceLink (WordSenseNode "stupor%1:12:00::") s)

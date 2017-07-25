@@ -1,0 +1,4 @@
+(define s (WordSenseNode "shift%2:32:04::")) (PartOfSpeechLink s verb)
+(define x (WordNode "shift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "type%2:32:00::"))
+(InheritanceLink s (WordSenseNode "typewrite%2:32:00::"))

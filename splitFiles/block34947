@@ -1,0 +1,7 @@
+(define s (WordSenseNode "commonality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commonality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "generality%1:07:00::"))
+(InheritanceLink (WordSenseNode "solidarity%1:07:00::") s)
+(define x (WordNode "commonness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "generality%1:07:00::"))
+(InheritanceLink (WordSenseNode "solidarity%1:07:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mist%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "mist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:01::"))
+(InheritanceLink s (WordSenseNode "spread_over%2:35:00::"))
+(define x (WordNode "mist_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:01::"))
+(InheritanceLink s (WordSenseNode "spread_over%2:35:00::"))

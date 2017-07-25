@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mathematical_statement%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mathematical_statement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statement%1:10:00::"))
+(InheritanceLink (WordSenseNode "equation%1:10:00::") s)
+(InheritanceLink (WordSenseNode "formula%1:10:00::") s)
+(InheritanceLink (WordSenseNode "expression%1:10:03::") s)
+(HolonymLink (WordSenseNode "mathematical_notation%1:10:00::") s)

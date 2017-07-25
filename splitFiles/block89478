@@ -1,0 +1,5 @@
+(define s (WordSenseNode "isthmus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "isthmus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tissue%1:08:00::"))
+(define x (WordNode "band")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tissue%1:08:00::"))

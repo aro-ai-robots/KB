@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_galago%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Galago")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Lorisidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Lorisidae%1:05:00::"))
+(HolonymLink (WordSenseNode "galago%1:05:00::") s)
+(HolonymLink (WordSenseNode "bushbaby%1:05:00::") s)
+(HolonymLink (WordSenseNode "bush_baby%1:05:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pinstripe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pinstripe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:06:01::"))
+(InheritanceLink s (WordSenseNode "banding%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stripe%1:06:00::"))

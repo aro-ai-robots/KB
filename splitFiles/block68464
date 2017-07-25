@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_anoa%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Anoa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Bovidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Bovidae%1:05:00::"))
+(HolonymLink (WordSenseNode "anoa%1:05:00::") s)
+(HolonymLink (WordSenseNode "dwarf_buffalo%1:05:00::") s)
+(HolonymLink (WordSenseNode "Anoa_depressicornis%1:05:00::") s)

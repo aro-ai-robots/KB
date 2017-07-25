@@ -1,0 +1,5 @@
+(define s (WordSenseNode "outrigger%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "outrigger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stabilizer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stabiliser%1:06:00::"))
+(HolonymLink s (WordSenseNode "outrigger_canoe%1:06:00::"))

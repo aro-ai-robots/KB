@@ -1,0 +1,5 @@
+(define s (WordSenseNode "raynaud's_sign%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acrocyanosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyanosis%1:26:00::"))
+(define x (WordNode "Raynaud's_sign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyanosis%1:26:00::"))

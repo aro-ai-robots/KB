@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rubric%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rubric")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heading%1:10:00::"))
+(InheritanceLink s (WordSenseNode "header%1:10:00::"))
+(InheritanceLink s (WordSenseNode "head%1:10:00::"))
+(InheritanceLink s (WordSenseNode "title%1:10:00::"))

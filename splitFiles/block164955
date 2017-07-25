@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tachina_fly%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tachina_fly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fly%1:05:00::"))
+(HolonymLink s (WordSenseNode "Tachinidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Tachinidae%1:05:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "glass_sponge%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glass_sponge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sponge%1:05:00::"))
+(InheritanceLink s (WordSenseNode "poriferan%1:05:00::"))
+(InheritanceLink s (WordSenseNode "parazoan%1:05:00::"))
+(InheritanceLink (WordSenseNode "Venus's_flower_basket%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Hyalospongiae%1:05:00::"))
+(HolonymLink s (WordSenseNode "class_Hyalospongiae%1:05:00::"))

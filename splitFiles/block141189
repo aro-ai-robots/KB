@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ripe_olive%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "black_olive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "olive%1:13:00::"))
+(define x (WordNode "ripe_olive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "olive%1:13:00::"))

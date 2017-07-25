@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sthene%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sthene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "newton%1:23:00::") s)
+(HolonymLink (WordSenseNode "N%1:23:01::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "onion_roll%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "onion_roll")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bun%1:13:00::"))
+(InheritanceLink s (WordSenseNode "roll%1:13:00::"))
+(InheritanceLink (WordSenseNode "bialy%1:13:00::") s)
+(InheritanceLink (WordSenseNode "bialystoker%1:13:00::") s)

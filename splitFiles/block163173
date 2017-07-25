@@ -1,0 +1,5 @@
+(define s (WordSenseNode "supervisor_call_instruction%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "system_call")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "call%1:10:07::"))
+(define x (WordNode "supervisor_call_instruction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "call%1:10:07::"))

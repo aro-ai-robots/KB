@@ -1,0 +1,4 @@
+(define s (WordSenseNode "massage_parlor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "massage_parlor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "place_of_business%1:06:00::"))
+(InheritanceLink s (WordSenseNode "business_establishment%1:06:00::"))

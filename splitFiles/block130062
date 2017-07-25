@@ -1,0 +1,5 @@
+(define s (WordSenseNode "prescription%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prescription")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "written_communication%1:10:00::"))
+(InheritanceLink s (WordSenseNode "written_language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "black_and_white%1:10:00::"))

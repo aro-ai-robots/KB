@@ -1,0 +1,7 @@
+(define s (WordSenseNode "countersink_bit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "counterbore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bit%1:06:00::"))
+(define x (WordNode "countersink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bit%1:06:00::"))
+(define x (WordNode "countersink_bit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bit%1:06:00::"))

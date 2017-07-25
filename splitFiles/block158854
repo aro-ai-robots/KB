@@ -1,0 +1,7 @@
+(define s (WordSenseNode "standing_stone%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "menhir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "megalith%1:06:00::"))
+(InheritanceLink s (WordSenseNode "megalithic_structure%1:06:00::"))
+(define x (WordNode "standing_stone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "megalith%1:06:00::"))
+(InheritanceLink s (WordSenseNode "megalithic_structure%1:06:00::"))

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "mirror%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "mirror")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reflect%2:32:00::"))

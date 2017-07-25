@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spell%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "spell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recite%2:32:00::"))
+(InheritanceLink (WordSenseNode "misspell%2:32:00::") s)
+(define x (WordNode "spell_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recite%2:32:00::"))
+(InheritanceLink (WordSenseNode "misspell%2:32:00::") s)

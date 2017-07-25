@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aeromedicine%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aeromedicine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biomedicine%1:09:00::"))
+(define x (WordNode "aerospace_medicine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biomedicine%1:09:00::"))
+(define x (WordNode "aviation_medicine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biomedicine%1:09:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "safety_net%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "safety_net")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "net%1:06:00::"))
+(InheritanceLink s (WordSenseNode "network%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mesh%1:06:00::"))
+(InheritanceLink s (WordSenseNode "meshing%1:06:01::"))
+(InheritanceLink s (WordSenseNode "meshwork%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "palatableness%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "palatability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acceptability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "acceptableness%1:07:00::"))
+(define x (WordNode "palatableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acceptability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "acceptableness%1:07:00::"))

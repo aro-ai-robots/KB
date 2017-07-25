@@ -1,0 +1,4 @@
+(define s (WordSenseNode "amphibolite%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amphibolite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metamorphic_rock%1:27:00::"))
+(HolonymLink (WordSenseNode "amphibole%1:27:00::") s)

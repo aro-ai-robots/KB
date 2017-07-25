@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fishtail%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fishtail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decelerate%2:30:01::"))
+(InheritanceLink s (WordSenseNode "slow_down%2:30:02::"))

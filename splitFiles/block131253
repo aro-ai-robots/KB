@@ -1,0 +1,4 @@
+(define s (WordSenseNode "profile%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "profile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chart%1:10:00::"))
+(InheritanceLink (WordSenseNode "population_profile%1:10:00::") s)

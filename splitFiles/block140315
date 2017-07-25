@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rhetoric%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rhetoric")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expressive_style%1:10:00::"))
+(InheritanceLink s (WordSenseNode "style%1:10:00::"))
+(HolonymLink (WordSenseNode "rhetorical_device%1:10:00::") s)

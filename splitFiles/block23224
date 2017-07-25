@@ -1,0 +1,5 @@
+(define s (WordSenseNode "buyi%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Bouyei")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tai%1:10:00::"))
+(define x (WordNode "Buyi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tai%1:10:00::"))

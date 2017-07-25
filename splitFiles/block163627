@@ -1,0 +1,8 @@
+(define s (WordSenseNode "suspension%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "suspension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mixture%1:27:00::"))
+(InheritanceLink (WordSenseNode "slurry%1:27:00::") s)
+(InheritanceLink (WordSenseNode "resuspension%1:27:00::") s)
+(InheritanceLink (WordSenseNode "mash%1:27:00::") s)
+(InheritanceLink (WordSenseNode "vapor%1:27:01::") s)
+(InheritanceLink (WordSenseNode "vapour%1:27:01::") s)

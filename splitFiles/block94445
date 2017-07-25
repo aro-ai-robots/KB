@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lamination%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lamination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creating_from_raw_materials%1:04:00::"))
+(InheritanceLink (WordSenseNode "veneering%1:04:00::") s)

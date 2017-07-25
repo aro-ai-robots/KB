@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cutoff%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cutoff")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "limit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "limitation%1:23:00::"))

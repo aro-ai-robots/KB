@@ -1,0 +1,6 @@
+(define s (WordSenseNode "calostoma_ravenelii%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Calostoma_ravenelii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gasteromycete%1:20:00::"))
+(InheritanceLink s (WordSenseNode "gastromycete%1:20:00::"))
+(HolonymLink s (WordSenseNode "Calostomataceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Calostomataceae%1:20:00::"))

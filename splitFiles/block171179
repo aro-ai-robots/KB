@@ -1,0 +1,8 @@
+(define s (WordSenseNode "trade%1:04:05::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commerce%1:04:00::"))
+(InheritanceLink s (WordSenseNode "commercialism%1:04:00::"))
+(InheritanceLink s (WordSenseNode "mercantilism%1:04:00::"))
+(InheritanceLink (WordSenseNode "fair_trade%1:04:00::") s)
+(InheritanceLink (WordSenseNode "fair_trade%1:04:01::") s)
+(InheritanceLink (WordSenseNode "free_trade%1:04:00::") s)

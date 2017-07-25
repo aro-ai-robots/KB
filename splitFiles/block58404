@@ -1,0 +1,7 @@
+(define s (WordSenseNode "false_morel%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "false_morel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fungus%1:20:00::"))
+(InheritanceLink (WordSenseNode "helvella%1:20:00::") s)
+(InheritanceLink (WordSenseNode "discina%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Helvellaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Helvellaceae%1:20:00::"))

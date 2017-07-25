@@ -1,0 +1,8 @@
+(define s (WordSenseNode "reminder%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reminder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "experience%1:09:00::"))
+(InheritanceLink (WordSenseNode "deja_vu%1:09:00::") s)
+(InheritanceLink (WordSenseNode "memento%1:09:00::") s)
+(InheritanceLink (WordSenseNode "souvenir%1:09:00::") s)
+(InheritanceLink (WordSenseNode "memento_mori%1:09:00::") s)
+(InheritanceLink (WordSenseNode "shades_of%1:09:00::") s)

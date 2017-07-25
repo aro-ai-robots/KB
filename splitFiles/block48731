@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dogmatise%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dogmatize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "talk%2:32:01::"))
+(InheritanceLink s (WordSenseNode "speak%2:32:01::"))
+(define x (WordNode "dogmatise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "talk%2:32:01::"))
+(InheritanceLink s (WordSenseNode "speak%2:32:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "loosely%4:02:02::")) (PartOfSpeechLink s adv)
+(define x (WordNode "broadly")) (WordSenseLink x s)
+(define x (WordNode "loosely")) (WordSenseLink x s)
+(define x (WordNode "broadly_speaking")) (WordSenseLink x s)
+(define x (WordNode "generally")) (WordSenseLink x s)

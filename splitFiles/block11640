@@ -1,0 +1,5 @@
+(define s (WordSenseNode "autoinjector%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "autoinjector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypodermic_syringe%1:06:00::"))
+(InheritanceLink s (WordSenseNode "hypodermic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "hypo%1:06:00::"))

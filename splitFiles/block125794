@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pit_stop%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pit_stop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%1:04:02::"))
+(InheritanceLink s (WordSenseNode "stopover%1:04:00::"))
+(InheritanceLink s (WordSenseNode "layover%1:04:00::"))

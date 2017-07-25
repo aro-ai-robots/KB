@@ -1,0 +1,3 @@
+(define s (WordSenseNode "local%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "local")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_transport%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cresol%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cresol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phenol%1:27:00::"))
+(InheritanceLink (WordSenseNode "Lysol%1:27:00::") s)
+(define x (WordNode "methyl_phenol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phenol%1:27:00::"))
+(InheritanceLink (WordSenseNode "Lysol%1:27:00::") s)

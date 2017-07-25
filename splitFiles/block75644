@@ -1,0 +1,7 @@
+(define s (WordSenseNode "greyback%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "greyback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dowitcher%1:05:00::"))
+(define x (WordNode "grayback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dowitcher%1:05:00::"))
+(define x (WordNode "Limnodromus_griseus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dowitcher%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "amorphous_shape%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amorphous_shape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shape%1:03:00::"))
+(InheritanceLink s (WordSenseNode "form%1:03:00::"))
+(InheritanceLink (WordSenseNode "shapelessness%1:25:00::") s)
+(InheritanceLink (WordSenseNode "blob%1:25:00::") s)
+(InheritanceLink (WordSenseNode "space%1:25:00::") s)

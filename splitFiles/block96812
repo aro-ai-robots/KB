@@ -1,0 +1,5 @@
+(define s (WordSenseNode "leucoma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leukoma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eye_disease%1:26:00::"))
+(define x (WordNode "leucoma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eye_disease%1:26:00::"))

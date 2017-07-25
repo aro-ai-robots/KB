@@ -1,0 +1,5 @@
+(define s (WordSenseNode "virtu%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "virtu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "objet_d'art%1:06:00::"))
+(InheritanceLink s (WordSenseNode "art_object%1:06:00::"))
+(InheritanceLink s (WordSenseNode "piece%1:06:04::"))

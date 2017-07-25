@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tableau_vivant%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tableau")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arrangement%1:14:00::"))
+(define x (WordNode "tableau_vivant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arrangement%1:14:00::"))

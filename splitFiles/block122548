@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pension%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "award%2:40:01::"))
+(InheritanceLink s (WordSenseNode "grant%2:40:03::"))
+(define x (WordNode "pension_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "award%2:40:01::"))
+(InheritanceLink s (WordSenseNode "grant%2:40:03::"))

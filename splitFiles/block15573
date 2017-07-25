@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bellyful%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bellyful")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "overabundance%1:07:00::"))
+(InheritanceLink s (WordSenseNode "overmuch%1:07:00::"))
+(InheritanceLink s (WordSenseNode "overmuchness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "superabundance%1:07:00::"))

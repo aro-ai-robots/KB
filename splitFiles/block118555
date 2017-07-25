@@ -1,0 +1,5 @@
+(define s (WordSenseNode "over-crowding%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "congestion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crowding%1:26:00::"))
+(define x (WordNode "over-crowding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crowding%1:26:00::"))

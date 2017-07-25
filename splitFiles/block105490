@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mesmerism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypnotism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:04:00::"))
+(define x (WordNode "mesmerism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:04:00::"))
+(define x (WordNode "suggestion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:04:00::"))

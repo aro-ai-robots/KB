@@ -1,0 +1,4 @@
+(define s (WordSenseNode "electrodeposition%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electrodeposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deposition%1:22:00::"))
+(InheritanceLink s (WordSenseNode "deposit%1:22:00::"))

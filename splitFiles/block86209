@@ -1,0 +1,7 @@
+(define s (WordSenseNode "indian_hemp%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Indian_hemp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dogbane%1:20:00::"))
+(define x (WordNode "rheumatism_weed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dogbane%1:20:00::"))
+(define x (WordNode "Apocynum_cannabinum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dogbane%1:20:00::"))

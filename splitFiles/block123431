@@ -1,0 +1,5 @@
+(define s (WordSenseNode "peruke%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "periwig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wig%1:06:00::"))
+(define x (WordNode "peruke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wig%1:06:00::"))

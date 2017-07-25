@@ -1,0 +1,4 @@
+(define s (WordSenseNode "walkover%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "walkover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acrobatic_stunt%1:04:00::"))
+(InheritanceLink s (WordSenseNode "acrobatic_feat%1:04:00::"))

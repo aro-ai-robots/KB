@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mistake%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mistake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misconception%1:09:00::"))
+(define x (WordNode "misunderstanding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misconception%1:09:00::"))
+(define x (WordNode "misapprehension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misconception%1:09:00::"))

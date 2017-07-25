@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pentanoic_acid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "valeric_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carboxylic_acid%1:27:00::"))
+(define x (WordNode "pentanoic_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carboxylic_acid%1:27:00::"))

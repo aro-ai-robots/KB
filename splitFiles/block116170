@@ -1,0 +1,7 @@
+(define s (WordSenseNode "omphalocele%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "umbilical_hernia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hernia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "herniation%1:26:00::"))
+(define x (WordNode "omphalocele")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hernia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "herniation%1:26:00::"))

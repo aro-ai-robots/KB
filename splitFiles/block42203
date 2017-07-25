@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dail%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dail_Eireann")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "house%1:14:02::"))
+(HolonymLink s (WordSenseNode "Oireachtas%1:14:00::"))
+(define x (WordNode "Dail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "house%1:14:02::"))
+(HolonymLink s (WordSenseNode "Oireachtas%1:14:00::"))

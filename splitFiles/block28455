@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chalk%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chalk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "calcite%1:27:00::"))
+(HolonymLink s (WordSenseNode "chalk%1:06:00::"))
+(HolonymLink (WordSenseNode "calcium_carbonate%1:27:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "snub%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rebuff")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rejection%1:10:00::"))
+(define x (WordNode "snub")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rejection%1:10:00::"))
+(define x (WordNode "repulse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rejection%1:10:00::"))

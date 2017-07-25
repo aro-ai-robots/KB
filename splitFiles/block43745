@@ -1,0 +1,5 @@
+(define s (WordSenseNode "deep-six%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deep-six")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "throw%2:35:00::"))
+(define x (WordNode "throw_overboard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "throw%2:35:00::"))

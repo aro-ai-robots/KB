@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cult%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cult")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religion%1:14:00::"))
+(InheritanceLink s (WordSenseNode "faith%1:14:00::"))
+(InheritanceLink s (WordSenseNode "organized_religion%1:14:00::"))
+(InheritanceLink (WordSenseNode "cargo_cult%1:14:00::") s)
+(HolonymLink (WordSenseNode "cultist%1:18:01::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "canadian_dollar%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Canadian_dollar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dollar%1:23:00::"))
+(define x (WordNode "loonie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dollar%1:23:00::"))

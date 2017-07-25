@@ -1,0 +1,5 @@
+(define s (WordSenseNode "aerialist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aerialist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acrobat%1:18:00::"))
+(InheritanceLink (WordSenseNode "ropewalker%1:18:00::") s)
+(InheritanceLink (WordSenseNode "ropedancer%1:18:00::") s)

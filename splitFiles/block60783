@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fermion%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fermion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "particle%1:17:00::"))
+(InheritanceLink s (WordSenseNode "subatomic_particle%1:17:00::"))
+(InheritanceLink (WordSenseNode "baryon%1:17:00::") s)
+(InheritanceLink (WordSenseNode "heavy_particle%1:17:00::") s)
+(InheritanceLink (WordSenseNode "lepton%1:17:00::") s)

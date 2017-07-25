@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dropper%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dropper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pipet%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pipette%1:06:00::"))
+(define x (WordNode "eye_dropper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pipet%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pipette%1:06:00::"))

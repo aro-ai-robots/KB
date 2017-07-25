@@ -1,0 +1,5 @@
+(define s (WordSenseNode "psychotherapy_group%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "psychotherapy_group")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meeting%1:14:00::"))
+(InheritanceLink s (WordSenseNode "group_meeting%1:14:00::"))
+(InheritanceLink (WordSenseNode "encounter_group%1:14:00::") s)

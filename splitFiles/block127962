@@ -1,0 +1,7 @@
+(define s (WordSenseNode "polymerase%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polymerase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enzyme%1:27:00::"))
+(InheritanceLink (WordSenseNode "DNA_polymerase%1:27:00::") s)
+(InheritanceLink (WordSenseNode "transcriptase%1:27:00::") s)
+(InheritanceLink (WordSenseNode "RNA_polymerase%1:27:00::") s)
+(InheritanceLink (WordSenseNode "reverse_transcriptase%1:27:00::") s)

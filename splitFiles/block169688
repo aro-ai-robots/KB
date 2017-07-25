@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tinware%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tinware")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "article_of_commerce%1:06:00::"))
+(HolonymLink (WordSenseNode "tin_plate%1:06:00::") s)
+(HolonymLink (WordSenseNode "tinplate%1:06:00::") s)

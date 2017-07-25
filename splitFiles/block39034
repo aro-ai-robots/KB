@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cover%2:32:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "report")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inform%2:32:00::"))
+(define x (WordNode "cover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inform%2:32:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subrogation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subrogation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substitution%1:04:00::"))
+(InheritanceLink s (WordSenseNode "exchange%1:04:01::"))
+(InheritanceLink s (WordSenseNode "commutation%1:04:02::"))

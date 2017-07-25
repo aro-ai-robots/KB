@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hirsutism%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hirsuteness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hairiness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "pilosity%1:07:00::"))
+(define x (WordNode "hirsutism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hairiness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "pilosity%1:07:00::"))

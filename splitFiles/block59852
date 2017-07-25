@@ -1,0 +1,7 @@
+(define s (WordSenseNode "farm_team%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "farm_team")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "minor-league_team%1:14:00::"))
+(InheritanceLink s (WordSenseNode "minor-league_club%1:14:00::"))
+(define x (WordNode "farm_club")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "minor-league_team%1:14:00::"))
+(InheritanceLink s (WordSenseNode "minor-league_club%1:14:00::"))

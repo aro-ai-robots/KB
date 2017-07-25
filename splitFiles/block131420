@@ -1,0 +1,5 @@
+(define s (WordSenseNode "projectionist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "projectionist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skilled_worker%1:18:00::"))
+(InheritanceLink s (WordSenseNode "trained_worker%1:18:00::"))
+(InheritanceLink s (WordSenseNode "skilled_workman%1:18:00::"))

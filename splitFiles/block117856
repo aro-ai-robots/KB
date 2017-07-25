@@ -1,0 +1,8 @@
+(define s (WordSenseNode "orthodoxy%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orthodoxy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unoriginality%1:07:00::"))
+(InheritanceLink (WordSenseNode "conventionality%1:07:00::") s)
+(InheritanceLink (WordSenseNode "convention%1:07:00::") s)
+(InheritanceLink (WordSenseNode "conventionalism%1:07:00::") s)
+(InheritanceLink (WordSenseNode "traditionalism%1:07:00::") s)
+(InheritanceLink (WordSenseNode "traditionality%1:07:00::") s)

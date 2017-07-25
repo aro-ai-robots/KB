@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scrub_typhus%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tsutsugamushi_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rickettsial_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "rickettsiosis%1:26:00::"))
+(define x (WordNode "scrub_typhus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rickettsial_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "rickettsiosis%1:26:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "paralogism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paralogism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fallacy%1:09:00::"))
+(InheritanceLink s (WordSenseNode "false_belief%1:09:00::"))

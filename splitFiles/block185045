@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wrapping%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "swathe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bandage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "patch%1:06:04::"))
+(define x (WordNode "wrapping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bandage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "patch%1:06:04::"))

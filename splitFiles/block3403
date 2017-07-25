@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ai%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "artificial_insemination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insemination%1:04:00::"))
+(define x (WordNode "AI")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insemination%1:04:00::"))

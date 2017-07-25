@@ -1,0 +1,7 @@
+(define s (WordSenseNode "deliver%2:40:07::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deliver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "give%2:40:03::"))
+(InheritanceLink (WordSenseNode "land%2:40:00::") s)
+(define x (WordNode "drive_home")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "give%2:40:03::"))
+(InheritanceLink (WordSenseNode "land%2:40:00::") s)

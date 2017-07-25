@@ -1,0 +1,7 @@
+(define s (WordSenseNode "repletion%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "repletion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fullness%1:26:00::"))
+(define x (WordNode "satiety")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fullness%1:26:00::"))
+(define x (WordNode "satiation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fullness%1:26:00::"))

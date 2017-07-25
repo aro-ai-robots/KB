@@ -1,0 +1,7 @@
+(define s (WordSenseNode "swap_file%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "swap_space")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disk_space%1:15:00::"))
+(InheritanceLink s (WordSenseNode "disc_space%1:15:00::"))
+(define x (WordNode "swap_file")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disk_space%1:15:00::"))
+(InheritanceLink s (WordSenseNode "disc_space%1:15:00::"))

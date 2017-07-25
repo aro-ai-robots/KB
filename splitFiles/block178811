@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vertical_file%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vertical_file")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "file%1:06:01::"))
+(InheritanceLink s (WordSenseNode "file_cabinet%1:06:00::"))
+(InheritanceLink s (WordSenseNode "filing_cabinet%1:06:00::"))

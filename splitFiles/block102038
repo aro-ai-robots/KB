@@ -1,0 +1,7 @@
+(define s (WordSenseNode "maltster%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "maltster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maker%1:18:00::"))
+(InheritanceLink s (WordSenseNode "shaper%1:18:00::"))
+(define x (WordNode "maltman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maker%1:18:00::"))
+(InheritanceLink s (WordSenseNode "shaper%1:18:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_nanomia%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Nanomia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coelenterate_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Siphonophora%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Siphonophora%1:05:00::"))
+(HolonymLink (WordSenseNode "nanomia%1:05:00::") s)

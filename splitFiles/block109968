@@ -1,0 +1,4 @@
+(define s (WordSenseNode "muriatic_acid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "muriatic_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrochloric_acid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chlorohydric_acid%1:27:00::"))

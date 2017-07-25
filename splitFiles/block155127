@@ -1,0 +1,7 @@
+(define s (WordSenseNode "solder%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "solder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "join%2:35:00::"))
+(InheritanceLink s (WordSenseNode "conjoin%2:35:00::"))
+(InheritanceLink (WordSenseNode "dip_solder%2:35:00::") s)
+(InheritanceLink (WordSenseNode "soft-solder%2:35:00::") s)
+(InheritanceLink (WordSenseNode "braze%2:35:00::") s)

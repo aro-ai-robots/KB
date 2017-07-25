@@ -1,0 +1,7 @@
+(define s (WordSenseNode "impregnate%2:29:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "impregnate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inseminate%2:29:00::"))
+(InheritanceLink s (WordSenseNode "fecundate%2:29:00::"))
+(InheritanceLink s (WordSenseNode "fertilize%2:29:00::"))
+(InheritanceLink s (WordSenseNode "fertilise%2:29:00::"))
+(InheritanceLink (WordSenseNode "inoculate%2:29:04::") s)

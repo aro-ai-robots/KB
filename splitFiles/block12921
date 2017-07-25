@@ -1,0 +1,5 @@
+(define s (WordSenseNode "balkan%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Balkan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "European%1:18:00::"))
+(HolonymLink s (WordSenseNode "Balkan_Peninsula%1:15:00::"))
+(HolonymLink s (WordSenseNode "Balkans%1:15:01::"))

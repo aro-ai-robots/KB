@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ultraviolet_source%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ultraviolet_lamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "source_of_illumination%1:06:00::"))
+(InheritanceLink (WordSenseNode "mercury-vapor_lamp%1:06:00::") s)
+(define x (WordNode "ultraviolet_source")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "source_of_illumination%1:06:00::"))
+(InheritanceLink (WordSenseNode "mercury-vapor_lamp%1:06:00::") s)

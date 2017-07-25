@@ -1,0 +1,7 @@
+(define s (WordSenseNode "midline%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "midplane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plane%1:25:00::"))
+(InheritanceLink s (WordSenseNode "sheet%1:25:00::"))
+(define x (WordNode "midline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plane%1:25:00::"))
+(InheritanceLink s (WordSenseNode "sheet%1:25:00::"))

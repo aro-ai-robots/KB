@@ -1,0 +1,7 @@
+(define s (WordSenseNode "retake%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "recapture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "take%2:40:01::"))
+(InheritanceLink (WordSenseNode "reconquer%2:40:00::") s)
+(define x (WordNode "retake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "take%2:40:01::"))
+(InheritanceLink (WordSenseNode "reconquer%2:40:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "firebox%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "firebox")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "furnace%1:06:00::"))
+(HolonymLink s (WordSenseNode "steam_locomotive%1:06:00::"))

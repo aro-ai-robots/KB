@@ -1,0 +1,4 @@
+(define s (WordSenseNode "deliberative_assembly%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deliberative_assembly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assembly%1:14:00::"))
+(InheritanceLink (WordSenseNode "General_Assembly%1:14:01::") s)

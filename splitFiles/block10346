@@ -1,0 +1,4 @@
+(define s (WordSenseNode "assure%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "assure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "persuade%2:32:00::"))
+(InheritanceLink (WordSenseNode "reassure%2:32:00::") s)

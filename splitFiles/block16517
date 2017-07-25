@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bilabial%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bilabial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "labial_consonant%1:10:00::"))
+(InheritanceLink s (WordSenseNode "labial%1:10:00::"))

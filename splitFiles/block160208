@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stockpiling%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stockpiling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repositing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "reposition%1:04:00::"))
+(InheritanceLink s (WordSenseNode "storage%1:04:02::"))
+(InheritanceLink s (WordSenseNode "warehousing%1:04:00::"))

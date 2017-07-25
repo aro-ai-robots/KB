@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bonding%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bonding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fastening%1:04:00::"))
+(InheritanceLink s (WordSenseNode "attachment%1:04:00::"))
+(define x (WordNode "soldering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fastening%1:04:00::"))
+(InheritanceLink s (WordSenseNode "attachment%1:04:00::"))

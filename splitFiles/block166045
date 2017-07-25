@@ -1,0 +1,3 @@
+(define s (WordSenseNode "target_organ%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "target_organ")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organ%1:08:00::"))

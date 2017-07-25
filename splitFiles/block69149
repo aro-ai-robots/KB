@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_commelina%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Commelina")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monocot_genus%1:20:00::"))
+(InheritanceLink s (WordSenseNode "liliopsid_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Commelinaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Commelinaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "spiderwort_family%1:20:00::"))
+(HolonymLink (WordSenseNode "commelina%1:20:00::") s)

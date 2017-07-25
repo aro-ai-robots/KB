@@ -1,0 +1,7 @@
+(define s (WordSenseNode "line_drive%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "liner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fly%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fly_ball%1:04:00::"))
+(define x (WordNode "line_drive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fly%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fly_ball%1:04:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "double_helix%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "double_helix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "helix%1:25:00::"))
+(InheritanceLink s (WordSenseNode "spiral%1:25:01::"))

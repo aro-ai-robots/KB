@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cd_player%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "CD_player")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_equipment%1:06:00::"))
+(HolonymLink (WordSenseNode "CD_drive%1:06:00::") s)

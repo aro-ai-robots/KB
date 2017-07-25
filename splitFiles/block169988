@@ -1,0 +1,7 @@
+(define s (WordSenseNode "toboggan_cap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ski_cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cap%1:06:00::"))
+(define x (WordNode "stocking_cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cap%1:06:00::"))
+(define x (WordNode "toboggan_cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cap%1:06:00::"))

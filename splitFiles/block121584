@@ -1,0 +1,7 @@
+(define s (WordSenseNode "patrol_ship%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "patrol_boat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vessel%1:06:00::"))
+(InheritanceLink s (WordSenseNode "watercraft%1:06:00::"))
+(define x (WordNode "patrol_ship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vessel%1:06:00::"))
+(InheritanceLink s (WordSenseNode "watercraft%1:06:00::"))

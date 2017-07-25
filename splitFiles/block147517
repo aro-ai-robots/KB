@@ -1,0 +1,5 @@
+(define s (WordSenseNode "secondary_amenorrhea%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "secondary_amenorrhea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amenorrhea%1:26:00::"))
+(InheritanceLink s (WordSenseNode "amenorrhoea%1:26:00::"))
+(InheritanceLink s (WordSenseNode "amenia%1:26:00::"))

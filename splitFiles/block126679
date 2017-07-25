@@ -1,0 +1,6 @@
+(define s (WordSenseNode "plead%2:32:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "plead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allege%2:32:00::"))
+(InheritanceLink s (WordSenseNode "aver%2:32:01::"))
+(InheritanceLink s (WordSenseNode "say%2:32:01::"))
+(InheritanceLink (WordSenseNode "demur%2:32:02::") s)

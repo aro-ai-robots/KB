@@ -1,0 +1,5 @@
+(define s (WordSenseNode "labyrinthitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "labyrinthitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "otitis%1:26:00::"))
+(define x (WordNode "otitis_interna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "otitis%1:26:00::"))

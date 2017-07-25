@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dominance%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laterality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bodily_property%1:07:00::"))
+(define x (WordNode "dominance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bodily_property%1:07:00::"))

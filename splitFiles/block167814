@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thaw%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thaw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relaxation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "loosening%1:11:00::"))
+(InheritanceLink s (WordSenseNode "slackening%1:11:00::"))

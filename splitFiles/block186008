@@ -1,0 +1,5 @@
+(define s (WordSenseNode "yore%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "past%1:28:00::"))
+(InheritanceLink s (WordSenseNode "past_times%1:28:00::"))
+(InheritanceLink s (WordSenseNode "yesteryear%1:28:00::"))

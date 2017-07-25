@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trenching_spade%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "entrenching_tool")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand_shovel%1:06:00::"))
+(define x (WordNode "trenching_spade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand_shovel%1:06:00::"))

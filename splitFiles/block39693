@@ -1,0 +1,7 @@
+(define s (WordSenseNode "credit%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "credit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trust%2:31:00::"))
+(InheritanceLink s (WordSenseNode "swear%2:31:10::"))
+(InheritanceLink s (WordSenseNode "rely%2:31:11::"))
+(InheritanceLink s (WordSenseNode "bank%2:31:02::"))
+(InheritanceLink (WordSenseNode "believe%2:31:02::") s)

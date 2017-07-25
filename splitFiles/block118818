@@ -1,0 +1,5 @@
+(define s (WordSenseNode "overrun%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "overproduction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "production%1:04:02::"))
+(define x (WordNode "overrun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "production%1:04:02::"))

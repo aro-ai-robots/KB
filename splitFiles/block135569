@@ -1,0 +1,7 @@
+(define s (WordSenseNode "randomization%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "randomization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organization%1:04:01::"))
+(InheritanceLink s (WordSenseNode "organisation%1:04:01::"))
+(define x (WordNode "randomisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organization%1:04:01::"))
+(InheritanceLink s (WordSenseNode "organisation%1:04:01::"))

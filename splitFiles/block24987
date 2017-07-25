@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cap%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "top%1:06:01::"))
+(InheritanceLink s (WordSenseNode "cover%1:06:03::"))
+(InheritanceLink (WordSenseNode "bottlecap%1:06:00::") s)
+(InheritanceLink (WordSenseNode "nipple%1:06:00::") s)
+(InheritanceLink (WordSenseNode "radiator_cap%1:06:00::") s)

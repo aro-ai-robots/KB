@@ -1,0 +1,3 @@
+(define s (WordSenseNode "collective_noun%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "collective_noun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "noun%1:10:00::"))

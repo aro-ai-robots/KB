@@ -1,0 +1,6 @@
+(define s (WordSenseNode "supper%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "supper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meal%1:13:00::"))
+(InheritanceLink s (WordSenseNode "repast%1:13:00::"))
+(InheritanceLink (WordSenseNode "Seder%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Passover_supper%1:04:00::") s)

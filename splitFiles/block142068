@@ -1,0 +1,7 @@
+(define s (WordSenseNode "romanticism%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "romanticism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(InheritanceLink (WordSenseNode "stardust%1:07:00::") s)
+(define x (WordNode "romance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(InheritanceLink (WordSenseNode "stardust%1:07:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "veneer%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "veneer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coating%1:06:00::"))
+(InheritanceLink s (WordSenseNode "coat%1:06:01::"))
+(define x (WordNode "veneering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coating%1:06:00::"))
+(InheritanceLink s (WordSenseNode "coat%1:06:01::"))

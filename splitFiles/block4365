@@ -1,0 +1,5 @@
+(define s (WordSenseNode "alkalosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alkalosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pathology%1:26:00::"))
+(InheritanceLink (WordSenseNode "metabolic_alkalosis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "respiratory_alkalosis%1:26:00::") s)

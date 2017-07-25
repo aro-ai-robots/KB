@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lateral_geniculate_body%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lateral_geniculate_body")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geniculate_body%1:08:00::"))
+(define x (WordNode "corpus_geniculatum_laterale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geniculate_body%1:08:00::"))
+(define x (WordNode "lateral_geniculate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geniculate_body%1:08:00::"))

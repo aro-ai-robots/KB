@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fuel_level%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fuel_level")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reserve%1:21:00::"))
+(InheritanceLink s (WordSenseNode "backlog%1:21:00::"))
+(InheritanceLink s (WordSenseNode "stockpile%1:21:00::"))

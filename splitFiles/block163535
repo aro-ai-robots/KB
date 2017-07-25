@@ -1,0 +1,4 @@
+(define s (WordSenseNode "surrogate_mother%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "surrogate_mother")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mother%1:18:00::"))
+(InheritanceLink s (WordSenseNode "female_parent%1:18:00::"))

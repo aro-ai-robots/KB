@@ -1,0 +1,4 @@
+(define s (WordSenseNode "doweling%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "doweling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fastening%1:04:00::"))
+(InheritanceLink s (WordSenseNode "attachment%1:04:00::"))

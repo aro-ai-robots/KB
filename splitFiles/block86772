@@ -1,0 +1,7 @@
+(define s (WordSenseNode "infest%2:42:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "invade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inhabit%2:42:02::"))
+(define x (WordNode "overrun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inhabit%2:42:02::"))
+(define x (WordNode "infest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inhabit%2:42:02::"))

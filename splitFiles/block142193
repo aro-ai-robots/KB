@@ -1,0 +1,4 @@
+(define s (WordSenseNode "root_cap%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "root_cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_organ%1:20:00::"))
+(HolonymLink s (WordSenseNode "root%1:20:00::"))

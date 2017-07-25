@@ -1,0 +1,5 @@
+(define s (WordSenseNode "safety_arch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "safety_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arch%1:06:00::"))
+(InheritanceLink s (WordSenseNode "strengthener%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reinforcement%1:06:00::"))

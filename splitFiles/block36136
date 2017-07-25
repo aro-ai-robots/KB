@@ -1,0 +1,7 @@
+(define s (WordSenseNode "conformity%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "accord")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agreement%1:10:00::"))
+(define x (WordNode "conformity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agreement%1:10:00::"))
+(define x (WordNode "accordance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agreement%1:10:00::"))

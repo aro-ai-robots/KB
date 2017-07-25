@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drilling%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drilling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creating_by_removal%1:04:00::"))
+(define x (WordNode "boring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creating_by_removal%1:04:00::"))

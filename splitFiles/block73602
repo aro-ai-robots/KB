@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gnosticism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Gnosticism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theological_doctrine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "heresy%1:09:00::"))
+(InheritanceLink s (WordSenseNode "unorthodoxy%1:09:01::"))
+(InheritanceLink (WordSenseNode "Mandaeanism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Mandeanism%1:09:00::") s)

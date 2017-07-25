@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ascend%2:42:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ascend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "go_back%2:42:00::"))
+(InheritanceLink s (WordSenseNode "date_back%2:42:00::"))
+(InheritanceLink s (WordSenseNode "date_from%2:42:00::"))

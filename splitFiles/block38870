@@ -1,0 +1,7 @@
+(define s (WordSenseNode "county_courthouse%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "county_seat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seat%1:15:00::"))
+(HolonymLink s (WordSenseNode "county%1:15:00::"))
+(define x (WordNode "county_courthouse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seat%1:15:00::"))
+(HolonymLink s (WordSenseNode "county%1:15:00::"))

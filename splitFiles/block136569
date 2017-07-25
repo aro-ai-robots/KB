@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rebutter%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rebutter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pleading%1:10:00::"))
+(define x (WordNode "rebuttal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pleading%1:10:00::"))

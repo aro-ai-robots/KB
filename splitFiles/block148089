@@ -1,0 +1,4 @@
+(define s (WordSenseNode "self-depreciation%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-depreciation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "humility%1:12:00::"))
+(InheritanceLink s (WordSenseNode "humbleness%1:12:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "producer_gas%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "producer_gas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gas%1:27:00::"))
+(define x (WordNode "air_gas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gas%1:27:00::"))

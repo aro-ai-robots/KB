@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tweedledee_and_tweedledum%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Tweedledum_and_Tweedledee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pair%1:14:01::"))
+(InheritanceLink s (WordSenseNode "brace%1:14:00::"))
+(define x (WordNode "Tweedledee_and_Tweedledum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pair%1:14:01::"))
+(InheritanceLink s (WordSenseNode "brace%1:14:00::"))

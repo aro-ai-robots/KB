@@ -1,0 +1,5 @@
+(define s (WordSenseNode "propaganda%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "propaganda")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information%1:10:00::"))
+(InheritanceLink s (WordSenseNode "info%1:10:00::"))
+(InheritanceLink (WordSenseNode "agitprop%1:10:00::") s)

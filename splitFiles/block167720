@@ -1,0 +1,5 @@
+(define s (WordSenseNode "texture%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "texture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:09:00::"))
+(InheritanceLink s (WordSenseNode "character%1:09:00::"))
+(InheritanceLink s (WordSenseNode "lineament%1:09:00::"))

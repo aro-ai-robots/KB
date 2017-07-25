@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bear_down%2:33:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "charge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rush%2:33:00::"))
+(define x (WordNode "bear_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rush%2:33:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mosaic%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mosaic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "form%1:09:00::"))
+(InheritanceLink s (WordSenseNode "shape%1:09:00::"))
+(InheritanceLink s (WordSenseNode "pattern%1:09:00::"))

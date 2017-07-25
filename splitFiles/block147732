@@ -1,0 +1,7 @@
+(define s (WordSenseNode "security_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "security_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))
+(define x (WordNode "security_measure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))
+(define x (WordNode "security")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))

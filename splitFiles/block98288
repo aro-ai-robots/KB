@@ -1,0 +1,6 @@
+(define s (WordSenseNode "liquidity%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "liquidity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exchangeability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "interchangeability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "interchangeableness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "fungibility%1:07:00::"))

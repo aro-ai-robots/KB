@@ -1,0 +1,5 @@
+(define s (WordSenseNode "psi%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pounds_per_square_inch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure_unit%1:23:00::"))
+(define x (WordNode "psi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure_unit%1:23:00::"))

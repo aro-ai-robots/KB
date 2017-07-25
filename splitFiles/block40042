@@ -1,0 +1,7 @@
+(define s (WordSenseNode "criticality%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "criticality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "juncture%1:26:00::"))
+(InheritanceLink s (WordSenseNode "critical_point%1:26:00::"))
+(InheritanceLink s (WordSenseNode "crossroads%1:26:00::"))
+(InheritanceLink (WordSenseNode "flash_point%1:26:00::") s)
+(InheritanceLink (WordSenseNode "flashpoint%1:26:00::") s)

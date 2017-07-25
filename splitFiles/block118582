@@ -1,0 +1,7 @@
+(define s (WordSenseNode "overarch%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overarch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "predominate%2:42:00::"))
+(InheritanceLink s (WordSenseNode "dominate%2:42:00::"))
+(InheritanceLink s (WordSenseNode "rule%2:42:00::"))
+(InheritanceLink s (WordSenseNode "reign%2:42:00::"))
+(InheritanceLink s (WordSenseNode "prevail%2:42:02::"))

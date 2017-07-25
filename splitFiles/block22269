@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bulk%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "majority")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:07:00::"))
+(InheritanceLink s (WordSenseNode "figure%1:07:01::"))
+(define x (WordNode "bulk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:07:00::"))
+(InheritanceLink s (WordSenseNode "figure%1:07:01::"))

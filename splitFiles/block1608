@@ -1,0 +1,7 @@
+(define s (WordSenseNode "acromegalia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acromegaly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypertrophy%1:26:00::"))
+(HolonymLink (WordSenseNode "hyperpituitarism%1:26:00::") s)
+(define x (WordNode "acromegalia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypertrophy%1:26:00::"))
+(HolonymLink (WordSenseNode "hyperpituitarism%1:26:00::") s)

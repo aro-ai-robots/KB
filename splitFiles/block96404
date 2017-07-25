@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lens_cap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lens_cap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cap%1:06:03::"))
+(define x (WordNode "lens_cover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cap%1:06:03::"))

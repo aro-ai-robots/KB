@@ -1,0 +1,7 @@
+(define s (WordSenseNode "enalapril%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enalapril")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ACE_inhibitor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "angiotensin-converting_enzyme_inhibitor%1:06:00::"))
+(define x (WordNode "Vasotec")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ACE_inhibitor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "angiotensin-converting_enzyme_inhibitor%1:06:00::"))

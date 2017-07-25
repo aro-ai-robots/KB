@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fire_control%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fire_control")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preparation%1:04:02::"))
+(InheritanceLink s (WordSenseNode "readying%1:04:00::"))
+(HolonymLink s (WordSenseNode "shooting%1:04:00::"))
+(HolonymLink s (WordSenseNode "shot%1:04:00::"))

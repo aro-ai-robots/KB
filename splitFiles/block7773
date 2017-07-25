@@ -1,0 +1,5 @@
+(define s (WordSenseNode "apocynum_pumilum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Rocky_Mountain_dogbane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dogbane%1:20:00::"))
+(define x (WordNode "Apocynum_pumilum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dogbane%1:20:00::"))

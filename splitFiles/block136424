@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reap%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "derive%2:40:00::"))
+(InheritanceLink s (WordSenseNode "gain%2:40:03::"))
+(define x (WordNode "draw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "derive%2:40:00::"))
+(InheritanceLink s (WordSenseNode "gain%2:40:03::"))

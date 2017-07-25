@@ -1,0 +1,3 @@
+(define s (WordSenseNode "gastric_smear%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gastric_smear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alimentary_tract_smear%1:08:00::"))

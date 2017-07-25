@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trim%2:35:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%2:35:00::"))
+(InheritanceLink (WordSenseNode "dress%2:35:12::") s)
+(define x (WordNode "trim")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%2:35:00::"))
+(InheritanceLink (WordSenseNode "dress%2:35:12::") s)

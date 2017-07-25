@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_struthiomimus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Struthiomimus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reptile_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Ornithomimida%1:05:00::"))
+(HolonymLink s (WordSenseNode "suborder_Ornithomimida%1:05:00::"))
+(HolonymLink (WordSenseNode "struthiomimus%1:05:00::") s)

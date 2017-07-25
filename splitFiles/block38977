@@ -1,0 +1,5 @@
+(define s (WordSenseNode "court_plaster%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "court_plaster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plaster%1:06:00::"))
+(InheritanceLink s (WordSenseNode "adhesive_plaster%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sticking_plaster%1:06:00::"))

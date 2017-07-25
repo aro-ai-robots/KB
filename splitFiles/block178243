@@ -1,0 +1,5 @@
+(define s (WordSenseNode "velcro%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "velcro")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fasten%2:35:01::"))
+(InheritanceLink s (WordSenseNode "fix%2:35:00::"))
+(InheritanceLink s (WordSenseNode "secure%2:35:01::"))

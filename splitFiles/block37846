@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coreference%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coreference")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grammatical_relation%1:24:00::"))
+(InheritanceLink (WordSenseNode "reflexivity%1:24:00::") s)
+(InheritanceLink (WordSenseNode "reflexiveness%1:24:00::") s)

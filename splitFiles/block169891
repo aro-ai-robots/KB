@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tnf%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tumor_necrosis_factor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cytokine%1:27:00::"))
+(define x (WordNode "tumour_necrosis_factor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cytokine%1:27:00::"))
+(define x (WordNode "TNF")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cytokine%1:27:00::"))

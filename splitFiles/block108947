@@ -1,0 +1,5 @@
+(define s (WordSenseNode "moth_miller%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moth_miller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "moth%1:05:00::"))
+(define x (WordNode "miller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "moth%1:05:00::"))

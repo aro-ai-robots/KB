@@ -1,0 +1,7 @@
+(define s (WordSenseNode "oil_of_cloves%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clove_oil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "essential_oil%1:27:00::"))
+(InheritanceLink s (WordSenseNode "volatile_oil%1:27:00::"))
+(define x (WordNode "oil_of_cloves")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "essential_oil%1:27:00::"))
+(InheritanceLink s (WordSenseNode "volatile_oil%1:27:00::"))

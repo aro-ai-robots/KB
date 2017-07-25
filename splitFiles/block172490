@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trigeminal_neuralgia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trigeminal_neuralgia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neuralgia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "neuralgy%1:26:00::"))
+(define x (WordNode "tic_douloureux")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neuralgia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "neuralgy%1:26:00::"))

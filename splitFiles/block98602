@@ -1,0 +1,5 @@
+(define s (WordSenseNode "live_down%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unlive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "live%2:42:06::"))
+(define x (WordNode "live_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "live%2:42:06::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flat%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pneumatic_tire%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pneumatic_tyre%1:06:00::"))
+(define x (WordNode "flat_tire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pneumatic_tire%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pneumatic_tyre%1:06:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "main_drag%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "main_drag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "main_street%1:06:00::"))
+(InheritanceLink s (WordSenseNode "high_street%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "underseal%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "undercoat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:06:03::"))
+(define x (WordNode "underseal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:06:03::"))

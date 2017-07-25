@@ -1,0 +1,8 @@
+(define s (WordSenseNode "protective_fold%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "protective_fold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flap%1:08:00::"))
+(InheritanceLink (WordSenseNode "eyelid%1:08:00::") s)
+(InheritanceLink (WordSenseNode "lid%1:08:00::") s)
+(InheritanceLink (WordSenseNode "palpebra%1:08:00::") s)
+(InheritanceLink (WordSenseNode "nictitating_membrane%1:08:00::") s)
+(InheritanceLink (WordSenseNode "third_eyelid%1:08:00::") s)

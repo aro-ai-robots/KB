@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hive%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "multitude%1:14:00::"))
+(InheritanceLink s (WordSenseNode "throng%1:14:00::"))
+(InheritanceLink s (WordSenseNode "concourse%1:14:00::"))

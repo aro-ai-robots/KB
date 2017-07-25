@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bicuspid%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "premolar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tooth%1:08:00::"))
+(define x (WordNode "bicuspid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tooth%1:08:00::"))

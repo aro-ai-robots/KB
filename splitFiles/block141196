@@ -1,0 +1,4 @@
+(define s (WordSenseNode "riposte%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "riposte")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "counterattack%1:04:00::"))
+(InheritanceLink s (WordSenseNode "countermove%1:04:00::"))

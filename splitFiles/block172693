@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tripod%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tripod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rack%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stand%1:06:03::"))
+(InheritanceLink (WordSenseNode "camera_tripod%1:06:00::") s)
+(InheritanceLink (WordSenseNode "easel%1:06:00::") s)
+(HolonymLink (WordSenseNode "leg%1:06:01::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cloud_chamber%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cloud_chamber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "particle_detector%1:06:00::"))
+(define x (WordNode "Wilson_cloud_chamber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "particle_detector%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "climate%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "climate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "environmental_condition%1:26:00::"))
+(define x (WordNode "clime")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "environmental_condition%1:26:00::"))

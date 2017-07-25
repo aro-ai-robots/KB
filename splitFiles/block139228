@@ -1,0 +1,7 @@
+(define s (WordSenseNode "resemblance%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "resemblance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "likeness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "alikeness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "similitude%1:07:00::"))
+(InheritanceLink (WordSenseNode "mutual_resemblance%1:07:00::") s)
+(InheritanceLink (WordSenseNode "affinity%1:07:01::") s)

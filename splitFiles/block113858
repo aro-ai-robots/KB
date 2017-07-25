@@ -1,0 +1,7 @@
+(define s (WordSenseNode "norgestrel%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "norgestrel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "progestin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "progestogen%1:27:00::"))
+(HolonymLink s (WordSenseNode "Lo/Ovral%1:06:00::"))
+(HolonymLink s (WordSenseNode "Ovral%1:06:00::"))
+(HolonymLink s (WordSenseNode "Ovrette%1:06:00::"))

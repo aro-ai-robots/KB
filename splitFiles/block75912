@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ground%2:35:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "prime")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paint%2:35:00::"))
+(define x (WordNode "ground")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paint%2:35:00::"))
+(define x (WordNode "undercoat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paint%2:35:00::"))

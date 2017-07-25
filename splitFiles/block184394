@@ -1,0 +1,7 @@
+(define s (WordSenseNode "womanliness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "womanliness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "femininity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "muliebrity%1:07:00::"))
+(define x (WordNode "womanlike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "femininity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "muliebrity%1:07:00::"))

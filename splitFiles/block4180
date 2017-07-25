@@ -1,0 +1,7 @@
+(define s (WordSenseNode "algebra%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "algebra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pure_mathematics%1:09:00::"))
+(InheritanceLink (WordSenseNode "quadratics%1:09:00::") s)
+(InheritanceLink (WordSenseNode "linear_algebra%1:09:00::") s)
+(InheritanceLink (WordSenseNode "vector_algebra%1:09:00::") s)
+(InheritanceLink (WordSenseNode "matrix_algebra%1:09:00::") s)

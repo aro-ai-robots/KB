@@ -1,0 +1,5 @@
+(define s (WordSenseNode "erigeron_divergens%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spreading_fleabane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fleabane%1:20:02::"))
+(define x (WordNode "Erigeron_divergens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fleabane%1:20:02::"))

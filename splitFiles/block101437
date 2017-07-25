@@ -1,0 +1,8 @@
+(define s (WordSenseNode "mailing_address%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mailing_address")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "address%1:15:00::"))
+(InheritanceLink (WordSenseNode "box_number%1:15:01::") s)
+(InheritanceLink (WordSenseNode "post-office_box_number%1:15:00::") s)
+(InheritanceLink (WordSenseNode "PO_box_number%1:15:00::") s)
+(InheritanceLink (WordSenseNode "PO_Box_No%1:15:00::") s)
+(InheritanceLink (WordSenseNode "box_number%1:15:00::") s)

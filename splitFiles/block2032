@@ -1,0 +1,4 @@
+(define s (WordSenseNode "additive_inverse%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "additive_inverse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inverse%1:24:02::"))
+(InheritanceLink s (WordSenseNode "opposite%1:24:04::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "outtake%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "outtake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scene%1:10:01::"))
+(InheritanceLink s (WordSenseNode "shot%1:10:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "geosynchronous_orbit%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "geosynchronous_orbit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orbit%1:15:00::"))
+(InheritanceLink s (WordSenseNode "celestial_orbit%1:15:00::"))
+(InheritanceLink (WordSenseNode "geostationary_orbit%1:15:00::") s)

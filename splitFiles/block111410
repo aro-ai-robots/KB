@@ -1,0 +1,7 @@
+(define s (WordSenseNode "natural_phenomenon%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "natural_phenomenon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phenomenon%1:03:00::"))
+(InheritanceLink (WordSenseNode "chemical_phenomenon%1:19:00::") s)
+(InheritanceLink (WordSenseNode "geological_phenomenon%1:19:00::") s)
+(InheritanceLink (WordSenseNode "organic_phenomenon%1:19:00::") s)
+(InheritanceLink (WordSenseNode "physical_phenomenon%1:19:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "axolemma%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "axolemma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "membrane%1:08:00::"))
+(InheritanceLink s (WordSenseNode "tissue_layer%1:08:00::"))
+(HolonymLink s (WordSenseNode "medullary_sheath%1:08:00::"))
+(HolonymLink s (WordSenseNode "myelin_sheath%1:08:00::"))

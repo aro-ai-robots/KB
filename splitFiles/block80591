@@ -1,0 +1,5 @@
+(define s (WordSenseNode "high_table%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "high_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dining_table%1:06:00::"))
+(InheritanceLink s (WordSenseNode "board%1:06:01::"))
+(HolonymLink s (WordSenseNode "dining-hall%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "harpoon%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "harpoon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "catch%2:35:00::"))
+(InheritanceLink s (WordSenseNode "grab%2:35:00::"))
+(InheritanceLink s (WordSenseNode "take_hold_of%2:35:01::"))

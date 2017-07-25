@@ -1,0 +1,6 @@
+(define s (WordSenseNode "currant%1:13:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "currant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "berry%1:13:00::"))
+(InheritanceLink (WordSenseNode "gooseberry%1:13:00::") s)
+(InheritanceLink (WordSenseNode "black_currant%1:13:00::") s)
+(InheritanceLink (WordSenseNode "red_currant%1:13:00::") s)

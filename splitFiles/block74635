@@ -1,0 +1,4 @@
+(define s (WordSenseNode "graduate%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "graduate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confer%2:40:00::"))
+(InheritanceLink s (WordSenseNode "bestow%2:40:00::"))

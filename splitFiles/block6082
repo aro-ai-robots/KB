@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anastrophe%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anastrophe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhetorical_device%1:10:00::"))
+(define x (WordNode "inversion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhetorical_device%1:10:00::"))

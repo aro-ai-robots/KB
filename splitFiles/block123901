@@ -1,0 +1,5 @@
+(define s (WordSenseNode "phd%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ph.D.")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Doctor_of_Philosophy%1:10:00::"))
+(define x (WordNode "PhD")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Doctor_of_Philosophy%1:10:00::"))

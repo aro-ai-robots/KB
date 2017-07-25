@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ciprofloxacin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ciprofloxacin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antibiotic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antibiotic_drug%1:06:00::"))
+(define x (WordNode "Cipro")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antibiotic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antibiotic_drug%1:06:00::"))

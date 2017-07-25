@@ -1,0 +1,5 @@
+(define s (WordSenseNode "propulsion%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "propulsion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force%1:19:00::"))
+(InheritanceLink (WordSenseNode "nuclear_propulsion%1:19:00::") s)
+(InheritanceLink (WordSenseNode "reaction_propulsion%1:19:00::") s)

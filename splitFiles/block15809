@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bennet%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bennet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avens%1:20:00::"))
+(define x (WordNode "white_avens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avens%1:20:00::"))
+(define x (WordNode "Geum_virginianum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avens%1:20:00::"))

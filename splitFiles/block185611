@@ -1,0 +1,7 @@
+(define s (WordSenseNode "yardstick%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yardstick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ruler%1:06:00::"))
+(define x (WordNode "yard_measure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ruler%1:06:00::"))

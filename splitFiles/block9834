@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ascii_control_character%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "control_character")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ASCII_character%1:10:00::"))
+(InheritanceLink (WordSenseNode "backspace_character%1:10:00::") s)
+(define x (WordNode "ASCII_control_character")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ASCII_character%1:10:00::"))
+(InheritanceLink (WordSenseNode "backspace_character%1:10:00::") s)

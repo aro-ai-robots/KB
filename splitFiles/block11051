@@ -1,0 +1,5 @@
+(define s (WordSenseNode "attainder%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "attainder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cancellation%1:04:00::"))
+(define x (WordNode "civil_death")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cancellation%1:04:00::"))

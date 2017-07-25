@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sovereignty%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sovereignty")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "authority%1:07:00::"))
+(InheritanceLink s (WordSenseNode "authorization%1:07:00::"))
+(InheritanceLink s (WordSenseNode "authorisation%1:07:00::"))
+(InheritanceLink s (WordSenseNode "potency%1:07:01::"))
+(InheritanceLink s (WordSenseNode "dominance%1:07:00::"))
+(InheritanceLink s (WordSenseNode "say-so%1:07:00::"))

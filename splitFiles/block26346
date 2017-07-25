@@ -1,0 +1,5 @@
+(define s (WordSenseNode "carry_back%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "carry_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "subtract%2:31:00::"))
+(InheritanceLink s (WordSenseNode "deduct%2:31:01::"))
+(InheritanceLink s (WordSenseNode "take_off%2:31:00::"))

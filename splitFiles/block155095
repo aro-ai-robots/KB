@@ -1,0 +1,6 @@
+(define s (WordSenseNode "solar_gravity%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "solar_gravity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gravity%1:19:00::"))
+(InheritanceLink s (WordSenseNode "gravitation%1:19:00::"))
+(InheritanceLink s (WordSenseNode "gravitational_attraction%1:19:00::"))
+(InheritanceLink s (WordSenseNode "gravitational_force%1:19:00::"))

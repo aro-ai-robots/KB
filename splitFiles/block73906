@@ -1,0 +1,5 @@
+(define s (WordSenseNode "going_to_jerusalem%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "musical_chairs")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "child's_game%1:04:00::"))
+(define x (WordNode "going_to_Jerusalem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "child's_game%1:04:00::"))

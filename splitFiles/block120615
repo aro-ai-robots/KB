@@ -1,0 +1,5 @@
+(define s (WordSenseNode "parenthood%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parenthood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adulthood%1:26:00::"))
+(define x (WordNode "parentage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adulthood%1:26:00::"))

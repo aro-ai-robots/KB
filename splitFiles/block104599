@@ -1,0 +1,8 @@
+(define s (WordSenseNode "medium%1:27:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "medium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:00::"))
+(InheritanceLink (WordSenseNode "solvent%1:27:00::") s)
+(InheritanceLink (WordSenseNode "dissolvent%1:27:00::") s)
+(InheritanceLink (WordSenseNode "dissolver%1:27:00::") s)
+(InheritanceLink (WordSenseNode "dissolving_agent%1:27:00::") s)
+(InheritanceLink (WordSenseNode "resolvent%1:27:00::") s)

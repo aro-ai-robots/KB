@@ -1,0 +1,7 @@
+(define s (WordSenseNode "autochthony%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "indigenousness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nativeness%1:07:00::"))
+(define x (WordNode "autochthony")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nativeness%1:07:00::"))
+(define x (WordNode "endemism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nativeness%1:07:00::"))

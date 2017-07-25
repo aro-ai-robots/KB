@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mahayana%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mahayana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Buddhism%1:14:00::"))
+(HolonymLink (WordSenseNode "Mahayanist%1:18:00::") s)

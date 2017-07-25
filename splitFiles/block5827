@@ -1,0 +1,5 @@
+(define s (WordSenseNode "amyloid_protein_plaque%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amyloid_plaque")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plaque%1:08:00::"))
+(define x (WordNode "amyloid_protein_plaque")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plaque%1:08:00::"))

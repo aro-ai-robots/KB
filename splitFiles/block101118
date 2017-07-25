@@ -1,0 +1,5 @@
+(define s (WordSenseNode "magazine_article%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magazine_article")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "article%1:10:00::"))
+(HolonymLink s (WordSenseNode "magazine%1:10:00::"))
+(HolonymLink s (WordSenseNode "mag%1:10:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "carpenter's_level%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carpenter's_level")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bar%1:06:00::"))
+(InheritanceLink (WordSenseNode "plumb_level%1:06:00::") s)
+(HolonymLink (WordSenseNode "level%1:06:00::") s)
+(HolonymLink (WordSenseNode "spirit_level%1:06:00::") s)

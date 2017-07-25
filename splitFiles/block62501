@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flagellated_cell%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flagellated_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cell%1:03:00::"))
+(InheritanceLink (WordSenseNode "choanocyte%1:05:00::") s)
+(InheritanceLink (WordSenseNode "collar_cell%1:05:00::") s)

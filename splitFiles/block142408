@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rotary_club%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Rotary_Club")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "service_club%1:14:00::"))
+(HolonymLink (WordSenseNode "Rotarian%1:18:00::") s)
+(define x (WordNode "Rotary_International")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "service_club%1:14:00::"))
+(HolonymLink (WordSenseNode "Rotarian%1:18:00::") s)

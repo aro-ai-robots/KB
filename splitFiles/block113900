@@ -1,0 +1,4 @@
+(define s (WordSenseNode "norman_conquest%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Norman_Conquest")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Hastings%1:04:00::") s)
+(HolonymLink (WordSenseNode "battle_of_Hastings%1:04:00::") s)

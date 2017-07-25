@@ -1,0 +1,7 @@
+(define s (WordSenseNode "strike_pay%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strike_pay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wage%1:21:00::"))
+(InheritanceLink s (WordSenseNode "pay%1:21:01::"))
+(InheritanceLink s (WordSenseNode "earnings%1:21:00::"))
+(InheritanceLink s (WordSenseNode "remuneration%1:21:00::"))
+(InheritanceLink s (WordSenseNode "salary%1:21:00::"))

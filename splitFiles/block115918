@@ -1,0 +1,4 @@
+(define s (WordSenseNode "old_saxon%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Old_Saxon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Low_German%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Plattdeutsch%1:10:00::"))

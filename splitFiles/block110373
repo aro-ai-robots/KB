@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mutagenesis%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mutagenesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cause%1:11:00::"))
+(InheritanceLink (WordSenseNode "insertional_mutagenesis%1:11:00::") s)
+(HolonymLink s (WordSenseNode "mutation%1:11:00::"))
+(HolonymLink s (WordSenseNode "genetic_mutation%1:11:00::"))
+(HolonymLink s (WordSenseNode "chromosomal_mutation%1:11:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_wisteria%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Wisteria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rosid_dicot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Papilionoideae%1:20:00::"))
+(HolonymLink s (WordSenseNode "subfamily_Papilionoideae%1:20:00::"))
+(HolonymLink (WordSenseNode "wisteria%1:20:00::") s)
+(HolonymLink (WordSenseNode "wistaria%1:20:00::") s)

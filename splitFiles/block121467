@@ -1,0 +1,7 @@
+(define s (WordSenseNode "patent_log%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "patent_log")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "log%1:06:01::"))
+(define x (WordNode "screw_log")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "log%1:06:01::"))
+(define x (WordNode "taffrail_log")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "log%1:06:01::"))

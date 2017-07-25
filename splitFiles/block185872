@@ -1,0 +1,5 @@
+(define s (WordSenseNode "yemeni_rial%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Yemeni_rial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Yemeni_monetary_unit%1:23:00::"))
+(define x (WordNode "rial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Yemeni_monetary_unit%1:23:00::"))

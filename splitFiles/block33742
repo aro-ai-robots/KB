@@ -1,0 +1,7 @@
+(define s (WordSenseNode "collaboration%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "collaboration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooperation%1:04:01::"))
+(define x (WordNode "collaborationism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooperation%1:04:01::"))
+(define x (WordNode "quislingism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooperation%1:04:01::"))

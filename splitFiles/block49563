@@ -1,0 +1,5 @@
+(define s (WordSenseNode "doxology%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "doxology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hymn%1:10:00::"))
+(InheritanceLink s (WordSenseNode "anthem%1:10:00::"))
+(HolonymLink s (WordSenseNode "Christian_liturgy%1:04:00::"))

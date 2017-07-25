@@ -1,0 +1,7 @@
+(define s (WordSenseNode "action_painting%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Abstract_Expressionism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artistic_movement%1:14:00::"))
+(InheritanceLink s (WordSenseNode "art_movement%1:14:00::"))
+(define x (WordNode "action_painting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artistic_movement%1:14:00::"))
+(InheritanceLink s (WordSenseNode "art_movement%1:14:00::"))

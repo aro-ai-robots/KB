@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tooth%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tooth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:06:00::"))
+(HolonymLink s (WordSenseNode "gear%1:06:00::"))
+(HolonymLink s (WordSenseNode "gear_wheel%1:06:00::"))
+(HolonymLink s (WordSenseNode "geared_wheel%1:06:00::"))
+(HolonymLink s (WordSenseNode "cogwheel%1:06:00::"))

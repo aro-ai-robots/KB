@@ -1,0 +1,4 @@
+(define s (WordSenseNode "arithmetic%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arithmetic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pure_mathematics%1:09:00::"))
+(InheritanceLink (WordSenseNode "algorism%1:09:00::") s)

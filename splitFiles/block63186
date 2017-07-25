@@ -1,0 +1,7 @@
+(define s (WordSenseNode "floorshow%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cabaret")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "show%1:04:00::"))
+(define x (WordNode "floorshow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "show%1:04:00::"))
+(define x (WordNode "floor_show")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "show%1:04:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "wedding_anniversary%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wedding_anniversary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anniversary%1:28:00::"))
+(InheritanceLink s (WordSenseNode "day_of_remembrance%1:28:00::"))
+(InheritanceLink (WordSenseNode "silver_wedding_anniversary%1:28:00::") s)
+(InheritanceLink (WordSenseNode "golden_wedding_anniversary%1:28:00::") s)
+(InheritanceLink (WordSenseNode "diamond_wedding_anniversary%1:28:00::") s)
+(InheritanceLink (WordSenseNode "diamond_wedding%1:28:00::") s)

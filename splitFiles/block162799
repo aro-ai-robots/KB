@@ -1,0 +1,4 @@
+(define s (WordSenseNode "summum_bonum%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "summum_bonum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "good%1:07:01::"))
+(InheritanceLink s (WordSenseNode "goodness%1:07:01::"))

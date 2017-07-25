@@ -1,0 +1,5 @@
+(define s (WordSenseNode "strife%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "discord")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disorder%1:26:00::"))
+(define x (WordNode "strife")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disorder%1:26:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nocturia%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nocturia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "micturition%1:22:00::"))
+(InheritanceLink s (WordSenseNode "urination%1:22:00::"))
+(define x (WordNode "nycturia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "micturition%1:22:00::"))
+(InheritanceLink s (WordSenseNode "urination%1:22:00::"))

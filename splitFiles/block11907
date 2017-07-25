@@ -1,0 +1,7 @@
+(define s (WordSenseNode "avouch%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "avow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "admit%2:32:00::"))
+(InheritanceLink s (WordSenseNode "acknowledge%2:32:00::"))
+(define x (WordNode "avouch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "admit%2:32:00::"))
+(InheritanceLink s (WordSenseNode "acknowledge%2:32:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "arbitration_clause%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arbitration_clause")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "article%1:10:02::"))
+(InheritanceLink s (WordSenseNode "clause%1:10:01::"))
+(HolonymLink s (WordSenseNode "contract%1:10:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "textual_criticism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "textual_criticism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "criticism%1:10:01::"))
+(InheritanceLink s (WordSenseNode "literary_criticism%1:10:00::"))
+(InheritanceLink (WordSenseNode "higher_criticism%1:10:00::") s)
+(InheritanceLink (WordSenseNode "lower_criticism%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Masorah%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Masora%1:10:00::") s)

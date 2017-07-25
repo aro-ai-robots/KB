@@ -1,0 +1,7 @@
+(define s (WordSenseNode "contentiousness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quarrelsomeness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disagreeableness%1:07:00::"))
+(InheritanceLink (WordSenseNode "litigiousness%1:07:00::") s)
+(define x (WordNode "contentiousness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disagreeableness%1:07:00::"))
+(InheritanceLink (WordSenseNode "litigiousness%1:07:00::") s)

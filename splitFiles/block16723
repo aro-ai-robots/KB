@@ -1,0 +1,7 @@
+(define s (WordSenseNode "binder's_board%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "binder's_board")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardboard%1:27:00::"))
+(InheritanceLink s (WordSenseNode "composition_board%1:27:00::"))
+(define x (WordNode "binder_board")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardboard%1:27:00::"))
+(InheritanceLink s (WordSenseNode "composition_board%1:27:00::"))

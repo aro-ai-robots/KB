@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jacamar%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jacamar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "piciform_bird%1:05:00::"))
+(HolonymLink s (WordSenseNode "Galbulidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Galbulidae%1:05:00::"))

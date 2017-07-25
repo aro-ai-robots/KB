@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reverse%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "invert")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reorder%2:31:00::"))
+(define x (WordNode "reverse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reorder%2:31:00::"))

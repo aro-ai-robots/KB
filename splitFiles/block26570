@@ -1,0 +1,5 @@
+(define s (WordSenseNode "case-to-infection_ratio%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "case-to-infection_proportion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proportion%1:24:00::"))
+(define x (WordNode "case-to-infection_ratio")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proportion%1:24:00::"))

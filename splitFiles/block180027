@@ -1,0 +1,7 @@
+(define s (WordSenseNode "volcanic_eruption%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "volcanic_eruption")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discharge%1:11:00::"))
+(InheritanceLink (WordSenseNode "Plinian_eruption%1:11:00::") s)
+(define x (WordNode "eruption")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discharge%1:11:00::"))
+(InheritanceLink (WordSenseNode "Plinian_eruption%1:11:00::") s)

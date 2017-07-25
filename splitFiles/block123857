@@ -1,0 +1,5 @@
+(define s (WordSenseNode "phase%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "phase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "synchronize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "synchronise%2:30:00::"))
+(InheritanceLink s (WordSenseNode "sync%2:30:00::"))

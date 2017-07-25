@@ -1,0 +1,4 @@
+(define s (WordSenseNode "binocular_microscope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "binocular_microscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "light_microscope%1:06:00::"))
+(InheritanceLink (WordSenseNode "operating_microscope%1:06:00::") s)

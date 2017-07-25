@@ -1,0 +1,7 @@
+(define s (WordSenseNode "instrumental_role%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "instrumental_role")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "semantic_role%1:10:00::"))
+(InheritanceLink s (WordSenseNode "participant_role%1:10:00::"))
+(define x (WordNode "instrument")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "semantic_role%1:10:00::"))
+(InheritanceLink s (WordSenseNode "participant_role%1:10:00::"))

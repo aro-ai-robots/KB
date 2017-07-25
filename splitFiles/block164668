@@ -1,0 +1,4 @@
+(define s (WordSenseNode "syntax%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "syntax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grammar%1:09:00::"))
+(InheritanceLink (WordSenseNode "generative_grammar%1:09:00::") s)

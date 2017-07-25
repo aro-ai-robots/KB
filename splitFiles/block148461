@@ -1,0 +1,5 @@
+(define s (WordSenseNode "senior_master_sergeant%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "senior_master_sergeant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sergeant%1:18:01::"))
+(define x (WordNode "SMSgt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sergeant%1:18:01::"))

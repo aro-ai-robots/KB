@@ -1,0 +1,6 @@
+(define s (WordSenseNode "internal_revenue%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "internal_revenue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tax_income%1:21:00::"))
+(InheritanceLink s (WordSenseNode "taxation%1:21:01::"))
+(InheritanceLink s (WordSenseNode "tax_revenue%1:21:00::"))
+(InheritanceLink s (WordSenseNode "revenue%1:21:02::"))

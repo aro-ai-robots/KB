@@ -1,0 +1,4 @@
+(define s (WordSenseNode "west_berliner%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "West_Berliner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Berliner%1:18:00::"))
+(HolonymLink s (WordSenseNode "West_Berlin%1:15:00::"))

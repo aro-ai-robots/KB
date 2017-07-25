@@ -1,0 +1,5 @@
+(define s (WordSenseNode "behold%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "behold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "see%2:39:00::"))
+(define x (WordNode "lay_eyes_on")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "see%2:39:00::"))

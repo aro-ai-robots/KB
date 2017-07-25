@@ -1,0 +1,5 @@
+(define s (WordSenseNode "genius_loci%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genius_loci")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atmosphere%1:26:01::"))
+(InheritanceLink s (WordSenseNode "ambiance%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ambience%1:26:00::"))

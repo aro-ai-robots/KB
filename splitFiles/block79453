@@ -1,0 +1,4 @@
+(define s (WordSenseNode "heliophila%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "heliophila")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Heliophila%1:20:00::"))

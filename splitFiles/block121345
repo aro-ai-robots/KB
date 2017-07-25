@@ -1,0 +1,7 @@
+(define s (WordSenseNode "paste%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "glue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attach%2:35:01::"))
+(InheritanceLink (WordSenseNode "epoxy%2:35:00::") s)
+(define x (WordNode "paste")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attach%2:35:01::"))
+(InheritanceLink (WordSenseNode "epoxy%2:35:00::") s)

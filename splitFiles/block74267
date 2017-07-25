@@ -1,0 +1,7 @@
+(define s (WordSenseNode "goof-proof%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "goofproof")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proof%2:30:00::"))
+(define x (WordNode "goof-proof")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proof%2:30:00::"))
+(define x (WordNode "foolproof")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proof%2:30:00::"))

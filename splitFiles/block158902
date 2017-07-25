@@ -1,0 +1,6 @@
+(define s (WordSenseNode "staphylococcal_infection%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "staphylococcal_infection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infection%1:26:00::"))
+(InheritanceLink (WordSenseNode "boil%1:26:00::") s)
+(InheritanceLink (WordSenseNode "furuncle%1:26:00::") s)
+(InheritanceLink (WordSenseNode "carbuncle%1:26:00::") s)

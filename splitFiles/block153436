@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sliding_seat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sliding_seat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seat%1:06:00::"))
+(HolonymLink s (WordSenseNode "shell%1:06:03::"))
+(HolonymLink s (WordSenseNode "racing_shell%1:06:00::"))

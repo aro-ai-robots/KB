@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ruff%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "external_body_part%1:08:00::"))
+(define x (WordNode "ruff")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "external_body_part%1:08:00::"))

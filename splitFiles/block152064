@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sinanthropus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Sinanthropus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hominid%1:05:00::"))
+(define x (WordNode "genus_Sinanthropus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hominid%1:05:00::"))

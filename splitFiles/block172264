@@ -1,0 +1,6 @@
+(define s (WordSenseNode "trial_balloon%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trial_balloon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trial%1:09:00::"))
+(InheritanceLink s (WordSenseNode "trial_run%1:09:00::"))
+(InheritanceLink s (WordSenseNode "test%1:09:02::"))
+(InheritanceLink s (WordSenseNode "tryout%1:09:00::"))

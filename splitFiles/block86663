@@ -1,0 +1,8 @@
+(define s (WordSenseNode "infallibility%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "infallibility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dependability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "dependableness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "reliability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "reliableness%1:07:00::"))
+(InheritanceLink (WordSenseNode "inerrancy%1:07:00::") s)
+(InheritanceLink (WordSenseNode "papal_infallibility%1:07:00::") s)

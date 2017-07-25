@@ -1,0 +1,6 @@
+(define s (WordSenseNode "purge%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "purge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "purify%2:30:00::"))
+(InheritanceLink s (WordSenseNode "sublimate%2:30:01::"))
+(InheritanceLink s (WordSenseNode "make_pure%2:30:00::"))
+(InheritanceLink s (WordSenseNode "distill%2:30:03::"))

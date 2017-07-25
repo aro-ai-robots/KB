@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gasmask%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gasmask")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mask%1:06:01::"))
+(define x (WordNode "respirator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mask%1:06:01::"))
+(define x (WordNode "gas_helmet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mask%1:06:01::"))

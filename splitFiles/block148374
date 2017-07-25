@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sen%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fractional_monetary_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "subunit%1:23:00::"))
+(HolonymLink s (WordSenseNode "rupiah%1:23:00::"))
+(HolonymLink s (WordSenseNode "riel%1:23:00::"))
+(HolonymLink s (WordSenseNode "ringgit%1:23:00::"))
+(HolonymLink s (WordSenseNode "yen%1:23:00::"))

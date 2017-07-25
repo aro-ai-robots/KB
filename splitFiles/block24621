@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cancel%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cancel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "score%2:32:00::"))
+(InheritanceLink s (WordSenseNode "mark%2:32:00::"))
+(define x (WordNode "invalidate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "score%2:32:00::"))
+(InheritanceLink s (WordSenseNode "mark%2:32:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "foggy_bottom%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Foggy_Bottom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Department_of_State%1:14:00::"))
+(InheritanceLink s (WordSenseNode "United_States_Department_of_State%1:14:00::"))
+(InheritanceLink s (WordSenseNode "State_Department%1:14:00::"))
+(InheritanceLink s (WordSenseNode "State%1:14:02::"))
+(InheritanceLink s (WordSenseNode "DoS%1:14:00::"))

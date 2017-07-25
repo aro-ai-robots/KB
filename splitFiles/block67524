@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gasket%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gasket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:06:02::"))
+(InheritanceLink (WordSenseNode "head_gasket%1:06:00::") s)
+(InheritanceLink (WordSenseNode "O_ring%1:06:00::") s)

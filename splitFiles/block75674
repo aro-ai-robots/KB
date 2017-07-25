@@ -1,0 +1,5 @@
+(define s (WordSenseNode "grief%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grief")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "negative_stimulus%1:09:00::"))
+(define x (WordNode "sorrow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "negative_stimulus%1:09:00::"))

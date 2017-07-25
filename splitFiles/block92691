@@ -1,0 +1,7 @@
+(define s (WordSenseNode "khanty%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Khanty")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ugric%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Ugrian%1:10:00::"))
+(define x (WordNode "Ostyak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ugric%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Ugrian%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pullout%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disengagement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retreat%1:04:00::"))
+(define x (WordNode "fallback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retreat%1:04:00::"))
+(define x (WordNode "pullout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retreat%1:04:00::"))

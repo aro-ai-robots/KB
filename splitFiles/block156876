@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spiccato_bowing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spiccato")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bowing%1:04:00::"))
+(define x (WordNode "spiccato_bowing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bowing%1:04:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "throne%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "throne")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chair_of_state%1:06:00::"))
+(InheritanceLink (WordSenseNode "cathedra%1:06:00::") s)
+(InheritanceLink (WordSenseNode "bishop's_throne%1:06:00::") s)
+(InheritanceLink (WordSenseNode "mercy_seat%1:06:01::") s)
+(InheritanceLink (WordSenseNode "musnud%1:06:00::") s)
+(InheritanceLink (WordSenseNode "peacock-throne%1:06:00::") s)

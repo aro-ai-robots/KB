@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pied_lemming%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pied_lemming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lemming%1:05:00::"))
+(InheritanceLink (WordSenseNode "Hudson_bay_collared_lemming%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Dicrostonyx_hudsonius%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Dicrostonyx%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Dicrostonyx%1:05:00::"))

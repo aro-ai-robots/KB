@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pragmatic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pragmatic_sanction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imperial_decree%1:10:00::"))
+(define x (WordNode "pragmatic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imperial_decree%1:10:00::"))

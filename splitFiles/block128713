@@ -1,0 +1,4 @@
+(define s (WordSenseNode "positive_pole%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "positive_pole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "terminal%1:06:01::"))
+(InheritanceLink s (WordSenseNode "pole%1:06:03::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "baggage%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "baggage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "materiel%1:06:00::"))
+(InheritanceLink s (WordSenseNode "equipage%1:06:01::"))
+(InheritanceLink (WordSenseNode "impedimenta%1:06:00::") s)

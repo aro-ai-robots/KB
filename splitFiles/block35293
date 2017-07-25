@@ -1,0 +1,7 @@
+(define s (WordSenseNode "complex%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "complex")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feeling%1:03:00::"))
+(InheritanceLink (WordSenseNode "Oedipus_complex%1:12:00::") s)
+(InheritanceLink (WordSenseNode "Oedipal_complex%1:12:00::") s)
+(InheritanceLink (WordSenseNode "Electra_complex%1:12:00::") s)
+(InheritanceLink (WordSenseNode "inferiority_complex%1:12:00::") s)

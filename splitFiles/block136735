@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reciprocity%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reciprocity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interchange%1:04:01::"))
+(InheritanceLink s (WordSenseNode "reciprocation%1:04:02::"))
+(InheritanceLink s (WordSenseNode "give-and-take%1:04:00::"))

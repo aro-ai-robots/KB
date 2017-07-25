@@ -1,0 +1,7 @@
+(define s (WordSenseNode "butternut%1:13:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "butternut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edible_nut%1:13:00::"))
+(HolonymLink s (WordSenseNode "butternut%1:20:00::"))
+(HolonymLink s (WordSenseNode "butternut_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "white_walnut%1:20:00::"))
+(HolonymLink s (WordSenseNode "Juglans_cinerea%1:20:00::"))

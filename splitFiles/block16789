@@ -1,0 +1,5 @@
+(define s (WordSenseNode "biogenesis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "biosynthesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "synthesis%1:22:00::"))
+(define x (WordNode "biogenesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "synthesis%1:22:00::"))

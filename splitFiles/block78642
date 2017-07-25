@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hay_fever%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hay_fever")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allergic_rhinitis%1:26:00::"))
+(define x (WordNode "pollinosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allergic_rhinitis%1:26:00::"))

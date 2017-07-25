@@ -1,0 +1,4 @@
+(define s (WordSenseNode "collet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "collet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:06:02::"))
+(HolonymLink s (WordSenseNode "mounting%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stainability%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stainability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tendency%1:07:00::"))
+(InheritanceLink s (WordSenseNode "inclination%1:07:00::"))
+(InheritanceLink (WordSenseNode "basophilia%1:07:00::") s)

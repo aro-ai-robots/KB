@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gumshield%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mouthpiece")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sports_equipment%1:06:00::"))
+(define x (WordNode "gumshield")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sports_equipment%1:06:00::"))

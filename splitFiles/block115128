@@ -1,0 +1,8 @@
+(define s (WordSenseNode "obstruction%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "obstruction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maneuver%1:04:03::"))
+(InheritanceLink s (WordSenseNode "manoeuvre%1:04:03::"))
+(InheritanceLink s (WordSenseNode "play%1:04:04::"))
+(InheritanceLink (WordSenseNode "blocking%1:04:00::") s)
+(InheritanceLink (WordSenseNode "block%1:04:00::") s)
+(InheritanceLink (WordSenseNode "check%1:04:02::") s)

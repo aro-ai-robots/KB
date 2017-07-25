@@ -1,0 +1,5 @@
+(define s (WordSenseNode "self-cultivation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-education")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "education%1:09:01::"))
+(define x (WordNode "self-cultivation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "education%1:09:01::"))

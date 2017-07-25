@@ -1,0 +1,7 @@
+(define s (WordSenseNode "splicing%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "splice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "junction%1:06:01::"))
+(InheritanceLink s (WordSenseNode "conjunction%1:06:00::"))
+(define x (WordNode "splicing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "junction%1:06:01::"))
+(InheritanceLink s (WordSenseNode "conjunction%1:06:00::"))

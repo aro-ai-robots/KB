@@ -1,0 +1,4 @@
+(define s (WordSenseNode "elastic_tissue%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elastic_tissue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "connective_tissue%1:08:00::"))
+(HolonymLink (WordSenseNode "elastin%1:08:00::") s)

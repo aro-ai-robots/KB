@@ -1,0 +1,7 @@
+(define s (WordSenseNode "effector%1:08:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "effector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_fiber%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nerve_fibre%1:08:00::"))
+(HolonymLink (WordSenseNode "end-plate%1:08:00::") s)
+(HolonymLink (WordSenseNode "endplate%1:08:00::") s)
+(HolonymLink (WordSenseNode "motor_end_plate%1:08:00::") s)

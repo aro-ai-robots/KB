@@ -1,0 +1,7 @@
+(define s (WordSenseNode "klinefelter_syndrome%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Klinefelter's_syndrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "syndrome%1:26:00::"))
+(define x (WordNode "Klinefelter_syndrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "syndrome%1:26:00::"))
+(define x (WordNode "XXY-syndrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "syndrome%1:26:00::"))

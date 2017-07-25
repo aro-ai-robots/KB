@@ -1,0 +1,7 @@
+(define s (WordSenseNode "economy%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "economy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "frugality%1:07:00::"))
+(InheritanceLink s (WordSenseNode "frugalness%1:07:00::"))
+(define x (WordNode "thriftiness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "frugality%1:07:00::"))
+(InheritanceLink s (WordSenseNode "frugalness%1:07:00::"))

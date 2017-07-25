@@ -1,0 +1,5 @@
+(define s (WordSenseNode "clear%2:30:11::")) (PartOfSpeechLink s verb)
+(define x (WordNode "clear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "take_out%2:41:01::"))
+(InheritanceLink s (WordSenseNode "move_out%2:41:00::"))
+(InheritanceLink s (WordSenseNode "remove%2:41:02::"))

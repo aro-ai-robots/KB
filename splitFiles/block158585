@@ -1,0 +1,8 @@
+(define s (WordSenseNode "staining%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "staining")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dyeing%1:04:00::"))
+(InheritanceLink (WordSenseNode "Gram's_method%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Gram_method%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Gram's_procedure%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Gram's_stain%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Gram_stain%1:04:00::") s)

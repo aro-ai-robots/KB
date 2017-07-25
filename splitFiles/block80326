@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hexahedron%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hexahedron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polyhedron%1:25:00::"))
+(InheritanceLink (WordSenseNode "rhombohedron%1:25:00::") s)

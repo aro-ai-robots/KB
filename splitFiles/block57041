@@ -1,0 +1,4 @@
+(define s (WordSenseNode "exosphere%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exosphere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "layer%1:15:00::"))
+(HolonymLink s (WordSenseNode "atmosphere%1:17:00::"))

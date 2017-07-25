@@ -1,0 +1,4 @@
+(define s (WordSenseNode "diverge%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "diverge")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "divaricate%2:42:00::") s)
+(InheritanceLink (WordSenseNode "bifurcate%2:42:00::") s)

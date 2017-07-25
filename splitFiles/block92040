@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kanarese%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kannada")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "South_Dravidian%1:10:00::"))
+(InheritanceLink (WordSenseNode "Badaga%1:10:00::") s)
+(define x (WordNode "Kanarese")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "South_Dravidian%1:10:00::"))
+(InheritanceLink (WordSenseNode "Badaga%1:10:00::") s)

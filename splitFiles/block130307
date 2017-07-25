@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pressure_suit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pressure_suit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protective_garment%1:06:00::"))
+(InheritanceLink (WordSenseNode "anti-G_suit%1:06:00::") s)
+(InheritanceLink (WordSenseNode "G_suit%1:06:00::") s)
+(InheritanceLink (WordSenseNode "spacesuit%1:06:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "bust-up%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bust-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quarrel%1:10:00::"))
+(InheritanceLink s (WordSenseNode "wrangle%1:10:01::"))
+(InheritanceLink s (WordSenseNode "row%1:10:00::"))
+(InheritanceLink s (WordSenseNode "words%1:10:01::"))
+(InheritanceLink s (WordSenseNode "run-in%1:10:00::"))
+(InheritanceLink s (WordSenseNode "dustup%1:10:00::"))

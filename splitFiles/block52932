@@ -1,0 +1,7 @@
+(define s (WordSenseNode "electronics_intelligence%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electronics_intelligence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "signals_intelligence%1:04:00::"))
+(InheritanceLink s (WordSenseNode "SIGINT%1:04:00::"))
+(define x (WordNode "ELINT")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "signals_intelligence%1:04:00::"))
+(InheritanceLink s (WordSenseNode "SIGINT%1:04:00::"))

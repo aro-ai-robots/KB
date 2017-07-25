@@ -1,0 +1,4 @@
+(define s (WordSenseNode "quassia%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quassia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "Jamaica_quassia%1:20:02::") s)

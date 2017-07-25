@@ -1,0 +1,7 @@
+(define s (WordSenseNode "persist_in%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "continue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%2:41:00::"))
+(InheritanceLink s (WordSenseNode "move%2:41:00::"))
+(define x (WordNode "persist_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%2:41:00::"))
+(InheritanceLink s (WordSenseNode "move%2:41:00::"))

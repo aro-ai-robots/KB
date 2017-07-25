@@ -1,0 +1,4 @@
+(define s (WordSenseNode "alphavirus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alphavirus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_virus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Togaviridae%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shoot%2:43:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "shoot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emit%2:43:00::"))
+(InheritanceLink s (WordSenseNode "give_out%2:43:00::"))
+(InheritanceLink s (WordSenseNode "give_off%2:43:00::"))

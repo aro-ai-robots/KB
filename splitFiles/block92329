@@ -1,0 +1,5 @@
+(define s (WordSenseNode "keep%2:42:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "keep")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protect%2:33:00::"))
+(define x (WordNode "preserve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protect%2:33:00::"))

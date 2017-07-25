@@ -1,0 +1,8 @@
+(define s (WordSenseNode "reception%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reception")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "party%1:14:00::"))
+(InheritanceLink (WordSenseNode "at_home%1:14:00::") s)
+(InheritanceLink (WordSenseNode "levee%1:14:00::") s)
+(InheritanceLink (WordSenseNode "tea%1:14:00::") s)
+(InheritanceLink (WordSenseNode "wedding_reception%1:14:00::") s)
+(HolonymLink (WordSenseNode "reception_line%1:14:00::") s)

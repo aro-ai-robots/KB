@@ -1,0 +1,5 @@
+(define s (WordSenseNode "referee%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "referee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "judge%2:31:02::"))
+(define x (WordNode "umpire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "judge%2:31:02::"))

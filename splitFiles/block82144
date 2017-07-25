@@ -1,0 +1,7 @@
+(define s (WordSenseNode "horizontal_integration%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "horizontal_integration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consolidation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "integration%1:04:02::"))
+(define x (WordNode "horizontal_combination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consolidation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "integration%1:04:02::"))

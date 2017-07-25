@@ -1,0 +1,7 @@
+(define s (WordSenseNode "main_rotor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "main_rotor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rotor%1:06:00::"))
+(HolonymLink (WordSenseNode "rotor_blade%1:06:00::") s)
+(HolonymLink (WordSenseNode "rotary_wing%1:06:00::") s)
+(HolonymLink (WordSenseNode "rotor_head%1:06:00::") s)
+(HolonymLink (WordSenseNode "rotor_shaft%1:06:00::") s)

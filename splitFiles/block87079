@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inhibition%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prohibition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "action%1:04:02::"))
+(define x (WordNode "inhibition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "action%1:04:02::"))
+(define x (WordNode "forbiddance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "action%1:04:02::"))

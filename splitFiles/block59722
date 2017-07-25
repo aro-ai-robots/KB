@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fanatism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fanaticism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intolerance%1:09:00::"))
+(define x (WordNode "fanatism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intolerance%1:09:00::"))
+(define x (WordNode "zealotry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intolerance%1:09:00::"))

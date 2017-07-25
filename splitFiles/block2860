@@ -1,0 +1,8 @@
+(define s (WordSenseNode "affliction%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "affliction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ill_health%1:26:00::"))
+(InheritanceLink s (WordSenseNode "unhealthiness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "health_problem%1:26:00::"))
+(InheritanceLink (WordSenseNode "deformity%1:26:00::") s)
+(InheritanceLink (WordSenseNode "malformation%1:26:00::") s)
+(InheritanceLink (WordSenseNode "misshapenness%1:26:00::") s)

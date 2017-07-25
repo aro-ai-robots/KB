@@ -1,0 +1,5 @@
+(define s (WordSenseNode "constituency%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "constituency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body%1:14:00::"))
+(HolonymLink s (WordSenseNode "electorate%1:14:00::"))
+(HolonymLink (WordSenseNode "constituent%1:18:00::") s)

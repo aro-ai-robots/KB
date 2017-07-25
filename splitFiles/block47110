@@ -1,0 +1,8 @@
+(define s (WordSenseNode "disapprove%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "disapprove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evaluate%2:31:01::"))
+(InheritanceLink s (WordSenseNode "pass_judgment%2:31:00::"))
+(InheritanceLink s (WordSenseNode "judge%2:31:00::"))
+(InheritanceLink (WordSenseNode "frown_on%2:31:00::") s)
+(InheritanceLink (WordSenseNode "frown_upon%2:31:00::") s)
+(InheritanceLink (WordSenseNode "discountenance%2:31:00::") s)

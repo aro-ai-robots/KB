@@ -1,0 +1,6 @@
+(define s (WordSenseNode "licorice_root%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "licorice_root")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "root%1:20:00::"))
+(HolonymLink s (WordSenseNode "licorice%1:20:00::"))
+(HolonymLink s (WordSenseNode "liquorice%1:20:00::"))
+(HolonymLink s (WordSenseNode "Glycyrrhiza_glabra%1:20:00::"))

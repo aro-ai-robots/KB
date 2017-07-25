@@ -1,0 +1,5 @@
+(define s (WordSenseNode "microfilm%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "microfilm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "film%1:06:01::"))
+(InheritanceLink s (WordSenseNode "photographic_film%1:06:00::"))
+(InheritanceLink (WordSenseNode "microfiche%1:06:00::") s)

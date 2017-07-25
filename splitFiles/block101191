@@ -1,0 +1,6 @@
+(define s (WordSenseNode "magnetic_compass%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magnetic_compass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compass%1:06:00::"))
+(InheritanceLink (WordSenseNode "compass_card%1:06:00::") s)
+(InheritanceLink (WordSenseNode "mariner's_compass%1:06:00::") s)
+(HolonymLink (WordSenseNode "magnetic_needle%1:06:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reprint%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reprint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproduce%2:36:00::"))
+(define x (WordNode "reissue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproduce%2:36:00::"))

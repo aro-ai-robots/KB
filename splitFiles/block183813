@@ -1,0 +1,4 @@
+(define s (WordSenseNode "window_shade%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "window_shade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window_blind%1:06:00::"))
+(InheritanceLink (WordSenseNode "roller_blind%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dialog%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dialogue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_composition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "literary_work%1:10:00::"))
+(define x (WordNode "dialog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_composition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "literary_work%1:10:00::"))

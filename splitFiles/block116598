@@ -1,0 +1,6 @@
+(define s (WordSenseNode "opening_line%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "opening_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:10:02::"))
+(HolonymLink s (WordSenseNode "news_article%1:10:00::"))
+(HolonymLink s (WordSenseNode "news_story%1:10:00::"))
+(HolonymLink s (WordSenseNode "newspaper_article%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "callosectomy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "callosotomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "psychosurgery%1:04:00::"))
+(define x (WordNode "callosectomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "psychosurgery%1:04:00::"))

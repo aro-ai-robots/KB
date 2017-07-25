@@ -1,0 +1,5 @@
+(define s (WordSenseNode "terra_sigillata%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "terra_sigillata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "earthenware%1:06:00::"))
+(define x (WordNode "Samian_ware")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "earthenware%1:06:00::"))

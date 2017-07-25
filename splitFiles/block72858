@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gird%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "gird")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bind%2:35:00::"))
+(InheritanceLink (WordSenseNode "hoop%2:35:00::") s)
+(define x (WordNode "encircle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bind%2:35:00::"))
+(InheritanceLink (WordSenseNode "hoop%2:35:00::") s)

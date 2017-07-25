@@ -1,0 +1,5 @@
+(define s (WordSenseNode "radiant_energy%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radiant_energy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "energy%1:19:00::"))
+(InheritanceLink s (WordSenseNode "free_energy%1:19:00::"))
+(InheritanceLink (WordSenseNode "luminous_energy%1:19:00::") s)

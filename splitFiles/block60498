@@ -1,0 +1,8 @@
+(define s (WordSenseNode "feeling%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "feeling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "somesthesia%1:09:01::"))
+(InheritanceLink s (WordSenseNode "somaesthesia%1:09:01::"))
+(InheritanceLink s (WordSenseNode "somatesthesia%1:09:01::"))
+(InheritanceLink s (WordSenseNode "somatic_sensation%1:09:00::"))
+(InheritanceLink (WordSenseNode "constriction%1:09:00::") s)
+(InheritanceLink (WordSenseNode "tightness%1:09:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "family_practice%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "family_practice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_practice%1:04:00::"))
+(define x (WordNode "family_medicine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_practice%1:04:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "alstroemeria%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alstroemeria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liliaceous_plant%1:20:00::"))
+(InheritanceLink (WordSenseNode "Peruvian_lily%1:20:00::") s)
+(InheritanceLink (WordSenseNode "lily_of_the_Incas%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Alstroemeria_pelegrina%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Alstroemeria%1:20:00::"))

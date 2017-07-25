@@ -1,0 +1,5 @@
+(define s (WordSenseNode "james_cook%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cook")) (WordSenseLink x s)
+(define x (WordNode "James_Cook")) (WordSenseLink x s)
+(define x (WordNode "Captain_Cook")) (WordSenseLink x s)
+(define x (WordNode "Captain_James_Cook")) (WordSenseLink x s)

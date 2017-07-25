@@ -1,0 +1,5 @@
+(define s (WordSenseNode "non-issue%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dead_letter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))
+(define x (WordNode "non-issue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))

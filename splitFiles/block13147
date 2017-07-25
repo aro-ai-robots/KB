@@ -1,0 +1,7 @@
+(define s (WordSenseNode "banana_peel%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "banana_peel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "peel%1:13:00::"))
+(InheritanceLink s (WordSenseNode "skin%1:13:00::"))
+(define x (WordNode "banana_skin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "peel%1:13:00::"))
+(InheritanceLink s (WordSenseNode "skin%1:13:00::"))

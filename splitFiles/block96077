@@ -1,0 +1,7 @@
+(define s (WordSenseNode "left_gastric_vein%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "left_gastric_vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gastric_vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena_gastrica%1:08:00::"))
+(define x (WordNode "vena_gastrica_sinistra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gastric_vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena_gastrica%1:08:00::"))

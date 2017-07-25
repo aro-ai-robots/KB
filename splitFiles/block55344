@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ersatz%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ersatz")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substitute%1:09:00::"))
+(InheritanceLink s (WordSenseNode "replacement%1:09:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "antiferromagnetism%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antiferromagnetism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnetism%1:19:00::"))
+(InheritanceLink s (WordSenseNode "magnetic_attraction%1:19:00::"))
+(InheritanceLink s (WordSenseNode "magnetic_force%1:19:00::"))
+(InheritanceLink (WordSenseNode "ferrimagnetism%1:19:00::") s)

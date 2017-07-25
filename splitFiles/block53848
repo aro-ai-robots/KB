@@ -1,0 +1,5 @@
+(define s (WordSenseNode "end_man%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "end_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acquaintance%1:18:00::"))
+(InheritanceLink s (WordSenseNode "friend%1:18:02::"))
+(HolonymLink s (WordSenseNode "rank%1:14:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "head%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "head")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proceed%2:38:00::"))
+(InheritanceLink s (WordSenseNode "go_forward%2:38:00::"))
+(InheritanceLink s (WordSenseNode "continue%2:38:00::"))
+(InheritanceLink (WordSenseNode "take%2:38:05::") s)
+(InheritanceLink (WordSenseNode "make%2:38:05::") s)

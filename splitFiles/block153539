@@ -1,0 +1,7 @@
+(define s (WordSenseNode "slipperwort%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calceolaria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Calceolaria%1:20:00::"))
+(define x (WordNode "slipperwort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Calceolaria%1:20:00::"))

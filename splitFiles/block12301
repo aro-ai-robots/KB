@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bachelorette%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bachelor_girl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "woman%1:18:00::"))
+(InheritanceLink s (WordSenseNode "adult_female%1:18:00::"))
+(define x (WordNode "bachelorette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "woman%1:18:00::"))
+(InheritanceLink s (WordSenseNode "adult_female%1:18:00::"))

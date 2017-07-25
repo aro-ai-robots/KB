@@ -1,0 +1,7 @@
+(define s (WordSenseNode "iodise%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "iodize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%2:30:00::"))
+(InheritanceLink s (WordSenseNode "treat%2:30:01::"))
+(define x (WordNode "iodise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%2:30:00::"))
+(InheritanceLink s (WordSenseNode "treat%2:30:01::"))

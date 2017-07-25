@@ -1,0 +1,5 @@
+(define s (WordSenseNode "new_world_beaver%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "New_World_beaver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beaver%1:05:00::"))
+(define x (WordNode "Castor_canadensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beaver%1:05:00::"))

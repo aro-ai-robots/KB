@@ -1,0 +1,4 @@
+(define s (WordSenseNode "budget_deficit%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "budget_deficit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deficit%1:21:00::"))
+(InheritanceLink (WordSenseNode "federal_deficit%1:21:00::") s)

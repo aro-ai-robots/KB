@@ -1,0 +1,5 @@
+(define s (WordSenseNode "disinfection%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disinfection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_care%1:04:00::"))
+(InheritanceLink s (WordSenseNode "medical_aid%1:04:00::"))
+(InheritanceLink (WordSenseNode "chlorination%1:04:00::") s)

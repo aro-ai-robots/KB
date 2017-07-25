@@ -1,0 +1,7 @@
+(define s (WordSenseNode "master%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "master")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "know%2:31:03::"))
+(InheritanceLink (WordSenseNode "cinch%2:31:00::") s)
+(define x (WordNode "control")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "know%2:31:03::"))
+(InheritanceLink (WordSenseNode "cinch%2:31:00::") s)

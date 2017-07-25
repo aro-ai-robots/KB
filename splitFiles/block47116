@@ -1,0 +1,7 @@
+(define s (WordSenseNode "disarmament%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disarming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demobilization%1:04:00::"))
+(InheritanceLink s (WordSenseNode "demobilisation%1:04:00::"))
+(define x (WordNode "disarmament")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demobilization%1:04:00::"))
+(InheritanceLink s (WordSenseNode "demobilisation%1:04:00::"))

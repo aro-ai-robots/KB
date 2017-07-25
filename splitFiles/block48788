@@ -1,0 +1,6 @@
+(define s (WordSenseNode "doliolum%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "doliolum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tunicate%1:05:00::"))
+(InheritanceLink s (WordSenseNode "urochordate%1:05:00::"))
+(InheritanceLink s (WordSenseNode "urochord%1:05:02::"))
+(HolonymLink s (WordSenseNode "genus_Doliolum%1:05:00::"))

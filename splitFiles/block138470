@@ -1,0 +1,8 @@
+(define s (WordSenseNode "reminder%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reminder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "message%1:10:00::"))
+(InheritanceLink s (WordSenseNode "content%1:10:00::"))
+(InheritanceLink s (WordSenseNode "subject_matter%1:10:00::"))
+(InheritanceLink s (WordSenseNode "substance%1:10:00::"))
+(InheritanceLink (WordSenseNode "phylactery%1:10:00::") s)
+(InheritanceLink (WordSenseNode "tefillin%1:10:00::") s)

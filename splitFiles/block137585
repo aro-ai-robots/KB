@@ -1,0 +1,6 @@
+(define s (WordSenseNode "refill%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "refill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prescription_drug%1:06:00::"))
+(InheritanceLink s (WordSenseNode "prescription%1:06:00::"))
+(InheritanceLink s (WordSenseNode "prescription_medicine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ethical_drug%1:06:00::"))

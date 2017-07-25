@@ -1,0 +1,4 @@
+(define s (WordSenseNode "davis_cup%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Davis_Cup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cup%1:06:01::"))
+(InheritanceLink s (WordSenseNode "loving_cup%1:06:00::"))

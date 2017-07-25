@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anguilla_sucklandii%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tuna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eel%1:05:00::"))
+(define x (WordNode "Anguilla_sucklandii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eel%1:05:00::"))

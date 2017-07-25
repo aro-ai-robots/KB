@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bib%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bib")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "napkin%1:06:00::"))
+(InheritanceLink s (WordSenseNode "table_napkin%1:06:00::"))
+(InheritanceLink s (WordSenseNode "serviette%1:06:00::"))

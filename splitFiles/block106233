@@ -1,0 +1,5 @@
+(define s (WordSenseNode "middle_ages%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Middle_Ages")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "history%1:28:00::"))
+(define x (WordNode "Dark_Ages")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "history%1:28:00::"))

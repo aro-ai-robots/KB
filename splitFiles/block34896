@@ -1,0 +1,7 @@
+(define s (WordSenseNode "common_scoter%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_scoter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scoter%1:05:00::"))
+(InheritanceLink s (WordSenseNode "scooter%1:05:00::"))
+(define x (WordNode "Melanitta_nigra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scoter%1:05:00::"))
+(InheritanceLink s (WordSenseNode "scooter%1:05:00::"))

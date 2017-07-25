@@ -1,0 +1,8 @@
+(define s (WordSenseNode "mountie%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mountie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "policeman%1:18:00::"))
+(InheritanceLink s (WordSenseNode "police_officer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "officer%1:18:01::"))
+(HolonymLink s (WordSenseNode "Royal_Canadian_Mounted_Police%1:14:00::"))
+(HolonymLink s (WordSenseNode "RCMP%1:14:00::"))
+(HolonymLink s (WordSenseNode "Mounties%1:14:00::"))

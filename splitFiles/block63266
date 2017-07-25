@@ -1,0 +1,3 @@
+(define s (WordSenseNode "flounder%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flounder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flatfish%1:05:00::"))

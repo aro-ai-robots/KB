@@ -1,0 +1,7 @@
+(define s (WordSenseNode "freeload%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "freeload")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mooch%2:40:00::"))
+(InheritanceLink s (WordSenseNode "bum%2:40:00::"))
+(InheritanceLink s (WordSenseNode "cadge%2:40:00::"))
+(InheritanceLink s (WordSenseNode "grub%2:40:00::"))
+(InheritanceLink s (WordSenseNode "sponge%2:40:00::"))

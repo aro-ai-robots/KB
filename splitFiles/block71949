@@ -1,0 +1,4 @@
+(define s (WordSenseNode "geometric_mean%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "geometric_mean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mean%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mean_value%1:09:00::"))

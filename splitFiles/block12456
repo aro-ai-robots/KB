@@ -1,0 +1,4 @@
+(define s (WordSenseNode "backlog%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "backlog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "firewood%1:27:00::"))
+(InheritanceLink (WordSenseNode "Yule_log%1:27:00::") s)

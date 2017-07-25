@@ -1,0 +1,7 @@
+(define s (WordSenseNode "filer%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "file_clerk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clerk%1:18:00::"))
+(define x (WordNode "filing_clerk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clerk%1:18:00::"))
+(define x (WordNode "filer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clerk%1:18:00::"))

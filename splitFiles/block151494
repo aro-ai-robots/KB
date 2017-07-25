@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sieve_tube%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sieve_tube")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vascular_tissue%1:20:00::"))
+(HolonymLink s (WordSenseNode "phloem%1:20:00::"))
+(HolonymLink s (WordSenseNode "bast%1:20:01::"))

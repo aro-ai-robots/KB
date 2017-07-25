@@ -1,0 +1,7 @@
+(define s (WordSenseNode "match_game%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "test_match")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "match%1:11:00::"))
+(define x (WordNode "match_game")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "match%1:11:00::"))
+(define x (WordNode "matched_game")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "match%1:11:00::"))

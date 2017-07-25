@@ -1,0 +1,7 @@
+(define s (WordSenseNode "question%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "question")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "challenge%2:32:00::"))
+(define x (WordNode "oppugn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "challenge%2:32:00::"))
+(define x (WordNode "call_into_question")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "challenge%2:32:00::"))

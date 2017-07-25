@@ -1,0 +1,5 @@
+(define s (WordSenseNode "infernal_machine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "time_bomb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bomb%1:06:00::"))
+(define x (WordNode "infernal_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bomb%1:06:00::"))

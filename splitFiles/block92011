@@ -1,0 +1,5 @@
+(define s (WordSenseNode "kam-sui%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kam-Sui")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Kadai%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Kam-Tai%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Kadai_language%1:10:00::"))

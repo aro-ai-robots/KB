@@ -1,0 +1,5 @@
+(define s (WordSenseNode "partial_correlation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "partial_correlation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "correlation%1:09:01::"))
+(InheritanceLink s (WordSenseNode "correlational_statistics%1:09:00::"))
+(InheritanceLink (WordSenseNode "first-order_correlation%1:09:00::") s)

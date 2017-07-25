@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sixth-former%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sixth-former")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "student%1:18:00::"))
+(InheritanceLink s (WordSenseNode "pupil%1:18:00::"))
+(InheritanceLink s (WordSenseNode "educatee%1:18:00::"))

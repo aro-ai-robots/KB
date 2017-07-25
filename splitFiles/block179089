@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vicious_cycle%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vicious_circle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "positive_feedback%1:22:00::"))
+(InheritanceLink s (WordSenseNode "regeneration%1:22:01::"))
+(define x (WordNode "vicious_cycle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "positive_feedback%1:22:00::"))
+(InheritanceLink s (WordSenseNode "regeneration%1:22:01::"))

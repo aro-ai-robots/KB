@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pearly-shelled_mussel%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pearly-shelled_mussel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "freshwater_mussel%1:05:00::"))
+(InheritanceLink s (WordSenseNode "freshwater_clam%1:05:00::"))
+(HolonymLink s (WordSenseNode "Unio%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Unio%1:05:00::"))

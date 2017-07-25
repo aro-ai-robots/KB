@@ -1,0 +1,7 @@
+(define s (WordSenseNode "practice%1:04:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "practice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implementation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "effectuation%1:04:00::"))
+(define x (WordNode "praxis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implementation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "effectuation%1:04:00::"))

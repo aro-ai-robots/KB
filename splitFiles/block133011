@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pulse_height_analyzer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kicksorter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scientific_instrument%1:06:00::"))
+(define x (WordNode "pulse_height_analyzer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scientific_instrument%1:06:00::"))

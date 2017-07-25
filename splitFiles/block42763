@@ -1,0 +1,6 @@
+(define s (WordSenseNode "date_rape%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "date_rape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rape%1:04:00::"))
+(InheritanceLink s (WordSenseNode "violation%1:04:02::"))
+(InheritanceLink s (WordSenseNode "assault%1:04:02::"))
+(InheritanceLink s (WordSenseNode "ravishment%1:04:00::"))

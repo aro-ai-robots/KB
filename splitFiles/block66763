@@ -1,0 +1,8 @@
+(define s (WordSenseNode "gaff%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gaff")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hook%1:06:00::"))
+(HolonymLink s (WordSenseNode "fishing_gear%1:06:00::"))
+(HolonymLink s (WordSenseNode "tackle%1:06:01::"))
+(HolonymLink s (WordSenseNode "fishing_tackle%1:06:00::"))
+(HolonymLink s (WordSenseNode "fishing_rig%1:06:00::"))
+(HolonymLink s (WordSenseNode "rig%1:06:05::"))

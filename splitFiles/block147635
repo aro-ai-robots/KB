@@ -1,0 +1,6 @@
+(define s (WordSenseNode "section%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "section")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "segment%1:17:00::"))
+(HolonymLink s (WordSenseNode "citrus%1:13:00::"))
+(HolonymLink s (WordSenseNode "citrus_fruit%1:13:00::"))
+(HolonymLink s (WordSenseNode "citrous_fruit%1:13:00::"))

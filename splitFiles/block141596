@@ -1,0 +1,6 @@
+(define s (WordSenseNode "robotics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "robotics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artificial_intelligence%1:09:00::"))
+(InheritanceLink s (WordSenseNode "AI%1:09:00::"))
+(InheritanceLink (WordSenseNode "animatronics%1:09:00::") s)
+(InheritanceLink (WordSenseNode "telerobotics%1:09:00::") s)

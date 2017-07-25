@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ultramicroscope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ultramicroscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "light_microscope%1:06:00::"))
+(define x (WordNode "dark-field_microscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "light_microscope%1:06:00::"))

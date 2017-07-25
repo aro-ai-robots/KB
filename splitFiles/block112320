@@ -1,0 +1,5 @@
+(define s (WordSenseNode "neural_tube%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neural_tube")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ectoderm%1:05:00::"))
+(InheritanceLink s (WordSenseNode "exoderm%1:05:00::"))
+(InheritanceLink s (WordSenseNode "ectoblast%1:05:00::"))

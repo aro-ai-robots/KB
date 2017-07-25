@@ -1,0 +1,5 @@
+(define s (WordSenseNode "telomere%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "telomere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "end%1:15:00::"))
+(InheritanceLink s (WordSenseNode "terminal%1:15:00::"))
+(HolonymLink s (WordSenseNode "chromosome%1:08:00::"))

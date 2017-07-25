@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trustee%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "regent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "committee_member%1:18:00::"))
+(HolonymLink s (WordSenseNode "governing_board%1:14:00::"))
+(define x (WordNode "trustee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "committee_member%1:18:00::"))
+(HolonymLink s (WordSenseNode "governing_board%1:14:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mooring%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mooring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:06:00::"))
+(InheritanceLink (WordSenseNode "headfast%1:06:00::") s)
+(define x (WordNode "mooring_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:06:00::"))
+(InheritanceLink (WordSenseNode "headfast%1:06:00::") s)

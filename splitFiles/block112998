@@ -1,0 +1,8 @@
+(define s (WordSenseNode "nihil_obstat%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nihil_obstat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sanction%1:10:00::"))
+(InheritanceLink s (WordSenseNode "countenance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "endorsement%1:10:00::"))
+(InheritanceLink s (WordSenseNode "indorsement%1:10:00::"))
+(InheritanceLink s (WordSenseNode "warrant%1:10:02::"))
+(InheritanceLink s (WordSenseNode "imprimatur%1:10:00::"))

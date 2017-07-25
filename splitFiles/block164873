@@ -1,0 +1,7 @@
+(define s (WordSenseNode "table%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mesa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tableland%1:17:00::"))
+(InheritanceLink s (WordSenseNode "plateau%1:17:00::"))
+(define x (WordNode "table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tableland%1:17:00::"))
+(InheritanceLink s (WordSenseNode "plateau%1:17:00::"))

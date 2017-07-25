@@ -1,0 +1,7 @@
+(define s (WordSenseNode "prompting%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "suggestion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "persuasion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "suasion%1:10:00::"))
+(define x (WordNode "prompting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "persuasion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "suasion%1:10:00::"))

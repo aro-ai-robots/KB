@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pplo%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pleuropneumonialike_organism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mycoplasma%1:05:00::"))
+(define x (WordNode "PPLO")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mycoplasma%1:05:00::"))

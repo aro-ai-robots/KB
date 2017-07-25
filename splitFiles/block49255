@@ -1,0 +1,4 @@
+(define s (WordSenseNode "double-hung_window%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "double-hung_window")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:00::"))
+(HolonymLink (WordSenseNode "shutter%1:06:00::") s)

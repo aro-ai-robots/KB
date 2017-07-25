@@ -1,0 +1,4 @@
+(define s (WordSenseNode "altitude_sickness%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "altitude_sickness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypoxia%1:26:00::"))
+(InheritanceLink (WordSenseNode "mountain_sickness%1:26:00::") s)

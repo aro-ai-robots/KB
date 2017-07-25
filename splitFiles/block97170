@@ -1,0 +1,5 @@
+(define s (WordSenseNode "licorice_stick%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "B-flat_clarinet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clarinet%1:06:00::"))
+(define x (WordNode "licorice_stick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clarinet%1:06:00::"))

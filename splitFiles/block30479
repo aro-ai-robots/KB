@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chop_shot%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:04::"))
+(define x (WordNode "chop_shot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:04::"))

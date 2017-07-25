@@ -1,0 +1,7 @@
+(define s (WordSenseNode "long_chain%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "long_chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chain%1:17:00::"))
+(InheritanceLink s (WordSenseNode "chemical_chain%1:17:00::"))
+(define x (WordNode "long-chain_molecule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chain%1:17:00::"))
+(InheritanceLink s (WordSenseNode "chemical_chain%1:17:00::"))

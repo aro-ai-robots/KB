@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bolti%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bolti")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cichlid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "cichlid_fish%1:05:00::"))
+(define x (WordNode "Tilapia_nilotica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cichlid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "cichlid_fish%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "straightforwardness%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "singleness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sincerity%1:07:00::"))
+(define x (WordNode "straightforwardness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sincerity%1:07:00::"))

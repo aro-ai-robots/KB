@@ -1,0 +1,7 @@
+(define s (WordSenseNode "musculus_sphincter_ani_externus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "musculus_sphincter_ani_externus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skeletal_muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "striated_muscle%1:08:00::"))
+(HolonymLink s (WordSenseNode "anal_sphincter%1:08:00::"))
+(HolonymLink s (WordSenseNode "sphincter_ani%1:08:00::"))
+(HolonymLink s (WordSenseNode "musculus_sphincter_ani%1:08:00::"))

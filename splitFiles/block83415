@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hydra%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hydra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrozoan%1:05:00::"))
+(InheritanceLink s (WordSenseNode "hydroid%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Hydra%1:05:00::"))

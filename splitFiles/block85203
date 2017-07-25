@@ -1,0 +1,8 @@
+(define s (WordSenseNode "implication%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "implication")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accusation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "accusal%1:10:00::"))
+(InheritanceLink (WordSenseNode "unspoken_accusation%1:10:00::") s)
+(InheritanceLink (WordSenseNode "veiled_accusation%1:10:00::") s)
+(InheritanceLink (WordSenseNode "insinuation%1:10:00::") s)
+(InheritanceLink (WordSenseNode "innuendo%1:10:00::") s)

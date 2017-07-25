@@ -1,0 +1,5 @@
+(define s (WordSenseNode "echo%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "echo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "analogue%1:07:00::"))
+(InheritanceLink s (WordSenseNode "analog%1:07:00::"))
+(InheritanceLink s (WordSenseNode "parallel%1:07:00::"))

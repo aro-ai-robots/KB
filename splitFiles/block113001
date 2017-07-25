@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nihilism%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nihilistic_delusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delusion%1:26:00::"))
+(InheritanceLink s (WordSenseNode "psychotic_belief%1:26:00::"))
+(define x (WordNode "nihilism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delusion%1:26:00::"))
+(InheritanceLink s (WordSenseNode "psychotic_belief%1:26:00::"))

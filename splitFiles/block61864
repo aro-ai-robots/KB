@@ -1,0 +1,8 @@
+(define s (WordSenseNode "fir_cone%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fir_cone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cone%1:20:00::"))
+(InheritanceLink s (WordSenseNode "strobilus%1:20:00::"))
+(InheritanceLink s (WordSenseNode "strobile%1:20:00::"))
+(HolonymLink s (WordSenseNode "fir%1:20:00::"))
+(HolonymLink s (WordSenseNode "fir_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "true_fir%1:20:00::"))

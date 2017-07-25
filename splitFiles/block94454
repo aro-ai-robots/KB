@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lamivudine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lamivudine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nucleoside_reverse_transcriptase_inhibitor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "NRTI%1:06:00::"))
+(define x (WordNode "3TC")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nucleoside_reverse_transcriptase_inhibitor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "NRTI%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lath%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lath")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slat%1:06:00::"))
+(InheritanceLink s (WordSenseNode "spline%1:06:00::"))
+(HolonymLink s (WordSenseNode "lattice%1:06:00::"))
+(HolonymLink s (WordSenseNode "latticework%1:06:00::"))
+(HolonymLink s (WordSenseNode "fretwork%1:06:00::"))

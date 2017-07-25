@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rein_in%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:01::"))
+(InheritanceLink (WordSenseNode "pull%2:38:04::") s)
+(define x (WordNode "rein_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:01::"))
+(InheritanceLink (WordSenseNode "pull%2:38:04::") s)

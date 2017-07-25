@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sideline%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sideline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:06:08::"))
+(InheritanceLink s (WordSenseNode "product_line%1:06:00::"))
+(InheritanceLink s (WordSenseNode "line_of_products%1:06:00::"))
+(InheritanceLink s (WordSenseNode "line_of_merchandise%1:06:00::"))
+(InheritanceLink s (WordSenseNode "business_line%1:06:00::"))
+(InheritanceLink s (WordSenseNode "line_of_business%1:06:00::"))

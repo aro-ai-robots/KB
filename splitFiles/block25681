@@ -1,0 +1,7 @@
+(define s (WordSenseNode "carbon_monoxide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carbon_monoxide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monoxide%1:27:00::"))
+(define x (WordNode "carbon_monoxide_gas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monoxide%1:27:00::"))
+(define x (WordNode "CO")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monoxide%1:27:00::"))

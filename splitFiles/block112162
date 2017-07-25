@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nerve_deafness%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sensorineural_hearing_loss")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hearing_impairment%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hearing_disorder%1:26:00::"))
+(define x (WordNode "nerve_deafness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hearing_impairment%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hearing_disorder%1:26:00::"))

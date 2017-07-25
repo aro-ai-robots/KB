@@ -1,0 +1,5 @@
+(define s (WordSenseNode "collateral%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "collateral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "security_interest%1:21:00::"))
+(InheritanceLink (WordSenseNode "guarantee%1:21:03::") s)
+(InheritanceLink (WordSenseNode "guaranty%1:21:00::") s)

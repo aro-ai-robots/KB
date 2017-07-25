@@ -1,0 +1,8 @@
+(define s (WordSenseNode "free_association%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "free_association")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thinking%1:09:00::"))
+(InheritanceLink s (WordSenseNode "thought%1:09:00::"))
+(InheritanceLink s (WordSenseNode "thought_process%1:09:00::"))
+(InheritanceLink s (WordSenseNode "cerebration%1:09:00::"))
+(InheritanceLink s (WordSenseNode "intellection%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mentation%1:09:00::"))

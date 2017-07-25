@@ -1,0 +1,7 @@
+(define s (WordSenseNode "counterstrike%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "counterattack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attack%2:33:00::"))
+(InheritanceLink s (WordSenseNode "assail%2:33:01::"))
+(define x (WordNode "counterstrike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attack%2:33:00::"))
+(InheritanceLink s (WordSenseNode "assail%2:33:01::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "standard_gauge%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "standard_gauge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "railroad_track%1:06:00::"))
+(InheritanceLink s (WordSenseNode "railroad%1:06:01::"))
+(InheritanceLink s (WordSenseNode "railway%1:06:01::"))
+(InheritanceLink s (WordSenseNode "gauge%1:07:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tattoo%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tattoo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drumbeat%1:10:00::"))
+(InheritanceLink s (WordSenseNode "bugle_call%1:10:00::"))

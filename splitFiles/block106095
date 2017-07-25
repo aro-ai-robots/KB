@@ -1,0 +1,7 @@
+(define s (WordSenseNode "micrometeoroid%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "micrometeorite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meteorite%1:17:00::"))
+(define x (WordNode "micrometeoroid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meteorite%1:17:00::"))
+(define x (WordNode "micrometeor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meteorite%1:17:00::"))

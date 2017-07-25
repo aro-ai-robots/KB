@@ -1,0 +1,7 @@
+(define s (WordSenseNode "graft%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "graft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attachment%1:04:01::"))
+(InheritanceLink s (WordSenseNode "affixation%1:04:01::"))
+(define x (WordNode "grafting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attachment%1:04:01::"))
+(InheritanceLink s (WordSenseNode "affixation%1:04:01::"))

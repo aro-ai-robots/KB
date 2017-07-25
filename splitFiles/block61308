@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fifty_percent%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fifty_percent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "one-half%1:23:00::"))
+(InheritanceLink s (WordSenseNode "half%1:23:00::"))

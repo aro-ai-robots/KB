@@ -1,0 +1,4 @@
+(define s (WordSenseNode "strut%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brace%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bracing%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "want_ad%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "want_ad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classified_ad%1:10:00::"))
+(InheritanceLink s (WordSenseNode "classified_advertisement%1:10:00::"))
+(InheritanceLink s (WordSenseNode "classified%1:10:00::"))

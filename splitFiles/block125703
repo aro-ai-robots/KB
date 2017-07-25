@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pirogi%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pirogi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turnover%1:13:00::"))
+(define x (WordNode "piroshki")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turnover%1:13:00::"))
+(define x (WordNode "pirozhki")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turnover%1:13:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "epicondyle%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epicondyle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:08:00::"))
+(InheritanceLink s (WordSenseNode "outgrowth%1:08:00::"))
+(InheritanceLink s (WordSenseNode "appendage%1:08:01::"))
+(InheritanceLink (WordSenseNode "lateral_epicondyle%1:08:00::") s)

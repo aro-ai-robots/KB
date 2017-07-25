@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shoring%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beam%1:06:00::"))
+(define x (WordNode "shoring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beam%1:06:00::"))

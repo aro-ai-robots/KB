@@ -1,0 +1,6 @@
+(define s (WordSenseNode "freight%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "freight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transport%2:38:00::"))
+(InheritanceLink (WordSenseNode "air-ship%2:38:00::") s)
+(InheritanceLink (WordSenseNode "airfreight%2:38:00::") s)
+(InheritanceLink (WordSenseNode "air-freight%2:38:00::") s)

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "timetable%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "timetable")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "schedule%1:10:00::"))

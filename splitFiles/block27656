@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cellulose_acetate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cellulose_acetate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cellulose_ester%1:27:00::"))
+(InheritanceLink (WordSenseNode "cellulose_triacetate%1:27:00::") s)
+(InheritanceLink (WordSenseNode "triacetate%1:27:00::") s)
+(HolonymLink s (WordSenseNode "acetate_rayon%1:06:00::"))
+(HolonymLink s (WordSenseNode "acetate%1:06:00::"))

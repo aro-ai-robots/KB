@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gem_clip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paper_clip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clip%1:06:01::"))
+(define x (WordNode "paperclip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clip%1:06:01::"))
+(define x (WordNode "gem_clip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clip%1:06:01::"))

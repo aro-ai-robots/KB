@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bulletin%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bulletin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "publicize%2:32:00::"))
+(InheritanceLink s (WordSenseNode "publicise%2:32:00::"))
+(InheritanceLink s (WordSenseNode "air%2:32:00::"))
+(InheritanceLink s (WordSenseNode "bare%2:32:00::"))

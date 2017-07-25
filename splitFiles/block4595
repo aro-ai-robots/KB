@@ -1,0 +1,4 @@
+(define s (WordSenseNode "allomorph%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "allomorph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "morpheme%1:10:00::"))
+(InheritanceLink (WordSenseNode "morphophoneme%1:10:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "suborder_pachycephalosaurus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "suborder_Pachycephalosaurus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_order%1:05:00::"))
+(HolonymLink s (WordSenseNode "Marginocephalia%1:05:00::"))
+(HolonymLink s (WordSenseNode "suborder_Marginocephalia%1:05:00::"))
+(HolonymLink s (WordSenseNode "marginocephalian%1:05:00::"))
+(HolonymLink (WordSenseNode "bone-headed_dinosaur%1:05:00::") s)

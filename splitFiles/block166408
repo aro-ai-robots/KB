@@ -1,0 +1,7 @@
+(define s (WordSenseNode "te%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ti")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solfa_syllable%1:10:00::"))
+(define x (WordNode "te")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solfa_syllable%1:10:00::"))
+(define x (WordNode "si")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solfa_syllable%1:10:00::"))

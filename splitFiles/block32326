@@ -1,0 +1,7 @@
+(define s (WordSenseNode "climbing_hydrangea%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "climbing_hydrangea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrangea%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Hydrangea%1:20:00::"))
+(define x (WordNode "Hydrangea_anomala")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrangea%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Hydrangea%1:20:00::"))

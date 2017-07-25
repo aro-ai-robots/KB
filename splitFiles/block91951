@@ -1,0 +1,6 @@
+(define s (WordSenseNode "kai_apple%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kai_apple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edible_fruit%1:13:00::"))
+(HolonymLink s (WordSenseNode "kei_apple%1:20:00::"))
+(HolonymLink s (WordSenseNode "kei_apple_bush%1:20:00::"))
+(HolonymLink s (WordSenseNode "Dovyalis_caffra%1:20:00::"))

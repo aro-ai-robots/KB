@@ -1,0 +1,6 @@
+(define s (WordSenseNode "krill%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "krill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "malacostracan_crustacean%1:05:00::"))
+(InheritanceLink (WordSenseNode "Euphausia_pacifica%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Euphausiacea%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Euphausiacea%1:05:00::"))

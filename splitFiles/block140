@@ -1,0 +1,5 @@
+(define s (WordSenseNode "5-hydroxy-3-methylglutaryl-coenzyme_a_reductase%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "HMG-CoA_reductase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reductase%1:27:00::"))
+(define x (WordNode "5-hydroxy-3-methylglutaryl-coenzyme_A_reductase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reductase%1:27:00::"))

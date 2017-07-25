@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rh%1:27:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rhesus_factor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antigen%1:27:00::"))
+(define x (WordNode "Rh_factor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antigen%1:27:00::"))
+(define x (WordNode "Rh")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antigen%1:27:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lifo%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "last_in_first_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inventory_accounting%1:04:00::"))
+(define x (WordNode "LIFO")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inventory_accounting%1:04:00::"))

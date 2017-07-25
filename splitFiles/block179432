@@ -1,0 +1,7 @@
+(define s (WordSenseNode "violent_death%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "killing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fatality%1:11:00::"))
+(InheritanceLink s (WordSenseNode "human_death%1:11:00::"))
+(define x (WordNode "violent_death")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fatality%1:11:00::"))
+(InheritanceLink s (WordSenseNode "human_death%1:11:00::"))

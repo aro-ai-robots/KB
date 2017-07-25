@@ -1,0 +1,5 @@
+(define s (WordSenseNode "salon%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "salon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gallery%1:06:04::"))
+(InheritanceLink s (WordSenseNode "art_gallery%1:06:00::"))
+(InheritanceLink s (WordSenseNode "picture_gallery%1:06:00::"))

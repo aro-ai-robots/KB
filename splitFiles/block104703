@@ -1,0 +1,5 @@
+(define s (WordSenseNode "megaloblast%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "megaloblast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "red_blood_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "RBC%1:08:00::"))
+(InheritanceLink s (WordSenseNode "erythrocyte%1:08:00::"))

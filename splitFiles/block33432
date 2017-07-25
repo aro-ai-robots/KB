@@ -1,0 +1,8 @@
+(define s (WordSenseNode "coexist%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "coexist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exist%2:42:00::"))
+(InheritanceLink s (WordSenseNode "be%2:42:00::"))
+(InheritanceLink (WordSenseNode "coexist%2:42:01::") s)
+(InheritanceLink (WordSenseNode "coincide%2:42:00::") s)
+(InheritanceLink (WordSenseNode "co-occur%2:42:00::") s)
+(InheritanceLink (WordSenseNode "cooccur%2:42:00::") s)

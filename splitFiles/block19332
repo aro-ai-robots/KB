@@ -1,0 +1,3 @@
+(define s (WordSenseNode "book_lung%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "book_lung")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "respiratory_organ%1:08:00::"))

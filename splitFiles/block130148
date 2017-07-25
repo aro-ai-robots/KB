@@ -1,0 +1,4 @@
+(define s (WordSenseNode "preserver%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preserver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cook%1:18:00::"))
+(InheritanceLink (WordSenseNode "salter%1:18:01::") s)

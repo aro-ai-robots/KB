@@ -1,0 +1,5 @@
+(define s (WordSenseNode "president%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "president")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "academic_administrator%1:18:00::"))
+(define x (WordNode "prexy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "academic_administrator%1:18:00::"))

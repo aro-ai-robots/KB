@@ -1,0 +1,6 @@
+(define s (WordSenseNode "military_attache%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "military_attache")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attache%1:18:00::"))
+(InheritanceLink (WordSenseNode "air_attache%1:18:00::") s)
+(InheritanceLink (WordSenseNode "army_attache%1:18:00::") s)
+(InheritanceLink (WordSenseNode "naval_attache%1:18:00::") s)

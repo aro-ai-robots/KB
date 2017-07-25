@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gudgeon_pin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wrist_pin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pin%1:06:00::"))
+(define x (WordNode "gudgeon_pin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pin%1:06:00::"))

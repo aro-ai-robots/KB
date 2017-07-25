@@ -1,0 +1,6 @@
+(define s (WordSenseNode "nipple%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nipple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cap%1:06:02::"))
+(HolonymLink s (WordSenseNode "bottle%1:06:01::"))
+(HolonymLink s (WordSenseNode "feeding_bottle%1:06:00::"))
+(HolonymLink s (WordSenseNode "nursing_bottle%1:06:00::"))

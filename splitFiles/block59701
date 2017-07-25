@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fan%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intensify%2:30:01::"))
+(InheritanceLink s (WordSenseNode "compound%2:30:01::"))
+(InheritanceLink s (WordSenseNode "heighten%2:30:04::"))
+(InheritanceLink s (WordSenseNode "deepen%2:30:01::"))

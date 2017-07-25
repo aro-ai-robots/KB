@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dark_matter%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dark_matter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "matter%1:03:00::"))
+(HolonymLink (WordSenseNode "weakly_interacting_massive_particle%1:17:00::") s)
+(HolonymLink (WordSenseNode "WIMP%1:17:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "interplanetary_dust%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interplanetary_dust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dust%1:27:02::"))
+(HolonymLink s (WordSenseNode "interplanetary_medium%1:17:00::"))

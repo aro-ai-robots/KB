@@ -1,0 +1,5 @@
+(define s (WordSenseNode "miniskirt%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "miniskirt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skirt%1:06:00::"))
+(define x (WordNode "mini")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skirt%1:06:00::"))

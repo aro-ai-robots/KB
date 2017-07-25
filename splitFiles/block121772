@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pay%2:40:14::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "settle%2:40:00::"))
+(InheritanceLink (WordSenseNode "pay_up%2:40:00::") s)
+(InheritanceLink (WordSenseNode "ante_up%2:40:00::") s)
+(InheritanceLink (WordSenseNode "pay%2:40:04::") s)

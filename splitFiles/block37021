@@ -1,0 +1,5 @@
+(define s (WordSenseNode "continuity%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "continuity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "script%1:10:00::"))
+(InheritanceLink s (WordSenseNode "book%1:10:01::"))
+(InheritanceLink s (WordSenseNode "playscript%1:10:00::"))

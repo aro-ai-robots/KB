@@ -1,0 +1,5 @@
+(define s (WordSenseNode "risk_arbitrage%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "risk_arbitrage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arbitrage%1:04:00::"))
+(define x (WordNode "takeover_arbitrage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arbitrage%1:04:00::"))

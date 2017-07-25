@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sacculus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "saccule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sac%1:08:00::"))
+(HolonymLink s (WordSenseNode "membranous_labyrinth%1:08:00::"))
+(define x (WordNode "sacculus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sac%1:08:00::"))
+(HolonymLink s (WordSenseNode "membranous_labyrinth%1:08:00::"))

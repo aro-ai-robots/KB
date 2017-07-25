@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tartrate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tartrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salt%1:27:00::"))
+(InheritanceLink (WordSenseNode "tartar_emetic%1:27:00::") s)
+(InheritanceLink (WordSenseNode "antimony_potassium_tartrate%1:27:00::") s)
+(InheritanceLink (WordSenseNode "bitartrate%1:27:00::") s)

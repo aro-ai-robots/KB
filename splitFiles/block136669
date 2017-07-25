@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reception_line%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reception_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "queue%1:14:00::"))
+(InheritanceLink s (WordSenseNode "waiting_line%1:14:00::"))
+(HolonymLink s (WordSenseNode "reception%1:14:00::"))

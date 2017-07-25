@@ -1,0 +1,5 @@
+(define s (WordSenseNode "incentive_stock_option%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "incentive_option")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "option%1:21:00::"))
+(define x (WordNode "incentive_stock_option")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "option%1:21:00::"))

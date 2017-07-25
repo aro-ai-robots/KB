@@ -1,0 +1,6 @@
+(define s (WordSenseNode "anatotitan%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anatotitan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hadrosaur%1:05:00::"))
+(InheritanceLink s (WordSenseNode "hadrosaurus%1:05:00::"))
+(InheritanceLink s (WordSenseNode "duck-billed_dinosaur%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Anatotitan%1:05:00::"))

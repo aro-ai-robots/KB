@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lexicalized_concept%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lexicalized_concept")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concept%1:09:00::"))
+(InheritanceLink s (WordSenseNode "conception%1:09:00::"))
+(InheritanceLink s (WordSenseNode "construct%1:09:00::"))

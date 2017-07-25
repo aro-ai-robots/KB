@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bilingual_dictionary%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bilingual_dictionary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dictionary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lexicon%1:10:00::"))

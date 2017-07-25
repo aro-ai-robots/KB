@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pasteurellosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hemorrhagic_septicemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_disease%1:26:00::"))
+(define x (WordNode "pasteurellosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_disease%1:26:00::"))

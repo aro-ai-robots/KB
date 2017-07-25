@@ -1,0 +1,4 @@
+(define s (WordSenseNode "absolute_space%1:03:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "absolute_space")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "space%1:03:00::"))
+(InheritanceLink s (WordSenseNode "infinite%1:03:00::"))

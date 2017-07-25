@@ -1,0 +1,5 @@
+(define s (WordSenseNode "self-absorption%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-absorption")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preoccupation%1:09:02::"))
+(InheritanceLink (WordSenseNode "omphaloskepsis%1:09:00::") s)
+(InheritanceLink (WordSenseNode "navel-gazing%1:09:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tail%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reverse%1:06:02::"))
+(InheritanceLink s (WordSenseNode "verso%1:06:00::"))
+(HolonymLink s (WordSenseNode "coin%1:21:02::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "handwheel%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "handwheel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wheel%1:06:00::"))
+(HolonymLink s (WordSenseNode "standing_press%1:06:00::"))
+(HolonymLink s (WordSenseNode "valve%1:06:00::"))
+(HolonymLink s (WordSenseNode "lathe%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "villeinage%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "villeinage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legal_status%1:26:00::"))
+(InheritanceLink s (WordSenseNode "servitude%1:26:00::"))
+(define x (WordNode "villainage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legal_status%1:26:00::"))
+(InheritanceLink s (WordSenseNode "servitude%1:26:00::"))

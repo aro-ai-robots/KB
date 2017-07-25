@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hogshead%1:23:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hogshead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "British_capacity_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "Imperial_capacity_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "barrel%1:23:01::") s)
+(HolonymLink (WordSenseNode "bbl%1:23:01::") s)

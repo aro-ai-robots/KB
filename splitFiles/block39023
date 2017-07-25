@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cover%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recording%1:06:01::"))
+(define x (WordNode "cover_version")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recording%1:06:01::"))
+(define x (WordNode "cover_song")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recording%1:06:01::"))

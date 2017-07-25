@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wake%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:11:01::"))
+(InheritanceLink s (WordSenseNode "moving_ridge%1:11:00::"))
+(define x (WordNode "backwash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:11:01::"))
+(InheritanceLink s (WordSenseNode "moving_ridge%1:11:00::"))

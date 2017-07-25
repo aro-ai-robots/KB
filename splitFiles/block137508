@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reelect%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reelect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elect%2:41:00::"))
+(define x (WordNode "return")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elect%2:41:00::"))

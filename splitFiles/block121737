@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pavor_nocturnus%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sleep_terror_disorder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sleep_disorder%1:26:00::"))
+(define x (WordNode "pavor_nocturnus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sleep_disorder%1:26:00::"))

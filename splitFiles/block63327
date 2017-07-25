@@ -1,0 +1,6 @@
+(define s (WordSenseNode "flower_cluster%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flower_cluster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflorescence%1:20:00::"))
+(InheritanceLink (WordSenseNode "raceme%1:20:00::") s)
+(InheritanceLink (WordSenseNode "thyrse%1:20:00::") s)
+(InheritanceLink (WordSenseNode "thyrsus%1:20:00::") s)

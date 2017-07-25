@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spring_cankerworm%1:05:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spring_cankerworm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cankerworm%1:05:00::"))
+(HolonymLink s (WordSenseNode "Paleacrita%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Paleacrita%1:05:00::"))

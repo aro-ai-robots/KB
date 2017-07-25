@@ -1,0 +1,7 @@
+(define s (WordSenseNode "radical%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radical")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "character%1:10:00::"))
+(InheritanceLink s (WordSenseNode "grapheme%1:10:00::"))
+(InheritanceLink s (WordSenseNode "graphic_symbol%1:10:00::"))
+(HolonymLink s (WordSenseNode "ideogram%1:10:00::"))
+(HolonymLink s (WordSenseNode "ideograph%1:10:00::"))

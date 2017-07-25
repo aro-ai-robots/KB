@@ -1,0 +1,7 @@
+(define s (WordSenseNode "snail%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "snail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gather%2:35:00::"))
+(InheritanceLink s (WordSenseNode "garner%2:35:00::"))
+(InheritanceLink s (WordSenseNode "collect%2:35:00::"))
+(InheritanceLink s (WordSenseNode "pull_together%2:35:00::"))
+(InheritanceLink (WordSenseNode "whelk%2:33:00::") s)

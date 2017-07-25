@@ -1,0 +1,7 @@
+(define s (WordSenseNode "emmy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Emmy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "award%1:10:00::"))
+(InheritanceLink s (WordSenseNode "accolade%1:10:00::"))
+(InheritanceLink s (WordSenseNode "honor%1:10:00::"))
+(InheritanceLink s (WordSenseNode "honour%1:10:00::"))
+(InheritanceLink s (WordSenseNode "laurels%1:10:00::"))

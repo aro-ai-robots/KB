@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hematocrit%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hematocrit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))
+(define x (WordNode "haematocrit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))
+(define x (WordNode "packed_cell_volume")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))

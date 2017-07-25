@@ -1,0 +1,6 @@
+(define s (WordSenseNode "computer_architecture%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "computer_architecture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "specification%1:10:00::"))
+(InheritanceLink s (WordSenseNode "spec%1:10:00::"))
+(InheritanceLink (WordSenseNode "neural_network%1:10:00::") s)
+(InheritanceLink (WordSenseNode "neural_net%1:10:00::") s)

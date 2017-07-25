@@ -1,0 +1,4 @@
+(define s (WordSenseNode "grain%1:23:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avoirdupois_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "dram%1:23:01::"))

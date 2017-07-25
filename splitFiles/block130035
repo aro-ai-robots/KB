@@ -1,0 +1,4 @@
+(define s (WordSenseNode "prerecord%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "prerecord")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "record%2:32:01::"))
+(InheritanceLink s (WordSenseNode "tape%2:32:00::"))

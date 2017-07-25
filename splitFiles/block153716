@@ -1,0 +1,5 @@
+(define s (WordSenseNode "slug%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "type_slug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "type_metal%1:27:00::"))
+(define x (WordNode "slug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "type_metal%1:27:00::"))

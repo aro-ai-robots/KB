@@ -1,0 +1,8 @@
+(define s (WordSenseNode "italian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Italian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Romance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Romance_language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Latinian_language%1:10:00::"))
+(InheritanceLink (WordSenseNode "Old_Italian%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Sardinian%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Tuscan%1:10:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "triode%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "triode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tube%1:06:02::"))
+(InheritanceLink s (WordSenseNode "vacuum_tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "thermionic_vacuum_tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "thermionic_tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "electron_tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "thermionic_valve%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "epoch%1:28:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epoch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geological_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "geologic_time%1:28:00::"))
+(HolonymLink s (WordSenseNode "period%1:28:03::"))
+(HolonymLink s (WordSenseNode "geological_period%1:28:00::"))

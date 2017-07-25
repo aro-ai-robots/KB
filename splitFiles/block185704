@@ -1,0 +1,7 @@
+(define s (WordSenseNode "yellow-blindness%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tetartanopia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "yellow-blue_dichromacy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "yellow-blue_color_blindness%1:26:00::"))
+(define x (WordNode "yellow-blindness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "yellow-blue_dichromacy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "yellow-blue_color_blindness%1:26:00::"))

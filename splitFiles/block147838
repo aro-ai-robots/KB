@@ -1,0 +1,5 @@
+(define s (WordSenseNode "seed_leaf%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cotyledon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cataphyll%1:20:00::"))
+(define x (WordNode "seed_leaf")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cataphyll%1:20:00::"))

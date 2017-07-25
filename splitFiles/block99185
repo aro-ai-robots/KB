@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lollipop_woman%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lollipop_lady")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crossing_guard%1:18:00::"))
+(define x (WordNode "lollipop_woman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crossing_guard%1:18:00::"))

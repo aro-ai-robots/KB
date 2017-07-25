@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flesh_wound%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flesh_wound")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wound%1:11:00::"))
+(InheritanceLink s (WordSenseNode "injury%1:11:01::"))
+(InheritanceLink s (WordSenseNode "combat_injury%1:11:00::"))

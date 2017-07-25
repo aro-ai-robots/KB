@@ -1,0 +1,4 @@
+(define s (WordSenseNode "string_tie%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "string_tie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "necktie%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tie%1:06:01::"))

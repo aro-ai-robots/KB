@@ -1,0 +1,5 @@
+(define s (WordSenseNode "belfast%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Belfast")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Northern_Ireland%1:15:00::"))
+(define x (WordNode "capital_of_Northern_Ireland")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Northern_Ireland%1:15:00::"))

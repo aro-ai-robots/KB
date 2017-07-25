@@ -1,0 +1,7 @@
+(define s (WordSenseNode "interpersonal_chemistry%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chemistry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_relation%1:03:00::"))
+(define x (WordNode "interpersonal_chemistry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_relation%1:03:00::"))
+(define x (WordNode "alchemy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_relation%1:03:00::"))

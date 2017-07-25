@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chalk%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chalk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing_implement%1:06:00::"))
+(InheritanceLink (WordSenseNode "drawing_chalk%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tailor's_chalk%1:06:00::") s)
+(HolonymLink (WordSenseNode "chalk%1:27:00::") s)

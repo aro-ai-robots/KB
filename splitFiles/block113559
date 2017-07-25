@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nondisjunction%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nondisjunction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meiosis%1:22:00::"))
+(InheritanceLink s (WordSenseNode "miosis%1:22:00::"))
+(InheritanceLink s (WordSenseNode "reduction_division%1:22:00::"))

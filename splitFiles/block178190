@@ -1,0 +1,4 @@
+(define s (WordSenseNode "vegetarianism%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vegetarianism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diet%1:13:00::"))
+(InheritanceLink (WordSenseNode "macrobiotic_diet%1:13:00::") s)

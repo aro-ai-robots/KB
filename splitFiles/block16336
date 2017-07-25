@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bichromate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bichromate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salt%1:27:00::"))
+(define x (WordNode "dichromate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salt%1:27:00::"))

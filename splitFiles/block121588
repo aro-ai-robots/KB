@@ -1,0 +1,5 @@
+(define s (WordSenseNode "patrology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "patristics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Christian_theology%1:09:00::"))
+(define x (WordNode "patrology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Christian_theology%1:09:00::"))

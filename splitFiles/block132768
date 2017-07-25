@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pueblo%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pueblo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Indian%1:18:00::"))
+(InheritanceLink s (WordSenseNode "American_Indian%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Red_Indian%1:18:00::"))
+(InheritanceLink (WordSenseNode "Hopi%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Taos%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Zuni%1:18:00::") s)

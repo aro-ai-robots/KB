@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wasteweir%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spillway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conduit%1:06:00::"))
+(define x (WordNode "spill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conduit%1:06:00::"))
+(define x (WordNode "wasteweir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conduit%1:06:00::"))

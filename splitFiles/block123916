@@ -1,0 +1,5 @@
+(define s (WordSenseNode "phenacomys%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phenacomys")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vole%1:05:00::"))
+(InheritanceLink s (WordSenseNode "field_mouse%1:05:01::"))
+(HolonymLink s (WordSenseNode "genus_Phenacomys%1:05:00::"))

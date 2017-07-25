@@ -1,0 +1,7 @@
+(define s (WordSenseNode "binder%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "binder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harvester%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reaper%1:06:00::"))
+(define x (WordNode "reaper_binder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harvester%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reaper%1:06:00::"))

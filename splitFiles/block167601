@@ -1,0 +1,8 @@
+(define s (WordSenseNode "tetrachloride%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tetrachloride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "carbon_tetrachloride%1:27:00::") s)
+(InheritanceLink (WordSenseNode "carbon_tet%1:27:00::") s)
+(InheritanceLink (WordSenseNode "tetrachloromethane%1:27:00::") s)
+(InheritanceLink (WordSenseNode "perchloromethane%1:27:00::") s)

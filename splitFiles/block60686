@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fencing_mask%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fencing_mask")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "face_mask%1:06:00::"))
+(define x (WordNode "fencer's_mask")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "face_mask%1:06:00::"))

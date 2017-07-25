@@ -1,0 +1,6 @@
+(define s (WordSenseNode "focal_infection%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "focal_infection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infection%1:26:00::"))
+(HolonymLink (WordSenseNode "focus%1:26:00::") s)
+(HolonymLink (WordSenseNode "focal_point%1:26:00::") s)
+(HolonymLink (WordSenseNode "nidus%1:26:00::") s)

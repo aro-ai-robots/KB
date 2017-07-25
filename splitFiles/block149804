@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shape%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concretism%1:09:00::"))
+(InheritanceLink s (WordSenseNode "concrete_representation%1:09:00::"))
+(define x (WordNode "embodiment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concretism%1:09:00::"))
+(InheritanceLink s (WordSenseNode "concrete_representation%1:09:00::"))

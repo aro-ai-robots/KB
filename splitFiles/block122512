@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pennsylvania_dutch%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pennsylvania_Dutch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "German%1:10:00::"))
+(InheritanceLink s (WordSenseNode "High_German%1:10:00::"))
+(InheritanceLink s (WordSenseNode "German_language%1:10:00::"))

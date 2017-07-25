@@ -1,0 +1,5 @@
+(define s (WordSenseNode "guillotine%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "guillotine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decapitate%2:35:00::"))
+(InheritanceLink s (WordSenseNode "behead%2:35:00::"))
+(InheritanceLink s (WordSenseNode "decollate%2:35:00::"))

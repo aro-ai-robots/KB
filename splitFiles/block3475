@@ -1,0 +1,4 @@
+(define s (WordSenseNode "air%2:32:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "air")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "get_on%2:30:01::") s)
+(InheritanceLink (WordSenseNode "be_on%2:30:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "get_into%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "get_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obtain%2:40:00::"))
+(define x (WordNode "get_into")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obtain%2:40:00::"))

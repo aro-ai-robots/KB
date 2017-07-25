@@ -1,0 +1,5 @@
+(define s (WordSenseNode "obsessive-compulsive%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "obsessive-compulsive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neurotic%1:18:00::"))
+(InheritanceLink s (WordSenseNode "psychoneurotic%1:18:00::"))
+(InheritanceLink s (WordSenseNode "mental_case%1:18:00::"))

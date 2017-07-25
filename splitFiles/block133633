@@ -1,0 +1,7 @@
+(define s (WordSenseNode "putter%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "potter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "busy%2:41:00::"))
+(InheritanceLink s (WordSenseNode "occupy%2:41:00::"))
+(define x (WordNode "putter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "busy%2:41:00::"))
+(InheritanceLink s (WordSenseNode "occupy%2:41:00::"))

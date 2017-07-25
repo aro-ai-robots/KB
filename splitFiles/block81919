@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hood%1:06:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covering%1:06:00::"))
+(InheritanceLink (WordSenseNode "range_hood%1:06:00::") s)
+(define x (WordNode "exhaust_hood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covering%1:06:00::"))
+(InheritanceLink (WordSenseNode "range_hood%1:06:00::") s)

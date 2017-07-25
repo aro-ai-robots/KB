@@ -1,0 +1,4 @@
+(define s (WordSenseNode "latent_period%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "latent_period")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_interval%1:28:00::"))
+(InheritanceLink s (WordSenseNode "interval%1:28:00::"))

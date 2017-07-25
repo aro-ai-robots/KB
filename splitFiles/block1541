@@ -1,0 +1,5 @@
+(define s (WordSenseNode "acquirer%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acquirer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_institution%1:14:00::"))
+(InheritanceLink s (WordSenseNode "financial_organization%1:14:00::"))
+(InheritanceLink s (WordSenseNode "financial_organisation%1:14:00::"))

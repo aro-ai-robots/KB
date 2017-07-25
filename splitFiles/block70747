@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_pecopteris%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Pecopteris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fern_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Pteridophyta%1:20:00::"))
+(HolonymLink s (WordSenseNode "division_Pteridophyta%1:20:00::"))
+(HolonymLink (WordSenseNode "pecopteris%1:20:00::") s)

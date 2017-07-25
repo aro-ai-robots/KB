@@ -1,0 +1,7 @@
+(define s (WordSenseNode "phenicia%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Phoenicia")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Carthage%1:15:00::") s)
+(HolonymLink (WordSenseNode "Utica%1:15:00::") s)
+(define x (WordNode "Phenicia")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Carthage%1:15:00::") s)
+(HolonymLink (WordSenseNode "Utica%1:15:00::") s)

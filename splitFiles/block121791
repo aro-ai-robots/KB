@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pay_off%2:40:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pay_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "yield%2:40:00::"))
+(InheritanceLink s (WordSenseNode "pay%2:40:01::"))
+(InheritanceLink s (WordSenseNode "bear%2:40:01::"))

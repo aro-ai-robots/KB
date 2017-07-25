@@ -1,0 +1,7 @@
+(define s (WordSenseNode "insisting%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "insistence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demand%1:10:00::"))
+(InheritanceLink (WordSenseNode "purism%1:10:00::") s)
+(define x (WordNode "insisting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demand%1:10:00::"))
+(InheritanceLink (WordSenseNode "purism%1:10:00::") s)

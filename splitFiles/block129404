@@ -1,0 +1,6 @@
+(define s (WordSenseNode "poxvirus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "poxvirus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_virus%1:05:00::"))
+(InheritanceLink (WordSenseNode "myxoma_virus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "variola_virus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "smallpox_virus%1:05:00::") s)

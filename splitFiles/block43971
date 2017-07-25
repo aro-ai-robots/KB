@@ -1,0 +1,7 @@
+(define s (WordSenseNode "defining%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shaping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_process%1:03:00::"))
+(define x (WordNode "defining")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_process%1:03:00::"))

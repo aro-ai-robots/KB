@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hypersecretion%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypersecretion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secretion%1:22:00::"))
+(InheritanceLink s (WordSenseNode "secernment%1:22:00::"))

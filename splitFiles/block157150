@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spirea%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spirea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astilbe%1:20:00::"))
+(define x (WordNode "spiraea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astilbe%1:20:00::"))
+(define x (WordNode "Astilbe_japonica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astilbe%1:20:00::"))

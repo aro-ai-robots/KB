@@ -1,0 +1,5 @@
+(define s (WordSenseNode "southern_hemisphere%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "southern_hemisphere")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Australia%1:17:00::") s)
+(HolonymLink (WordSenseNode "Gondwanaland%1:17:00::") s)
+(HolonymLink (WordSenseNode "South_America%1:17:00::") s)

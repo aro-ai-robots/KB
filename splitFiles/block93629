@@ -1,0 +1,7 @@
+(define s (WordSenseNode "koruna%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "koruna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Czech_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "haler%1:23:00::") s)
+(HolonymLink (WordSenseNode "heller%1:23:00::") s)
+(HolonymLink (WordSenseNode "haler%1:23:01::") s)
+(HolonymLink (WordSenseNode "heller%1:23:01::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "isolation%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "isolation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alienation%1:12:00::"))
+(InheritanceLink s (WordSenseNode "disaffection%1:12:00::"))
+(InheritanceLink s (WordSenseNode "estrangement%1:12:00::"))

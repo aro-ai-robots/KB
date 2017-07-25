@@ -1,0 +1,5 @@
+(define s (WordSenseNode "elastance_unit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elastance_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electromagnetic_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "emu%1:23:00::"))
+(InheritanceLink (WordSenseNode "daraf%1:23:00::") s)

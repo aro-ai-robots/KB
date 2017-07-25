@@ -1,0 +1,6 @@
+(define s (WordSenseNode "half-moon%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "half-moon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phase_of_the_moon%1:28:00::"))
+(InheritanceLink (WordSenseNode "first_quarter%1:28:00::") s)
+(InheritanceLink (WordSenseNode "last_quarter%1:28:00::") s)
+(HolonymLink s (WordSenseNode "month%1:28:00::"))

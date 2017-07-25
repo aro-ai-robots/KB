@@ -1,0 +1,8 @@
+(define s (WordSenseNode "fencing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fencing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fight%1:04:02::"))
+(InheritanceLink s (WordSenseNode "fighting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "combat%1:04:01::"))
+(InheritanceLink s (WordSenseNode "scrap%1:04:00::"))
+(InheritanceLink s (WordSenseNode "play%1:04:07::"))
+(InheritanceLink s (WordSenseNode "swordplay%1:04:00::"))

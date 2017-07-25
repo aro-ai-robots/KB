@@ -1,0 +1,6 @@
+(define s (WordSenseNode "squandering%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "squandering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "waste%1:04:00::"))
+(InheritanceLink s (WordSenseNode "wastefulness%1:04:03::"))
+(InheritanceLink s (WordSenseNode "dissipation%1:04:02::"))
+(InheritanceLink (WordSenseNode "squandermania%1:04:00::") s)

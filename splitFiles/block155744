@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sound_pollution%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "noise_pollution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pollution%1:26:00::"))
+(define x (WordNode "sound_pollution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pollution%1:26:00::"))

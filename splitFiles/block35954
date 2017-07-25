@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coneflower%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coneflower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower%1:20:00::"))
+(HolonymLink s (WordSenseNode "Echinacea%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Echinacea%1:20:00::"))

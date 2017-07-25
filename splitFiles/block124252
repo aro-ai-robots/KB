@@ -1,0 +1,8 @@
+(define s (WordSenseNode "phospholipid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phospholipid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lipid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "lipide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "lipoid%1:27:00::"))
+(InheritanceLink (WordSenseNode "lecithin%1:27:00::") s)
+(HolonymLink s (WordSenseNode "membrane%1:08:00::"))
+(HolonymLink s (WordSenseNode "tissue_layer%1:08:00::"))

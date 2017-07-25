@@ -1,0 +1,8 @@
+(define s (WordSenseNode "reorient%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reorient")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(InheritanceLink (WordSenseNode "align%2:30:00::") s)
+(InheritanceLink (WordSenseNode "aline%2:30:00::") s)
+(InheritanceLink (WordSenseNode "line_up%2:30:00::") s)
+(InheritanceLink (WordSenseNode "adjust%2:30:05::") s)
+(InheritanceLink (WordSenseNode "skew%2:30:00::") s)

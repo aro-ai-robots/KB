@@ -1,0 +1,5 @@
+(define s (WordSenseNode "analysis_situs%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "topology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pure_mathematics%1:09:00::"))
+(define x (WordNode "analysis_situs")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pure_mathematics%1:09:00::"))

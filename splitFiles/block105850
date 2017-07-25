@@ -1,0 +1,6 @@
+(define s (WordSenseNode "metrification%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metrification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing%1:04:02::"))
+(InheritanceLink s (WordSenseNode "authorship%1:04:00::"))
+(InheritanceLink s (WordSenseNode "composition%1:04:01::"))
+(InheritanceLink s (WordSenseNode "penning%1:04:00::"))

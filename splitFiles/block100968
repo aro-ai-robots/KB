@@ -1,0 +1,5 @@
+(define s (WordSenseNode "macrophage%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "macrophage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phagocyte%1:08:00::"))
+(InheritanceLink s (WordSenseNode "scavenger_cell%1:08:00::"))
+(InheritanceLink (WordSenseNode "histiocyte%1:08:00::") s)

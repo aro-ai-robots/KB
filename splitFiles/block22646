@@ -1,0 +1,8 @@
+(define s (WordSenseNode "burial_garment%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "burial_garment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloth_covering%1:06:00::"))
+(InheritanceLink (WordSenseNode "pall%1:06:01::") s)
+(InheritanceLink (WordSenseNode "shroud%1:06:00::") s)
+(InheritanceLink (WordSenseNode "cerement%1:06:00::") s)
+(InheritanceLink (WordSenseNode "winding-sheet%1:06:00::") s)
+(InheritanceLink (WordSenseNode "winding-clothes%1:06:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "nebula%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nebula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spot%1:07:01::"))
+(InheritanceLink s (WordSenseNode "speckle%1:07:00::"))
+(InheritanceLink s (WordSenseNode "dapple%1:07:00::"))
+(InheritanceLink s (WordSenseNode "patch%1:07:00::"))
+(InheritanceLink s (WordSenseNode "fleck%1:07:00::"))
+(InheritanceLink s (WordSenseNode "maculation%1:07:00::"))

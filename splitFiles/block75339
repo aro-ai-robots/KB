@@ -1,0 +1,5 @@
+(define s (WordSenseNode "greater_yellowlegs%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "greater_yellowlegs")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "yellowlegs%1:05:00::"))
+(define x (WordNode "Tringa_melanoleuca")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "yellowlegs%1:05:00::"))

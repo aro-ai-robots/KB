@@ -1,0 +1,7 @@
+(define s (WordSenseNode "canker_sore%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "canker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ulcer%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ulceration%1:26:00::"))
+(define x (WordNode "canker_sore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ulcer%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ulceration%1:26:00::"))

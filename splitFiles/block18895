@@ -1,0 +1,7 @@
+(define s (WordSenseNode "boggle%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "flabbergast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surprise%2:31:00::"))
+(define x (WordNode "boggle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surprise%2:31:00::"))
+(define x (WordNode "bowl_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surprise%2:31:00::"))

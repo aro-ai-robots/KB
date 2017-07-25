@@ -1,0 +1,8 @@
+(define s (WordSenseNode "previous_question%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "previous_question")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gesture%1:10:00::"))
+(InheritanceLink s (WordSenseNode "motion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "order%1:10:02::"))
+(InheritanceLink s (WordSenseNode "rules_of_order%1:10:00::"))
+(InheritanceLink s (WordSenseNode "parliamentary_law%1:10:00::"))
+(InheritanceLink s (WordSenseNode "parliamentary_procedure%1:10:00::"))

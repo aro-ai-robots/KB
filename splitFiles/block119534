@@ -1,0 +1,5 @@
+(define s (WordSenseNode "paint%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "paint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "represent%2:36:01::"))
+(InheritanceLink s (WordSenseNode "interpret%2:36:01::"))
+(InheritanceLink (WordSenseNode "repaint%2:36:00::") s)

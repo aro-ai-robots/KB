@@ -1,0 +1,4 @@
+(define s (WordSenseNode "polygraph%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polygraph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_instrument%1:06:00::"))
+(InheritanceLink (WordSenseNode "lie_detector%1:06:00::") s)

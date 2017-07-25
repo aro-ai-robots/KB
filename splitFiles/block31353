@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cite%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "mention")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "notice%2:32:01::"))
+(InheritanceLink s (WordSenseNode "acknowledge%2:32:07::"))
+(define x (WordNode "cite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "notice%2:32:01::"))
+(InheritanceLink s (WordSenseNode "acknowledge%2:32:07::"))

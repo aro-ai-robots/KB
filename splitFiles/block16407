@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bifurcation%1:25:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bifurcation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "branch%1:25:00::"))
+(InheritanceLink s (WordSenseNode "leg%1:25:00::"))
+(InheritanceLink s (WordSenseNode "ramification%1:25:00::"))
+(HolonymLink s (WordSenseNode "bifurcation%1:25:00::"))

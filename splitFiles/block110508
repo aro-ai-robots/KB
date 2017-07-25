@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mycotoxin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mycotoxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_toxin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "phytotoxin%1:27:00::"))
+(InheritanceLink (WordSenseNode "aflatoxin%1:27:00::") s)

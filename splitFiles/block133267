@@ -1,0 +1,5 @@
+(define s (WordSenseNode "purifier%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purifier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "apparatus%1:06:00::"))
+(InheritanceLink s (WordSenseNode "setup%1:06:00::"))
+(InheritanceLink (WordSenseNode "scrubber%1:06:00::") s)

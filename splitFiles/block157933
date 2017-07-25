@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sprung_rhythm%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sprung_rhythm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "poetic_rhythm%1:10:00::"))
+(InheritanceLink s (WordSenseNode "rhythmic_pattern%1:10:00::"))
+(InheritanceLink s (WordSenseNode "prosody%1:10:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_manta%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Manta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fish_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Mobulidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Mobulidae%1:05:00::"))
+(HolonymLink (WordSenseNode "Atlantic_manta%1:05:00::") s)
+(HolonymLink (WordSenseNode "Manta_birostris%1:05:00::") s)

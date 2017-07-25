@@ -1,0 +1,7 @@
+(define s (WordSenseNode "remembrance_sunday%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Remembrance_Day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holiday%1:28:01::"))
+(define x (WordNode "Remembrance_Sunday")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holiday%1:28:01::"))
+(define x (WordNode "Poppy_Day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holiday%1:28:01::"))

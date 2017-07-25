@@ -1,0 +1,7 @@
+(define s (WordSenseNode "epidermal_cell%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epidermal_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skin_cell%1:08:00::"))
+(InheritanceLink (WordSenseNode "melanoblast%1:08:00::") s)
+(InheritanceLink (WordSenseNode "melanocyte%1:08:00::") s)
+(HolonymLink s (WordSenseNode "epidermis%1:08:00::"))
+(HolonymLink s (WordSenseNode "cuticle%1:08:00::"))

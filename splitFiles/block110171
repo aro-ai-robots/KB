@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mushroom_anchor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mushroom_anchor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anchor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ground_tackle%1:06:00::"))

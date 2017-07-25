@@ -1,0 +1,8 @@
+(define s (WordSenseNode "critic%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "critic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unpleasant_person%1:18:00::"))
+(InheritanceLink s (WordSenseNode "disagreeable_person%1:18:00::"))
+(InheritanceLink (WordSenseNode "carper%1:18:00::") s)
+(InheritanceLink (WordSenseNode "niggler%1:18:00::") s)
+(InheritanceLink (WordSenseNode "nitpicker%1:18:00::") s)
+(InheritanceLink (WordSenseNode "roaster%1:18:01::") s)

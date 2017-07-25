@@ -1,0 +1,4 @@
+(define s (WordSenseNode "carbonate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "carbonate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%2:30:00::"))
+(InheritanceLink s (WordSenseNode "treat%2:30:01::"))

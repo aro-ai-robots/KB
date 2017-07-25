@@ -1,0 +1,5 @@
+(define s (WordSenseNode "frog_legs%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frog_legs")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dish%1:13:00::"))
+(HolonymLink s (WordSenseNode "true_frog%1:05:00::"))
+(HolonymLink s (WordSenseNode "ranid%1:05:00::"))

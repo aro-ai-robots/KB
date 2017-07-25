@@ -1,0 +1,5 @@
+(define s (WordSenseNode "come_around%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "come_round")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "come_around")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))

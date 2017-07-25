@@ -1,0 +1,4 @@
+(define s (WordSenseNode "unlock%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unlock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disengage%2:35:00::"))
+(InheritanceLink s (WordSenseNode "withdraw%2:35:00::"))

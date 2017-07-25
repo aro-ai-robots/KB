@@ -1,0 +1,7 @@
+(define s (WordSenseNode "excursion%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "digression")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "journey%1:04:00::"))
+(InheritanceLink s (WordSenseNode "journeying%1:04:00::"))
+(define x (WordNode "excursion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "journey%1:04:00::"))
+(InheritanceLink s (WordSenseNode "journeying%1:04:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "physiological_sphincter%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "physiological_sphincter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sphincter%1:08:00::"))
+(InheritanceLink s (WordSenseNode "anatomical_sphincter%1:08:00::"))
+(InheritanceLink s (WordSenseNode "sphincter_muscle%1:08:00::"))
+(InheritanceLink (WordSenseNode "cardiac_sphincter%1:08:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "opposition%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "confrontation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resistance%1:04:00::"))
+(InheritanceLink (WordSenseNode "strikebreaking%1:04:00::") s)
+(define x (WordNode "opposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resistance%1:04:00::"))
+(InheritanceLink (WordSenseNode "strikebreaking%1:04:00::") s)

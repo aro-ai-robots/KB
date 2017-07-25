@@ -1,0 +1,6 @@
+(define s (WordSenseNode "love-token%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "love-token")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keepsake%1:06:00::"))
+(InheritanceLink s (WordSenseNode "souvenir%1:06:00::"))
+(InheritanceLink s (WordSenseNode "token%1:06:01::"))
+(InheritanceLink s (WordSenseNode "relic%1:06:01::"))

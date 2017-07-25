@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drag_coefficient%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drag_coefficient")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))
+(define x (WordNode "coefficient_of_drag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))

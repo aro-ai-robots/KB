@@ -1,0 +1,6 @@
+(define s (WordSenseNode "truss%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "truss")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hold%2:35:01::"))
+(InheritanceLink s (WordSenseNode "support%2:35:00::"))
+(InheritanceLink s (WordSenseNode "sustain%2:35:00::"))
+(InheritanceLink s (WordSenseNode "hold_up%2:35:00::"))

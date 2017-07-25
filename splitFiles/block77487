@@ -1,0 +1,7 @@
+(define s (WordSenseNode "halo_spot%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "halo_blight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blight%1:26:01::"))
+(define x (WordNode "halo_spot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blight%1:26:01::"))
+(define x (WordNode "bean_blight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blight%1:26:01::"))

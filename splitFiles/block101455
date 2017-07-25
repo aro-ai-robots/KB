@@ -1,0 +1,7 @@
+(define s (WordSenseNode "main_course%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "entree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "course%1:13:00::"))
+(InheritanceLink (WordSenseNode "plate%1:13:01::") s)
+(define x (WordNode "main_course")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "course%1:13:00::"))
+(InheritanceLink (WordSenseNode "plate%1:13:01::") s)

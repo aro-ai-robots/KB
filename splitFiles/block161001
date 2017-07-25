@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stretch_out%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "crane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stretch%2:29:01::"))
+(InheritanceLink s (WordSenseNode "extend%2:29:00::"))
+(define x (WordNode "stretch_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stretch%2:29:01::"))
+(InheritanceLink s (WordSenseNode "extend%2:29:00::"))

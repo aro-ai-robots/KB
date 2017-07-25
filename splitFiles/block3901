@@ -1,0 +1,8 @@
+(define s (WordSenseNode "albuginea%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "albuginea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tunic%1:08:00::"))
+(InheritanceLink s (WordSenseNode "tunica%1:08:00::"))
+(InheritanceLink s (WordSenseNode "adventitia%1:08:00::"))
+(InheritanceLink (WordSenseNode "sclera%1:08:00::") s)
+(InheritanceLink (WordSenseNode "sclerotic_coat%1:08:00::") s)
+(InheritanceLink (WordSenseNode "tunica_albuginea_testes%1:08:00::") s)

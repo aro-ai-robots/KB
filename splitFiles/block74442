@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gotterdammerung%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Gotterdammerung")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "myth%1:10:00::"))
+(define x (WordNode "Ragnarok")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "myth%1:10:00::"))
+(define x (WordNode "Twilight_of_the_Gods")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "myth%1:10:00::"))

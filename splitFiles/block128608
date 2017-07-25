@@ -1,0 +1,5 @@
+(define s (WordSenseNode "portrait_lens%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "portrait_lens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camera_lens%1:06:00::"))
+(InheritanceLink s (WordSenseNode "optical_lens%1:06:00::"))
+(HolonymLink s (WordSenseNode "portrait_camera%1:06:00::"))

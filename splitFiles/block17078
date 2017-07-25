@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bishop's_throne%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cathedra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "throne%1:06:00::"))
+(HolonymLink s (WordSenseNode "cathedral%1:06:00::"))
+(define x (WordNode "bishop's_throne")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "throne%1:06:00::"))
+(HolonymLink s (WordSenseNode "cathedral%1:06:00::"))

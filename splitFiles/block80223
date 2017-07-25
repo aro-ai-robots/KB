@@ -1,0 +1,7 @@
+(define s (WordSenseNode "heterocycle%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "heterocyclic_ring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "closed_chain%1:17:00::"))
+(InheritanceLink s (WordSenseNode "ring%1:17:00::"))
+(define x (WordNode "heterocycle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "closed_chain%1:17:00::"))
+(InheritanceLink s (WordSenseNode "ring%1:17:00::"))

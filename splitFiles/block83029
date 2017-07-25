@@ -1,0 +1,6 @@
+(define s (WordSenseNode "humerus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "humerus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arm_bone%1:08:00::"))
+(HolonymLink s (WordSenseNode "arm%1:08:00::"))
+(HolonymLink (WordSenseNode "deltoid_tuberosity%1:08:00::") s)
+(HolonymLink (WordSenseNode "deltoid_eminence%1:08:00::") s)

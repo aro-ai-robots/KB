@@ -1,0 +1,4 @@
+(define s (WordSenseNode "transit_instrument%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transit_instrument")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telescope%1:06:00::"))
+(InheritanceLink s (WordSenseNode "scope%1:06:02::"))

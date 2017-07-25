@@ -1,0 +1,5 @@
+(define s (WordSenseNode "episcopate%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "episcopate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tenure%1:28:00::"))
+(InheritanceLink s (WordSenseNode "term_of_office%1:28:00::"))
+(InheritanceLink s (WordSenseNode "incumbency%1:28:00::"))

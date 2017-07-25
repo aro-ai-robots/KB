@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cuddle%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cuddle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embrace%2:35:00::"))
+(InheritanceLink s (WordSenseNode "hug%2:35:01::"))
+(InheritanceLink s (WordSenseNode "bosom%2:35:00::"))
+(InheritanceLink s (WordSenseNode "squeeze%2:35:04::"))

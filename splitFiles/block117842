@@ -1,0 +1,7 @@
+(define s (WordSenseNode "orthodontic_braces%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dental_appliance%1:06:00::"))
+(define x (WordNode "braces")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dental_appliance%1:06:00::"))
+(define x (WordNode "orthodontic_braces")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dental_appliance%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "level%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "level")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_surface%2:30:00::"))
+(define x (WordNode "level_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_surface%2:30:00::"))

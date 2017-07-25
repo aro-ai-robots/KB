@@ -1,0 +1,4 @@
+(define s (WordSenseNode "foot_brake%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foot_brake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydraulic_brake%1:06:00::"))
+(InheritanceLink s (WordSenseNode "hydraulic_brakes%1:06:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cartwheel%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cartwheel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wheel%2:38:00::"))
+(InheritanceLink s (WordSenseNode "wheel_around%2:38:00::"))

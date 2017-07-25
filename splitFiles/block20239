@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bracket%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bracket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punctuation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "punctuation_mark%1:10:00::"))
+(define x (WordNode "square_bracket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punctuation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "punctuation_mark%1:10:00::"))

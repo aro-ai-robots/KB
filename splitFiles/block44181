@@ -1,0 +1,5 @@
+(define s (WordSenseNode "delayed_action%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "delayed_action")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanism%1:06:00::"))
+(HolonymLink s (WordSenseNode "camera%1:06:00::"))
+(HolonymLink s (WordSenseNode "photographic_camera%1:06:00::"))

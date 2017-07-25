@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ground-controlled_approach%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ground-controlled_approach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aircraft_landing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "airplane_landing%1:04:00::"))
+(define x (WordNode "GCA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aircraft_landing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "airplane_landing%1:04:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spike_heel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spike_heel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heel%1:06:00::"))
+(define x (WordNode "spike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heel%1:06:00::"))
+(define x (WordNode "stiletto_heel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heel%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reserve_assets%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reserve_assets")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assets%1:21:00::"))
+(InheritanceLink (WordSenseNode "special_drawing_rights%1:21:00::") s)
+(InheritanceLink (WordSenseNode "paper_gold%1:21:00::") s)

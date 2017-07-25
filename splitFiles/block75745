@@ -1,0 +1,5 @@
+(define s (WordSenseNode "grinder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grinder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine_tool%1:06:00::"))
+(HolonymLink (WordSenseNode "grinding_wheel%1:06:00::") s)
+(HolonymLink (WordSenseNode "emery_wheel%1:06:00::") s)

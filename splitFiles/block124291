@@ -1,0 +1,4 @@
+(define s (WordSenseNode "photocopier%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "photocopier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "duplicator%1:06:00::"))
+(InheritanceLink s (WordSenseNode "copier%1:06:00::"))

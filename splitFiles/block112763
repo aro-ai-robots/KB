@@ -1,0 +1,5 @@
+(define s (WordSenseNode "niblick%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "niblick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "iron%1:06:01::"))
+(define x (WordNode "nine_iron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "iron%1:06:01::"))

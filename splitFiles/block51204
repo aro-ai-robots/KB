@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dynamic_viscosity%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coefficient_of_viscosity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))
+(define x (WordNode "absolute_viscosity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))
+(define x (WordNode "dynamic_viscosity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))

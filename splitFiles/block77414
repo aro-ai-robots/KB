@@ -1,0 +1,7 @@
+(define s (WordSenseNode "haliaeetus_pelagicus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kamchatkan_sea_eagle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sea_eagle%1:05:01::"))
+(define x (WordNode "Stellar's_sea_eagle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sea_eagle%1:05:01::"))
+(define x (WordNode "Haliaeetus_pelagicus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sea_eagle%1:05:01::"))

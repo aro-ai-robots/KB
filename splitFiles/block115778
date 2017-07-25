@@ -1,0 +1,7 @@
+(define s (WordSenseNode "oilcan%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oilcan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "can%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tin%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tin_can%1:06:00::"))
+(HolonymLink (WordSenseNode "nozzle%1:06:00::") s)
+(HolonymLink (WordSenseNode "nose%1:06:01::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "old_man%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "old_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "father%1:18:00::"))
+(InheritanceLink s (WordSenseNode "male_parent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "begetter%1:18:00::"))
+(InheritanceLink s (WordSenseNode "dysphemism%1:10:00::"))

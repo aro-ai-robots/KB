@@ -1,0 +1,5 @@
+(define s (WordSenseNode "on_a_lower_floor%4:02:00::")) (PartOfSpeechLink s adv)
+(define x (WordNode "downstairs")) (WordSenseLink x s)
+(define x (WordNode "down_the_stairs")) (WordSenseLink x s)
+(define x (WordNode "on_a_lower_floor")) (WordSenseLink x s)
+(define x (WordNode "below")) (WordSenseLink x s)

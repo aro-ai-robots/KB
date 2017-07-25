@@ -1,0 +1,7 @@
+(define s (WordSenseNode "random_number_generator%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "random_number_generator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "routine%1:10:00::"))
+(InheritanceLink s (WordSenseNode "subroutine%1:10:00::"))
+(InheritanceLink s (WordSenseNode "subprogram%1:10:00::"))
+(InheritanceLink s (WordSenseNode "procedure%1:10:00::"))
+(InheritanceLink s (WordSenseNode "function%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "phase_i_clinical_trial%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phase_I_clinical_trial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clinical_trial%1:04:00::"))
+(InheritanceLink s (WordSenseNode "clinical_test%1:04:00::"))
+(define x (WordNode "phase_I")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clinical_trial%1:04:00::"))
+(InheritanceLink s (WordSenseNode "clinical_test%1:04:00::"))

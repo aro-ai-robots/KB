@@ -1,0 +1,6 @@
+(define s (WordSenseNode "garnish%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "garnish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decoration%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ornament%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ornamentation%1:06:00::"))
+(InheritanceLink (WordSenseNode "topping%1:13:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "triumph%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "prevail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "win%2:33:00::"))
+(define x (WordNode "triumph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "win%2:33:00::"))

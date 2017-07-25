@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flow_from%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "be_due")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "result%2:42:00::"))
+(InheritanceLink s (WordSenseNode "ensue%2:42:00::"))
+(define x (WordNode "flow_from")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "result%2:42:00::"))
+(InheritanceLink s (WordSenseNode "ensue%2:42:00::"))

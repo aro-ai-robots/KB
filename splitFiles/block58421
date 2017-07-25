@@ -1,0 +1,5 @@
+(define s (WordSenseNode "false_smut%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "green_smut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "smut%1:26:00::"))
+(define x (WordNode "false_smut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "smut%1:26:00::"))

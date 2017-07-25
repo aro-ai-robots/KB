@@ -1,0 +1,5 @@
+(define s (WordSenseNode "melancholic%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "melancholic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "depressive%1:18:00::"))
+(define x (WordNode "melancholiac")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "depressive%1:18:00::"))

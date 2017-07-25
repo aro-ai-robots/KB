@@ -1,0 +1,5 @@
+(define s (WordSenseNode "loop-line%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "loop-line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "branch_line%1:06:00::"))
+(InheritanceLink s (WordSenseNode "spur_track%1:06:00::"))
+(InheritanceLink s (WordSenseNode "spur%1:06:01::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fixed-combination_drug%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fixed-combination_drug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medicine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "medication%1:06:00::"))
+(InheritanceLink s (WordSenseNode "medicament%1:06:00::"))
+(InheritanceLink s (WordSenseNode "medicinal_drug%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "barn%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "barn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "square_measure%1:23:00::"))
+(define x (WordNode "b")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "square_measure%1:23:00::"))

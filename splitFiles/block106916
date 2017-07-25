@@ -1,0 +1,8 @@
+(define s (WordSenseNode "ministrant%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ministrant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curate%1:18:00::"))
+(InheritanceLink s (WordSenseNode "minister_of_religion%1:18:00::"))
+(InheritanceLink s (WordSenseNode "minister%1:18:00::"))
+(InheritanceLink s (WordSenseNode "parson%1:18:00::"))
+(InheritanceLink s (WordSenseNode "pastor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "rector%1:18:00::"))

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "quota%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quota")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:23:00::"))

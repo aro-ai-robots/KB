@@ -1,0 +1,6 @@
+(define s (WordSenseNode "trimurti%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Trimurti")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Brahma%1:18:00::") s)
+(HolonymLink (WordSenseNode "Siva%1:18:00::") s)
+(HolonymLink (WordSenseNode "Shiva%1:18:00::") s)
+(HolonymLink (WordSenseNode "Vishnu%1:18:00::") s)

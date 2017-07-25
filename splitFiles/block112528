@@ -1,0 +1,7 @@
+(define s (WordSenseNode "new_moon%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "new_moon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phase_of_the_moon%1:28:00::"))
+(HolonymLink s (WordSenseNode "month%1:28:00::"))
+(define x (WordNode "new_phase_of_the_moon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phase_of_the_moon%1:28:00::"))
+(HolonymLink s (WordSenseNode "month%1:28:00::"))

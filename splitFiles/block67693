@@ -1,0 +1,6 @@
+(define s (WordSenseNode "gauge%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "gauge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "determine%2:32:00::"))
+(InheritanceLink s (WordSenseNode "find%2:32:00::"))
+(InheritanceLink s (WordSenseNode "find_out%2:32:00::"))
+(InheritanceLink s (WordSenseNode "ascertain%2:32:01::"))

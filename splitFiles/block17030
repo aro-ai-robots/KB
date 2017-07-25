@@ -1,0 +1,4 @@
+(define s (WordSenseNode "birth_trauma%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "birth_trauma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trauma%1:26:01::"))
+(InheritanceLink s (WordSenseNode "psychic_trauma%1:26:00::"))

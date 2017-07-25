@@ -1,0 +1,4 @@
+(define s (WordSenseNode "brattice%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brattice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "partition%1:06:00::"))
+(InheritanceLink s (WordSenseNode "divider%1:06:00::"))

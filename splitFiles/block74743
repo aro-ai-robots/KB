@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grampus%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grampus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dolphin%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Grampus%1:05:00::"))
+(define x (WordNode "Grampus_griseus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dolphin%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Grampus%1:05:00::"))

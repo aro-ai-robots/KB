@@ -1,0 +1,7 @@
+(define s (WordSenseNode "misdirection%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "distraction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "revision%1:04:00::"))
+(InheritanceLink s (WordSenseNode "alteration%1:04:00::"))
+(define x (WordNode "misdirection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "revision%1:04:00::"))
+(InheritanceLink s (WordSenseNode "alteration%1:04:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "gibberellin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gibberellin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phytohormone%1:27:00::"))
+(InheritanceLink s (WordSenseNode "plant_hormone%1:27:00::"))
+(InheritanceLink s (WordSenseNode "growth_regulator%1:27:00::"))
+(InheritanceLink (WordSenseNode "gibberellic_acid%1:27:00::") s)

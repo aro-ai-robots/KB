@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pityriasis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pityriasis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dermatosis%1:26:00::"))
+(InheritanceLink (WordSenseNode "dandruff%1:26:00::") s)
+(InheritanceLink (WordSenseNode "pityriasis_alba%1:26:00::") s)
+(InheritanceLink (WordSenseNode "pityriasis_rosea%1:26:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "homo_habilis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Homo_habilis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "homo%1:05:00::"))
+(InheritanceLink s (WordSenseNode "man%1:05:01::"))
+(InheritanceLink s (WordSenseNode "human_being%1:05:00::"))
+(InheritanceLink s (WordSenseNode "human%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Homo%1:05:00::"))

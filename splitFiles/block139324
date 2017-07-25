@@ -1,0 +1,7 @@
+(define s (WordSenseNode "resign%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "resign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accept%2:31:00::"))
+(define x (WordNode "reconcile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accept%2:31:00::"))
+(define x (WordNode "submit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accept%2:31:00::"))

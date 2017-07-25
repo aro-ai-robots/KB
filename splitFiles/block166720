@@ -1,0 +1,7 @@
+(define s (WordSenseNode "teleconference%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "teleconference")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conference%1:10:00::"))
+(InheritanceLink s (WordSenseNode "group_discussion%1:10:00::"))
+(define x (WordNode "teleconferencing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conference%1:10:00::"))
+(InheritanceLink s (WordSenseNode "group_discussion%1:10:00::"))

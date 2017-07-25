@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lupus_vulgaris%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lupus_vulgaris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lupus%1:26:00::"))
+(InheritanceLink s (WordSenseNode "tuberculosis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "TB%1:26:00::"))
+(InheritanceLink s (WordSenseNode "T.B.%1:26:00::"))

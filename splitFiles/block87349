@@ -1,0 +1,5 @@
+(define s (WordSenseNode "inscribe%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "autograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sign%2:32:00::"))
+(define x (WordNode "inscribe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sign%2:32:00::"))

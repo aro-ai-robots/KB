@@ -1,0 +1,7 @@
+(define s (WordSenseNode "harmonium%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "harmonium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "free-reed_instrument%1:06:00::"))
+(define x (WordNode "organ")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "free-reed_instrument%1:06:00::"))
+(define x (WordNode "reed_organ")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "free-reed_instrument%1:06:00::"))

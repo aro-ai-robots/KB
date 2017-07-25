@@ -1,0 +1,7 @@
+(define s (WordSenseNode "relational_adjective%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "relational_adjective")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjective%1:10:00::"))
+(InheritanceLink (WordSenseNode "pertainym%1:10:00::") s)
+(define x (WordNode "classifying_adjective")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjective%1:10:00::"))
+(InheritanceLink (WordSenseNode "pertainym%1:10:00::") s)

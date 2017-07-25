@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hypochlorite%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypochlorite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salt%1:27:00::"))
+(InheritanceLink (WordSenseNode "calcium_hypochlorite%1:27:00::") s)
+(InheritanceLink (WordSenseNode "sodium_hypochlorite%1:27:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_squilla%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Squilla")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arthropod_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Squillidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Squillidae%1:05:00::"))
+(HolonymLink (WordSenseNode "squilla%1:05:00::") s)
+(HolonymLink (WordSenseNode "mantis_prawn%1:05:00::") s)

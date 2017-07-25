@@ -1,0 +1,7 @@
+(define s (WordSenseNode "full_radiator%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "black_body")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_object%1:03:00::"))
+(define x (WordNode "blackbody")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_object%1:03:00::"))
+(define x (WordNode "full_radiator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_object%1:03:00::"))

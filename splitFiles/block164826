@@ -1,0 +1,5 @@
+(define s (WordSenseNode "t-scope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tachistoscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scientific_instrument%1:06:00::"))
+(define x (WordNode "t-scope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scientific_instrument%1:06:00::"))

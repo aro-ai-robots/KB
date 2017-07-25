@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mutchkin%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mutchkin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquid_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "liquid_measure%1:23:00::"))

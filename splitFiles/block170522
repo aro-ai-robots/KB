@@ -1,0 +1,7 @@
+(define s (WordSenseNode "topical_anaesthesia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "topical_anesthesia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anesthesia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "anaesthesia%1:26:00::"))
+(define x (WordNode "topical_anaesthesia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anesthesia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "anaesthesia%1:26:00::"))

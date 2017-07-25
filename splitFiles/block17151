@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bite_plate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bite_plate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dental_appliance%1:06:00::"))
+(define x (WordNode "biteplate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dental_appliance%1:06:00::"))

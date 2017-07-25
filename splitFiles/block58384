@@ -1,0 +1,6 @@
+(define s (WordSenseNode "false_gromwell%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "false_gromwell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "herb%1:20:00::"))
+(InheritanceLink s (WordSenseNode "herbaceous_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "Onosmodium%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Onosmodium%1:20:00::"))

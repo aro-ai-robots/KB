@@ -1,0 +1,4 @@
+(define s (WordSenseNode "strictly_speaking%4:02:00::")) (PartOfSpeechLink s adv)
+(define x (WordNode "properly_speaking")) (WordSenseLink x s)
+(define x (WordNode "strictly_speaking")) (WordSenseLink x s)
+(define x (WordNode "to_be_precise")) (WordSenseLink x s)

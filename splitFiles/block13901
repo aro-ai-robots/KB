@@ -1,0 +1,6 @@
+(define s (WordSenseNode "basalt%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "basalt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "volcanic_rock%1:27:00::"))
+(HolonymLink (WordSenseNode "pyroxene%1:27:00::") s)
+(HolonymLink (WordSenseNode "plagioclase%1:27:00::") s)
+(HolonymLink (WordSenseNode "oligoclase%1:27:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "colony%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colony")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biological_group%1:14:00::"))
+(HolonymLink (WordSenseNode "caste%1:14:00::") s)

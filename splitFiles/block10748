@@ -1,0 +1,7 @@
+(define s (WordSenseNode "atm%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "asynchronous_transfer_mode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "digital_communication%1:10:00::"))
+(InheritanceLink s (WordSenseNode "data_communication%1:10:00::"))
+(define x (WordNode "ATM")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "digital_communication%1:10:00::"))
+(InheritanceLink s (WordSenseNode "data_communication%1:10:00::"))

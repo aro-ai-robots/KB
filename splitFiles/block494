@@ -1,0 +1,7 @@
+(define s (WordSenseNode "abo_group%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ABO_blood_group_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification_system%1:09:00::"))
+(define x (WordNode "ABO_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification_system%1:09:00::"))
+(define x (WordNode "ABO_group")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification_system%1:09:00::"))

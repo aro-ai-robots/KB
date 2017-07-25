@@ -1,0 +1,5 @@
+(define s (WordSenseNode "directional_microphone%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "directional_microphone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "microphone%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mike%1:06:00::"))
+(InheritanceLink (WordSenseNode "cardioid_microphone%1:06:00::") s)

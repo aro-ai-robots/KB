@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aids%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "AIDS")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "immunodeficiency%1:26:00::"))
+(InheritanceLink s (WordSenseNode "infectious_disease%1:26:00::"))
+(define x (WordNode "acquired_immune_deficiency_syndrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "immunodeficiency%1:26:00::"))
+(InheritanceLink s (WordSenseNode "infectious_disease%1:26:00::"))

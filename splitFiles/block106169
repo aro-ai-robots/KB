@@ -1,0 +1,5 @@
+(define s (WordSenseNode "microwave%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "microwave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_appliance%1:06:00::"))
+(define x (WordNode "microwave_oven")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_appliance%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "phocoena_phocoena%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "harbor_porpoise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "porpoise%1:05:00::"))
+(define x (WordNode "herring_hog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "porpoise%1:05:00::"))
+(define x (WordNode "Phocoena_phocoena")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "porpoise%1:05:00::"))

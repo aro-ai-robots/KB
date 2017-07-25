@@ -1,0 +1,5 @@
+(define s (WordSenseNode "solidago_missouriensis%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Missouri_goldenrod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goldenrod%1:20:00::"))
+(define x (WordNode "Solidago_missouriensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goldenrod%1:20:00::"))

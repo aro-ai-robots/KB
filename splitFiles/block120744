@@ -1,0 +1,5 @@
+(define s (WordSenseNode "parliamentary_democracy%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parliamentary_democracy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "democracy%1:14:00::"))
+(InheritanceLink s (WordSenseNode "republic%1:14:00::"))
+(InheritanceLink s (WordSenseNode "commonwealth%1:14:01::"))

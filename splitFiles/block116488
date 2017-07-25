@@ -1,0 +1,6 @@
+(define s (WordSenseNode "opacity%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "opacity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "optical_opacity%1:19:00::") s)
+(InheritanceLink (WordSenseNode "radiopacity%1:19:00::") s)
+(InheritanceLink (WordSenseNode "radio-opacity%1:19:00::") s)

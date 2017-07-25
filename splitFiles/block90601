@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jew-baiter%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anti-Semite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hater%1:18:00::"))
+(define x (WordNode "Jew-baiter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hater%1:18:00::"))

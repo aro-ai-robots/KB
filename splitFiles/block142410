@@ -1,0 +1,8 @@
+(define s (WordSenseNode "rotary_engine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rotary_engine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "internal-combustion_engine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ICE%1:06:01::"))
+(InheritanceLink (WordSenseNode "turbine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Wankel_engine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Wankel_rotary_engine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "epitrochoidal_engine%1:06:00::") s)

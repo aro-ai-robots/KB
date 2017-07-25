@@ -1,0 +1,7 @@
+(define s (WordSenseNode "snipe%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sharpshoot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blast%2:33:01::"))
+(InheritanceLink s (WordSenseNode "shoot%2:33:00::"))
+(define x (WordNode "snipe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blast%2:33:01::"))
+(InheritanceLink s (WordSenseNode "shoot%2:33:00::"))

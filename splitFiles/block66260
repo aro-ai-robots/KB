@@ -1,0 +1,5 @@
+(define s (WordSenseNode "full_blood%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "full_blood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "origin%1:07:00::"))
+(InheritanceLink s (WordSenseNode "descent%1:07:00::"))
+(InheritanceLink s (WordSenseNode "extraction%1:07:00::"))

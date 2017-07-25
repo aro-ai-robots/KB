@@ -1,0 +1,5 @@
+(define s (WordSenseNode "astronomical_unit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Astronomical_Unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astronomy_unit%1:23:00::"))
+(define x (WordNode "AU")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astronomy_unit%1:23:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "democratic_party%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Democratic_Party")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "party%1:14:01::"))
+(InheritanceLink s (WordSenseNode "political_party%1:14:00::"))
+(HolonymLink (WordSenseNode "Democrat%1:18:01::") s)
+(HolonymLink (WordSenseNode "Tammany_Hall%1:14:00::") s)
+(HolonymLink (WordSenseNode "Tammany_Society%1:14:00::") s)
+(HolonymLink (WordSenseNode "Tammany%1:14:00::") s)

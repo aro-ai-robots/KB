@@ -1,0 +1,7 @@
+(define s (WordSenseNode "interrogation_point%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "question_mark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punctuation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "punctuation_mark%1:10:00::"))
+(define x (WordNode "interrogation_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punctuation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "punctuation_mark%1:10:00::"))

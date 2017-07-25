@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rhinion%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rhinion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "craniometric_point%1:08:00::"))
+(HolonymLink s (WordSenseNode "nasal%1:08:00::"))
+(HolonymLink s (WordSenseNode "nasal_bone%1:08:00::"))
+(HolonymLink s (WordSenseNode "os_nasale%1:08:00::"))

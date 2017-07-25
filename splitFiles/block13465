@@ -1,0 +1,3 @@
+(define s (WordSenseNode "bar_magnet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bar_magnet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnet%1:06:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "nominal_damages%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nominal_damages")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "damages%1:21:00::"))
+(InheritanceLink s (WordSenseNode "amends%1:21:00::"))
+(InheritanceLink s (WordSenseNode "indemnity%1:21:00::"))
+(InheritanceLink s (WordSenseNode "indemnification%1:21:00::"))
+(InheritanceLink s (WordSenseNode "restitution%1:21:00::"))
+(InheritanceLink s (WordSenseNode "redress%1:21:00::"))

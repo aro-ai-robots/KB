@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gazetteer%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gazetteer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dictionary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lexicon%1:10:00::"))
+(HolonymLink s (WordSenseNode "atlas%1:10:00::"))
+(HolonymLink s (WordSenseNode "book_of_maps%1:10:00::"))
+(HolonymLink s (WordSenseNode "map_collection%1:10:00::"))

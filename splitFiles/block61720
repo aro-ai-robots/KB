@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fine_spray%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fine_spray")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "precipitation%1:19:00::"))
+(InheritanceLink s (WordSenseNode "downfall%1:19:00::"))

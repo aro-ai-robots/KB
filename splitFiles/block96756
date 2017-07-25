@@ -1,0 +1,5 @@
+(define s (WordSenseNode "letter_of_intent%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "letter_of_intent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "letter%1:10:00::"))
+(InheritanceLink s (WordSenseNode "missive%1:10:00::"))
+(InheritanceLink (WordSenseNode "investment_letter%1:21:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "biogeographical_region%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "biogeographical_region")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:01::"))
+(InheritanceLink (WordSenseNode "benthos%1:15:00::") s)
+(InheritanceLink (WordSenseNode "benthic_division%1:15:00::") s)
+(InheritanceLink (WordSenseNode "benthonic_zone%1:15:00::") s)

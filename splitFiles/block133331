@@ -1,0 +1,7 @@
+(define s (WordSenseNode "purple_emperor%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purple_emperor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emperor_butterfly%1:05:00::"))
+(InheritanceLink s (WordSenseNode "emperor%1:05:01::"))
+(define x (WordNode "Apatura_iris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emperor_butterfly%1:05:00::"))
+(InheritanceLink s (WordSenseNode "emperor%1:05:01::"))

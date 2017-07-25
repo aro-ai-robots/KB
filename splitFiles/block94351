@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lama%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lama")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "priest%1:18:01::"))
+(InheritanceLink s (WordSenseNode "non-Christian_priest%1:18:00::"))
+(InheritanceLink (WordSenseNode "Dalai_Lama%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Grand_Lama%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Panchen_Lama%1:18:00::") s)

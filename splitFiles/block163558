@@ -1,0 +1,7 @@
+(define s (WordSenseNode "survey%2:31:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "review")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inspect%2:39:00::"))
+(define x (WordNode "go_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inspect%2:39:00::"))
+(define x (WordNode "survey")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inspect%2:39:00::"))

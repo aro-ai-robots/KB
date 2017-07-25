@@ -1,0 +1,5 @@
+(define s (WordSenseNode "deformation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "contortion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_shape%1:04:00::"))
+(define x (WordNode "deformation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_shape%1:04:00::"))

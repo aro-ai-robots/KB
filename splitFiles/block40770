@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ctenocephalus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ctenocephalus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ctenocephalides%1:05:00::"))
+(InheritanceLink s (WordSenseNode "genus_Ctenocephalides%1:05:00::"))
+(define x (WordNode "genus_Ctenocephalus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ctenocephalides%1:05:00::"))
+(InheritanceLink s (WordSenseNode "genus_Ctenocephalides%1:05:00::"))

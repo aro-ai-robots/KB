@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quiscalus_quiscula%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purple_grackle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grackle%1:05:01::"))
+(InheritanceLink s (WordSenseNode "crow_blackbird%1:05:00::"))
+(define x (WordNode "Quiscalus_quiscula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grackle%1:05:01::"))
+(InheritanceLink s (WordSenseNode "crow_blackbird%1:05:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "establishment%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "establishment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organization%1:14:00::"))
+(InheritanceLink s (WordSenseNode "organisation%1:14:00::"))

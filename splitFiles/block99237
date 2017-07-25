@@ -1,0 +1,8 @@
+(define s (WordSenseNode "long-eared_bat%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "long-eared_bat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vespertilian_bat%1:05:00::"))
+(InheritanceLink s (WordSenseNode "vespertilionid%1:05:00::"))
+(InheritanceLink (WordSenseNode "western_big-eared_bat%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Plecotus_townsendi%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Plecotus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Plecotus%1:05:00::"))

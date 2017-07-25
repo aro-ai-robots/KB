@@ -1,0 +1,5 @@
+(define s (WordSenseNode "earnings_before_interest_taxes_depreciation_and_amortization%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "EBITDA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "income%1:21:00::"))
+(define x (WordNode "Earnings_Before_Interest_Taxes_Depreciation_and_Amortization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "income%1:21:00::"))

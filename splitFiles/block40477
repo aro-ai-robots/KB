@@ -1,0 +1,5 @@
+(define s (WordSenseNode "crp%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "C-reactive_protein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "serum_globulin%1:27:00::"))
+(define x (WordNode "CRP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "serum_globulin%1:27:00::"))

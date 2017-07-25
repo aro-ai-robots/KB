@@ -1,0 +1,5 @@
+(define s (WordSenseNode "kettleful%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kettle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))
+(define x (WordNode "kettleful")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))

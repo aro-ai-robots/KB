@@ -1,0 +1,5 @@
+(define s (WordSenseNode "buphthalmum_salicifolium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "woodland_oxeye")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxeye%1:20:01::"))
+(define x (WordNode "Buphthalmum_salicifolium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxeye%1:20:01::"))

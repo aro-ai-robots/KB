@@ -1,0 +1,7 @@
+(define s (WordSenseNode "edit%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "edit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "publish%2:32:00::"))
+(InheritanceLink s (WordSenseNode "bring_out%2:32:00::"))
+(InheritanceLink s (WordSenseNode "put_out%2:32:00::"))
+(InheritanceLink s (WordSenseNode "issue%2:32:00::"))
+(InheritanceLink s (WordSenseNode "release%2:32:00::"))

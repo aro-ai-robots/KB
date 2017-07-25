@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mercury_cell%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mercury_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "voltaic_cell%1:06:00::"))
+(InheritanceLink s (WordSenseNode "galvanic_cell%1:06:00::"))
+(InheritanceLink s (WordSenseNode "primary_cell%1:06:00::"))

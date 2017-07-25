@@ -1,0 +1,5 @@
+(define s (WordSenseNode "basidiocarp%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "basidiocarp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fruiting_body%1:20:00::"))
+(HolonymLink s (WordSenseNode "basidiomycete%1:20:00::"))
+(HolonymLink s (WordSenseNode "basidiomycetous_fungi%1:20:00::"))

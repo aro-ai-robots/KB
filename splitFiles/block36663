@@ -1,0 +1,5 @@
+(define s (WordSenseNode "conspire%2:31:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "conspire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interact%2:41:00::"))
+(define x (WordNode "collude")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interact%2:41:00::"))

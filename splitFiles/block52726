@@ -1,0 +1,6 @@
+(define s (WordSenseNode "electric_drill%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electric_drill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_drill%1:06:00::"))
+(HolonymLink s (WordSenseNode "drill_press%1:06:00::"))
+(HolonymLink (WordSenseNode "chuck%1:06:00::") s)
+(HolonymLink (WordSenseNode "electric_motor%1:06:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "liquid_nitrogen%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "liquid_nitrogen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nitrogen%1:27:00::"))
+(InheritanceLink s (WordSenseNode "N%1:27:00::"))
+(InheritanceLink s (WordSenseNode "atomic_number_7%1:27:00::"))
+(InheritanceLink s (WordSenseNode "cryogen%1:27:00::"))

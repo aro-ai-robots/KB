@@ -1,0 +1,5 @@
+(define s (WordSenseNode "miss%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "miss")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avoid%2:32:00::"))
+(define x (WordNode "escape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avoid%2:32:00::"))

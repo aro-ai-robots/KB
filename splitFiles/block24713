@@ -1,0 +1,8 @@
+(define s (WordSenseNode "cane%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "walking_stick%1:06:00::"))
+(InheritanceLink (WordSenseNode "malacca%1:06:00::") s)
+(InheritanceLink (WordSenseNode "malacca_cane%1:06:00::") s)
+(InheritanceLink (WordSenseNode "swagger_stick%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sword_cane%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sword_stick%1:06:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "braille%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "braille")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transliterate%2:32:00::"))
+(InheritanceLink s (WordSenseNode "transcribe%2:32:00::"))

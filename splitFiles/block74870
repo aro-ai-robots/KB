@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grantee%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alienee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recipient%1:18:00::"))
+(InheritanceLink s (WordSenseNode "receiver%1:18:00::"))
+(define x (WordNode "grantee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recipient%1:18:00::"))
+(InheritanceLink s (WordSenseNode "receiver%1:18:00::"))

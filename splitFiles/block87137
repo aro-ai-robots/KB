@@ -1,0 +1,6 @@
+(define s (WordSenseNode "inject%2:34:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "inject")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drug%2:34:00::"))
+(InheritanceLink s (WordSenseNode "do_drugs%2:34:00::"))
+(InheritanceLink (WordSenseNode "mainline%2:34:00::") s)
+(InheritanceLink (WordSenseNode "pop%2:34:00::") s)

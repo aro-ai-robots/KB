@@ -1,0 +1,5 @@
+(define s (WordSenseNode "oblique_angle%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oblique_angle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angle%1:25:00::"))
+(InheritanceLink (WordSenseNode "acute_angle%1:25:00::") s)
+(InheritanceLink (WordSenseNode "obtuse_angle%1:25:00::") s)

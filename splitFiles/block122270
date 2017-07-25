@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pekoe%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orange_pekoe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "black_tea%1:13:00::"))
+(define x (WordNode "pekoe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "black_tea%1:13:00::"))

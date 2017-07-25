@@ -1,0 +1,5 @@
+(define s (WordSenseNode "capillarity%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "capillarity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface_tension%1:19:00::"))
+(define x (WordNode "capillary_action")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface_tension%1:19:00::"))

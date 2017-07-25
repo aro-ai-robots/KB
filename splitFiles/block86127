@@ -1,0 +1,7 @@
+(define s (WordSenseNode "independent_clause%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "main_clause")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clause%1:10:00::"))
+(HolonymLink s (WordSenseNode "complex_sentence%1:10:00::"))
+(define x (WordNode "independent_clause")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clause%1:10:00::"))
+(HolonymLink s (WordSenseNode "complex_sentence%1:10:00::"))

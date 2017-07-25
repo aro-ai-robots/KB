@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pop_group%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pop_group")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ensemble%1:14:02::"))
+(InheritanceLink (WordSenseNode "indie%1:14:00::") s)

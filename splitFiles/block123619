@@ -1,0 +1,7 @@
+(define s (WordSenseNode "petrifaction%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "petrifaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fossilization%1:22:00::"))
+(InheritanceLink s (WordSenseNode "fossilisation%1:22:00::"))
+(define x (WordNode "petrification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fossilization%1:22:00::"))
+(InheritanceLink s (WordSenseNode "fossilisation%1:22:00::"))

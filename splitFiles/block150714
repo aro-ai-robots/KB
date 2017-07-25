@@ -1,0 +1,6 @@
+(define s (WordSenseNode "shopping_cart%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shopping_cart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "handcart%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pushcart%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cart%1:06:01::"))
+(InheritanceLink s (WordSenseNode "go-cart%1:06:02::"))

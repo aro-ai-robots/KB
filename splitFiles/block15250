@@ -1,0 +1,7 @@
+(define s (WordSenseNode "beggary%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beggary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solicitation%1:10:00::"))
+(define x (WordNode "begging")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solicitation%1:10:00::"))
+(define x (WordNode "mendicancy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solicitation%1:10:00::"))

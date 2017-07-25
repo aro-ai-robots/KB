@@ -1,0 +1,7 @@
+(define s (WordSenseNode "real_gross_national_product%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "real_gross_national_product")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gross_national_product%1:21:00::"))
+(InheritanceLink s (WordSenseNode "GNP%1:21:00::"))
+(define x (WordNode "real_GNP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gross_national_product%1:21:00::"))
+(InheritanceLink s (WordSenseNode "GNP%1:21:00::"))

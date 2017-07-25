@@ -1,0 +1,7 @@
+(define s (WordSenseNode "correlation%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "correlation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reciprocality%1:24:00::"))
+(InheritanceLink s (WordSenseNode "reciprocity%1:24:00::"))
+(define x (WordNode "correlativity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reciprocality%1:24:00::"))
+(InheritanceLink s (WordSenseNode "reciprocity%1:24:00::"))

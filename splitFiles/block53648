@@ -1,0 +1,4 @@
+(define s (WordSenseNode "emulation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "emulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "technique%1:09:00::"))
+(InheritanceLink (WordSenseNode "terminal_emulation%1:09:00::") s)

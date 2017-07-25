@@ -1,0 +1,5 @@
+(define s (WordSenseNode "slam_dunk%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "slam_dunk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "certainty%1:07:00::"))
+(InheritanceLink s (WordSenseNode "sure_thing%1:07:00::"))
+(InheritanceLink s (WordSenseNode "foregone_conclusion%1:07:00::"))

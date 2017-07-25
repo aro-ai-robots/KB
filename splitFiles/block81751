@@ -1,0 +1,5 @@
+(define s (WordSenseNode "homomorphy%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "homomorphism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "similarity%1:07:00::"))
+(define x (WordNode "homomorphy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "similarity%1:07:00::"))

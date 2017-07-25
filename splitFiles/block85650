@@ -1,0 +1,8 @@
+(define s (WordSenseNode "inattention%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inattention")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "basic_cognitive_process%1:09:00::"))
+(InheritanceLink (WordSenseNode "inattentiveness%1:09:00::") s)
+(InheritanceLink (WordSenseNode "heedlessness%1:09:00::") s)
+(InheritanceLink (WordSenseNode "distraction%1:09:01::") s)
+(InheritanceLink (WordSenseNode "disregard%1:09:00::") s)
+(InheritanceLink (WordSenseNode "neglect%1:09:00::") s)

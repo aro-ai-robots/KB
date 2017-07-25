@@ -1,0 +1,7 @@
+(define s (WordSenseNode "foliate%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "foliate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%2:32:03::"))
+(define x (WordNode "paginate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%2:32:03::"))
+(define x (WordNode "page")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%2:32:03::"))

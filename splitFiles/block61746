@@ -1,0 +1,5 @@
+(define s (WordSenseNode "finger-pointing%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "finger-pointing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imputation%1:10:00::"))
+(define x (WordNode "fingerpointing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imputation%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "casino-hotel%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hotel-casino")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "place_of_business%1:06:00::"))
+(InheritanceLink s (WordSenseNode "business_establishment%1:06:00::"))
+(define x (WordNode "casino-hotel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "place_of_business%1:06:00::"))
+(InheritanceLink s (WordSenseNode "business_establishment%1:06:00::"))

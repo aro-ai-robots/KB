@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gaucher's_disease%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Gaucher's_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lipidosis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "monogenic_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "monogenic_disease%1:26:00::"))

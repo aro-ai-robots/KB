@@ -1,0 +1,6 @@
+(define s (WordSenseNode "each_year%4:02:01::")) (PartOfSpeechLink s adv)
+(define x (WordNode "per_annum")) (WordSenseLink x s)
+(define x (WordNode "p.a.")) (WordSenseLink x s)
+(define x (WordNode "per_year")) (WordSenseLink x s)
+(define x (WordNode "each_year")) (WordSenseLink x s)
+(define x (WordNode "annually")) (WordSenseLink x s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "relational_database%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "relational_database")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_database%1:10:00::"))
+(InheritanceLink s (WordSenseNode "on-line_database%1:10:00::"))
+(InheritanceLink s (WordSenseNode "computer_database%1:10:00::"))
+(InheritanceLink s (WordSenseNode "electronic_information_service%1:10:00::"))

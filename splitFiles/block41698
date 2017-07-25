@@ -1,0 +1,3 @@
+(define s (WordSenseNode "cyberpunk%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cyberpunk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "science_fiction%1:10:00::"))

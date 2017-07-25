@@ -1,0 +1,6 @@
+(define s (WordSenseNode "coding_system%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coding_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing%1:10:01::"))
+(InheritanceLink (WordSenseNode "code%1:10:00::") s)
+(InheritanceLink (WordSenseNode "code%1:10:02::") s)
+(InheritanceLink (WordSenseNode "computer_code%1:10:00::") s)

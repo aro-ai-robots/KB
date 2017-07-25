@@ -1,0 +1,5 @@
+(define s (WordSenseNode "burn%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "burn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "waste%2:40:00::"))
+(InheritanceLink s (WordSenseNode "blow%2:40:02::"))
+(InheritanceLink s (WordSenseNode "squander%2:40:01::"))

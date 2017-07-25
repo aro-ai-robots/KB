@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_oryx%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Oryx")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Bovidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Bovidae%1:05:00::"))
+(HolonymLink (WordSenseNode "oryx%1:05:00::") s)
+(HolonymLink (WordSenseNode "pasang%1:05:02::") s)

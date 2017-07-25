@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trochee%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trochee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metrical_foot%1:10:00::"))
+(InheritanceLink s (WordSenseNode "foot%1:10:00::"))
+(InheritanceLink s (WordSenseNode "metrical_unit%1:10:00::"))

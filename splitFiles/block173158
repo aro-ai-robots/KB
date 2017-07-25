@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trust%2:37:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wish%2:37:00::"))
+(define x (WordNode "trust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wish%2:37:00::"))
+(define x (WordNode "desire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wish%2:37:00::"))

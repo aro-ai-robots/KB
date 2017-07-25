@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_nerita%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Nerita")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mollusk_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Neritidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Neritidae%1:05:00::"))
+(HolonymLink (WordSenseNode "nerita%1:05:00::") s)
+(HolonymLink (WordSenseNode "bleeding_tooth%1:05:00::") s)
+(HolonymLink (WordSenseNode "Nerita_peloronta%1:05:00::") s)

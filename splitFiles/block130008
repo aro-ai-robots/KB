@@ -1,0 +1,3 @@
+(define s (WordSenseNode "prepay%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "prepay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pay%2:40:00::"))

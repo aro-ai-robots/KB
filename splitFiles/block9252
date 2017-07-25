@@ -1,0 +1,7 @@
+(define s (WordSenseNode "arrest%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "halt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:01::"))
+(define x (WordNode "hold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:01::"))
+(define x (WordNode "arrest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:01::"))

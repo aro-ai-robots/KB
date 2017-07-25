@@ -1,0 +1,8 @@
+(define s (WordSenseNode "bengali%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Bengali")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Asian%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Asiatic%1:18:00::"))
+(HolonymLink s (WordSenseNode "Bangladesh%1:15:00::"))
+(HolonymLink s (WordSenseNode "People's_Republic_of_Bangladesh%1:15:00::"))
+(HolonymLink s (WordSenseNode "Bangla_Desh%1:15:00::"))
+(HolonymLink s (WordSenseNode "East_Pakistan%1:15:00::"))

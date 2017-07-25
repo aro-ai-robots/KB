@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pachuco%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pachuco")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adolescent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "stripling%1:18:00::"))
+(InheritanceLink s (WordSenseNode "teenager%1:18:00::"))
+(InheritanceLink s (WordSenseNode "teen%1:18:00::"))

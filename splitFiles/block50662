@@ -1,0 +1,7 @@
+(define s (WordSenseNode "duchenne's_muscular_dystrophy%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Duchenne's_muscular_dystrophy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "muscular_dystrophy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "dystrophy%1:26:01::"))
+(define x (WordNode "pseudohypertrophic_dystrophy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "muscular_dystrophy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "dystrophy%1:26:01::"))

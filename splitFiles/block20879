@@ -1,0 +1,4 @@
+(define s (WordSenseNode "breaststroke%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "breaststroke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swimming_stroke%1:04:00::"))
+(HolonymLink (WordSenseNode "frog_kick%1:04:00::") s)

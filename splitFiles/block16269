@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bi-fold_door%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bi-fold_door")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interior_door%1:06:00::"))
+(HolonymLink (WordSenseNode "hinge%1:06:00::") s)
+(HolonymLink (WordSenseNode "flexible_joint%1:06:00::") s)

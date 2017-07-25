@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fbi_agent%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "G-man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "government_agent%1:18:00::"))
+(define x (WordNode "FBI_agent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "government_agent%1:18:00::"))
+(define x (WordNode "government_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "government_agent%1:18:00::"))

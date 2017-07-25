@@ -1,0 +1,7 @@
+(define s (WordSenseNode "elimination%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elimination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "analysis%1:09:00::"))
+(InheritanceLink s (WordSenseNode "analytic_thinking%1:09:00::"))
+(define x (WordNode "reasoning_by_elimination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "analysis%1:09:00::"))
+(InheritanceLink s (WordSenseNode "analytic_thinking%1:09:00::"))

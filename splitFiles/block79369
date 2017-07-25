@@ -1,0 +1,5 @@
+(define s (WordSenseNode "heimlich_manoeuvere%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Heimlich_maneuver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emergency_procedure%1:04:00::"))
+(define x (WordNode "Heimlich_manoeuvere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emergency_procedure%1:04:00::"))

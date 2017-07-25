@@ -1,0 +1,5 @@
+(define s (WordSenseNode "short_wave%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "short_wave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radio_wave%1:19:00::"))
+(InheritanceLink s (WordSenseNode "radio_emission%1:19:00::"))
+(InheritanceLink s (WordSenseNode "radio_radiation%1:19:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rydberg_constant%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rydberg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave_number%1:23:00::"))
+(define x (WordNode "rydberg_constant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave_number%1:23:00::"))
+(define x (WordNode "rydberg_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave_number%1:23:00::"))

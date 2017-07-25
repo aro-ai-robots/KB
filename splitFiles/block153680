@@ -1,0 +1,7 @@
+(define s (WordSenseNode "slow-wittedness%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "denseness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stupidity%1:09:00::"))
+(define x (WordNode "dumbness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stupidity%1:09:00::"))
+(define x (WordNode "slow-wittedness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stupidity%1:09:00::"))

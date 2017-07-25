@@ -1,0 +1,7 @@
+(define s (WordSenseNode "atlas%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "atlas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cervical_vertebra%1:08:00::"))
+(InheritanceLink s (WordSenseNode "neck_bone%1:08:00::"))
+(define x (WordNode "atlas_vertebra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cervical_vertebra%1:08:00::"))
+(InheritanceLink s (WordSenseNode "neck_bone%1:08:00::"))

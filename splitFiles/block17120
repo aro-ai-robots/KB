@@ -1,0 +1,8 @@
+(define s (WordSenseNode "bit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unit_of_measurement%1:23:00::"))
+(InheritanceLink s (WordSenseNode "unit%1:23:00::"))
+(InheritanceLink (WordSenseNode "parity_bit%1:23:00::") s)
+(InheritanceLink (WordSenseNode "parity%1:23:00::") s)
+(InheritanceLink (WordSenseNode "check_bit%1:23:00::") s)
+(HolonymLink s (WordSenseNode "byte%1:23:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hatcheck_girl%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "check_girl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "checker%1:18:01::"))
+(define x (WordNode "hatcheck_girl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "checker%1:18:01::"))

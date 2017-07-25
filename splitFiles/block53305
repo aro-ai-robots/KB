@@ -1,0 +1,8 @@
+(define s (WordSenseNode "embassy%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "embassy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deputation%1:14:00::"))
+(InheritanceLink s (WordSenseNode "commission%1:14:01::"))
+(InheritanceLink s (WordSenseNode "delegation%1:14:00::"))
+(InheritanceLink s (WordSenseNode "delegacy%1:14:00::"))
+(InheritanceLink s (WordSenseNode "mission%1:14:00::"))
+(InheritanceLink (WordSenseNode "High_Commission%1:14:00::") s)

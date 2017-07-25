@@ -1,0 +1,7 @@
+(define s (WordSenseNode "knot%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "knot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distorted_shape%1:25:00::"))
+(InheritanceLink s (WordSenseNode "distortion%1:25:00::"))
+(define x (WordNode "gnarl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distorted_shape%1:25:00::"))
+(InheritanceLink s (WordSenseNode "distortion%1:25:00::"))

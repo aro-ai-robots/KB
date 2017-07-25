@@ -1,0 +1,6 @@
+(define s (WordSenseNode "spirit%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spirit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vital_principle%1:18:00::"))
+(InheritanceLink s (WordSenseNode "life_principle%1:18:00::"))
+(InheritanceLink (WordSenseNode "soul%1:18:00::") s)
+(InheritanceLink (WordSenseNode "psyche%1:18:00::") s)

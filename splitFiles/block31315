@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cirsium_eriophorum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "European_woolly_thistle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "woolly_thistle%1:20:01::"))
+(InheritanceLink s (WordSenseNode "Cirsium_flodmanii%1:20:00::"))
+(define x (WordNode "Cirsium_eriophorum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "woolly_thistle%1:20:01::"))
+(InheritanceLink s (WordSenseNode "Cirsium_flodmanii%1:20:00::"))

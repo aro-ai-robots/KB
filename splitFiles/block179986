@@ -1,0 +1,5 @@
+(define s (WordSenseNode "voiceless_consonant%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "surd")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consonant%1:10:00::"))
+(define x (WordNode "voiceless_consonant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consonant%1:10:00::"))

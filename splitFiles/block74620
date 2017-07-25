@@ -1,0 +1,6 @@
+(define s (WordSenseNode "gradient%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gradient")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%1:24:00::"))
+(InheritanceLink (WordSenseNode "concentration_gradient%1:24:00::") s)
+(InheritanceLink (WordSenseNode "gravity_gradient%1:24:00::") s)
+(InheritanceLink (WordSenseNode "temperature_gradient%1:24:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coordinate_bond%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coordinate_bond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covalent_bond%1:19:00::"))
+(define x (WordNode "dative_bond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covalent_bond%1:19:00::"))

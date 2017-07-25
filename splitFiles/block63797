@@ -1,0 +1,7 @@
+(define s (WordSenseNode "folding%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "protein_folding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "biological_process%1:22:00::"))
+(define x (WordNode "folding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "biological_process%1:22:00::"))

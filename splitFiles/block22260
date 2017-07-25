@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bulgur_pilaf%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bulgur_pilaf")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pilaf%1:13:00::"))
+(InheritanceLink s (WordSenseNode "pilaff%1:13:00::"))
+(InheritanceLink s (WordSenseNode "pilau%1:13:00::"))
+(InheritanceLink s (WordSenseNode "pilaw%1:13:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "escalator%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "escalator_clause")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "article%1:10:02::"))
+(InheritanceLink s (WordSenseNode "clause%1:10:01::"))
+(define x (WordNode "escalator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "article%1:10:02::"))
+(InheritanceLink s (WordSenseNode "clause%1:10:01::"))

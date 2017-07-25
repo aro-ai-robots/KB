@@ -1,0 +1,7 @@
+(define s (WordSenseNode "unabridged%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unabridged_dictionary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dictionary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lexicon%1:10:00::"))
+(define x (WordNode "unabridged")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dictionary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lexicon%1:10:00::"))

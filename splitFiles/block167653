@@ -1,0 +1,8 @@
+(define s (WordSenseNode "tetrodotoxin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tetrodotoxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neurotoxin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "neurolysin%1:27:00::"))
+(HolonymLink s (WordSenseNode "blowfish%1:13:00::"))
+(HolonymLink s (WordSenseNode "sea_squab%1:13:00::"))
+(HolonymLink s (WordSenseNode "puffer%1:13:00::"))
+(HolonymLink s (WordSenseNode "pufferfish%1:13:00::"))

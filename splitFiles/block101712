@@ -1,0 +1,4 @@
+(define s (WordSenseNode "makeready%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "makeready")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preparation%1:04:02::"))
+(InheritanceLink s (WordSenseNode "readying%1:04:00::"))

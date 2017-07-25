@@ -1,0 +1,6 @@
+(define s (WordSenseNode "underdog%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "underdog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "failure%1:18:00::"))
+(InheritanceLink s (WordSenseNode "loser%1:18:02::"))
+(InheritanceLink s (WordSenseNode "nonstarter%1:18:00::"))
+(InheritanceLink s (WordSenseNode "unsuccessful_person%1:18:00::"))

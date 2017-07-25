@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reversionary_annuity%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reversionary_annuity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "annuity%1:21:00::"))
+(InheritanceLink s (WordSenseNode "rente%1:21:01::"))
+(define x (WordNode "survivorship_annuity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "annuity%1:21:00::"))
+(InheritanceLink s (WordSenseNode "rente%1:21:01::"))

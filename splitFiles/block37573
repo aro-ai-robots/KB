@@ -1,0 +1,6 @@
+(define s (WordSenseNode "coordination%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coordination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification%1:09:00::"))
+(InheritanceLink s (WordSenseNode "categorization%1:09:00::"))
+(InheritanceLink s (WordSenseNode "categorisation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sorting%1:09:00::"))

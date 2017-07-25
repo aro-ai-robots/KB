@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tudor%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Tudor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ruler%1:18:00::"))
+(InheritanceLink s (WordSenseNode "swayer%1:18:00::"))
+(HolonymLink s (WordSenseNode "Tudor%1:14:00::"))
+(HolonymLink s (WordSenseNode "House_of_Tudor%1:14:00::"))

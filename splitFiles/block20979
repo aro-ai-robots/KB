@@ -1,0 +1,4 @@
+(define s (WordSenseNode "breton%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Breton")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Brythonic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Brittanic%1:10:00::"))

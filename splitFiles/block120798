@@ -1,0 +1,3 @@
+(define s (WordSenseNode "parotid_gland%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parotid_gland")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salivary_gland%1:08:00::"))

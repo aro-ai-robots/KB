@@ -1,0 +1,4 @@
+(define s (WordSenseNode "molecular_biologist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "molecular_biologist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biologist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "life_scientist%1:18:00::"))

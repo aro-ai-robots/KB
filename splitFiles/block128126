@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pommel%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pommel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "handle%1:06:00::"))
+(InheritanceLink s (WordSenseNode "grip%1:06:01::"))
+(InheritanceLink s (WordSenseNode "handgrip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "hold%1:06:00::"))
+(HolonymLink s (WordSenseNode "pommel_horse%1:06:00::"))
+(HolonymLink s (WordSenseNode "side_horse%1:06:00::"))

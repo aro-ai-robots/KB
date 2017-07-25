@@ -1,0 +1,4 @@
+(define s (WordSenseNode "peroxide%1:27:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "peroxide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxide%1:27:00::"))
+(InheritanceLink (WordSenseNode "benzoyl_peroxide%1:27:00::") s)

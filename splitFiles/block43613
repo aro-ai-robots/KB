@@ -1,0 +1,7 @@
+(define s (WordSenseNode "decongestant%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decongestant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medicine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "medication%1:06:00::"))
+(InheritanceLink s (WordSenseNode "medicament%1:06:00::"))
+(InheritanceLink s (WordSenseNode "medicinal_drug%1:06:00::"))
+(InheritanceLink (WordSenseNode "nasal_decongestant%1:06:00::") s)

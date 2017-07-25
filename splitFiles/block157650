@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spot%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "spot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(InheritanceLink (WordSenseNode "freckle%2:30:01::") s)
+(InheritanceLink (WordSenseNode "fox%2:30:00::") s)

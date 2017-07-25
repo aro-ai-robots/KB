@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stirrup%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stirrup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support%1:06:00::"))
+(HolonymLink s (WordSenseNode "saddle%1:06:00::"))
+(define x (WordNode "stirrup_iron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support%1:06:00::"))
+(HolonymLink s (WordSenseNode "saddle%1:06:00::"))

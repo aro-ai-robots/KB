@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sadden%2:37:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sadden")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "affect%2:37:00::"))
+(InheritanceLink s (WordSenseNode "impress%2:37:01::"))
+(InheritanceLink s (WordSenseNode "move%2:37:00::"))
+(InheritanceLink s (WordSenseNode "strike%2:37:00::"))
+(InheritanceLink (WordSenseNode "weigh_down%2:37:00::") s)
+(InheritanceLink (WordSenseNode "weigh_on%2:37:00::") s)

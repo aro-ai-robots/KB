@@ -1,0 +1,5 @@
+(define s (WordSenseNode "conservation_of_electricity%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conservation_of_charge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conservation%1:09:00::"))
+(define x (WordNode "conservation_of_electricity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conservation%1:09:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "drop-down_menu%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drop-down_menu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "menu%1:10:01::"))
+(InheritanceLink s (WordSenseNode "computer_menu%1:10:00::"))

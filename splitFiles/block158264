@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sri_lankan%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Sri_Lankan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Asian%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Asiatic%1:18:00::"))
+(HolonymLink s (WordSenseNode "Sri_Lanka%1:15:00::"))
+(HolonymLink s (WordSenseNode "Democratic_Socialist_Republic_of_Sri_Lanka%1:15:00::"))
+(HolonymLink s (WordSenseNode "Ceylon%1:15:01::"))

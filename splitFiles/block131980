@@ -1,0 +1,4 @@
+(define s (WordSenseNode "protocol%1:09:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "protocol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "code_of_conduct%1:09:00::"))
+(InheritanceLink s (WordSenseNode "code_of_behavior%1:09:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "support_column%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "support_column")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "column%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pillar%1:06:00::"))
+(InheritanceLink (WordSenseNode "lally%1:06:00::") s)
+(InheritanceLink (WordSenseNode "lally_column%1:06:00::") s)

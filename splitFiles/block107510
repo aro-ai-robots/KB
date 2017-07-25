@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mixing_faucet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mixing_faucet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "faucet%1:06:01::"))
+(InheritanceLink s (WordSenseNode "spigot%1:06:00::"))

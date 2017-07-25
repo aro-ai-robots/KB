@@ -1,0 +1,5 @@
+(define s (WordSenseNode "psychrometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "psychrometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hygrometer%1:06:00::"))
+(HolonymLink (WordSenseNode "dry-bulb_thermometer%1:06:00::") s)
+(HolonymLink (WordSenseNode "wet-bulb_thermometer%1:06:00::") s)

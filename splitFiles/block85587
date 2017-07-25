@@ -1,0 +1,6 @@
+(define s (WordSenseNode "inaccuracy%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inaccuracy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(InheritanceLink (WordSenseNode "inexactness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "inexactitude%1:07:00::") s)
+(InheritanceLink (WordSenseNode "looseness%1:07:01::") s)

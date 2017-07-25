@@ -1,0 +1,7 @@
+(define s (WordSenseNode "electrochemical_series%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electromotive_series")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "series%1:14:00::"))
+(define x (WordNode "electromotive_force_series")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "series%1:14:00::"))
+(define x (WordNode "electrochemical_series")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "series%1:14:00::"))

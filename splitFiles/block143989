@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sailplane%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glider")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heavier-than-air_craft%1:06:00::"))
+(InheritanceLink (WordSenseNode "hang_glider%1:06:00::") s)
+(define x (WordNode "sailplane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heavier-than-air_craft%1:06:00::"))
+(InheritanceLink (WordSenseNode "hang_glider%1:06:00::") s)

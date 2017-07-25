@@ -1,0 +1,7 @@
+(define s (WordSenseNode "marker%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "marker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artifact%1:03:00::"))
+(InheritanceLink s (WordSenseNode "artefact%1:03:00::"))
+(InheritanceLink (WordSenseNode "bookmark%1:06:00::") s)
+(InheritanceLink (WordSenseNode "bookmarker%1:06:00::") s)
+(InheritanceLink (WordSenseNode "yard_marker%1:06:00::") s)

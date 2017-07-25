@@ -1,0 +1,5 @@
+(define s (WordSenseNode "timpanist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tympanist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drummer%1:18:00::"))
+(define x (WordNode "timpanist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drummer%1:18:00::"))

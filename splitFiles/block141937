@@ -1,0 +1,7 @@
+(define s (WordSenseNode "roller_bearing%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ball_bearing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bearing%1:06:00::"))
+(define x (WordNode "needle_bearing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bearing%1:06:00::"))
+(define x (WordNode "roller_bearing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bearing%1:06:00::"))

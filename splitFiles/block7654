@@ -1,0 +1,6 @@
+(define s (WordSenseNode "apercu%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "apercu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "outline%1:10:00::"))
+(InheritanceLink s (WordSenseNode "synopsis%1:10:00::"))
+(InheritanceLink s (WordSenseNode "abstract%1:10:00::"))
+(InheritanceLink s (WordSenseNode "precis%1:10:00::"))

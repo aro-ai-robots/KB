@@ -1,0 +1,4 @@
+(define s (WordSenseNode "space_probe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "space_probe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guided_missile%1:06:00::"))
+(HolonymLink (WordSenseNode "telemeter%1:06:00::") s)

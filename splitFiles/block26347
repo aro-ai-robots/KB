@@ -1,0 +1,7 @@
+(define s (WordSenseNode "carry_forward%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "carry_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transfer%2:38:00::"))
+(InheritanceLink s (WordSenseNode "shift%2:38:02::"))
+(define x (WordNode "carry_forward")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transfer%2:38:00::"))
+(InheritanceLink s (WordSenseNode "shift%2:38:02::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "recombine%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "recombine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%2:30:00::"))
+(InheritanceLink s (WordSenseNode "combine%2:30:02::"))

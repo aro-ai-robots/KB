@@ -1,0 +1,7 @@
+(define s (WordSenseNode "confucianist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Confucian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "believer%1:18:01::"))
+(InheritanceLink s (WordSenseNode "truster%1:18:00::"))
+(define x (WordNode "Confucianist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "believer%1:18:01::"))
+(InheritanceLink s (WordSenseNode "truster%1:18:00::"))

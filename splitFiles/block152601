@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sitter%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "artist's_model")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "model%1:18:00::"))
+(InheritanceLink s (WordSenseNode "poser%1:18:00::"))
+(define x (WordNode "sitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "model%1:18:00::"))
+(InheritanceLink s (WordSenseNode "poser%1:18:00::"))

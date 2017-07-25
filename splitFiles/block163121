@@ -1,0 +1,5 @@
+(define s (WordSenseNode "superordination%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypernymy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "semantic_relation%1:24:00::"))
+(define x (WordNode "superordination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "semantic_relation%1:24:00::"))

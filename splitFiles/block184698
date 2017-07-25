@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wordfinder%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "word_finder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thesaurus%1:10:00::"))
+(InheritanceLink s (WordSenseNode "synonym_finder%1:10:00::"))
+(define x (WordNode "wordfinder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thesaurus%1:10:00::"))
+(InheritanceLink s (WordSenseNode "synonym_finder%1:10:00::"))

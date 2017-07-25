@@ -1,0 +1,5 @@
+(define s (WordSenseNode "manakin%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "manakin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tyrannid%1:05:00::"))
+(HolonymLink s (WordSenseNode "Pipra%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Pipra%1:05:00::"))

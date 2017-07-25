@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cauliflower%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cauliflower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cruciferous_vegetable%1:13:00::"))
+(HolonymLink s (WordSenseNode "cauliflower%1:20:00::"))
+(HolonymLink s (WordSenseNode "Brassica_oleracea_botrytis%1:20:00::"))

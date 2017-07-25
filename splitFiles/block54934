@@ -1,0 +1,3 @@
+(define s (WordSenseNode "eponym%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eponym")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "name%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "social_policy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "social_policy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "policy%1:10:00::"))
+(InheritanceLink (WordSenseNode "apartheid%1:10:00::") s)
+(InheritanceLink (WordSenseNode "glasnost%1:10:00::") s)
+(InheritanceLink (WordSenseNode "social_action%1:10:00::") s)
+(InheritanceLink (WordSenseNode "nativism%1:10:00::") s)

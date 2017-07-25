@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hyperaemia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hyperemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "congestion%1:26:00::"))
+(InheritanceLink (WordSenseNode "engorgement%1:26:00::") s)
+(define x (WordNode "hyperaemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "congestion%1:26:00::"))
+(InheritanceLink (WordSenseNode "engorgement%1:26:00::") s)

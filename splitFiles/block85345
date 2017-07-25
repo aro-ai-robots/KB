@@ -1,0 +1,4 @@
+(define s (WordSenseNode "imprint%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "imprint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))
+(InheritanceLink (WordSenseNode "impression%1:06:00::") s)

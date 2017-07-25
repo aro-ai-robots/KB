@@ -1,0 +1,7 @@
+(define s (WordSenseNode "signal_caller%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quarterback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "back%1:18:00::"))
+(define x (WordNode "signal_caller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "back%1:18:00::"))
+(define x (WordNode "field_general")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "back%1:18:00::"))

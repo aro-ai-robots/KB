@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sulfur_oxide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sulfur_oxide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxide%1:27:00::"))
+(define x (WordNode "sulphur_oxide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxide%1:27:00::"))

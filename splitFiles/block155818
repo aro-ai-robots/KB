@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sour_grapes%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sour_grapes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disparagement%1:10:00::"))
+(InheritanceLink s (WordSenseNode "depreciation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "derogation%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fixing%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fixation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preservation%1:22:00::"))
+(HolonymLink s (WordSenseNode "plastination%1:22:00::"))
+(define x (WordNode "fixing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preservation%1:22:00::"))
+(HolonymLink s (WordSenseNode "plastination%1:22:00::"))

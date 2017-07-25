@@ -1,0 +1,7 @@
+(define s (WordSenseNode "experimental_procedure%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "experimental_procedure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "procedure%1:04:00::"))
+(InheritanceLink s (WordSenseNode "process%1:04:00::"))
+(InheritanceLink (WordSenseNode "double-blind_procedure%1:04:00::") s)
+(InheritanceLink (WordSenseNode "double-blind_experiment%1:04:00::") s)
+(InheritanceLink (WordSenseNode "double-blind_study%1:04:00::") s)

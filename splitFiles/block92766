@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kick_in%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "kick_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "destroy%2:35:00::"))
+(InheritanceLink s (WordSenseNode "ruin%2:35:00::"))
+(define x (WordNode "kick_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "destroy%2:35:00::"))
+(InheritanceLink s (WordSenseNode "ruin%2:35:00::"))

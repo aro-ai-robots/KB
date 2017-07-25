@@ -1,0 +1,7 @@
+(define s (WordSenseNode "anxiety_reaction%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "generalized_anxiety_disorder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anxiety_disorder%1:26:00::"))
+(define x (WordNode "GAD")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anxiety_disorder%1:26:00::"))
+(define x (WordNode "anxiety_reaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anxiety_disorder%1:26:00::"))

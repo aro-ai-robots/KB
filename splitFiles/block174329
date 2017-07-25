@@ -1,0 +1,8 @@
+(define s (WordSenseNode "type_family%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "type_family")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "type%1:10:01::"))
+(HolonymLink (WordSenseNode "font%1:10:00::") s)
+(HolonymLink (WordSenseNode "fount%1:10:00::") s)
+(HolonymLink (WordSenseNode "typeface%1:10:00::") s)
+(HolonymLink (WordSenseNode "face%1:10:00::") s)
+(HolonymLink (WordSenseNode "case%1:10:03::") s)

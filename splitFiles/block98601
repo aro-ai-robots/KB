@@ -1,0 +1,6 @@
+(define s (WordSenseNode "live_body%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "live_body")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body%1:08:00::"))
+(InheritanceLink s (WordSenseNode "organic_structure%1:08:00::"))
+(InheritanceLink s (WordSenseNode "physical_structure%1:08:00::"))
+(InheritanceLink (WordSenseNode "system%1:08:01::") s)

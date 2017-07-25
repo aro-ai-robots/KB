@@ -1,0 +1,5 @@
+(define s (WordSenseNode "autotypy%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "autotype")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:22:00::"))
+(define x (WordNode "autotypy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:22:00::"))

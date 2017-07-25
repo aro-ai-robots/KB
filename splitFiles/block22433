@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bumper_car%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bumper_car")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vehicle%1:06:00::"))
+(define x (WordNode "Dodgem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vehicle%1:06:00::"))

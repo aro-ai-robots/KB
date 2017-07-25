@@ -1,0 +1,5 @@
+(define s (WordSenseNode "icon%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "icon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symbol%1:10:00::"))
+(HolonymLink s (WordSenseNode "graphical_user_interface%1:10:00::"))
+(HolonymLink s (WordSenseNode "GUI%1:10:00::"))

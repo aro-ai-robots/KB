@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hair_follicle%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hair_follicle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "follicle%1:08:00::"))
+(HolonymLink (WordSenseNode "sebaceous_gland%1:08:00::") s)
+(HolonymLink (WordSenseNode "sebaceous_follicle%1:08:00::") s)
+(HolonymLink (WordSenseNode "glandulae_sebaceae%1:08:00::") s)

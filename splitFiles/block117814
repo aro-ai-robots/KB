@@ -1,0 +1,5 @@
+(define s (WordSenseNode "orphanage%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orphanage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:26:01::"))
+(define x (WordNode "orphanhood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:26:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trichloride%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trichloride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chloride%1:27:00::"))
+(InheritanceLink (WordSenseNode "nitrogen_trichloride%1:27:00::") s)
+(InheritanceLink (WordSenseNode "Agene%1:27:00::") s)

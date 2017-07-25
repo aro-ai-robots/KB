@@ -1,0 +1,7 @@
+(define s (WordSenseNode "little_slam%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "little_slam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slam%1:11:00::"))
+(InheritanceLink s (WordSenseNode "sweep%1:11:00::"))
+(define x (WordNode "small_slam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slam%1:11:00::"))
+(InheritanceLink s (WordSenseNode "sweep%1:11:00::"))

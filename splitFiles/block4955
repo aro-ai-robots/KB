@@ -1,0 +1,5 @@
+(define s (WordSenseNode "alternative_pleading%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alternative_pleading")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pleading%1:10:00::"))
+(define x (WordNode "pleading_in_the_alternative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pleading%1:10:00::"))

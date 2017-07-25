@@ -1,0 +1,5 @@
+(define s (WordSenseNode "string%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "string")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cord%1:06:00::"))
+(InheritanceLink (WordSenseNode "snare%1:06:01::") s)
+(HolonymLink s (WordSenseNode "stringed_instrument%1:06:00::"))

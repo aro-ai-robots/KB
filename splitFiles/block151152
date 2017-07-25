@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shumard_red_oak%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Shumard_oak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "red_oak%1:20:00::"))
+(define x (WordNode "Shumard_red_oak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "red_oak%1:20:00::"))
+(define x (WordNode "Quercus_shumardii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "red_oak%1:20:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "parafovea%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parafovea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:08:00::"))
+(InheritanceLink s (WordSenseNode "region%1:08:00::"))
+(HolonymLink s (WordSenseNode "retina%1:08:00::"))

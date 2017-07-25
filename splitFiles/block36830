@@ -1,0 +1,7 @@
+(define s (WordSenseNode "consummation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "consummation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "completion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "culmination%1:04:00::"))
+(InheritanceLink s (WordSenseNode "closing%1:04:02::"))
+(InheritanceLink s (WordSenseNode "windup%1:04:00::"))
+(InheritanceLink s (WordSenseNode "mop_up%1:04:00::"))

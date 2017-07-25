@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ecclesiology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ecclesiology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theology%1:09:01::"))
+(InheritanceLink s (WordSenseNode "divinity%1:09:00::"))

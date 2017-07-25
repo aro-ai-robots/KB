@@ -1,0 +1,5 @@
+(define s (WordSenseNode "barrage_jamming%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "barrage_jamming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jamming%1:04:00::"))
+(InheritanceLink s (WordSenseNode "electronic_jamming%1:04:00::"))
+(InheritanceLink s (WordSenseNode "jam%1:04:00::"))

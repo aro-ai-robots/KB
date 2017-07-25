@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gyroplane%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "autogiro")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heavier-than-air_craft%1:06:00::"))
+(define x (WordNode "autogyro")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heavier-than-air_craft%1:06:00::"))
+(define x (WordNode "gyroplane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heavier-than-air_craft%1:06:00::"))

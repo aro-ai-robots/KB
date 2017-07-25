@@ -1,0 +1,5 @@
+(define s (WordSenseNode "district_manager%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "district_manager")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "director%1:18:00::"))
+(InheritanceLink s (WordSenseNode "manager%1:18:00::"))
+(InheritanceLink s (WordSenseNode "managing_director%1:18:00::"))

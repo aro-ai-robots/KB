@@ -1,0 +1,7 @@
+(define s (WordSenseNode "butazolidin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phenylbutazone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anti-inflammatory%1:06:00::"))
+(InheritanceLink s (WordSenseNode "anti-inflammatory_drug%1:06:00::"))
+(define x (WordNode "Butazolidin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anti-inflammatory%1:06:00::"))
+(InheritanceLink s (WordSenseNode "anti-inflammatory_drug%1:06:00::"))

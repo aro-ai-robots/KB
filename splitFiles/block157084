@@ -1,0 +1,4 @@
+(define s (WordSenseNode "spinnability%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spinnability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(InheritanceLink (WordSenseNode "spinnbarkeit%1:07:00::") s)

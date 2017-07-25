@@ -1,0 +1,7 @@
+(define s (WordSenseNode "medroxyprogesterone%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "medroxyprogesterone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "progestin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "progestogen%1:27:00::"))
+(define x (WordNode "Provera")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "progestin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "progestogen%1:27:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "microsome%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "microsome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "granule%1:17:00::"))
+(HolonymLink s (WordSenseNode "cytoplasm%1:08:00::"))
+(HolonymLink s (WordSenseNode "cytol%1:08:00::"))

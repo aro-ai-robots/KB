@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bootie%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bootee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slipper%1:06:00::"))
+(InheritanceLink s (WordSenseNode "carpet_slipper%1:06:00::"))
+(define x (WordNode "bootie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slipper%1:06:00::"))
+(InheritanceLink s (WordSenseNode "carpet_slipper%1:06:00::"))

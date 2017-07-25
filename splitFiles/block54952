@@ -1,0 +1,7 @@
+(define s (WordSenseNode "epstein-barr_virus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Epstein-Barr_virus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "herpes%1:05:00::"))
+(InheritanceLink s (WordSenseNode "herpes_virus%1:05:00::"))
+(define x (WordNode "EBV")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "herpes%1:05:00::"))
+(InheritanceLink s (WordSenseNode "herpes_virus%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mountain_watercress%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "American_watercress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "watercress%1:20:00::"))
+(define x (WordNode "mountain_watercress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "watercress%1:20:00::"))
+(define x (WordNode "Cardamine_rotundifolia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "watercress%1:20:00::"))

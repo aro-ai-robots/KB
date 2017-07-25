@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hovercraft%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hovercraft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "craft%1:06:00::"))
+(define x (WordNode "ground-effect_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "craft%1:06:00::"))

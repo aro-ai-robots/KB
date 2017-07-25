@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sechuana%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Tswana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Sotho%1:10:00::"))
+(define x (WordNode "Setswana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Sotho%1:10:00::"))
+(define x (WordNode "Sechuana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Sotho%1:10:00::"))

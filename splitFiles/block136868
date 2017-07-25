@@ -1,0 +1,4 @@
+(define s (WordSenseNode "reconfirm%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reconfirm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confirm%2:32:00::"))
+(InheritanceLink s (WordSenseNode "reassert%2:32:00::"))

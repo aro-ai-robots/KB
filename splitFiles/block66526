@@ -1,0 +1,6 @@
+(define s (WordSenseNode "furlough%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "furlough")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "permit%2:32:00::"))
+(InheritanceLink s (WordSenseNode "allow%2:32:00::"))
+(InheritanceLink s (WordSenseNode "let%2:32:02::"))
+(InheritanceLink s (WordSenseNode "countenance%2:32:00::"))

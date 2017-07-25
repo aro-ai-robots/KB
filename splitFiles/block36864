@@ -1,0 +1,7 @@
+(define s (WordSenseNode "contain%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "incorporate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "include%2:42:00::"))
+(define x (WordNode "contain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "include%2:42:00::"))
+(define x (WordNode "comprise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "include%2:42:00::"))

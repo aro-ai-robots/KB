@@ -1,0 +1,4 @@
+(define s (WordSenseNode "balboa%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "balboa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Panamanian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centesimo%1:23:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "autocatalysis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "autocatalysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "catalysis%1:22:00::"))
+(InheritanceLink s (WordSenseNode "contact_action%1:22:00::"))

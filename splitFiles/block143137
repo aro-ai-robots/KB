@@ -1,0 +1,8 @@
+(define s (WordSenseNode "run%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "run")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_period%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period_of_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period%1:28:00::"))
+(InheritanceLink (WordSenseNode "print_run%1:28:00::") s)
+(InheritanceLink (WordSenseNode "press_run%1:28:00::") s)
+(InheritanceLink (WordSenseNode "run-time%1:28:00::") s)

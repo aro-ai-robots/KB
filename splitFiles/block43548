@@ -1,0 +1,5 @@
+(define s (WordSenseNode "declension%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "declension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflection%1:24:00::"))
+(InheritanceLink s (WordSenseNode "inflexion%1:24:00::"))
+(HolonymLink (WordSenseNode "noun%1:10:01::") s)

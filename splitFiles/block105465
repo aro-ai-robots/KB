@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mesentery%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mesentery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "peritoneum%1:08:00::"))
+(InheritanceLink (WordSenseNode "mesocolon%1:08:00::") s)

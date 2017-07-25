@@ -1,0 +1,5 @@
+(define s (WordSenseNode "beaver_rat%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beaver_rat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water_rat%1:05:00::"))
+(HolonymLink s (WordSenseNode "Hydromys%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Hydromys%1:05:00::"))

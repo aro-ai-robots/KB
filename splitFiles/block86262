@@ -1,0 +1,7 @@
+(define s (WordSenseNode "indian_tapir%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Malayan_tapir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tapir%1:05:00::"))
+(define x (WordNode "Indian_tapir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tapir%1:05:00::"))
+(define x (WordNode "Tapirus_indicus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tapir%1:05:00::"))

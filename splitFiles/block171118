@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tracing%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tracing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discovery%1:04:00::"))
+(InheritanceLink s (WordSenseNode "find%1:04:00::"))
+(InheritanceLink s (WordSenseNode "uncovering%1:04:00::"))

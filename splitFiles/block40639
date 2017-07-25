@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cryocautery%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cryocautery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cautery%1:04:00::"))
+(InheritanceLink s (WordSenseNode "cauterization%1:04:00::"))
+(InheritanceLink s (WordSenseNode "cauterisation%1:04:00::"))

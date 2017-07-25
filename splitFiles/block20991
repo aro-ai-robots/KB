@@ -1,0 +1,3 @@
+(define s (WordSenseNode "brevity%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brevity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "terseness%1:10:00::"))

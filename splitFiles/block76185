@@ -1,0 +1,5 @@
+(define s (WordSenseNode "guadalupe_fur_seal%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "guadalupe_fur_seal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fur_seal%1:05:01::"))
+(define x (WordNode "Arctocephalus_philippi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fur_seal%1:05:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subsidiary%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subsidiary_company")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "company%1:14:01::"))
+(define x (WordNode "subsidiary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "company%1:14:01::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "visual_range%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "visual_range")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "visibility%1:07:00::"))
+(InheritanceLink s (WordSenseNode "visibleness%1:07:00::"))

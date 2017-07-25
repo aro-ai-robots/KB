@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nexus%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "link")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linkage%1:24:00::"))
+(define x (WordNode "nexus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linkage%1:24:00::"))

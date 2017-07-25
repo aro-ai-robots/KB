@@ -1,0 +1,4 @@
+(define s (WordSenseNode "inverted_pleat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inverted_pleat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pleat%1:06:00::"))
+(InheritanceLink s (WordSenseNode "plait%1:06:00::"))

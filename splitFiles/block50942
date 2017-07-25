@@ -1,0 +1,7 @@
+(define s (WordSenseNode "duplicate%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "extra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artifact%1:03:00::"))
+(InheritanceLink s (WordSenseNode "artefact%1:03:00::"))
+(define x (WordNode "duplicate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artifact%1:03:00::"))
+(InheritanceLink s (WordSenseNode "artefact%1:03:00::"))

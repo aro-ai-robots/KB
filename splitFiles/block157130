@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spiral%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spiral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "economic_process%1:22:00::"))
+(InheritanceLink (WordSenseNode "inflationary_spiral%1:22:00::") s)
+(InheritanceLink (WordSenseNode "deflationary_spiral%1:22:00::") s)

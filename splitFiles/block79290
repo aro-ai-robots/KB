@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hedgehog_cactus%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hedgehog_cactus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "echinocactus%1:20:00::"))
+(InheritanceLink s (WordSenseNode "barrel_cactus%1:20:02::"))

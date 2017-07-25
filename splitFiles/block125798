@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pitahaya%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pitahaya")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edible_fruit%1:13:00::"))
+(HolonymLink s (WordSenseNode "pitahaya_cactus%1:20:00::"))
+(HolonymLink s (WordSenseNode "pitahaya%1:20:01::"))
+(HolonymLink s (WordSenseNode "Acanthocereus_tetragonus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Acanthocereus_pentagonus%1:20:00::"))

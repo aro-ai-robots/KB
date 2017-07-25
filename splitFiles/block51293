@@ -1,0 +1,5 @@
+(define s (WordSenseNode "e._coli%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Escherichia_coli")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "escherichia%1:05:00::"))
+(define x (WordNode "E._coli")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "escherichia%1:05:00::"))

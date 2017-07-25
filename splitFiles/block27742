@@ -1,0 +1,7 @@
+(define s (WordSenseNode "centaurea_gymnocarpa%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dusty_miller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centaury%1:20:01::"))
+(define x (WordNode "Centaurea_cineraria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centaury%1:20:01::"))
+(define x (WordNode "Centaurea_gymnocarpa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centaury%1:20:01::"))

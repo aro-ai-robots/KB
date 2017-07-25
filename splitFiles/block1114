@@ -1,0 +1,7 @@
+(define s (WordSenseNode "accordance%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "accordance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "giving%1:04:00::"))
+(InheritanceLink s (WordSenseNode "gift%1:04:00::"))
+(define x (WordNode "accordance_of_rights")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "giving%1:04:00::"))
+(InheritanceLink s (WordSenseNode "gift%1:04:00::"))

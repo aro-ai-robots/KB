@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ice_cube%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ice_cube")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "square_block%1:06:00::"))
+(HolonymLink (WordSenseNode "ice%1:27:00::") s)
+(HolonymLink (WordSenseNode "water_ice%1:27:00::") s)

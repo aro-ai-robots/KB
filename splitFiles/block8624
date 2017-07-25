@@ -1,0 +1,4 @@
+(define s (WordSenseNode "architrave%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "architrave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support%1:06:01::"))
+(HolonymLink s (WordSenseNode "entablature%1:06:00::"))

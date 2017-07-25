@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spot_check%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spot_check")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "check%1:04:05::"))
+(InheritanceLink s (WordSenseNode "checkout%1:04:00::"))
+(InheritanceLink s (WordSenseNode "check-out_procedure%1:04:00::"))

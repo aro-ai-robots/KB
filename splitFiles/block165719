@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tandearil%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oxyphenbutazone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anti-inflammatory%1:06:00::"))
+(InheritanceLink s (WordSenseNode "anti-inflammatory_drug%1:06:00::"))
+(define x (WordNode "Tandearil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anti-inflammatory%1:06:00::"))
+(InheritanceLink s (WordSenseNode "anti-inflammatory_drug%1:06:00::"))

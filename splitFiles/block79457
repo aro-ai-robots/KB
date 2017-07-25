@@ -1,0 +1,5 @@
+(define s (WordSenseNode "heliotherapy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "heliotherapy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "therapy%1:04:00::"))
+(define x (WordNode "insolation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "therapy%1:04:00::"))

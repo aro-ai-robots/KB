@@ -1,0 +1,5 @@
+(define s (WordSenseNode "respect%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "obedience")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "filial_duty%1:04:00::"))
+(define x (WordNode "respect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "filial_duty%1:04:00::"))

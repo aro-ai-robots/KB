@@ -1,0 +1,6 @@
+(define s (WordSenseNode "preamble%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preamble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "introduction%1:10:00::"))
+(HolonymLink s (WordSenseNode "document%1:10:00::"))
+(HolonymLink s (WordSenseNode "written_document%1:10:00::"))
+(HolonymLink s (WordSenseNode "papers%1:10:00::"))

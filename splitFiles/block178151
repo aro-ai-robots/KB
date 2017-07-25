@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vector_sum%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vector_sum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vector%1:09:00::"))
+(define x (WordNode "resultant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vector%1:09:00::"))

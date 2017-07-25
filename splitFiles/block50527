@@ -1,0 +1,6 @@
+(define s (WordSenseNode "dry-wood_termite%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dry-wood_termite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "termite%1:05:00::"))
+(InheritanceLink s (WordSenseNode "white_ant%1:05:00::"))
+(InheritanceLink (WordSenseNode "powder-post_termite%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Cryptotermes_brevis%1:05:00::") s)

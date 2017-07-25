@@ -1,0 +1,5 @@
+(define s (WordSenseNode "feedback%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "feedback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "answer%1:10:01::"))
+(InheritanceLink s (WordSenseNode "reply%1:10:01::"))
+(InheritanceLink s (WordSenseNode "response%1:10:01::"))

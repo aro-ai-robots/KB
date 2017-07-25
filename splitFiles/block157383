@@ -1,0 +1,4 @@
+(define s (WordSenseNode "split-pea%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "split-pea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "green_pea%1:13:00::"))
+(InheritanceLink s (WordSenseNode "garden_pea%1:13:00::"))

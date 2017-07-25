@@ -1,0 +1,4 @@
+(define s (WordSenseNode "arroba%1:23:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arroba")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquid_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "liquid_measure%1:23:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "common_good%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_good")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "good%1:07:00::"))
+(define x (WordNode "commonweal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "good%1:07:00::"))

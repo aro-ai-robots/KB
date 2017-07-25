@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mandatory%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mandatary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recipient%1:18:00::"))
+(InheritanceLink s (WordSenseNode "receiver%1:18:00::"))
+(define x (WordNode "mandatory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recipient%1:18:00::"))
+(InheritanceLink s (WordSenseNode "receiver%1:18:00::"))

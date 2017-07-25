@@ -1,0 +1,4 @@
+(define s (WordSenseNode "agglutinogen%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "agglutinogen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antigen%1:27:00::"))
+(InheritanceLink (WordSenseNode "isoagglutinogen%1:27:00::") s)

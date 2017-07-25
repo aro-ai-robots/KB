@@ -1,0 +1,7 @@
+(define s (WordSenseNode "formula%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recipe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "direction%1:10:02::"))
+(InheritanceLink s (WordSenseNode "instruction%1:10:04::"))
+(define x (WordNode "formula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "direction%1:10:02::"))
+(InheritanceLink s (WordSenseNode "instruction%1:10:04::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "geminate%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pair")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "occur%2:42:03::"))
+(define x (WordNode "geminate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "occur%2:42:03::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "transcendental_number%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transcendental_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "irrational_number%1:23:00::"))
+(InheritanceLink s (WordSenseNode "irrational%1:23:00::"))
+(InheritanceLink (WordSenseNode "pi%1:23:00::") s)
+(InheritanceLink (WordSenseNode "e%1:23:00::") s)

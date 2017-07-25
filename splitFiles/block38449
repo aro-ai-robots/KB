@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cost_ledger%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cost_ledger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ledger%1:21:00::"))
+(InheritanceLink s (WordSenseNode "leger%1:21:00::"))
+(InheritanceLink s (WordSenseNode "account_book%1:21:00::"))
+(InheritanceLink s (WordSenseNode "book_of_account%1:21:00::"))
+(InheritanceLink s (WordSenseNode "book%1:21:00::"))

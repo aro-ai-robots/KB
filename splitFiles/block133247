@@ -1,0 +1,5 @@
+(define s (WordSenseNode "purgatory%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purgatory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imaginary_place%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mythical_place%1:09:00::"))
+(InheritanceLink s (WordSenseNode "fictitious_place%1:09:00::"))

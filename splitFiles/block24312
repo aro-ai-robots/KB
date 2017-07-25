@@ -1,0 +1,7 @@
+(define s (WordSenseNode "calyx_tube%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypanthium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_organ%1:20:00::"))
+(define x (WordNode "floral_cup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_organ%1:20:00::"))
+(define x (WordNode "calyx_tube")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_organ%1:20:00::"))

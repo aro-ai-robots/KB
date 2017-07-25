@@ -1,0 +1,4 @@
+(define s (WordSenseNode "photomontage%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "photomontage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "montage%1:06:00::"))

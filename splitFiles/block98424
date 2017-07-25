@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lithiasis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lithiasis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pathology%1:26:00::"))
+(InheritanceLink (WordSenseNode "cholelithiasis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "enterolithiasis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "nephrolithiasis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "renal_lithiasis%1:26:00::") s)

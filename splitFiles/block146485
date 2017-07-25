@@ -1,0 +1,5 @@
+(define s (WordSenseNode "scoring_system%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rating_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification_system%1:09:00::"))
+(define x (WordNode "scoring_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification_system%1:09:00::"))

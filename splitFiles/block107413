@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mite_box%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "poor_box")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "box%1:06:00::"))
+(define x (WordNode "alms_box")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "box%1:06:00::"))
+(define x (WordNode "mite_box")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "box%1:06:00::"))

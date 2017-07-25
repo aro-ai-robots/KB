@@ -1,0 +1,7 @@
+(define s (WordSenseNode "metalworking_vise%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "machinist's_vise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vise%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bench_vise%1:06:00::"))
+(define x (WordNode "metalworking_vise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vise%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bench_vise%1:06:00::"))

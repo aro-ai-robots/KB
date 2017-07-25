@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kuchean_dialect%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kuchean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tocharian%1:10:00::"))
+(define x (WordNode "West_Tocharian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tocharian%1:10:00::"))
+(define x (WordNode "Kuchean_dialect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tocharian%1:10:00::"))

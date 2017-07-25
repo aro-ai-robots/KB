@@ -1,0 +1,7 @@
+(define s (WordSenseNode "banneret%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "knight_banneret")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knight%1:18:00::"))
+(define x (WordNode "knight_of_the_square_flag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knight%1:18:00::"))
+(define x (WordNode "banneret")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knight%1:18:00::"))

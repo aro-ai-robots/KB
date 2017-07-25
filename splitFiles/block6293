@@ -1,0 +1,5 @@
+(define s (WordSenseNode "andropogon_virginicus%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "broom_sedge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "broom_grass%1:20:00::"))
+(define x (WordNode "Andropogon_virginicus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "broom_grass%1:20:00::"))

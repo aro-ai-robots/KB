@@ -1,0 +1,5 @@
+(define s (WordSenseNode "yellow_giant_hyssop%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yellow_giant_hyssop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "giant_hyssop%1:20:00::"))
+(define x (WordNode "Agastache_nepetoides")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "giant_hyssop%1:20:00::"))

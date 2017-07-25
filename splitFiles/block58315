@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fall_out%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fall_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quarrel%2:32:00::"))
+(InheritanceLink s (WordSenseNode "dispute%2:32:01::"))
+(InheritanceLink s (WordSenseNode "scrap%2:32:00::"))
+(InheritanceLink s (WordSenseNode "argufy%2:32:00::"))
+(InheritanceLink s (WordSenseNode "altercate%2:32:00::"))

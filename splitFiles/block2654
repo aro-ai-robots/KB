@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aerate%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "air_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expose%2:39:02::"))
+(define x (WordNode "air")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expose%2:39:02::"))
+(define x (WordNode "aerate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expose%2:39:02::"))

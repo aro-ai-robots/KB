@@ -1,0 +1,7 @@
+(define s (WordSenseNode "castrate%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eunuch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "man%1:18:00::"))
+(InheritanceLink s (WordSenseNode "adult_male%1:18:00::"))
+(define x (WordNode "castrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "man%1:18:00::"))
+(InheritanceLink s (WordSenseNode "adult_male%1:18:00::"))

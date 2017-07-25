@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rotc%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Reserve_Officers_Training_Corps")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corps%1:14:00::"))
+(InheritanceLink s (WordSenseNode "army_corps%1:14:00::"))
+(define x (WordNode "ROTC")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corps%1:14:00::"))
+(InheritanceLink s (WordSenseNode "army_corps%1:14:00::"))

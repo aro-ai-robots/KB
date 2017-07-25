@@ -1,0 +1,7 @@
+(define s (WordSenseNode "joystick%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lever%1:06:00::"))
+(define x (WordNode "control_stick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lever%1:06:00::"))
+(define x (WordNode "joystick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lever%1:06:00::"))

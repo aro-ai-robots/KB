@@ -1,0 +1,5 @@
+(define s (WordSenseNode "humectant%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "humectant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:01::"))
+(InheritanceLink (WordSenseNode "propylene_glycol%1:27:00::") s)
+(InheritanceLink (WordSenseNode "propanediol%1:27:00::") s)

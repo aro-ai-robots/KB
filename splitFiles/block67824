@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gecko%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gecko")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lizard%1:05:00::"))
+(InheritanceLink (WordSenseNode "flying_gecko%1:05:00::") s)
+(InheritanceLink (WordSenseNode "fringed_gecko%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Ptychozoon_homalocephalum%1:05:00::") s)
+(InheritanceLink (WordSenseNode "banded_gecko%1:05:00::") s)

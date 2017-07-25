@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sumac%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sumac")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wood%1:27:00::"))
+(HolonymLink s (WordSenseNode "sumac%1:20:00::"))
+(HolonymLink s (WordSenseNode "sumach%1:20:00::"))
+(HolonymLink s (WordSenseNode "shumac%1:20:00::"))

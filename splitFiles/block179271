@@ -1,0 +1,5 @@
+(define s (WordSenseNode "viking%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Viking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Scandinavian%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Norse%1:18:02::"))
+(InheritanceLink s (WordSenseNode "Northman%1:18:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "divisor%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "divisor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:23:00::"))
+(InheritanceLink (WordSenseNode "denominator%1:23:00::") s)
+(InheritanceLink (WordSenseNode "aliquot%1:23:00::") s)
+(InheritanceLink (WordSenseNode "aliquot_part%1:23:00::") s)
+(InheritanceLink (WordSenseNode "aliquant%1:23:00::") s)
+(InheritanceLink (WordSenseNode "aliquant_part%1:23:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fecal_impaction%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fecal_impaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constipation%1:26:00::"))
+(InheritanceLink s (WordSenseNode "irregularity%1:26:00::"))

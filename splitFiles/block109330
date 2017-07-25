@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mouse_click%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "click")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "depression%1:04:01::"))
+(define x (WordNode "mouse_click")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "depression%1:04:01::"))

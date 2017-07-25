@@ -1,0 +1,5 @@
+(define s (WordSenseNode "passive_matrix_display%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "passive_matrix_display")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquid_crystal_display%1:06:00::"))
+(InheritanceLink s (WordSenseNode "LCD%1:06:00::"))
+(InheritanceLink (WordSenseNode "dual_scan_display%1:06:00::") s)

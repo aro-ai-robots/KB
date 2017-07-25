@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cast%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "draw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:33:00::"))
+(InheritanceLink s (WordSenseNode "go%2:33:00::"))
+(define x (WordNode "cast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:33:00::"))
+(InheritanceLink s (WordSenseNode "go%2:33:00::"))

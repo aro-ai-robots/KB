@@ -1,0 +1,7 @@
+(define s (WordSenseNode "microflora%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "microflora")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant%1:03:00::"))
+(InheritanceLink s (WordSenseNode "flora%1:03:00::"))
+(InheritanceLink s (WordSenseNode "plant_life%1:03:00::"))
+(InheritanceLink s (WordSenseNode "microorganism%1:05:00::"))
+(InheritanceLink s (WordSenseNode "micro-organism%1:05:00::"))

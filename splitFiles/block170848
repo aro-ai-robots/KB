@@ -1,0 +1,7 @@
+(define s (WordSenseNode "touch_system%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "touch_typing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "typing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "typewriting%1:10:00::"))
+(define x (WordNode "touch_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "typing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "typewriting%1:10:00::"))

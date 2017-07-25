@@ -1,0 +1,5 @@
+(define s (WordSenseNode "poitrine_d'agneau%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "breast_of_lamb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut_of_lamb%1:13:00::"))
+(define x (WordNode "poitrine_d'agneau")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut_of_lamb%1:13:00::"))

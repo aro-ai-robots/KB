@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scsi%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "small_computer_system_interface")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interface%1:06:01::"))
+(InheritanceLink s (WordSenseNode "port%1:06:01::"))
+(define x (WordNode "SCSI")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interface%1:06:01::"))
+(InheritanceLink s (WordSenseNode "port%1:06:01::"))

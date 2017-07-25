@@ -1,0 +1,7 @@
+(define s (WordSenseNode "prix_fixe%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prix_fixe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "menu%1:10:00::"))
+(InheritanceLink s (WordSenseNode "bill_of_fare%1:10:00::"))
+(InheritanceLink s (WordSenseNode "card%1:10:05::"))
+(InheritanceLink s (WordSenseNode "carte_du_jour%1:10:00::"))
+(InheritanceLink s (WordSenseNode "carte%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "plug%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fireplug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrant%1:06:00::"))
+(define x (WordNode "fire_hydrant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrant%1:06:00::"))
+(define x (WordNode "plug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrant%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "open-heart_surgery%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "open-heart_surgery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heart_surgery%1:04:00::"))
+(InheritanceLink (WordSenseNode "coronary_bypass%1:04:00::") s)
+(InheritanceLink (WordSenseNode "coronary_bypass_surgery%1:04:00::") s)
+(InheritanceLink (WordSenseNode "coronary_artery_bypass_graft%1:04:00::") s)
+(InheritanceLink (WordSenseNode "CABG%1:04:00::") s)

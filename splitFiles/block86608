@@ -1,0 +1,4 @@
+(define s (WordSenseNode "inertia%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inertia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "moment_of_inertia%1:19:00::") s)

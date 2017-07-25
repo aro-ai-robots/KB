@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anaphora%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epanaphora")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repetition%1:10:00::"))
+(define x (WordNode "anaphora")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repetition%1:10:00::"))

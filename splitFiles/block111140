@@ -1,0 +1,7 @@
+(define s (WordSenseNode "narrow_margin%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "narrow_margin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "margin%1:07:00::"))
+(define x (WordNode "narrowness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "margin%1:07:00::"))
+(define x (WordNode "slimness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "margin%1:07:00::"))

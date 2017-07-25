@@ -1,0 +1,6 @@
+(define s (WordSenseNode "give%2:40:12::")) (PartOfSpeechLink s verb)
+(define x (WordNode "give")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compensate%2:40:01::"))
+(InheritanceLink s (WordSenseNode "recompense%2:40:01::"))
+(InheritanceLink s (WordSenseNode "repair%2:40:00::"))
+(InheritanceLink s (WordSenseNode "indemnify%2:40:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "toponomy%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toponymy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lexicology%1:09:00::"))
+(define x (WordNode "toponomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lexicology%1:09:00::"))

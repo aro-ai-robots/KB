@@ -1,0 +1,4 @@
+(define s (WordSenseNode "a.k.a.%4:02:00::")) (PartOfSpeechLink s adv)
+(define x (WordNode "alias")) (WordSenseLink x s)
+(define x (WordNode "a.k.a.")) (WordSenseLink x s)
+(define x (WordNode "also_known_as")) (WordSenseLink x s)

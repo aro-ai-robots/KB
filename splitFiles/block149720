@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shallu%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shallu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grain_sorghum%1:20:00::"))
+(define x (WordNode "Sorghum_vulgare_rosburghii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grain_sorghum%1:20:00::"))

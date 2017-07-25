@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cupper%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cuppa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tea%1:13:00::"))
+(define x (WordNode "cupper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tea%1:13:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dredge%2:35:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dredge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coat%2:35:00::"))
+(InheritanceLink s (WordSenseNode "surface%2:35:00::"))
+(InheritanceLink (WordSenseNode "flour%2:35:00::") s)

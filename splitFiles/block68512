@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_appendicularia%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Appendicularia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chordate_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Larvacea%1:05:00::"))
+(HolonymLink s (WordSenseNode "class_Larvacea%1:05:00::"))
+(HolonymLink (WordSenseNode "appendicularia%1:05:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fairway%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fairway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "site%1:15:00::"))
+(InheritanceLink s (WordSenseNode "land_site%1:15:00::"))
+(HolonymLink s (WordSenseNode "golf_course%1:06:00::"))
+(HolonymLink s (WordSenseNode "links_course%1:06:00::"))
+(HolonymLink (WordSenseNode "apron%1:15:00::") s)

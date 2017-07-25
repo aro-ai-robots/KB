@@ -1,0 +1,5 @@
+(define s (WordSenseNode "green_party%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Green_Party")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "party%1:14:01::"))
+(InheritanceLink s (WordSenseNode "political_party%1:14:00::"))
+(HolonymLink (WordSenseNode "Green%1:18:00::") s)

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "airbus%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "airbus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "airliner%1:06:00::"))

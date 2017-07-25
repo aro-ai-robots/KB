@@ -1,0 +1,8 @@
+(define s (WordSenseNode "conning_tower%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conning_tower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bridge%1:06:01::"))
+(InheritanceLink s (WordSenseNode "bridge_deck%1:06:00::"))
+(HolonymLink s (WordSenseNode "submarine%1:06:00::"))
+(HolonymLink s (WordSenseNode "pigboat%1:06:00::"))
+(HolonymLink s (WordSenseNode "sub%1:06:00::"))
+(HolonymLink s (WordSenseNode "U-boat%1:06:00::"))

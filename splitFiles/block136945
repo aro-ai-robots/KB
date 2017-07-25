@@ -1,0 +1,6 @@
+(define s (WordSenseNode "recount%2:32:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "recount")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "count%2:32:00::"))
+(InheritanceLink s (WordSenseNode "number%2:32:00::"))
+(InheritanceLink s (WordSenseNode "enumerate%2:32:01::"))
+(InheritanceLink s (WordSenseNode "numerate%2:32:00::"))

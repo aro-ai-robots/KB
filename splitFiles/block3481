@@ -1,0 +1,8 @@
+(define s (WordSenseNode "air-drop%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "air-drop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drop%2:35:00::"))
+(InheritanceLink s (WordSenseNode "drop_off%2:35:00::"))
+(InheritanceLink s (WordSenseNode "set_down%2:35:00::"))
+(InheritanceLink s (WordSenseNode "put_down%2:35:01::"))
+(InheritanceLink s (WordSenseNode "unload%2:35:02::"))
+(InheritanceLink s (WordSenseNode "discharge%2:35:06::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reinforced_concrete%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reinforced_concrete")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concrete%1:27:00::"))
+(define x (WordNode "ferroconcrete")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concrete%1:27:00::"))

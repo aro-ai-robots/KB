@@ -1,0 +1,5 @@
+(define s (WordSenseNode "retreat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hideaway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:06:00::"))
+(define x (WordNode "retreat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:06:00::"))

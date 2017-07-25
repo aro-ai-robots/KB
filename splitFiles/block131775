@@ -1,0 +1,5 @@
+(define s (WordSenseNode "proscenium_arch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "proscenium_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arch%1:06:00::"))
+(HolonymLink s (WordSenseNode "proscenium%1:06:00::"))
+(HolonymLink s (WordSenseNode "proscenium_wall%1:06:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "connect%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "connect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "join%2:35:01::"))
+(InheritanceLink s (WordSenseNode "bring_together%2:35:01::"))

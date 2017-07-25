@@ -1,0 +1,4 @@
+(define s (WordSenseNode "operating_capital%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "operating_capital")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capital%1:21:01::"))
+(InheritanceLink s (WordSenseNode "working_capital%1:21:00::"))

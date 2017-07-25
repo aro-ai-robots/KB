@@ -1,0 +1,6 @@
+(define s (WordSenseNode "aberrate%2:42:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "aberrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deviate%2:42:00::"))
+(InheritanceLink s (WordSenseNode "vary%2:42:00::"))
+(InheritanceLink s (WordSenseNode "diverge%2:42:01::"))
+(InheritanceLink s (WordSenseNode "depart%2:42:00::"))

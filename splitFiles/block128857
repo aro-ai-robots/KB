@@ -1,0 +1,7 @@
+(define s (WordSenseNode "postdoctoral%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "postdoctoral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grant-in-aid%1:21:00::"))
+(define x (WordNode "postdoc")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grant-in-aid%1:21:00::"))
+(define x (WordNode "post_doc")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grant-in-aid%1:21:00::"))

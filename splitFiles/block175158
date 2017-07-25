@@ -1,0 +1,5 @@
+(define s (WordSenseNode "undercarriage%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "undercarriage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))
+(InheritanceLink s (WordSenseNode "support%1:06:00::"))
+(InheritanceLink (WordSenseNode "landing_gear%1:06:00::") s)

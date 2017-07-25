@@ -1,0 +1,6 @@
+(define s (WordSenseNode "muddy%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "muddy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confuse%2:31:01::"))
+(InheritanceLink s (WordSenseNode "blur%2:31:00::"))
+(InheritanceLink s (WordSenseNode "obscure%2:31:00::"))
+(InheritanceLink s (WordSenseNode "obnubilate%2:31:00::"))

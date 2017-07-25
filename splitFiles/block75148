@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gray_area%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grey_area")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:09:00::"))
+(define x (WordNode "gray_area")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:09:00::"))

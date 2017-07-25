@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sucker_punch%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sucker_punch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punch%1:04:00::"))
+(InheritanceLink s (WordSenseNode "clout%1:04:00::"))
+(InheritanceLink s (WordSenseNode "poke%1:04:00::"))
+(InheritanceLink s (WordSenseNode "lick%1:04:01::"))
+(InheritanceLink s (WordSenseNode "biff%1:04:00::"))
+(InheritanceLink s (WordSenseNode "slug%1:04:00::"))

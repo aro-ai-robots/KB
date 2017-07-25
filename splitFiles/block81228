@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hohenzollern_empire%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Hohenzollern_empire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Reich%1:14:00::"))
+(define x (WordNode "Second_Reich")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Reich%1:14:00::"))

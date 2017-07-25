@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flyer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "traveler%1:18:00::"))
+(InheritanceLink s (WordSenseNode "traveller%1:18:00::"))
+(define x (WordNode "flyer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "traveler%1:18:00::"))
+(InheritanceLink s (WordSenseNode "traveller%1:18:00::"))

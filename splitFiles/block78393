@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hashimoto's_disease%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Hashimoto's_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "autoimmune_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "autoimmune_disorder%1:26:00::"))

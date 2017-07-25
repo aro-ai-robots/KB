@@ -1,0 +1,8 @@
+(define s (WordSenseNode "one-and-one%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "one-and-one")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foul_shot%1:04:00::"))
+(InheritanceLink s (WordSenseNode "free_throw%1:04:00::"))
+(InheritanceLink s (WordSenseNode "penalty_free_throw%1:04:00::"))
+(InheritanceLink s (WordSenseNode "charity_toss%1:04:00::"))
+(InheritanceLink s (WordSenseNode "charity_throw%1:04:00::"))
+(InheritanceLink s (WordSenseNode "charity_shot%1:04:00::"))

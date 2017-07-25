@@ -1,0 +1,4 @@
+(define s (WordSenseNode "day_return%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "day_return")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "round-trip_ticket%1:10:00::"))
+(InheritanceLink s (WordSenseNode "return_ticket%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "misperceive%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "misperceive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perceive%2:39:00::"))
+(InheritanceLink s (WordSenseNode "comprehend%2:39:00::"))
+(InheritanceLink (WordSenseNode "see_double%2:39:00::") s)

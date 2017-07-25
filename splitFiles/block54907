@@ -1,0 +1,4 @@
+(define s (WordSenseNode "epitaph%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epitaph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inscription%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lettering%1:10:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "surgical_contraception%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "surgical_contraception")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sterilization%1:04:00::"))
+(InheritanceLink s (WordSenseNode "sterilisation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "contraception%1:04:00::"))
+(InheritanceLink s (WordSenseNode "contraceptive_method%1:04:00::"))
+(InheritanceLink (WordSenseNode "tubal_ligation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "vasectomy%1:04:00::") s)

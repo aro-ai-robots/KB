@@ -1,0 +1,5 @@
+(define s (WordSenseNode "arnica%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arnica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "herb%1:20:00::"))
+(InheritanceLink s (WordSenseNode "herbaceous_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Arnica%1:20:00::"))

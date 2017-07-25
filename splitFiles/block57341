@@ -1,0 +1,5 @@
+(define s (WordSenseNode "express%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "express")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_transport%1:06:00::"))
+(define x (WordNode "limited")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_transport%1:06:00::"))

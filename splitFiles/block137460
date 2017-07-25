@@ -1,0 +1,4 @@
+(define s (WordSenseNode "reecho%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reecho")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repeat%2:32:01::"))
+(InheritanceLink s (WordSenseNode "echo%2:32:00::"))

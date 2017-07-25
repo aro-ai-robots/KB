@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quarter%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "draw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))
+(define x (WordNode "quarter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))
+(define x (WordNode "draw_and_quarter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))

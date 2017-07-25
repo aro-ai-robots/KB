@@ -1,0 +1,7 @@
+(define s (WordSenseNode "catastrophe%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "catastrophe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geological_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "nuclear_winter%1:19:00::") s)
+(define x (WordNode "cataclysm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geological_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "nuclear_winter%1:19:00::") s)

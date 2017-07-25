@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grave%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sculpt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carve%2:35:01::"))
+(define x (WordNode "sculpture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carve%2:35:01::"))
+(define x (WordNode "grave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carve%2:35:01::"))

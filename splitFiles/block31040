@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ciliary_body%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ciliary_body")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "membrane%1:08:00::"))
+(InheritanceLink s (WordSenseNode "tissue_layer%1:08:00::"))
+(HolonymLink s (WordSenseNode "eye%1:08:00::"))
+(HolonymLink s (WordSenseNode "oculus%1:08:00::"))
+(HolonymLink s (WordSenseNode "optic%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "serpent-worship%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ophiolatry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zoolatry%1:04:00::"))
+(InheritanceLink s (WordSenseNode "animal-worship%1:04:00::"))
+(define x (WordNode "serpent-worship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zoolatry%1:04:00::"))
+(InheritanceLink s (WordSenseNode "animal-worship%1:04:00::"))

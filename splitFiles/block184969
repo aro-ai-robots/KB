@@ -1,0 +1,6 @@
+(define s (WordSenseNode "worship%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "worship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attend%2:42:00::"))
+(InheritanceLink s (WordSenseNode "go_to%2:42:00::"))
+(InheritanceLink (WordSenseNode "offer%2:42:00::") s)
+(InheritanceLink (WordSenseNode "offer_up%2:42:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "formaldehyde%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "formaldehyde")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aldehyde%1:27:00::"))
+(InheritanceLink s (WordSenseNode "gas%1:27:00::"))
+(define x (WordNode "methanal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aldehyde%1:27:00::"))
+(InheritanceLink s (WordSenseNode "gas%1:27:00::"))

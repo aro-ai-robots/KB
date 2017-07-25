@@ -1,0 +1,8 @@
+(define s (WordSenseNode "spelling%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spelling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orthography%1:10:00::"))
+(InheritanceLink s (WordSenseNode "writing_system%1:10:00::"))
+(InheritanceLink (WordSenseNode "misspelling%1:10:00::") s)
+(HolonymLink (WordSenseNode "letter%1:10:01::") s)
+(HolonymLink (WordSenseNode "letter_of_the_alphabet%1:10:00::") s)
+(HolonymLink (WordSenseNode "alphabetic_character%1:10:00::") s)

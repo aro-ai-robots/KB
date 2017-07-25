@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hydrocolloid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hydrocolloid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:01::"))
+(InheritanceLink (WordSenseNode "jello%1:13:00::") s)
+(InheritanceLink (WordSenseNode "Jell-O%1:13:00::") s)

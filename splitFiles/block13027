@@ -1,0 +1,6 @@
+(define s (WordSenseNode "balloon_sail%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "balloon_sail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sail%1:06:00::"))
+(InheritanceLink s (WordSenseNode "canvas%1:06:03::"))
+(InheritanceLink s (WordSenseNode "canvass%1:06:03::"))
+(InheritanceLink s (WordSenseNode "sheet%1:06:04::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rainbow_fish%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "guppy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyprinodont%1:05:00::"))
+(define x (WordNode "rainbow_fish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyprinodont%1:05:00::"))
+(define x (WordNode "Lebistes_reticulatus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyprinodont%1:05:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "crown%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crown")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "top%1:15:01::"))
+(HolonymLink s (WordSenseNode "tooth%1:08:00::"))
+(HolonymLink (WordSenseNode "enamel%1:08:00::") s)
+(HolonymLink (WordSenseNode "tooth_enamel%1:08:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "studio_couch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "studio_couch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "convertible%1:06:01::"))
+(InheritanceLink s (WordSenseNode "sofa_bed%1:06:00::"))
+(define x (WordNode "day_bed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "convertible%1:06:01::"))
+(InheritanceLink s (WordSenseNode "sofa_bed%1:06:00::"))

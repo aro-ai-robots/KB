@@ -1,0 +1,5 @@
+(define s (WordSenseNode "viola_clef%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alto_clef")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clef%1:10:00::"))
+(define x (WordNode "viola_clef")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clef%1:10:00::"))

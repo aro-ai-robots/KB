@@ -1,0 +1,5 @@
+(define s (WordSenseNode "elastosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elastosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "physiological_state%1:26:00::"))
+(InheritanceLink s (WordSenseNode "physiological_condition%1:26:00::"))

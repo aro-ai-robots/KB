@@ -1,0 +1,7 @@
+(define s (WordSenseNode "measuring_worm%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "measuring_worm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caterpillar%1:05:00::"))
+(define x (WordNode "inchworm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caterpillar%1:05:00::"))
+(define x (WordNode "looper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caterpillar%1:05:00::"))

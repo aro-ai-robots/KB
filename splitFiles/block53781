@@ -1,0 +1,8 @@
+(define s (WordSenseNode "encourage%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "encourage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "induce%2:32:00::"))
+(InheritanceLink s (WordSenseNode "stimulate%2:32:01::"))
+(InheritanceLink s (WordSenseNode "cause%2:32:00::"))
+(InheritanceLink s (WordSenseNode "have%2:32:00::"))
+(InheritanceLink s (WordSenseNode "get%2:32:00::"))
+(InheritanceLink s (WordSenseNode "make%2:32:00::"))

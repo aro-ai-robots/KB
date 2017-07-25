@@ -1,0 +1,5 @@
+(define s (WordSenseNode "screen_saver%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "screen_saver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "design%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pattern%1:06:00::"))
+(InheritanceLink s (WordSenseNode "figure%1:06:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "planchet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "planchet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disk%1:06:00::"))
+(InheritanceLink s (WordSenseNode "disc%1:06:00::"))
+(define x (WordNode "coin_blank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disk%1:06:00::"))
+(InheritanceLink s (WordSenseNode "disc%1:06:00::"))

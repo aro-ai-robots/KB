@@ -1,0 +1,7 @@
+(define s (WordSenseNode "luncheon_voucher%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "meal_ticket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coupon%1:10:00::"))
+(InheritanceLink s (WordSenseNode "voucher%1:10:00::"))
+(define x (WordNode "luncheon_voucher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coupon%1:10:00::"))
+(InheritanceLink s (WordSenseNode "voucher%1:10:00::"))

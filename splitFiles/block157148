@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spire%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "steeple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tower%1:06:00::"))
+(InheritanceLink (WordSenseNode "pinnacle%1:06:00::") s)
+(define x (WordNode "spire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tower%1:06:00::"))
+(InheritanceLink (WordSenseNode "pinnacle%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cystocele%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cystocele")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colpocele%1:26:00::"))
+(InheritanceLink s (WordSenseNode "vaginocele%1:26:00::"))
+(define x (WordNode "colpocystocele")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colpocele%1:26:00::"))
+(InheritanceLink s (WordSenseNode "vaginocele%1:26:00::"))

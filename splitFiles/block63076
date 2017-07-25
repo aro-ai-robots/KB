@@ -1,0 +1,4 @@
+(define s (WordSenseNode "float%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "float")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "display%1:06:00::"))
+(InheritanceLink s (WordSenseNode "presentation%1:06:00::"))

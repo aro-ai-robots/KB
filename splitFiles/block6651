@@ -1,0 +1,7 @@
+(define s (WordSenseNode "animalcule%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "animalcule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organism%1:03:00::"))
+(InheritanceLink s (WordSenseNode "being%1:03:00::"))
+(define x (WordNode "animalculum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organism%1:03:00::"))
+(InheritanceLink s (WordSenseNode "being%1:03:00::"))

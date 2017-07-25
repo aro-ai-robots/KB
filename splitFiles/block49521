@@ -1,0 +1,3 @@
+(define s (WordSenseNode "downstroke%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "downstroke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stroke%1:10:01::"))

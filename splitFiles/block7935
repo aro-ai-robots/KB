@@ -1,0 +1,8 @@
+(define s (WordSenseNode "appearance%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "appearance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arrival%1:04:01::"))
+(InheritanceLink (WordSenseNode "apparition%1:04:00::") s)
+(InheritanceLink (WordSenseNode "emergence%1:04:01::") s)
+(InheritanceLink (WordSenseNode "emersion%1:04:01::") s)
+(InheritanceLink (WordSenseNode "reappearance%1:04:00::") s)
+(InheritanceLink (WordSenseNode "return%1:04:07::") s)

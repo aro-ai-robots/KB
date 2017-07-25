@@ -1,0 +1,6 @@
+(define s (WordSenseNode "uranyl_oxalate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "uranyl_oxalate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxalate%1:27:00::"))
+(HolonymLink (WordSenseNode "uranyl%1:27:00::") s)
+(HolonymLink (WordSenseNode "uranyl_group%1:27:00::") s)
+(HolonymLink (WordSenseNode "uranyl_radical%1:27:00::") s)

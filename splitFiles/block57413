@@ -1,0 +1,6 @@
+(define s (WordSenseNode "extend%2:30:15::")) (PartOfSpeechLink s verb)
+(define x (WordNode "extend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prolong%2:30:00::"))
+(InheritanceLink s (WordSenseNode "protract%2:30:00::"))
+(InheritanceLink s (WordSenseNode "extend%2:30:02::"))
+(InheritanceLink s (WordSenseNode "draw_out%2:30:00::"))

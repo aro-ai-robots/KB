@@ -1,0 +1,7 @@
+(define s (WordSenseNode "yodel%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "yodel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sing%2:36:00::"))
+(define x (WordNode "warble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sing%2:36:00::"))
+(define x (WordNode "descant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sing%2:36:00::"))

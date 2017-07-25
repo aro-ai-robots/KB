@@ -1,0 +1,7 @@
+(define s (WordSenseNode "communion_table%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "altar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:06:01::"))
+(define x (WordNode "communion_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:06:01::"))
+(define x (WordNode "Lord's_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:06:01::"))

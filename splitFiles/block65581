@@ -1,0 +1,7 @@
+(define s (WordSenseNode "french_polish%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "French_polish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shellac%1:06:01::"))
+(InheritanceLink s (WordSenseNode "shellac_varnish%1:06:00::"))
+(define x (WordNode "French_polish_shellac")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shellac%1:06:01::"))
+(InheritanceLink s (WordSenseNode "shellac_varnish%1:06:00::"))

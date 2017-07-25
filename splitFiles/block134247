@@ -1,0 +1,5 @@
+(define s (WordSenseNode "quatrain%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quatrain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stanza%1:10:00::"))
+(InheritanceLink (WordSenseNode "elegiac_stanza%1:10:00::") s)
+(InheritanceLink (WordSenseNode "heroic_stanza%1:10:00::") s)

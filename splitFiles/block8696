@@ -1,0 +1,5 @@
+(define s (WordSenseNode "arcus_senilis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arcus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cornea%1:08:00::"))
+(define x (WordNode "arcus_senilis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cornea%1:08:00::"))

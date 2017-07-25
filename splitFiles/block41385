@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cusk%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cusk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saltwater_fish%1:13:00::"))
+(HolonymLink s (WordSenseNode "cusk%1:05:01::"))
+(HolonymLink s (WordSenseNode "torsk%1:05:00::"))
+(HolonymLink s (WordSenseNode "Brosme_brosme%1:05:00::"))

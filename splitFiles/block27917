@@ -1,0 +1,5 @@
+(define s (WordSenseNode "centrex%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "centrex")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "central%1:06:00::"))
+(InheritanceLink s (WordSenseNode "telephone_exchange%1:06:00::"))
+(InheritanceLink s (WordSenseNode "exchange%1:06:01::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "wisdom_tooth%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wisdom_tooth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "molar%1:08:00::"))
+(InheritanceLink s (WordSenseNode "grinder%1:08:00::"))

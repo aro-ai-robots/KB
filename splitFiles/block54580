@@ -1,0 +1,6 @@
+(define s (WordSenseNode "enucleate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "enucleate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "remove%2:30:00::"))
+(InheritanceLink s (WordSenseNode "take%2:30:00::"))
+(InheritanceLink s (WordSenseNode "take_away%2:30:01::"))
+(InheritanceLink s (WordSenseNode "withdraw%2:30:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "apostelic_father%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Apostle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Christian%1:18:00::"))
+(define x (WordNode "Apostelic_Father")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Christian%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shearwater%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shearwater")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "petrel%1:05:00::"))
+(InheritanceLink (WordSenseNode "Manx_shearwater%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Puffinus_puffinus%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Puffinus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Puffinus%1:05:00::"))

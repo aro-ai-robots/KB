@@ -1,0 +1,7 @@
+(define s (WordSenseNode "major_mode%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "major_key")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "key%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tonality%1:10:00::"))
+(define x (WordNode "major_mode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "key%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tonality%1:10:00::"))

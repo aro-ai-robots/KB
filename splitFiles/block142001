@@ -1,0 +1,8 @@
+(define s (WordSenseNode "roman_deity%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Roman_deity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deity%1:18:00::"))
+(InheritanceLink s (WordSenseNode "divinity%1:18:00::"))
+(InheritanceLink s (WordSenseNode "god%1:18:01::"))
+(InheritanceLink s (WordSenseNode "immortal%1:18:00::"))
+(InheritanceLink (WordSenseNode "faun%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Parcae%1:18:00::") s)

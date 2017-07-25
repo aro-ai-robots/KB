@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fixative%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fixative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fixing_agent%1:27:00::"))
+(InheritanceLink s (WordSenseNode "fixer%1:27:00::"))

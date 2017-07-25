@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cystoparalysis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cystoplegia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paralysis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "palsy%1:26:00::"))
+(define x (WordNode "cystoparalysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paralysis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "palsy%1:26:00::"))

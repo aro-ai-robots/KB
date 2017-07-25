@@ -1,0 +1,5 @@
+(define s (WordSenseNode "microphone_boom%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pole%1:06:00::"))
+(define x (WordNode "microphone_boom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pole%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "heed%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "heed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obey%2:41:00::"))
+(define x (WordNode "mind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obey%2:41:00::"))
+(define x (WordNode "listen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obey%2:41:00::"))

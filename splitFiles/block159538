@@ -1,0 +1,4 @@
+(define s (WordSenseNode "stencil%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stencil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sheet%1:06:03::"))
+(InheritanceLink s (WordSenseNode "flat_solid%1:06:00::"))

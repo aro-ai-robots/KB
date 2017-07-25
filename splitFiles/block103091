@@ -1,0 +1,5 @@
+(define s (WordSenseNode "marlstone%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "marlite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metamorphic_rock%1:27:00::"))
+(define x (WordNode "marlstone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metamorphic_rock%1:27:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nonattendance%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nonattendance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "group_action%1:04:00::"))
+(InheritanceLink (WordSenseNode "nonappearance%1:04:00::") s)
+(InheritanceLink (WordSenseNode "absence%1:04:00::") s)
+(InheritanceLink (WordSenseNode "truancy%1:04:00::") s)
+(InheritanceLink (WordSenseNode "hooky%1:04:00::") s)

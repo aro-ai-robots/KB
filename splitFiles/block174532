@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ulcer_diet%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bland_diet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diet%1:13:00::"))
+(define x (WordNode "ulcer_diet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diet%1:13:00::"))

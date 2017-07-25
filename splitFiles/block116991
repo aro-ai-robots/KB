@@ -1,0 +1,5 @@
+(define s (WordSenseNode "oration%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oratory%1:10:00::"))
+(InheritanceLink (WordSenseNode "peroration%1:10:01::") s)
+(HolonymLink (WordSenseNode "peroration%1:10:00::") s)

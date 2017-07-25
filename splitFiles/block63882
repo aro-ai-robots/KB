@@ -1,0 +1,7 @@
+(define s (WordSenseNode "follow-up%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "follow-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%1:06:00::"))
+(InheritanceLink s (WordSenseNode "piece_of_work%1:06:00::"))
+(define x (WordNode "followup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%1:06:00::"))
+(InheritanceLink s (WordSenseNode "piece_of_work%1:06:00::"))

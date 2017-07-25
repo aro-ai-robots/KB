@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fight%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boxing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "pugilism%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fisticuffs%1:04:00::"))

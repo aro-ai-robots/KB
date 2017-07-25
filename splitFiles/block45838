@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dewey_decimal_classification%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dewey_decimal_classification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification_system%1:09:00::"))
+(define x (WordNode "Dewey_decimal_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification_system%1:09:00::"))
+(define x (WordNode "decimal_system_of_classification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification_system%1:09:00::"))

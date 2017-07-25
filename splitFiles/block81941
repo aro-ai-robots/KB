@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hoodoo%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hoodoo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "priest%1:18:01::"))
+(InheritanceLink s (WordSenseNode "non-Christian_priest%1:18:00::"))
+(InheritanceLink s (WordSenseNode "voodoo%1:09:00::"))
+(InheritanceLink s (WordSenseNode "vodoun%1:09:00::"))
+(InheritanceLink s (WordSenseNode "voodooism%1:09:00::"))
+(InheritanceLink s (WordSenseNode "hoodooism%1:09:00::"))

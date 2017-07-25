@@ -1,0 +1,8 @@
+(define s (WordSenseNode "citron%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "citron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "citrus%1:13:00::"))
+(InheritanceLink s (WordSenseNode "citrus_fruit%1:13:00::"))
+(InheritanceLink s (WordSenseNode "citrous_fruit%1:13:00::"))
+(HolonymLink s (WordSenseNode "citron%1:20:00::"))
+(HolonymLink s (WordSenseNode "citron_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "Citrus_medica%1:20:00::"))

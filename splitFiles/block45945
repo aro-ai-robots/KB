@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dial%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "control%1:06:00::"))
+(InheritanceLink s (WordSenseNode "controller%1:06:00::"))

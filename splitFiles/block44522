@@ -1,0 +1,7 @@
+(define s (WordSenseNode "demonolatry%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diabolatry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))
+(define x (WordNode "demonolatry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))
+(define x (WordNode "devil-worship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "skirt%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "skirt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bound%2:42:00::"))
+(InheritanceLink s (WordSenseNode "border%2:42:00::"))

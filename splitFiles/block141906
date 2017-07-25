@@ -1,0 +1,4 @@
+(define s (WordSenseNode "roll_film%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roll_film")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "film%1:06:01::"))
+(InheritanceLink s (WordSenseNode "photographic_film%1:06:00::"))

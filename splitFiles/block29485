@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chemical_warfare%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chemical_warfare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "war%1:04:00::"))
+(InheritanceLink s (WordSenseNode "warfare%1:04:00::"))
+(define x (WordNode "chemical_operations")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "war%1:04:00::"))
+(InheritanceLink s (WordSenseNode "warfare%1:04:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lac_dye%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lac_dye")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dye%1:27:00::"))
+(InheritanceLink s (WordSenseNode "dyestuff%1:27:00::"))
+(HolonymLink (WordSenseNode "stick_lac%1:27:00::") s)

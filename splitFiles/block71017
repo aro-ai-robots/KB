@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_potamogale%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Potamogale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Potamogalidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Potamogalidae%1:05:00::"))
+(HolonymLink (WordSenseNode "otter_shrew%1:05:00::") s)
+(HolonymLink (WordSenseNode "potamogale%1:05:00::") s)
+(HolonymLink (WordSenseNode "Potamogale_velox%1:05:00::") s)

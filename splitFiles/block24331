@@ -1,0 +1,4 @@
+(define s (WordSenseNode "camber%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "camber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "convex_shape%1:25:00::"))
+(InheritanceLink s (WordSenseNode "convexity%1:25:00::"))

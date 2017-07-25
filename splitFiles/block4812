@@ -1,0 +1,8 @@
+(define s (WordSenseNode "alpha_software%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alpha_software")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "software%1:10:00::"))
+(InheritanceLink s (WordSenseNode "software_program%1:10:00::"))
+(InheritanceLink s (WordSenseNode "computer_software%1:10:00::"))
+(InheritanceLink s (WordSenseNode "software_system%1:10:00::"))
+(InheritanceLink s (WordSenseNode "software_package%1:10:00::"))
+(InheritanceLink s (WordSenseNode "package%1:10:00::"))

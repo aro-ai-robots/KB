@@ -1,0 +1,6 @@
+(define s (WordSenseNode "input_program%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "input_program")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utility_program%1:10:00::"))
+(InheritanceLink s (WordSenseNode "utility%1:10:00::"))
+(InheritanceLink s (WordSenseNode "service_program%1:10:00::"))
+(HolonymLink (WordSenseNode "input_routine%1:10:00::") s)

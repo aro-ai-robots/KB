@@ -1,0 +1,8 @@
+(define s (WordSenseNode "riding_boot%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "riding_boot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boot%1:06:00::"))
+(InheritanceLink (WordSenseNode "jodhpur%1:06:01::") s)
+(InheritanceLink (WordSenseNode "jodhpur_boot%1:06:00::") s)
+(InheritanceLink (WordSenseNode "jodhpur_shoe%1:06:00::") s)
+(HolonymLink s (WordSenseNode "habit%1:06:01::"))
+(HolonymLink s (WordSenseNode "riding_habit%1:06:00::"))

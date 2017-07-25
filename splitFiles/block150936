@@ -1,0 +1,8 @@
+(define s (WordSenseNode "shovel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shovel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand_tool%1:06:00::"))
+(InheritanceLink (WordSenseNode "hand_shovel%1:06:00::") s)
+(InheritanceLink (WordSenseNode "posthole_digger%1:06:00::") s)
+(InheritanceLink (WordSenseNode "post-hole_digger%1:06:00::") s)
+(InheritanceLink (WordSenseNode "scoop%1:06:01::") s)
+(InheritanceLink (WordSenseNode "scoop_shovel%1:06:00::") s)

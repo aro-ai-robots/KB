@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fleming%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Fleming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Belgian%1:18:00::"))
+(HolonymLink s (WordSenseNode "Belgium%1:15:00::"))
+(HolonymLink s (WordSenseNode "Kingdom_of_Belgium%1:15:00::"))
+(HolonymLink s (WordSenseNode "Belgique%1:15:00::"))

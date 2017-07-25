@@ -1,0 +1,5 @@
+(define s (WordSenseNode "old_world_scops_owl%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Old_World_scops_owl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scops_owl%1:05:00::"))
+(define x (WordNode "Otus_scops")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scops_owl%1:05:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "reader%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reader")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "textbook%1:10:00::"))
+(InheritanceLink s (WordSenseNode "text%1:10:02::"))
+(InheritanceLink s (WordSenseNode "text_edition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "schoolbook%1:10:00::"))
+(InheritanceLink s (WordSenseNode "school_text%1:10:00::"))
+(InheritanceLink (WordSenseNode "McGuffey_Eclectic_Readers%1:10:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "absolute%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "absolute")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abstraction%1:09:00::"))
+(InheritanceLink s (WordSenseNode "abstract%1:09:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reform%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reform")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "improvement%1:04:00::"))
+(InheritanceLink (WordSenseNode "land_reform%1:04:00::") s)
+(InheritanceLink (WordSenseNode "moralization%1:04:00::") s)
+(InheritanceLink (WordSenseNode "moralisation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "housecleaning%1:04:01::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "national_censorship%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "national_censorship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "censoring%1:04:01::"))
+(InheritanceLink s (WordSenseNode "censorship%1:04:01::"))
+(InheritanceLink s (WordSenseNode "security_review%1:04:00::"))

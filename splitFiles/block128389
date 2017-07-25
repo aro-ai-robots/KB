@@ -1,0 +1,5 @@
+(define s (WordSenseNode "popularisation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "popularization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interpretation%1:10:00::"))
+(define x (WordNode "popularisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interpretation%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hearing_examiner%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hearing_examiner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "official%1:18:01::"))
+(InheritanceLink s (WordSenseNode "functionary%1:18:00::"))
+(define x (WordNode "hearing_officer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "official%1:18:01::"))
+(InheritanceLink s (WordSenseNode "functionary%1:18:00::"))

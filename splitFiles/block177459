@@ -1,0 +1,5 @@
+(define s (WordSenseNode "uvula%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "uvula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flap%1:08:00::"))
+(HolonymLink s (WordSenseNode "soft_palate%1:08:00::"))
+(HolonymLink s (WordSenseNode "velum%1:08:00::"))

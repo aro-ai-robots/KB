@@ -1,0 +1,7 @@
+(define s (WordSenseNode "block_and_tackle%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "block_and_tackle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hoist%1:06:00::"))
+(HolonymLink (WordSenseNode "pulley%1:06:00::") s)
+(HolonymLink (WordSenseNode "pulley-block%1:06:00::") s)
+(HolonymLink (WordSenseNode "pulley_block%1:06:00::") s)
+(HolonymLink (WordSenseNode "block%1:06:02::") s)

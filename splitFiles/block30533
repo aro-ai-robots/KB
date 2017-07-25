@@ -1,0 +1,5 @@
+(define s (WordSenseNode "choreography%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "choreography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "notation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "notational_system%1:10:00::"))
+(InheritanceLink (WordSenseNode "Labanotation%1:10:00::") s)

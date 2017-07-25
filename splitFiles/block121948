@@ -1,0 +1,5 @@
+(define s (WordSenseNode "peak_season%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "high_season")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "season%1:28:02::"))
+(define x (WordNode "peak_season")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "season%1:28:02::"))

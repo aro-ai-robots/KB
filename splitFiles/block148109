@@ -1,0 +1,7 @@
+(define s (WordSenseNode "self-esteem%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-esteem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pride%1:12:00::"))
+(InheritanceLink s (WordSenseNode "pridefulness%1:12:00::"))
+(define x (WordNode "self-pride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pride%1:12:00::"))
+(InheritanceLink s (WordSenseNode "pridefulness%1:12:00::"))

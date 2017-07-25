@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tribal_society%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tribal_society")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "society%1:14:00::"))
+(InheritanceLink (WordSenseNode "hunting_and_gathering_tribe%1:14:00::") s)
+(InheritanceLink (WordSenseNode "hunting_and_gathering_society%1:14:00::") s)

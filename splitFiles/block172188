@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trend%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "course")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "direction%1:15:00::"))
+(InheritanceLink s (WordSenseNode "way%1:15:00::"))
+(define x (WordNode "trend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "direction%1:15:00::"))
+(InheritanceLink s (WordSenseNode "way%1:15:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "polar_coordinate%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polar_coordinate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coordinate%1:09:00::"))
+(InheritanceLink s (WordSenseNode "co-ordinate%1:09:00::"))

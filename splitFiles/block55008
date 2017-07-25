@@ -1,0 +1,5 @@
+(define s (WordSenseNode "equatorial_current%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "equatorial_current")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ocean_current%1:19:00::"))
+(InheritanceLink (WordSenseNode "North_Equatorial_Current%1:19:00::") s)
+(InheritanceLink (WordSenseNode "South_Equatorial_Current%1:19:00::") s)

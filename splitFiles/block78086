@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hardening%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hardening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_integrity%1:04:00::"))
+(InheritanceLink (WordSenseNode "annealing%1:04:00::") s)
+(InheritanceLink (WordSenseNode "tempering%1:04:00::") s)

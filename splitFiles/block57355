@@ -1,0 +1,7 @@
+(define s (WordSenseNode "express_luxury_liner%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "luxury_liner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liner%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ocean_liner%1:06:00::"))
+(define x (WordNode "express_luxury_liner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liner%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ocean_liner%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "belles_lettres%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "belles-lettres")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_composition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "literary_work%1:10:00::"))
+(define x (WordNode "belles_lettres")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_composition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "literary_work%1:10:00::"))

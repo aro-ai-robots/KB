@@ -1,0 +1,4 @@
+(define s (WordSenseNode "colloquium%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colloquium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conference%1:14:00::"))
+(InheritanceLink (WordSenseNode "research_colloquium%1:14:00::") s)

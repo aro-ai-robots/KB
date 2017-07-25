@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gravida_ii%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "secundigravida")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gravida%1:18:00::"))
+(define x (WordNode "gravida_II")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gravida%1:18:00::"))

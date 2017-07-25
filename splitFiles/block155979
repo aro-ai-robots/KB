@@ -1,0 +1,7 @@
+(define s (WordSenseNode "southern_harebell%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "southern_harebell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "campanula%1:20:00::"))
+(InheritanceLink s (WordSenseNode "bellflower%1:20:00::"))
+(define x (WordNode "Campanula_divaricata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "campanula%1:20:00::"))
+(InheritanceLink s (WordSenseNode "bellflower%1:20:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spongioblastoma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glioblastoma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brain_tumor%1:26:00::"))
+(InheritanceLink s (WordSenseNode "brain_tumour%1:26:00::"))
+(define x (WordNode "spongioblastoma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brain_tumor%1:26:00::"))
+(InheritanceLink s (WordSenseNode "brain_tumour%1:26:00::"))

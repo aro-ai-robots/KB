@@ -1,0 +1,6 @@
+(define s (WordSenseNode "porthole%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "porthole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:00::"))
+(HolonymLink s (WordSenseNode "ship%1:06:00::"))
+(HolonymLink s (WordSenseNode "fuselage%1:06:00::"))
+(HolonymLink (WordSenseNode "deadlight%1:06:00::") s)

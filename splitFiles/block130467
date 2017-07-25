@@ -1,0 +1,5 @@
+(define s (WordSenseNode "price_cut%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "price_cutting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%1:04:05::"))
+(define x (WordNode "price_cut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%1:04:05::"))

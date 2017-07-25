@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blare_out%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "blare_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "announce%2:32:00::"))
+(InheritanceLink s (WordSenseNode "denote%2:32:02::"))
+(define x (WordNode "blat_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "announce%2:32:00::"))
+(InheritanceLink s (WordSenseNode "denote%2:32:02::"))

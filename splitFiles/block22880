@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bush_shrike%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bush_shrike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shrike%1:05:00::"))
+(InheritanceLink (WordSenseNode "black-fronted_bush_shrike%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Chlorophoneus_nigrifrons%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Malaconotinae%1:05:00::"))
+(HolonymLink s (WordSenseNode "subfamily_Malaconotinae%1:05:00::"))

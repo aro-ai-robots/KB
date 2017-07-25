@@ -1,0 +1,5 @@
+(define s (WordSenseNode "phytolacca_acinosa%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Indian_poke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pokeweed%1:20:00::"))
+(define x (WordNode "Phytolacca_acinosa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pokeweed%1:20:00::"))

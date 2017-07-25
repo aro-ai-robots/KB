@@ -1,0 +1,5 @@
+(define s (WordSenseNode "civil_disobedience%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "civil_disobedience")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "direct_action%1:04:00::"))
+(InheritanceLink (WordSenseNode "sit-in%1:04:00::") s)
+(InheritanceLink (WordSenseNode "protest_march%1:04:00::") s)

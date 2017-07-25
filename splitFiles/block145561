@@ -1,0 +1,7 @@
+(define s (WordSenseNode "say_farewell%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "say_farewell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "greet%2:32:00::"))
+(InheritanceLink s (WordSenseNode "recognize%2:32:01::"))
+(InheritanceLink s (WordSenseNode "recognise%2:32:01::"))
+(InheritanceLink (WordSenseNode "dismiss%2:32:01::") s)
+(InheritanceLink (WordSenseNode "usher_out%2:32:00::") s)

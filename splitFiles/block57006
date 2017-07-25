@@ -1,0 +1,5 @@
+(define s (WordSenseNode "exodontics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exodontics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dental_surgery%1:09:00::"))
+(define x (WordNode "exodontia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dental_surgery%1:09:00::"))

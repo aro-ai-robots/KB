@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cosine%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cosine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trigonometric_function%1:24:00::"))
+(InheritanceLink s (WordSenseNode "circular_function%1:24:00::"))
+(define x (WordNode "cos")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trigonometric_function%1:24:00::"))
+(InheritanceLink s (WordSenseNode "circular_function%1:24:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fat_metabolism%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fat_metabolism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metabolism%1:22:00::"))
+(InheritanceLink s (WordSenseNode "metabolic_process%1:22:00::"))

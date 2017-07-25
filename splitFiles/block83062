@@ -1,0 +1,5 @@
+(define s (WordSenseNode "humor%1:08:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "humor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_substance%1:08:00::"))
+(define x (WordNode "humour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_substance%1:08:00::"))

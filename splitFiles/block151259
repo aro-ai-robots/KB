@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sibilate%2:32:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sibilate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utter%2:32:02::"))
+(InheritanceLink s (WordSenseNode "emit%2:32:00::"))
+(InheritanceLink s (WordSenseNode "let_out%2:32:02::"))
+(InheritanceLink s (WordSenseNode "let_loose%2:32:00::"))
+(InheritanceLink (WordSenseNode "assibilate%2:32:00::") s)

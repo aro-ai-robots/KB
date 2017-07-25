@@ -1,0 +1,7 @@
+(define s (WordSenseNode "circumlocution%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circumlocution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evasion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "equivocation%1:10:00::"))
+(define x (WordNode "indirect_expression")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evasion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "equivocation%1:10:00::"))

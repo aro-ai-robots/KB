@@ -1,0 +1,8 @@
+(define s (WordSenseNode "legendary_creature%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "legendary_creature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mythical_monster%1:18:00::"))
+(InheritanceLink s (WordSenseNode "mythical_creature%1:18:00::"))
+(InheritanceLink (WordSenseNode "abominable_snowman%1:18:00::") s)
+(InheritanceLink (WordSenseNode "yeti%1:18:00::") s)
+(InheritanceLink (WordSenseNode "doppelganger%1:18:00::") s)
+(InheritanceLink (WordSenseNode "sea_serpent%1:18:00::") s)

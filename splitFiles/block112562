@@ -1,0 +1,8 @@
+(define s (WordSenseNode "new_world_porcupine%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "New_World_porcupine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "porcupine%1:05:00::"))
+(InheritanceLink s (WordSenseNode "hedgehog%1:05:02::"))
+(InheritanceLink (WordSenseNode "Canada_porcupine%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Erethizon_dorsatum%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Erethizontidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Erethizontidae%1:05:00::"))

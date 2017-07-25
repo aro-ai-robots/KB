@@ -1,0 +1,5 @@
+(define s (WordSenseNode "token%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "token")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disk%1:06:00::"))
+(InheritanceLink s (WordSenseNode "disc%1:06:00::"))
+(InheritanceLink (WordSenseNode "subway_token%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "castor_oil%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "castor_oil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "purgative%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cathartic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "physic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "aperient%1:06:00::"))
+(HolonymLink (WordSenseNode "ricinoleic_acid%1:27:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tabu%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "taboo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inhibition%1:07:00::"))
+(define x (WordNode "tabu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inhibition%1:07:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "georgian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Georgian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Caucasian%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Caucasian_language%1:10:00::"))

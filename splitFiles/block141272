@@ -1,0 +1,7 @@
+(define s (WordSenseNode "riskiness%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "riskiness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "danger%1:26:00::"))
+(InheritanceLink (WordSenseNode "speculativeness%1:26:00::") s)
+(define x (WordNode "peril")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "danger%1:26:00::"))
+(InheritanceLink (WordSenseNode "speculativeness%1:26:00::") s)

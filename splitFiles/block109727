@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mukataa%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mukataa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "headquarters%1:06:01::"))
+(InheritanceLink s (WordSenseNode "central_office%1:06:00::"))
+(InheritanceLink s (WordSenseNode "main_office%1:06:00::"))
+(InheritanceLink s (WordSenseNode "home_office%1:06:00::"))
+(InheritanceLink s (WordSenseNode "home_base%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "modality%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "modality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logical_relation%1:24:00::"))
+(define x (WordNode "mode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "logical_relation%1:24:00::"))

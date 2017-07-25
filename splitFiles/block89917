@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jainist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Jainist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disciple%1:18:00::"))
+(InheritanceLink s (WordSenseNode "adherent%1:18:00::"))
+(HolonymLink s (WordSenseNode "Jainism%1:14:00::"))

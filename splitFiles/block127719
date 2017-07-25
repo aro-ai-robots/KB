@@ -1,0 +1,7 @@
+(define s (WordSenseNode "polish%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formulation%1:27:00::"))
+(InheritanceLink s (WordSenseNode "preparation%1:27:00::"))
+(InheritanceLink (WordSenseNode "shoe_polish%1:27:00::") s)
+(InheritanceLink (WordSenseNode "blacking%1:27:00::") s)
+(InheritanceLink (WordSenseNode "Simoniz%1:27:00::") s)

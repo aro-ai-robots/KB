@@ -1,0 +1,8 @@
+(define s (WordSenseNode "three-day_event%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "three-day_event")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "equestrian_sport%1:04:00::"))
+(HolonymLink (WordSenseNode "dressage%1:04:00::") s)
+(HolonymLink (WordSenseNode "showjumping%1:04:00::") s)
+(HolonymLink (WordSenseNode "stadium_jumping%1:04:00::") s)
+(HolonymLink (WordSenseNode "cross-country_riding%1:04:00::") s)
+(HolonymLink (WordSenseNode "cross-country_jumping%1:04:00::") s)

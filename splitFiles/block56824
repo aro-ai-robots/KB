@@ -1,0 +1,6 @@
+(define s (WordSenseNode "execute%2:41:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "execute")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enforce%2:41:00::"))
+(InheritanceLink s (WordSenseNode "implement%2:41:00::"))
+(InheritanceLink s (WordSenseNode "apply%2:41:06::"))
+(InheritanceLink (WordSenseNode "give%2:41:10::") s)

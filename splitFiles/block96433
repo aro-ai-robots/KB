@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lentil%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lentil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legume%1:20:02::"))
+(HolonymLink s (WordSenseNode "lentil%1:20:00::"))
+(HolonymLink s (WordSenseNode "lentil_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "Lens_culinaris%1:20:00::"))

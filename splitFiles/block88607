@@ -1,0 +1,8 @@
+(define s (WordSenseNode "invention%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "invention")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creating_by_mental_acts%1:04:00::"))
+(InheritanceLink (WordSenseNode "neologism%1:04:00::") s)
+(InheritanceLink (WordSenseNode "neology%1:04:00::") s)
+(InheritanceLink (WordSenseNode "coinage%1:04:02::") s)
+(InheritanceLink (WordSenseNode "devisal%1:04:00::") s)
+(InheritanceLink (WordSenseNode "contrivance%1:04:01::") s)

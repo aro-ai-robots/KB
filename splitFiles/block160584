@@ -1,0 +1,4 @@
+(define s (WordSenseNode "straight_angle%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "straight_angle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angular_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "circumference%1:07:01::"))

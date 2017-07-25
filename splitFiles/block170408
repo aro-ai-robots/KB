@@ -1,0 +1,7 @@
+(define s (WordSenseNode "toon%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cartoon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "short_subject%1:10:00::"))
+(define x (WordNode "animated_cartoon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "short_subject%1:10:00::"))
+(define x (WordNode "toon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "short_subject%1:10:00::"))

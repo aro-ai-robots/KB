@@ -1,0 +1,4 @@
+(define s (WordSenseNode "semidiameter%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "semidiameter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radius%1:07:00::"))
+(InheritanceLink s (WordSenseNode "r%1:07:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "adhesive_bandage%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adhesive_bandage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bandage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "patch%1:06:04::"))
+(InheritanceLink (WordSenseNode "Band_Aid%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Elastoplast%1:06:00::") s)

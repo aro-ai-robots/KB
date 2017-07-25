@@ -1,0 +1,7 @@
+(define s (WordSenseNode "royal_academy%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Royal_Academy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "academy%1:14:02::"))
+(InheritanceLink s (WordSenseNode "honorary_society%1:14:00::"))
+(define x (WordNode "Royal_Academy_of_Arts")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "academy%1:14:02::"))
+(InheritanceLink s (WordSenseNode "honorary_society%1:14:00::"))

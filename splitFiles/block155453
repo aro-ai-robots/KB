@@ -1,0 +1,7 @@
+(define s (WordSenseNode "songbird%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "songbird")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oscine%1:05:00::"))
+(InheritanceLink s (WordSenseNode "oscine_bird%1:05:00::"))
+(define x (WordNode "songster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oscine%1:05:00::"))
+(InheritanceLink s (WordSenseNode "oscine_bird%1:05:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "aphrodisia%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aphrodisia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sexual_desire%1:12:00::"))
+(InheritanceLink s (WordSenseNode "eros%1:12:00::"))
+(InheritanceLink s (WordSenseNode "concupiscence%1:12:00::"))
+(InheritanceLink s (WordSenseNode "physical_attraction%1:12:00::"))

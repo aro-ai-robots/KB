@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cover%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protect%2:33:00::"))
+(InheritanceLink (WordSenseNode "double-team%2:33:00::") s)

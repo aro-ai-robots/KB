@@ -1,0 +1,7 @@
+(define s (WordSenseNode "snap-brim_hat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "snap-brim_hat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hat%1:06:00::"))
+(InheritanceLink s (WordSenseNode "chapeau%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lid%1:06:01::"))
+(InheritanceLink (WordSenseNode "porkpie%1:06:00::") s)
+(InheritanceLink (WordSenseNode "porkpie_hat%1:06:00::") s)

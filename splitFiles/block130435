@@ -1,0 +1,5 @@
+(define s (WordSenseNode "previse%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "forewarn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warn%2:32:00::"))
+(define x (WordNode "previse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warn%2:32:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lateen-rig%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lateen-rig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rig%1:06:01::"))
+(InheritanceLink s (WordSenseNode "rigging%1:06:01::"))
+(HolonymLink s (WordSenseNode "dhow%1:06:00::"))
+(HolonymLink (WordSenseNode "lateen%1:06:00::") s)
+(HolonymLink (WordSenseNode "lateen_sail%1:06:00::") s)

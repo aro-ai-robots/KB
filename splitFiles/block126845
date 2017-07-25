@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plexus_pulmonalis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pulmonary_plexis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_plexus%1:08:00::"))
+(define x (WordNode "plexus_pulmonalis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_plexus%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "identity_operator%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "identity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operator%1:24:00::"))
+(define x (WordNode "identity_element")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operator%1:24:00::"))
+(define x (WordNode "identity_operator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operator%1:24:00::"))

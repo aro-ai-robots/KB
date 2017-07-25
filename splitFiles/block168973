@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thumb%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "finger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%2:35:00::"))
+(define x (WordNode "thumb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%2:35:00::"))

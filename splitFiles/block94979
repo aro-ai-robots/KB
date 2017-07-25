@@ -1,0 +1,7 @@
+(define s (WordSenseNode "laser-assisted_in_situ_keratomileusis%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laser-assisted_in_situ_keratomileusis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eye_operation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "eye_surgery%1:04:00::"))
+(define x (WordNode "LASIK")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eye_operation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "eye_surgery%1:04:00::"))

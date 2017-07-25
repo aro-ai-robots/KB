@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hub-and-spoke%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hub-and-spoke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air_transportation_system%1:06:00::"))
+(define x (WordNode "hub-and-spoke_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air_transportation_system%1:06:00::"))

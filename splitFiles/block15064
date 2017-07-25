@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bedpost%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bedpost")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support%1:06:00::"))
+(HolonymLink s (WordSenseNode "bedstead%1:06:00::"))
+(HolonymLink s (WordSenseNode "bedframe%1:06:00::"))

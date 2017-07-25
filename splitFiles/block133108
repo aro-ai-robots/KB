@@ -1,0 +1,8 @@
+(define s (WordSenseNode "puncture%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "puncture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "activity%1:04:00::"))
+(InheritanceLink (WordSenseNode "centesis%1:04:00::") s)
+(InheritanceLink (WordSenseNode "perforation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "prick%1:04:00::") s)
+(InheritanceLink (WordSenseNode "pricking%1:04:00::") s)
+(InheritanceLink (WordSenseNode "venipuncture%1:04:00::") s)

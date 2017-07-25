@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reprobate%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reprobate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sentence%2:32:00::"))
+(InheritanceLink s (WordSenseNode "condemn%2:32:01::"))
+(InheritanceLink s (WordSenseNode "doom%2:32:00::"))

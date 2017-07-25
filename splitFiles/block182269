@@ -1,0 +1,7 @@
+(define s (WordSenseNode "western_malayo-polynesian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Western_Malayo-Polynesian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Malayo-Polynesian%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Polynesian%1:10:00::"))
+(InheritanceLink (WordSenseNode "Malay%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Philippine%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Filipino%1:10:00::") s)

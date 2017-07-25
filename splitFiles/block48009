@@ -1,0 +1,5 @@
+(define s (WordSenseNode "distance%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "distance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indifference%1:12:00::"))
+(define x (WordNode "aloofness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indifference%1:12:00::"))

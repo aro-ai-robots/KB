@@ -1,0 +1,6 @@
+(define s (WordSenseNode "volcano%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "volcano")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mountain%1:17:00::"))
+(InheritanceLink s (WordSenseNode "mount%1:17:00::"))
+(HolonymLink (WordSenseNode "volcanic_crater%1:17:00::") s)
+(HolonymLink (WordSenseNode "crater%1:17:01::") s)

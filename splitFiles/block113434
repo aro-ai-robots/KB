@@ -1,0 +1,6 @@
+(define s (WordSenseNode "non-euclidean_geometry%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "non-Euclidean_geometry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geometry%1:09:00::"))
+(InheritanceLink (WordSenseNode "hyperbolic_geometry%1:09:00::") s)
+(InheritanceLink (WordSenseNode "elliptic_geometry%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Riemannian_geometry%1:09:00::") s)

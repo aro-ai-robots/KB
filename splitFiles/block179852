@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vivarium%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vivarium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enclosure%1:06:00::"))
+(InheritanceLink (WordSenseNode "aquarium%1:06:00::") s)
+(InheritanceLink (WordSenseNode "fish_tank%1:06:00::") s)
+(InheritanceLink (WordSenseNode "marine_museum%1:06:00::") s)
+(InheritanceLink (WordSenseNode "terrarium%1:06:00::") s)

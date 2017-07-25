@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rotary_converter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "synchronous_converter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_converter%1:06:00::"))
+(define x (WordNode "rotary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_converter%1:06:00::"))
+(define x (WordNode "rotary_converter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_converter%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "entasis%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "entasis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "convex_shape%1:25:00::"))
+(InheritanceLink s (WordSenseNode "convexity%1:25:00::"))
+(HolonymLink s (WordSenseNode "column%1:06:00::"))
+(HolonymLink s (WordSenseNode "pillar%1:06:00::"))

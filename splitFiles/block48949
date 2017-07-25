@@ -1,0 +1,6 @@
+(define s (WordSenseNode "domino%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "domino")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloak%1:06:00::"))
+(HolonymLink s (WordSenseNode "fancy_dress%1:06:00::"))
+(HolonymLink s (WordSenseNode "masquerade%1:06:00::"))
+(HolonymLink s (WordSenseNode "masquerade_costume%1:06:00::"))

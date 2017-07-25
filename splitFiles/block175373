@@ -1,0 +1,7 @@
+(define s (WordSenseNode "undo%2:35:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unwrap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "uncover%2:35:00::"))
+(InheritanceLink s (WordSenseNode "expose%2:35:00::"))
+(define x (WordNode "undo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "uncover%2:35:00::"))
+(InheritanceLink s (WordSenseNode "expose%2:35:00::"))

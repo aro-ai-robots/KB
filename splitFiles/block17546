@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blackening%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blackening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_color%1:04:00::"))
+(InheritanceLink (WordSenseNode "obfuscation%1:04:01::") s)
+(define x (WordNode "darkening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_color%1:04:00::"))
+(InheritanceLink (WordSenseNode "obfuscation%1:04:01::") s)

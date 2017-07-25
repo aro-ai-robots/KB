@@ -1,0 +1,7 @@
+(define s (WordSenseNode "american_redstart%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "American_redstart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flycatching_warbler%1:05:00::"))
+(define x (WordNode "redstart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flycatching_warbler%1:05:00::"))
+(define x (WordNode "Setophaga_ruticilla")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flycatching_warbler%1:05:00::"))

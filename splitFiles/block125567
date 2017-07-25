@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pip%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ailment%1:26:00::"))
+(InheritanceLink s (WordSenseNode "complaint%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ill%1:26:00::"))

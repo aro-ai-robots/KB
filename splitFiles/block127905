@@ -1,0 +1,4 @@
+(define s (WordSenseNode "polycythemia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polycythemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "blood_disorder%1:26:00::"))

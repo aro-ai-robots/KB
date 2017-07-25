@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sculptress%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sculptress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sculptor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "sculpturer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "carver%1:18:00::"))
+(InheritanceLink s (WordSenseNode "statue_maker%1:18:00::"))

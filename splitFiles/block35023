@@ -1,0 +1,7 @@
+(define s (WordSenseNode "communion%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "communion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intercourse%1:10:00::"))
+(InheritanceLink s (WordSenseNode "social_intercourse%1:10:00::"))
+(define x (WordNode "sharing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intercourse%1:10:00::"))
+(InheritanceLink s (WordSenseNode "social_intercourse%1:10:00::"))

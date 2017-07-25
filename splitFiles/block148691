@@ -1,0 +1,7 @@
+(define s (WordSenseNode "separation%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "separation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sorting%1:04:00::"))
+(InheritanceLink (WordSenseNode "threshing%1:04:00::") s)
+(InheritanceLink (WordSenseNode "winnow%1:04:00::") s)
+(InheritanceLink (WordSenseNode "winnowing%1:04:00::") s)
+(InheritanceLink (WordSenseNode "sifting%1:04:00::") s)

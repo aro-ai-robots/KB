@@ -1,0 +1,7 @@
+(define s (WordSenseNode "neglect%2:31:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "neglect")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "pretermit%2:31:01::") s)
+(define x (WordNode "ignore")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "pretermit%2:31:01::") s)
+(define x (WordNode "disregard")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "pretermit%2:31:01::") s)

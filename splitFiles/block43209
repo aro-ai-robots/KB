@@ -1,0 +1,4 @@
+(define s (WordSenseNode "death_camp%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "death_camp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concentration_camp%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stockade%1:06:00::"))

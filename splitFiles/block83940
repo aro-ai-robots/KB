@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hypogonadism%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypogonadism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "incompetence%1:26:00::"))
+(InheritanceLink (WordSenseNode "male_hypogonadism%1:26:00::") s)
+(InheritanceLink (WordSenseNode "eunuchoidism%1:26:00::") s)
+(InheritanceLink (WordSenseNode "Kallman's_syndrome%1:26:00::") s)

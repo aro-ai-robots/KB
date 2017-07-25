@@ -1,0 +1,4 @@
+(define s (WordSenseNode "leone%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Sierra_Leone_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "cent%1:23:00::") s)

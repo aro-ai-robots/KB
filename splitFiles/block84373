@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ideography%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ideography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orthography%1:10:00::"))
+(InheritanceLink s (WordSenseNode "writing_system%1:10:00::"))

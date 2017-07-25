@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dietary_supplement%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dietary_supplement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diet%1:13:00::"))
+(InheritanceLink (WordSenseNode "vitamin_pill%1:13:00::") s)

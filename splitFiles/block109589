@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mucopolysaccharide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mucopolysaccharide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polysaccharide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "polyose%1:27:00::"))
+(InheritanceLink (WordSenseNode "hyaluronic_acid%1:27:00::") s)

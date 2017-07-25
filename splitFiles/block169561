@@ -1,0 +1,6 @@
+(define s (WordSenseNode "timothy%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "timothy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hay%1:13:00::"))
+(HolonymLink s (WordSenseNode "timothy%1:20:00::"))
+(HolonymLink s (WordSenseNode "herd's_grass%1:20:00::"))
+(HolonymLink s (WordSenseNode "Phleum_pratense%1:20:00::"))

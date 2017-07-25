@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nickel_silver%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nickel_silver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alloy%1:27:00::"))
+(InheritanceLink s (WordSenseNode "metal%1:27:01::"))
+(define x (WordNode "German_silver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alloy%1:27:00::"))
+(InheritanceLink s (WordSenseNode "metal%1:27:01::"))

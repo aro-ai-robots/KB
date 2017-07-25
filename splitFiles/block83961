@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hypopigmentation%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypopigmentation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "physiological_state%1:26:00::"))
+(InheritanceLink s (WordSenseNode "physiological_condition%1:26:00::"))
+(InheritanceLink (WordSenseNode "albinism%1:26:00::") s)
+(HolonymLink s (WordSenseNode "leukoderma%1:26:00::"))
+(HolonymLink s (WordSenseNode "vitiligo%1:26:00::"))

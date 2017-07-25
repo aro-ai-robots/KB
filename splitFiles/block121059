@@ -1,0 +1,7 @@
+(define s (WordSenseNode "party_to_the_action%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "party_to_the_action")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "party%1:14:02::"))
+(InheritanceLink s (WordSenseNode "company%1:14:06::"))
+(define x (WordNode "party_to_the_transaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "party%1:14:02::"))
+(InheritanceLink s (WordSenseNode "company%1:14:06::"))

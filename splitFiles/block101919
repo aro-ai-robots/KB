@@ -1,0 +1,5 @@
+(define s (WordSenseNode "malignant_hypertension%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "malignant_hypertension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "high_blood_pressure%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hypertension%1:26:00::"))
+(InheritanceLink (WordSenseNode "portal_hypertension%1:26:00::") s)

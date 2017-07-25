@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sr%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "steradian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angular_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "sphere%1:25:01::"))
+(define x (WordNode "sr")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angular_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "sphere%1:25:01::"))

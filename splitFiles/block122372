@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pen-friend%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pen_pal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "correspondent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "letter_writer%1:18:00::"))
+(define x (WordNode "pen-friend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "correspondent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "letter_writer%1:18:00::"))

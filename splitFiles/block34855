@@ -1,0 +1,5 @@
+(define s (WordSenseNode "common_morning_glory%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_morning_glory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "morning_glory%1:20:00::"))
+(define x (WordNode "Ipomoea_purpurea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "morning_glory%1:20:00::"))

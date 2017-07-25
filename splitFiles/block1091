@@ -1,0 +1,5 @@
+(define s (WordSenseNode "accompaniment%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "complement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjunct%1:17:00::"))
+(define x (WordNode "accompaniment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjunct%1:17:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "forceps%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "forceps")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "extractor%1:06:00::"))
+(InheritanceLink (WordSenseNode "lion-jaw_forceps%1:06:00::") s)
+(InheritanceLink (WordSenseNode "mouse-tooth_forceps%1:06:00::") s)

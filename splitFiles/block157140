@@ -1,0 +1,4 @@
+(define s (WordSenseNode "spiral_spring%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spiral_spring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spring%1:06:00::"))
+(InheritanceLink (WordSenseNode "hairspring%1:06:00::") s)

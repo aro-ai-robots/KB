@@ -1,0 +1,4 @@
+(define s (WordSenseNode "widow%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "widow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leave%2:30:03::"))
+(InheritanceLink s (WordSenseNode "leave_behind%2:30:00::"))

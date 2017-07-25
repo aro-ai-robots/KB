@@ -1,0 +1,6 @@
+(define s (WordSenseNode "trance%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unconsciousness%1:09:00::"))
+(InheritanceLink (WordSenseNode "hypnotic_trance%1:09:00::") s)
+(InheritanceLink (WordSenseNode "religious_trance%1:09:00::") s)
+(InheritanceLink (WordSenseNode "ecstatic_state%1:09:00::") s)

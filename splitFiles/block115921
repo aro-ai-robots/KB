@@ -1,0 +1,7 @@
+(define s (WordSenseNode "old_sledge%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seven-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "all_fours%1:04:00::"))
+(InheritanceLink s (WordSenseNode "high-low-jack%1:04:00::"))
+(define x (WordNode "old_sledge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "all_fours%1:04:00::"))
+(InheritanceLink s (WordSenseNode "high-low-jack%1:04:00::"))

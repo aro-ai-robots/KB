@@ -1,0 +1,4 @@
+(define s (WordSenseNode "strange_particle%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strange_particle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elementary_particle%1:17:00::"))
+(InheritanceLink s (WordSenseNode "fundamental_particle%1:17:00::"))

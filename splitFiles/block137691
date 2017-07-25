@@ -1,0 +1,6 @@
+(define s (WordSenseNode "reform_jew%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Reform_Jew")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Jew%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Hebrew%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Israelite%1:18:01::"))
+(HolonymLink s (WordSenseNode "Reform_Judaism%1:14:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "araucaria_excelsa%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "norfolk_island_pine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "araucaria%1:20:00::"))
+(define x (WordNode "Araucaria_heterophylla")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "araucaria%1:20:00::"))
+(define x (WordNode "Araucaria_excelsa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "araucaria%1:20:00::"))

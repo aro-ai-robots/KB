@@ -1,0 +1,5 @@
+(define s (WordSenseNode "unearned_income%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unearned_income")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "income%1:21:00::"))
+(define x (WordNode "unearned_revenue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "income%1:21:00::"))

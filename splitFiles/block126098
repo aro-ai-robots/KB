@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plaice%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plaice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flounder%1:13:00::"))
+(HolonymLink s (WordSenseNode "plaice%1:05:00::"))
+(HolonymLink s (WordSenseNode "Pleuronectes_platessa%1:05:00::"))

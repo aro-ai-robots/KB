@@ -1,0 +1,6 @@
+(define s (WordSenseNode "parabolic_mirror%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parabolic_mirror")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parabolic_reflector%1:06:00::"))
+(InheritanceLink s (WordSenseNode "paraboloid_reflector%1:06:00::"))
+(HolonymLink s (WordSenseNode "reflecting_telescope%1:06:00::"))
+(HolonymLink s (WordSenseNode "reflector%1:06:01::"))

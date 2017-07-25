@@ -1,0 +1,7 @@
+(define s (WordSenseNode "eastern_fence_lizard%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eastern_fence_lizard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fence_lizard%1:05:00::"))
+(define x (WordNode "pine_lizard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fence_lizard%1:05:00::"))
+(define x (WordNode "Sceloporus_undulatus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fence_lizard%1:05:00::"))

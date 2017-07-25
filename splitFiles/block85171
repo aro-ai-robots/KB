@@ -1,0 +1,7 @@
+(define s (WordSenseNode "impingement%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "impingement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:04:00::"))
+(define x (WordNode "encroachment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:04:00::"))
+(define x (WordNode "impact")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:04:00::"))

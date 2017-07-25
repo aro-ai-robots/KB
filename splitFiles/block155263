@@ -1,0 +1,5 @@
+(define s (WordSenseNode "solitary%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "solitary_confinement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confinement%1:26:00::"))
+(define x (WordNode "solitary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confinement%1:26:00::"))

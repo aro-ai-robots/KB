@@ -1,0 +1,7 @@
+(define s (WordSenseNode "steam_whistle%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "steam_whistle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "whistle%1:06:01::"))
+(HolonymLink s (WordSenseNode "calliope%1:06:00::"))
+(HolonymLink s (WordSenseNode "steam_organ%1:06:00::"))
+(HolonymLink s (WordSenseNode "boiler%1:06:00::"))
+(HolonymLink s (WordSenseNode "steam_boiler%1:06:00::"))

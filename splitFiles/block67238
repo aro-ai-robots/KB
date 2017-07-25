@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gape%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "gape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(define x (WordNode "yawn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(define x (WordNode "yaw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cross_section%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cross_section")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "probability%1:07:01::"))
+(InheritanceLink s (WordSenseNode "chance%1:07:00::"))

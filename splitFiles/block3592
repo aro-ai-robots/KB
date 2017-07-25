@@ -1,0 +1,8 @@
+(define s (WordSenseNode "airbrush%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "airbrush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atomizer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "atomiser%1:06:00::"))
+(InheritanceLink s (WordSenseNode "spray%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sprayer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "nebulizer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "nebuliser%1:06:00::"))

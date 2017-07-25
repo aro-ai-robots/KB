@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hypersensitivity%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypersensitivity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sensitivity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "predisposition%1:26:00::"))
+(InheritanceLink (WordSenseNode "cryesthesia%1:26:00::") s)
+(InheritanceLink (WordSenseNode "cryaesthesia%1:26:00::") s)
+(InheritanceLink (WordSenseNode "hypersensitivity_reaction%1:26:00::") s)

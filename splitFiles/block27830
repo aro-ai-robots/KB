@@ -1,0 +1,7 @@
+(define s (WordSenseNode "centipede%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "centipede")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arthropod%1:05:00::"))
+(InheritanceLink (WordSenseNode "house_centipede%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Scutigera_coleoptrata%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Chilopoda%1:05:00::"))
+(HolonymLink s (WordSenseNode "class_Chilopoda%1:05:00::"))

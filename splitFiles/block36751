@@ -1,0 +1,7 @@
+(define s (WordSenseNode "constriction%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "constriction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "narrowing%1:07:00::"))
+(define x (WordNode "bottleneck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "narrowing%1:07:00::"))
+(define x (WordNode "chokepoint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "narrowing%1:07:00::"))

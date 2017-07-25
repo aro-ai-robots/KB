@@ -1,0 +1,5 @@
+(define s (WordSenseNode "truncation_error%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "truncation_error")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "miscalculation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "misreckoning%1:04:00::"))
+(InheritanceLink s (WordSenseNode "misestimation%1:04:00::"))

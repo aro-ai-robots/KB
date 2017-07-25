@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sequella%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sequella")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consequence%1:11:00::"))
+(InheritanceLink s (WordSenseNode "aftermath%1:11:00::"))

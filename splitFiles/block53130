@@ -1,0 +1,8 @@
+(define s (WordSenseNode "elixir%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elixir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "potion%1:13:00::"))
+(InheritanceLink s (WordSenseNode "panacea%1:06:00::"))
+(InheritanceLink s (WordSenseNode "nostrum%1:06:01::"))
+(InheritanceLink s (WordSenseNode "catholicon%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cure-all%1:06:00::"))
+(InheritanceLink (WordSenseNode "elixir_of_life%1:13:00::") s)

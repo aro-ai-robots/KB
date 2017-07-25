@@ -1,0 +1,5 @@
+(define s (WordSenseNode "consuetudinal%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "consuetudinary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manual%1:10:00::"))
+(define x (WordNode "consuetudinal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manual%1:10:00::"))

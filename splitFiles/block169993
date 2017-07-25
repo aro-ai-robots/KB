@@ -1,0 +1,7 @@
+(define s (WordSenseNode "toby_fillpot_jug%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toby")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mug%1:06:00::"))
+(define x (WordNode "toby_jug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mug%1:06:00::"))
+(define x (WordNode "toby_fillpot_jug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mug%1:06:00::"))

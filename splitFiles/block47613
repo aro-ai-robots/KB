@@ -1,0 +1,4 @@
+(define s (WordSenseNode "disk_access%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disk_access")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "access%1:06:01::"))
+(InheritanceLink s (WordSenseNode "memory_access%1:06:00::"))

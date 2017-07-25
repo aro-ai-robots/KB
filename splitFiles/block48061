@@ -1,0 +1,7 @@
+(define s (WordSenseNode "distinctiveness%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disparateness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dissimilarity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "unsimilarity%1:07:00::"))
+(define x (WordNode "distinctiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dissimilarity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "unsimilarity%1:07:00::"))

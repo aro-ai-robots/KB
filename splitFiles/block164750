@@ -1,0 +1,3 @@
+(define s (WordSenseNode "system_clock%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "system_clock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clock%1:06:00::"))

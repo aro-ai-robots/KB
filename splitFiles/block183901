@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wing_case%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wing_case")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wing%1:05:00::"))
+(define x (WordNode "elytron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wing%1:05:00::"))

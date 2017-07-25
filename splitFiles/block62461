@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flaccidity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flabbiness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "softness%1:07:00::"))
+(define x (WordNode "limpness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "softness%1:07:00::"))
+(define x (WordNode "flaccidity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "softness%1:07:00::"))

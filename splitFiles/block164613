@@ -1,0 +1,5 @@
+(define s (WordSenseNode "synechia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "synechia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adhesion%1:26:00::"))
+(InheritanceLink (WordSenseNode "anterior_synechia%1:26:00::") s)
+(InheritanceLink (WordSenseNode "posterior_synechia%1:26:00::") s)

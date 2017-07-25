@@ -1,0 +1,6 @@
+(define s (WordSenseNode "neutralize%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "neutralize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:01::"))
+(InheritanceLink s (WordSenseNode "alter%2:30:01::"))
+(InheritanceLink s (WordSenseNode "modify%2:30:10::"))
+(InheritanceLink (WordSenseNode "co-opt%2:41:03::") s)

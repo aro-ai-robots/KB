@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hand-dye%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hand-dye")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dye%2:30:00::"))
+(InheritanceLink (WordSenseNode "tie-dye%2:30:00::") s)
+(InheritanceLink (WordSenseNode "batik%2:30:00::") s)

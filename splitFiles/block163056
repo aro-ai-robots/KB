@@ -1,0 +1,4 @@
+(define s (WordSenseNode "superior_conjunction%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "superior_conjunction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conjunction%1:11:00::"))
+(InheritanceLink s (WordSenseNode "alignment%1:11:00::"))

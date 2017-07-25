@@ -1,0 +1,5 @@
+(define s (WordSenseNode "heat-seeking_missile%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "heat-seeking_missile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "missile%1:06:01::"))
+(InheritanceLink (WordSenseNode "brilliant_pebble%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Stinger%1:06:00::") s)

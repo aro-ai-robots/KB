@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pastoral%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pastoral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_composition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "literary_work%1:10:00::"))
+(InheritanceLink (WordSenseNode "eclogue%1:10:00::") s)
+(InheritanceLink (WordSenseNode "bucolic%1:10:00::") s)
+(InheritanceLink (WordSenseNode "idyll%1:10:00::") s)
+(InheritanceLink (WordSenseNode "idyl%1:10:00::") s)

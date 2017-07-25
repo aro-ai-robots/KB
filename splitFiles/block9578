@@ -1,0 +1,7 @@
+(define s (WordSenseNode "article_of_faith%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "article_of_faith")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dogma%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tenet%1:10:00::"))
+(define x (WordNode "credendum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dogma%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tenet%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "immobilize%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "immobilize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "withhold%2:40:00::"))
+(InheritanceLink s (WordSenseNode "keep_back%2:40:00::"))
+(define x (WordNode "immobilise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "withhold%2:40:00::"))
+(InheritanceLink s (WordSenseNode "keep_back%2:40:00::"))

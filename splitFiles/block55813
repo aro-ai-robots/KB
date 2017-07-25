@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ethician%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ethicist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "philosopher%1:18:00::"))
+(define x (WordNode "ethician")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "philosopher%1:18:00::"))

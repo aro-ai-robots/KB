@@ -1,0 +1,8 @@
+(define s (WordSenseNode "screen%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "screen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "partition%1:06:00::"))
+(InheritanceLink s (WordSenseNode "divider%1:06:00::"))
+(InheritanceLink (WordSenseNode "altarpiece%1:06:00::") s)
+(InheritanceLink (WordSenseNode "reredos%1:06:00::") s)
+(InheritanceLink (WordSenseNode "purdah%1:06:00::") s)
+(InheritanceLink (WordSenseNode "rood_screen%1:06:00::") s)

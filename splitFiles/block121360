@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pasteurization%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pasteurization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sterilization%1:04:01::"))
+(InheritanceLink s (WordSenseNode "sterilisation%1:04:01::"))
+(define x (WordNode "pasteurisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sterilization%1:04:01::"))
+(InheritanceLink s (WordSenseNode "sterilisation%1:04:01::"))

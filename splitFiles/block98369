@@ -1,0 +1,7 @@
+(define s (WordSenseNode "listlessness%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "languor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "apathy%1:12:00::"))
+(define x (WordNode "lassitude")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "apathy%1:12:00::"))
+(define x (WordNode "listlessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "apathy%1:12:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "blowhole%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blowhole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spiracle%1:08:00::"))
+(HolonymLink s (WordSenseNode "cetacean%1:05:00::"))
+(HolonymLink s (WordSenseNode "cetacean_mammal%1:05:00::"))
+(HolonymLink s (WordSenseNode "blower%1:05:00::"))

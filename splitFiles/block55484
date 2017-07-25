@@ -1,0 +1,7 @@
+(define s (WordSenseNode "escapement%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "escapement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_device%1:06:00::"))
+(HolonymLink s (WordSenseNode "timepiece%1:06:00::"))
+(HolonymLink s (WordSenseNode "timekeeper%1:06:00::"))
+(HolonymLink s (WordSenseNode "horologe%1:06:00::"))
+(HolonymLink (WordSenseNode "escape_wheel%1:06:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "travesty%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "travesty")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spoof%2:32:00::"))
+(InheritanceLink s (WordSenseNode "burlesque%2:32:00::"))
+(InheritanceLink s (WordSenseNode "parody%2:32:00::"))

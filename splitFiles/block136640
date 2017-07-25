@@ -1,0 +1,6 @@
+(define s (WordSenseNode "received_pronunciation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Received_Pronunciation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pronunciation%1:10:01::"))
+(InheritanceLink s (WordSenseNode "orthoepy%1:10:00::"))
+(InheritanceLink s (WordSenseNode "English%1:10:00::"))
+(InheritanceLink s (WordSenseNode "English_language%1:10:00::"))

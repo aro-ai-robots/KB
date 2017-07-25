@@ -1,0 +1,8 @@
+(define s (WordSenseNode "constriction%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "constriction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compression%1:04:00::"))
+(InheritanceLink s (WordSenseNode "compressing%1:04:00::"))
+(InheritanceLink (WordSenseNode "spasm%1:04:00::") s)
+(InheritanceLink (WordSenseNode "squeeze%1:04:03::") s)
+(InheritanceLink (WordSenseNode "strangulation%1:04:02::") s)
+(InheritanceLink (WordSenseNode "vasoconstriction%1:04:00::") s)

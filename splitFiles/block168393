@@ -1,0 +1,5 @@
+(define s (WordSenseNode "third_class%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tourist_class")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accommodation%1:06:00::"))
+(define x (WordNode "third_class")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accommodation%1:06:00::"))

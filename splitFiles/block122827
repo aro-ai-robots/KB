@@ -1,0 +1,5 @@
+(define s (WordSenseNode "percolation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "percolation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooking%1:04:00::"))
+(InheritanceLink s (WordSenseNode "cookery%1:04:00::"))
+(InheritanceLink s (WordSenseNode "preparation%1:04:03::"))

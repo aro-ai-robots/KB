@@ -1,0 +1,7 @@
+(define s (WordSenseNode "saxicola_torquata%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stonechat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Old_World_chat%1:05:00::"))
+(InheritanceLink s (WordSenseNode "chat%1:05:01::"))
+(define x (WordNode "Saxicola_torquata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Old_World_chat%1:05:00::"))
+(InheritanceLink s (WordSenseNode "chat%1:05:01::"))

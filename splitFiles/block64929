@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fourth_dimension%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fourth_dimension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dimension%1:07:00::"))
+(define x (WordNode "time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dimension%1:07:00::"))

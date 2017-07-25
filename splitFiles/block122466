@@ -1,0 +1,6 @@
+(define s (WordSenseNode "penicillinase-resistant_antibiotic%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "penicillinase-resistant_antibiotic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "penicillin%1:06:00::"))
+(InheritanceLink (WordSenseNode "nafcillin%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Nafcil%1:06:00::") s)
+(InheritanceLink (WordSenseNode "oxacillin%1:06:00::") s)

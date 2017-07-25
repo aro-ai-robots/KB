@@ -1,0 +1,7 @@
+(define s (WordSenseNode "direct%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "direct")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "instruct%2:32:02::"))
+(InheritanceLink s (WordSenseNode "apprise%2:32:01::"))
+(InheritanceLink s (WordSenseNode "apprize%2:32:00::"))
+(InheritanceLink (WordSenseNode "talk_down%2:32:02::") s)
+(InheritanceLink (WordSenseNode "point_the_way%2:32:00::") s)

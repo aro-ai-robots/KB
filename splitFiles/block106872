@@ -1,0 +1,8 @@
+(define s (WordSenseNode "minim%1:23:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "minim")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "British_capacity_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "Imperial_capacity_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "fluidram%1:23:02::"))
+(HolonymLink s (WordSenseNode "fluid_dram%1:23:02::"))
+(HolonymLink s (WordSenseNode "fluid_drachm%1:23:02::"))
+(HolonymLink s (WordSenseNode "drachm%1:23:02::"))

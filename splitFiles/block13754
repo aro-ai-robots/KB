@@ -1,0 +1,5 @@
+(define s (WordSenseNode "baroreceptor%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "baroreceptor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sense_organ%1:08:00::"))
+(InheritanceLink s (WordSenseNode "sensory_receptor%1:08:00::"))
+(InheritanceLink s (WordSenseNode "receptor%1:08:00::"))

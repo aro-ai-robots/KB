@@ -1,0 +1,5 @@
+(define s (WordSenseNode "atrovent%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ipratropium_bromide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bronchodilator%1:06:00::"))
+(define x (WordNode "Atrovent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bronchodilator%1:06:00::"))

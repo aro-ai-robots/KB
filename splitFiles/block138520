@@ -1,0 +1,5 @@
+(define s (WordSenseNode "remote-control_bomb%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "remote-control_bomb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bomb%1:06:00::"))
+(HolonymLink (WordSenseNode "remote_control%1:06:00::") s)
+(HolonymLink (WordSenseNode "remote%1:06:00::") s)

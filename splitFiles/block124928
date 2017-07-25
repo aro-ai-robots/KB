@@ -1,0 +1,5 @@
+(define s (WordSenseNode "piedmont_glacier%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Piedmont_glacier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glacier%1:17:00::"))
+(define x (WordNode "Piedmont_type_of_glacier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glacier%1:17:00::"))

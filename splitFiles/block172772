@@ -1,0 +1,8 @@
+(define s (WordSenseNode "trochanter%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trochanter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:08:00::"))
+(InheritanceLink s (WordSenseNode "outgrowth%1:08:00::"))
+(InheritanceLink s (WordSenseNode "appendage%1:08:01::"))
+(HolonymLink s (WordSenseNode "femur%1:08:00::"))
+(HolonymLink s (WordSenseNode "thighbone%1:08:00::"))
+(HolonymLink s (WordSenseNode "femoris%1:08:00::"))

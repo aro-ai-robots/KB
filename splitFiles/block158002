@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sq_in%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "square_inch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "square_measure%1:23:00::"))
+(define x (WordNode "sq_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "square_measure%1:23:00::"))

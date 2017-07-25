@@ -1,0 +1,7 @@
+(define s (WordSenseNode "multivitamin_pill%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "multivitamin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vitamin_pill%1:13:00::"))
+(HolonymLink (WordSenseNode "vitamin%1:27:00::") s)
+(define x (WordNode "multivitamin_pill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vitamin_pill%1:13:00::"))
+(HolonymLink (WordSenseNode "vitamin%1:27:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "external_organ%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "external_organ")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organ%1:08:00::"))
+(InheritanceLink (WordSenseNode "external_ear%1:08:00::") s)
+(InheritanceLink (WordSenseNode "outer_ear%1:08:00::") s)
+(InheritanceLink (WordSenseNode "precordium%1:08:00::") s)

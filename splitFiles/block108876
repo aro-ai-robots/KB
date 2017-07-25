@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mosaic_law%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mosaic_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "law%1:14:00::"))
+(InheritanceLink s (WordSenseNode "jurisprudence%1:14:00::"))
+(define x (WordNode "Law_of_Moses")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "law%1:14:00::"))
+(InheritanceLink s (WordSenseNode "jurisprudence%1:14:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "confusion%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "confusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "combination%1:04:00::"))
+(InheritanceLink s (WordSenseNode "combining%1:04:00::"))
+(InheritanceLink s (WordSenseNode "compounding%1:04:00::"))
+(InheritanceLink (WordSenseNode "babel%1:04:00::") s)

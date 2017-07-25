@@ -1,0 +1,6 @@
+(define s (WordSenseNode "roll%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roll")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cylinder%1:25:02::"))
+(InheritanceLink (WordSenseNode "bolt%1:06:03::") s)
+(InheritanceLink (WordSenseNode "rouleau%1:06:00::") s)
+(InheritanceLink (WordSenseNode "rouleau%1:06:01::") s)

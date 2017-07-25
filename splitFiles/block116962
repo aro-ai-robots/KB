@@ -1,0 +1,8 @@
+(define s (WordSenseNode "orange_liqueur%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orange_liqueur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liqueur%1:13:00::"))
+(InheritanceLink s (WordSenseNode "cordial%1:13:00::"))
+(InheritanceLink (WordSenseNode "curacao%1:13:00::") s)
+(InheritanceLink (WordSenseNode "curacoa%1:13:00::") s)
+(InheritanceLink (WordSenseNode "triple_sec%1:13:00::") s)
+(InheritanceLink (WordSenseNode "Grand_Marnier%1:13:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "endangered_species%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "endangered_species")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "species%1:14:00::"))
+(InheritanceLink (WordSenseNode "Australian_lungfish%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Queensland_lungfish%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Neoceratodus_forsteri%1:05:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "eyrir%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eyrir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Icelandic_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "Icelandic_krona%1:23:00::"))
+(HolonymLink s (WordSenseNode "krona%1:23:01::"))

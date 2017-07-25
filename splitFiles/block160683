@@ -1,0 +1,7 @@
+(define s (WordSenseNode "strand%2:38:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ground")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "land%2:38:03::"))
+(define x (WordNode "strand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "land%2:38:03::"))
+(define x (WordNode "run_aground")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "land%2:38:03::"))

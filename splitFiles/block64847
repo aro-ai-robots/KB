@@ -1,0 +1,6 @@
+(define s (WordSenseNode "founding_father%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Founding_Father")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statesman%1:18:00::"))
+(InheritanceLink s (WordSenseNode "solon%1:18:00::"))
+(InheritanceLink s (WordSenseNode "national_leader%1:18:00::"))
+(HolonymLink s (WordSenseNode "Constitutional_Convention%1:14:00::"))

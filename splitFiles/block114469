@@ -1,0 +1,4 @@
+(define s (WordSenseNode "nucleus%1:08:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nucleus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neural_structure%1:08:00::"))
+(InheritanceLink (WordSenseNode "dentate_nucleus%1:08:00::") s)

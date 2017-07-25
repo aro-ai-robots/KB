@@ -1,0 +1,7 @@
+(define s (WordSenseNode "approaching%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "approach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timing%1:07:00::"))
+(define x (WordNode "approaching")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timing%1:07:00::"))
+(define x (WordNode "coming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timing%1:07:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genevan%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Genevan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Swiss%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Swiss_people%1:18:00::"))
+(HolonymLink s (WordSenseNode "Geneva%1:15:00::"))
+(HolonymLink s (WordSenseNode "Geneve%1:15:00::"))
+(HolonymLink s (WordSenseNode "Genf%1:15:00::"))

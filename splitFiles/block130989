@@ -1,0 +1,7 @@
+(define s (WordSenseNode "problem_solver%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "problem_solver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thinker%1:18:01::"))
+(define x (WordNode "solver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thinker%1:18:01::"))
+(define x (WordNode "convergent_thinker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thinker%1:18:01::"))

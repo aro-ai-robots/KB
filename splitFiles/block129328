@@ -1,0 +1,7 @@
+(define s (WordSenseNode "power-assisted_steering%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "power_steering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steering_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "steering_mechanism%1:06:00::"))
+(define x (WordNode "power-assisted_steering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steering_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "steering_mechanism%1:06:00::"))

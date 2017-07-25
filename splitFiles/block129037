@@ -1,0 +1,7 @@
+(define s (WordSenseNode "potassium_sodium_tartrate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Rochelle_salt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "double_salt%1:27:00::"))
+(define x (WordNode "Rochelle_salts")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "double_salt%1:27:00::"))
+(define x (WordNode "potassium_sodium_tartrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "double_salt%1:27:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ballistic_identification%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ballistic_identification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "identification%1:10:01::"))
+(define x (WordNode "ballistic_fingerprinting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "identification%1:10:01::"))
+(define x (WordNode "bullet_fingerprinting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "identification%1:10:01::"))

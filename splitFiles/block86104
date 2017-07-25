@@ -1,0 +1,4 @@
+(define s (WordSenseNode "indent%2:35:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "indent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "notch%2:35:00::"))
+(InheritanceLink (WordSenseNode "recess%2:35:00::") s)

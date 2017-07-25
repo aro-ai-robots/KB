@@ -1,0 +1,7 @@
+(define s (WordSenseNode "naval_gun%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "naval_gun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "naval_weaponry%1:06:00::"))
+(InheritanceLink (WordSenseNode "stern_chaser%1:06:00::") s)
+(HolonymLink s (WordSenseNode "warship%1:06:00::"))
+(HolonymLink s (WordSenseNode "war_vessel%1:06:00::"))
+(HolonymLink s (WordSenseNode "combat_ship%1:06:00::"))

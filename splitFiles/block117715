@@ -1,0 +1,3 @@
+(define s (WordSenseNode "originate_in%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "originate_in")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "stem%2:42:00::") s)

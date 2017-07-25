@@ -1,0 +1,7 @@
+(define s (WordSenseNode "swamp_oak%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "swamp_white_oak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "white_oak%1:20:00::"))
+(define x (WordNode "swamp_oak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "white_oak%1:20:00::"))
+(define x (WordNode "Quercus_bicolor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "white_oak%1:20:00::"))

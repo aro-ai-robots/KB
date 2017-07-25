@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cpi%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "California_Personality_Inventory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "self-report_personality_inventory%1:10:00::"))
+(InheritanceLink s (WordSenseNode "self-report_inventory%1:10:00::"))
+(define x (WordNode "CPI")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "self-report_personality_inventory%1:10:00::"))
+(InheritanceLink s (WordSenseNode "self-report_inventory%1:10:00::"))

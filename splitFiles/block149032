@@ -1,0 +1,6 @@
+(define s (WordSenseNode "service_book%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "service_book")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sacred_text%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sacred_writing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "religious_writing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "religious_text%1:10:00::"))

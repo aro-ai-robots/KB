@@ -1,0 +1,7 @@
+(define s (WordSenseNode "damp_course%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "damp-proof_course")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "course%1:06:01::"))
+(InheritanceLink s (WordSenseNode "row%1:06:00::"))
+(define x (WordNode "damp_course")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "course%1:06:01::"))
+(InheritanceLink s (WordSenseNode "row%1:06:00::"))

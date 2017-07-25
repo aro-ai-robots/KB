@@ -1,0 +1,5 @@
+(define s (WordSenseNode "apron%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "apron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protective_garment%1:06:00::"))
+(HolonymLink (WordSenseNode "apron_string%1:06:00::") s)
+(HolonymLink (WordSenseNode "bib%1:06:01::") s)

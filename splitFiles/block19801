@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bottom%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bottom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:00::"))
+(InheritanceLink s (WordSenseNode "part%1:15:00::"))
+(InheritanceLink (WordSenseNode "foot%1:15:00::") s)
+(InheritanceLink (WordSenseNode "base%1:15:00::") s)
+(InheritanceLink (WordSenseNode "rock_bottom%1:15:00::") s)

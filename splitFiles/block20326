@@ -1,0 +1,5 @@
+(define s (WordSenseNode "brain%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "variety_meat%1:13:00::"))
+(InheritanceLink s (WordSenseNode "organs%1:13:00::"))
+(InheritanceLink (WordSenseNode "calf's_brain%1:13:00::") s)

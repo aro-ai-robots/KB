@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cover%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "satisfy%2:42:00::"))
+(InheritanceLink s (WordSenseNode "fulfill%2:42:00::"))
+(InheritanceLink s (WordSenseNode "fulfil%2:42:00::"))
+(InheritanceLink s (WordSenseNode "live_up_to%2:42:00::"))

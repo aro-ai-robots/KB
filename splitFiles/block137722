@@ -1,0 +1,7 @@
+(define s (WordSenseNode "refractory_pot%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bone-ash_cup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vessel%1:06:01::"))
+(define x (WordNode "cupel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vessel%1:06:01::"))
+(define x (WordNode "refractory_pot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vessel%1:06:01::"))

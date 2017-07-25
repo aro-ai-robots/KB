@@ -1,0 +1,4 @@
+(define s (WordSenseNode "letterhead%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "letterhead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stationery%1:10:00::"))
+(InheritanceLink s (WordSenseNode "letter_paper%1:10:00::"))

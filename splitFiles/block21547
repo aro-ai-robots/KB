@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bronchospasm%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bronchospasm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spasm%1:04:00::"))
+(HolonymLink s (WordSenseNode "asthma%1:26:00::"))
+(HolonymLink s (WordSenseNode "asthma_attack%1:26:00::"))
+(HolonymLink s (WordSenseNode "bronchial_asthma%1:26:00::"))
+(HolonymLink s (WordSenseNode "bronchitis%1:26:00::"))

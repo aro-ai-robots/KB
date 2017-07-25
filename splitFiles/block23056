@@ -1,0 +1,7 @@
+(define s (WordSenseNode "butt%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "butt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strike%2:35:00::"))
+(InheritanceLink (WordSenseNode "headbutt%2:35:00::") s)
+(define x (WordNode "bunt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strike%2:35:00::"))
+(InheritanceLink (WordSenseNode "headbutt%2:35:00::") s)

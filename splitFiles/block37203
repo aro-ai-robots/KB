@@ -1,0 +1,6 @@
+(define s (WordSenseNode "control_account%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "control_account")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accounting%1:21:01::"))
+(InheritanceLink s (WordSenseNode "accounting_system%1:21:00::"))
+(InheritanceLink s (WordSenseNode "method_of_accounting%1:21:00::"))
+(HolonymLink s (WordSenseNode "general_ledger%1:21:00::"))

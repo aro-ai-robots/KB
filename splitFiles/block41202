@@ -1,0 +1,5 @@
+(define s (WordSenseNode "curfew%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "curfew")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "signal%1:10:00::"))
+(InheritanceLink s (WordSenseNode "signaling%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sign%1:10:03::"))

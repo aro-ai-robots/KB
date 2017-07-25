@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tongue%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clapper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "striker%1:06:00::"))
+(HolonymLink s (WordSenseNode "bell%1:06:00::"))
+(define x (WordNode "tongue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "striker%1:06:00::"))
+(HolonymLink s (WordSenseNode "bell%1:06:00::"))

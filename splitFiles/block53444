@@ -1,0 +1,4 @@
+(define s (WordSenseNode "emetrol%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Emetrol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antiemetic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antiemetic_drug%1:06:00::"))

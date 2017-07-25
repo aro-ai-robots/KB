@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pharmacopeia%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "formulary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "book%1:10:00::"))
+(define x (WordNode "pharmacopeia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "book%1:10:00::"))

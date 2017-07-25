@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hake%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gadoid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "gadoid_fish%1:05:00::"))
+(InheritanceLink (WordSenseNode "silver_hake%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Merluccius_bilinearis%1:05:00::") s)
+(InheritanceLink (WordSenseNode "whiting%1:05:02::") s)
+(InheritanceLink (WordSenseNode "ling%1:05:02::") s)

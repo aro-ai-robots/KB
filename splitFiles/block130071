@@ -1,0 +1,4 @@
+(define s (WordSenseNode "preseason%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preseason")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "season%1:28:02::"))
+(InheritanceLink (WordSenseNode "spring_training%1:28:00::") s)

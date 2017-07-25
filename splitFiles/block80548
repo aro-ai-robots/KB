@@ -1,0 +1,5 @@
+(define s (WordSenseNode "high_fidelity_sound_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hi-fi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproducer%1:06:00::"))
+(define x (WordNode "high_fidelity_sound_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproducer%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chair%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "chair")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "head%2:41:00::"))
+(InheritanceLink s (WordSenseNode "lead%2:41:00::"))
+(define x (WordNode "chairman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "head%2:41:00::"))
+(InheritanceLink s (WordSenseNode "lead%2:41:00::"))

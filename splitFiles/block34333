@@ -1,0 +1,5 @@
+(define s (WordSenseNode "come_across%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "resonate")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "strike_a_chord%2:31:00::") s)
+(define x (WordNode "come_across")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "strike_a_chord%2:31:00::") s)

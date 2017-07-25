@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lyme_disease%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Lyme_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zoonosis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "zoonotic_disease%1:26:00::"))
+(define x (WordNode "Lyme_arthritis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zoonosis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "zoonotic_disease%1:26:00::"))

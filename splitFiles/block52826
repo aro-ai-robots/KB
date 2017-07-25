@@ -1,0 +1,4 @@
+(define s (WordSenseNode "electrocutioner%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electrocutioner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "executioner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "public_executioner%1:18:00::"))

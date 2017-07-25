@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lapis_lazuli%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lapis_lazuli")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opaque_gem%1:27:00::"))
+(define x (WordNode "lazuli")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opaque_gem%1:27:00::"))

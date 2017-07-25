@@ -1,0 +1,5 @@
+(define s (WordSenseNode "milk_glass%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "opal_glass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glass%1:27:00::"))
+(define x (WordNode "milk_glass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glass%1:27:00::"))

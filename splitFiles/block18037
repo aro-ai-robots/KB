@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blizzard%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blizzard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "storm%1:19:00::"))
+(InheritanceLink s (WordSenseNode "violent_storm%1:19:00::"))
+(define x (WordNode "snowstorm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "storm%1:19:00::"))
+(InheritanceLink s (WordSenseNode "violent_storm%1:19:00::"))

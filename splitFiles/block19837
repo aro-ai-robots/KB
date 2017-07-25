@@ -1,0 +1,6 @@
+(define s (WordSenseNode "botulinum_toxin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "botulinum_toxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neurotoxin%1:27:00::"))
+(InheritanceLink s (WordSenseNode "neurolysin%1:27:00::"))
+(InheritanceLink (WordSenseNode "botulinum_toxin_A%1:27:00::") s)
+(InheritanceLink (WordSenseNode "Botox%1:27:00::") s)

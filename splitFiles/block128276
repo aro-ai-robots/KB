@@ -1,0 +1,4 @@
+(define s (WordSenseNode "poop_deck%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "poop_deck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weather_deck%1:06:00::"))
+(InheritanceLink s (WordSenseNode "shelter_deck%1:06:00::"))

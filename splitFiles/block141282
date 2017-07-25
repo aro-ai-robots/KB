@@ -1,0 +1,4 @@
+(define s (WordSenseNode "rite_of_passage%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rite_of_passage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ritual%1:04:00::"))
+(InheritanceLink s (WordSenseNode "rite%1:04:00::"))

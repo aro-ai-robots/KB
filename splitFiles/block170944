@@ -1,0 +1,4 @@
+(define s (WordSenseNode "towel_ring%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "towel_ring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hoop%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ring%1:06:02::"))

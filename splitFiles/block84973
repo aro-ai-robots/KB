@@ -1,0 +1,7 @@
+(define s (WordSenseNode "immunology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "immunology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medicine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "medical_specialty%1:09:00::"))
+(InheritanceLink (WordSenseNode "immunochemistry%1:09:00::") s)
+(InheritanceLink (WordSenseNode "chemoimmunology%1:09:00::") s)
+(InheritanceLink (WordSenseNode "immunopathology%1:09:00::") s)

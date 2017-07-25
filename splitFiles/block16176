@@ -1,0 +1,7 @@
+(define s (WordSenseNode "betterment%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amelioration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "improvement%1:04:00::"))
+(define x (WordNode "melioration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "improvement%1:04:00::"))
+(define x (WordNode "betterment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "improvement%1:04:00::"))

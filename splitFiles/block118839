@@ -1,0 +1,7 @@
+(define s (WordSenseNode "overshoot%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overshoot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "draw_a_bead_on%2:31:00::"))
+(InheritanceLink s (WordSenseNode "aspire%2:31:00::"))
+(InheritanceLink s (WordSenseNode "aim%2:31:00::"))
+(InheritanceLink s (WordSenseNode "shoot_for%2:31:00::"))
+(InheritanceLink (WordSenseNode "overrun%2:31:03::") s)

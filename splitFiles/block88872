@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ipod%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "iPod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stereo%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stereophony%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stereo_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stereophonic_system%1:06:00::"))
+(InheritanceLink (WordSenseNode "video_iPod%1:06:00::") s)

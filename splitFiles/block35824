@@ -1,0 +1,4 @@
+(define s (WordSenseNode "condensation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "condensation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%1:09:01::"))
+(InheritanceLink s (WordSenseNode "unconscious_process%1:09:00::"))

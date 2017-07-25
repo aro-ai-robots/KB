@@ -1,0 +1,7 @@
+(define s (WordSenseNode "soft-cast_steel%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mild_steel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steel%1:27:00::"))
+(define x (WordNode "low-carbon_steel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steel%1:27:00::"))
+(define x (WordNode "soft-cast_steel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steel%1:27:00::"))

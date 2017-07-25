@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tug-of-war%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tug-of-war")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "athletic_contest%1:11:00::"))
+(InheritanceLink s (WordSenseNode "athletic_competition%1:11:00::"))
+(InheritanceLink s (WordSenseNode "athletics%1:11:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "inconspicuousness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inconspicuousness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "invisibility%1:07:00::"))
+(InheritanceLink s (WordSenseNode "invisibleness%1:07:00::"))
+(InheritanceLink (WordSenseNode "unnoticeableness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "unobtrusiveness%1:07:00::") s)

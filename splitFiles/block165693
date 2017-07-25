@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tampon%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tampon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plug%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stopper%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stopple%1:06:00::"))
+(InheritanceLink (WordSenseNode "Tampax%1:06:00::") s)

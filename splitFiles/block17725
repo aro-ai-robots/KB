@@ -1,0 +1,4 @@
+(define s (WordSenseNode "blaspheme%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "blaspheme")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "talk_of%2:32:00::"))
+(InheritanceLink s (WordSenseNode "talk_about%2:32:01::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "cleaning_pad%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cleaning_pad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pad%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cleaning_implement%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cleaning_device%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cleaning_equipment%1:06:00::"))
+(InheritanceLink (WordSenseNode "scouring_pad%1:06:00::") s)
+(InheritanceLink (WordSenseNode "soap_pad%1:06:00::") s)

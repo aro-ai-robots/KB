@@ -1,0 +1,5 @@
+(define s (WordSenseNode "killing_zone%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kill_zone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zone%1:15:01::"))
+(define x (WordNode "killing_zone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zone%1:15:01::"))

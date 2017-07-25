@@ -1,0 +1,4 @@
+(define s (WordSenseNode "rubify%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rubify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "redden%2:30:01::"))
+(InheritanceLink (WordSenseNode "rubric%2:30:00::") s)

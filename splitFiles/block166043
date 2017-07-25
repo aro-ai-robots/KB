@@ -1,0 +1,7 @@
+(define s (WordSenseNode "target_language%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "object_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "linguistic_communication%1:10:00::"))
+(define x (WordNode "target_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "linguistic_communication%1:10:00::"))

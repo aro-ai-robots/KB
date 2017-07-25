@@ -1,0 +1,7 @@
+(define s (WordSenseNode "banker%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "banker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financier%1:18:00::"))
+(InheritanceLink s (WordSenseNode "moneyman%1:18:00::"))
+(InheritanceLink (WordSenseNode "teller%1:18:00::") s)
+(InheritanceLink (WordSenseNode "cashier%1:18:00::") s)
+(InheritanceLink (WordSenseNode "bank_clerk%1:18:00::") s)

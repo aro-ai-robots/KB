@@ -1,0 +1,5 @@
+(define s (WordSenseNode "letting_down%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lowering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "movement%1:04:02::"))
+(define x (WordNode "letting_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "movement%1:04:02::"))

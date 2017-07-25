@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nabothian_follicle%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nabothian_cyst")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyst%1:26:00::"))
+(define x (WordNode "nabothian_follicle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyst%1:26:00::"))

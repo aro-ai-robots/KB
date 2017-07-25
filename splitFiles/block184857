@@ -1,0 +1,5 @@
+(define s (WordSenseNode "worksheet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "worksheet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sheet%1:10:00::"))
+(InheritanceLink s (WordSenseNode "piece_of_paper%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sheet_of_paper%1:10:00::"))

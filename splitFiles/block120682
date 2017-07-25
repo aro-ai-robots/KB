@@ -1,0 +1,5 @@
+(define s (WordSenseNode "parity%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mathematical_relation%1:24:00::"))
+(InheritanceLink (WordSenseNode "evenness%1:24:00::") s)
+(InheritanceLink (WordSenseNode "oddness%1:24:00::") s)

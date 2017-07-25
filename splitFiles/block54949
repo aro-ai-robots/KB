@@ -1,0 +1,6 @@
+(define s (WordSenseNode "epsom_salts%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Epsom_salts")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "purgative%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cathartic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "physic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "aperient%1:06:00::"))

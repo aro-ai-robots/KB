@@ -1,0 +1,4 @@
+(define s (WordSenseNode "countertop%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "countertop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tabletop%1:06:00::"))
+(HolonymLink s (WordSenseNode "counter%1:06:00::"))

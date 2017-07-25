@@ -1,0 +1,5 @@
+(define s (WordSenseNode "parer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knife%1:06:00::"))
+(define x (WordNode "paring_knife")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knife%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "electrocution%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electrocution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "killing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "kill%1:04:00::"))
+(InheritanceLink s (WordSenseNode "putting_to_death%1:04:00::"))

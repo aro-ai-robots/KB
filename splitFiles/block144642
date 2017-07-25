@@ -1,0 +1,4 @@
+(define s (WordSenseNode "samurai%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "samurai")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warrior%1:18:00::"))
+(HolonymLink s (WordSenseNode "samurai%1:14:00::"))

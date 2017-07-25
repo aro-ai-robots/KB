@@ -1,0 +1,5 @@
+(define s (WordSenseNode "envoi%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "envoy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stanza%1:10:00::"))
+(define x (WordNode "envoi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stanza%1:10:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cultist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cultist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "follower%1:18:00::"))
+(HolonymLink s (WordSenseNode "cult%1:14:00::"))

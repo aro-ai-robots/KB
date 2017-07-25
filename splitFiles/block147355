@@ -1,0 +1,6 @@
+(define s (WordSenseNode "seating_capacity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seating_capacity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capaciousness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "roominess%1:07:00::"))
+(InheritanceLink s (WordSenseNode "spaciousness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "commodiousness%1:07:00::"))

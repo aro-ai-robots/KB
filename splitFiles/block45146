@@ -1,0 +1,5 @@
+(define s (WordSenseNode "desacralize%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "desacralize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transfer%2:40:00::"))
+(define x (WordNode "secularize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transfer%2:40:00::"))

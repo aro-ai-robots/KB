@@ -1,0 +1,7 @@
+(define s (WordSenseNode "criminal_suit%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "criminal_suit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lawsuit%1:04:00::"))
+(InheritanceLink s (WordSenseNode "suit%1:04:00::"))
+(InheritanceLink s (WordSenseNode "case%1:04:00::"))
+(InheritanceLink s (WordSenseNode "cause%1:04:00::"))
+(InheritanceLink s (WordSenseNode "causa%1:04:00::"))

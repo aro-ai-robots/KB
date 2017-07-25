@@ -1,0 +1,5 @@
+(define s (WordSenseNode "carotid_plexus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carotid_plexus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_plexus%1:08:00::"))
+(define x (WordNode "plexus_caroticus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_plexus%1:08:00::"))

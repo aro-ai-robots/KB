@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sistership%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sisterhood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "association%1:14:00::"))
+(define x (WordNode "sistership")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "association%1:14:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "crested_screamer%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crested_screamer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "screamer%1:05:00::"))
+(InheritanceLink (WordSenseNode "chaja%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Chauna_torquata%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Chauna%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Chauna%1:05:00::"))

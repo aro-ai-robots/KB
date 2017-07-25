@@ -1,0 +1,6 @@
+(define s (WordSenseNode "theocracy%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "theocracy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "political_system%1:14:00::"))
+(InheritanceLink s (WordSenseNode "form_of_government%1:14:00::"))
+(InheritanceLink (WordSenseNode "church-state%1:14:00::") s)
+(InheritanceLink (WordSenseNode "hierocracy%1:14:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wildcat_well%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wildcat_well")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oil_well%1:06:00::"))
+(InheritanceLink s (WordSenseNode "oiler%1:06:01::"))
+(define x (WordNode "wildcat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oil_well%1:06:00::"))
+(InheritanceLink s (WordSenseNode "oiler%1:06:01::"))

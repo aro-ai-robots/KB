@@ -1,0 +1,5 @@
+(define s (WordSenseNode "clostridium_perfringens_epsilon_toxin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epsilon_toxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacterial_toxin%1:27:00::"))
+(define x (WordNode "Clostridium_perfringens_epsilon_toxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacterial_toxin%1:27:00::"))

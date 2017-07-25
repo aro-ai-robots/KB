@@ -1,0 +1,4 @@
+(define s (WordSenseNode "set_piece%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "set_piece")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scenery%1:06:00::"))
+(InheritanceLink s (WordSenseNode "scene%1:06:00::"))

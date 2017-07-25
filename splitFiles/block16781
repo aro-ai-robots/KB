@@ -1,0 +1,6 @@
+(define s (WordSenseNode "biodegrade%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "biodegrade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decompose%2:30:01::"))
+(InheritanceLink s (WordSenseNode "rot%2:30:00::"))
+(InheritanceLink s (WordSenseNode "molder%2:30:00::"))
+(InheritanceLink s (WordSenseNode "moulder%2:30:00::"))

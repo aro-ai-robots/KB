@@ -1,0 +1,7 @@
+(define s (WordSenseNode "imperfective_aspect%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "imperfective")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "durative%1:24:00::"))
+(InheritanceLink s (WordSenseNode "durative_aspect%1:24:00::"))
+(define x (WordNode "imperfective_aspect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "durative%1:24:00::"))
+(InheritanceLink s (WordSenseNode "durative_aspect%1:24:00::"))

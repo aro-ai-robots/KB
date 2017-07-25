@@ -1,0 +1,6 @@
+(define s (WordSenseNode "compression%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compression")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "encoding%1:04:00::"))
+(InheritanceLink s (WordSenseNode "encryption%1:04:00::"))
+(InheritanceLink (WordSenseNode "image_compression%1:04:00::") s)
+(InheritanceLink (WordSenseNode "MPEG%1:04:00::") s)

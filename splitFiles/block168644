@@ -1,0 +1,6 @@
+(define s (WordSenseNode "thrall%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thrall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bond_servant%1:18:00::"))
+(InheritanceLink (WordSenseNode "serf%1:18:00::") s)
+(InheritanceLink (WordSenseNode "helot%1:18:00::") s)
+(InheritanceLink (WordSenseNode "villein%1:18:00::") s)

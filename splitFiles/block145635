@@ -1,0 +1,4 @@
+(define s (WordSenseNode "scale%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "model%2:36:02::"))
+(InheritanceLink s (WordSenseNode "pattern%2:36:00::"))

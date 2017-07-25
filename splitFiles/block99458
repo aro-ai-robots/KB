@@ -1,0 +1,4 @@
+(define s (WordSenseNode "loop_gain%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "loop_gain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amplification%1:07:00::"))
+(InheritanceLink s (WordSenseNode "gain%1:07:01::"))

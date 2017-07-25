@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tau-minus_particle%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tauon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lepton%1:17:00::"))
+(define x (WordNode "tau-minus_particle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lepton%1:17:00::"))

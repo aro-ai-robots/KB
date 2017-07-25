@@ -1,0 +1,4 @@
+(define s (WordSenseNode "walkout%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "walkout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strike%1:04:00::"))
+(InheritanceLink s (WordSenseNode "work_stoppage%1:04:00::"))

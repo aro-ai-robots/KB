@@ -1,0 +1,6 @@
+(define s (WordSenseNode "skeleton_key%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "skeleton_key")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passkey%1:06:00::"))
+(InheritanceLink s (WordSenseNode "passe-partout%1:06:00::"))
+(InheritanceLink s (WordSenseNode "master_key%1:06:00::"))
+(InheritanceLink s (WordSenseNode "master%1:06:01::"))

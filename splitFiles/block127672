@@ -1,0 +1,5 @@
+(define s (WordSenseNode "police%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "patrol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guard%2:41:00::"))
+(define x (WordNode "police")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guard%2:41:00::"))

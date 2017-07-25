@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rapporteur%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rapporteur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "registrar%1:18:00::"))
+(InheritanceLink s (WordSenseNode "record-keeper%1:18:00::"))
+(InheritanceLink s (WordSenseNode "recorder%1:18:00::"))

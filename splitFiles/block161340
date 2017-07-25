@@ -1,0 +1,5 @@
+(define s (WordSenseNode "strophe%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strophe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stanza%1:10:00::"))
+(HolonymLink s (WordSenseNode "lyric%1:10:00::"))
+(HolonymLink s (WordSenseNode "lyric_poem%1:10:00::"))

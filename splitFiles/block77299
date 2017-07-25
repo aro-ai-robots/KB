@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hakka_dialect%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Hakka")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Chinese%1:10:00::"))
+(define x (WordNode "Hakka_dialect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Chinese%1:10:00::"))

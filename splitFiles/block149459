@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sexlessness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "asexuality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physiological_property%1:07:00::"))
+(define x (WordNode "sexlessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physiological_property%1:07:00::"))

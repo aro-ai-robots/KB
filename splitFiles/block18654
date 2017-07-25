@@ -1,0 +1,7 @@
+(define s (WordSenseNode "boarding%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boarding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%1:06:00::"))
+(InheritanceLink s (WordSenseNode "construction%1:06:00::"))
+(InheritanceLink (WordSenseNode "boards%1:06:00::") s)
+(InheritanceLink (WordSenseNode "flashboard%1:06:00::") s)
+(InheritanceLink (WordSenseNode "flashboarding%1:06:00::") s)

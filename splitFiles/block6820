@@ -1,0 +1,7 @@
+(define s (WordSenseNode "annotating%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "annotation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expansion%1:04:01::"))
+(InheritanceLink s (WordSenseNode "expanding_upon%1:04:00::"))
+(define x (WordNode "annotating")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expansion%1:04:01::"))
+(InheritanceLink s (WordSenseNode "expanding_upon%1:04:00::"))

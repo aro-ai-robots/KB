@@ -1,0 +1,6 @@
+(define s (WordSenseNode "obscurantism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "obscurantism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deception%1:04:00::"))
+(InheritanceLink s (WordSenseNode "deceit%1:04:00::"))
+(InheritanceLink s (WordSenseNode "dissembling%1:04:00::"))
+(InheritanceLink s (WordSenseNode "dissimulation%1:04:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "yucca_aloifolia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Spanish_bayonet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "yucca%1:20:00::"))
+(define x (WordNode "Yucca_aloifolia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "yucca%1:20:00::"))

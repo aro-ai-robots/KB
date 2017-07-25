@@ -1,0 +1,6 @@
+(define s (WordSenseNode "leptotene%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leptotene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phase%1:28:00::"))
+(InheritanceLink s (WordSenseNode "stage%1:28:00::"))
+(HolonymLink s (WordSenseNode "prophase%1:22:02::"))
+(HolonymLink (WordSenseNode "synapsis%1:22:00::") s)

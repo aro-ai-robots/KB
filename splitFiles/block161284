@@ -1,0 +1,4 @@
+(define s (WordSenseNode "stroke%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stroke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flatter%2:32:00::"))
+(InheritanceLink s (WordSenseNode "blandish%2:32:00::"))

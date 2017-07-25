@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vascularisation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vascularization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "biological_process%1:22:00::"))
+(define x (WordNode "vascularisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "biological_process%1:22:00::"))

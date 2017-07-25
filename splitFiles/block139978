@@ -1,0 +1,7 @@
+(define s (WordSenseNode "revalue%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "revalue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rate%2:31:01::"))
+(InheritanceLink s (WordSenseNode "value%2:31:02::"))
+(InheritanceLink (WordSenseNode "appreciate%2:30:01::") s)
+(InheritanceLink (WordSenseNode "apprize%2:30:00::") s)
+(InheritanceLink (WordSenseNode "apprise%2:30:00::") s)

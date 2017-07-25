@@ -1,0 +1,4 @@
+(define s (WordSenseNode "semimajor_axis%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "semimajor_axis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "axis%1:09:00::"))
+(HolonymLink s (WordSenseNode "major_axis%1:09:00::"))

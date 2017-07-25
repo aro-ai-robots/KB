@@ -1,0 +1,5 @@
+(define s (WordSenseNode "golden_plover%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "golden_plover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plover%1:05:00::"))
+(HolonymLink s (WordSenseNode "Pluvialis%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Pluvialis%1:05:00::"))

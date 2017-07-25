@@ -1,0 +1,4 @@
+(define s (WordSenseNode "multiple_star%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "multiple_star")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "star%1:17:00::"))
+(InheritanceLink (WordSenseNode "Trapezium%1:17:00::") s)

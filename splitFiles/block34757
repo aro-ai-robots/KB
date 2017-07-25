@@ -1,0 +1,7 @@
+(define s (WordSenseNode "common_canary%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_canary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canary%1:05:00::"))
+(InheritanceLink s (WordSenseNode "canary_bird%1:05:00::"))
+(define x (WordNode "Serinus_canaria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canary%1:05:00::"))
+(InheritanceLink s (WordSenseNode "canary_bird%1:05:00::"))

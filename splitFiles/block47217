@@ -1,0 +1,5 @@
+(define s (WordSenseNode "disciples_of_christ%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Christian_Church")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Protestant_denomination%1:14:00::"))
+(define x (WordNode "Disciples_of_Christ")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Protestant_denomination%1:14:00::"))

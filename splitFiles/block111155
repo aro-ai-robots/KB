@@ -1,0 +1,5 @@
+(define s (WordSenseNode "narthecium_ossifragum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "European_bog_asphodel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bog_asphodel%1:20:00::"))
+(define x (WordNode "Narthecium_ossifragum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bog_asphodel%1:20:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "alpha_and_omega%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alpha_and_omega")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crux%1:10:00::"))
+(InheritanceLink s (WordSenseNode "crux_of_the_matter%1:10:00::"))

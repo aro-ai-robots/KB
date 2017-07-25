@@ -1,0 +1,4 @@
+(define s (WordSenseNode "stamp%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snuff_out%2:30:00::"))
+(InheritanceLink s (WordSenseNode "extinguish%2:30:00::"))

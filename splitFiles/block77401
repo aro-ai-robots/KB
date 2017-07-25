@@ -1,0 +1,5 @@
+(define s (WordSenseNode "halfback%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "halfback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "back%1:04:00::"))
+(HolonymLink s (WordSenseNode "football_team%1:14:00::"))
+(HolonymLink s (WordSenseNode "eleven%1:14:00::"))

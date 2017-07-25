@@ -1,0 +1,7 @@
+(define s (WordSenseNode "starting_handle%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crank_handle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crank%1:06:00::"))
+(InheritanceLink s (WordSenseNode "starter%1:06:01::"))
+(define x (WordNode "starting_handle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crank%1:06:00::"))
+(InheritanceLink s (WordSenseNode "starter%1:06:01::"))

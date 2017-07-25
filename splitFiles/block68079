@@ -1,0 +1,7 @@
+(define s (WordSenseNode "geneva%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "geneva")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gin%1:13:00::"))
+(define x (WordNode "Holland_gin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gin%1:13:00::"))
+(define x (WordNode "Hollands")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gin%1:13:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hybridoma%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hybridoma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "somatic_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vegetative_cell%1:08:00::"))

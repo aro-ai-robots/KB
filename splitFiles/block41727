@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cycle%1:11:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cycle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repeat%1:11:00::"))
+(InheritanceLink s (WordSenseNode "repetition%1:11:00::"))
+(InheritanceLink (WordSenseNode "merry-go-round%1:11:00::") s)
+(InheritanceLink (WordSenseNode "samsara%1:11:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "flint%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "silica%1:27:00::"))
+(InheritanceLink s (WordSenseNode "silicon_oxide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "silicon_dioxide%1:27:00::"))
+(InheritanceLink (WordSenseNode "gunflint%1:06:00::") s)
+(InheritanceLink (WordSenseNode "firestone%1:27:01::") s)
+(InheritanceLink (WordSenseNode "flintstone%1:27:00::") s)

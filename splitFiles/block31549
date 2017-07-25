@@ -1,0 +1,7 @@
+(define s (WordSenseNode "clack%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clack_valve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "valve%1:06:00::"))
+(define x (WordNode "clack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "valve%1:06:00::"))
+(define x (WordNode "clapper_valve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "valve%1:06:00::"))

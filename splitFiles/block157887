@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sprinkler_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sprinkler_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "system%1:06:00::"))
+(HolonymLink (WordSenseNode "nozzle%1:06:00::") s)
+(HolonymLink (WordSenseNode "nose%1:06:01::") s)
+(HolonymLink (WordSenseNode "siamese%1:06:00::") s)
+(HolonymLink (WordSenseNode "siamese_connection%1:06:00::") s)

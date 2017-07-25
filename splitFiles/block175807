@@ -1,0 +1,7 @@
+(define s (WordSenseNode "union_member%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trade_unionist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))
+(define x (WordNode "unionist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))
+(define x (WordNode "union_member")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))

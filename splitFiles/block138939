@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reprieve%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reprieve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relief%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ease%1:26:02::"))
+(define x (WordNode "respite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relief%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ease%1:26:02::"))

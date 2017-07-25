@@ -1,0 +1,5 @@
+(define s (WordSenseNode "color_wheel%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "color_circle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "color_chart%1:10:00::"))
+(define x (WordNode "color_wheel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "color_chart%1:10:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_proconsul%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Proconsul")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Hominoidea%1:05:00::"))
+(HolonymLink s (WordSenseNode "superfamily_Hominoidea%1:05:00::"))
+(HolonymLink (WordSenseNode "proconsul%1:05:00::") s)

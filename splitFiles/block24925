@@ -1,0 +1,6 @@
+(define s (WordSenseNode "canto%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "canto")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "section%1:10:00::"))
+(InheritanceLink s (WordSenseNode "subdivision%1:10:00::"))
+(HolonymLink s (WordSenseNode "poem%1:10:00::"))
+(HolonymLink s (WordSenseNode "verse_form%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "inflatable_cushion%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "air_cushion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cushion%1:06:00::"))
+(define x (WordNode "inflatable_cushion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cushion%1:06:00::"))

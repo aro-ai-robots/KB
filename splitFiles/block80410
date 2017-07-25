@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hidden_reserve%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hidden_reserve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reserve_account%1:21:00::"))
+(InheritanceLink s (WordSenseNode "reserve_fund%1:21:00::"))
+(InheritanceLink (WordSenseNode "cookie_jar_reserve%1:21:00::") s)

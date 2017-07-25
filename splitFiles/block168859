@@ -1,0 +1,5 @@
+(define s (WordSenseNode "throughput%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "throughput")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "output%1:06:01::"))
+(InheritanceLink s (WordSenseNode "outturn%1:06:00::"))
+(InheritanceLink s (WordSenseNode "turnout%1:06:00::"))

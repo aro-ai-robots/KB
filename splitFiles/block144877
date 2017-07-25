@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sansevieria_zeylanica%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ceylon_bowstring_hemp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sansevieria%1:20:00::"))
+(InheritanceLink s (WordSenseNode "bowstring_hemp%1:20:01::"))
+(define x (WordNode "Sansevieria_zeylanica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sansevieria%1:20:00::"))
+(InheritanceLink s (WordSenseNode "bowstring_hemp%1:20:01::"))

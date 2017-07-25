@@ -1,0 +1,7 @@
+(define s (WordSenseNode "readiness%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "set")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cognitive_state%1:09:00::"))
+(InheritanceLink s (WordSenseNode "state_of_mind%1:09:01::"))
+(define x (WordNode "readiness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cognitive_state%1:09:00::"))
+(InheritanceLink s (WordSenseNode "state_of_mind%1:09:01::"))

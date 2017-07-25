@@ -1,0 +1,5 @@
+(define s (WordSenseNode "surprint%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "overprint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "print%1:06:00::"))
+(define x (WordNode "surprint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "print%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "book_of_knowledge%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "book_of_knowledge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "encyclopedia%1:10:00::"))
+(InheritanceLink s (WordSenseNode "cyclopedia%1:10:00::"))
+(InheritanceLink s (WordSenseNode "encyclopaedia%1:10:00::"))
+(InheritanceLink s (WordSenseNode "cyclopaedia%1:10:00::"))

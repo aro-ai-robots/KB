@@ -1,0 +1,5 @@
+(define s (WordSenseNode "suede_glove%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kid_glove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glove%1:06:00::"))
+(define x (WordNode "suede_glove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glove%1:06:00::"))

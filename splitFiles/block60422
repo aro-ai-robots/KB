@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fee%1:21:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interest%1:21:03::"))
+(InheritanceLink s (WordSenseNode "stake%1:21:02::"))
+(InheritanceLink (WordSenseNode "fee_simple%1:21:00::") s)
+(InheritanceLink (WordSenseNode "fee_tail%1:21:00::") s)

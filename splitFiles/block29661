@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chevron%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chevron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "charge%1:06:01::"))
+(InheritanceLink s (WordSenseNode "bearing%1:06:01::"))
+(InheritanceLink s (WordSenseNode "heraldic_bearing%1:06:00::"))
+(InheritanceLink s (WordSenseNode "armorial_bearing%1:06:00::"))

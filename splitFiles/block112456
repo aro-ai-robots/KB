@@ -1,0 +1,5 @@
+(define s (WordSenseNode "neutropenia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neutropenia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leukopenia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "leucopenia%1:26:00::"))
+(InheritanceLink (WordSenseNode "cyclic_neutropenia%1:26:00::") s)

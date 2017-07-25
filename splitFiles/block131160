@@ -1,0 +1,7 @@
+(define s (WordSenseNode "product%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intersection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "set%1:14:00::"))
+(define x (WordNode "product")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "set%1:14:00::"))
+(define x (WordNode "Cartesian_product")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "set%1:14:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "aleut%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Aleut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Eskimo-Aleut%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Eskimo-Aleut_language%1:10:00::"))

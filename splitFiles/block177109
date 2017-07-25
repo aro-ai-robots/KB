@@ -1,0 +1,7 @@
+(define s (WordSenseNode "urethritis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "urethritis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "urinary_tract_infection%1:26:00::"))
+(InheritanceLink (WordSenseNode "nongonococcal_urethritis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "NGU%1:26:00::") s)
+(InheritanceLink (WordSenseNode "nonspecific_urethritis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "NSU%1:26:00::") s)

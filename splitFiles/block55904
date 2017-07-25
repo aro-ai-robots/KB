@@ -1,0 +1,4 @@
+(define s (WordSenseNode "etymological_dictionary%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "etymological_dictionary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dictionary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lexicon%1:10:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "caustic%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caustic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "lye%1:27:00::") s)
+(InheritanceLink (WordSenseNode "silver_nitrate%1:27:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hookworm%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hookworm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nematode%1:05:00::"))
+(InheritanceLink s (WordSenseNode "nematode_worm%1:05:00::"))
+(InheritanceLink s (WordSenseNode "roundworm%1:05:00::"))
+(HolonymLink s (WordSenseNode "Ancylostomatidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Ancylostomatidae%1:05:00::"))

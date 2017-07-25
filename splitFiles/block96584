@@ -1,0 +1,5 @@
+(define s (WordSenseNode "leptocephalus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leptocephalus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "larva%1:05:00::"))
+(HolonymLink s (WordSenseNode "Teleostei%1:05:00::"))
+(HolonymLink s (WordSenseNode "subclass_Teleostei%1:05:00::"))

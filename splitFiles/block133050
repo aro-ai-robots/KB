@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pump_priming%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pump_priming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "care%1:04:00::"))
+(InheritanceLink s (WordSenseNode "maintenance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "upkeep%1:04:00::"))

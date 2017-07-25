@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sinusoid%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sinusoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:08:00::"))
+(InheritanceLink s (WordSenseNode "passageway%1:08:00::"))

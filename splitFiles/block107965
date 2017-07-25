@@ -1,0 +1,8 @@
+(define s (WordSenseNode "moloch%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moloch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agamid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "agamid_lizard%1:05:00::"))
+(InheritanceLink (WordSenseNode "mountain_devil%1:05:00::") s)
+(InheritanceLink (WordSenseNode "spiny_lizard%1:05:02::") s)
+(InheritanceLink (WordSenseNode "Moloch_horridus%1:05:00::") s)
+(HolonymLink s (WordSenseNode "genus_Moloch%1:05:00::"))

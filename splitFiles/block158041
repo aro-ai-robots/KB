@@ -1,0 +1,6 @@
+(define s (WordSenseNode "square%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "square")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand_tool%1:06:00::"))
+(InheritanceLink (WordSenseNode "carpenter's_square%1:06:00::") s)
+(InheritanceLink (WordSenseNode "try_square%1:06:00::") s)
+(InheritanceLink (WordSenseNode "T-square%1:06:00::") s)

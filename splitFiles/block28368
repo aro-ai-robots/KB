@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chain%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arrange%2:35:00::"))
+(InheritanceLink s (WordSenseNode "set_up%2:35:00::"))
+(InheritanceLink (WordSenseNode "concatenate%2:35:00::") s)

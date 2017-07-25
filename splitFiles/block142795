@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rubber_stamp%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rubber_stamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "authorization%1:04:00::"))
+(InheritanceLink s (WordSenseNode "authorisation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "empowerment%1:04:00::"))

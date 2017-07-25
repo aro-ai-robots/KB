@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spark%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trace%1:23:00::"))
+(InheritanceLink s (WordSenseNode "hint%1:23:01::"))
+(InheritanceLink s (WordSenseNode "suggestion%1:23:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sir_david_bruce%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Bruce")) (WordSenseLink x s)
+(define x (WordNode "David_Bruce")) (WordSenseLink x s)
+(define x (WordNode "Sir_David_Bruce")) (WordSenseLink x s)

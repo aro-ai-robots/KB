@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ampulla%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ampulla")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_part%1:08:00::"))
+(HolonymLink s (WordSenseNode "duct%1:08:00::"))
+(HolonymLink s (WordSenseNode "epithelial_duct%1:08:00::"))
+(HolonymLink s (WordSenseNode "canal%1:08:00::"))
+(HolonymLink s (WordSenseNode "channel%1:08:00::"))

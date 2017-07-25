@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tilde%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tilde")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diacritical_mark%1:10:00::"))
+(InheritanceLink s (WordSenseNode "diacritic%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "epanodos%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epanodos")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recapitulation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "recap%1:10:00::"))
+(InheritanceLink s (WordSenseNode "review%1:10:00::"))

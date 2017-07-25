@@ -1,0 +1,5 @@
+(define s (WordSenseNode "direct_antonym%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "direct_antonym")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antonym%1:10:00::"))
+(InheritanceLink s (WordSenseNode "opposite_word%1:10:00::"))
+(InheritanceLink s (WordSenseNode "opposite%1:10:00::"))

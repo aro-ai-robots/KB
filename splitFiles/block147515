@@ -1,0 +1,6 @@
+(define s (WordSenseNode "secondary%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "secondary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formation%1:14:00::"))
+(HolonymLink s (WordSenseNode "football_team%1:14:00::"))
+(HolonymLink s (WordSenseNode "eleven%1:14:00::"))
+(HolonymLink (WordSenseNode "back%1:04:00::") s)

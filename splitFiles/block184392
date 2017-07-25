@@ -1,0 +1,6 @@
+(define s (WordSenseNode "womankind%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "womankind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "people%1:14:00::"))
+(HolonymLink (WordSenseNode "womanhood%1:14:00::") s)
+(HolonymLink (WordSenseNode "woman%1:14:00::") s)
+(HolonymLink (WordSenseNode "fair_sex%1:14:00::") s)

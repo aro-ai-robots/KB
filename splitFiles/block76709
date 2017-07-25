@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gut_issue%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gut_issue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "issue%1:09:01::"))
+(define x (WordNode "hot-button_issue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "issue%1:09:01::"))

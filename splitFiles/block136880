@@ -1,0 +1,6 @@
+(define s (WordSenseNode "reconsecrate%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reconsecrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consecrate%2:32:00::"))
+(InheritanceLink s (WordSenseNode "bless%2:32:01::"))
+(InheritanceLink s (WordSenseNode "hallow%2:32:00::"))
+(InheritanceLink s (WordSenseNode "sanctify%2:32:00::"))

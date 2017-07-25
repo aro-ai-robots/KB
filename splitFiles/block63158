@@ -1,0 +1,7 @@
+(define s (WordSenseNode "floodlight%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "floodlight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "light%2:30:00::"))
+(InheritanceLink s (WordSenseNode "illume%2:30:00::"))
+(InheritanceLink s (WordSenseNode "illumine%2:30:00::"))
+(InheritanceLink s (WordSenseNode "light_up%2:30:00::"))
+(InheritanceLink s (WordSenseNode "illuminate%2:30:03::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "eritrean%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Eritrean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ethiopian%1:18:00::"))
+(HolonymLink s (WordSenseNode "Eritrea%1:15:00::"))
+(HolonymLink s (WordSenseNode "State_of_Eritrea%1:15:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "roughcast%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rough-hew")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hew%2:35:02::"))
+(InheritanceLink s (WordSenseNode "hew_out%2:35:00::"))
+(define x (WordNode "roughcast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hew%2:35:02::"))
+(InheritanceLink s (WordSenseNode "hew_out%2:35:00::"))

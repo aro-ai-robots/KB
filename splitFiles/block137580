@@ -1,0 +1,6 @@
+(define s (WordSenseNode "referral%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "referral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "forwarding%1:04:01::"))
+(InheritanceLink (WordSenseNode "remission%1:04:01::") s)
+(InheritanceLink (WordSenseNode "remitment%1:04:00::") s)
+(InheritanceLink (WordSenseNode "remit%1:04:00::") s)

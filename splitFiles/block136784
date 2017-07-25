@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reclining_chair%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recliner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "armchair%1:06:00::"))
+(define x (WordNode "reclining_chair")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "armchair%1:06:00::"))
+(define x (WordNode "lounger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "armchair%1:06:00::"))

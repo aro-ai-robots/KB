@@ -1,0 +1,4 @@
+(define s (WordSenseNode "binet-simon_scale%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Binet-Simon_Scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intelligence_test%1:04:00::"))
+(InheritanceLink s (WordSenseNode "IQ_test%1:04:00::"))

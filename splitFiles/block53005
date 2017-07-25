@@ -1,0 +1,7 @@
+(define s (WordSenseNode "elementary_geometry%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elementary_geometry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geometry%1:09:00::"))
+(define x (WordNode "parabolic_geometry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geometry%1:09:00::"))
+(define x (WordNode "Euclidean_geometry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geometry%1:09:00::"))

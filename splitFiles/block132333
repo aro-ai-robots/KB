@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pseudotsuga_macrocarpa%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "big-cone_spruce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "douglas_fir%1:20:00::"))
+(define x (WordNode "big-cone_douglas_fir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "douglas_fir%1:20:00::"))
+(define x (WordNode "Pseudotsuga_macrocarpa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "douglas_fir%1:20:00::"))

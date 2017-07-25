@@ -1,0 +1,6 @@
+(define s (WordSenseNode "powdered_sugar%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "powdered_sugar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "granulated_sugar%1:13:00::"))
+(InheritanceLink (WordSenseNode "castor_sugar%1:13:00::") s)
+(InheritanceLink (WordSenseNode "caster_sugar%1:13:00::") s)
+(InheritanceLink (WordSenseNode "icing_sugar%1:13:00::") s)

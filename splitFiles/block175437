@@ -1,0 +1,7 @@
+(define s (WordSenseNode "unemotional_person%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stoic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adult%1:18:00::"))
+(InheritanceLink s (WordSenseNode "grownup%1:18:01::"))
+(define x (WordNode "unemotional_person")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adult%1:18:00::"))
+(InheritanceLink s (WordSenseNode "grownup%1:18:01::"))

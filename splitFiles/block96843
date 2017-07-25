@@ -1,0 +1,5 @@
+(define s (WordSenseNode "levant_morocco%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Levant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "morocco%1:27:00::"))
+(define x (WordNode "Levant_morocco")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "morocco%1:27:00::"))

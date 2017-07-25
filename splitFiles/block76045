@@ -1,0 +1,4 @@
+(define s (WordSenseNode "grouper%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grouper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saltwater_fish%1:13:00::"))
+(HolonymLink s (WordSenseNode "grouper%1:05:00::"))

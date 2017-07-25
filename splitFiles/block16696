@@ -1,0 +1,3 @@
+(define s (WordSenseNode "binary_file%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "binary_file")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_file%1:10:00::"))

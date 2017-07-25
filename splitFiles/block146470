@@ -1,0 +1,7 @@
+(define s (WordSenseNode "score%2:33:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "score")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "achieve%2:41:00::"))
+(InheritanceLink s (WordSenseNode "accomplish%2:41:00::"))
+(InheritanceLink s (WordSenseNode "attain%2:41:00::"))
+(InheritanceLink s (WordSenseNode "reach%2:41:00::"))
+(InheritanceLink (WordSenseNode "test%2:33:00::") s)

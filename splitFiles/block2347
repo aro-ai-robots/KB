@@ -1,0 +1,7 @@
+(define s (WordSenseNode "adonic_line%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Adonic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "verse%1:10:01::"))
+(InheritanceLink s (WordSenseNode "verse_line%1:10:00::"))
+(define x (WordNode "Adonic_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "verse%1:10:01::"))
+(InheritanceLink s (WordSenseNode "verse_line%1:10:00::"))

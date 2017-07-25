@@ -1,0 +1,8 @@
+(define s (WordSenseNode "degree%1:23:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "degree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature_unit%1:23:00::"))
+(InheritanceLink (WordSenseNode "degree_centigrade%1:23:00::") s)
+(InheritanceLink (WordSenseNode "degree_Celsius%1:23:00::") s)
+(InheritanceLink (WordSenseNode "C%1:23:02::") s)
+(InheritanceLink (WordSenseNode "degree_Fahrenheit%1:23:00::") s)
+(InheritanceLink (WordSenseNode "F%1:23:02::") s)

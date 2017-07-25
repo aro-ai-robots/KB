@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dimmer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dimmer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rheostat%1:06:00::"))
+(InheritanceLink s (WordSenseNode "variable_resistor%1:06:00::"))

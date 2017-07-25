@@ -1,0 +1,7 @@
+(define s (WordSenseNode "accent%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "accent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pronunciation%1:10:00::"))
+(InheritanceLink (WordSenseNode "drawl%1:10:00::") s)
+(define x (WordNode "speech_pattern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pronunciation%1:10:00::"))
+(InheritanceLink (WordSenseNode "drawl%1:10:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "foundress%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foundress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "founder%1:18:00::"))
+(InheritanceLink s (WordSenseNode "beginner%1:18:01::"))
+(InheritanceLink s (WordSenseNode "founding_father%1:18:00::"))
+(InheritanceLink s (WordSenseNode "father%1:18:06::"))

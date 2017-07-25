@@ -1,0 +1,8 @@
+(define s (WordSenseNode "rumination%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rumination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vomit%1:04:00::"))
+(InheritanceLink s (WordSenseNode "vomiting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "emesis%1:04:00::"))
+(InheritanceLink s (WordSenseNode "regurgitation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "disgorgement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "puking%1:04:00::"))

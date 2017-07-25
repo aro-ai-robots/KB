@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pole%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deoxidize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "deoxidise%2:30:00::"))
+(InheritanceLink s (WordSenseNode "reduce%2:30:03::"))

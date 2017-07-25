@@ -1,0 +1,6 @@
+(define s (WordSenseNode "readmit%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "readmit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "admit%2:41:01::"))
+(InheritanceLink s (WordSenseNode "allow_in%2:41:00::"))
+(InheritanceLink s (WordSenseNode "let_in%2:41:02::"))
+(InheritanceLink s (WordSenseNode "intromit%2:41:00::"))

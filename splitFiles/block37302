@@ -1,0 +1,8 @@
+(define s (WordSenseNode "convergence%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "convergence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "happening%1:11:00::"))
+(InheritanceLink s (WordSenseNode "occurrence%1:11:00::"))
+(InheritanceLink s (WordSenseNode "occurrent%1:11:00::"))
+(InheritanceLink s (WordSenseNode "natural_event%1:11:00::"))
+(InheritanceLink (WordSenseNode "meeting%1:11:00::") s)
+(InheritanceLink (WordSenseNode "encounter%1:11:00::") s)

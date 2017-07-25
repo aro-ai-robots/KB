@@ -1,0 +1,7 @@
+(define s (WordSenseNode "myxine_glutinosa%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Myxine_glutinosa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hagfish%1:05:00::"))
+(InheritanceLink s (WordSenseNode "hag%1:05:00::"))
+(InheritanceLink s (WordSenseNode "slime_eels%1:05:00::"))
+(HolonymLink s (WordSenseNode "Myxine%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Myxine%1:05:00::"))

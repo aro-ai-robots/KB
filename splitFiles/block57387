@@ -1,0 +1,7 @@
+(define s (WordSenseNode "expunction%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "expunction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deletion%1:04:00::"))
+(define x (WordNode "expunging")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deletion%1:04:00::"))
+(define x (WordNode "erasure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deletion%1:04:00::"))

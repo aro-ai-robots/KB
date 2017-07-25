@@ -1,0 +1,5 @@
+(define s (WordSenseNode "habitual_abortion%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "habitual_abortion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spontaneous_abortion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "miscarriage%1:04:00::"))
+(InheritanceLink s (WordSenseNode "stillbirth%1:04:00::"))

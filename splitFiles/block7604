@@ -1,0 +1,3 @@
+(define s (WordSenseNode "aortic_valve%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aortic_valve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "semilunar_valve%1:08:00::"))

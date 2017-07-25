@@ -1,0 +1,4 @@
+(define s (WordSenseNode "vasa_efferentia%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vasa_efferentia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tubule%1:08:00::"))
+(HolonymLink s (WordSenseNode "epididymis%1:08:00::"))

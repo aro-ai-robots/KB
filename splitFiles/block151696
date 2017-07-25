@@ -1,0 +1,4 @@
+(define s (WordSenseNode "silent_treatment%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "silent_treatment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rebuff%1:04:00::"))
+(InheritanceLink s (WordSenseNode "slight%1:04:00::"))

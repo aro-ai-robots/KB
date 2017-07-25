@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rainbow%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rainbow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bow%1:25:00::"))
+(InheritanceLink s (WordSenseNode "arc%1:25:01::"))
+(HolonymLink s (WordSenseNode "sky%1:17:00::"))

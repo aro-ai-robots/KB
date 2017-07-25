@@ -1,0 +1,4 @@
+(define s (WordSenseNode "safe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "safe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strongbox%1:06:00::"))
+(InheritanceLink s (WordSenseNode "deedbox%1:06:00::"))

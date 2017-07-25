@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tract%1:08:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tract")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "system%1:08:00::"))
+(InheritanceLink (WordSenseNode "respiratory_tract%1:08:00::") s)
+(InheritanceLink (WordSenseNode "airway%1:08:00::") s)
+(InheritanceLink (WordSenseNode "urinary_tract%1:08:00::") s)

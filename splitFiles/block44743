@@ -1,0 +1,8 @@
+(define s (WordSenseNode "dentifrice%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dentifrice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cleansing_agent%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cleanser%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cleaner%1:06:00::"))
+(InheritanceLink (WordSenseNode "toothpaste%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tooth_powder%1:06:00::") s)
+(InheritanceLink (WordSenseNode "toothpowder%1:06:00::") s)

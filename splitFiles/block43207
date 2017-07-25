@@ -1,0 +1,4 @@
+(define s (WordSenseNode "death_benefit%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "death_benefit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "benefit%1:21:00::"))
+(InheritanceLink (WordSenseNode "advance_death_benefit%1:21:00::") s)

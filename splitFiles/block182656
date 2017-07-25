@@ -1,0 +1,7 @@
+(define s (WordSenseNode "whispering_campaign%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "whispering_campaign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "campaigning%1:04:00::"))
+(InheritanceLink s (WordSenseNode "candidacy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "candidature%1:04:00::"))
+(InheritanceLink s (WordSenseNode "electioneering%1:04:00::"))
+(InheritanceLink s (WordSenseNode "political_campaign%1:04:00::"))

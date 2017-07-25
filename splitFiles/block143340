@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ruptured_intervertebral_disc%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "herniated_disc")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rupture%1:26:00::"))
+(define x (WordNode "ruptured_intervertebral_disc")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rupture%1:26:00::"))
+(define x (WordNode "slipped_disc")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rupture%1:26:00::"))

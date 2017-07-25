@@ -1,0 +1,7 @@
+(define s (WordSenseNode "indo-european%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Aryan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "primitive%1:18:00::"))
+(InheritanceLink s (WordSenseNode "primitive_person%1:18:00::"))
+(define x (WordNode "Indo-European")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "primitive%1:18:00::"))
+(InheritanceLink s (WordSenseNode "primitive_person%1:18:00::"))

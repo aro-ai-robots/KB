@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thymosin%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thymosin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hormone%1:08:00::"))
+(InheritanceLink s (WordSenseNode "endocrine%1:08:00::"))
+(InheritanceLink s (WordSenseNode "internal_secretion%1:08:00::"))

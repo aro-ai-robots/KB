@@ -1,0 +1,7 @@
+(define s (WordSenseNode "appendix%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "appendix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "addendum%1:10:00::"))
+(InheritanceLink s (WordSenseNode "supplement%1:10:00::"))
+(InheritanceLink s (WordSenseNode "postscript%1:10:01::"))
+(InheritanceLink (WordSenseNode "shirttail%1:10:00::") s)
+(InheritanceLink (WordSenseNode "codicil%1:10:00::") s)

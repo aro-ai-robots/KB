@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mix%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "mix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "add%2:30:00::"))
+(InheritanceLink (WordSenseNode "dash%2:30:01::") s)
+(define x (WordNode "mix_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "add%2:30:00::"))
+(InheritanceLink (WordSenseNode "dash%2:30:01::") s)

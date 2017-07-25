@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_roridula%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Roridula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dicot_genus%1:20:00::"))
+(InheritanceLink s (WordSenseNode "magnoliopsid_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Roridulaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Roridulaceae%1:20:00::"))
+(HolonymLink (WordSenseNode "roridula%1:20:00::") s)

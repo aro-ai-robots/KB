@@ -1,0 +1,7 @@
+(define s (WordSenseNode "urnula_craterium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Urnula_craterium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discomycete%1:20:00::"))
+(InheritanceLink s (WordSenseNode "cup_fungus%1:20:00::"))
+(define x (WordNode "urn_fungus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discomycete%1:20:00::"))
+(InheritanceLink s (WordSenseNode "cup_fungus%1:20:00::"))

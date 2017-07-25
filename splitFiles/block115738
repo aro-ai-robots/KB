@@ -1,0 +1,6 @@
+(define s (WordSenseNode "oil_cake%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oil_cake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feed%1:13:00::"))
+(InheritanceLink s (WordSenseNode "provender%1:13:02::"))
+(InheritanceLink (WordSenseNode "oil_meal%1:13:00::") s)
+(HolonymLink (WordSenseNode "field_soybean%1:13:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_verticillium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Verticillium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fungus_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Moniliales%1:20:00::"))
+(HolonymLink s (WordSenseNode "order_Moniliales%1:20:00::"))
+(HolonymLink (WordSenseNode "verticillium%1:20:00::") s)

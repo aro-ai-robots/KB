@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lock_out%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "lock_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exclude%2:41:00::"))
+(InheritanceLink s (WordSenseNode "keep_out%2:41:00::"))
+(InheritanceLink s (WordSenseNode "shut_out%2:41:00::"))
+(InheritanceLink s (WordSenseNode "shut%2:41:00::"))

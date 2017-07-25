@@ -1,0 +1,5 @@
+(define s (WordSenseNode "free_press%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "free_press")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "press%1:10:00::"))
+(InheritanceLink s (WordSenseNode "public_press%1:10:00::"))
+(InheritanceLink (WordSenseNode "gutter_press%1:10:00::") s)

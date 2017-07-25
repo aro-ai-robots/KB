@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lorikeet%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lorikeet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lory%1:05:00::"))
+(InheritanceLink (WordSenseNode "varied_Lorikeet%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Glossopsitta_versicolor%1:05:00::") s)
+(InheritanceLink (WordSenseNode "rainbow_lorikeet%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Trichoglossus_moluccanus%1:05:00::") s)

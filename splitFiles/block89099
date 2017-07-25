@@ -1,0 +1,7 @@
+(define s (WordSenseNode "irradiate%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "enlighten")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prophesy%2:32:00::"))
+(InheritanceLink s (WordSenseNode "vaticinate%2:32:00::"))
+(define x (WordNode "irradiate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prophesy%2:32:00::"))
+(InheritanceLink s (WordSenseNode "vaticinate%2:32:00::"))

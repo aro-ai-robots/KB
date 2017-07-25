@@ -1,0 +1,7 @@
+(define s (WordSenseNode "decorativeness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decorativeness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appearance%1:07:00::"))
+(InheritanceLink s (WordSenseNode "visual_aspect%1:07:00::"))
+(InheritanceLink (WordSenseNode "coating%1:07:00::") s)
+(InheritanceLink (WordSenseNode "finish%1:07:00::") s)
+(InheritanceLink (WordSenseNode "finishing%1:07:00::") s)

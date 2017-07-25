@@ -1,0 +1,4 @@
+(define s (WordSenseNode "caesura%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caesura")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prosody%1:10:00::"))
+(InheritanceLink s (WordSenseNode "inflection%1:10:00::"))

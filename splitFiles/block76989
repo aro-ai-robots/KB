@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hack%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edit%2:30:00::"))
+(InheritanceLink s (WordSenseNode "redact%2:30:00::"))
+(define x (WordNode "cut_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edit%2:30:00::"))
+(InheritanceLink s (WordSenseNode "redact%2:30:00::"))

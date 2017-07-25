@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cultivate%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cultivate")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "grow%2:36:00::") s)
+(InheritanceLink (WordSenseNode "raise%2:36:03::") s)
+(InheritanceLink (WordSenseNode "farm%2:36:00::") s)
+(InheritanceLink (WordSenseNode "produce%2:36:05::") s)

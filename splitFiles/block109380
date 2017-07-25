@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mouthpiece%1:06:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mouthpiece")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aperture%1:06:00::"))
+(HolonymLink s (WordSenseNode "respirator%1:06:00::"))
+(HolonymLink s (WordSenseNode "inhalator%1:06:01::"))

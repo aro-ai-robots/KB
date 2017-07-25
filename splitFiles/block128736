@@ -1,0 +1,5 @@
+(define s (WordSenseNode "positron_emission_tomography_scanner%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "positron_emission_tomography_scanner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tomograph%1:06:00::"))
+(define x (WordNode "PET_scanner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tomograph%1:06:00::"))

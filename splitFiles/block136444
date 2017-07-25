@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rear%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "straighten%2:38:01::"))
+(InheritanceLink (WordSenseNode "rear_back%2:38:00::") s)
+(define x (WordNode "rise_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "straighten%2:38:01::"))
+(InheritanceLink (WordSenseNode "rear_back%2:38:00::") s)

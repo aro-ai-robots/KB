@@ -1,0 +1,7 @@
+(define s (WordSenseNode "acetyl_chloride%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acetyl_chloride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acyl_halide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "acid_halide%1:27:00::"))
+(define x (WordNode "ethanoyl_chloride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acyl_halide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "acid_halide%1:27:00::"))

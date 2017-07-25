@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cliffhanger%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cliffhanger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "episode%1:10:00::"))
+(InheritanceLink s (WordSenseNode "installment%1:10:00::"))
+(InheritanceLink s (WordSenseNode "instalment%1:10:00::"))

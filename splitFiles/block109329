@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mouse_button%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mouse_button")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "push_button%1:06:00::"))
+(InheritanceLink s (WordSenseNode "push%1:06:00::"))
+(InheritanceLink s (WordSenseNode "button%1:06:01::"))
+(HolonymLink s (WordSenseNode "mouse%1:06:00::"))
+(HolonymLink s (WordSenseNode "computer_mouse%1:06:00::"))

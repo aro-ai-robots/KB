@@ -1,0 +1,8 @@
+(define s (WordSenseNode "interaction%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "action%1:04:02::"))
+(InheritanceLink (WordSenseNode "interplay%1:04:00::") s)
+(InheritanceLink (WordSenseNode "contact%1:04:02::") s)
+(InheritanceLink (WordSenseNode "interchange%1:04:01::") s)
+(InheritanceLink (WordSenseNode "reciprocation%1:04:02::") s)
+(InheritanceLink (WordSenseNode "give-and-take%1:04:00::") s)

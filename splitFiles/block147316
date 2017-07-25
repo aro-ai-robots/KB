@@ -1,0 +1,5 @@
+(define s (WordSenseNode "season_ticket%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commutation_ticket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ticket%1:10:01::"))
+(define x (WordNode "season_ticket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ticket%1:10:01::"))

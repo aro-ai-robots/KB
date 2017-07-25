@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pia_mater%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pia_mater")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meninx%1:08:00::"))
+(InheritanceLink s (WordSenseNode "meninges%1:08:00::"))
+(HolonymLink s (WordSenseNode "leptomeninges%1:08:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "paramyxovirus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paramyxovirus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "myxovirus%1:05:00::"))
+(InheritanceLink (WordSenseNode "respiratory_syncytial_virus%1:05:00::") s)

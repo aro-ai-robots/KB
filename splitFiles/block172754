@@ -1,0 +1,7 @@
+(define s (WordSenseNode "triumvirate%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "triumvirate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trio%1:14:00::"))
+(InheritanceLink s (WordSenseNode "threesome%1:14:00::"))
+(InheritanceLink s (WordSenseNode "triad%1:14:00::"))
+(InheritanceLink s (WordSenseNode "trinity%1:14:00::"))
+(InheritanceLink (WordSenseNode "troika%1:14:00::") s)

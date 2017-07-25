@@ -1,0 +1,7 @@
+(define s (WordSenseNode "starvation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "starvation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "privation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "deprivation%1:04:00::"))
+(define x (WordNode "starving")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "privation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "deprivation%1:04:00::"))

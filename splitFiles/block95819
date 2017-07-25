@@ -1,0 +1,5 @@
+(define s (WordSenseNode "leap_second%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leap_second")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "second%1:28:00::"))
+(InheritanceLink s (WordSenseNode "sec%1:28:00::"))
+(InheritanceLink s (WordSenseNode "s%1:28:00::"))

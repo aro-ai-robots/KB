@@ -1,0 +1,5 @@
+(define s (WordSenseNode "power_pylon%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pylon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tower%1:06:00::"))
+(define x (WordNode "power_pylon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tower%1:06:00::"))

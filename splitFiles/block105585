@@ -1,0 +1,5 @@
+(define s (WordSenseNode "metabolic_rate%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metabolic_rate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rate%1:28:00::"))
+(InheritanceLink (WordSenseNode "basal_metabolic_rate%1:22:00::") s)
+(InheritanceLink (WordSenseNode "BMR%1:22:00::") s)

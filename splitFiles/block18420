@@ -1,0 +1,5 @@
+(define s (WordSenseNode "blue_fox%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blue_fox")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Arctic_fox%1:05:00::"))
+(InheritanceLink s (WordSenseNode "white_fox%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Alopex_lagopus%1:05:00::"))

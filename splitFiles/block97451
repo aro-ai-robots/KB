@@ -1,0 +1,5 @@
+(define s (WordSenseNode "light_second%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "light_second")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astronomy_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "light_year%1:23:00::"))
+(HolonymLink s (WordSenseNode "light-year%1:23:00::"))

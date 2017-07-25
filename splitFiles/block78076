@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hardcover%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hardback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "book%1:06:00::"))
+(InheritanceLink s (WordSenseNode "volume%1:06:00::"))
+(define x (WordNode "hardcover")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "book%1:06:00::"))
+(InheritanceLink s (WordSenseNode "volume%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "goad%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "goad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prod%2:35:00::"))
+(InheritanceLink s (WordSenseNode "incite%2:35:00::"))
+(InheritanceLink s (WordSenseNode "egg_on%2:35:00::"))
+(InheritanceLink (WordSenseNode "spur%2:35:00::") s)

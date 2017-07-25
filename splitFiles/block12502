@@ -1,0 +1,4 @@
+(define s (WordSenseNode "backstroke%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "backstroke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swimming_stroke%1:04:00::"))
+(HolonymLink (WordSenseNode "flutter_kick%1:04:00::") s)

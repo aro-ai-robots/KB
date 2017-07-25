@@ -1,0 +1,5 @@
+(define s (WordSenseNode "decompression%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decompression")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decoding%1:04:00::"))
+(InheritanceLink s (WordSenseNode "decryption%1:04:00::"))
+(InheritanceLink s (WordSenseNode "decipherment%1:04:00::"))

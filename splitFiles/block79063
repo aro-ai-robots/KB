@@ -1,0 +1,7 @@
+(define s (WordSenseNode "heat%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "heat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "supply%2:40:00::"))
+(InheritanceLink s (WordSenseNode "provide%2:40:00::"))
+(InheritanceLink s (WordSenseNode "render%2:40:02::"))
+(InheritanceLink s (WordSenseNode "furnish%2:40:00::"))
+(InheritanceLink (WordSenseNode "steam-heat%2:40:00::") s)

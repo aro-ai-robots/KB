@@ -1,0 +1,5 @@
+(define s (WordSenseNode "distance%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "distance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keep%2:42:00::"))
+(InheritanceLink s (WordSenseNode "maintain%2:42:00::"))
+(InheritanceLink s (WordSenseNode "hold%2:42:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "explore%2:31:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "explore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "investigate%2:32:00::"))
+(InheritanceLink s (WordSenseNode "look_into%2:32:00::"))
+(InheritanceLink (WordSenseNode "pioneer%2:31:00::") s)
+(InheritanceLink (WordSenseNode "cave%2:31:00::") s)
+(InheritanceLink (WordSenseNode "spelunk%2:31:00::") s)
+(InheritanceLink (WordSenseNode "map%2:31:01::") s)

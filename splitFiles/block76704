@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gut%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "catgut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cord%1:06:00::"))
+(HolonymLink s (WordSenseNode "suture%1:06:00::"))
+(define x (WordNode "gut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cord%1:06:00::"))
+(HolonymLink s (WordSenseNode "suture%1:06:00::"))

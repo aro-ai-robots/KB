@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cinerarium%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "columbarium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recess%1:06:00::"))
+(InheritanceLink s (WordSenseNode "niche%1:06:00::"))
+(define x (WordNode "cinerarium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recess%1:06:00::"))
+(InheritanceLink s (WordSenseNode "niche%1:06:00::"))

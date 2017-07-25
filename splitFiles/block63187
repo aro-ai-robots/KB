@@ -1,0 +1,5 @@
+(define s (WordSenseNode "floorwalker%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "floorwalker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "employee%1:18:00::"))
+(define x (WordNode "shopwalker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "employee%1:18:00::"))

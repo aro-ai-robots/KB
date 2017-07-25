@@ -1,0 +1,4 @@
+(define s (WordSenseNode "winning_streak%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "winning_streak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "streak%1:14:00::"))
+(InheritanceLink s (WordSenseNode "run%1:14:00::"))

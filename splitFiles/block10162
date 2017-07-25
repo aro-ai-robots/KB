@@ -1,0 +1,7 @@
+(define s (WordSenseNode "assemble%2:41:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "assemble")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "make%2:41:01::") s)
+(define x (WordNode "gather")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "make%2:41:01::") s)
+(define x (WordNode "get_together")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "make%2:41:01::") s)

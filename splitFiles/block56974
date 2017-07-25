@@ -1,0 +1,7 @@
+(define s (WordSenseNode "existential_operator%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "existential_quantifier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quantifier%1:10:01::"))
+(InheritanceLink s (WordSenseNode "logical_quantifier%1:10:00::"))
+(define x (WordNode "existential_operator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quantifier%1:10:01::"))
+(InheritanceLink s (WordSenseNode "logical_quantifier%1:10:00::"))

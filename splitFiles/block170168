@@ -1,0 +1,5 @@
+(define s (WordSenseNode "toll_call%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toll_call")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "long_distance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "long-distance_call%1:10:00::"))
+(InheritanceLink s (WordSenseNode "trunk_call%1:10:00::"))

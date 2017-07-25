@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ostyak-samoyed%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Selkup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Samoyedic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Samoyed%1:10:00::"))
+(define x (WordNode "Ostyak-Samoyed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Samoyedic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Samoyed%1:10:00::"))

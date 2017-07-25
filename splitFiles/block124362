@@ -1,0 +1,5 @@
+(define s (WordSenseNode "photostat%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "photostat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photocopy%2:36:00::"))
+(InheritanceLink s (WordSenseNode "run_off%2:36:00::"))
+(InheritanceLink s (WordSenseNode "xerox%2:36:00::"))

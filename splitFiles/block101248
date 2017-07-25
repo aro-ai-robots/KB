@@ -1,0 +1,5 @@
+(define s (WordSenseNode "magnetization%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magnetization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_property%1:07:00::"))
+(define x (WordNode "magnetisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_property%1:07:00::"))

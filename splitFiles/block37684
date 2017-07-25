@@ -1,0 +1,7 @@
+(define s (WordSenseNode "copy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transcript")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "written_record%1:10:00::"))
+(InheritanceLink s (WordSenseNode "written_account%1:10:00::"))
+(define x (WordNode "copy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "written_record%1:10:00::"))
+(InheritanceLink s (WordSenseNode "written_account%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "benedictine%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Benedictine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious%1:18:00::"))
+(HolonymLink s (WordSenseNode "Benedictine_order%1:14:00::"))
+(HolonymLink s (WordSenseNode "order_of_Saint_Benedict%1:14:00::"))

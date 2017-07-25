@@ -1,0 +1,7 @@
+(define s (WordSenseNode "buccula%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "double_chin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chin%1:08:00::"))
+(InheritanceLink s (WordSenseNode "mentum%1:08:02::"))
+(define x (WordNode "buccula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chin%1:08:00::"))
+(InheritanceLink s (WordSenseNode "mentum%1:08:02::"))

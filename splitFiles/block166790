@@ -1,0 +1,5 @@
+(define s (WordSenseNode "telephone_order%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "telephone_order")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telemarketing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "teleselling%1:04:00::"))
+(InheritanceLink s (WordSenseNode "telecommerce%1:04:00::"))

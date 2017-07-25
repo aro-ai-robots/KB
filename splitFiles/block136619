@@ -1,0 +1,5 @@
+(define s (WordSenseNode "receding%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "receding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disappearance%1:11:00::"))
+(define x (WordNode "fadeout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disappearance%1:11:00::"))

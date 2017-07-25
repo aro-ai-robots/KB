@@ -1,0 +1,5 @@
+(define s (WordSenseNode "umbrellawort%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "umbrellawort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower%1:20:00::"))
+(HolonymLink s (WordSenseNode "Mirabilis%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Mirabilis%1:20:00::"))

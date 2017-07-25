@@ -1,0 +1,7 @@
+(define s (WordSenseNode "abronia_umbellata%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beach_sand_verbena")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sand_verbena%1:20:00::"))
+(define x (WordNode "pink_sand_verbena")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sand_verbena%1:20:00::"))
+(define x (WordNode "Abronia_umbellata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sand_verbena%1:20:00::"))

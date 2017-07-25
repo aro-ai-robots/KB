@@ -1,0 +1,7 @@
+(define s (WordSenseNode "abscess%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "abscess")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))
+(InheritanceLink (WordSenseNode "abscessed_tooth%1:26:00::") s)
+(HolonymLink (WordSenseNode "head%1:26:00::") s)
+(HolonymLink (WordSenseNode "purulence%1:26:00::") s)
+(HolonymLink (WordSenseNode "purulency%1:26:00::") s)

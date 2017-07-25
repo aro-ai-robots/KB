@@ -1,0 +1,7 @@
+(define s (WordSenseNode "large_civet%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "large_civet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "civet%1:05:00::"))
+(InheritanceLink s (WordSenseNode "civet_cat%1:05:01::"))
+(define x (WordNode "Viverra_zibetha")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "civet%1:05:00::"))
+(InheritanceLink s (WordSenseNode "civet_cat%1:05:01::"))

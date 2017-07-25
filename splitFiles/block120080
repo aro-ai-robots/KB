@@ -1,0 +1,6 @@
+(define s (WordSenseNode "panopticon%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "panopticon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:06:00::"))
+(InheritanceLink (WordSenseNode "showroom%1:06:00::") s)
+(InheritanceLink (WordSenseNode "salesroom%1:06:00::") s)
+(InheritanceLink (WordSenseNode "saleroom%1:06:00::") s)

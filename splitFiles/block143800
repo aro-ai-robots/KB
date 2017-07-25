@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sadhe%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sadhe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "letter%1:10:01::"))
+(InheritanceLink s (WordSenseNode "letter_of_the_alphabet%1:10:00::"))
+(InheritanceLink s (WordSenseNode "alphabetic_character%1:10:00::"))
+(HolonymLink s (WordSenseNode "Hebrew_alphabet%1:10:00::"))
+(HolonymLink s (WordSenseNode "Hebraic_alphabet%1:10:00::"))
+(HolonymLink s (WordSenseNode "Hebrew_script%1:10:00::"))

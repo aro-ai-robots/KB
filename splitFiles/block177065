@@ -1,0 +1,6 @@
+(define s (WordSenseNode "urban_guerrilla%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "urban_guerrilla")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guerrilla%1:18:00::"))
+(InheritanceLink s (WordSenseNode "guerilla%1:18:00::"))
+(InheritanceLink s (WordSenseNode "irregular%1:18:00::"))
+(InheritanceLink s (WordSenseNode "insurgent%1:18:01::"))

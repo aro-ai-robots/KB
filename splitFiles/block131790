@@ -1,0 +1,7 @@
+(define s (WordSenseNode "prosecution%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pursuance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "continuance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "continuation%1:04:00::"))
+(define x (WordNode "prosecution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "continuance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "continuation%1:04:00::"))

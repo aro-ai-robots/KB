@@ -1,0 +1,7 @@
+(define s (WordSenseNode "a_cappella_singing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "a_cappella_singing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "singing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "vocalizing%1:04:00::"))
+(define x (WordNode "a_capella_singing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "singing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "vocalizing%1:04:00::"))

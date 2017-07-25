@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vent%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orifice%1:08:00::"))
+(InheritanceLink s (WordSenseNode "opening%1:08:00::"))
+(InheritanceLink s (WordSenseNode "porta%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "common_yellowthroat%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_yellowthroat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "yellowthroat%1:05:00::"))
+(define x (WordNode "Maryland_yellowthroat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "yellowthroat%1:05:00::"))
+(define x (WordNode "Geothlypis_trichas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "yellowthroat%1:05:00::"))

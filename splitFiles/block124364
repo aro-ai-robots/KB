@@ -1,0 +1,6 @@
+(define s (WordSenseNode "photosynthesis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "photosynthesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "chemical_change%1:22:00::"))
+(InheritanceLink s (WordSenseNode "chemical_action%1:22:00::"))
+(HolonymLink (WordSenseNode "light_reaction%1:22:00::") s)

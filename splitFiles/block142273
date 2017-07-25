@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rosa_odorata%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tea_rose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rose%1:20:00::"))
+(InheritanceLink s (WordSenseNode "rosebush%1:20:00::"))
+(define x (WordNode "Rosa_odorata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rose%1:20:00::"))
+(InheritanceLink s (WordSenseNode "rosebush%1:20:00::"))

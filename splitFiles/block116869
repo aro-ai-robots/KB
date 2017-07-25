@@ -1,0 +1,6 @@
+(define s (WordSenseNode "optics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "optics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physics%1:09:00::"))
+(InheritanceLink s (WordSenseNode "natural_philosophy%1:09:00::"))
+(InheritanceLink (WordSenseNode "catoptrics%1:09:00::") s)
+(InheritanceLink (WordSenseNode "holography%1:09:00::") s)

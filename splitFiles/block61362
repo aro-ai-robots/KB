@@ -1,0 +1,6 @@
+(define s (WordSenseNode "figure%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "figure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sum%1:21:00::"))
+(InheritanceLink s (WordSenseNode "sum_of_money%1:21:00::"))
+(InheritanceLink s (WordSenseNode "amount%1:21:00::"))
+(InheritanceLink s (WordSenseNode "amount_of_money%1:21:00::"))

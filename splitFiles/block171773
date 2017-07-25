@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transpose%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "commute")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "transpose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))

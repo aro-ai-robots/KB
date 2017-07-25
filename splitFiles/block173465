@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tumbleweed%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tumbleweed")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amaranth%1:20:01::"))
+(define x (WordNode "Amaranthus_albus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amaranth%1:20:01::"))
+(define x (WordNode "Amaranthus_graecizans")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amaranth%1:20:01::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "facing%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "facing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lining%1:06:00::"))
+(InheritanceLink s (WordSenseNode "liner%1:06:02::"))
+(HolonymLink s (WordSenseNode "collar%1:06:00::"))
+(HolonymLink s (WordSenseNode "neckband%1:06:00::"))
+(HolonymLink s (WordSenseNode "cuff%1:06:00::"))
+(HolonymLink s (WordSenseNode "turnup%1:06:00::"))

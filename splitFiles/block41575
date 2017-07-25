@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cutaway_drawing%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cutaway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "representation%1:06:00::"))
+(define x (WordNode "cutaway_drawing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "representation%1:06:00::"))
+(define x (WordNode "cutaway_model")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "representation%1:06:00::"))

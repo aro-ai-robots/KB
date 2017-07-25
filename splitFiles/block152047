@@ -1,0 +1,5 @@
+(define s (WordSenseNode "simultaneous_operation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parallel_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:22:00::"))
+(define x (WordNode "simultaneous_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:22:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "certhia_familiaris%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "European_creeper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creeper%1:05:00::"))
+(InheritanceLink s (WordSenseNode "tree_creeper%1:05:01::"))
+(define x (WordNode "Certhia_familiaris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creeper%1:05:00::"))
+(InheritanceLink s (WordSenseNode "tree_creeper%1:05:01::"))

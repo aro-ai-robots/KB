@@ -1,0 +1,4 @@
+(define s (WordSenseNode "alkalinity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alkalinity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pH%1:07:00::"))
+(InheritanceLink s (WordSenseNode "pH_scale%1:07:00::"))

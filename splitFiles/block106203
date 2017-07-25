@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mid-november%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mid-November")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_period%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period_of_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period%1:28:00::"))
+(HolonymLink s (WordSenseNode "November%1:28:00::"))
+(HolonymLink s (WordSenseNode "Nov%1:28:00::"))

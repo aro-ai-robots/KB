@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ruralism%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rurality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "characteristic%1:07:00::"))
+(InheritanceLink s (WordSenseNode "trait%1:07:00::"))
+(define x (WordNode "ruralism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "characteristic%1:07:00::"))
+(InheritanceLink s (WordSenseNode "trait%1:07:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "colon%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punctuation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "punctuation_mark%1:10:00::"))

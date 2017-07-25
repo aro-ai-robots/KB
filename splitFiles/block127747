@@ -1,0 +1,7 @@
+(define s (WordSenseNode "political_action_committee%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "political_action_committee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "committee%1:14:00::"))
+(InheritanceLink s (WordSenseNode "commission%1:14:00::"))
+(define x (WordNode "PAC")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "committee%1:14:00::"))
+(InheritanceLink s (WordSenseNode "commission%1:14:00::"))

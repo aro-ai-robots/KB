@@ -1,0 +1,4 @@
+(define s (WordSenseNode "world_cup%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "World_Cup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tournament%1:11:00::"))
+(InheritanceLink s (WordSenseNode "tourney%1:11:00::"))

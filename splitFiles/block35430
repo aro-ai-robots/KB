@@ -1,0 +1,7 @@
+(define s (WordSenseNode "compressibility%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compressibility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "softness%1:07:00::"))
+(define x (WordNode "squeezability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "softness%1:07:00::"))
+(define x (WordNode "sponginess")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "softness%1:07:00::"))

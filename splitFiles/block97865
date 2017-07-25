@@ -1,0 +1,7 @@
+(define s (WordSenseNode "line%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))
+(InheritanceLink (WordSenseNode "reline%2:35:00::") s)
+(InheritanceLink (WordSenseNode "face%2:35:00::") s)
+(InheritanceLink (WordSenseNode "crib%2:35:00::") s)
+(InheritanceLink (WordSenseNode "babbitt%2:35:00::") s)

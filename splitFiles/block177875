@@ -1,0 +1,6 @@
+(define s (WordSenseNode "vantage%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vantage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "position%1:15:00::"))
+(InheritanceLink s (WordSenseNode "place%1:15:05::"))
+(InheritanceLink (WordSenseNode "vantage_point%1:15:00::") s)
+(InheritanceLink (WordSenseNode "viewpoint%1:15:00::") s)

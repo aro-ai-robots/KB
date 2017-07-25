@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pancreatin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pancreatin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infusion%1:27:00::"))
+(InheritanceLink s (WordSenseNode "extract%1:27:00::"))

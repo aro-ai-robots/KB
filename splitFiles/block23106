@@ -1,0 +1,7 @@
+(define s (WordSenseNode "butterfly%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "butterfly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swimming_stroke%1:04:00::"))
+(HolonymLink (WordSenseNode "dolphin_kick%1:04:00::") s)
+(define x (WordNode "butterfly_stroke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swimming_stroke%1:04:00::"))
+(HolonymLink (WordSenseNode "dolphin_kick%1:04:00::") s)

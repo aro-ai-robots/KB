@@ -1,0 +1,7 @@
+(define s (WordSenseNode "score%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "seduce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "persuade%2:32:00::"))
+(define x (WordNode "score")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "persuade%2:32:00::"))
+(define x (WordNode "make")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "persuade%2:32:00::"))

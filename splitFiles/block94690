@@ -1,0 +1,5 @@
+(define s (WordSenseNode "langue_d'oil_french%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Langue_d'oil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "French%1:10:00::"))
+(define x (WordNode "Langue_d'oil_French")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "French%1:10:00::"))

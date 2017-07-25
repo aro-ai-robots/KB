@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sinusoid%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sine_curve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:25:00::"))
+(InheritanceLink s (WordSenseNode "undulation%1:25:00::"))
+(define x (WordNode "sinusoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:25:00::"))
+(InheritanceLink s (WordSenseNode "undulation%1:25:00::"))

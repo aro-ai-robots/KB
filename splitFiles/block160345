@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stonewort%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stonewort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "green_algae%1:05:00::"))
+(InheritanceLink s (WordSenseNode "chlorophyte%1:05:00::"))
+(HolonymLink s (WordSenseNode "Characeae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Characeae%1:05:00::"))

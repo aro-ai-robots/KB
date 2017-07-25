@@ -1,0 +1,4 @@
+(define s (WordSenseNode "social_security_number%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Social_Security_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:10:02::"))
+(InheritanceLink s (WordSenseNode "identification_number%1:10:00::"))

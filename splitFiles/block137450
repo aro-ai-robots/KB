@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reduplication%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anadiplosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repetition%1:10:00::"))
+(define x (WordNode "reduplication")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "repetition%1:10:00::"))

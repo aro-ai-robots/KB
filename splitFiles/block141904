@@ -1,0 +1,7 @@
+(define s (WordSenseNode "roll_call%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roll_call")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utterance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vocalization%1:10:01::"))
+(InheritanceLink (WordSenseNode "mail_call%1:04:00::") s)
+(InheritanceLink (WordSenseNode "muster_call%1:04:00::") s)
+(InheritanceLink (WordSenseNode "attendance_check%1:04:00::") s)

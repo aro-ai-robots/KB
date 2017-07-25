@@ -1,0 +1,5 @@
+(define s (WordSenseNode "view_angle%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "view_angle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angle%1:25:00::"))
+(define x (WordNode "angle_of_view")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angle%1:25:00::"))

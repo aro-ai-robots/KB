@@ -1,0 +1,7 @@
+(define s (WordSenseNode "affricate%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "affricate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obstruent%1:10:00::"))
+(define x (WordNode "affricate_consonant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obstruent%1:10:00::"))
+(define x (WordNode "affricative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obstruent%1:10:00::"))

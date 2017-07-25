@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ozone_hole%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ozone_hole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hole%1:17:01::"))
+(HolonymLink s (WordSenseNode "ozone_layer%1:17:00::"))
+(HolonymLink s (WordSenseNode "ozonosphere%1:17:00::"))

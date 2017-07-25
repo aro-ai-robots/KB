@@ -1,0 +1,8 @@
+(define s (WordSenseNode "bronchitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bronchitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "respiratory_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "respiratory_illness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "respiratory_disorder%1:26:00::"))
+(InheritanceLink (WordSenseNode "bronchiolitis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "chronic_bronchitis%1:26:00::") s)
+(HolonymLink (WordSenseNode "bronchospasm%1:04:00::") s)

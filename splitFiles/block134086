@@ -1,0 +1,6 @@
+(define s (WordSenseNode "quantification%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quantification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "restriction%1:09:00::"))
+(InheritanceLink s (WordSenseNode "limitation%1:09:00::"))
+(HolonymLink s (WordSenseNode "predicate_calculus%1:09:00::"))
+(HolonymLink s (WordSenseNode "functional_calculus%1:09:00::"))

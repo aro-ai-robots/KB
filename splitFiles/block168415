@@ -1,0 +1,5 @@
+(define s (WordSenseNode "third_reich%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Third_Reich")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Reich%1:14:00::"))
+(define x (WordNode "Nazi_Germany")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Reich%1:14:00::"))

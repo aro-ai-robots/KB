@@ -1,0 +1,7 @@
+(define s (WordSenseNode "four-stroke_engine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "four-stroke_engine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "internal-combustion_engine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ICE%1:06:01::"))
+(define x (WordNode "four-stroke_internal-combustion_engine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "internal-combustion_engine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ICE%1:06:01::"))

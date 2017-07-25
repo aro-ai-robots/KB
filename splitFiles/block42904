@@ -1,0 +1,7 @@
+(define s (WordSenseNode "day_care_center%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "day_nursery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nursery%1:06:01::"))
+(InheritanceLink s (WordSenseNode "baby's_room%1:06:00::"))
+(define x (WordNode "day_care_center")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nursery%1:06:01::"))
+(InheritanceLink s (WordSenseNode "baby's_room%1:06:00::"))

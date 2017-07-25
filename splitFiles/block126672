@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plea_bargaining%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plea_bargain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bargaining%1:10:00::"))
+(define x (WordNode "plea_bargaining")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bargaining%1:10:00::"))

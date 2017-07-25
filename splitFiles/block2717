@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aerosol%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aerosol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:19:01::"))
+(InheritanceLink (WordSenseNode "fog%1:19:00::") s)
+(InheritanceLink (WordSenseNode "haze%1:19:00::") s)
+(InheritanceLink (WordSenseNode "smoke%1:19:00::") s)
+(InheritanceLink (WordSenseNode "fume%1:19:00::") s)

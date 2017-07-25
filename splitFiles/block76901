@@ -1,0 +1,5 @@
+(define s (WordSenseNode "h._pylori%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Heliobacter_pylori")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_species%1:05:00::"))
+(define x (WordNode "H._pylori")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_species%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "roentgenoscope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fluoroscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "X-ray_machine%1:06:00::"))
+(define x (WordNode "roentgenoscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "X-ray_machine%1:06:00::"))

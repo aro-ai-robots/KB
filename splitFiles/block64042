@@ -1,0 +1,4 @@
+(define s (WordSenseNode "football_helmet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "football_helmet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "helmet%1:06:00::"))
+(HolonymLink (WordSenseNode "face_guard%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "polystyrene%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polystyrene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "styrene%1:27:00::"))
+(InheritanceLink s (WordSenseNode "cinnamene%1:27:00::"))
+(InheritanceLink s (WordSenseNode "phenylethylene%1:27:00::"))
+(InheritanceLink s (WordSenseNode "vinylbenzene%1:27:00::"))
+(InheritanceLink (WordSenseNode "Styrofoam%1:27:00::") s)

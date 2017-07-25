@@ -1,0 +1,7 @@
+(define s (WordSenseNode "industrial_loan_company%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "industrial_bank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consumer_finance_company%1:14:00::"))
+(InheritanceLink s (WordSenseNode "small_loan_company%1:14:00::"))
+(define x (WordNode "industrial_loan_company")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consumer_finance_company%1:14:00::"))
+(InheritanceLink s (WordSenseNode "small_loan_company%1:14:00::"))

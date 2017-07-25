@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trachinotus_carolinus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Florida_pompano")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pompano%1:05:00::"))
+(define x (WordNode "Trachinotus_carolinus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pompano%1:05:00::"))

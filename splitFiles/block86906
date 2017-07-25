@@ -1,0 +1,7 @@
+(define s (WordSenseNode "information_superhighway%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "superhighway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "network%1:06:02::"))
+(InheritanceLink s (WordSenseNode "electronic_network%1:06:00::"))
+(define x (WordNode "information_superhighway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "network%1:06:02::"))
+(InheritanceLink s (WordSenseNode "electronic_network%1:06:00::"))

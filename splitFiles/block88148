@@ -1,0 +1,7 @@
+(define s (WordSenseNode "international_pitch%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concert_pitch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pitch%1:07:00::"))
+(define x (WordNode "philharmonic_pitch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pitch%1:07:00::"))
+(define x (WordNode "international_pitch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pitch%1:07:00::"))

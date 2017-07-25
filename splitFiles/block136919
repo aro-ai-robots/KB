@@ -1,0 +1,5 @@
+(define s (WordSenseNode "record_album%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phonograph_album")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "album%1:06:00::"))
+(define x (WordNode "record_album")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "album%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "susanna%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Susanna")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Apocrypha%1:10:00::"))
+(define x (WordNode "Book_of_Susanna")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Apocrypha%1:10:00::"))

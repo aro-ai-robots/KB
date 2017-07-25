@@ -1,0 +1,7 @@
+(define s (WordSenseNode "self-worship%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "idiolatry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))
+(define x (WordNode "autolatry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))
+(define x (WordNode "self-worship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))

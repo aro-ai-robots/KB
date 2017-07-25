@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wedge%1:06:04::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wedge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "iron%1:06:01::"))
+(InheritanceLink (WordSenseNode "pitching_wedge%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sand_wedge%1:06:00::") s)

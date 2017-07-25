@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hockey_puck%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "puck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disk%1:06:00::"))
+(InheritanceLink s (WordSenseNode "disc%1:06:00::"))
+(define x (WordNode "hockey_puck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disk%1:06:00::"))
+(InheritanceLink s (WordSenseNode "disc%1:06:00::"))

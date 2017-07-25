@@ -1,0 +1,5 @@
+(define s (WordSenseNode "path_of_least_resistance%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "line_of_least_resistance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fashion%1:04:00::"))
+(define x (WordNode "path_of_least_resistance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fashion%1:04:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hammer_and_sickle%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hammer_and_sickle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emblem%1:10:00::"))
+(InheritanceLink s (WordSenseNode "allegory%1:10:02::"))

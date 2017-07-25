@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antherozoid%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antherozoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gamete%1:08:00::"))
+(define x (WordNode "spermatozoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gamete%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pithecanthropus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pithecanthropus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hominid%1:05:00::"))
+(define x (WordNode "Pithecanthropus_erectus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hominid%1:05:00::"))
+(define x (WordNode "genus_Pithecanthropus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hominid%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "punched_card%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "punched_card")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card%1:06:00::"))
+(define x (WordNode "punch_card")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card%1:06:00::"))
+(define x (WordNode "Hollerith_card")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card%1:06:00::"))

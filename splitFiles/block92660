@@ -1,0 +1,7 @@
+(define s (WordSenseNode "keynote_speech%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "keynote_speech")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oratory%1:10:00::"))
+(HolonymLink (WordSenseNode "keynote%1:10:01::") s)
+(define x (WordNode "keynote_address")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oratory%1:10:00::"))
+(HolonymLink (WordSenseNode "keynote%1:10:01::") s)

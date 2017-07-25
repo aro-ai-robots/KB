@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hook_wrench%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hook_wrench")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wrench%1:06:00::"))
+(InheritanceLink s (WordSenseNode "spanner%1:06:00::"))
+(define x (WordNode "hook_spanner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wrench%1:06:00::"))
+(InheritanceLink s (WordSenseNode "spanner%1:06:00::"))

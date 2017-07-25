@@ -1,0 +1,7 @@
+(define s (WordSenseNode "washing_machine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "washer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "white_goods%1:06:01::"))
+(define x (WordNode "automatic_washer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "white_goods%1:06:01::"))
+(define x (WordNode "washing_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "white_goods%1:06:01::"))

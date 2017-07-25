@@ -1,0 +1,4 @@
+(define s (WordSenseNode "seclusion%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seclusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separation%1:04:00::"))
+(InheritanceLink (WordSenseNode "cocooning%1:04:00::") s)

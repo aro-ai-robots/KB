@@ -1,0 +1,4 @@
+(define s (WordSenseNode "kibbutz%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kibbutz")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collective_farm%1:14:00::"))
+(HolonymLink (WordSenseNode "kibbutznik%1:18:00::") s)

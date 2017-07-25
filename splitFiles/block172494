@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trigger%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trigger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))
+(InheritanceLink (WordSenseNode "plutonium_trigger%1:06:00::") s)
+(InheritanceLink (WordSenseNode "plutonium_pit%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hanger%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hanger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support%1:06:00::"))
+(InheritanceLink (WordSenseNode "coat_hanger%1:06:00::") s)
+(InheritanceLink (WordSenseNode "clothes_hanger%1:06:00::") s)
+(InheritanceLink (WordSenseNode "dress_hanger%1:06:00::") s)
+(InheritanceLink (WordSenseNode "strap%1:06:03::") s)

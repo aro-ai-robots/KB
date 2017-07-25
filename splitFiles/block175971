@@ -1,0 +1,7 @@
+(define s (WordSenseNode "universal%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "universal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%1:10:01::"))
+(InheritanceLink s (WordSenseNode "linguistic_rule%1:10:00::"))
+(define x (WordNode "linguistic_universal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%1:10:01::"))
+(InheritanceLink s (WordSenseNode "linguistic_rule%1:10:00::"))

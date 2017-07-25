@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nod%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inclination%1:04:00::"))
+(InheritanceLink s (WordSenseNode "inclining%1:04:00::"))
+(InheritanceLink (WordSenseNode "nutation%1:04:00::") s)

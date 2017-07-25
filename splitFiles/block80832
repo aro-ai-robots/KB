@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hipped_roof%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hip_roof")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roof%1:06:00::"))
+(HolonymLink (WordSenseNode "hip%1:25:00::") s)
+(define x (WordNode "hipped_roof")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roof%1:06:00::"))
+(HolonymLink (WordSenseNode "hip%1:25:00::") s)

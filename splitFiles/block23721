@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cakewalk%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cakewalk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accomplishment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "achievement%1:04:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sweep%2:42:10::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sweep")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:42:01::"))
+(InheritanceLink s (WordSenseNode "continue%2:42:06::"))
+(InheritanceLink s (WordSenseNode "extend%2:42:01::"))
+(InheritanceLink (WordSenseNode "rake%2:42:10::") s)

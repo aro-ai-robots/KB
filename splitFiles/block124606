@@ -1,0 +1,7 @@
+(define s (WordSenseNode "phytotherapy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phytotherapy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "therapy%1:04:00::"))
+(define x (WordNode "herbal_therapy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "therapy%1:04:00::"))
+(define x (WordNode "botanical_medicine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "therapy%1:04:00::"))

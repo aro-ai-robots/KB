@@ -1,0 +1,4 @@
+(define s (WordSenseNode "colostomy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colostomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ostomy%1:04:00::"))
+(HolonymLink (WordSenseNode "stoma%1:08:00::") s)

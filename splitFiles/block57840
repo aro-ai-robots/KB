@@ -1,0 +1,6 @@
+(define s (WordSenseNode "face-amount_certificate_company%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "face-amount_certificate_company")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "investment_company%1:14:00::"))
+(InheritanceLink s (WordSenseNode "investment_trust%1:14:00::"))
+(InheritanceLink s (WordSenseNode "investment_firm%1:14:00::"))
+(InheritanceLink s (WordSenseNode "fund%1:14:00::"))

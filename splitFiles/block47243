@@ -1,0 +1,4 @@
+(define s (WordSenseNode "discography%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "discography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "catalog%1:10:01::"))
+(InheritanceLink s (WordSenseNode "catalogue%1:10:01::"))

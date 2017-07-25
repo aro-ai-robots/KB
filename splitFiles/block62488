@@ -1,0 +1,6 @@
+(define s (WordSenseNode "flag_rank%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flag_rank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_rank%1:26:00::"))
+(InheritanceLink s (WordSenseNode "military_rating%1:26:00::"))
+(InheritanceLink s (WordSenseNode "paygrade%1:26:00::"))
+(InheritanceLink s (WordSenseNode "rating%1:26:02::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "digger_wasp%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "digger_wasp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sphecoid_wasp%1:05:00::"))
+(InheritanceLink s (WordSenseNode "sphecoid%1:05:00::"))
+(InheritanceLink (WordSenseNode "cicada_killer%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Sphecius_speciosis%1:05:00::") s)

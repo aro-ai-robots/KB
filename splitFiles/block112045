@@ -1,0 +1,5 @@
+(define s (WordSenseNode "neoprene%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neoprene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rubber%1:27:01::"))
+(InheritanceLink s (WordSenseNode "synthetic_rubber%1:27:00::"))
+(HolonymLink (WordSenseNode "chloroprene%1:27:00::") s)

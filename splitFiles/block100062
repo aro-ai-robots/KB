@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lpn%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "licensed_practical_nurse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nurse%1:18:00::"))
+(define x (WordNode "LPN")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nurse%1:18:00::"))
+(define x (WordNode "practical_nurse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nurse%1:18:00::"))

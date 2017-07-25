@@ -1,0 +1,4 @@
+(define s (WordSenseNode "life_mask%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "life_mask")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cast%1:06:00::"))
+(InheritanceLink s (WordSenseNode "casting%1:06:01::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "palliation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "palliation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "easing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "easement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "alleviation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "relief%1:04:01::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sea_coal%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sea_coal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bituminous_coal%1:27:00::"))
+(InheritanceLink s (WordSenseNode "soft_coal%1:27:00::"))

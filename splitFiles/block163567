@@ -1,0 +1,8 @@
+(define s (WordSenseNode "surveyor's_level%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "surveyor's_level")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surveying_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "surveyor's_instrument%1:06:00::"))
+(InheritanceLink (WordSenseNode "Abney_level%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Dumpy_level%1:06:00::") s)
+(HolonymLink (WordSenseNode "level%1:06:00::") s)
+(HolonymLink (WordSenseNode "spirit_level%1:06:00::") s)

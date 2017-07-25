@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dovecote%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dovecote")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "birdhouse%1:06:00::"))
+(define x (WordNode "columbarium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "birdhouse%1:06:00::"))
+(define x (WordNode "columbary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "birdhouse%1:06:00::"))

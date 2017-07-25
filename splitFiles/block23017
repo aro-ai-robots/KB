@@ -1,0 +1,7 @@
+(define s (WordSenseNode "butcher%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "butcher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))
+(InheritanceLink (WordSenseNode "chine%2:35:00::") s)
+(define x (WordNode "slaughter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))
+(InheritanceLink (WordSenseNode "chine%2:35:00::") s)

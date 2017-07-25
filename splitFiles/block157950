@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spur%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:25:00::"))
+(define x (WordNode "spine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:25:00::"))
+(define x (WordNode "acantha")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:25:00::"))

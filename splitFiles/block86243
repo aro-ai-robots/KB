@@ -1,0 +1,4 @@
+(define s (WordSenseNode "indian_race%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Indian_race")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "race%1:14:00::"))
+(HolonymLink (WordSenseNode "Indian%1:18:01::") s)

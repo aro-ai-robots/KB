@@ -1,0 +1,5 @@
+(define s (WordSenseNode "menhaden_oil%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "menhaden_oil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_oil%1:27:00::"))
+(HolonymLink s (WordSenseNode "menhaden%1:05:00::"))
+(HolonymLink s (WordSenseNode "Brevoortia_tyrannis%1:05:00::"))

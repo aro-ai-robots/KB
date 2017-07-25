@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hemothorax%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hemothorax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "congestion%1:26:00::"))
+(define x (WordNode "haemothorax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "congestion%1:26:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "powder_horn%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "powder_horn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "container%1:06:00::"))
+(define x (WordNode "powder_flask")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "container%1:06:00::"))

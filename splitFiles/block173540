@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tungusic%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Tungusic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Altaic%1:18:00::"))
+(InheritanceLink (WordSenseNode "Tungus%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Evenk%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Manchu%1:18:00::") s)

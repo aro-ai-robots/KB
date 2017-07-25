@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gauge_boson%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gauge_boson")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boson%1:17:00::"))
+(InheritanceLink (WordSenseNode "gluon%1:17:00::") s)
+(InheritanceLink (WordSenseNode "graviton%1:17:00::") s)
+(InheritanceLink (WordSenseNode "intermediate_vector_boson%1:17:00::") s)
+(InheritanceLink (WordSenseNode "photon%1:17:00::") s)

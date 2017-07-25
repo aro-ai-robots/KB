@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pang%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pain%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hurting%1:26:00::"))
+(InheritanceLink (WordSenseNode "birth_pangs%1:26:00::") s)
+(InheritanceLink (WordSenseNode "labor_pains%1:26:00::") s)
+(InheritanceLink (WordSenseNode "labour_pains%1:26:00::") s)
+(InheritanceLink (WordSenseNode "afterpains%1:26:00::") s)

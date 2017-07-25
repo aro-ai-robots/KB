@@ -1,0 +1,5 @@
+(define s (WordSenseNode "self-pollination%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-pollination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pollination%1:11:00::"))
+(InheritanceLink s (WordSenseNode "pollenation%1:11:00::"))
+(InheritanceLink (WordSenseNode "cleistogamy%1:11:00::") s)

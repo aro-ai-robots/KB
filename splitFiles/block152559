@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sit-down_strike%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sit-down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strike%1:04:00::"))
+(InheritanceLink s (WordSenseNode "work_stoppage%1:04:00::"))
+(define x (WordNode "sit-down_strike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strike%1:04:00::"))
+(InheritanceLink s (WordSenseNode "work_stoppage%1:04:00::"))

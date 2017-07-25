@@ -1,0 +1,5 @@
+(define s (WordSenseNode "erasure%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "erasure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:07:00::"))
+(InheritanceLink s (WordSenseNode "expanse%1:07:00::"))
+(InheritanceLink s (WordSenseNode "surface_area%1:07:00::"))

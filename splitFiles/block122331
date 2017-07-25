@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pelt%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_covering%1:08:00::"))
+(define x (WordNode "pelt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_covering%1:08:00::"))
+(define x (WordNode "skin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_covering%1:08:00::"))

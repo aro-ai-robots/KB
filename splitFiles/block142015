@@ -1,0 +1,4 @@
+(define s (WordSenseNode "roman_numeral%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Roman_numeral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "numeral%1:10:00::"))
+(InheritanceLink s (WordSenseNode "number%1:10:01::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "compare%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "compare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(InheritanceLink (WordSenseNode "go%2:42:10::") s)

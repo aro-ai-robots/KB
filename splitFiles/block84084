@@ -1,0 +1,5 @@
+(define s (WordSenseNode "iaa%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "indoleacetic_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "auxin%1:27:00::"))
+(define x (WordNode "IAA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "auxin%1:27:00::"))

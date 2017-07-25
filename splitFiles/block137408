@@ -1,0 +1,6 @@
+(define s (WordSenseNode "reduce%2:30:12::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reduce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "de-emphasize%2:30:00::"))
+(InheritanceLink s (WordSenseNode "de-emphasise%2:30:00::"))
+(InheritanceLink s (WordSenseNode "destress%2:30:00::"))
+(InheritanceLink (WordSenseNode "obscure%2:30:03::") s)

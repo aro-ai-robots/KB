@@ -1,0 +1,7 @@
+(define s (WordSenseNode "offering%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oblation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "giving%1:04:00::"))
+(InheritanceLink s (WordSenseNode "gift%1:04:00::"))
+(define x (WordNode "offering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "giving%1:04:00::"))
+(InheritanceLink s (WordSenseNode "gift%1:04:00::"))

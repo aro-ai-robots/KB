@@ -1,0 +1,7 @@
+(define s (WordSenseNode "incompatibility%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "incompatibility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "physiological_state%1:26:00::"))
+(InheritanceLink s (WordSenseNode "physiological_condition%1:26:00::"))
+(InheritanceLink (WordSenseNode "histoincompatibility%1:26:00::") s)
+(InheritanceLink (WordSenseNode "Rh_incompatibility%1:26:00::") s)

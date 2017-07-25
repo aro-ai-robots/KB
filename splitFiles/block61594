@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stabilizer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stabiliser%1:06:00::"))
+(InheritanceLink (WordSenseNode "vane%1:06:02::") s)
+(HolonymLink s (WordSenseNode "ship%1:06:00::"))

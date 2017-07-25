@@ -1,0 +1,8 @@
+(define s (WordSenseNode "nux_vomica%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nux_vomica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medicine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "medication%1:06:00::"))
+(InheritanceLink s (WordSenseNode "medicament%1:06:00::"))
+(InheritanceLink s (WordSenseNode "medicinal_drug%1:06:00::"))
+(HolonymLink (WordSenseNode "strychnine%1:27:00::") s)
+(HolonymLink (WordSenseNode "brucine%1:27:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "selective_information%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "information")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information_measure%1:23:00::"))
+(define x (WordNode "selective_information")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information_measure%1:23:00::"))
+(define x (WordNode "entropy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information_measure%1:23:00::"))

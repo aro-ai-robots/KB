@@ -1,0 +1,8 @@
+(define s (WordSenseNode "oil_cartel%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oil_cartel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trust%1:14:00::"))
+(InheritanceLink s (WordSenseNode "corporate_trust%1:14:00::"))
+(InheritanceLink s (WordSenseNode "combine%1:14:00::"))
+(InheritanceLink s (WordSenseNode "cartel%1:14:00::"))
+(InheritanceLink (WordSenseNode "Organization_of_Petroleum-Exporting_Countries%1:14:00::") s)
+(InheritanceLink (WordSenseNode "OPEC%1:14:00::") s)

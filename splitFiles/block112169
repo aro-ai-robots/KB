@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nerve_growth_factor%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nerve_growth_factor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "growth_factor%1:27:00::"))
+(define x (WordNode "NGF")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "growth_factor%1:27:00::"))

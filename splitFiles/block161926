@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sublimity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sublimity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nobility%1:07:00::"))
+(InheritanceLink s (WordSenseNode "nobleness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "magnanimousness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "grandeur%1:07:02::"))

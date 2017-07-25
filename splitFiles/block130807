@@ -1,0 +1,4 @@
+(define s (WordSenseNode "printout%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "printout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "output_signal%1:10:00::"))
+(InheritanceLink s (WordSenseNode "output%1:10:02::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genipa%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genipa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fruit_tree%1:20:00::"))
+(InheritanceLink (WordSenseNode "genipap_fruit%1:20:00::") s)
+(InheritanceLink (WordSenseNode "jagua%1:20:00::") s)
+(InheritanceLink (WordSenseNode "marmalade_box%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Genipa_Americana%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Genipa%1:20:00::"))

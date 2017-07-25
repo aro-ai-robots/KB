@@ -1,0 +1,6 @@
+(define s (WordSenseNode "provincial_capital%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "provincial_capital")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capital%1:15:00::"))
+(InheritanceLink s (WordSenseNode "city%1:15:00::"))
+(InheritanceLink s (WordSenseNode "metropolis%1:15:00::"))
+(InheritanceLink s (WordSenseNode "urban_center%1:15:00::"))

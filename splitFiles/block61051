@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fibrous_astrocyte%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fibrous_astrocyte")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astrocyte%1:08:00::"))
+(HolonymLink s (WordSenseNode "white_matter%1:08:00::"))
+(HolonymLink s (WordSenseNode "substantia_alba%1:08:00::"))

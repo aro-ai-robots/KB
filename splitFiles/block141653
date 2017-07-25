@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rock_crystal%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rock_crystal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quartz%1:27:00::"))
+(InheritanceLink (WordSenseNode "rhinestone%1:27:00::") s)
+(define x (WordNode "transparent_quartz")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quartz%1:27:00::"))
+(InheritanceLink (WordSenseNode "rhinestone%1:27:00::") s)

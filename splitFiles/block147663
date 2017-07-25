@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sector%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plane_figure%1:25:00::"))
+(InheritanceLink s (WordSenseNode "two-dimensional_figure%1:25:00::"))
+(HolonymLink (WordSenseNode "arc%1:25:00::") s)

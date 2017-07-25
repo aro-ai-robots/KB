@@ -1,0 +1,8 @@
+(define s (WordSenseNode "voodoo%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "voodoo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hex%2:32:00::"))
+(InheritanceLink s (WordSenseNode "bewitch%2:32:01::"))
+(InheritanceLink s (WordSenseNode "glamour%2:32:00::"))
+(InheritanceLink s (WordSenseNode "witch%2:32:00::"))
+(InheritanceLink s (WordSenseNode "enchant%2:32:01::"))
+(InheritanceLink s (WordSenseNode "jinx%2:32:02::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "annualry%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ring_finger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finger%1:08:00::"))
+(define x (WordNode "annualry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finger%1:08:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "solar_thermal_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "solar_thermal_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "system%1:06:00::"))
+(HolonymLink (WordSenseNode "solar_dish%1:06:00::") s)
+(HolonymLink (WordSenseNode "solar_collector%1:06:00::") s)
+(HolonymLink (WordSenseNode "solar_furnace%1:06:00::") s)

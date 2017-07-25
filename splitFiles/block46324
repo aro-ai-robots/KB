@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dieting%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fast%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fasting%1:04:00::"))
+(define x (WordNode "dieting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fast%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fasting%1:04:00::"))

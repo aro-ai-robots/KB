@@ -1,0 +1,5 @@
+(define s (WordSenseNode "furring%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "furring_strip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strip%1:06:03::"))
+(define x (WordNode "furring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strip%1:06:03::"))

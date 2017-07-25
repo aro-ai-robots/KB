@@ -1,0 +1,6 @@
+(define s (WordSenseNode "a-scan_ultrasonography%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "A-scan_ultrasonography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sonography%1:04:00::"))
+(InheritanceLink s (WordSenseNode "ultrasonography%1:04:00::"))
+(InheritanceLink s (WordSenseNode "echography%1:04:00::"))
+(InheritanceLink s (WordSenseNode "ultrasound%1:04:00::"))

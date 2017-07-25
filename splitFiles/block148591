@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sensorium%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sensorium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cortical_area%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cortical_region%1:08:00::"))

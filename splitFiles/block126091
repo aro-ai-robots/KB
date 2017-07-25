@@ -1,0 +1,7 @@
+(define s (WordSenseNode "plague%2:43:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "blight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "afflict%2:30:00::"))
+(InheritanceLink s (WordSenseNode "smite%2:30:00::"))
+(define x (WordNode "plague")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "afflict%2:30:00::"))
+(InheritanceLink s (WordSenseNode "smite%2:30:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "grand_dragon%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grand_dragon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "head%1:18:00::"))
+(InheritanceLink s (WordSenseNode "chief%1:18:00::"))
+(InheritanceLink s (WordSenseNode "top_dog%1:18:00::"))
+(HolonymLink s (WordSenseNode "Ku_Klux_Klan%1:14:00::"))
+(HolonymLink s (WordSenseNode "Klan%1:14:00::"))
+(HolonymLink s (WordSenseNode "KKK%1:14:00::"))

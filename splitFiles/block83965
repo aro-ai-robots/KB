@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hypoplastic_anemia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypoplastic_anemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "anaemia%1:26:00::"))
+(define x (WordNode "hypoplastic_anaemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "anaemia%1:26:00::"))

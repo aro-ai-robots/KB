@@ -1,0 +1,4 @@
+(define s (WordSenseNode "epiphysis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epiphysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "long_bone%1:08:00::"))
+(InheritanceLink s (WordSenseNode "os_longum%1:08:00::"))

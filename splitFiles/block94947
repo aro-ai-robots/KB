@@ -1,0 +1,7 @@
+(define s (WordSenseNode "larvacean%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "larvacean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tunicate%1:05:00::"))
+(InheritanceLink s (WordSenseNode "urochordate%1:05:00::"))
+(InheritanceLink s (WordSenseNode "urochord%1:05:02::"))
+(HolonymLink s (WordSenseNode "Larvacea%1:05:00::"))
+(HolonymLink s (WordSenseNode "class_Larvacea%1:05:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "seal%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "seal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "close%2:35:11::"))
+(InheritanceLink s (WordSenseNode "fill_up%2:35:03::"))

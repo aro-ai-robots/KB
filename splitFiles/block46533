@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dika_bread%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dika_bread")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "food%1:13:00::"))
+(InheritanceLink s (WordSenseNode "solid_food%1:13:00::"))
+(HolonymLink (WordSenseNode "dika_nut%1:13:00::") s)

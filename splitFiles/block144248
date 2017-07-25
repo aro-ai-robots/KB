@@ -1,0 +1,7 @@
+(define s (WordSenseNode "saline_solution%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "saline_solution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "isotonic_solution%1:27:00::"))
+(InheritanceLink s (WordSenseNode "isosmotic_solution%1:27:00::"))
+(define x (WordNode "saline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "isotonic_solution%1:27:00::"))
+(InheritanceLink s (WordSenseNode "isosmotic_solution%1:27:00::"))

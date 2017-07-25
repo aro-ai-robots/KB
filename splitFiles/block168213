@@ -1,0 +1,7 @@
+(define s (WordSenseNode "theurgy%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "theurgy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "causal_agent%1:03:00::"))
+(InheritanceLink s (WordSenseNode "cause%1:03:00::"))
+(InheritanceLink s (WordSenseNode "causal_agency%1:03:00::"))
+(HolonymLink s (WordSenseNode "supernatural%1:18:00::"))
+(HolonymLink s (WordSenseNode "occult%1:18:00::"))

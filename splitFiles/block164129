@@ -1,0 +1,7 @@
+(define s (WordSenseNode "swietinia_macrophylla%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Honduras_mahogany")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mahogany%1:20:00::"))
+(InheritanceLink s (WordSenseNode "mahogany_tree%1:20:00::"))
+(define x (WordNode "Swietinia_macrophylla")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mahogany%1:20:00::"))
+(InheritanceLink s (WordSenseNode "mahogany_tree%1:20:00::"))

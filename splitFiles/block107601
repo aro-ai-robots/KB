@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mock-heroic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mock-heroic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caricature%1:10:00::"))
+(InheritanceLink s (WordSenseNode "imitation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "impersonation%1:10:00::"))

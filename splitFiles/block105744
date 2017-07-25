@@ -1,0 +1,6 @@
+(define s (WordSenseNode "methanogen%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "methanogen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "archaebacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "archaebacterium%1:05:00::"))
+(InheritanceLink s (WordSenseNode "archaeobacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "archeobacteria%1:05:00::"))

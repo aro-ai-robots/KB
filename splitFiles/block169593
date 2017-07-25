@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tin_pyrites%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stannite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mineral%1:27:00::"))
+(define x (WordNode "tin_pyrites")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mineral%1:27:00::"))

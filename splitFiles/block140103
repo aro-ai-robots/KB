@@ -1,0 +1,7 @@
+(define s (WordSenseNode "review%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "review")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proceeding%1:04:00::"))
+(InheritanceLink s (WordSenseNode "legal_proceeding%1:04:00::"))
+(InheritanceLink s (WordSenseNode "proceedings%1:04:00::"))
+(InheritanceLink (WordSenseNode "bill_of_review%1:04:00::") s)
+(InheritanceLink (WordSenseNode "judicial_review%1:04:00::") s)

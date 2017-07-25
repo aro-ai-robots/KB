@@ -1,0 +1,7 @@
+(define s (WordSenseNode "air_embolism%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "air_embolism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embolism%1:26:00::"))
+(define x (WordNode "aeroembolism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embolism%1:26:00::"))
+(define x (WordNode "gas_embolism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embolism%1:26:00::"))

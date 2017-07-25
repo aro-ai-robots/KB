@@ -1,0 +1,7 @@
+(define s (WordSenseNode "referee%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "referee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "review%2:32:00::"))
+(InheritanceLink s (WordSenseNode "critique%2:32:00::"))
+(define x (WordNode "peer_review")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "review%2:32:00::"))
+(InheritanceLink s (WordSenseNode "critique%2:32:00::"))

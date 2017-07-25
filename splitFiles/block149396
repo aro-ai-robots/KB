@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sewer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sewer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "needleworker%1:18:00::"))
+(InheritanceLink (WordSenseNode "baster%1:18:00::") s)
+(InheritanceLink (WordSenseNode "tacker%1:18:00::") s)
+(InheritanceLink (WordSenseNode "sewing-machine_operator%1:18:00::") s)
+(InheritanceLink (WordSenseNode "tucker%1:18:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cheese_cutter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cheese_cutter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_utensil%1:06:00::"))
+(HolonymLink (WordSenseNode "handle%1:06:00::") s)
+(HolonymLink (WordSenseNode "grip%1:06:01::") s)
+(HolonymLink (WordSenseNode "handgrip%1:06:00::") s)
+(HolonymLink (WordSenseNode "hold%1:06:00::") s)

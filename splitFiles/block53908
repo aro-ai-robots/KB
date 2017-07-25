@@ -1,0 +1,8 @@
+(define s (WordSenseNode "endlessness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "endlessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "duration%1:07:00::"))
+(InheritanceLink s (WordSenseNode "length%1:07:01::"))
+(InheritanceLink (WordSenseNode "continuousness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "ceaselessness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "incessancy%1:07:00::") s)
+(InheritanceLink (WordSenseNode "incessantness%1:07:00::") s)

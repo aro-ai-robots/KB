@@ -1,0 +1,4 @@
+(define s (WordSenseNode "visible_speech%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "visible_speech")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spectrogram%1:06:00::"))
+(InheritanceLink s (WordSenseNode "spectrograph%1:06:01::"))

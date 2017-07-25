@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cross-link%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cross-link")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "join%2:35:00::"))
+(InheritanceLink s (WordSenseNode "conjoin%2:35:00::"))

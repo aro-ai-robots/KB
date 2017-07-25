@@ -1,0 +1,4 @@
+(define s (WordSenseNode "arnica%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arnica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tincture%1:06:00::"))
+(HolonymLink s (WordSenseNode "Arnica_montana%1:20:00::"))

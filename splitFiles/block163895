@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sweat_duct%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sweat_duct")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ductule%1:08:00::"))
+(InheritanceLink s (WordSenseNode "ductulus%1:08:00::"))

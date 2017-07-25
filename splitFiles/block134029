@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quake%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "quiver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tremble%2:38:00::"))
+(define x (WordNode "quake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tremble%2:38:00::"))
+(define x (WordNode "palpitate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tremble%2:38:00::"))

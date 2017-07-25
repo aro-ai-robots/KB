@@ -1,0 +1,7 @@
+(define s (WordSenseNode "radar_echo%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radar_echo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_signal%1:10:00::"))
+(InheritanceLink (WordSenseNode "blip%1:10:00::") s)
+(InheritanceLink (WordSenseNode "pip%1:10:01::") s)
+(InheritanceLink (WordSenseNode "radar_target%1:10:00::") s)
+(InheritanceLink (WordSenseNode "clutter%1:10:00::") s)

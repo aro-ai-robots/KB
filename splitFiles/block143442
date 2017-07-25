@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rust%1:26:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_disease%1:26:00::"))
+(InheritanceLink (WordSenseNode "blister_rust%1:26:00::") s)
+(InheritanceLink (WordSenseNode "white-pine_rust%1:26:00::") s)
+(InheritanceLink (WordSenseNode "white_pine_blister_rust%1:26:00::") s)

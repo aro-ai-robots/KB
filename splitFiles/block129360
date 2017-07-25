@@ -1,0 +1,7 @@
+(define s (WordSenseNode "power_politics%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "power_politics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diplomacy%1:10:00::"))
+(InheritanceLink s (WordSenseNode "diplomatic_negotiations%1:10:00::"))
+(define x (WordNode "gunboat_diplomacy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diplomacy%1:10:00::"))
+(InheritanceLink s (WordSenseNode "diplomatic_negotiations%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "openbill%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "openbill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stork%1:05:00::"))
+(HolonymLink s (WordSenseNode "Anastomus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Anastomus%1:05:00::"))

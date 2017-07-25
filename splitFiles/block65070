@@ -1,0 +1,5 @@
+(define s (WordSenseNode "frame%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frame")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))
+(define x (WordNode "framing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))

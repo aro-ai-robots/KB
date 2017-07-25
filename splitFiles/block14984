@@ -1,0 +1,7 @@
+(define s (WordSenseNode "become_flat%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "die")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "pall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "become_flat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))

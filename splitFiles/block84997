@@ -1,0 +1,8 @@
+(define s (WordSenseNode "impact%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "impact")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contact%1:11:00::"))
+(InheritanceLink s (WordSenseNode "impinging%1:11:00::"))
+(InheritanceLink s (WordSenseNode "striking%1:11:00::"))
+(InheritanceLink (WordSenseNode "blow%1:11:00::") s)
+(InheritanceLink (WordSenseNode "bump%1:11:00::") s)
+(InheritanceLink (WordSenseNode "slam%1:11:01::") s)

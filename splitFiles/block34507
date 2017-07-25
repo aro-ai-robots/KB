@@ -1,0 +1,6 @@
+(define s (WordSenseNode "comity%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "comity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harmony%1:26:00::"))
+(InheritanceLink s (WordSenseNode "concord%1:26:00::"))
+(InheritanceLink s (WordSenseNode "concordance%1:26:00::"))
+(InheritanceLink (WordSenseNode "comity_of_nations%1:26:00::") s)

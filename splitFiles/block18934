@@ -1,0 +1,5 @@
+(define s (WordSenseNode "boilerplate%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boilerplate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formulation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "expression%1:10:01::"))
+(HolonymLink s (WordSenseNode "contract%1:10:00::"))

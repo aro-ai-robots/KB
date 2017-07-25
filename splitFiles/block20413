@@ -1,0 +1,5 @@
+(define s (WordSenseNode "branch%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ramify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grow%2:30:00::"))
+(define x (WordNode "branch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grow%2:30:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "htlv-1%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "human_T-cell_leukemia_virus-1")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retrovirus%1:05:00::"))
+(define x (WordNode "HTLV-1")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retrovirus%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ten-strike%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "score%1:04:00::"))
+(define x (WordNode "ten-strike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "score%1:04:00::"))

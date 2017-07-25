@@ -1,0 +1,8 @@
+(define s (WordSenseNode "streptomyces%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "streptomyces")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "actinomycete%1:05:00::"))
+(InheritanceLink (WordSenseNode "Streptomyces_erythreus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Streptomyces_griseus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "potato_scab_bacteria%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Streptomyces_scabies%1:05:00::") s)
+(HolonymLink s (WordSenseNode "genus_Streptomyces%1:05:00::"))

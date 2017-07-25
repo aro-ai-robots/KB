@@ -1,0 +1,7 @@
+(define s (WordSenseNode "numerical_value%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "absolute_value")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "definite_quantity%1:23:00::"))
+(InheritanceLink (WordSenseNode "modulus%1:23:01::") s)
+(define x (WordNode "numerical_value")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "definite_quantity%1:23:00::"))
+(InheritanceLink (WordSenseNode "modulus%1:23:01::") s)

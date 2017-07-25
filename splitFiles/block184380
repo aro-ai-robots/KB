@@ -1,0 +1,7 @@
+(define s (WordSenseNode "woman_hater%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "misogynist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misanthrope%1:18:00::"))
+(InheritanceLink s (WordSenseNode "misanthropist%1:18:00::"))
+(define x (WordNode "woman_hater")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misanthrope%1:18:00::"))
+(InheritanceLink s (WordSenseNode "misanthropist%1:18:00::"))

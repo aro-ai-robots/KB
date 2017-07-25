@@ -1,0 +1,7 @@
+(define s (WordSenseNode "osmanli%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ottoman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Turk%1:18:00::"))
+(define x (WordNode "Ottoman_Turk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Turk%1:18:00::"))
+(define x (WordNode "Osmanli")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Turk%1:18:00::"))

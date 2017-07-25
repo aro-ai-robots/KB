@@ -1,0 +1,6 @@
+(define s (WordSenseNode "caladium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caladium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arum%1:20:01::"))
+(InheritanceLink s (WordSenseNode "aroid%1:20:00::"))
+(InheritanceLink (WordSenseNode "Caladium_bicolor%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Caladium%1:20:00::"))

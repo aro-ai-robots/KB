@@ -1,0 +1,5 @@
+(define s (WordSenseNode "estazolam%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "estazolam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "benzodiazepine%1:06:00::"))
+(define x (WordNode "ProSom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "benzodiazepine%1:06:00::"))

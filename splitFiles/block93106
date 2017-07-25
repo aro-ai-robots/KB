@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kinsman%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kinsman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relative%1:18:00::"))
+(InheritanceLink s (WordSenseNode "relation%1:18:00::"))
+(InheritanceLink (WordSenseNode "male_sibling%1:18:00::") s)
+(InheritanceLink (WordSenseNode "nephew%1:18:00::") s)
+(InheritanceLink (WordSenseNode "uncle%1:18:00::") s)

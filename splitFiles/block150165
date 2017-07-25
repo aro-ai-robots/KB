@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shelterbelt%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "windbreak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hedge%1:06:00::"))
+(InheritanceLink s (WordSenseNode "hedgerow%1:06:00::"))
+(define x (WordNode "shelterbelt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hedge%1:06:00::"))
+(InheritanceLink s (WordSenseNode "hedgerow%1:06:00::"))

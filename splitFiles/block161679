@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subarachnoid_space%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subarachnoid_space")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "space%1:25:00::"))
+(HolonymLink s (WordSenseNode "meninx%1:08:00::"))
+(HolonymLink s (WordSenseNode "meninges%1:08:00::"))

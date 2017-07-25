@@ -1,0 +1,8 @@
+(define s (WordSenseNode "activator%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "activator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:00::"))
+(InheritanceLink (WordSenseNode "activating_agent%1:27:00::") s)
+(InheritanceLink (WordSenseNode "catalyst%1:27:00::") s)
+(InheritanceLink (WordSenseNode "accelerator%1:27:00::") s)
+(InheritanceLink (WordSenseNode "sensitizer%1:27:00::") s)
+(InheritanceLink (WordSenseNode "sensitiser%1:27:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vote_down%2:41:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "turn_thumbs_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vote%2:41:13::"))
+(define x (WordNode "vote_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vote%2:41:13::"))

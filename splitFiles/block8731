@@ -1,0 +1,7 @@
+(define s (WordSenseNode "area_of_cardiac_dullness%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "area_of_cardiac_dullness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:08:00::"))
+(InheritanceLink s (WordSenseNode "region%1:08:00::"))
+(HolonymLink s (WordSenseNode "thorax%1:08:01::"))
+(HolonymLink s (WordSenseNode "chest%1:08:00::"))
+(HolonymLink s (WordSenseNode "pectus%1:08:00::"))

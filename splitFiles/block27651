@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cellulite%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cellulite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adipose_tissue%1:08:00::"))
+(InheritanceLink s (WordSenseNode "fat%1:08:00::"))
+(InheritanceLink s (WordSenseNode "fatty_tissue%1:08:00::"))

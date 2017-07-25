@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dosage%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indefinite_quantity%1:23:00::"))
+(define x (WordNode "dosage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indefinite_quantity%1:23:00::"))

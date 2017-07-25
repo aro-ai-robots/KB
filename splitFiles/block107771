@@ -1,0 +1,8 @@
+(define s (WordSenseNode "module%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "module")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "component%1:06:00::"))
+(InheritanceLink s (WordSenseNode "constituent%1:06:00::"))
+(InheritanceLink s (WordSenseNode "element%1:06:00::"))
+(InheritanceLink (WordSenseNode "cartridge%1:06:03::") s)
+(InheritanceLink (WordSenseNode "power_module%1:06:00::") s)
+(HolonymLink s (WordSenseNode "system%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spelaeology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "speleology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geology%1:09:00::"))
+(define x (WordNode "spelaeology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geology%1:09:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ventricular_septal_defect%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ventricular_septal_defect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "septal_defect%1:26:00::"))
+(HolonymLink s (WordSenseNode "tetralogy_of_Fallot%1:26:00::"))
+(HolonymLink s (WordSenseNode "Fallot's_tetralogy%1:26:00::"))
+(HolonymLink s (WordSenseNode "Fallot's_syndrome%1:26:00::"))

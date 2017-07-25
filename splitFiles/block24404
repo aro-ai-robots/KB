@@ -1,0 +1,7 @@
+(define s (WordSenseNode "camomile_tea%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "camomile_tea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tisane%1:13:00::"))
+(HolonymLink (WordSenseNode "chamomile%1:20:00::") s)
+(HolonymLink (WordSenseNode "camomile%1:20:00::") s)
+(HolonymLink (WordSenseNode "Chamaemelum_nobilis%1:20:00::") s)
+(HolonymLink (WordSenseNode "Anthemis_nobilis%1:20:00::") s)

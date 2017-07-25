@@ -1,0 +1,7 @@
+(define s (WordSenseNode "free_grace%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beneficence%1:07:00::"))
+(define x (WordNode "grace_of_God")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beneficence%1:07:00::"))
+(define x (WordNode "free_grace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beneficence%1:07:00::"))

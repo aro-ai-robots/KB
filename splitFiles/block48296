@@ -1,0 +1,5 @@
+(define s (WordSenseNode "diverticulum%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diverticulum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hernia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "herniation%1:26:00::"))
+(InheritanceLink (WordSenseNode "Meckel's_diverticulum%1:26:00::") s)

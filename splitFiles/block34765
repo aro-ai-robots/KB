@@ -1,0 +1,5 @@
+(define s (WordSenseNode "common_chord%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_chord")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chord%1:10:00::"))
+(define x (WordNode "triad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chord%1:10:00::"))

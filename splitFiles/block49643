@@ -1,0 +1,8 @@
+(define s (WordSenseNode "drafting_instrument%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drafting_instrument")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "instrument%1:06:00::"))
+(InheritanceLink (WordSenseNode "compass%1:06:01::") s)
+(InheritanceLink (WordSenseNode "divider%1:06:01::") s)
+(InheritanceLink (WordSenseNode "protractor%1:06:00::") s)
+(InheritanceLink (WordSenseNode "triangle%1:06:01::") s)
+(InheritanceLink (WordSenseNode "T-square%1:06:00::") s)

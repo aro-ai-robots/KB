@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bonito%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bonito")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tuna%1:13:00::"))
+(InheritanceLink s (WordSenseNode "tuna_fish%1:13:00::"))
+(InheritanceLink s (WordSenseNode "tunny%1:13:00::"))
+(HolonymLink s (WordSenseNode "bonito%1:05:01::"))

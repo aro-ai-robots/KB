@@ -1,0 +1,7 @@
+(define s (WordSenseNode "underestimate%2:31:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "underestimate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misjudge%2:31:00::"))
+(InheritanceLink (WordSenseNode "sell_short%2:31:00::") s)
+(define x (WordNode "underrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misjudge%2:31:00::"))
+(InheritanceLink (WordSenseNode "sell_short%2:31:00::") s)

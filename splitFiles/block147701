@@ -1,0 +1,5 @@
+(define s (WordSenseNode "securities_and_exchange_commission%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Securities_and_Exchange_Commission")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "independent_agency%1:14:00::"))
+(define x (WordNode "SEC")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "independent_agency%1:14:00::"))

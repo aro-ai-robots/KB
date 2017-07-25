@@ -1,0 +1,7 @@
+(define s (WordSenseNode "colon%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Costa_Rican_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centimo%1:23:00::") s)
+(define x (WordNode "Costa_Rican_colon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Costa_Rican_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centimo%1:23:00::") s)

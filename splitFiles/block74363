@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gorger%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scoffer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eater%1:18:00::"))
+(InheritanceLink s (WordSenseNode "feeder%1:18:00::"))
+(define x (WordNode "gorger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eater%1:18:00::"))
+(InheritanceLink s (WordSenseNode "feeder%1:18:00::"))

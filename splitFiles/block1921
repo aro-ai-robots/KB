@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ada-scid%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ADA-SCID")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "severe_combined_immunodeficiency%1:26:00::"))
+(InheritanceLink s (WordSenseNode "severe_combined_immunodeficiency_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "SCID%1:26:00::"))

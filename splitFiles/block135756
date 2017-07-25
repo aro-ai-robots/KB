@@ -1,0 +1,5 @@
+(define s (WordSenseNode "raptus_hemorrhagicus%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "raptus_hemorrhagicus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seizure%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ictus%1:26:00::"))
+(InheritanceLink s (WordSenseNode "raptus%1:26:01::"))

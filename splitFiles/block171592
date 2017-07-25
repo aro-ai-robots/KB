@@ -1,0 +1,7 @@
+(define s (WordSenseNode "transient_ischemic_attack%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transient_ischemic_attack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ischemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ischaemia%1:26:00::"))
+(define x (WordNode "TIA")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ischemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ischaemia%1:26:00::"))

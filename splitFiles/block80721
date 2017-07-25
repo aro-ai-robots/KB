@@ -1,0 +1,6 @@
+(define s (WordSenseNode "himalayish%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Himalayish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tibeto-Burman%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Tibeto-Burman_language%1:10:00::"))
+(InheritanceLink (WordSenseNode "Tibetan%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Newari%1:10:00::") s)

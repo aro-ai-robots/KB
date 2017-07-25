@@ -1,0 +1,5 @@
+(define s (WordSenseNode "interphalangeal_joint%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interphalangeal_joint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hinge_joint%1:08:00::"))
+(InheritanceLink s (WordSenseNode "ginglymus%1:08:00::"))
+(InheritanceLink s (WordSenseNode "ginglymoid_joint%1:08:00::"))

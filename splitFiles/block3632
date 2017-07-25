@@ -1,0 +1,7 @@
+(define s (WordSenseNode "airline%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "airline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hose%1:06:01::"))
+(InheritanceLink s (WordSenseNode "hosepipe%1:06:00::"))
+(define x (WordNode "air_hose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hose%1:06:01::"))
+(InheritanceLink s (WordSenseNode "hosepipe%1:06:00::"))

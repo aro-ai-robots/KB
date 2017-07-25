@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ephedra_sinica%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mahuang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ephedra%1:20:00::"))
+(InheritanceLink s (WordSenseNode "joint_fir%1:20:01::"))
+(define x (WordNode "Ephedra_sinica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ephedra%1:20:00::"))
+(InheritanceLink s (WordSenseNode "joint_fir%1:20:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jump_ball%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jump_ball")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beginning%1:04:00::"))
+(InheritanceLink s (WordSenseNode "start%1:04:00::"))
+(InheritanceLink s (WordSenseNode "commencement%1:04:00::"))
+(InheritanceLink (WordSenseNode "tip-off%1:04:00::") s)
+(InheritanceLink (WordSenseNode "tap-off%1:04:00::") s)

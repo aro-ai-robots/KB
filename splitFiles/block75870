@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gross_margin%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "margin_of_profit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))
+(define x (WordNode "profit_margin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))
+(define x (WordNode "gross_margin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))

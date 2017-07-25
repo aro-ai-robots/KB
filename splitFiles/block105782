@@ -1,0 +1,5 @@
+(define s (WordSenseNode "methyl_ethyl_ketone%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "butanone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ketone%1:27:00::"))
+(define x (WordNode "methyl_ethyl_ketone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ketone%1:27:00::"))

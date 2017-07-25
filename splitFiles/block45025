@@ -1,0 +1,5 @@
+(define s (WordSenseNode "depth_finder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "depth_finder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "navigational_instrument%1:06:00::"))
+(InheritanceLink (WordSenseNode "sonic_depth_finder%1:06:00::") s)
+(InheritanceLink (WordSenseNode "fathometer%1:06:00::") s)

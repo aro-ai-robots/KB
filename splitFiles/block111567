@@ -1,0 +1,8 @@
+(define s (WordSenseNode "navy_cross%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Navy_Cross")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decoration%1:10:00::"))
+(InheritanceLink s (WordSenseNode "laurel_wreath%1:10:00::"))
+(InheritanceLink s (WordSenseNode "medal%1:10:00::"))
+(InheritanceLink s (WordSenseNode "medallion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "palm%1:10:00::"))
+(InheritanceLink s (WordSenseNode "ribbon%1:10:00::"))

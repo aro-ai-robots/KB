@@ -1,0 +1,5 @@
+(define s (WordSenseNode "truant%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "truant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "absentee%1:18:00::"))
+(define x (WordNode "hooky_player")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "absentee%1:18:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cleat%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cleat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:06:00::"))
+(InheritanceLink (WordSenseNode "calk%1:06:00::") s)
+(InheritanceLink (WordSenseNode "calkin%1:06:00::") s)
+(HolonymLink s (WordSenseNode "cleats%1:06:00::"))

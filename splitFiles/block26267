@@ -1,0 +1,8 @@
+(define s (WordSenseNode "carrier%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carrier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rack%1:06:01::"))
+(InheritanceLink (WordSenseNode "bomb_rack%1:06:00::") s)
+(InheritanceLink (WordSenseNode "luggage_carrier%1:06:00::") s)
+(InheritanceLink (WordSenseNode "luggage_rack%1:06:00::") s)
+(InheritanceLink (WordSenseNode "roof_rack%1:06:00::") s)
+(InheritanceLink (WordSenseNode "ski_rack%1:06:00::") s)

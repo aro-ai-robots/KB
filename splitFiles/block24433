@@ -1,0 +1,7 @@
+(define s (WordSenseNode "campaign%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "campaign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expedition%1:04:00::"))
+(define x (WordNode "hunting_expedition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expedition%1:04:00::"))
+(define x (WordNode "safari")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expedition%1:04:00::"))

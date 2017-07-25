@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flick%2:43:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "flicker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shine%2:43:00::"))
+(InheritanceLink s (WordSenseNode "beam%2:43:03::"))
+(define x (WordNode "flick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shine%2:43:00::"))
+(InheritanceLink s (WordSenseNode "beam%2:43:03::"))

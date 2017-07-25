@@ -1,0 +1,7 @@
+(define s (WordSenseNode "beater%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beater")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implement%1:06:00::"))
+(InheritanceLink (WordSenseNode "carpet_beater%1:06:00::") s)
+(InheritanceLink (WordSenseNode "rug_beater%1:06:00::") s)
+(InheritanceLink (WordSenseNode "eggbeater%1:06:00::") s)
+(InheritanceLink (WordSenseNode "eggwhisk%1:06:00::") s)

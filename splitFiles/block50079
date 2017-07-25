@@ -1,0 +1,6 @@
+(define s (WordSenseNode "driftage%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "driftage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deviation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "divergence%1:11:00::"))
+(InheritanceLink s (WordSenseNode "departure%1:11:01::"))
+(InheritanceLink s (WordSenseNode "difference%1:11:00::"))

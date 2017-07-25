@@ -1,0 +1,6 @@
+(define s (WordSenseNode "red_currant%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "red_currant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "currant%1:13:01::"))
+(HolonymLink s (WordSenseNode "red_currant%1:20:00::"))
+(HolonymLink s (WordSenseNode "garden_current%1:20:00::"))
+(HolonymLink s (WordSenseNode "Ribes_rubrum%1:20:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "oxford%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Oxford_University")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Oxford%1:15:00::"))
+(define x (WordNode "Oxford")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Oxford%1:15:00::"))

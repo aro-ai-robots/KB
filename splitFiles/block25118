@@ -1,0 +1,7 @@
+(define s (WordSenseNode "capillary_fracture%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hairline_fracture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fracture%1:26:00::"))
+(InheritanceLink s (WordSenseNode "break%1:26:00::"))
+(define x (WordNode "capillary_fracture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fracture%1:26:00::"))
+(InheritanceLink s (WordSenseNode "break%1:26:00::"))

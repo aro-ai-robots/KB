@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ground_swell%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ground_swell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swell%1:11:00::"))
+(InheritanceLink s (WordSenseNode "crestless_wave%1:11:00::"))
+(define x (WordNode "heavy_swell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swell%1:11:00::"))
+(InheritanceLink s (WordSenseNode "crestless_wave%1:11:00::"))

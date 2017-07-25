@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bits_per_inch%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bits_per_inch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "density%1:07:00::"))
+(InheritanceLink s (WordSenseNode "denseness%1:07:00::"))
+(define x (WordNode "bpi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "density%1:07:00::"))
+(InheritanceLink s (WordSenseNode "denseness%1:07:00::"))

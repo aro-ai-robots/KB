@@ -1,0 +1,4 @@
+(define s (WordSenseNode "review%1:10:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "review")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "periodical%1:10:00::"))
+(InheritanceLink (WordSenseNode "literary_review%1:10:00::") s)

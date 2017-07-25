@@ -1,0 +1,5 @@
+(define s (WordSenseNode "amphiboly%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amphibology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ambiguity%1:10:00::"))
+(define x (WordNode "amphiboly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ambiguity%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sion%1:15:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Zion")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Jerusalem%1:15:00::"))
+(HolonymLink s (WordSenseNode "capital_of_Israel%1:15:00::"))
+(define x (WordNode "Sion")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Jerusalem%1:15:00::"))
+(HolonymLink s (WordSenseNode "capital_of_Israel%1:15:00::"))

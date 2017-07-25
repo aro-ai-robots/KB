@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sperm_count%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sperm_count")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "count%1:04:00::"))
+(InheritanceLink s (WordSenseNode "counting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "numeration%1:04:00::"))
+(InheritanceLink s (WordSenseNode "enumeration%1:04:00::"))
+(InheritanceLink s (WordSenseNode "reckoning%1:04:01::"))
+(InheritanceLink s (WordSenseNode "tally%1:04:00::"))

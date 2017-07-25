@@ -1,0 +1,6 @@
+(define s (WordSenseNode "contention%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "contention")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assertion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "averment%1:10:00::"))
+(InheritanceLink s (WordSenseNode "asseveration%1:10:00::"))
+(InheritanceLink (WordSenseNode "submission%1:10:03::") s)

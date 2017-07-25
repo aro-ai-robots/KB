@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cardium_edule%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "edible_cockle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cockle%1:05:00::"))
+(HolonymLink (WordSenseNode "cockle%1:13:00::") s)
+(define x (WordNode "Cardium_edule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cockle%1:05:00::"))
+(HolonymLink (WordSenseNode "cockle%1:13:00::") s)

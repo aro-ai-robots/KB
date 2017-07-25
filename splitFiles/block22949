@@ -1,0 +1,7 @@
+(define s (WordSenseNode "business_relation%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "business_relation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relation%1:03:00::"))
+(InheritanceLink (WordSenseNode "competition%1:24:01::") s)
+(InheritanceLink (WordSenseNode "clientage%1:24:00::") s)
+(HolonymLink (WordSenseNode "customer%1:18:00::") s)
+(HolonymLink (WordSenseNode "client%1:18:01::") s)

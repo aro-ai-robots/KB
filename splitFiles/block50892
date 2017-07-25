@@ -1,0 +1,6 @@
+(define s (WordSenseNode "dungeness_crab%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dungeness_crab")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crab%1:13:00::"))
+(InheritanceLink s (WordSenseNode "crabmeat%1:13:00::"))
+(HolonymLink s (WordSenseNode "Dungeness_crab%1:05:00::"))
+(HolonymLink s (WordSenseNode "Cancer_magister%1:05:00::"))

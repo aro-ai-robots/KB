@@ -1,0 +1,5 @@
+(define s (WordSenseNode "suburbanise%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "suburbanize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "suburbanise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))

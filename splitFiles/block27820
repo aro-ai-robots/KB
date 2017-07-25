@@ -1,0 +1,7 @@
+(define s (WordSenseNode "centigrade_scale%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Celsius_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature_scale%1:24:00::"))
+(define x (WordNode "international_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature_scale%1:24:00::"))
+(define x (WordNode "centigrade_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "temperature_scale%1:24:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "purposefulness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purposefulness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meaningfulness%1:07:00::"))
+(define x (WordNode "sense_of_purpose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meaningfulness%1:07:00::"))

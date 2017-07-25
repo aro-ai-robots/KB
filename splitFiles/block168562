@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thoracocentesis%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thoracocentesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centesis%1:04:00::"))
+(define x (WordNode "thoracentesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centesis%1:04:00::"))

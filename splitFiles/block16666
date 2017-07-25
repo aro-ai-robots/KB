@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bimetallic_strip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bimetallic_strip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))
+(HolonymLink s (WordSenseNode "thermostat%1:06:00::"))
+(HolonymLink s (WordSenseNode "thermoregulator%1:06:00::"))

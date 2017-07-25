@@ -1,0 +1,7 @@
+(define s (WordSenseNode "protection%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "protection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imposition%1:04:02::"))
+(InheritanceLink s (WordSenseNode "infliction%1:04:00::"))
+(define x (WordNode "trade_protection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imposition%1:04:02::"))
+(InheritanceLink s (WordSenseNode "infliction%1:04:00::"))

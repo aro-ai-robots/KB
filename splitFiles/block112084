@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nephoscope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nephoscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "measuring_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "measuring_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "measuring_device%1:06:00::"))

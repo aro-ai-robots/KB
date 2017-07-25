@@ -1,0 +1,4 @@
+(define s (WordSenseNode "step-up_transformer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "step-up_transformer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transformer%1:06:00::"))
+(InheritanceLink (WordSenseNode "cascade_transformer%1:06:00::") s)

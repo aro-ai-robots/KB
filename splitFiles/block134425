@@ -1,0 +1,7 @@
+(define s (WordSenseNode "question_of_law%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "question_of_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "question%1:10:01::"))
+(InheritanceLink s (WordSenseNode "head%1:10:02::"))
+(define x (WordNode "matter_of_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "question%1:10:01::"))
+(InheritanceLink s (WordSenseNode "head%1:10:02::"))

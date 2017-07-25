@@ -1,0 +1,7 @@
+(define s (WordSenseNode "paleographer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paleographer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "archeologist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "archaeologist%1:18:00::"))
+(define x (WordNode "paleographist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "archeologist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "archaeologist%1:18:00::"))

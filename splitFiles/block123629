@@ -1,0 +1,4 @@
+(define s (WordSenseNode "petroglyph%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "petroglyph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carving%1:04:01::"))
+(InheritanceLink s (WordSenseNode "cutting%1:04:05::"))

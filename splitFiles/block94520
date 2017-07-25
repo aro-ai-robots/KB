@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lancet_arch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lancet_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Gothic_arch%1:06:00::"))
+(define x (WordNode "lancet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Gothic_arch%1:06:00::"))

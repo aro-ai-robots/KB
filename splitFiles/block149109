@@ -1,0 +1,7 @@
+(define s (WordSenseNode "session%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "session")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meeting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "coming_together%1:04:00::"))
+(InheritanceLink (WordSenseNode "course_session%1:04:00::") s)
+(InheritanceLink (WordSenseNode "class_period%1:04:00::") s)
+(InheritanceLink (WordSenseNode "recitation%1:04:01::") s)

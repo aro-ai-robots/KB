@@ -1,0 +1,4 @@
+(define s (WordSenseNode "number%1:10:05::")) (PartOfSpeechLink s noun)
+(define x (WordNode "number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grammatical_category%1:10:00::"))
+(InheritanceLink s (WordSenseNode "syntactic_category%1:10:00::"))

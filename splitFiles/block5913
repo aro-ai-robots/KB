@@ -1,0 +1,4 @@
+(define s (WordSenseNode "anagram%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anagram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "word%1:10:00::"))
+(InheritanceLink (WordSenseNode "antigram%1:10:00::") s)

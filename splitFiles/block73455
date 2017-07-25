@@ -1,0 +1,4 @@
+(define s (WordSenseNode "glowworm%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glowworm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "firefly%1:05:01::"))
+(InheritanceLink s (WordSenseNode "lightning_bug%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "plumbing%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plumbing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utility%1:06:00::"))
+(HolonymLink (WordSenseNode "plumbing_fixture%1:06:00::") s)
+(define x (WordNode "plumbing_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utility%1:06:00::"))
+(HolonymLink (WordSenseNode "plumbing_fixture%1:06:00::") s)

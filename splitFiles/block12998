@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ballet_position%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ballet_position")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "position%1:07:01::"))
+(InheritanceLink s (WordSenseNode "posture%1:07:00::"))
+(InheritanceLink s (WordSenseNode "attitude%1:07:01::"))
+(InheritanceLink (WordSenseNode "arabesque%1:07:00::") s)

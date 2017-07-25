@@ -1,0 +1,6 @@
+(define s (WordSenseNode "imitate%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "imitate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resemble%2:42:00::"))
+(InheritanceLink (WordSenseNode "ape%2:42:00::") s)
+(InheritanceLink (WordSenseNode "emulate%2:42:01::") s)
+(InheritanceLink (WordSenseNode "follow_suit%2:42:00::") s)

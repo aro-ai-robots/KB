@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mass_defect%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mass_defect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mass%1:07:00::"))
+(define x (WordNode "mass_deficiency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mass%1:07:00::"))

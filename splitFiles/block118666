@@ -1,0 +1,4 @@
+(define s (WordSenseNode "overemphasis%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "overemphasis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vehemence%1:07:01::"))
+(InheritanceLink s (WordSenseNode "emphasis%1:07:00::"))

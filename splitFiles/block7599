@@ -1,0 +1,6 @@
+(define s (WordSenseNode "aortic_aneurysm%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aortic_aneurysm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aneurysm%1:26:00::"))
+(InheritanceLink s (WordSenseNode "aneurism%1:26:00::"))
+(InheritanceLink (WordSenseNode "abdominal_aortic_aneurysm%1:26:00::") s)
+(InheritanceLink (WordSenseNode "AAA%1:26:00::") s)

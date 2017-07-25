@@ -1,0 +1,5 @@
+(define s (WordSenseNode "boron_chamber%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boron_chamber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ionization_chamber%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ionization_tube%1:06:00::"))
+(HolonymLink s (WordSenseNode "boron_counter_tube%1:06:00::"))

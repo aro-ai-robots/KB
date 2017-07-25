@@ -1,0 +1,5 @@
+(define s (WordSenseNode "execution%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "execution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "court_order%1:10:00::"))
+(define x (WordNode "writ_of_execution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "court_order%1:10:00::"))

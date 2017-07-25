@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pocket_flap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pocket_flap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flap%1:06:00::"))
+(HolonymLink s (WordSenseNode "pocket%1:06:00::"))

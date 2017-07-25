@@ -1,0 +1,5 @@
+(define s (WordSenseNode "air_alert%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "air_alert")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_period%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period_of_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period%1:28:00::"))

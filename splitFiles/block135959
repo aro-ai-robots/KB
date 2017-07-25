@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ratline%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ratline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:06:00::"))
+(HolonymLink s (WordSenseNode "ship%1:06:00::"))
+(define x (WordNode "ratlin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:06:00::"))
+(HolonymLink s (WordSenseNode "ship%1:06:00::"))

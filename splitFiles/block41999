@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cytidine%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deoxycytidine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nucleoside%1:27:00::"))
+(define x (WordNode "cytidine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nucleoside%1:27:00::"))

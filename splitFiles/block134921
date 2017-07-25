@@ -1,0 +1,4 @@
+(define s (WordSenseNode "radiant_heating%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radiant_heating")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "heating%1:22:00::"))
+(InheritanceLink s (WordSenseNode "warming%1:22:00::"))

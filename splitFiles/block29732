@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chicken_casserole%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chicken_casserole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "casserole%1:13:00::"))
+(InheritanceLink (WordSenseNode "chicken_cacciatore%1:13:00::") s)
+(InheritanceLink (WordSenseNode "chicken_cacciatora%1:13:00::") s)
+(InheritanceLink (WordSenseNode "hunter's_chicken%1:13:00::") s)

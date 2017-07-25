@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flywheel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flywheel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "governor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "regulator%1:06:01::"))
+(InheritanceLink (WordSenseNode "fluid_flywheel%1:06:00::") s)

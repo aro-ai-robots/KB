@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sailor's_breastplate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prolonge_knot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knot%1:06:00::"))
+(HolonymLink s (WordSenseNode "prolonge%1:06:00::"))
+(define x (WordNode "sailor's_breastplate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knot%1:06:00::"))
+(HolonymLink s (WordSenseNode "prolonge%1:06:00::"))

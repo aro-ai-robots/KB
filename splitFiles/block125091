@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pikeblenny%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pikeblenny")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blennioid_fish%1:05:00::"))
+(InheritanceLink s (WordSenseNode "blennioid%1:05:00::"))
+(InheritanceLink (WordSenseNode "bluethroat_pikeblenny%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Chaenopsis_ocellata%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Chaenopsis%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Chaenopsis%1:05:00::"))

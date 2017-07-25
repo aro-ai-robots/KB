@@ -1,0 +1,5 @@
+(define s (WordSenseNode "field_ration%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "field_ration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ration%1:13:01::"))
+(InheritanceLink (WordSenseNode "K_ration%1:13:00::") s)
+(InheritanceLink (WordSenseNode "C-ration%1:13:00::") s)

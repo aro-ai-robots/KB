@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lukasiewicz_notation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prefix_notation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parenthesis-free_notation%1:10:00::"))
+(define x (WordNode "Lukasiewicz_notation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parenthesis-free_notation%1:10:00::"))
+(define x (WordNode "Polish_notation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parenthesis-free_notation%1:10:00::"))

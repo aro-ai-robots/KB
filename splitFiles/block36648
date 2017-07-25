@@ -1,0 +1,4 @@
+(define s (WordSenseNode "conspectus%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conspectus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "summary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sum-up%1:10:00::"))

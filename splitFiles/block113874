@@ -1,0 +1,7 @@
+(define s (WordSenseNode "normal_fault%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "normal_fault")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inclined_fault%1:17:00::"))
+(define x (WordNode "gravity_fault")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inclined_fault%1:17:00::"))
+(define x (WordNode "common_fault")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inclined_fault%1:17:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "backhoe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "backhoe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_shovel%1:06:00::"))
+(InheritanceLink s (WordSenseNode "excavator%1:06:00::"))
+(InheritanceLink s (WordSenseNode "digger%1:06:00::"))
+(InheritanceLink s (WordSenseNode "shovel%1:06:02::"))
+(HolonymLink (WordSenseNode "scoop%1:06:01::") s)
+(HolonymLink (WordSenseNode "scoop_shovel%1:06:00::") s)

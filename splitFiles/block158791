@@ -1,0 +1,7 @@
+(define s (WordSenseNode "standard%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "standard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flag%1:06:00::"))
+(InheritanceLink (WordSenseNode "oriflamme%1:06:00::") s)
+(define x (WordNode "banner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flag%1:06:00::"))
+(InheritanceLink (WordSenseNode "oriflamme%1:06:00::") s)

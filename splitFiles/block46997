@@ -1,0 +1,7 @@
+(define s (WordSenseNode "director_of_central_intelligence%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Director_of_Central_Intelligence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "administrator%1:18:02::"))
+(InheritanceLink s (WordSenseNode "executive%1:18:01::"))
+(define x (WordNode "DCI")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "administrator%1:18:02::"))
+(InheritanceLink s (WordSenseNode "executive%1:18:01::"))

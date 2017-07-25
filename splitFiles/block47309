@@ -1,0 +1,7 @@
+(define s (WordSenseNode "discord%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "disagree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(define x (WordNode "disaccord")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(define x (WordNode "discord")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))

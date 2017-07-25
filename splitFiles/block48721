@@ -1,0 +1,6 @@
+(define s (WordSenseNode "doghouse%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "doghouse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disfavor%1:09:00::"))
+(InheritanceLink s (WordSenseNode "disfavour%1:09:00::"))
+(InheritanceLink s (WordSenseNode "dislike%1:09:00::"))
+(InheritanceLink s (WordSenseNode "disapproval%1:09:00::"))

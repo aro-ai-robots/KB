@@ -1,0 +1,5 @@
+(define s (WordSenseNode "digital_audiotape%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "digital_audiotape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "audiotape%1:06:01::"))
+(define x (WordNode "DAT")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "audiotape%1:06:01::"))

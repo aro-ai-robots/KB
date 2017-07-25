@@ -1,0 +1,7 @@
+(define s (WordSenseNode "efflux%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "outflow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flow%1:22:00::"))
+(define x (WordNode "effluence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flow%1:22:00::"))
+(define x (WordNode "efflux")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flow%1:22:00::"))

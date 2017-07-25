@@ -1,0 +1,5 @@
+(define s (WordSenseNode "grand_total%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grand_total")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sum%1:09:01::"))
+(InheritanceLink s (WordSenseNode "amount%1:09:00::"))
+(InheritanceLink s (WordSenseNode "total%1:09:00::"))

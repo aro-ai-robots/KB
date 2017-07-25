@@ -1,0 +1,7 @@
+(define s (WordSenseNode "arteria_alveolaris_inferior%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inferior_alveolar_artery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alveolar_artery%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arteria_alveolaris%1:08:00::"))
+(define x (WordNode "arteria_alveolaris_inferior")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alveolar_artery%1:08:00::"))
+(InheritanceLink s (WordSenseNode "arteria_alveolaris%1:08:00::"))

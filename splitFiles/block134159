@@ -1,0 +1,8 @@
+(define s (WordSenseNode "quarter%1:28:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quarter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "part%1:09:00::"))
+(InheritanceLink s (WordSenseNode "section%1:09:00::"))
+(InheritanceLink s (WordSenseNode "division%1:09:00::"))
+(HolonymLink s (WordSenseNode "playing_period%1:28:00::"))
+(HolonymLink s (WordSenseNode "period_of_play%1:28:00::"))
+(HolonymLink s (WordSenseNode "play%1:28:00::"))

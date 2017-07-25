@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gas_thermometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gas_thermometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thermometer%1:06:00::"))
+(define x (WordNode "air_thermometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thermometer%1:06:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "amniotic_cavity%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amniotic_cavity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cavity%1:08:00::"))
+(InheritanceLink s (WordSenseNode "bodily_cavity%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cavum%1:08:00::"))
+(HolonymLink (WordSenseNode "amniotic_fluid%1:08:00::") s)
+(HolonymLink (WordSenseNode "amnionic_fluid%1:08:00::") s)
+(HolonymLink (WordSenseNode "waters%1:08:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pulseless_disease%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Takayasu's_arteritis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arteritis%1:26:00::"))
+(define x (WordNode "pulseless_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arteritis%1:26:00::"))

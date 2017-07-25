@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cunctator%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "procrastinator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delayer%1:18:00::"))
+(define x (WordNode "postponer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delayer%1:18:00::"))
+(define x (WordNode "cunctator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delayer%1:18:00::"))

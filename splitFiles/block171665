@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transmigrate%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reincarnate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be_born%2:30:00::"))
+(define x (WordNode "transmigrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be_born%2:30:00::"))

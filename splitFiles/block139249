@@ -1,0 +1,4 @@
+(define s (WordSenseNode "reserve%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reserve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indefinite_quantity%1:23:00::"))
+(InheritanceLink (WordSenseNode "pulmonary_reserve%1:23:00::") s)

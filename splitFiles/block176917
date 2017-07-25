@@ -1,0 +1,5 @@
+(define s (WordSenseNode "upper_limit%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "upper_limit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "limit%1:15:00::"))
+(InheritanceLink s (WordSenseNode "demarcation%1:15:00::"))
+(InheritanceLink s (WordSenseNode "demarcation_line%1:15:00::"))

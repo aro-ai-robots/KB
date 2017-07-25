@@ -1,0 +1,5 @@
+(define s (WordSenseNode "expectation%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anticipation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hopefulness%1:26:00::"))
+(define x (WordNode "expectation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hopefulness%1:26:00::"))

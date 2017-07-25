@@ -1,0 +1,5 @@
+(define s (WordSenseNode "light_filter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "light_filter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "filter%1:06:00::"))
+(define x (WordNode "diffusing_screen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "filter%1:06:00::"))

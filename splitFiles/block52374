@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ego%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consciousness%1:09:00::"))
+(InheritanceLink (WordSenseNode "anima%1:09:00::") s)
+(define x (WordNode "ego")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consciousness%1:09:00::"))
+(InheritanceLink (WordSenseNode "anima%1:09:00::") s)

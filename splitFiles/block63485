@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flurry%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flurry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snow%1:19:00::"))
+(InheritanceLink s (WordSenseNode "snowfall%1:19:00::"))
+(define x (WordNode "snow_flurry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snow%1:19:00::"))
+(InheritanceLink s (WordSenseNode "snowfall%1:19:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "thalweg%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thalweg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contour%1:10:00::"))
+(InheritanceLink s (WordSenseNode "contour_line%1:10:00::"))

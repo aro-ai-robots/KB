@@ -1,0 +1,7 @@
+(define s (WordSenseNode "adenosine_diphosphate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adenosine_diphosphate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nucleotide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "base%1:27:01::"))
+(define x (WordNode "ADP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nucleotide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "base%1:27:01::"))

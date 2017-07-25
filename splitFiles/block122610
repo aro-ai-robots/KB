@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pentecostal_religion%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pentecostal_religion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Protestant_Church%1:14:00::"))
+(InheritanceLink s (WordSenseNode "Protestant%1:14:00::"))
+(HolonymLink (WordSenseNode "Pentecostal%1:18:00::") s)
+(HolonymLink (WordSenseNode "Pentecostalist%1:18:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "universal_suffrage%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "universal_suffrage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "right_to_vote%1:07:00::"))
+(InheritanceLink s (WordSenseNode "vote%1:07:00::"))
+(InheritanceLink s (WordSenseNode "suffrage%1:07:00::"))

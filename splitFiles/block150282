@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shigellosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shigellosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dysentery%1:26:00::"))
+(define x (WordNode "bacillary_dysentery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dysentery%1:26:00::"))

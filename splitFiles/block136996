@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rectangle%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rectangle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parallelogram%1:25:00::"))
+(InheritanceLink (WordSenseNode "square%1:25:00::") s)
+(InheritanceLink (WordSenseNode "foursquare%1:25:00::") s)
+(InheritanceLink (WordSenseNode "box%1:25:00::") s)

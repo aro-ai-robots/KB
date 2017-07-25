@@ -1,0 +1,7 @@
+(define s (WordSenseNode "musket%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "musket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "muzzle_loader%1:06:00::"))
+(InheritanceLink (WordSenseNode "blunderbuss%1:06:00::") s)
+(InheritanceLink (WordSenseNode "culverin%1:06:00::") s)
+(InheritanceLink (WordSenseNode "fusil%1:06:00::") s)
+(InheritanceLink (WordSenseNode "matchlock%1:06:00::") s)

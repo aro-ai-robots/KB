@@ -1,0 +1,7 @@
+(define s (WordSenseNode "electron_paramagnetic_resonance%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electron_spin_resonance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "microwave_spectroscopy%1:04:00::"))
+(define x (WordNode "ESR")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "microwave_spectroscopy%1:04:00::"))
+(define x (WordNode "electron_paramagnetic_resonance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "microwave_spectroscopy%1:04:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "plastron%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plastron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exoskeleton%1:08:00::"))
+(HolonymLink s (WordSenseNode "turtle%1:05:00::"))

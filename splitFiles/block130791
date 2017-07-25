@@ -1,0 +1,8 @@
+(define s (WordSenseNode "printing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "printing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commercial_enterprise%1:04:00::"))
+(InheritanceLink s (WordSenseNode "business_enterprise%1:04:00::"))
+(InheritanceLink s (WordSenseNode "business%1:04:01::"))
+(InheritanceLink (WordSenseNode "gravure%1:04:00::") s)
+(InheritanceLink (WordSenseNode "issue%1:04:00::") s)
+(InheritanceLink (WordSenseNode "publication%1:04:01::") s)

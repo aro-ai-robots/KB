@@ -1,0 +1,7 @@
+(define s (WordSenseNode "interrupt%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "interrupt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%2:41:00::"))
+(InheritanceLink s (WordSenseNode "move%2:41:00::"))
+(define x (WordNode "disturb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%2:41:00::"))
+(InheritanceLink s (WordSenseNode "move%2:41:00::"))

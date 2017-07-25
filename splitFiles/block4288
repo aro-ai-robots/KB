@@ -1,0 +1,7 @@
+(define s (WordSenseNode "alignment%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alignment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjustment%1:04:01::"))
+(InheritanceLink s (WordSenseNode "registration%1:04:01::"))
+(InheritanceLink s (WordSenseNode "readjustment%1:04:01::"))
+(InheritanceLink (WordSenseNode "camber%1:04:00::") s)
+(InheritanceLink (WordSenseNode "toe-in%1:04:00::") s)

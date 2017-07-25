@@ -1,0 +1,5 @@
+(define s (WordSenseNode "empire%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "empire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monarchy%1:14:00::"))
+(InheritanceLink (WordSenseNode "Mogul_empire%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Second_Empire%1:14:00::") s)

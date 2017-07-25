@@ -1,0 +1,7 @@
+(define s (WordSenseNode "toss_bombing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "loft_bombing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bombing_run%1:04:00::"))
+(InheritanceLink (WordSenseNode "over-the-shoulder_bombing%1:04:00::") s)
+(define x (WordNode "toss_bombing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bombing_run%1:04:00::"))
+(InheritanceLink (WordSenseNode "over-the-shoulder_bombing%1:04:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "operant_conditioning%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "operant_conditioning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conditioning%1:09:00::"))
+(InheritanceLink (WordSenseNode "instrumental_conditioning%1:09:00::") s)

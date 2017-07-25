@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sporocarp%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sporocarp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproductive_structure%1:20:00::"))
+(define x (WordNode "spore_case")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproductive_structure%1:20:00::"))

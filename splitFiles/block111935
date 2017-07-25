@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nekton%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nekton")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organism%1:03:00::"))
+(InheritanceLink s (WordSenseNode "being%1:03:00::"))
+(HolonymLink s (WordSenseNode "aggregate%1:14:00::"))
+(HolonymLink s (WordSenseNode "congeries%1:14:00::"))
+(HolonymLink s (WordSenseNode "conglomeration%1:14:00::"))

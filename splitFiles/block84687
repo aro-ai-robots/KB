@@ -1,0 +1,7 @@
+(define s (WordSenseNode "illumination%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "illumination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))
+(InheritanceLink (WordSenseNode "light%1:26:00::") s)
+(InheritanceLink (WordSenseNode "lighting%1:26:00::") s)
+(InheritanceLink (WordSenseNode "dark%1:26:00::") s)
+(InheritanceLink (WordSenseNode "darkness%1:26:00::") s)

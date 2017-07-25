@@ -1,0 +1,5 @@
+(define s (WordSenseNode "embroilment%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "imbroglio")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "situation%1:26:02::"))
+(define x (WordNode "embroilment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "situation%1:26:02::"))

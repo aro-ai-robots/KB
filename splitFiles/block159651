@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stepparent%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stepparent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parent%1:18:00::"))
+(InheritanceLink (WordSenseNode "stepfather%1:18:00::") s)
+(InheritanceLink (WordSenseNode "stepmother%1:18:00::") s)

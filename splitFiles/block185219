@@ -1,0 +1,5 @@
+(define s (WordSenseNode "written_assignment%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "written_assignment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assignment%1:04:03::"))
+(define x (WordNode "writing_assignment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assignment%1:04:03::"))

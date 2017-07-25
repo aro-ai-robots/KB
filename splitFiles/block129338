@@ -1,0 +1,5 @@
+(define s (WordSenseNode "power_dive%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "power_dive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dive%1:04:00::"))
+(InheritanceLink s (WordSenseNode "nose_dive%1:04:00::"))
+(InheritanceLink s (WordSenseNode "nosedive%1:04:00::"))

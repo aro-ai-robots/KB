@@ -1,0 +1,5 @@
+(define s (WordSenseNode "quench%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "quench")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cool%2:30:01::"))
+(InheritanceLink s (WordSenseNode "chill%2:30:01::"))
+(InheritanceLink s (WordSenseNode "cool_down%2:30:00::"))

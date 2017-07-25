@@ -1,0 +1,7 @@
+(define s (WordSenseNode "madden%2:37:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "madden")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "unbalance%2:37:00::") s)
+(InheritanceLink (WordSenseNode "derange%2:37:01::") s)
+(define x (WordNode "craze")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "unbalance%2:37:00::") s)
+(InheritanceLink (WordSenseNode "derange%2:37:01::") s)

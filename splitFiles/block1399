@@ -1,0 +1,5 @@
+(define s (WordSenseNode "acid_anhydrides%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acyl_anhydrides")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(define x (WordNode "acid_anhydrides")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))

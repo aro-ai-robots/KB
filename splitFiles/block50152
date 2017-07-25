@@ -1,0 +1,4 @@
+(define s (WordSenseNode "drip_loop%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drip_loop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loop%1:25:00::"))
+(HolonymLink s (WordSenseNode "line%1:06:00::"))

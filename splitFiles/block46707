@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dink%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drop_shot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:04::"))
+(define x (WordNode "dink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:04::"))

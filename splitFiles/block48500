@@ -1,0 +1,7 @@
+(define s (WordSenseNode "do_the_dishes%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "wash_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clean%2:35:00::"))
+(InheritanceLink s (WordSenseNode "make_clean%2:35:00::"))
+(define x (WordNode "do_the_dishes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clean%2:35:00::"))
+(InheritanceLink s (WordSenseNode "make_clean%2:35:00::"))

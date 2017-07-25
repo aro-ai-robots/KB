@@ -1,0 +1,4 @@
+(define s (WordSenseNode "steer_roping%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "steer_roping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roping%1:04:00::"))
+(HolonymLink s (WordSenseNode "rodeo%1:04:00::"))

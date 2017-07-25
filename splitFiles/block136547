@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reboxetine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reboxetine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antidepressant%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antidepressant_drug%1:06:00::"))
+(define x (WordNode "Edronax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antidepressant%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antidepressant_drug%1:06:00::"))

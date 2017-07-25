@@ -1,0 +1,5 @@
+(define s (WordSenseNode "crosscurrent%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "countercurrent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strife%1:04:00::"))
+(define x (WordNode "crosscurrent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strife%1:04:00::"))

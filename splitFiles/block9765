@@ -1,0 +1,6 @@
+(define s (WordSenseNode "asbestos%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "asbestos")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amphibole%1:27:00::"))
+(InheritanceLink (WordSenseNode "chrysotile%1:27:00::") s)
+(InheritanceLink (WordSenseNode "tremolite%1:27:00::") s)
+(HolonymLink s (WordSenseNode "amphibole_group%1:27:00::"))

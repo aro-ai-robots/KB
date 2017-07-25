@@ -1,0 +1,4 @@
+(define s (WordSenseNode "trademark%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "trademark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "file%2:32:02::"))
+(InheritanceLink s (WordSenseNode "register%2:32:03::"))

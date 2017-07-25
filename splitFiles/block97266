@@ -1,0 +1,4 @@
+(define s (WordSenseNode "life_expectancy%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "life_expectancy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anticipation%1:09:01::"))
+(InheritanceLink s (WordSenseNode "expectancy%1:09:00::"))

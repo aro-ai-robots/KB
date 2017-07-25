@@ -1,0 +1,8 @@
+(define s (WordSenseNode "circus%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arena%1:06:00::"))
+(InheritanceLink s (WordSenseNode "scene_of_action%1:06:00::"))
+(HolonymLink (WordSenseNode "circus_tent%1:06:00::") s)
+(HolonymLink (WordSenseNode "big_top%1:06:00::") s)
+(HolonymLink (WordSenseNode "round_top%1:06:00::") s)
+(HolonymLink (WordSenseNode "top%1:06:02::") s)

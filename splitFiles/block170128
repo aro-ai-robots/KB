@@ -1,0 +1,4 @@
+(define s (WordSenseNode "token_economy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "token_economy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "behavior_therapy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "behavior_modification%1:04:00::"))

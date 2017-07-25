@@ -1,0 +1,4 @@
+(define s (WordSenseNode "renewable_resource%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "renewable_resource")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_resource%1:21:00::"))
+(InheritanceLink s (WordSenseNode "natural_resources%1:21:00::"))

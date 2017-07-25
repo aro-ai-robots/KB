@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pipa_pipa%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Surinam_toad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tongueless_frog%1:05:00::"))
+(define x (WordNode "Pipa_pipa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tongueless_frog%1:05:00::"))
+(define x (WordNode "Pipa_americana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tongueless_frog%1:05:00::"))

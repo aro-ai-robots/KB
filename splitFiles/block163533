@@ -1,0 +1,7 @@
+(define s (WordSenseNode "surrogate%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deputy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:18:02::"))
+(InheritanceLink (WordSenseNode "vicegerent%1:18:00::") s)
+(define x (WordNode "surrogate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:18:02::"))
+(InheritanceLink (WordSenseNode "vicegerent%1:18:00::") s)

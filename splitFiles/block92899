@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kiloton%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kiloton")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avoirdupois_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "megaton%1:23:00::"))
+(HolonymLink (WordSenseNode "short_ton%1:23:00::") s)
+(HolonymLink (WordSenseNode "ton%1:23:02::") s)
+(HolonymLink (WordSenseNode "net_ton%1:23:00::") s)

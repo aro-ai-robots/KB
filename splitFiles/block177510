@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vacation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vacation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abrogation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "repeal%1:04:00::"))
+(InheritanceLink s (WordSenseNode "annulment%1:04:01::"))

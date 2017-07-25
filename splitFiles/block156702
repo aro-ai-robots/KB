@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spell%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "spell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mean%2:32:01::"))
+(InheritanceLink s (WordSenseNode "intend%2:32:00::"))
+(define x (WordNode "import")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mean%2:32:01::"))
+(InheritanceLink s (WordSenseNode "intend%2:32:00::"))

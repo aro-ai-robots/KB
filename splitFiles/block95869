@@ -1,0 +1,5 @@
+(define s (WordSenseNode "least%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "least")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "matter%1:09:01::"))
+(InheritanceLink s (WordSenseNode "affair%1:09:00::"))
+(InheritanceLink s (WordSenseNode "thing%1:09:02::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "physical_anthropology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "physical_anthropology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthropology%1:09:00::"))
+(InheritanceLink (WordSenseNode "craniometry%1:09:00::") s)

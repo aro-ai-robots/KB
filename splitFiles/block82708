@@ -1,0 +1,6 @@
+(define s (WordSenseNode "housing_estate%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "housing_estate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "development%1:15:00::"))
+(HolonymLink s (WordSenseNode "residential_district%1:15:00::"))
+(HolonymLink s (WordSenseNode "residential_area%1:15:00::"))
+(HolonymLink s (WordSenseNode "community%1:15:00::"))

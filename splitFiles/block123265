@@ -1,0 +1,5 @@
+(define s (WordSenseNode "persia%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Persia")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Asia%1:17:00::"))
+(define x (WordNode "Persian_Empire")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Asia%1:17:00::"))

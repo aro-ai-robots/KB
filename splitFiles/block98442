@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lithography%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lithography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "planographic_printing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "planography%1:10:00::"))
+(InheritanceLink (WordSenseNode "photolithography%1:10:00::") s)
+(InheritanceLink (WordSenseNode "chromolithography%1:10:00::") s)
+(InheritanceLink (WordSenseNode "offset_lithography%1:10:00::") s)

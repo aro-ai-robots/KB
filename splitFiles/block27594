@@ -1,0 +1,4 @@
+(define s (WordSenseNode "celestial_mechanics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "celestial_mechanics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astronomy%1:09:00::"))
+(InheritanceLink s (WordSenseNode "uranology%1:09:00::"))

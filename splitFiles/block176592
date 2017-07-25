@@ -1,0 +1,5 @@
+(define s (WordSenseNode "unspoken_accusation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unspoken_accusation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implication%1:10:00::"))
+(define x (WordNode "veiled_accusation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implication%1:10:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "advent%1:28:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Advent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "season%1:28:01::"))
+(HolonymLink s (WordSenseNode "church_calendar%1:28:00::"))
+(HolonymLink s (WordSenseNode "ecclesiastical_calendar%1:28:00::"))
+(HolonymLink (WordSenseNode "Advent_Sunday%1:28:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "caller_id%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caller_ID")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "display%1:06:01::"))
+(InheritanceLink s (WordSenseNode "video_display%1:06:00::"))

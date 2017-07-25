@@ -1,0 +1,7 @@
+(define s (WordSenseNode "signal_fire%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "signal_fire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beacon%1:10:00::"))
+(InheritanceLink s (WordSenseNode "beacon_fire%1:10:00::"))
+(define x (WordNode "signal_light")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beacon%1:10:00::"))
+(InheritanceLink s (WordSenseNode "beacon_fire%1:10:00::"))

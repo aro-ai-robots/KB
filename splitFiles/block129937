@@ -1,0 +1,4 @@
+(define s (WordSenseNode "premeditation%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "premeditation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mens_rea%1:09:00::"))
+(InheritanceLink s (WordSenseNode "malice_aforethought%1:09:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "exoskeleton%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exoskeleton")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "skeletal_system%1:08:00::"))
+(InheritanceLink s (WordSenseNode "skeleton%1:08:00::"))
+(InheritanceLink s (WordSenseNode "frame%1:08:00::"))
+(InheritanceLink s (WordSenseNode "systema_skeletale%1:08:00::"))
+(InheritanceLink s (WordSenseNode "body_covering%1:08:00::"))
+(InheritanceLink (WordSenseNode "plastron%1:05:00::") s)

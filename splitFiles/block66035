@@ -1,0 +1,7 @@
+(define s (WordSenseNode "frown%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frown")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "facial_expression%1:10:00::"))
+(InheritanceLink s (WordSenseNode "facial_gesture%1:10:00::"))
+(define x (WordNode "scowl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "facial_expression%1:10:00::"))
+(InheritanceLink s (WordSenseNode "facial_gesture%1:10:00::"))

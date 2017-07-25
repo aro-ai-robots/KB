@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aerodynamic_lift%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aerodynamic_lift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aerodynamic_force%1:19:00::"))
+(InheritanceLink (WordSenseNode "ground_effect%1:19:00::") s)
+(define x (WordNode "lift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aerodynamic_force%1:19:00::"))
+(InheritanceLink (WordSenseNode "ground_effect%1:19:00::") s)

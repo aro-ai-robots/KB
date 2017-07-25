@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fork%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pitchfork")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lift%2:35:00::"))
+(define x (WordNode "fork")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lift%2:35:00::"))

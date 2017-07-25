@@ -1,0 +1,4 @@
+(define s (WordSenseNode "paid_vacation%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paid_vacation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vacation%1:28:00::"))
+(InheritanceLink s (WordSenseNode "holiday%1:28:00::"))

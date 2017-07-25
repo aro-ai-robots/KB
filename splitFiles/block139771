@@ -1,0 +1,6 @@
+(define s (WordSenseNode "reticulitermes_lucifugus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Reticulitermes_lucifugus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "termite%1:05:00::"))
+(InheritanceLink s (WordSenseNode "white_ant%1:05:00::"))
+(HolonymLink s (WordSenseNode "Reticulitermes%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Reticulitermes%1:05:00::"))

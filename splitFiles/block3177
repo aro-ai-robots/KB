@@ -1,0 +1,5 @@
+(define s (WordSenseNode "aggregate%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "aggregate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "come%2:42:11::"))
+(InheritanceLink s (WordSenseNode "add_up%2:42:01::"))
+(InheritanceLink s (WordSenseNode "amount%2:42:00::"))

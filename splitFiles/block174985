@@ -1,0 +1,7 @@
+(define s (WordSenseNode "uncomfortableness%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-consciousness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embarrassment%1:12:00::"))
+(define x (WordNode "uneasiness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embarrassment%1:12:00::"))
+(define x (WordNode "uncomfortableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embarrassment%1:12:00::"))

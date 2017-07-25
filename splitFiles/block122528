@@ -1,0 +1,5 @@
+(define s (WordSenseNode "penny_stock%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "penny_stock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "over_the_counter_stock%1:21:00::"))
+(InheritanceLink s (WordSenseNode "OTC_stock%1:21:00::"))
+(InheritanceLink s (WordSenseNode "unlisted_stock%1:21:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "horseback%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hogback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ridge%1:17:01::"))
+(InheritanceLink s (WordSenseNode "ridgeline%1:17:00::"))
+(define x (WordNode "horseback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ridge%1:17:01::"))
+(InheritanceLink s (WordSenseNode "ridgeline%1:17:00::"))

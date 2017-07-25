@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_stentor%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Stentor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protoctist_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Ciliata%1:05:00::"))
+(HolonymLink s (WordSenseNode "class_Ciliata%1:05:00::"))
+(HolonymLink s (WordSenseNode "Ciliophora%1:05:00::"))
+(HolonymLink s (WordSenseNode "class_Ciliophora%1:05:00::"))
+(HolonymLink (WordSenseNode "stentor%1:05:00::") s)

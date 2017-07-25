@@ -1,0 +1,7 @@
+(define s (WordSenseNode "restriction_enzyme%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "restriction_endonuclease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endonuclease%1:27:00::"))
+(define x (WordNode "restriction_nuclease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endonuclease%1:27:00::"))
+(define x (WordNode "restriction_enzyme")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "endonuclease%1:27:00::"))

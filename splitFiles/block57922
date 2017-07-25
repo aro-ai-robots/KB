@@ -1,0 +1,5 @@
+(define s (WordSenseNode "facsimile%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "facsimile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "copy%1:06:00::"))
+(define x (WordNode "autotype")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "copy%1:06:00::"))

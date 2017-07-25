@@ -1,0 +1,3 @@
+(define s (WordSenseNode "abscissa%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "abscissa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Cartesian_coordinate%1:09:00::"))

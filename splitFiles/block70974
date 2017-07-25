@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_polemonium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Polemonium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "asterid_dicot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Polemoniaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Polemoniaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "phlox_family%1:20:00::"))
+(HolonymLink (WordSenseNode "polemonium%1:20:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gdp%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gross_domestic_product")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "value%1:07:00::"))
+(define x (WordNode "GDP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "value%1:07:00::"))

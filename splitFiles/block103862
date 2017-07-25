@@ -1,0 +1,5 @@
+(define s (WordSenseNode "matrimonial_law%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "matrimonial_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jurisprudence%1:09:00::"))
+(InheritanceLink s (WordSenseNode "law%1:09:02::"))
+(InheritanceLink s (WordSenseNode "legal_philosophy%1:09:00::"))

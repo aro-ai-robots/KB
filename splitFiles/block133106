@@ -1,0 +1,3 @@
+(define s (WordSenseNode "punctum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "punctum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "point%1:15:00::"))

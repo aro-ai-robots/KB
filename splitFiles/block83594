@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hydroxyacetic_acid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glycolic_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acid%1:27:00::"))
+(define x (WordNode "glycollic_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acid%1:27:00::"))
+(define x (WordNode "hydroxyacetic_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acid%1:27:00::"))

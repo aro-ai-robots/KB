@@ -1,0 +1,7 @@
+(define s (WordSenseNode "steam%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "steam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clean%2:35:00::"))
+(InheritanceLink s (WordSenseNode "make_clean%2:35:00::"))
+(define x (WordNode "steam_clean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clean%2:35:00::"))
+(InheritanceLink s (WordSenseNode "make_clean%2:35:00::"))

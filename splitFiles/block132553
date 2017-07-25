@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pteropus_capestratus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pteropus_capestratus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fruit_bat%1:05:00::"))
+(InheritanceLink s (WordSenseNode "megabat%1:05:00::"))

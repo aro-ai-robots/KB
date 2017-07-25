@@ -1,0 +1,7 @@
+(define s (WordSenseNode "salt-free_diet%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "low-sodium_diet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diet%1:13:00::"))
+(define x (WordNode "low-salt_diet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diet%1:13:00::"))
+(define x (WordNode "salt-free_diet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diet%1:13:00::"))

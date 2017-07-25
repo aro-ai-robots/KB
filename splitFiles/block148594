@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sensory_activity%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sensory_activity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "activity%1:04:00::"))
+(InheritanceLink (WordSenseNode "sensing%1:04:00::") s)
+(InheritanceLink (WordSenseNode "perception%1:04:00::") s)

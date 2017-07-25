@@ -1,0 +1,6 @@
+(define s (WordSenseNode "salvage%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "salvage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rescue%1:04:00::"))
+(InheritanceLink s (WordSenseNode "deliverance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "delivery%1:04:00::"))
+(InheritanceLink s (WordSenseNode "saving%1:04:02::"))

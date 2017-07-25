@@ -1,0 +1,5 @@
+(define s (WordSenseNode "airbrake%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "airbrake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_brake%1:06:00::"))
+(HolonymLink s (WordSenseNode "motor_vehicle%1:06:00::"))
+(HolonymLink s (WordSenseNode "automotive_vehicle%1:06:00::"))

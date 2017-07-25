@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cottrell_precipitator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "precipitator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))
+(define x (WordNode "electrostatic_precipitator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))
+(define x (WordNode "Cottrell_precipitator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))

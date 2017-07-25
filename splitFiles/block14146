@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bastard_indigo%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "false_indigo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amorpha%1:20:00::"))
+(define x (WordNode "bastard_indigo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amorpha%1:20:00::"))
+(define x (WordNode "Amorpha_californica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amorpha%1:20:00::"))

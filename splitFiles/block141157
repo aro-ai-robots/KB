@@ -1,0 +1,7 @@
+(define s (WordSenseNode "riot_act%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "riot_act")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rebuke%1:10:00::"))
+(InheritanceLink s (WordSenseNode "reproof%1:10:00::"))
+(InheritanceLink s (WordSenseNode "reproval%1:10:00::"))
+(InheritanceLink s (WordSenseNode "reprehension%1:10:00::"))
+(InheritanceLink s (WordSenseNode "reprimand%1:10:00::"))

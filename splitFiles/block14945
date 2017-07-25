@@ -1,0 +1,8 @@
+(define s (WordSenseNode "beaver%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beaver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "armor_plate%1:06:00::"))
+(InheritanceLink s (WordSenseNode "armour_plate%1:06:00::"))
+(InheritanceLink s (WordSenseNode "armor_plating%1:06:00::"))
+(InheritanceLink s (WordSenseNode "plate_armor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "plate_armour%1:06:00::"))
+(HolonymLink s (WordSenseNode "helmet%1:06:00::"))

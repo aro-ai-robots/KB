@@ -1,0 +1,4 @@
+(define s (WordSenseNode "nerve_entrapment%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nerve_entrapment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_compression%1:26:00::"))
+(InheritanceLink (WordSenseNode "carpal_tunnel_syndrome%1:26:00::") s)

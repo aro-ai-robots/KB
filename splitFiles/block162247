@@ -1,0 +1,6 @@
+(define s (WordSenseNode "subthalamic_nucleus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subthalamic_nucleus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nucleus%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cell_nucleus%1:08:00::"))
+(InheritanceLink s (WordSenseNode "karyon%1:08:00::"))
+(HolonymLink s (WordSenseNode "subthalamus%1:08:00::"))

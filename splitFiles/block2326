@@ -1,0 +1,3 @@
+(define s (WordSenseNode "adnoun%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adnoun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_noun%1:10:00::"))

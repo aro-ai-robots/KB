@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tax_lien%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tax_lien")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lien%1:21:00::"))
+(InheritanceLink (WordSenseNode "federal_tax_lien%1:21:00::") s)
+(InheritanceLink (WordSenseNode "state_tax_lien%1:21:00::") s)

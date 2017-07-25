@@ -1,0 +1,5 @@
+(define s (WordSenseNode "monohybrid%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monohybrid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hybrid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "crossbreed%1:05:00::"))
+(InheritanceLink s (WordSenseNode "cross%1:05:00::"))

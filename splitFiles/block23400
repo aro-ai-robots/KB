@@ -1,0 +1,8 @@
+(define s (WordSenseNode "cabalist%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cabalist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "member%1:18:00::"))
+(InheritanceLink s (WordSenseNode "fellow_member%1:18:00::"))
+(HolonymLink s (WordSenseNode "cabal%1:14:00::"))
+(HolonymLink s (WordSenseNode "faction%1:14:01::"))
+(HolonymLink s (WordSenseNode "junto%1:14:00::"))
+(HolonymLink s (WordSenseNode "camarilla%1:14:00::"))

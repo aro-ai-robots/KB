@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pipe_fitting%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pipefitting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fitting%1:06:00::"))
+(InheritanceLink (WordSenseNode "reducer%1:06:00::") s)
+(define x (WordNode "pipe_fitting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fitting%1:06:00::"))
+(InheritanceLink (WordSenseNode "reducer%1:06:00::") s)

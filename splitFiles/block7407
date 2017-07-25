@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antiparticle%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antiparticle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elementary_particle%1:17:00::"))
+(InheritanceLink s (WordSenseNode "fundamental_particle%1:17:00::"))
+(HolonymLink s (WordSenseNode "antimatter%1:27:00::"))

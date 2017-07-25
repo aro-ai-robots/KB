@@ -1,0 +1,5 @@
+(define s (WordSenseNode "intonation_pattern%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intonation_pattern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intonation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "modulation%1:10:02::"))
+(InheritanceLink s (WordSenseNode "pitch_contour%1:10:00::"))

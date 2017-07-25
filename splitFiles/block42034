@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cytophotometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cytophotometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "light_meter%1:06:00::"))
+(InheritanceLink s (WordSenseNode "exposure_meter%1:06:00::"))
+(InheritanceLink s (WordSenseNode "photometer%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "brush%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "brush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%2:35:00::"))
+(InheritanceLink (WordSenseNode "graze%2:35:00::") s)
+(InheritanceLink (WordSenseNode "crease%2:35:02::") s)
+(InheritanceLink (WordSenseNode "rake%2:35:02::") s)
+(InheritanceLink (WordSenseNode "flick%2:35:01::") s)

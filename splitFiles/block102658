@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mapquest%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "mapquest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "research%2:31:00::"))
+(InheritanceLink s (WordSenseNode "search%2:31:00::"))
+(InheritanceLink s (WordSenseNode "explore%2:31:00::"))

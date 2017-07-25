@@ -1,0 +1,5 @@
+(define s (WordSenseNode "philistinism%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "materialism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "desire%1:26:00::"))
+(define x (WordNode "philistinism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "desire%1:26:00::"))

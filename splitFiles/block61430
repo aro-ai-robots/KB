@@ -1,0 +1,3 @@
+(define s (WordSenseNode "file_folder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "file_folder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "folder%1:06:00::"))

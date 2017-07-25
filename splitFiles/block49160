@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dos%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "DOS")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operating_system%1:10:00::"))
+(InheritanceLink s (WordSenseNode "OS%1:10:00::"))
+(define x (WordNode "disk_operating_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operating_system%1:10:00::"))
+(InheritanceLink s (WordSenseNode "OS%1:10:00::"))

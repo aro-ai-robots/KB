@@ -1,0 +1,5 @@
+(define s (WordSenseNode "diathermy_machine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diathermy_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_instrument%1:06:00::"))
+(InheritanceLink (WordSenseNode "microwave_diathermy_machine%1:06:00::") s)
+(InheritanceLink (WordSenseNode "shortwave_diathermy_machine%1:06:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "realtor%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Realtor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "real_estate_broker%1:18:00::"))
+(InheritanceLink s (WordSenseNode "real_estate_agent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "estate_agent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "land_agent%1:18:01::"))
+(InheritanceLink s (WordSenseNode "house_agent%1:18:00::"))
+(HolonymLink s (WordSenseNode "National_Association_of_Realtors%1:14:00::"))

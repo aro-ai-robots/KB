@@ -1,0 +1,8 @@
+(define s (WordSenseNode "propagation%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "propagation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "Doppler_effect%1:19:00::") s)
+(InheritanceLink (WordSenseNode "Doppler_shift%1:19:00::") s)
+(InheritanceLink (WordSenseNode "red_shift%1:19:00::") s)
+(InheritanceLink (WordSenseNode "redshift%1:19:00::") s)
+(InheritanceLink (WordSenseNode "wave_front%1:19:00::") s)

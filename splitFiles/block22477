@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bundling%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bundling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "courtship%1:10:00::"))
+(InheritanceLink s (WordSenseNode "wooing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "courting%1:10:00::"))
+(InheritanceLink s (WordSenseNode "suit%1:10:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gape%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "facial_expression%1:10:00::"))
+(InheritanceLink s (WordSenseNode "facial_gesture%1:10:00::"))
+(InheritanceLink (WordSenseNode "rictus%1:10:00::") s)

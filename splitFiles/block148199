@@ -1,0 +1,5 @@
+(define s (WordSenseNode "self_acceptance%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self_acceptance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toleration%1:07:00::"))
+(InheritanceLink s (WordSenseNode "acceptance%1:07:00::"))
+(InheritanceLink s (WordSenseNode "sufferance%1:07:02::"))

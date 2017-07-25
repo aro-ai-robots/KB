@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dead_weight%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dead_weight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "burden%1:09:01::"))
+(InheritanceLink s (WordSenseNode "load%1:09:00::"))
+(InheritanceLink s (WordSenseNode "encumbrance%1:09:00::"))
+(InheritanceLink s (WordSenseNode "incumbrance%1:09:00::"))
+(InheritanceLink s (WordSenseNode "onus%1:09:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hypoparathyroidism%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypoparathyroidism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glandular_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "gland_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "glandular_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "adenosis%1:26:00::"))

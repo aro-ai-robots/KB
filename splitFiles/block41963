@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cyrillic_alphabet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cyrillic_alphabet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alphabet%1:10:00::"))
+(InheritanceLink s (WordSenseNode "bicameral_script%1:10:00::"))
+(define x (WordNode "Cyrillic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alphabet%1:10:00::"))
+(InheritanceLink s (WordSenseNode "bicameral_script%1:10:00::"))

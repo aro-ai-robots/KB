@@ -1,0 +1,4 @@
+(define s (WordSenseNode "quetzal%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quetzal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Guatemalan_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centavo%1:23:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "scar_tissue%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scar_tissue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "connective_tissue%1:08:00::"))
+(InheritanceLink (WordSenseNode "adhesion%1:08:00::") s)

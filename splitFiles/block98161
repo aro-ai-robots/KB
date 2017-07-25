@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lions_club%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Lions_Club")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "service_club%1:14:00::"))
+(define x (WordNode "International_Association_of_Lions_clubs")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "service_club%1:14:00::"))

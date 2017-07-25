@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fairlead%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fairlead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pulley%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pulley-block%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pulley_block%1:06:00::"))
+(InheritanceLink s (WordSenseNode "block%1:06:02::"))
+(InheritanceLink (WordSenseNode "snatch_block%1:06:00::") s)

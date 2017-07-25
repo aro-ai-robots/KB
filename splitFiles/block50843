@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dummy_whist%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dummy_whist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "whist%1:04:00::"))
+(InheritanceLink s (WordSenseNode "long_whist%1:04:00::"))
+(InheritanceLink s (WordSenseNode "short_whist%1:04:00::"))

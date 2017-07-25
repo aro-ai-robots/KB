@@ -1,0 +1,6 @@
+(define s (WordSenseNode "thermonuclear_reaction%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thermonuclear_reaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fusion%1:22:00::"))
+(InheritanceLink s (WordSenseNode "nuclear_fusion%1:22:00::"))
+(InheritanceLink s (WordSenseNode "nuclear_fusion_reaction%1:22:00::"))
+(InheritanceLink (WordSenseNode "carbon_cycle%1:22:00::") s)

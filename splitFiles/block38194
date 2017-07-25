@@ -1,0 +1,6 @@
+(define s (WordSenseNode "correlational_analysis%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "correlational_analysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "multivariate_analysis%1:09:00::"))
+(InheritanceLink (WordSenseNode "factor_analysis%1:09:00::") s)
+(HolonymLink (WordSenseNode "correlation%1:09:01::") s)
+(HolonymLink (WordSenseNode "correlational_statistics%1:09:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "iterative%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "iterative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aspect%1:24:00::"))
+(define x (WordNode "iterative_aspect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aspect%1:24:00::"))

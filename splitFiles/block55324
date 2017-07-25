@@ -1,0 +1,5 @@
+(define s (WordSenseNode "erotism%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eroticism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sexual_arousal%1:26:00::"))
+(define x (WordNode "erotism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sexual_arousal%1:26:00::"))

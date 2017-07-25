@@ -1,0 +1,7 @@
+(define s (WordSenseNode "polisher%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "buffer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_tool%1:06:00::"))
+(HolonymLink (WordSenseNode "buffing_wheel%1:06:00::") s)
+(define x (WordNode "polisher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_tool%1:06:00::"))
+(HolonymLink (WordSenseNode "buffing_wheel%1:06:00::") s)

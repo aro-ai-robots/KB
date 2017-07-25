@@ -1,0 +1,7 @@
+(define s (WordSenseNode "auroscope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "otoscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_instrument%1:06:00::"))
+(define x (WordNode "auriscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_instrument%1:06:00::"))
+(define x (WordNode "auroscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_instrument%1:06:00::"))

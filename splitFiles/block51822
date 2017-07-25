@@ -1,0 +1,6 @@
+(define s (WordSenseNode "eclampsia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eclampsia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toxemia_of_pregnancy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "toxaemia_of_pregnancy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "toxemia%1:26:01::"))
+(InheritanceLink s (WordSenseNode "toxaemia%1:26:01::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "gratitude%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gratitude")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feeling%1:03:00::"))
+(InheritanceLink (WordSenseNode "gratefulness%1:12:00::") s)
+(InheritanceLink (WordSenseNode "thankfulness%1:12:00::") s)
+(InheritanceLink (WordSenseNode "appreciativeness%1:12:00::") s)

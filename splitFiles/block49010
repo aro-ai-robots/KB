@@ -1,0 +1,5 @@
+(define s (WordSenseNode "donkey_pump%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "auxiliary_pump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pump%1:06:00::"))
+(define x (WordNode "donkey_pump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pump%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "couple%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "couple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unit%1:17:00::"))
+(InheritanceLink s (WordSenseNode "building_block%1:17:00::"))
+(InheritanceLink (WordSenseNode "dipole%1:17:00::") s)
+(HolonymLink (WordSenseNode "moment_of_a_couple%1:19:00::") s)

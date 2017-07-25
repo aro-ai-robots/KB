@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cosmologist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cosmologist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astronomer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "uranologist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "stargazer%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "assonance%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "assonance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhyme%1:10:00::"))
+(InheritanceLink s (WordSenseNode "rime%1:10:00::"))
+(define x (WordNode "vowel_rhyme")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhyme%1:10:00::"))
+(InheritanceLink s (WordSenseNode "rime%1:10:00::"))

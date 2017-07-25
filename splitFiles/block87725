@@ -1,0 +1,5 @@
+(define s (WordSenseNode "insurance_premium%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "premium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "payment%1:21:00::"))
+(define x (WordNode "insurance_premium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "payment%1:21:00::"))

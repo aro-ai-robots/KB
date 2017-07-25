@@ -1,0 +1,5 @@
+(define s (WordSenseNode "exercise_bike%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exercise_bike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exercise_device%1:06:00::"))
+(define x (WordNode "exercycle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exercise_device%1:06:00::"))

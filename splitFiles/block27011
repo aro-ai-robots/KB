@@ -1,0 +1,8 @@
+(define s (WordSenseNode "catcall%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "catcall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cry%1:10:00::"))
+(InheritanceLink s (WordSenseNode "outcry%1:10:00::"))
+(InheritanceLink s (WordSenseNode "call%1:10:02::"))
+(InheritanceLink s (WordSenseNode "yell%1:10:00::"))
+(InheritanceLink s (WordSenseNode "shout%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vociferation%1:10:00::"))

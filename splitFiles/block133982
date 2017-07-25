@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quadrillionth%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "one-quadrillionth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_fraction%1:23:00::"))
+(InheritanceLink s (WordSenseNode "simple_fraction%1:23:00::"))
+(define x (WordNode "quadrillionth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_fraction%1:23:00::"))
+(InheritanceLink s (WordSenseNode "simple_fraction%1:23:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mechanical_drawing%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mechanical_drawing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drawing%1:06:00::"))
+(InheritanceLink (WordSenseNode "horizontal_section%1:06:00::") s)
+(InheritanceLink (WordSenseNode "vertical_section%1:06:00::") s)

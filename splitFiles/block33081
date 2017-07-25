@@ -1,0 +1,4 @@
+(define s (WordSenseNode "coat_button%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coat_button")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "button%1:06:00::"))
+(HolonymLink s (WordSenseNode "coat%1:06:00::"))

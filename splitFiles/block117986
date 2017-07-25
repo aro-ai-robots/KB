@@ -1,0 +1,7 @@
+(define s (WordSenseNode "osco-umbrian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Osco-Umbrian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Italic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Italic_language%1:10:00::"))
+(InheritanceLink (WordSenseNode "Umbrian%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Oscan%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Sabellian%1:10:00::") s)

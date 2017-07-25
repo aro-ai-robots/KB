@@ -1,0 +1,8 @@
+(define s (WordSenseNode "upper%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "upper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "piece_of_leather%1:06:00::"))
+(InheritanceLink (WordSenseNode "toe_box%1:06:00::") s)
+(HolonymLink s (WordSenseNode "shoe%1:06:00::"))
+(HolonymLink s (WordSenseNode "boot%1:06:00::"))
+(HolonymLink (WordSenseNode "quarter%1:06:01::") s)
+(HolonymLink (WordSenseNode "vamp%1:06:00::") s)

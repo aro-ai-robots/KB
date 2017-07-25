@@ -1,0 +1,6 @@
+(define s (WordSenseNode "white_supremacist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_supremacist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "supremacist%1:18:00::"))
+(InheritanceLink (WordSenseNode "Klansman%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Ku_Kluxer%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Kluxer%1:18:00::") s)

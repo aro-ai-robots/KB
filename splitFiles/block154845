@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sodalist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sodalist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "member%1:18:00::"))
+(InheritanceLink s (WordSenseNode "fellow_member%1:18:00::"))
+(HolonymLink s (WordSenseNode "brotherhood%1:14:00::"))
+(HolonymLink s (WordSenseNode "fraternity%1:14:00::"))
+(HolonymLink s (WordSenseNode "sodality%1:14:00::"))

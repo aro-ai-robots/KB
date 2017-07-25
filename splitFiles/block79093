@@ -1,0 +1,4 @@
+(define s (WordSenseNode "heat_sink%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "heat_sink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conductor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sink%1:22:00::"))

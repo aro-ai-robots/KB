@@ -1,0 +1,5 @@
+(define s (WordSenseNode "carduelis_spinus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "siskin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finch%1:05:00::"))
+(define x (WordNode "Carduelis_spinus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finch%1:05:00::"))

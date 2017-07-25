@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vanillin%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vanillin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_compound%1:27:00::"))
+(HolonymLink s (WordSenseNode "vanilla_bean%1:13:00::"))

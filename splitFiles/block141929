@@ -1,0 +1,8 @@
+(define s (WordSenseNode "roller%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coraciiform_bird%1:05:00::"))
+(InheritanceLink (WordSenseNode "European_roller%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Coracias_garrulus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "ground_roller%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Coraciidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Coraciidae%1:05:00::"))

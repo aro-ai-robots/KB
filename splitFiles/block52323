@@ -1,0 +1,5 @@
+(define s (WordSenseNode "egalitarian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "egalitarian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "moralist%1:18:00::"))
+(define x (WordNode "equalitarian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "moralist%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tool_around%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "joyride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ride%2:38:00::"))
+(define x (WordNode "tool")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ride%2:38:00::"))
+(define x (WordNode "tool_around")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ride%2:38:00::"))

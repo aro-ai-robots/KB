@@ -1,0 +1,7 @@
+(define s (WordSenseNode "body_bag%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "body_bag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bag%1:06:00::"))
+(define x (WordNode "personnel_pouch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bag%1:06:00::"))
+(define x (WordNode "human_remains_pouch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bag%1:06:00::"))

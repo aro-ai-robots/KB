@@ -1,0 +1,7 @@
+(define s (WordSenseNode "foxtail_grass%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foxtail_grass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ground_pine%1:20:01::"))
+(InheritanceLink s (WordSenseNode "Christmas_green%1:20:00::"))
+(define x (WordNode "Lycopodium_alopecuroides")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ground_pine%1:20:01::"))
+(InheritanceLink s (WordSenseNode "Christmas_green%1:20:00::"))

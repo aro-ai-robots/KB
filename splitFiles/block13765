@@ -1,0 +1,6 @@
+(define s (WordSenseNode "barracuda%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "barracuda")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spiny-finned_fish%1:05:00::"))
+(InheritanceLink s (WordSenseNode "acanthopterygian%1:05:00::"))
+(InheritanceLink (WordSenseNode "great_barracuda%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Sphyraena_barracuda%1:05:00::") s)

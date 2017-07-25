@@ -1,0 +1,8 @@
+(define s (WordSenseNode "rider%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rider")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "article%1:10:02::"))
+(InheritanceLink s (WordSenseNode "clause%1:10:01::"))
+(HolonymLink s (WordSenseNode "bill%1:10:04::"))
+(HolonymLink s (WordSenseNode "measure%1:10:02::"))
+(HolonymLink s (WordSenseNode "legislative_act%1:10:00::"))
+(HolonymLink s (WordSenseNode "statute%1:10:00::"))

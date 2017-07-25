@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spoon%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "smooch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neck%2:35:00::"))
+(InheritanceLink s (WordSenseNode "make_out%2:35:01::"))
+(define x (WordNode "spoon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neck%2:35:00::"))
+(InheritanceLink s (WordSenseNode "make_out%2:35:01::"))

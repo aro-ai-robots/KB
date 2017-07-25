@@ -1,0 +1,7 @@
+(define s (WordSenseNode "infrared_lamp%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "heat_lamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electric_heater%1:06:00::"))
+(InheritanceLink s (WordSenseNode "electric_fire%1:06:00::"))
+(define x (WordNode "infrared_lamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electric_heater%1:06:00::"))
+(InheritanceLink s (WordSenseNode "electric_fire%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "maneuverability%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "maneuverability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mobility%1:07:00::"))
+(InheritanceLink (WordSenseNode "weatherliness%1:07:00::") s)
+(define x (WordNode "manoeuvrability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mobility%1:07:00::"))
+(InheritanceLink (WordSenseNode "weatherliness%1:07:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lennon%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Lennon")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Beatles%1:14:00::"))
+(define x (WordNode "John_Lennon")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Beatles%1:14:00::"))

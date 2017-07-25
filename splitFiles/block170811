@@ -1,0 +1,7 @@
+(define s (WordSenseNode "touch%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "contact")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "communication%1:10:01::"))
+(InheritanceLink s (WordSenseNode "communicating%1:10:00::"))
+(define x (WordNode "touch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "communication%1:10:01::"))
+(InheritanceLink s (WordSenseNode "communicating%1:10:00::"))

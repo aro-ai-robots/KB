@@ -1,0 +1,4 @@
+(define s (WordSenseNode "classical_style%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "classical_style")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artistic_style%1:07:00::"))
+(InheritanceLink s (WordSenseNode "idiom%1:07:00::"))

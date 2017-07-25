@@ -1,0 +1,4 @@
+(define s (WordSenseNode "airhead%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "airhead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bridgehead%1:15:00::"))
+(InheritanceLink s (WordSenseNode "foothold%1:15:00::"))

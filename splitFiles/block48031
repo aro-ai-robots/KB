@@ -1,0 +1,7 @@
+(define s (WordSenseNode "distend%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "distend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swell%2:30:00::"))
+(InheritanceLink s (WordSenseNode "swell_up%2:30:00::"))
+(InheritanceLink s (WordSenseNode "intumesce%2:30:00::"))
+(InheritanceLink s (WordSenseNode "tumefy%2:30:00::"))
+(InheritanceLink s (WordSenseNode "tumesce%2:30:00::"))

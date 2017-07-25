@@ -1,0 +1,7 @@
+(define s (WordSenseNode "seize%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "grab")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intrigue%2:42:00::"))
+(InheritanceLink s (WordSenseNode "fascinate%2:42:00::"))
+(define x (WordNode "seize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intrigue%2:42:00::"))
+(InheritanceLink s (WordSenseNode "fascinate%2:42:00::"))

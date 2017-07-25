@@ -1,0 +1,5 @@
+(define s (WordSenseNode "posterity%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "descendants")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biological_group%1:14:00::"))
+(define x (WordNode "posterity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biological_group%1:14:00::"))

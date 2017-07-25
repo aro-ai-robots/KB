@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dissolving%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dissolving")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquefaction%1:22:00::"))
+(define x (WordNode "dissolution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquefaction%1:22:00::"))

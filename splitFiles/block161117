@@ -1,0 +1,5 @@
+(define s (WordSenseNode "strike_out%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "strike_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fail%2:41:00::"))
+(InheritanceLink s (WordSenseNode "go_wrong%2:41:00::"))
+(InheritanceLink s (WordSenseNode "miscarry%2:41:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "grounding%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foundation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "education%1:09:00::"))
+(define x (WordNode "grounding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "education%1:09:00::"))

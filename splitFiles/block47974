@@ -1,0 +1,3 @@
+(define s (WordSenseNode "dissolve%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dissolve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transition%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "precocity%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "precociousness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intelligence%1:09:00::"))
+(define x (WordNode "precocity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intelligence%1:09:00::"))

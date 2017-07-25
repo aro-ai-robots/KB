@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tent_peg%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tent_peg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "peg%1:06:00::"))
+(InheritanceLink s (WordSenseNode "nog%1:06:01::"))

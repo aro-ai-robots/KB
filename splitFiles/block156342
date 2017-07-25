@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spartan%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Spartan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Greek%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Hellene%1:18:00::"))
+(HolonymLink s (WordSenseNode "Sparta%1:15:00::"))

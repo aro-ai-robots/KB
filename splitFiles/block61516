@@ -1,0 +1,8 @@
+(define s (WordSenseNode "filler%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "filler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sealing_material%1:27:00::"))
+(InheritanceLink (WordSenseNode "putty%1:27:00::") s)
+(InheritanceLink (WordSenseNode "mastic%1:27:01::") s)
+(InheritanceLink (WordSenseNode "size%1:27:00::") s)
+(InheritanceLink (WordSenseNode "sizing%1:27:00::") s)
+(InheritanceLink (WordSenseNode "stiffener%1:27:00::") s)

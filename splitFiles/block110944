@@ -1,0 +1,4 @@
+(define s (WordSenseNode "nameplate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nameplate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%1:06:02::"))
+(InheritanceLink (WordSenseNode "doorplate%1:06:00::") s)

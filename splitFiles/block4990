@@ -1,0 +1,5 @@
+(define s (WordSenseNode "altruism%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "altruism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unselfishness%1:07:00::"))
+(define x (WordNode "selflessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unselfishness%1:07:00::"))

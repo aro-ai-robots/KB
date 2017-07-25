@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trojan_horse%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trojan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "malevolent_program%1:10:00::"))
+(define x (WordNode "trojan_horse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "malevolent_program%1:10:00::"))

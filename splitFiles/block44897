@@ -1,0 +1,5 @@
+(define s (WordSenseNode "depigmentation%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "depigmentation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coloration%1:07:00::"))
+(InheritanceLink s (WordSenseNode "colouration%1:07:00::"))
+(InheritanceLink (WordSenseNode "poliosis%1:07:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stop-loss_order%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stop_order")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "order%1:10:01::"))
+(InheritanceLink s (WordSenseNode "purchase_order%1:10:00::"))
+(define x (WordNode "stop-loss_order")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "order%1:10:01::"))
+(InheritanceLink s (WordSenseNode "purchase_order%1:10:00::"))

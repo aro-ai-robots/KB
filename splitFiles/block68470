@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_anomalops%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Anomalops")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fish_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Anomalopidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Anomalopidae%1:05:00::"))
+(HolonymLink (WordSenseNode "anomalops%1:05:00::") s)
+(HolonymLink (WordSenseNode "flashlight_fish%1:05:01::") s)

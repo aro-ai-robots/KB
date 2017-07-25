@@ -1,0 +1,5 @@
+(define s (WordSenseNode "paleness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paleness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "color_property%1:07:00::"))
+(define x (WordNode "pallidity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "color_property%1:07:00::"))

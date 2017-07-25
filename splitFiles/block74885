@@ -1,0 +1,7 @@
+(define s (WordSenseNode "granulation%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "granulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "connective_tissue%1:08:00::"))
+(InheritanceLink (WordSenseNode "proud_flesh%1:26:00::") s)
+(define x (WordNode "granulation_tissue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "connective_tissue%1:08:00::"))
+(InheritanceLink (WordSenseNode "proud_flesh%1:26:00::") s)

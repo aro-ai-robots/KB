@@ -1,0 +1,7 @@
+(define s (WordSenseNode "infusorian%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "infusorian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ciliate%1:05:00::"))
+(InheritanceLink s (WordSenseNode "ciliated_protozoan%1:05:00::"))
+(InheritanceLink s (WordSenseNode "ciliophoran%1:05:00::"))
+(HolonymLink s (WordSenseNode "Infusoria%1:05:00::"))
+(HolonymLink s (WordSenseNode "subclass_Infusoria%1:05:00::"))

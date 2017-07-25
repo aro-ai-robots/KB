@@ -1,0 +1,7 @@
+(define s (WordSenseNode "conditioned_emotional_response%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conditioned_emotional_response")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emotion%1:12:00::"))
+(define x (WordNode "CER")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emotion%1:12:00::"))
+(define x (WordNode "conditioned_emotion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emotion%1:12:00::"))

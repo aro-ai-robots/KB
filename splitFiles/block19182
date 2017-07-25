@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bond_trading%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bond_trading")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trading%1:04:00::"))
+(define x (WordNode "bond-trading_activity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trading%1:04:00::"))

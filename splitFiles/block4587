@@ -1,0 +1,7 @@
+(define s (WordSenseNode "allograft%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "homograft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "graft%1:08:00::"))
+(InheritanceLink s (WordSenseNode "transplant%1:08:00::"))
+(define x (WordNode "allograft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "graft%1:08:00::"))
+(InheritanceLink s (WordSenseNode "transplant%1:08:00::"))

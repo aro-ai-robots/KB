@@ -1,0 +1,8 @@
+(define s (WordSenseNode "survivor_guilt%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "survivor_guilt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guilt%1:12:00::"))
+(InheritanceLink s (WordSenseNode "guilty_conscience%1:12:00::"))
+(InheritanceLink s (WordSenseNode "guilt_feelings%1:12:00::"))
+(InheritanceLink s (WordSenseNode "guilt_trip%1:12:00::"))
+(HolonymLink s (WordSenseNode "posttraumatic_stress_disorder%1:26:00::"))
+(HolonymLink s (WordSenseNode "PTSD%1:26:00::"))

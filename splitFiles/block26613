@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cash_equivalent%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cash_equivalent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "debt_instrument%1:21:00::"))
+(InheritanceLink s (WordSenseNode "obligation%1:21:00::"))
+(InheritanceLink s (WordSenseNode "certificate_of_indebtedness%1:21:00::"))
+(InheritanceLink (WordSenseNode "commercial_paper%1:21:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bubble%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "house_of_cards")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scheme%1:09:00::"))
+(InheritanceLink s (WordSenseNode "strategy%1:09:00::"))
+(define x (WordNode "bubble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scheme%1:09:00::"))
+(InheritanceLink s (WordSenseNode "strategy%1:09:00::"))

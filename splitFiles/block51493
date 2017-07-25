@@ -1,0 +1,8 @@
+(define s (WordSenseNode "easement%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "easement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prerogative%1:07:00::"))
+(InheritanceLink s (WordSenseNode "privilege%1:07:00::"))
+(InheritanceLink s (WordSenseNode "perquisite%1:07:00::"))
+(InheritanceLink s (WordSenseNode "exclusive_right%1:07:00::"))
+(InheritanceLink (WordSenseNode "public_easement%1:07:00::") s)
+(InheritanceLink (WordSenseNode "right_of_way%1:07:01::") s)

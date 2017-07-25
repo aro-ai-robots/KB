@@ -1,0 +1,6 @@
+(define s (WordSenseNode "satinwood%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "satinwood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wood%1:27:00::"))
+(HolonymLink s (WordSenseNode "satinwood%1:20:00::"))
+(HolonymLink s (WordSenseNode "satinwood_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "Chloroxylon_swietenia%1:20:00::"))

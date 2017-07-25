@@ -1,0 +1,4 @@
+(define s (WordSenseNode "two-thirds%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "two-thirds")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_fraction%1:23:00::"))
+(InheritanceLink s (WordSenseNode "simple_fraction%1:23:00::"))

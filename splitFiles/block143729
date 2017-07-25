@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sacredness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sacredness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holiness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "sanctity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "sanctitude%1:07:00::"))
+(InheritanceLink (WordSenseNode "holy_of_holies%1:07:00::") s)

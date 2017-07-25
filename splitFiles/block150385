@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ship's_bell%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_unit%1:28:00::"))
+(InheritanceLink s (WordSenseNode "unit_of_time%1:28:00::"))
+(define x (WordNode "ship's_bell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_unit%1:28:00::"))
+(InheritanceLink s (WordSenseNode "unit_of_time%1:28:00::"))

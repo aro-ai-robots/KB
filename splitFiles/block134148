@@ -1,0 +1,5 @@
+(define s (WordSenseNode "quarter%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quarter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clemency%1:04:01::"))
+(InheritanceLink s (WordSenseNode "mercifulness%1:04:00::"))
+(InheritanceLink s (WordSenseNode "mercy%1:04:00::"))

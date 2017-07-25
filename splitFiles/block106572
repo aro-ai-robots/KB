@@ -1,0 +1,8 @@
+(define s (WordSenseNode "milking_shorthorn%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "milking_shorthorn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dairy_cattle%1:05:00::"))
+(InheritanceLink s (WordSenseNode "dairy_cow%1:05:00::"))
+(InheritanceLink s (WordSenseNode "milch_cow%1:05:00::"))
+(InheritanceLink s (WordSenseNode "milk_cow%1:05:00::"))
+(InheritanceLink s (WordSenseNode "milcher%1:05:00::"))
+(InheritanceLink s (WordSenseNode "milker%1:05:00::"))

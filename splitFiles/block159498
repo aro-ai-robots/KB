@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stem%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tubing%1:06:00::"))
+(HolonymLink s (WordSenseNode "pipe%1:06:01::"))
+(HolonymLink s (WordSenseNode "tobacco_pipe%1:06:00::"))

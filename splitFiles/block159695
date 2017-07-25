@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stereotype%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stereotype")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "representation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mental_representation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "internal_representation%1:09:00::"))

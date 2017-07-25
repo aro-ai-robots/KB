@@ -1,0 +1,4 @@
+(define s (WordSenseNode "parry%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blocking%1:04:00::"))
+(InheritanceLink s (WordSenseNode "block%1:04:00::"))

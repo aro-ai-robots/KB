@@ -1,0 +1,5 @@
+(define s (WordSenseNode "briquet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "briquette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "block%1:06:00::"))
+(define x (WordNode "briquet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "block%1:06:00::"))

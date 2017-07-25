@@ -1,0 +1,8 @@
+(define s (WordSenseNode "auxin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "auxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phytohormone%1:27:00::"))
+(InheritanceLink s (WordSenseNode "plant_hormone%1:27:00::"))
+(InheritanceLink s (WordSenseNode "growth_regulator%1:27:00::"))
+(InheritanceLink (WordSenseNode "indoleacetic_acid%1:27:00::") s)
+(InheritanceLink (WordSenseNode "IAA%1:27:00::") s)
+(InheritanceLink (WordSenseNode "indolebutyric_acid%1:27:00::") s)

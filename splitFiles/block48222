@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ditto_mark%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ditto_mark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mark%1:10:00::"))
+(define x (WordNode "ditto")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mark%1:10:00::"))

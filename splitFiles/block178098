@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vatican_council%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Vatican_Council")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "council%1:14:02::"))
+(InheritanceLink (WordSenseNode "First_Vatican_Council%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Vatican_I%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Second_Vatican_Council%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Vatican_II%1:14:00::") s)

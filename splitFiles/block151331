@@ -1,0 +1,7 @@
+(define s (WordSenseNode "side%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "side")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:08:00::"))
+(InheritanceLink s (WordSenseNode "region%1:08:00::"))
+(HolonymLink s (WordSenseNode "torso%1:08:00::"))
+(HolonymLink s (WordSenseNode "trunk%1:08:00::"))
+(HolonymLink s (WordSenseNode "body%1:08:01::"))

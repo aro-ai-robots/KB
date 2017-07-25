@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stage_whisper%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stage_whisper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "whisper%1:10:00::"))
+(InheritanceLink s (WordSenseNode "whispering%1:10:00::"))
+(InheritanceLink s (WordSenseNode "susurration%1:10:00::"))
+(InheritanceLink s (WordSenseNode "voicelessness%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "carthusian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Carthusian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monk%1:18:00::"))
+(InheritanceLink s (WordSenseNode "monastic%1:18:00::"))
+(HolonymLink s (WordSenseNode "Carthusian_order%1:14:00::"))

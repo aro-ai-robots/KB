@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thrower%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "throwster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))
+(define x (WordNode "thrower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worker%1:18:00::"))

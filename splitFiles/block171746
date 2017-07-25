@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transport%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transport")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diffusion%1:22:00::"))
+(InheritanceLink (WordSenseNode "active_transport%1:22:00::") s)
+(InheritanceLink (WordSenseNode "passive_transport%1:22:00::") s)

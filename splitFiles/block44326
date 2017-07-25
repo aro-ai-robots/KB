@@ -1,0 +1,5 @@
+(define s (WordSenseNode "delphinium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "delphinium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower%1:20:00::"))
+(InheritanceLink (WordSenseNode "larkspur%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Delphinium%1:20:00::"))

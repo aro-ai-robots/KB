@@ -1,0 +1,5 @@
+(define s (WordSenseNode "box_beam%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "box_beam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beam%1:06:00::"))
+(define x (WordNode "box_girder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beam%1:06:00::"))

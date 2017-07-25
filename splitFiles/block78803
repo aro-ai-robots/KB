@@ -1,0 +1,5 @@
+(define s (WordSenseNode "head_trip%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-gratification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gratification%1:04:00::"))
+(define x (WordNode "head_trip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gratification%1:04:00::"))

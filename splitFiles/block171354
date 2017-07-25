@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trainbearer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trainbearer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attendant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "attender%1:18:00::"))
+(InheritanceLink s (WordSenseNode "tender%1:18:00::"))
+(HolonymLink s (WordSenseNode "wedding%1:14:00::"))
+(HolonymLink s (WordSenseNode "wedding_party%1:14:00::"))

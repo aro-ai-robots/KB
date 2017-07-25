@@ -1,0 +1,5 @@
+(define s (WordSenseNode "filler%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "filler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tobacco%1:06:00::"))
+(InheritanceLink s (WordSenseNode "baccy%1:06:00::"))
+(HolonymLink s (WordSenseNode "cigar%1:06:00::"))

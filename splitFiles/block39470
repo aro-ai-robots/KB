@@ -1,0 +1,7 @@
+(define s (WordSenseNode "crapshoot%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crap_shooting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "craps%1:04:00::"))
+(define x (WordNode "crapshoot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "craps%1:04:00::"))
+(define x (WordNode "crap_game")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "craps%1:04:00::"))

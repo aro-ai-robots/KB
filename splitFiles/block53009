@@ -1,0 +1,7 @@
+(define s (WordSenseNode "elemi%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elemi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gum_resin%1:27:00::"))
+(HolonymLink s (WordSenseNode "incense_tree%1:20:00::"))
+(define x (WordNode "gum_elemi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gum_resin%1:27:00::"))
+(HolonymLink s (WordSenseNode "incense_tree%1:20:00::"))

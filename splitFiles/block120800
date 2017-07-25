@@ -1,0 +1,7 @@
+(define s (WordSenseNode "parotitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parotitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflammation%1:26:00::"))
+(InheritanceLink s (WordSenseNode "redness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "rubor%1:26:00::"))
+(HolonymLink s (WordSenseNode "mumps%1:26:00::"))
+(HolonymLink s (WordSenseNode "epidemic_parotitis%1:26:00::"))

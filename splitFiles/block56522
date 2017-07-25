@@ -1,0 +1,7 @@
+(define s (WordSenseNode "evoked_potential%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "evoked_potential")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electric_potential%1:19:00::"))
+(InheritanceLink s (WordSenseNode "potential%1:19:00::"))
+(InheritanceLink s (WordSenseNode "potential_difference%1:19:00::"))
+(InheritanceLink s (WordSenseNode "potential_drop%1:19:00::"))
+(InheritanceLink s (WordSenseNode "voltage%1:19:01::"))

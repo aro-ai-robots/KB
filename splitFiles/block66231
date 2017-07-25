@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fulcrum%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fulcrum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pivot%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pin%1:06:02::"))
+(HolonymLink s (WordSenseNode "lever%1:06:00::"))

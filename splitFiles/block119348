@@ -1,0 +1,3 @@
+(define s (WordSenseNode "packet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "packet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "message%1:10:01::"))

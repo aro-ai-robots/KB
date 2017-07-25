@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transient_global_amnesia%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transient_global_amnesia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "amnesia%1:09:00::"))
+(InheritanceLink s (WordSenseNode "memory_loss%1:09:00::"))
+(InheritanceLink s (WordSenseNode "blackout%1:09:01::"))

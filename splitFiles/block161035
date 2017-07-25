@@ -1,0 +1,4 @@
+(define s (WordSenseNode "striated_muscle_tissue%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "striated_muscle_tissue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "muscle%1:08:01::"))
+(InheritanceLink s (WordSenseNode "muscular_tissue%1:08:00::"))

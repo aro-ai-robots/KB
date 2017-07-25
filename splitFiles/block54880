@@ -1,0 +1,5 @@
+(define s (WordSenseNode "episteme%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "episteme")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cognition%1:03:00::"))
+(InheritanceLink s (WordSenseNode "knowledge%1:03:00::"))
+(InheritanceLink s (WordSenseNode "noesis%1:03:00::"))

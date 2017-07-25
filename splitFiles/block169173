@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ticket-of-leave%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ticket-of-leave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pass%1:10:03::"))
+(InheritanceLink s (WordSenseNode "laissez_passer%1:10:00::"))

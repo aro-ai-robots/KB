@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bunk%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bunk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manger%1:06:00::"))
+(InheritanceLink s (WordSenseNode "trough%1:06:01::"))
+(define x (WordNode "feed_bunk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manger%1:06:00::"))
+(InheritanceLink s (WordSenseNode "trough%1:06:01::"))

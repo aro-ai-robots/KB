@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sibilation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sibilation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pronunciation%1:10:00::"))
+(define x (WordNode "assibilation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pronunciation%1:10:00::"))

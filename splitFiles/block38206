@@ -1,0 +1,7 @@
+(define s (WordSenseNode "correspondence%1:24:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commensurateness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proportionality%1:24:00::"))
+(define x (WordNode "correspondence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proportionality%1:24:00::"))
+(define x (WordNode "proportionateness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proportionality%1:24:00::"))

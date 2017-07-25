@@ -1,0 +1,7 @@
+(define s (WordSenseNode "practice_range%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "practice_range")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "range%1:06:00::"))
+(InheritanceLink (WordSenseNode "firing_range%1:06:00::") s)
+(InheritanceLink (WordSenseNode "target_range%1:06:00::") s)
+(InheritanceLink (WordSenseNode "golf_range%1:06:00::") s)
+(InheritanceLink (WordSenseNode "driving_range%1:06:00::") s)

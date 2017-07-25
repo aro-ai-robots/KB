@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mantissa%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mantissa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fraction%1:23:00::"))
+(define x (WordNode "fixed-point_part")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fraction%1:23:00::"))

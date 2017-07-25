@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pilate%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pilate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "procurator%1:18:00::"))
+(define x (WordNode "Pontius_Pilate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "procurator%1:18:00::"))

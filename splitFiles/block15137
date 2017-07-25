@@ -1,0 +1,6 @@
+(define s (WordSenseNode "beef_tenderloin%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beef_tenderloin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tenderloin%1:13:00::"))
+(InheritanceLink s (WordSenseNode "undercut%1:13:00::"))
+(HolonymLink (WordSenseNode "fillet%1:13:01::") s)
+(HolonymLink (WordSenseNode "filet%1:13:01::") s)

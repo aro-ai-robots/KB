@@ -1,0 +1,6 @@
+(define s (WordSenseNode "footlights%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "footlights")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theater_light%1:06:00::"))
+(HolonymLink s (WordSenseNode "proscenium%1:06:01::"))
+(HolonymLink s (WordSenseNode "apron%1:06:02::"))
+(HolonymLink s (WordSenseNode "forestage%1:06:00::"))

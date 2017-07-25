@@ -1,0 +1,7 @@
+(define s (WordSenseNode "close_up%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "close_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "join%2:35:01::"))
+(InheritanceLink s (WordSenseNode "bring_together%2:35:01::"))
+(define x (WordNode "close")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "join%2:35:01::"))
+(InheritanceLink s (WordSenseNode "bring_together%2:35:01::"))

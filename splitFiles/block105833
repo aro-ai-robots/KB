@@ -1,0 +1,6 @@
+(define s (WordSenseNode "metric_space%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metric_space")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mathematical_space%1:14:00::"))
+(InheritanceLink s (WordSenseNode "topological_space%1:14:00::"))
+(InheritanceLink (WordSenseNode "Euclidean_space%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Hilbert_space%1:14:00::") s)

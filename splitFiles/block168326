@@ -1,0 +1,6 @@
+(define s (WordSenseNode "think%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "think")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imagine%2:36:00::"))
+(InheritanceLink s (WordSenseNode "conceive_of%2:36:01::"))
+(InheritanceLink s (WordSenseNode "ideate%2:36:01::"))
+(InheritanceLink s (WordSenseNode "envisage%2:36:00::"))

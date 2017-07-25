@@ -1,0 +1,7 @@
+(define s (WordSenseNode "electrolytic_cell%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electrolytic_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cell%1:06:00::"))
+(InheritanceLink s (WordSenseNode "electric_cell%1:06:00::"))
+(HolonymLink (WordSenseNode "anode%1:06:00::") s)
+(HolonymLink (WordSenseNode "cathode%1:06:00::") s)
+(HolonymLink (WordSenseNode "electrode%1:06:00::") s)

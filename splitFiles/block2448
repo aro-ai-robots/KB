@@ -1,0 +1,5 @@
+(define s (WordSenseNode "adulterant%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adulterant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:01::"))
+(define x (WordNode "adulterator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "substance%1:03:01::"))

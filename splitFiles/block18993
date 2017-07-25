@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bolide%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bolide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meteor%1:19:00::"))
+(InheritanceLink s (WordSenseNode "shooting_star%1:19:00::"))
+(define x (WordNode "fireball")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meteor%1:19:00::"))
+(InheritanceLink s (WordSenseNode "shooting_star%1:19:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "purse_string%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purse_string")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drawstring%1:06:00::"))
+(InheritanceLink s (WordSenseNode "drawing_string%1:06:00::"))
+(InheritanceLink s (WordSenseNode "string%1:06:01::"))
+(HolonymLink s (WordSenseNode "purse%1:06:02::"))

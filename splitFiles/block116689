@@ -1,0 +1,8 @@
+(define s (WordSenseNode "operon%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "operon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deoxyribonucleic_acid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "desoxyribonucleic_acid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "DNA%1:27:00::"))
+(HolonymLink (WordSenseNode "operator_gene%1:08:00::") s)
+(HolonymLink (WordSenseNode "regulatory_gene%1:08:00::") s)
+(HolonymLink (WordSenseNode "regulator_gene%1:08:00::") s)

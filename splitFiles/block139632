@@ -1,0 +1,4 @@
+(define s (WordSenseNode "restrictive_clause%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "restrictive_clause")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "subordinate_clause%1:10:00::"))
+(InheritanceLink s (WordSenseNode "dependent_clause%1:10:00::"))

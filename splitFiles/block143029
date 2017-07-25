@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rule%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "duration%1:28:02::"))
+(InheritanceLink s (WordSenseNode "continuance%1:28:02::"))
+(InheritanceLink (WordSenseNode "regency%1:28:01::") s)

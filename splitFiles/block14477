@@ -1,0 +1,5 @@
+(define s (WordSenseNode "baud_rate%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "baud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information_measure%1:23:00::"))
+(define x (WordNode "baud_rate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information_measure%1:23:00::"))

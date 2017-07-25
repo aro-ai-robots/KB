@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cajolery%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blandishment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flattery%1:10:00::"))
+(define x (WordNode "cajolery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flattery%1:10:00::"))
+(define x (WordNode "palaver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flattery%1:10:00::"))

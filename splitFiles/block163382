@@ -1,0 +1,7 @@
+(define s (WordSenseNode "surface%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "open")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_knowledge%1:09:00::"))
+(InheritanceLink s (WordSenseNode "general_knowledge%1:09:00::"))
+(define x (WordNode "surface")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_knowledge%1:09:00::"))
+(InheritanceLink s (WordSenseNode "general_knowledge%1:09:00::"))

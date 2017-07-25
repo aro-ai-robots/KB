@@ -1,0 +1,5 @@
+(define s (WordSenseNode "supercharger%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "supercharger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compressor%1:06:00::"))
+(HolonymLink s (WordSenseNode "internal-combustion_engine%1:06:00::"))
+(HolonymLink s (WordSenseNode "ICE%1:06:01::"))

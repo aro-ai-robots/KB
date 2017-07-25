@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tomograph%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tomograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "X-ray_machine%1:06:00::"))
+(InheritanceLink (WordSenseNode "computerized_axial_tomography_scanner%1:06:00::") s)
+(InheritanceLink (WordSenseNode "CAT_scanner%1:06:00::") s)
+(InheritanceLink (WordSenseNode "positron_emission_tomography_scanner%1:06:00::") s)
+(InheritanceLink (WordSenseNode "PET_scanner%1:06:00::") s)

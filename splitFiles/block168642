@@ -1,0 +1,7 @@
+(define s (WordSenseNode "thraco-phrygian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Thraco-Phrygian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Indo-European%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Indo-European_language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Indo-Hittite%1:10:00::"))
+(InheritanceLink (WordSenseNode "Thracian%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Phrygian%1:10:00::") s)

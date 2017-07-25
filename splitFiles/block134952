@@ -1,0 +1,6 @@
+(define s (WordSenseNode "radiator_hose%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radiator_hose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hose%1:06:01::"))
+(InheritanceLink s (WordSenseNode "hosepipe%1:06:00::"))
+(HolonymLink s (WordSenseNode "cooling_system%1:06:01::"))
+(HolonymLink s (WordSenseNode "engine_cooling_system%1:06:00::"))

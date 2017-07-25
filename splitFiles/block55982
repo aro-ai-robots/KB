@@ -1,0 +1,7 @@
+(define s (WordSenseNode "eudemonism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eudemonism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ethics%1:09:00::"))
+(InheritanceLink s (WordSenseNode "moral_philosophy%1:09:00::"))
+(define x (WordNode "endaemonism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ethics%1:09:00::"))
+(InheritanceLink s (WordSenseNode "moral_philosophy%1:09:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bold_fmri%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blood-oxygenation_level_dependent_functional_magnetic_resonance_imaging")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "functional_magnetic_resonance_imaging%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fMRI%1:04:00::"))
+(define x (WordNode "BOLD_FMRI")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "functional_magnetic_resonance_imaging%1:04:00::"))
+(InheritanceLink s (WordSenseNode "fMRI%1:04:00::"))

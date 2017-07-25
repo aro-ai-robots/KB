@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chart%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "map%1:06:00::"))
+(InheritanceLink (WordSenseNode "naval_chart%1:06:00::") s)
+(InheritanceLink (WordSenseNode "navigational_chart%1:06:00::") s)
+(InheritanceLink (WordSenseNode "pilot_chart%1:06:00::") s)

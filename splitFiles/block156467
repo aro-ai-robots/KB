@@ -1,0 +1,4 @@
+(define s (WordSenseNode "special_effect%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "special_effect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "effect%1:09:00::"))
+(InheritanceLink (WordSenseNode "stage_effect%1:09:00::") s)

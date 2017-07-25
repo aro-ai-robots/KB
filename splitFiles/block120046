@@ -1,0 +1,5 @@
+(define s (WordSenseNode "panhysterectomy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radical_hysterectomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hysterectomy%1:04:00::"))
+(define x (WordNode "panhysterectomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hysterectomy%1:04:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "teetotalism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "teetotaling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abstinence%1:04:00::"))
+(define x (WordNode "teetotalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abstinence%1:04:00::"))

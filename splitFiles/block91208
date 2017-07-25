@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jordan_curve%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "simple_closed_curve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "closed_curve%1:25:00::"))
+(InheritanceLink (WordSenseNode "loop%1:25:00::") s)
+(define x (WordNode "Jordan_curve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "closed_curve%1:25:00::"))
+(InheritanceLink (WordSenseNode "loop%1:25:00::") s)

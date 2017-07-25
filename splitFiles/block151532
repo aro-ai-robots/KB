@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sightsing%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sightsing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sightread%2:36:00::"))
+(InheritanceLink s (WordSenseNode "sight-read%2:36:00::"))
+(define x (WordNode "sight-sing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sightread%2:36:00::"))
+(InheritanceLink s (WordSenseNode "sight-read%2:36:00::"))

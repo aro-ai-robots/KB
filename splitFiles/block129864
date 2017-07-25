@@ -1,0 +1,4 @@
+(define s (WordSenseNode "prefix%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prefix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "affix%1:10:00::"))
+(InheritanceLink (WordSenseNode "alpha_privative%1:10:00::") s)

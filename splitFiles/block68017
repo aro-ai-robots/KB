@@ -1,0 +1,5 @@
+(define s (WordSenseNode "generation%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genesis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beginning%1:11:00::"))
+(define x (WordNode "generation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beginning%1:11:00::"))

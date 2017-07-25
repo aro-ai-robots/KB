@@ -1,0 +1,8 @@
+(define s (WordSenseNode "grade%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gradient%1:07:01::"))
+(InheritanceLink s (WordSenseNode "slope%1:07:00::"))
+(InheritanceLink (WordSenseNode "upgrade%1:07:00::") s)
+(InheritanceLink (WordSenseNode "rise%1:07:01::") s)
+(InheritanceLink (WordSenseNode "rising_slope%1:07:00::") s)
+(InheritanceLink (WordSenseNode "downgrade%1:07:00::") s)

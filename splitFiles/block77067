@@ -1,0 +1,7 @@
+(define s (WordSenseNode "haematocyturia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hematocyturia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hematuria%1:26:00::"))
+(InheritanceLink s (WordSenseNode "haematuria%1:26:00::"))
+(define x (WordNode "haematocyturia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hematuria%1:26:00::"))
+(InheritanceLink s (WordSenseNode "haematuria%1:26:00::"))

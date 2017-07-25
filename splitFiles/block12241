@@ -1,0 +1,6 @@
+(define s (WordSenseNode "babylon%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Babylon")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Mesopotamia%1:15:00::"))
+(HolonymLink (WordSenseNode "Hanging_Gardens_of_Babylon%1:06:00::") s)
+(HolonymLink (WordSenseNode "Tower_of_Babel%1:06:00::") s)
+(HolonymLink (WordSenseNode "Babel%1:06:00::") s)

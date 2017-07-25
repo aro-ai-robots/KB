@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spread%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disparity%1:07:00::"))
+(define x (WordNode "spread")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disparity%1:07:00::"))

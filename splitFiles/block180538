@@ -1,0 +1,8 @@
+(define s (WordSenseNode "walk-in%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "walk-in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secret_agent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "intelligence_officer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "intelligence_agent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "operative%1:18:01::"))
+(InheritanceLink s (WordSenseNode "deserter%1:18:00::"))
+(InheritanceLink s (WordSenseNode "defector%1:18:00::"))

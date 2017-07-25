@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sound_hole%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sound_hole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hole%1:06:00::"))
+(HolonymLink s (WordSenseNode "sounding_board%1:06:00::"))
+(HolonymLink s (WordSenseNode "soundboard%1:06:00::"))

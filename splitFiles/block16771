@@ -1,0 +1,4 @@
+(define s (WordSenseNode "biochemical_mechanism%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "biochemical_mechanism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanism%1:22:00::"))
+(InheritanceLink s (WordSenseNode "chemical_mechanism%1:22:00::"))

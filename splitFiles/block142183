@@ -1,0 +1,5 @@
+(define s (WordSenseNode "root%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "root")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:23:00::"))
+(InheritanceLink (WordSenseNode "square_root%1:23:00::") s)
+(InheritanceLink (WordSenseNode "cube_root%1:23:00::") s)

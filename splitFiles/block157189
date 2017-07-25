@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spiritual%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spiritual")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_song%1:10:00::"))
+(define x (WordNode "Negro_spiritual")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_song%1:10:00::"))

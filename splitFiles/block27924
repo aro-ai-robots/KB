@@ -1,0 +1,7 @@
+(define s (WordSenseNode "centrifuge%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "centrifuge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spin%2:38:00::"))
+(InheritanceLink (WordSenseNode "ultracentrifuge%2:38:00::") s)
+(define x (WordNode "centrifugate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spin%2:38:00::"))
+(InheritanceLink (WordSenseNode "ultracentrifuge%2:38:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "packed_cells%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "packed_cells")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_cell%1:08:00::"))
+(InheritanceLink s (WordSenseNode "blood_corpuscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "corpuscle%1:08:00::"))

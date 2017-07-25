@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pack_rat%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magpie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hoarder%1:18:00::"))
+(define x (WordNode "scavenger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hoarder%1:18:00::"))
+(define x (WordNode "pack_rat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hoarder%1:18:00::"))

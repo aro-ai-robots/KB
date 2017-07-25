@@ -1,0 +1,6 @@
+(define s (WordSenseNode "third_rail%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "third_rail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "track%1:06:01::"))
+(InheritanceLink s (WordSenseNode "rail%1:06:01::"))
+(InheritanceLink s (WordSenseNode "rails%1:06:00::"))
+(InheritanceLink s (WordSenseNode "runway%1:06:02::"))

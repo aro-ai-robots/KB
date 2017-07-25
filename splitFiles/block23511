@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cachinnation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cachinnation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "laugh%1:10:00::"))
+(InheritanceLink s (WordSenseNode "laughter%1:10:00::"))

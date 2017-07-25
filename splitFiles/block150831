@@ -1,0 +1,6 @@
+(define s (WordSenseNode "shortia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shortia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower%1:20:00::"))
+(InheritanceLink (WordSenseNode "oconee_bells%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Shortia_galacifolia%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Shortia%1:20:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pay_cut%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pay_cut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%1:04:05::"))
+(define x (WordNode "salary_cut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%1:04:05::"))

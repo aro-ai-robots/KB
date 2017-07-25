@@ -1,0 +1,8 @@
+(define s (WordSenseNode "stand_still%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stand_still")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "freeze%2:38:00::") s)
+(InheritanceLink (WordSenseNode "stop_dead%2:38:00::") s)
+(InheritanceLink (WordSenseNode "grind_to_a_halt%2:38:00::") s)
+(InheritanceLink (WordSenseNode "get_stuck%2:38:00::") s)
+(InheritanceLink (WordSenseNode "bog_down%2:38:00::") s)
+(InheritanceLink (WordSenseNode "mire%2:38:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "glaciation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glaciation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geological_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "geologic_process%1:22:00::"))
+(InheritanceLink (WordSenseNode "Riss_glaciation%1:22:00::") s)
+(InheritanceLink (WordSenseNode "Saale_glaciation%1:22:00::") s)
+(InheritanceLink (WordSenseNode "Wolstonian_glaciation%1:22:00::") s)

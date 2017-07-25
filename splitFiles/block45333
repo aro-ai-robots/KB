@@ -1,0 +1,5 @@
+(define s (WordSenseNode "desktop_computer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "desktop_computer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personal_computer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "PC%1:06:00::"))
+(InheritanceLink s (WordSenseNode "microcomputer%1:06:00::"))

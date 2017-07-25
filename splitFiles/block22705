@@ -1,0 +1,6 @@
+(define s (WordSenseNode "burn_center%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "burn_center")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "center%1:06:00::"))
+(InheritanceLink s (WordSenseNode "centre%1:06:00::"))
+(HolonymLink s (WordSenseNode "hospital%1:06:00::"))
+(HolonymLink s (WordSenseNode "infirmary%1:06:00::"))

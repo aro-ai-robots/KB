@@ -1,0 +1,7 @@
+(define s (WordSenseNode "extended_family%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "extended_family")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "family%1:14:02::"))
+(InheritanceLink s (WordSenseNode "household%1:14:00::"))
+(InheritanceLink s (WordSenseNode "house%1:14:05::"))
+(InheritanceLink s (WordSenseNode "home%1:14:00::"))
+(InheritanceLink s (WordSenseNode "menage%1:14:00::"))

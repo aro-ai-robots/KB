@@ -1,0 +1,5 @@
+(define s (WordSenseNode "martyrdom%1:11:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calvary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "affliction%1:11:00::"))
+(define x (WordNode "martyrdom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "affliction%1:11:00::"))

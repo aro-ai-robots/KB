@@ -1,0 +1,5 @@
+(define s (WordSenseNode "almandine%1:27:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "almandite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "garnet%1:27:00::"))
+(define x (WordNode "almandine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "garnet%1:27:00::"))

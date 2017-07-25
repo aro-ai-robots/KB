@@ -1,0 +1,6 @@
+(define s (WordSenseNode "monstera%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monstera")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liana%1:20:00::"))
+(InheritanceLink (WordSenseNode "ceriman%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Monstera_deliciosa%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Monstera%1:20:00::"))

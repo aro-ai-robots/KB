@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lombardy_poplar%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Lombardy_poplar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "black_poplar%1:20:00::"))
+(InheritanceLink s (WordSenseNode "Populus_nigra%1:20:00::"))
+(define x (WordNode "Populus_nigra_italica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "black_poplar%1:20:00::"))
+(InheritanceLink s (WordSenseNode "Populus_nigra%1:20:00::"))

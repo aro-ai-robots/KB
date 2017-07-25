@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fsb%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Federal_Security_Bureau")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Russian_agency%1:14:00::"))
+(define x (WordNode "FSB")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Russian_agency%1:14:00::"))
+(define x (WordNode "Federal_Security_Service")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Russian_agency%1:14:00::"))

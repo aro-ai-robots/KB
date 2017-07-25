@@ -1,0 +1,6 @@
+(define s (WordSenseNode "massager%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "massager")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_therapist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "physiotherapist%1:18:00::"))
+(InheritanceLink (WordSenseNode "masseur%1:18:00::") s)
+(InheritanceLink (WordSenseNode "masseuse%1:18:00::") s)

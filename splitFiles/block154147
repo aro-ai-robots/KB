@@ -1,0 +1,7 @@
+(define s (WordSenseNode "smyrna%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Izmir")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Turkey%1:15:00::"))
+(HolonymLink s (WordSenseNode "Republic_of_Turkey%1:15:00::"))
+(define x (WordNode "Smyrna")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Turkey%1:15:00::"))
+(HolonymLink s (WordSenseNode "Republic_of_Turkey%1:15:00::"))

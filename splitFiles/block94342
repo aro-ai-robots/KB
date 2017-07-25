@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lally%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lally")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support_column%1:06:00::"))
+(define x (WordNode "lally_column")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support_column%1:06:00::"))

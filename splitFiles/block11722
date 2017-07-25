@@ -1,0 +1,7 @@
+(define s (WordSenseNode "autoradiograph%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "autoradiograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radiogram%1:06:00::"))
+(InheritanceLink s (WordSenseNode "radiograph%1:06:00::"))
+(InheritanceLink s (WordSenseNode "shadowgraph%1:06:00::"))
+(InheritanceLink s (WordSenseNode "skiagraph%1:06:00::"))
+(InheritanceLink s (WordSenseNode "skiagram%1:06:00::"))

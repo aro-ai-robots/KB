@@ -1,0 +1,5 @@
+(define s (WordSenseNode "frozen_metaphor%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dead_metaphor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metaphor%1:10:00::"))
+(define x (WordNode "frozen_metaphor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metaphor%1:10:00::"))

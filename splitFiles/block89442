@@ -1,0 +1,6 @@
+(define s (WordSenseNode "israel%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Israel")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Middle_East%1:15:00::"))
+(HolonymLink s (WordSenseNode "Mideast%1:15:00::"))
+(HolonymLink s (WordSenseNode "Near_East%1:15:00::"))
+(HolonymLink (WordSenseNode "Israelite%1:18:00::") s)

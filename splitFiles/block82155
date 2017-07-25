@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hormone-replacement_therapy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hormone_replacement_therapy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "therapy%1:04:00::"))
+(define x (WordNode "hormone-replacement_therapy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "therapy%1:04:00::"))
+(define x (WordNode "HRT")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "therapy%1:04:00::"))

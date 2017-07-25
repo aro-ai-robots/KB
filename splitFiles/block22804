@@ -1,0 +1,5 @@
+(define s (WordSenseNode "burst_out%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pop_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appear%2:30:00::"))
+(define x (WordNode "burst_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appear%2:30:00::"))

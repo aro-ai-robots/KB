@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sentimentalism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sentimentalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formulation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "expression%1:10:01::"))
+(InheritanceLink (WordSenseNode "treacle%1:10:00::") s)
+(InheritanceLink (WordSenseNode "mush%1:10:00::") s)
+(InheritanceLink (WordSenseNode "slop%1:10:00::") s)
+(InheritanceLink (WordSenseNode "glop%1:10:00::") s)

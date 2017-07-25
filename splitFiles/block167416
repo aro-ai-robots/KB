@@ -1,0 +1,6 @@
+(define s (WordSenseNode "territorial_army%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Territorial_Army")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "territorial%1:14:00::"))
+(InheritanceLink s (WordSenseNode "territorial_reserve%1:14:00::"))
+(HolonymLink (WordSenseNode "territorial%1:18:00::") s)
+(HolonymLink (WordSenseNode "yeomanry%1:14:02::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "canon%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "canyon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ravine%1:17:00::"))
+(HolonymLink (WordSenseNode "canyonside%1:17:00::") s)
+(define x (WordNode "canon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ravine%1:17:00::"))
+(HolonymLink (WordSenseNode "canyonside%1:17:00::") s)

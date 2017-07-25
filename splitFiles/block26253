@@ -1,0 +1,6 @@
+(define s (WordSenseNode "carriage%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carriage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanism%1:06:00::"))
+(InheritanceLink (WordSenseNode "typewriter_carriage%1:06:00::") s)
+(HolonymLink s (WordSenseNode "typewriter%1:06:00::"))
+(HolonymLink s (WordSenseNode "lathe%1:06:00::"))

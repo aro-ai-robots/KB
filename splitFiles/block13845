@@ -1,0 +1,4 @@
+(define s (WordSenseNode "barter_away%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "barter_away")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trade%2:40:00::"))
+(InheritanceLink s (WordSenseNode "trade_in%2:40:00::"))

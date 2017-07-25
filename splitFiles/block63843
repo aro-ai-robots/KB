@@ -1,0 +1,6 @@
+(define s (WordSenseNode "folklore%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "folklore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lore%1:09:00::"))
+(InheritanceLink s (WordSenseNode "traditional_knowledge%1:09:00::"))
+(HolonymLink (WordSenseNode "folktale%1:10:00::") s)
+(HolonymLink (WordSenseNode "folk_tale%1:10:00::") s)

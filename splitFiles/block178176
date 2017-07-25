@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vegetable_matter%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vegetable_matter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "matter%1:03:00::"))
+(InheritanceLink (WordSenseNode "peat%1:27:00::") s)
+(InheritanceLink (WordSenseNode "coal%1:27:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "relapsing_fever%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "relapsing_fever")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infectious_disease%1:26:00::"))
+(define x (WordNode "recurrent_fever")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infectious_disease%1:26:00::"))

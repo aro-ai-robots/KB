@@ -1,0 +1,6 @@
+(define s (WordSenseNode "digital_watch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "digital_watch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "watch%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ticker%1:06:01::"))
+(HolonymLink (WordSenseNode "digital_display%1:06:00::") s)
+(HolonymLink (WordSenseNode "alphanumeric_display%1:06:00::") s)

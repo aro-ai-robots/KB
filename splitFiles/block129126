@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pothos%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pothos")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liana%1:20:00::"))
+(HolonymLink s (WordSenseNode "Scindapsus%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Scindapsus%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Pothos%1:20:00::"))

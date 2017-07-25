@@ -1,0 +1,6 @@
+(define s (WordSenseNode "anaphase%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anaphase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phase_of_cell_division%1:22:00::"))
+(HolonymLink s (WordSenseNode "meiosis%1:22:00::"))
+(HolonymLink s (WordSenseNode "miosis%1:22:00::"))
+(HolonymLink s (WordSenseNode "reduction_division%1:22:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mass_spectrograph%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mass_spectrograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mass_spectrometer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "spectrometer%1:06:00::"))

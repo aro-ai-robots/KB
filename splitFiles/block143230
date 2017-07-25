@@ -1,0 +1,5 @@
+(define s (WordSenseNode "run_out%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "run_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discontinue%2:42:01::"))
+(define x (WordNode "expire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discontinue%2:42:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "aftershock%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aftershock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tremor%1:11:00::"))
+(InheritanceLink s (WordSenseNode "earth_tremor%1:11:00::"))
+(InheritanceLink s (WordSenseNode "microseism%1:11:00::"))

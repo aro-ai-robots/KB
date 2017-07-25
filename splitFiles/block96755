@@ -1,0 +1,7 @@
+(define s (WordSenseNode "letter_of_credit%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "letter_of_credit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "document%1:21:00::"))
+(InheritanceLink s (WordSenseNode "credit%1:21:02::"))
+(InheritanceLink (WordSenseNode "commercial_letter_of_credit%1:21:00::") s)
+(InheritanceLink (WordSenseNode "traveler's_letter_of_credit%1:21:00::") s)
+(InheritanceLink (WordSenseNode "traveller's_letter_of_credit%1:21:00::") s)

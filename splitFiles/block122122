@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pedestal_table%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pedestal_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "table%1:06:01::"))
+(InheritanceLink (WordSenseNode "tilt-top_table%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tip-top_table%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tip_table%1:06:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "withdrawal%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "withdrawal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "removal%1:04:00::"))
+(InheritanceLink s (WordSenseNode "remotion%1:04:00::"))
+(InheritanceLink (WordSenseNode "bank_withdrawal%1:04:00::") s)
+(InheritanceLink (WordSenseNode "disinvestment%1:04:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "leading_indicator%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leading_indicator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "index%1:10:01::"))
+(InheritanceLink s (WordSenseNode "index_number%1:10:00::"))
+(InheritanceLink s (WordSenseNode "indicant%1:10:00::"))
+(InheritanceLink s (WordSenseNode "indicator%1:10:00::"))

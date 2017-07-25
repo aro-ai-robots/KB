@@ -1,0 +1,5 @@
+(define s (WordSenseNode "card%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separate%2:35:02::"))
+(define x (WordNode "card")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separate%2:35:02::"))

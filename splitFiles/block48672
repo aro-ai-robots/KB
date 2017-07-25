@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dog_fennel%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dog_fennel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "herb%1:20:00::"))
+(InheritanceLink s (WordSenseNode "herbaceous_plant%1:20:00::"))
+(define x (WordNode "Eupatorium_capillifolium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "herb%1:20:00::"))
+(InheritanceLink s (WordSenseNode "herbaceous_plant%1:20:00::"))

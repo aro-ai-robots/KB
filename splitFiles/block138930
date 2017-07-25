@@ -1,0 +1,5 @@
+(define s (WordSenseNode "represser%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "repressor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:17:00::"))
+(define x (WordNode "represser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agent%1:17:00::"))

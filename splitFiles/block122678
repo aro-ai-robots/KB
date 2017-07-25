@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pepper%1:13:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pepper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solanaceous_vegetable%1:13:00::"))
+(InheritanceLink (WordSenseNode "sweet_pepper%1:13:00::") s)
+(InheritanceLink (WordSenseNode "hot_pepper%1:13:00::") s)
+(HolonymLink s (WordSenseNode "capsicum%1:20:00::"))
+(HolonymLink s (WordSenseNode "pepper%1:20:00::"))
+(HolonymLink s (WordSenseNode "capsicum_pepper_plant%1:20:00::"))

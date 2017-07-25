@@ -1,0 +1,7 @@
+(define s (WordSenseNode "calabash_pipe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calabash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pipe%1:06:01::"))
+(InheritanceLink s (WordSenseNode "tobacco_pipe%1:06:00::"))
+(define x (WordNode "calabash_pipe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pipe%1:06:01::"))
+(InheritanceLink s (WordSenseNode "tobacco_pipe%1:06:00::"))

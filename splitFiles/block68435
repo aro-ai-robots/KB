@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_anchusa%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Anchusa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Boraginaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Boraginaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "borage_family%1:20:00::"))
+(HolonymLink (WordSenseNode "anchusa%1:20:00::") s)

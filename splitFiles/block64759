@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fossorial_foot%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fossorial_foot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_foot%1:05:00::"))
+(InheritanceLink s (WordSenseNode "foot%1:05:01::"))

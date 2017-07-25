@@ -1,0 +1,6 @@
+(define s (WordSenseNode "protest_march%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "protest_march")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "civil_disobedience%1:04:00::"))
+(InheritanceLink s (WordSenseNode "demonstration%1:04:01::"))
+(InheritanceLink s (WordSenseNode "manifestation%1:04:00::"))
+(InheritanceLink (WordSenseNode "peace_march%1:04:00::") s)

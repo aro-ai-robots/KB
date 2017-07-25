@@ -1,0 +1,7 @@
+(define s (WordSenseNode "carpenter's_hammer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carpenter's_hammer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hammer%1:06:00::"))
+(define x (WordNode "claw_hammer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hammer%1:06:00::"))
+(define x (WordNode "clawhammer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hammer%1:06:00::"))

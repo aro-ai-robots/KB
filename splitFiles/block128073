@@ -1,0 +1,4 @@
+(define s (WordSenseNode "polytheism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polytheism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theism%1:09:00::"))
+(InheritanceLink (WordSenseNode "tritheism%1:09:00::") s)

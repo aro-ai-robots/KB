@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cocoon%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cocoon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "envelop%2:35:00::"))
+(InheritanceLink s (WordSenseNode "enfold%2:35:00::"))
+(InheritanceLink s (WordSenseNode "enwrap%2:35:00::"))
+(InheritanceLink s (WordSenseNode "wrap%2:35:01::"))
+(InheritanceLink s (WordSenseNode "enclose%2:35:01::"))

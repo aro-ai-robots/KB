@@ -1,0 +1,5 @@
+(define s (WordSenseNode "predetermination%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "predetermination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decision%1:09:00::"))
+(InheritanceLink s (WordSenseNode "determination%1:09:00::"))
+(InheritanceLink s (WordSenseNode "conclusion%1:09:00::"))

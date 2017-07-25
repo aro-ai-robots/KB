@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lumbar_pain%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lumbago")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "backache%1:26:00::"))
+(define x (WordNode "lumbar_pain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "backache%1:26:00::"))

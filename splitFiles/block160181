@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stockbroker_belt%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stockbroker_belt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "suburb%1:15:00::"))
+(InheritanceLink s (WordSenseNode "suburbia%1:15:00::"))
+(InheritanceLink s (WordSenseNode "suburban_area%1:15:00::"))

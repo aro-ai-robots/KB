@@ -1,0 +1,5 @@
+(define s (WordSenseNode "guide%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "guide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leader%1:18:00::"))
+(InheritanceLink (WordSenseNode "cicerone%1:18:00::") s)
+(InheritanceLink (WordSenseNode "tour_guide%1:18:00::") s)

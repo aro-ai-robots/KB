@@ -1,0 +1,4 @@
+(define s (WordSenseNode "return%2:40:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "return")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reciprocate%2:41:00::"))
+(InheritanceLink (WordSenseNode "redound%2:39:00::") s)

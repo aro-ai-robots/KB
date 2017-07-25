@@ -1,0 +1,8 @@
+(define s (WordSenseNode "concentration%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concentration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "increase%1:11:00::"))
+(InheritanceLink (WordSenseNode "compaction%1:11:00::") s)
+(InheritanceLink (WordSenseNode "compression%1:11:02::") s)
+(InheritanceLink (WordSenseNode "concretion%1:11:00::") s)
+(InheritanceLink (WordSenseNode "densification%1:11:00::") s)
+(InheritanceLink (WordSenseNode "rarefaction%1:11:00::") s)

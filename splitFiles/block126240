@@ -1,0 +1,6 @@
+(define s (WordSenseNode "plant_closing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plant_closing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "closure%1:04:00::"))
+(InheritanceLink s (WordSenseNode "closedown%1:04:00::"))
+(InheritanceLink s (WordSenseNode "closing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "shutdown%1:04:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "slide_projector%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "slide_projector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projector%1:06:00::"))
+(InheritanceLink (WordSenseNode "magic_lantern%1:06:00::") s)

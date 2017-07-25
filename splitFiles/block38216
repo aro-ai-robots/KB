@@ -1,0 +1,4 @@
+(define s (WordSenseNode "corrigendum%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "corrigendum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "error%1:10:00::"))
+(InheritanceLink s (WordSenseNode "mistake%1:10:00::"))

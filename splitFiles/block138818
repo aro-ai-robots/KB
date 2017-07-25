@@ -1,0 +1,5 @@
+(define s (WordSenseNode "replay%2:36:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "play_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproduce%2:36:00::"))
+(define x (WordNode "replay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproduce%2:36:00::"))

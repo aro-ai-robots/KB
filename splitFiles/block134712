@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rabbi%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rabbi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spiritual_leader%1:18:00::"))
+(InheritanceLink (WordSenseNode "amora%1:18:00::") s)
+(HolonymLink s (WordSenseNode "rabbinate%1:14:00::"))

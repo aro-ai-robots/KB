@@ -1,0 +1,5 @@
+(define s (WordSenseNode "strip%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "part%1:17:00::"))
+(InheritanceLink s (WordSenseNode "piece%1:17:00::"))
+(InheritanceLink (WordSenseNode "row%1:17:00::") s)

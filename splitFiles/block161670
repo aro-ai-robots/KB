@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sub-test%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sub-test")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "test%1:04:02::"))
+(InheritanceLink s (WordSenseNode "mental_test%1:04:00::"))
+(InheritanceLink s (WordSenseNode "mental_testing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "psychometric_test%1:04:00::"))
+(HolonymLink s (WordSenseNode "battery%1:14:01::"))

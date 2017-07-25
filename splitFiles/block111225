@@ -1,0 +1,7 @@
+(define s (WordSenseNode "natal_day%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "birthday")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "date%1:28:00::"))
+(InheritanceLink s (WordSenseNode "day_of_the_month%1:28:00::"))
+(define x (WordNode "natal_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "date%1:28:00::"))
+(InheritanceLink s (WordSenseNode "day_of_the_month%1:28:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "slit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "slit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opening%1:06:00::"))
+(InheritanceLink (WordSenseNode "jag%1:06:01::") s)
+(InheritanceLink (WordSenseNode "slot%1:06:00::") s)
+(InheritanceLink (WordSenseNode "vent%1:06:01::") s)

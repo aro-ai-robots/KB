@@ -1,0 +1,5 @@
+(define s (WordSenseNode "schizoid%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "schizotypal_personality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personality_disorder%1:26:00::"))
+(define x (WordNode "schizoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "personality_disorder%1:26:00::"))

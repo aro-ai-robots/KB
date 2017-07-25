@@ -1,0 +1,5 @@
+(define s (WordSenseNode "electrical_cable%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electrical_cable")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cable%1:06:02::"))
+(InheritanceLink s (WordSenseNode "line%1:06:01::"))
+(InheritanceLink s (WordSenseNode "transmission_line%1:06:00::"))

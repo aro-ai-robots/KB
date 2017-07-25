@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dyslogia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dyslogia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "speech_disorder%1:26:00::"))
+(InheritanceLink s (WordSenseNode "speech_defect%1:26:00::"))
+(InheritanceLink s (WordSenseNode "defect_of_speech%1:26:00::"))

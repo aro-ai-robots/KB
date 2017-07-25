@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tab_key%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tab_key")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "key%1:06:01::"))
+(HolonymLink s (WordSenseNode "typewriter_keyboard%1:06:00::"))
+(define x (WordNode "tab")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "key%1:06:01::"))
+(HolonymLink s (WordSenseNode "typewriter_keyboard%1:06:00::"))

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "spare%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "score%1:04:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "shipping_company%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shipping_company")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "company%1:14:01::"))
+(InheritanceLink (WordSenseNode "trucking_company%1:14:00::") s)

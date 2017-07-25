@@ -1,0 +1,5 @@
+(define s (WordSenseNode "deride%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mock%2:32:00::"))
+(InheritanceLink s (WordSenseNode "bemock%2:32:00::"))
+(InheritanceLink (WordSenseNode "catcall%2:32:00::") s)

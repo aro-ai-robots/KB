@@ -1,0 +1,4 @@
+(define s (WordSenseNode "canon%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "canon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scripture%1:10:01::"))
+(InheritanceLink s (WordSenseNode "sacred_scripture%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tern%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "larid%1:05:00::"))
+(InheritanceLink (WordSenseNode "sea_swallow%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Sterna_hirundo%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Sterninae%1:05:00::"))
+(HolonymLink s (WordSenseNode "subfamily_Sterninae%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "parieto-occipital_fissure%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parieto-occipital_sulcus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sulcus%1:08:00::"))
+(define x (WordNode "parieto-occipital_fissure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sulcus%1:08:00::"))

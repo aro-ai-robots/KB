@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cox-2%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cyclooxygenase-2")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyclooxygenase%1:27:00::"))
+(InheritanceLink s (WordSenseNode "Cox%1:27:00::"))
+(define x (WordNode "Cox-2")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cyclooxygenase%1:27:00::"))
+(InheritanceLink s (WordSenseNode "Cox%1:27:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "neonatal_intensive_care_unit%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neonatal_intensive_care_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intensive_care_unit%1:14:00::"))
+(InheritanceLink s (WordSenseNode "ICU%1:14:00::"))
+(define x (WordNode "NICU")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intensive_care_unit%1:14:00::"))
+(InheritanceLink s (WordSenseNode "ICU%1:14:00::"))

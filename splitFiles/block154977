@@ -1,0 +1,7 @@
+(define s (WordSenseNode "soften%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "yield")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "truckle%2:42:00::") s)
+(define x (WordNode "relent")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "truckle%2:42:00::") s)
+(define x (WordNode "soften")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "truckle%2:42:00::") s)

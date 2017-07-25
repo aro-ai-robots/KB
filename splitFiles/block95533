@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lay_over%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "lay_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:02::"))
+(InheritanceLink s (WordSenseNode "stop_over%2:38:00::"))
+(define x (WordNode "stop_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stop%2:38:02::"))
+(InheritanceLink s (WordSenseNode "stop_over%2:38:00::"))

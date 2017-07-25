@@ -1,0 +1,5 @@
+(define s (WordSenseNode "grow_over%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overgrow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grow%2:30:00::"))
+(define x (WordNode "grow_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grow%2:30:00::"))

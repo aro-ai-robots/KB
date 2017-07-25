@@ -1,0 +1,7 @@
+(define s (WordSenseNode "skitter%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "skim")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "throw%2:35:00::"))
+(define x (WordNode "skip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "throw%2:35:00::"))
+(define x (WordNode "skitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "throw%2:35:00::"))

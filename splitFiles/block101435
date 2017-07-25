@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mailing%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mailing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mail%1:14:00::"))
+(InheritanceLink s (WordSenseNode "post%1:14:00::"))

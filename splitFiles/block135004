@@ -1,0 +1,5 @@
+(define s (WordSenseNode "radio_operator%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radio_operator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operator%1:18:00::"))
+(InheritanceLink s (WordSenseNode "manipulator%1:18:00::"))
+(InheritanceLink (WordSenseNode "ham%1:18:01::") s)

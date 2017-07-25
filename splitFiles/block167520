@@ -1,0 +1,6 @@
+(define s (WordSenseNode "testacean%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "testacean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhizopod%1:05:00::"))
+(InheritanceLink s (WordSenseNode "rhizopodan%1:05:00::"))
+(HolonymLink s (WordSenseNode "Testacea%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Testacea%1:05:00::"))

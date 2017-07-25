@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cyclopropane%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cyclopropane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inhalation_anesthetic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "inhalation_anaesthetic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "inhalation_general_anesthetic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "inhalation_general_anaesthetic%1:06:00::"))

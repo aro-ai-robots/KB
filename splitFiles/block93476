@@ -1,0 +1,8 @@
+(define s (WordSenseNode "know-how%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "know-how")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ability%1:09:00::"))
+(InheritanceLink s (WordSenseNode "power%1:09:01::"))
+(InheritanceLink (WordSenseNode "bag_of_tricks%1:09:00::") s)
+(InheritanceLink (WordSenseNode "wisdom%1:09:01::") s)
+(InheritanceLink (WordSenseNode "sapience%1:09:00::") s)
+(InheritanceLink (WordSenseNode "method%1:09:00::") s)

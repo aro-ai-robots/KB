@@ -1,0 +1,5 @@
+(define s (WordSenseNode "selvedge%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "selvage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "border%1:06:00::"))
+(define x (WordNode "selvedge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "border%1:06:00::"))

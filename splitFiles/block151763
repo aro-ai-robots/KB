@@ -1,0 +1,7 @@
+(define s (WordSenseNode "silky_oak%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "silky_oak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "silk_oak%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Grevillea%1:20:00::"))
+(define x (WordNode "Grevillea_robusta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "silk_oak%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Grevillea%1:20:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mecopteran%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mecopteran")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insect%1:05:00::"))
+(InheritanceLink (WordSenseNode "scorpion_fly%1:05:00::") s)
+(InheritanceLink (WordSenseNode "hanging_fly%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Mecoptera%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Mecoptera%1:05:00::"))

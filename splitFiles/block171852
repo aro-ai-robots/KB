@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trapezoid%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trapezoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quadrilateral%1:25:00::"))
+(InheritanceLink s (WordSenseNode "quadrangle%1:25:00::"))
+(InheritanceLink s (WordSenseNode "tetragon%1:25:00::"))

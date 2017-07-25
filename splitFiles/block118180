@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ottawa%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Outaouais")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Canada%1:15:00::"))
+(define x (WordNode "Ottawa")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Canada%1:15:00::"))
+(define x (WordNode "Ottawa_river")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Canada%1:15:00::"))

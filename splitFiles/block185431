@@ -1,0 +1,6 @@
+(define s (WordSenseNode "xiphoid_process%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "xiphoid_process")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bone%1:08:00::"))
+(InheritanceLink s (WordSenseNode "os%1:08:00::"))
+(HolonymLink s (WordSenseNode "sternum%1:08:00::"))
+(HolonymLink s (WordSenseNode "breastbone%1:08:00::"))

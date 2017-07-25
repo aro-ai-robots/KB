@@ -1,0 +1,5 @@
+(define s (WordSenseNode "saipan%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Saipan")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "World_War_II%1:04:00::"))
+(HolonymLink s (WordSenseNode "World_War_2%1:04:00::"))
+(HolonymLink s (WordSenseNode "Second_World_War%1:04:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ratchet_wheel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ratchet_wheel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wheel%1:06:00::"))
+(HolonymLink s (WordSenseNode "ratchet%1:06:00::"))
+(HolonymLink s (WordSenseNode "rachet%1:06:00::"))
+(HolonymLink s (WordSenseNode "ratch%1:06:00::"))

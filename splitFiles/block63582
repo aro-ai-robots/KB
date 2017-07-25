@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fly_floor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fly_gallery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "platform%1:06:00::"))
+(define x (WordNode "fly_floor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "platform%1:06:00::"))

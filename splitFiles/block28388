@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chain_store%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chain_store")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shop%1:06:00::"))
+(InheritanceLink s (WordSenseNode "store%1:06:00::"))
+(HolonymLink s (WordSenseNode "chain%1:14:02::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "proxima_centauri%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Proxima")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Centaurus%1:17:00::"))
+(HolonymLink s (WordSenseNode "Centaur%1:17:00::"))
+(define x (WordNode "Proxima_Centauri")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Centaurus%1:17:00::"))
+(HolonymLink s (WordSenseNode "Centaur%1:17:00::"))

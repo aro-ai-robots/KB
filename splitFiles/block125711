@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pis_aller%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pis_aller")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expedient%1:04:00::"))
+(define x (WordNode "last_resort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expedient%1:04:00::"))

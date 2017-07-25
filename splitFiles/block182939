@@ -1,0 +1,7 @@
+(define s (WordSenseNode "white_wolf%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_wolf")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wolf%1:05:00::"))
+(define x (WordNode "Arctic_wolf")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wolf%1:05:00::"))
+(define x (WordNode "Canis_lupus_tundrarum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wolf%1:05:00::"))

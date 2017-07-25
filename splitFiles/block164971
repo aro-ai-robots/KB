@@ -1,0 +1,7 @@
+(define s (WordSenseNode "taciturnity%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reserve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "uncommunicativeness%1:07:00::"))
+(define x (WordNode "reticence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "uncommunicativeness%1:07:00::"))
+(define x (WordNode "taciturnity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "uncommunicativeness%1:07:00::"))

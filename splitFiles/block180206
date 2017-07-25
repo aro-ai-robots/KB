@@ -1,0 +1,5 @@
+(define s (WordSenseNode "votyak%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Udmurt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Russian%1:18:00::"))
+(define x (WordNode "Votyak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Russian%1:18:00::"))

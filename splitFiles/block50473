@@ -1,0 +1,4 @@
+(define s (WordSenseNode "drum_printer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drum_printer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line_printer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "line-at-a-time_printer%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "air_defense%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "air_defense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "defense%1:04:00::"))
+(InheritanceLink s (WordSenseNode "defence%1:04:00::"))
+(InheritanceLink s (WordSenseNode "defensive_measure%1:04:00::"))
+(InheritanceLink (WordSenseNode "active_air_defense%1:04:00::") s)
+(InheritanceLink (WordSenseNode "passive_air_defense%1:04:00::") s)

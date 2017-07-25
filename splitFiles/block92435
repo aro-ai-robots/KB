@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kendall_rank_correlation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tau_coefficient_of_correlation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Kendall_test%1:09:00::"))
+(define x (WordNode "Kendall's_tau")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Kendall_test%1:09:00::"))
+(define x (WordNode "Kendall_rank_correlation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Kendall_test%1:09:00::"))

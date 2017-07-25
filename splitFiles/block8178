@@ -1,0 +1,5 @@
+(define s (WordSenseNode "appropriation_bill%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "appropriation_bill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bill%1:10:04::"))
+(InheritanceLink s (WordSenseNode "measure%1:10:02::"))
+(HolonymLink (WordSenseNode "line_item%1:10:00::") s)

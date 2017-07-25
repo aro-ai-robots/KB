@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chaperone%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "chaperone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "escort%2:38:00::"))
+(define x (WordNode "chaperon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "escort%2:38:00::"))

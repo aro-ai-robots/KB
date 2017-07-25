@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ludi_saeculares%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ludi_Saeculares")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "celebration%1:04:00::"))
+(InheritanceLink s (WordSenseNode "festivity%1:04:00::"))
+(define x (WordNode "secular_games")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "celebration%1:04:00::"))
+(InheritanceLink s (WordSenseNode "festivity%1:04:00::"))

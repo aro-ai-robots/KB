@@ -1,0 +1,8 @@
+(define s (WordSenseNode "ram_disk%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "RAM_disk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drive%1:06:03::"))
+(HolonymLink s (WordSenseNode "random-access_memory%1:06:00::"))
+(HolonymLink s (WordSenseNode "random_access_memory%1:06:00::"))
+(HolonymLink s (WordSenseNode "random_memory%1:06:00::"))
+(HolonymLink s (WordSenseNode "RAM%1:06:01::"))
+(HolonymLink s (WordSenseNode "read/write_memory%1:06:00::"))

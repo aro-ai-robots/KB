@@ -1,0 +1,5 @@
+(define s (WordSenseNode "license_plate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "license_plate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%1:06:02::"))
+(define x (WordNode "numberplate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%1:06:02::"))

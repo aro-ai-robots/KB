@@ -1,0 +1,6 @@
+(define s (WordSenseNode "postmature_infant%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "postmature_infant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neonate%1:18:00::"))
+(InheritanceLink s (WordSenseNode "newborn%1:18:00::"))
+(InheritanceLink s (WordSenseNode "newborn_infant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "newborn_baby%1:18:00::"))

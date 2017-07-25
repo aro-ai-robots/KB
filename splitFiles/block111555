@@ -1,0 +1,8 @@
+(define s (WordSenseNode "navigational_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "navigational_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "system%1:06:00::"))
+(InheritanceLink (WordSenseNode "Global_Positioning_System%1:06:00::") s)
+(InheritanceLink (WordSenseNode "GPS%1:06:00::") s)
+(InheritanceLink (WordSenseNode "omnirange%1:06:00::") s)
+(InheritanceLink (WordSenseNode "omnidirectional_range%1:06:00::") s)
+(InheritanceLink (WordSenseNode "omnidirectional_radio_range%1:06:00::") s)

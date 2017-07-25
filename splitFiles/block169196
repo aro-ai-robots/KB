@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tickler_file%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tickler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "file%1:10:00::"))
+(InheritanceLink s (WordSenseNode "data_file%1:10:00::"))
+(define x (WordNode "tickler_file")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "file%1:10:00::"))
+(InheritanceLink s (WordSenseNode "data_file%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "measuring_unit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "measuring_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unit_of_measurement%1:23:00::"))
+(InheritanceLink s (WordSenseNode "unit%1:23:00::"))
+(define x (WordNode "measuring_block")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unit_of_measurement%1:23:00::"))
+(InheritanceLink s (WordSenseNode "unit%1:23:00::"))

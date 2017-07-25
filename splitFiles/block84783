@@ -1,0 +1,7 @@
+(define s (WordSenseNode "imf%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "International_Monetary_Fund")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "United_Nations_agency%1:14:00::"))
+(InheritanceLink s (WordSenseNode "UN_agency%1:14:00::"))
+(define x (WordNode "IMF")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "United_Nations_agency%1:14:00::"))
+(InheritanceLink s (WordSenseNode "UN_agency%1:14:00::"))

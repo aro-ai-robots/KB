@@ -1,0 +1,5 @@
+(define s (WordSenseNode "interim_overhaul%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interim_overhaul")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "overhaul%1:04:00::"))
+(InheritanceLink s (WordSenseNode "inspection_and_repair%1:04:00::"))
+(InheritanceLink s (WordSenseNode "service%1:04:05::"))

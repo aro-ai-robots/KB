@@ -1,0 +1,8 @@
+(define s (WordSenseNode "fixture%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fixture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artifact%1:03:00::"))
+(InheritanceLink s (WordSenseNode "artefact%1:03:00::"))
+(InheritanceLink (WordSenseNode "bathroom_fixture%1:06:00::") s)
+(InheritanceLink (WordSenseNode "lighting_fixture%1:06:00::") s)
+(InheritanceLink (WordSenseNode "plumbing_fixture%1:06:00::") s)
+(InheritanceLink (WordSenseNode "soap_dish%1:06:00::") s)

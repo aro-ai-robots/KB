@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cross_bit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cross_bit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bore_bit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "borer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "rock_drill%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stone_drill%1:06:00::"))

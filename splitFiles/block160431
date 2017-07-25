@@ -1,0 +1,4 @@
+(define s (WordSenseNode "stopping%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stopping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "playing%1:04:01::"))
+(InheritanceLink (WordSenseNode "double_stopping%1:04:00::") s)

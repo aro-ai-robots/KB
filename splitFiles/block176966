@@ -1,0 +1,5 @@
+(define s (WordSenseNode "upset%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "overturn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "success%1:04:00::"))
+(define x (WordNode "upset")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "success%1:04:00::"))

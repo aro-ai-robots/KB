@@ -1,0 +1,7 @@
+(define s (WordSenseNode "base_pair%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "base_pair")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nucleotide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "base%1:27:01::"))
+(HolonymLink s (WordSenseNode "deoxyribonucleic_acid%1:27:00::"))
+(HolonymLink s (WordSenseNode "desoxyribonucleic_acid%1:27:00::"))
+(HolonymLink s (WordSenseNode "DNA%1:27:00::"))

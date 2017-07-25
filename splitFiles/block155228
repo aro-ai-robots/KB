@@ -1,0 +1,7 @@
+(define s (WordSenseNode "solidago_nemoralis%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grey_goldenrod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goldenrod%1:20:00::"))
+(define x (WordNode "gray_goldenrod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goldenrod%1:20:00::"))
+(define x (WordNode "Solidago_nemoralis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "goldenrod%1:20:00::"))

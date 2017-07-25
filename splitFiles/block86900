@@ -1,0 +1,7 @@
+(define s (WordSenseNode "information_gathering%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "information_gathering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:04:02::"))
+(InheritanceLink s (WordSenseNode "military_operation%1:04:00::"))
+(InheritanceLink (WordSenseNode "intelligence%1:04:00::") s)
+(InheritanceLink (WordSenseNode "intelligence_activity%1:04:00::") s)
+(InheritanceLink (WordSenseNode "intelligence_operation%1:04:00::") s)

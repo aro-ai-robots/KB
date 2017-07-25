@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nervous_breakdown%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nervous_breakdown")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "breakdown%1:26:01::"))
+(InheritanceLink s (WordSenseNode "crack-up%1:26:00::"))
+(InheritanceLink (WordSenseNode "nervous_exhaustion%1:26:00::") s)
+(InheritanceLink (WordSenseNode "nervous_prostration%1:26:00::") s)
+(InheritanceLink (WordSenseNode "neurasthenia%1:26:00::") s)

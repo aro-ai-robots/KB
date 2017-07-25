@@ -1,0 +1,3 @@
+(define s (WordSenseNode "naysaying%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "naysaying")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "denial%1:10:00::"))

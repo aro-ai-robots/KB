@@ -1,0 +1,5 @@
+(define s (WordSenseNode "videotape%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "videotape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnetic_tape%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mag_tape%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tape%1:06:04::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "metronidazole%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metronidazole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antiprotozoal%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antiprotozoal_drug%1:06:00::"))
+(define x (WordNode "Flagyl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antiprotozoal%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antiprotozoal_drug%1:06:00::"))

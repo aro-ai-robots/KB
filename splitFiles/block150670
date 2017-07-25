@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shooting_box%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shooting_lodge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "country_house%1:06:00::"))
+(define x (WordNode "shooting_box")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "country_house%1:06:00::"))

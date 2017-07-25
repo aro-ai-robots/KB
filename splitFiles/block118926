@@ -1,0 +1,4 @@
+(define s (WordSenseNode "overwrite%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overwrite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "write%2:32:03::"))
+(InheritanceLink s (WordSenseNode "save%2:32:04::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "deinonychus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deinonychus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maniraptor%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Deinonychus%1:05:00::"))

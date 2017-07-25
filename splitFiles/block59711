@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fan_letter%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fan_letter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "letter%1:10:00::"))
+(InheritanceLink s (WordSenseNode "missive%1:10:00::"))
+(HolonymLink s (WordSenseNode "fan_mail%1:14:00::"))

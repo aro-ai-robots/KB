@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mastotermes_electrodominicus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mastotermes_electrodominicus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "termite%1:05:00::"))
+(InheritanceLink s (WordSenseNode "white_ant%1:05:00::"))
+(HolonymLink s (WordSenseNode "Mastotermes%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Mastotermes%1:05:00::"))

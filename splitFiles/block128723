@@ -1,0 +1,7 @@
+(define s (WordSenseNode "positiveness%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "positivity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polarity%1:24:00::"))
+(InheritanceLink s (WordSenseNode "sign%1:24:00::"))
+(define x (WordNode "positiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polarity%1:24:00::"))
+(InheritanceLink s (WordSenseNode "sign%1:24:00::"))

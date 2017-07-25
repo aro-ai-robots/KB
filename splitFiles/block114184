@@ -1,0 +1,6 @@
+(define s (WordSenseNode "notch%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "notch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indentation%1:25:00::"))
+(InheritanceLink s (WordSenseNode "indenture%1:25:00::"))
+(InheritanceLink (WordSenseNode "incisure%1:25:00::") s)
+(InheritanceLink (WordSenseNode "incisura%1:25:00::") s)

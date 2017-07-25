@@ -1,0 +1,5 @@
+(define s (WordSenseNode "home_territory%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "home_range")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "range%1:15:02::"))
+(define x (WordNode "home_territory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "range%1:15:02::"))

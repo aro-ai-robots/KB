@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bill_of_particulars%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bill_of_Particulars")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allegation%1:10:01::"))
+(InheritanceLink s (WordSenseNode "allegement%1:10:00::"))
+(HolonymLink s (WordSenseNode "pleading%1:10:00::"))

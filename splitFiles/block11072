@@ -1,0 +1,7 @@
+(define s (WordSenseNode "attend_to%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "attend_to")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mind%2:31:00::"))
+(InheritanceLink s (WordSenseNode "bear_in_mind%2:31:00::"))
+(define x (WordNode "take_to_heart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mind%2:31:00::"))
+(InheritanceLink s (WordSenseNode "bear_in_mind%2:31:00::"))

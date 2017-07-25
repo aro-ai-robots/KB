@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quinine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quinine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antimalarial%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antimalarial_drug%1:06:00::"))
+(HolonymLink s (WordSenseNode "tonic%1:13:02::"))
+(HolonymLink s (WordSenseNode "tonic_water%1:13:00::"))
+(HolonymLink s (WordSenseNode "quinine_water%1:13:00::"))

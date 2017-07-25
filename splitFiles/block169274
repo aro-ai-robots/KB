@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tie_down%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tie_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oblige%2:32:00::"))
+(InheritanceLink s (WordSenseNode "bind%2:32:00::"))
+(InheritanceLink s (WordSenseNode "hold%2:32:13::"))
+(InheritanceLink s (WordSenseNode "obligate%2:32:00::"))

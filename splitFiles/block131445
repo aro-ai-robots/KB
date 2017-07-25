@@ -1,0 +1,4 @@
+(define s (WordSenseNode "proliferate%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "proliferate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "multiply%2:30:00::"))
+(InheritanceLink s (WordSenseNode "manifold%2:30:01::"))

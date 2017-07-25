@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pdl%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "poundal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force_unit%1:23:00::"))
+(define x (WordNode "pdl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force_unit%1:23:00::"))

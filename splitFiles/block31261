@@ -1,0 +1,4 @@
+(define s (WordSenseNode "circumscription%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circumscription")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "restriction%1:04:01::"))
+(InheritanceLink s (WordSenseNode "confinement%1:04:01::"))

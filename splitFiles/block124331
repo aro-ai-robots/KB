@@ -1,0 +1,6 @@
+(define s (WordSenseNode "photojournalism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "photojournalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "journalism%1:10:00::"))
+(InheritanceLink s (WordSenseNode "news_media%1:10:00::"))
+(InheritanceLink (WordSenseNode "news_photography%1:10:00::") s)
+(InheritanceLink (WordSenseNode "rotogravure%1:10:01::") s)

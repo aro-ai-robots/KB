@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ilmenite%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ilmenite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mineral%1:27:00::"))
+(HolonymLink (WordSenseNode "titanium%1:27:00::") s)
+(HolonymLink (WordSenseNode "Ti%1:27:00::") s)
+(HolonymLink (WordSenseNode "atomic_number_22%1:27:00::") s)

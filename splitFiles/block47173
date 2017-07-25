@@ -1,0 +1,7 @@
+(define s (WordSenseNode "discard%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "discard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abandonment%1:04:02::"))
+(InheritanceLink (WordSenseNode "staging%1:04:01::") s)
+(define x (WordNode "throwing_away")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abandonment%1:04:02::"))
+(InheritanceLink (WordSenseNode "staging%1:04:01::") s)

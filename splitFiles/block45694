@@ -1,0 +1,6 @@
+(define s (WordSenseNode "developmental_learning%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "developmental_learning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "learning%1:09:00::"))
+(InheritanceLink s (WordSenseNode "acquisition%1:09:01::"))
+(InheritanceLink (WordSenseNode "accommodation%1:09:00::") s)
+(InheritanceLink (WordSenseNode "assimilation%1:09:00::") s)

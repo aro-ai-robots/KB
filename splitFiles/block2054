@@ -1,0 +1,7 @@
+(define s (WordSenseNode "address%2:41:08::")) (PartOfSpeechLink s verb)
+(define x (WordNode "address")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "address%2:32:00::"))
+(InheritanceLink s (WordSenseNode "turn_to%2:32:01::"))
+(define x (WordNode "call")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "address%2:32:00::"))
+(InheritanceLink s (WordSenseNode "turn_to%2:32:01::"))

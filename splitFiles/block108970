@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mother-of-pearl_cloud%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nacreous_cloud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:17:00::"))
+(define x (WordNode "mother-of-pearl_cloud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:17:00::"))

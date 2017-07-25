@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chemical_notation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chemical_notation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "notation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "notational_system%1:10:00::"))
+(HolonymLink s (WordSenseNode "formula%1:10:03::"))
+(HolonymLink s (WordSenseNode "chemical_formula%1:10:00::"))

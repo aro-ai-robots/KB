@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sign_up%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sign_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "join%2:41:00::"))
+(InheritanceLink s (WordSenseNode "fall_in%2:41:00::"))
+(InheritanceLink s (WordSenseNode "get_together%2:41:02::"))
+(InheritanceLink (WordSenseNode "enlist%2:33:00::") s)

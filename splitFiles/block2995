@@ -1,0 +1,4 @@
+(define s (WordSenseNode "afterdeck%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "afterdeck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deck%1:06:00::"))
+(HolonymLink (WordSenseNode "fantail%1:06:00::") s)

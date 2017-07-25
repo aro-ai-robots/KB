@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_lemur%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Lemur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Lemuridae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Lemuridae%1:05:00::"))
+(HolonymLink (WordSenseNode "Madagascar_cat%1:05:00::") s)
+(HolonymLink (WordSenseNode "ring-tailed_lemur%1:05:00::") s)
+(HolonymLink (WordSenseNode "Lemur_catta%1:05:00::") s)

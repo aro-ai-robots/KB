@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sick_call%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sick_call")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_formation%1:14:00::"))
+(define x (WordNode "sick_parade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_formation%1:14:00::"))

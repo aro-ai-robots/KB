@@ -1,0 +1,5 @@
+(define s (WordSenseNode "light_pen%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "light_pen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pointer%1:06:00::"))
+(define x (WordNode "electronic_stylus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pointer%1:06:00::"))

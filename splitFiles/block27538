@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ceiling%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ceiling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "altitude%1:07:00::"))
+(InheritanceLink s (WordSenseNode "height%1:07:02::"))
+(InheritanceLink (WordSenseNode "absolute_ceiling%1:07:00::") s)
+(InheritanceLink (WordSenseNode "combat_ceiling%1:07:00::") s)
+(InheritanceLink (WordSenseNode "service_ceiling%1:07:00::") s)

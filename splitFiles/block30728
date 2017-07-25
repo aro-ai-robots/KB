@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chromium-plate%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "chrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%2:35:00::"))
+(define x (WordNode "chromium-plate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%2:35:00::"))

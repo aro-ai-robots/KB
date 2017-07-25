@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chorionic_villus_sampling%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chorionic_villus_sampling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biopsy%1:09:00::"))
+(define x (WordNode "chorionic_villus_biopsy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biopsy%1:09:00::"))

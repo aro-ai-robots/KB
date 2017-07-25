@@ -1,0 +1,4 @@
+(define s (WordSenseNode "vaisya%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vaisya")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "varna%1:14:00::"))
+(HolonymLink (WordSenseNode "Vaisya%1:18:00::") s)

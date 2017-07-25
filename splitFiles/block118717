@@ -1,0 +1,5 @@
+(define s (WordSenseNode "overhead%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "overhead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:04::"))
+(define x (WordNode "smash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%1:04:04::"))

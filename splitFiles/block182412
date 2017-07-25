@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wheat_flag_smut%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wheat_flag_smut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flag_smut_fungus%1:20:00::"))
+(define x (WordNode "Urocystis_tritici")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flag_smut_fungus%1:20:00::"))

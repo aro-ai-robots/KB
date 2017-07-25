@@ -1,0 +1,7 @@
+(define s (WordSenseNode "transplantation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transplant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "movement%1:04:02::"))
+(define x (WordNode "transplantation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "movement%1:04:02::"))
+(define x (WordNode "transplanting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "movement%1:04:02::"))

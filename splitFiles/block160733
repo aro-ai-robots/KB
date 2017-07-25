@@ -1,0 +1,7 @@
+(define s (WordSenseNode "strappado%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strappado")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "torture%1:04:00::"))
+(InheritanceLink s (WordSenseNode "torturing%1:04:00::"))
+(define x (WordNode "strapado")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "torture%1:04:00::"))
+(InheritanceLink s (WordSenseNode "torturing%1:04:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "armchair_liberal%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "armchair_liberal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liberal%1:18:00::"))
+(InheritanceLink s (WordSenseNode "liberalist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "progressive%1:18:00::"))

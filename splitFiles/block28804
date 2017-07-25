@@ -1,0 +1,5 @@
+(define s (WordSenseNode "characterisation%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "characterization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "description%1:10:00::"))
+(define x (WordNode "characterisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "description%1:10:00::"))

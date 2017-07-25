@@ -1,0 +1,5 @@
+(define s (WordSenseNode "capitalisation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "capitalization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing%1:10:01::"))
+(define x (WordNode "capitalisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing%1:10:01::"))

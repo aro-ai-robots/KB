@@ -1,0 +1,7 @@
+(define s (WordSenseNode "trot%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "trot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "run%2:38:00::"))
+(define x (WordNode "jog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "run%2:38:00::"))
+(define x (WordNode "clip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "run%2:38:00::"))

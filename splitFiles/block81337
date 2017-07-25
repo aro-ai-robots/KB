@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hold_over%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "carry_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keep%2:40:00::"))
+(InheritanceLink s (WordSenseNode "hold_on%2:40:00::"))
+(define x (WordNode "hold_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keep%2:40:00::"))
+(InheritanceLink s (WordSenseNode "hold_on%2:40:00::"))

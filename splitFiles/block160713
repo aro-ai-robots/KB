@@ -1,0 +1,5 @@
+(define s (WordSenseNode "strangulate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "strangulate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constrict%2:30:00::"))
+(InheritanceLink s (WordSenseNode "constringe%2:30:00::"))
+(InheritanceLink s (WordSenseNode "narrow%2:30:01::"))

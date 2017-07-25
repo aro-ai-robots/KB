@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cockle%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cockle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shellfish%1:13:00::"))
+(HolonymLink s (WordSenseNode "edible_cockle%1:05:00::"))
+(HolonymLink s (WordSenseNode "Cardium_edule%1:05:00::"))

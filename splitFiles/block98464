@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lithuanian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Lithuanian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Baltic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Baltic_language%1:10:00::"))

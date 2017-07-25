@@ -1,0 +1,7 @@
+(define s (WordSenseNode "urogenital_medicine%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "urology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medicine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "medical_specialty%1:09:00::"))
+(define x (WordNode "urogenital_medicine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medicine%1:09:00::"))
+(InheritanceLink s (WordSenseNode "medical_specialty%1:09:00::"))

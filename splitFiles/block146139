@@ -1,0 +1,7 @@
+(define s (WordSenseNode "school_paper%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "school_newspaper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "newspaper%1:10:00::"))
+(InheritanceLink s (WordSenseNode "paper%1:10:03::"))
+(define x (WordNode "school_paper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "newspaper%1:10:00::"))
+(InheritanceLink s (WordSenseNode "paper%1:10:03::"))

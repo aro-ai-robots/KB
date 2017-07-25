@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hitting_average%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "batting_average")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "average%1:24:00::"))
+(define x (WordNode "hitting_average")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "average%1:24:00::"))

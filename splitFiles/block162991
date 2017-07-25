@@ -1,0 +1,4 @@
+(define s (WordSenseNode "supercomputer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "supercomputer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mainframe%1:06:01::"))
+(InheritanceLink s (WordSenseNode "mainframe_computer%1:06:00::"))

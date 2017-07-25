@@ -1,0 +1,4 @@
+(define s (WordSenseNode "unearth%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unearth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "locate%2:40:00::"))
+(InheritanceLink s (WordSenseNode "turn_up%2:40:00::"))

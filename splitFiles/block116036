@@ -1,0 +1,8 @@
+(define s (WordSenseNode "oligomenorrhea%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oligomenorrhea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "menstruation%1:22:00::"))
+(InheritanceLink s (WordSenseNode "menses%1:22:00::"))
+(InheritanceLink s (WordSenseNode "menstruum%1:22:00::"))
+(InheritanceLink s (WordSenseNode "catamenia%1:22:00::"))
+(InheritanceLink s (WordSenseNode "period%1:22:00::"))
+(InheritanceLink s (WordSenseNode "flow%1:22:01::"))

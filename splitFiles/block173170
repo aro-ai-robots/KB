@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trustee%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trustee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fiduciary%1:18:00::"))
+(define x (WordNode "legal_guardian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fiduciary%1:18:00::"))

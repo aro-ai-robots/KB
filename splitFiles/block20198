@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bracer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bracer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tonic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "restorative%1:06:01::"))
+(define x (WordNode "pick-me-up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tonic%1:06:00::"))
+(InheritanceLink s (WordSenseNode "restorative%1:06:01::"))

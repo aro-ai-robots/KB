@@ -1,0 +1,6 @@
+(define s (WordSenseNode "firing_pin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "firing_pin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "striker%1:06:00::"))
+(HolonymLink s (WordSenseNode "firearm%1:06:00::"))
+(HolonymLink s (WordSenseNode "piece%1:06:03::"))
+(HolonymLink s (WordSenseNode "small-arm%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mccartney%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "McCartney")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Beatles%1:14:00::"))
+(define x (WordNode "Paul_McCartney")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Beatles%1:14:00::"))
+(define x (WordNode "Sir_James_Paul_McCartney")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Beatles%1:14:00::"))

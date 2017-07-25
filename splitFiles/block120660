@@ -1,0 +1,4 @@
+(define s (WordSenseNode "paring%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_object%1:03:00::"))

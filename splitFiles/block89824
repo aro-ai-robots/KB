@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jacquard%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Jacquard_loom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loom%1:06:00::"))
+(define x (WordNode "Jacquard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loom%1:06:00::"))

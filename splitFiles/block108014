@@ -1,0 +1,4 @@
+(define s (WordSenseNode "momentum%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "momentum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_property%1:07:00::"))
+(InheritanceLink (WordSenseNode "angular_momentum%1:07:00::") s)

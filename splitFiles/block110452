@@ -1,0 +1,7 @@
+(define s (WordSenseNode "muzzle%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "muzzle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "face%1:08:01::"))
+(HolonymLink s (WordSenseNode "head%1:08:00::"))
+(HolonymLink s (WordSenseNode "caput%1:08:00::"))
+(HolonymLink (WordSenseNode "snout%1:05:00::") s)
+(HolonymLink (WordSenseNode "neb%1:05:02::") s)

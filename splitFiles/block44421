@@ -1,0 +1,5 @@
+(define s (WordSenseNode "demerara_rum%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "demerara")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rum%1:13:00::"))
+(define x (WordNode "demerara_rum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rum%1:13:00::"))

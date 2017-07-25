@@ -1,0 +1,7 @@
+(define s (WordSenseNode "backup_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "backup_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "computing_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "automatic_data_processing_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ADP_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ADPS%1:06:00::"))

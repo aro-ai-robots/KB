@@ -1,0 +1,5 @@
+(define s (WordSenseNode "listeria_meningitis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "listeriosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infectious_disease%1:26:00::"))
+(define x (WordNode "listeria_meningitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infectious_disease%1:26:00::"))

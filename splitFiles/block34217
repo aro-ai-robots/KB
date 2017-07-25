@@ -1,0 +1,5 @@
+(define s (WordSenseNode "comb%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "comb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%1:08:00::"))
+(HolonymLink s (WordSenseNode "ctenophore%1:05:00::"))
+(HolonymLink s (WordSenseNode "comb_jelly%1:05:00::"))

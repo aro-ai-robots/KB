@@ -1,0 +1,7 @@
+(define s (WordSenseNode "alligator_mississipiensis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "American_alligator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alligator%1:05:00::"))
+(InheritanceLink s (WordSenseNode "gator%1:05:00::"))
+(define x (WordNode "Alligator_mississipiensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alligator%1:05:00::"))
+(InheritanceLink s (WordSenseNode "gator%1:05:00::"))

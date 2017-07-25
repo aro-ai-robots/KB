@@ -1,0 +1,5 @@
+(define s (WordSenseNode "purchase%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leverage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_phenomenon%1:19:00::"))
+(define x (WordNode "purchase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_phenomenon%1:19:00::"))

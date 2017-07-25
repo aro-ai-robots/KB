@@ -1,0 +1,5 @@
+(define s (WordSenseNode "castaway%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "castaway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abandoned_person%1:18:00::"))
+(define x (WordNode "shipwreck_survivor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abandoned_person%1:18:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "afl%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "American_Federation_of_Labor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "federation%1:14:01::"))
+(define x (WordNode "AFL")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "federation%1:14:01::"))

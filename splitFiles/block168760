@@ -1,0 +1,4 @@
+(define s (WordSenseNode "threshold_operation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "threshold_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:22:00::"))
+(InheritanceLink (WordSenseNode "majority_operation%1:22:00::") s)

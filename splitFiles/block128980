@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pot%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "potentiometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "potential_divider%1:06:00::"))
+(InheritanceLink s (WordSenseNode "voltage_divider%1:06:00::"))
+(define x (WordNode "pot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "potential_divider%1:06:00::"))
+(InheritanceLink s (WordSenseNode "voltage_divider%1:06:00::"))

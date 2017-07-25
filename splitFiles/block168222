@@ -1,0 +1,7 @@
+(define s (WordSenseNode "thiazine%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thiazine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "methylene_blue%1:27:00::") s)
+(InheritanceLink (WordSenseNode "methylthionine_chloride%1:27:00::") s)
+(InheritanceLink (WordSenseNode "phenothiazine%1:27:00::") s)
+(InheritanceLink (WordSenseNode "thiodiphenylamine%1:27:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "water-skiing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "water-skiing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water_sport%1:04:00::"))
+(InheritanceLink s (WordSenseNode "aquatics%1:04:00::"))

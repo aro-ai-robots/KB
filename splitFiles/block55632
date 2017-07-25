@@ -1,0 +1,7 @@
+(define s (WordSenseNode "establish%2:36:10::")) (PartOfSpeechLink s verb)
+(define x (WordNode "build")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "make%2:36:00::"))
+(InheritanceLink s (WordSenseNode "create%2:36:00::"))
+(define x (WordNode "establish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "make%2:36:00::"))
+(InheritanceLink s (WordSenseNode "create%2:36:00::"))

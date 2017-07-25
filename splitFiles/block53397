@@ -1,0 +1,4 @@
+(define s (WordSenseNode "embryonic_tissue%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "embryonic_tissue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_tissue%1:08:00::"))
+(InheritanceLink (WordSenseNode "germ_layer%1:05:00::") s)

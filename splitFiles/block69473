@@ -1,0 +1,5 @@
+(define s (WordSenseNode "genus_eimeria%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Eimeria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protoctist_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Eimeriidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Eimeriidae%1:05:00::"))

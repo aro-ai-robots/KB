@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_difflugia%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Difflugia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protoctist_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Testacea%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Testacea%1:05:00::"))
+(HolonymLink (WordSenseNode "difflugia%1:05:00::") s)

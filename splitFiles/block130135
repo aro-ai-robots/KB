@@ -1,0 +1,5 @@
+(define s (WordSenseNode "preserve%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preserve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reservation%1:15:00::"))
+(InheritanceLink s (WordSenseNode "reserve%1:15:00::"))
+(InheritanceLink (WordSenseNode "shooting_preserve%1:15:00::") s)

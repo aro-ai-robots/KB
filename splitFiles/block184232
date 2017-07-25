@@ -1,0 +1,5 @@
+(define s (WordSenseNode "withdrawal%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "withdrawal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indifference%1:12:00::"))
+(define x (WordNode "detachment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indifference%1:12:00::"))

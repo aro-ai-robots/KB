@@ -1,0 +1,5 @@
+(define s (WordSenseNode "contraband%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "contraband")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "merchandise%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ware%1:06:01::"))
+(InheritanceLink s (WordSenseNode "product%1:06:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cloze_test%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cloze_procedure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diagnostic_test%1:09:00::"))
+(InheritanceLink s (WordSenseNode "diagnostic_assay%1:09:00::"))
+(define x (WordNode "cloze_test")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diagnostic_test%1:09:00::"))
+(InheritanceLink s (WordSenseNode "diagnostic_assay%1:09:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "helleborine%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "helleborine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orchid%1:20:00::"))
+(InheritanceLink s (WordSenseNode "orchidaceous_plant%1:20:00::"))
+(InheritanceLink (WordSenseNode "red_helleborine%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Cephalanthera_rubra%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Cephalanthera%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Cephalanthera%1:20:00::"))

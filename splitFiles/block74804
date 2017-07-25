@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grande_dame%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grande_dame")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dame%1:18:01::"))
+(InheritanceLink s (WordSenseNode "madam%1:18:00::"))
+(InheritanceLink s (WordSenseNode "ma'am%1:18:00::"))
+(InheritanceLink s (WordSenseNode "lady%1:18:01::"))
+(InheritanceLink s (WordSenseNode "gentlewoman%1:18:00::"))

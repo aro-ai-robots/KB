@@ -1,0 +1,5 @@
+(define s (WordSenseNode "weight%1:23:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "weight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))
+(define x (WordNode "weighting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))

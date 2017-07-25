@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shore_station%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "naval_installation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_installation%1:06:00::"))
+(define x (WordNode "shore_station")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_installation%1:06:00::"))

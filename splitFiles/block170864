@@ -1,0 +1,7 @@
+(define s (WordSenseNode "touchscreen%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "touch_screen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_screen%1:06:00::"))
+(InheritanceLink s (WordSenseNode "computer_display%1:06:00::"))
+(define x (WordNode "touchscreen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_screen%1:06:00::"))
+(InheritanceLink s (WordSenseNode "computer_display%1:06:00::"))

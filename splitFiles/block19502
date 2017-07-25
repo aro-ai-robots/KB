@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bootlace%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bootlace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lace%1:06:01::"))
+(InheritanceLink s (WordSenseNode "lacing%1:06:00::"))
+(HolonymLink s (WordSenseNode "boot%1:06:00::"))

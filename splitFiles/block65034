@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fragment%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fragment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "piece%1:10:02::"))
+(InheritanceLink (WordSenseNode "snatch%1:10:00::") s)
+(InheritanceLink (WordSenseNode "bit%1:10:01::") s)

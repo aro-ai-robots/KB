@@ -1,0 +1,5 @@
+(define s (WordSenseNode "soft-pedal%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "soft-pedal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "background%2:30:00::"))
+(InheritanceLink s (WordSenseNode "play_down%2:30:00::"))
+(InheritanceLink s (WordSenseNode "downplay%2:30:00::"))

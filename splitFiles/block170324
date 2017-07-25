@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tongue%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tongue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "play%2:36:00::"))
+(InheritanceLink s (WordSenseNode "spiel%2:36:00::"))
+(InheritanceLink (WordSenseNode "double_tongue%2:36:00::") s)
+(InheritanceLink (WordSenseNode "triple-tongue%2:36:00::") s)

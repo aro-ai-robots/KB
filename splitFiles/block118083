@@ -1,0 +1,4 @@
+(define s (WordSenseNode "osteosclerosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "osteosclerosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sclerosis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "induration%1:26:00::"))

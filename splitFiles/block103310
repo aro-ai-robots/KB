@@ -1,0 +1,5 @@
+(define s (WordSenseNode "martinique%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Martinique")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "French_West_Indies%1:15:00::"))
+(HolonymLink s (WordSenseNode "Windward_Islands%1:15:00::"))
+(HolonymLink s (WordSenseNode "Windward_Isles%1:15:00::"))

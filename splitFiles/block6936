@@ -1,0 +1,7 @@
+(define s (WordSenseNode "anonymous_ftp%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anonymous_ftp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "file_transfer_protocol%1:10:00::"))
+(InheritanceLink s (WordSenseNode "FTP%1:10:00::"))
+(define x (WordNode "anonymous_file_transfer_protocol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "file_transfer_protocol%1:10:00::"))
+(InheritanceLink s (WordSenseNode "FTP%1:10:00::"))

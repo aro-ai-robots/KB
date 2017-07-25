@@ -1,0 +1,7 @@
+(define s (WordSenseNode "accost%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hook")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "offer%2:40:02::"))
+(define x (WordNode "solicit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "offer%2:40:02::"))
+(define x (WordNode "accost")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "offer%2:40:02::"))

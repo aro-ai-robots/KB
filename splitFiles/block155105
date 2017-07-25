@@ -1,0 +1,5 @@
+(define s (WordSenseNode "solar_power%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "solar_energy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alternative_energy%1:19:00::"))
+(define x (WordNode "solar_power")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alternative_energy%1:19:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hanging_wall%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hanging_wall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wall%1:17:00::"))
+(HolonymLink s (WordSenseNode "inclined_fault%1:17:00::"))

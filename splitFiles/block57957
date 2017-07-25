@@ -1,0 +1,5 @@
+(define s (WordSenseNode "factor_of_safety%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "safety_factor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))
+(define x (WordNode "factor_of_safety")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))

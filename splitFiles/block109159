@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mount%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mount")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mounting%1:06:00::"))
+(InheritanceLink (WordSenseNode "pave%1:06:00::") s)
+(define x (WordNode "setting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mounting%1:06:00::"))
+(InheritanceLink (WordSenseNode "pave%1:06:00::") s)

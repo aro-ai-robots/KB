@@ -1,0 +1,3 @@
+(define s (WordSenseNode "substring%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "substring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "string%1:10:00::"))

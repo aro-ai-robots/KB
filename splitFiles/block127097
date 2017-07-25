@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plunger%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plunger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand_tool%1:06:00::"))
+(define x (WordNode "plumber's_helper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand_tool%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fact%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fact")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reality%1:26:01::"))
+(InheritanceLink s (WordSenseNode "realness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "realism%1:26:00::"))

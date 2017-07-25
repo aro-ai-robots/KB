@@ -1,0 +1,4 @@
+(define s (WordSenseNode "paging%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paging")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utterance%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vocalization%1:10:01::"))

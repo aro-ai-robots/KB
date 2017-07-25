@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lammas_day%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Lammas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quarter_day%1:28:00::"))
+(define x (WordNode "Lammas_Day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quarter_day%1:28:00::"))
+(define x (WordNode "August_1")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quarter_day%1:28:00::"))

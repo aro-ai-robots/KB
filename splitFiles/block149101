@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sesquipedalia%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sesquipedalian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polysyllable%1:10:00::"))
+(InheritanceLink s (WordSenseNode "polysyllabic_word%1:10:00::"))
+(define x (WordNode "sesquipedalia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polysyllable%1:10:00::"))
+(InheritanceLink s (WordSenseNode "polysyllabic_word%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "menthol%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "menthol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_compound%1:27:00::"))
+(HolonymLink s (WordSenseNode "peppermint_oil%1:13:00::"))
+(HolonymLink s (WordSenseNode "menthol%1:06:00::"))
+(HolonymLink s (WordSenseNode "mentholated_salve%1:06:00::"))

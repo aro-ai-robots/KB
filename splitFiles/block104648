@@ -1,0 +1,8 @@
+(define s (WordSenseNode "meet%2:38:06::")) (PartOfSpeechLink s verb)
+(define x (WordNode "meet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meet%2:41:00::"))
+(InheritanceLink s (WordSenseNode "gather%2:41:00::"))
+(InheritanceLink s (WordSenseNode "assemble%2:41:00::"))
+(InheritanceLink s (WordSenseNode "forgather%2:41:00::"))
+(InheritanceLink s (WordSenseNode "foregather%2:41:00::"))
+(InheritanceLink (WordSenseNode "meet_up_with%2:38:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nest%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gang%1:14:01::"))
+(InheritanceLink s (WordSenseNode "pack%1:14:02::"))
+(InheritanceLink s (WordSenseNode "ring%1:14:00::"))
+(InheritanceLink s (WordSenseNode "mob%1:14:01::"))
+(InheritanceLink (WordSenseNode "sleeper_nest%1:14:00::") s)

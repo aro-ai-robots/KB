@@ -1,0 +1,6 @@
+(define s (WordSenseNode "balance%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "balance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "equilibrium%1:26:00::"))
+(InheritanceLink (WordSenseNode "tension%1:26:02::") s)
+(InheritanceLink (WordSenseNode "electrolyte_balance%1:26:00::") s)
+(InheritanceLink (WordSenseNode "nitrogen_balance%1:26:00::") s)

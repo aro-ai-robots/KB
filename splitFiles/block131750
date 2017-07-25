@@ -1,0 +1,4 @@
+(define s (WordSenseNode "proprioceptor%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "proprioceptor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_ending%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nerve_end%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tax%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "determine%2:31:01::"))
+(InheritanceLink s (WordSenseNode "set%2:31:04::"))
+(define x (WordNode "assess")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "determine%2:31:01::"))
+(InheritanceLink s (WordSenseNode "set%2:31:04::"))

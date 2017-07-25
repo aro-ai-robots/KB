@@ -1,0 +1,4 @@
+(define s (WordSenseNode "catcher%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "catcher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "position%1:04:02::"))
+(HolonymLink s (WordSenseNode "baseball_team%1:14:00::"))

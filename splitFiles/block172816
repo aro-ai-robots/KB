@@ -1,0 +1,8 @@
+(define s (WordSenseNode "trolley_line%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trolley_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transit_line%1:06:00::"))
+(HolonymLink (WordSenseNode "streetcar%1:06:00::") s)
+(HolonymLink (WordSenseNode "tram%1:06:01::") s)
+(HolonymLink (WordSenseNode "tramcar%1:06:01::") s)
+(HolonymLink (WordSenseNode "trolley%1:06:00::") s)
+(HolonymLink (WordSenseNode "trolley_car%1:06:00::") s)

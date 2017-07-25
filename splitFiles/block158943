@@ -1,0 +1,7 @@
+(define s (WordSenseNode "star_divination%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "astrology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pseudoscience%1:09:00::"))
+(InheritanceLink (WordSenseNode "horoscopy%1:09:00::") s)
+(define x (WordNode "star_divination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pseudoscience%1:09:00::"))
+(InheritanceLink (WordSenseNode "horoscopy%1:09:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inga_laurina%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "guama")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Inga%1:20:00::"))
+(define x (WordNode "Inga_laurina")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Inga%1:20:00::"))

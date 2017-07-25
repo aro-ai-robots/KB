@@ -1,0 +1,4 @@
+(define s (WordSenseNode "brigade%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "brigade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "group%2:33:00::"))
+(InheritanceLink s (WordSenseNode "aggroup%2:33:00::"))

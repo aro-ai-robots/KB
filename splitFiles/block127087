@@ -1,0 +1,4 @@
+(define s (WordSenseNode "plunge%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plunge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drop%1:11:00::"))
+(InheritanceLink s (WordSenseNode "fall%1:11:00::"))

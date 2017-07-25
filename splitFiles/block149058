@@ -1,0 +1,8 @@
+(define s (WordSenseNode "service_station%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "service_station")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "station%1:06:00::"))
+(InheritanceLink (WordSenseNode "gasoline_station%1:06:00::") s)
+(InheritanceLink (WordSenseNode "gas_station%1:06:00::") s)
+(InheritanceLink (WordSenseNode "filling_station%1:06:00::") s)
+(InheritanceLink (WordSenseNode "petrol_station%1:06:00::") s)
+(InheritanceLink (WordSenseNode "truck_stop%1:06:00::") s)

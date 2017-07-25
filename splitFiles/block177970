@@ -1,0 +1,6 @@
+(define s (WordSenseNode "varicose_vein%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "varicose_vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena%1:08:00::"))
+(InheritanceLink s (WordSenseNode "venous_blood_vessel%1:08:00::"))
+(InheritanceLink s (WordSenseNode "varicosity%1:26:00::"))

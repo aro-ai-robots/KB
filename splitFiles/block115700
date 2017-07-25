@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ogee_arch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ogee_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pointed_arch%1:06:00::"))
+(define x (WordNode "keel_arch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pointed_arch%1:06:00::"))

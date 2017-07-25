@@ -1,0 +1,5 @@
+(define s (WordSenseNode "canis_minor%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Canis_Minor")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Procyon%1:17:00::") s)
+(define x (WordNode "Little_Dog")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Procyon%1:17:00::") s)

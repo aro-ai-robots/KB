@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tearjerker%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tearjerker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "narrative%1:10:00::"))
+(InheritanceLink s (WordSenseNode "narration%1:10:01::"))
+(InheritanceLink s (WordSenseNode "story%1:10:03::"))
+(InheritanceLink s (WordSenseNode "tale%1:10:00::"))

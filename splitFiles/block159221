@@ -1,0 +1,6 @@
+(define s (WordSenseNode "statute_book%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "statute_book")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "written_record%1:10:00::"))
+(InheritanceLink s (WordSenseNode "written_account%1:10:00::"))
+(HolonymLink (WordSenseNode "legislation%1:10:00::") s)
+(HolonymLink (WordSenseNode "statute_law%1:10:00::") s)

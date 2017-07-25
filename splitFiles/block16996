@@ -1,0 +1,5 @@
+(define s (WordSenseNode "birdwatch%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bird")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "observe%2:39:00::"))
+(define x (WordNode "birdwatch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "observe%2:39:00::"))

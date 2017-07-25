@@ -1,0 +1,5 @@
+(define s (WordSenseNode "clamour%2:32:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "clamor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demand%2:32:00::"))
+(define x (WordNode "clamour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demand%2:32:00::"))

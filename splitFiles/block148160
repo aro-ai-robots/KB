@@ -1,0 +1,7 @@
+(define s (WordSenseNode "self-punishment%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-punishment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "punishment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "penalty%1:04:00::"))
+(InheritanceLink s (WordSenseNode "penalization%1:04:00::"))
+(InheritanceLink s (WordSenseNode "penalisation%1:04:00::"))
+(InheritanceLink (WordSenseNode "self-flagellation%1:04:00::") s)

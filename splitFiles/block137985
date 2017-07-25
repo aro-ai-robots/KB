@@ -1,0 +1,6 @@
+(define s (WordSenseNode "regulation_time%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "regulation_time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_period%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period_of_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "period%1:28:00::"))
+(HolonymLink s (WordSenseNode "athletic_game%1:04:00::"))

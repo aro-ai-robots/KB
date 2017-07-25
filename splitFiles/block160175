@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stock_warrant%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stock_warrant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guarantee%1:10:00::"))
+(InheritanceLink s (WordSenseNode "warrant%1:10:01::"))
+(InheritanceLink s (WordSenseNode "warrantee%1:10:00::"))
+(InheritanceLink s (WordSenseNode "warranty%1:10:00::"))

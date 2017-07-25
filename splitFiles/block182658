@@ -1,0 +1,5 @@
+(define s (WordSenseNode "whispering_gallery%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "whispering_gallery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dome%1:06:00::"))
+(define x (WordNode "whispering_dome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dome%1:06:00::"))

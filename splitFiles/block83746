@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hypercholesterolemia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypercholesterolemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))
+(InheritanceLink (WordSenseNode "familial_hypercholesterolemia%1:26:00::") s)
+(define x (WordNode "hypercholesteremia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))
+(InheritanceLink (WordSenseNode "familial_hypercholesterolemia%1:26:00::") s)

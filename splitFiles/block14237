@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bathe%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bathe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "envelop%2:35:00::"))
+(InheritanceLink s (WordSenseNode "enfold%2:35:00::"))
+(InheritanceLink s (WordSenseNode "enwrap%2:35:00::"))
+(InheritanceLink s (WordSenseNode "wrap%2:35:01::"))
+(InheritanceLink s (WordSenseNode "enclose%2:35:01::"))

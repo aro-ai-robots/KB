@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hold_up%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hold_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rob%2:40:00::"))
+(InheritanceLink (WordSenseNode "mug%2:40:00::") s)
+(define x (WordNode "stick_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rob%2:40:00::"))
+(InheritanceLink (WordSenseNode "mug%2:40:00::") s)

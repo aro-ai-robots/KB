@@ -1,0 +1,7 @@
+(define s (WordSenseNode "colonialism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colonialism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exploitation%1:04:01::"))
+(InheritanceLink s (WordSenseNode "victimization%1:04:00::"))
+(InheritanceLink s (WordSenseNode "victimisation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "using%1:04:00::"))
+(InheritanceLink (WordSenseNode "neocolonialism%1:04:00::") s)

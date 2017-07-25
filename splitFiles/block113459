@@ -1,0 +1,5 @@
+(define s (WordSenseNode "non_vult%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nolo_contendere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "answer%1:10:03::"))
+(define x (WordNode "non_vult")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "answer%1:10:03::"))

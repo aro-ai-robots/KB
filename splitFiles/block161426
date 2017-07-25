@@ -1,0 +1,4 @@
+(define s (WordSenseNode "stud_finder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stud_finder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "permanent_magnet%1:06:00::"))
+(InheritanceLink s (WordSenseNode "static_magnet%1:06:00::"))

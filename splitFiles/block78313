@@ -1,0 +1,6 @@
+(define s (WordSenseNode "harrow%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "harrow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cultivator%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tiller%1:06:01::"))
+(InheritanceLink (WordSenseNode "disk_harrow%1:06:00::") s)
+(InheritanceLink (WordSenseNode "disc_harrow%1:06:00::") s)

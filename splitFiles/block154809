@@ -1,0 +1,7 @@
+(define s (WordSenseNode "socket%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "socket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "receptacle%1:06:00::"))
+(HolonymLink s (WordSenseNode "box_wrench%1:06:00::"))
+(HolonymLink s (WordSenseNode "box_end_wrench%1:06:00::"))
+(HolonymLink s (WordSenseNode "socket_wrench%1:06:00::"))
+(HolonymLink s (WordSenseNode "ball-and-socket_joint%1:06:00::"))

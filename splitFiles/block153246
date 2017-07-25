@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sle%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "systemic_lupus_erythematosus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lupus%1:26:00::"))
+(define x (WordNode "SLE")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lupus%1:26:00::"))
+(define x (WordNode "disseminated_lupus_erythematosus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lupus%1:26:00::"))

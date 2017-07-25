@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bitthead%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bitthead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "end%1:15:00::"))
+(InheritanceLink s (WordSenseNode "terminal%1:15:00::"))
+(HolonymLink s (WordSenseNode "bollard%1:06:00::"))
+(HolonymLink s (WordSenseNode "bitt%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "false_saber-toothed_tiger%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "false_saber-toothed_tiger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saber-toothed_tiger%1:05:00::"))
+(InheritanceLink s (WordSenseNode "sabertooth%1:05:00::"))
+(HolonymLink s (WordSenseNode "Nimravus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Nimravus%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "microeconomic_expert%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "microeconomist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "economist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "economic_expert%1:18:00::"))
+(define x (WordNode "microeconomic_expert")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "economist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "economic_expert%1:18:00::"))

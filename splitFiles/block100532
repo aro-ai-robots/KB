@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lycanthropy%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lycanthropy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magical_ability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "magical_power%1:07:00::"))

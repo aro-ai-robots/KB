@@ -1,0 +1,7 @@
+(define s (WordSenseNode "season%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "temper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:01::"))
+(define x (WordNode "season")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:01::"))
+(define x (WordNode "mollify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:01::"))

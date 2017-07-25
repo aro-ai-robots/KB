@@ -1,0 +1,6 @@
+(define s (WordSenseNode "uveoscleral_pathway%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "uveoscleral_pathway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tubule%1:08:00::"))
+(HolonymLink s (WordSenseNode "eye%1:08:00::"))
+(HolonymLink s (WordSenseNode "oculus%1:08:00::"))
+(HolonymLink s (WordSenseNode "optic%1:08:00::"))

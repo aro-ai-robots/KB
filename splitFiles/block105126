@@ -1,0 +1,5 @@
+(define s (WordSenseNode "menstrual_phase%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "menstrual_phase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phase%1:28:00::"))
+(InheritanceLink s (WordSenseNode "stage%1:28:00::"))
+(HolonymLink s (WordSenseNode "menstrual_cycle%1:28:00::"))

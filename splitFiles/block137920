@@ -1,0 +1,7 @@
+(define s (WordSenseNode "regression_curve%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "regression_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curve%1:10:00::"))
+(HolonymLink s (WordSenseNode "regression_analysis%1:09:00::"))
+(define x (WordNode "regression_curve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curve%1:10:00::"))
+(HolonymLink s (WordSenseNode "regression_analysis%1:09:00::"))

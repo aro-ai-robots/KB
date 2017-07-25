@@ -1,0 +1,5 @@
+(define s (WordSenseNode "capital_of_uruguay%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Montevideo")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Uruguay%1:15:00::"))
+(define x (WordNode "capital_of_Uruguay")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Uruguay%1:15:00::"))

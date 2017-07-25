@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shifter%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sceneshifter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stagehand%1:18:00::"))
+(InheritanceLink s (WordSenseNode "stage_technician%1:18:00::"))
+(define x (WordNode "shifter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stagehand%1:18:00::"))
+(InheritanceLink s (WordSenseNode "stage_technician%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "focal_seizure%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "focal_seizure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seizure%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ictus%1:26:00::"))
+(InheritanceLink s (WordSenseNode "raptus%1:26:01::"))
+(HolonymLink s (WordSenseNode "cortical_epilepsy%1:26:00::"))
+(HolonymLink s (WordSenseNode "focal_epilepsy%1:26:00::"))

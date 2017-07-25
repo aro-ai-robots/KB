@@ -1,0 +1,7 @@
+(define s (WordSenseNode "usury%1:21:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "usury")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interest_rate%1:21:00::"))
+(InheritanceLink s (WordSenseNode "rate_of_interest%1:21:00::"))
+(define x (WordNode "vigorish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interest_rate%1:21:00::"))
+(InheritanceLink s (WordSenseNode "rate_of_interest%1:21:00::"))

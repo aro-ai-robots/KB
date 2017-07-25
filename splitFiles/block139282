@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reshoot%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reshoot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "film%2:32:00::"))
+(InheritanceLink s (WordSenseNode "shoot%2:32:01::"))
+(InheritanceLink s (WordSenseNode "take%2:32:02::"))

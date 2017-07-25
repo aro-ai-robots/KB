@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gerardia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gerardia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Gerardia%1:20:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "baptism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "baptism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sacrament%1:04:00::"))
+(InheritanceLink (WordSenseNode "affusion%1:04:00::") s)
+(InheritanceLink (WordSenseNode "aspersion%1:04:01::") s)
+(InheritanceLink (WordSenseNode "sprinkling%1:04:00::") s)
+(InheritanceLink (WordSenseNode "christening%1:04:00::") s)
+(InheritanceLink (WordSenseNode "immersion%1:04:00::") s)

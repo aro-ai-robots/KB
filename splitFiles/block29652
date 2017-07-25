@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chevalier%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cavalier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "male_aristocrat%1:18:00::"))
+(define x (WordNode "chevalier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "male_aristocrat%1:18:00::"))

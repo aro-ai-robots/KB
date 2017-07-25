@@ -1,0 +1,4 @@
+(define s (WordSenseNode "deck-house%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deck-house")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "superstructure%1:06:00::"))
+(HolonymLink s (WordSenseNode "upper_deck%1:06:00::"))

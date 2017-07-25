@@ -1,0 +1,7 @@
+(define s (WordSenseNode "beach%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geological_formation%1:17:00::"))
+(InheritanceLink s (WordSenseNode "formation%1:17:00::"))
+(InheritanceLink (WordSenseNode "plage%1:17:00::") s)
+(HolonymLink s (WordSenseNode "shore%1:17:00::"))
+(HolonymLink (WordSenseNode "sand%1:27:00::") s)

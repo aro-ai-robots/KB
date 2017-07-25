@@ -1,0 +1,7 @@
+(define s (WordSenseNode "viorna_baldwinii%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pine_hyacinth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clematis%1:20:00::"))
+(define x (WordNode "Clematis_baldwinii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clematis%1:20:00::"))
+(define x (WordNode "Viorna_baldwinii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clematis%1:20:00::"))

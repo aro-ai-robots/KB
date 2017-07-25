@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lyrebird%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lyrebird")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passerine%1:05:00::"))
+(InheritanceLink s (WordSenseNode "passeriform_bird%1:05:00::"))
+(HolonymLink s (WordSenseNode "Menura%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Menura%1:05:00::"))

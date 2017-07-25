@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bank%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "deposit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "give%2:40:00::"))
+(InheritanceLink (WordSenseNode "redeposit%2:40:00::") s)
+(define x (WordNode "bank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "give%2:40:00::"))
+(InheritanceLink (WordSenseNode "redeposit%2:40:00::") s)

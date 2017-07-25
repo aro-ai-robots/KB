@@ -1,0 +1,5 @@
+(define s (WordSenseNode "beta_decay%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beta_decay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decay%1:22:03::"))
+(InheritanceLink s (WordSenseNode "radioactive_decay%1:22:00::"))
+(InheritanceLink s (WordSenseNode "disintegration%1:22:02::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bedtime%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bedtime")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hour%1:28:01::"))
+(InheritanceLink s (WordSenseNode "time_of_day%1:28:00::"))
+(InheritanceLink (WordSenseNode "lights-out%1:28:00::") s)

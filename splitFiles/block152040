@@ -1,0 +1,5 @@
+(define s (WordSenseNode "simulative_electronic_deception%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "simulative_electronic_deception")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_deception%1:04:00::"))
+(define x (WordNode "electronic_simulative_deception")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_deception%1:04:00::"))

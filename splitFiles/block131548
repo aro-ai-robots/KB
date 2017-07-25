@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pronation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pronation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rotation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "rotary_motion%1:04:00::"))

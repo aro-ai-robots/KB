@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tachograph%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tachograph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tachometer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tach%1:06:00::"))

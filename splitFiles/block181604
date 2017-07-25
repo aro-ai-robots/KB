@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wax_crayon%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crayon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing_implement%1:06:00::"))
+(define x (WordNode "wax_crayon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing_implement%1:06:00::"))

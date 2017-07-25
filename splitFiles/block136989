@@ -1,0 +1,7 @@
+(define s (WordSenseNode "recruiter%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recruiter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "supplier%1:18:00::"))
+(InheritanceLink s (WordSenseNode "provider%1:18:00::"))
+(InheritanceLink (WordSenseNode "headhunter%1:18:01::") s)
+(InheritanceLink (WordSenseNode "scout%1:18:02::") s)
+(InheritanceLink (WordSenseNode "talent_scout%1:18:00::") s)

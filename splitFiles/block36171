@@ -1,0 +1,5 @@
+(define s (WordSenseNode "confutation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "confutation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "refutation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "defense%1:10:01::"))
+(InheritanceLink s (WordSenseNode "defence%1:10:01::"))

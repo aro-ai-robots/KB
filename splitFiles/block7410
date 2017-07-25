@@ -1,0 +1,7 @@
+(define s (WordSenseNode "antipathy%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antipathy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dislike%1:12:00::"))
+(define x (WordNode "aversion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dislike%1:12:00::"))
+(define x (WordNode "distaste")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dislike%1:12:00::"))

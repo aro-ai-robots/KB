@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tambour%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tambour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))
+(define x (WordNode "embroidery_frame")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))
+(define x (WordNode "embroidery_hoop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))

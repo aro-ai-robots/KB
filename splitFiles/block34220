@@ -1,0 +1,6 @@
+(define s (WordSenseNode "comb%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "comb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tool%1:06:00::"))
+(InheritanceLink (WordSenseNode "hatchel%1:06:00::") s)
+(InheritanceLink (WordSenseNode "heckle%1:06:00::") s)
+(HolonymLink (WordSenseNode "tooth%1:06:01::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reseat%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reseat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seat%2:35:00::"))
+(InheritanceLink s (WordSenseNode "sit%2:35:01::"))
+(InheritanceLink s (WordSenseNode "sit_down%2:35:00::"))

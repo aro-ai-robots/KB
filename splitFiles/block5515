@@ -1,0 +1,4 @@
+(define s (WordSenseNode "amicus_curiae_brief%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amicus_curiae_brief")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brief%1:10:01::"))
+(InheritanceLink s (WordSenseNode "legal_brief%1:10:00::"))

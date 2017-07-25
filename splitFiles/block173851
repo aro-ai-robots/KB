@@ -1,0 +1,8 @@
+(define s (WordSenseNode "turnaround%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "turnaround")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:06:00::"))
+(HolonymLink s (WordSenseNode "road%1:06:00::"))
+(HolonymLink s (WordSenseNode "route%1:06:00::"))
+(HolonymLink s (WordSenseNode "driveway%1:06:00::"))
+(HolonymLink s (WordSenseNode "drive%1:06:01::"))
+(HolonymLink s (WordSenseNode "private_road%1:06:00::"))

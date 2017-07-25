@@ -1,0 +1,4 @@
+(define s (WordSenseNode "spammer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spammer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sender%1:18:00::"))
+(InheritanceLink s (WordSenseNode "transmitter%1:18:00::"))

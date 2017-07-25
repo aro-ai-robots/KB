@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thermodynamics_of_equilibrium%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thermostatics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thermodynamics%1:09:00::"))
+(define x (WordNode "thermodynamics_of_equilibrium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thermodynamics%1:09:00::"))

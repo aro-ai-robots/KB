@@ -1,0 +1,6 @@
+(define s (WordSenseNode "blood_extravasation%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blood_extravasation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bleeding%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hemorrhage%1:26:00::"))
+(InheritanceLink s (WordSenseNode "haemorrhage%1:26:00::"))
+(InheritanceLink s (WordSenseNode "extravasation%1:22:00::"))

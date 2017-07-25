@@ -1,0 +1,5 @@
+(define s (WordSenseNode "common_nuisance%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "public_nuisance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nuisance%1:09:00::"))
+(define x (WordNode "common_nuisance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nuisance%1:09:00::"))

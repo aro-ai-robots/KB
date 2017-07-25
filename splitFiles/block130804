@@ -1,0 +1,5 @@
+(define s (WordSenseNode "printing_unit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "printing_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unit_of_measurement%1:23:00::"))
+(InheritanceLink s (WordSenseNode "unit%1:23:00::"))
+(InheritanceLink (WordSenseNode "milline%1:23:00::") s)

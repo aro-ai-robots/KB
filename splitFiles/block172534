@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trillion%1:23:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trillion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_integer%1:23:00::"))
+(define x (WordNode "one_million_million_million")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_integer%1:23:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "common_kingsnake%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "common_kingsnake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "king_snake%1:05:00::"))
+(InheritanceLink s (WordSenseNode "kingsnake%1:05:00::"))
+(define x (WordNode "Lampropeltis_getulus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "king_snake%1:05:00::"))
+(InheritanceLink s (WordSenseNode "kingsnake%1:05:00::"))

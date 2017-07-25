@@ -1,0 +1,5 @@
+(define s (WordSenseNode "intravenous_pyelogram%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intravenous_pyelogram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pyelogram%1:06:00::"))
+(define x (WordNode "IVP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pyelogram%1:06:00::"))

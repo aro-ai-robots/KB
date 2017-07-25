@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hummingbird%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hummingbird")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "apodiform_bird%1:05:00::"))
+(InheritanceLink (WordSenseNode "Archilochus_colubris%1:05:00::") s)
+(InheritanceLink (WordSenseNode "thornbill%1:05:01::") s)
+(HolonymLink s (WordSenseNode "Trochilidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Trochilidae%1:05:00::"))

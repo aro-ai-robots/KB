@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pocket_dictionary%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pocket_dictionary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dictionary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lexicon%1:10:00::"))
+(define x (WordNode "little_dictionary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dictionary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "lexicon%1:10:00::"))

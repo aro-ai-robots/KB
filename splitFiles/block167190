@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tense_up%2:29:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_state%2:30:00::"))
+(InheritanceLink s (WordSenseNode "turn%2:30:04::"))
+(define x (WordNode "tense_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_state%2:30:00::"))
+(InheritanceLink s (WordSenseNode "turn%2:30:04::"))

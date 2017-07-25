@@ -1,0 +1,5 @@
+(define s (WordSenseNode "higi%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Higi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Biu-Mandara%1:10:00::"))
+(define x (WordNode "Kapsiki")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Biu-Mandara%1:10:00::"))

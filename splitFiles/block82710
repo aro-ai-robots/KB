@@ -1,0 +1,5 @@
+(define s (WordSenseNode "housing_project%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "housing_project")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "housing_development%1:15:00::"))
+(define x (WordNode "public_housing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "housing_development%1:15:00::"))

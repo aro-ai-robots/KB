@@ -1,0 +1,7 @@
+(define s (WordSenseNode "disintegration%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decomposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decay%1:26:00::"))
+(InheritanceLink (WordSenseNode "fragmentation%1:26:00::") s)
+(define x (WordNode "disintegration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decay%1:26:00::"))
+(InheritanceLink (WordSenseNode "fragmentation%1:26:00::") s)

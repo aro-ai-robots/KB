@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tattler%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tattler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sandpiper%1:05:00::"))
+(InheritanceLink (WordSenseNode "Polynesian_tattler%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Heteroscelus_incanus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "willet%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Catoptrophorus_semipalmatus%1:05:00::") s)

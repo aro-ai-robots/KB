@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tangle%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tangle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_object%1:03:00::"))
+(InheritanceLink (WordSenseNode "hairball%1:17:00::") s)
+(InheritanceLink (WordSenseNode "hair_ball%1:17:00::") s)
+(InheritanceLink (WordSenseNode "trichobezoar%1:17:00::") s)
+(InheritanceLink (WordSenseNode "shag%1:17:00::") s)

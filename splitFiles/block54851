@@ -1,0 +1,4 @@
+(define s (WordSenseNode "episcia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "episcia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "houseplant%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Episcia%1:20:00::"))

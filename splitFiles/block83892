@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hypobasidium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypobasidium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_organ%1:20:00::"))
+(HolonymLink s (WordSenseNode "basidium%1:20:00::"))

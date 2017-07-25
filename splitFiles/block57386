@@ -1,0 +1,7 @@
+(define s (WordSenseNode "expulsion%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "extrusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "squeeze%1:04:00::"))
+(InheritanceLink s (WordSenseNode "squeezing%1:04:00::"))
+(define x (WordNode "expulsion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "squeeze%1:04:00::"))
+(InheritanceLink s (WordSenseNode "squeezing%1:04:00::"))

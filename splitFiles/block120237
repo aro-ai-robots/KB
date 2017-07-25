@@ -1,0 +1,7 @@
+(define s (WordSenseNode "paper_white%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paper_white")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "daffodil%1:20:00::"))
+(InheritanceLink s (WordSenseNode "Narcissus_pseudonarcissus%1:20:00::"))
+(define x (WordNode "Narcissus_papyraceus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "daffodil%1:20:00::"))
+(InheritanceLink s (WordSenseNode "Narcissus_pseudonarcissus%1:20:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mangabey%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mangabey")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Old_World_monkey%1:05:00::"))
+(InheritanceLink s (WordSenseNode "catarrhine%1:05:00::"))
+(HolonymLink s (WordSenseNode "Cercocebus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Cercocebus%1:05:00::"))

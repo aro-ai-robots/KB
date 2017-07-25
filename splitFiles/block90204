@@ -1,0 +1,7 @@
+(define s (WordSenseNode "japanese_plum%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Japanese_plum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plum%1:20:00::"))
+(InheritanceLink s (WordSenseNode "plum_tree%1:20:00::"))
+(define x (WordNode "Prunus_salicina")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plum%1:20:00::"))
+(InheritanceLink s (WordSenseNode "plum_tree%1:20:00::"))

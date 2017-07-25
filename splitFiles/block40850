@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cuboidal_cell%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cuboidal_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epithelial_cell%1:08:00::"))
+(define x (WordNode "cuboidal_epithelial_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epithelial_cell%1:08:00::"))

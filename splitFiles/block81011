@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hitch%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hitch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gait%1:04:01::"))
+(define x (WordNode "hobble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gait%1:04:01::"))
+(define x (WordNode "limp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gait%1:04:01::"))

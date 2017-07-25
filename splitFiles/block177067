@@ -1,0 +1,7 @@
+(define s (WordSenseNode "urban_legend%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "urban_legend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "report%1:10:00::"))
+(InheritanceLink s (WordSenseNode "news_report%1:10:00::"))
+(InheritanceLink s (WordSenseNode "story%1:10:01::"))
+(InheritanceLink s (WordSenseNode "account%1:10:03::"))
+(InheritanceLink s (WordSenseNode "write_up%1:10:00::"))

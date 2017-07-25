@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inroad%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inroad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trespass%1:04:00::"))
+(InheritanceLink s (WordSenseNode "encroachment%1:04:00::"))
+(InheritanceLink s (WordSenseNode "violation%1:04:01::"))
+(InheritanceLink s (WordSenseNode "intrusion%1:04:01::"))
+(InheritanceLink s (WordSenseNode "usurpation%1:04:01::"))

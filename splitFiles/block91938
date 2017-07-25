@@ -1,0 +1,5 @@
+(define s (WordSenseNode "kafiri%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kafiri")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Dard%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Dardic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Dardic_language%1:10:00::"))

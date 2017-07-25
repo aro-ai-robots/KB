@@ -1,0 +1,5 @@
+(define s (WordSenseNode "real-time_processing%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "real-time_processing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "data_processing%1:22:00::"))
+(define x (WordNode "real-time_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "data_processing%1:22:00::"))

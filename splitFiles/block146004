@@ -1,0 +1,8 @@
+(define s (WordSenseNode "schism%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "schism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rupture%1:11:00::"))
+(InheritanceLink s (WordSenseNode "breach%1:11:00::"))
+(InheritanceLink s (WordSenseNode "break%1:11:03::"))
+(InheritanceLink s (WordSenseNode "severance%1:11:00::"))
+(InheritanceLink s (WordSenseNode "rift%1:11:00::"))
+(InheritanceLink s (WordSenseNode "falling_out%1:11:00::"))

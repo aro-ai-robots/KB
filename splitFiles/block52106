@@ -1,0 +1,5 @@
+(define s (WordSenseNode "eds%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "explosive_detection_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "system%1:06:00::"))
+(define x (WordNode "EDS")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "system%1:06:00::"))

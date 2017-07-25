@@ -1,0 +1,7 @@
+(define s (WordSenseNode "brush%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%1:11:00::"))
+(InheritanceLink s (WordSenseNode "touching%1:11:00::"))
+(define x (WordNode "light_touch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%1:11:00::"))
+(InheritanceLink s (WordSenseNode "touching%1:11:00::"))

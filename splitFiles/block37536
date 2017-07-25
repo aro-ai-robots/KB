@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coop_in%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "coop_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confine%2:35:03::"))
+(define x (WordNode "coop_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confine%2:35:03::"))

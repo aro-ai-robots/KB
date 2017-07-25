@@ -1,0 +1,5 @@
+(define s (WordSenseNode "preformation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preformation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theory%1:09:00::"))
+(define x (WordNode "theory_of_preformation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theory%1:09:00::"))

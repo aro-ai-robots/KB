@@ -1,0 +1,8 @@
+(define s (WordSenseNode "socialism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "socialism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "political_orientation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "ideology%1:09:01::"))
+(InheritanceLink s (WordSenseNode "political_theory%1:09:00::"))
+(InheritanceLink (WordSenseNode "Fabianism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "guild_socialism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "utopian_socialism%1:09:00::") s)

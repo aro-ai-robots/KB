@@ -1,0 +1,6 @@
+(define s (WordSenseNode "real_presence%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "real_presence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_doctrine%1:10:00::"))
+(InheritanceLink s (WordSenseNode "church_doctrine%1:10:00::"))
+(InheritanceLink s (WordSenseNode "gospel%1:10:01::"))
+(InheritanceLink s (WordSenseNode "creed%1:10:00::"))

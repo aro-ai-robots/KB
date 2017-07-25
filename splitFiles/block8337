@@ -1,0 +1,8 @@
+(define s (WordSenseNode "arabian_sea%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Arabian_Sea")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Indian_Ocean%1:17:00::"))
+(HolonymLink (WordSenseNode "Gulf_of_Oman%1:17:00::") s)
+(HolonymLink (WordSenseNode "Persian_Gulf%1:17:00::") s)
+(HolonymLink (WordSenseNode "Arabian_Gulf%1:17:00::") s)
+(HolonymLink (WordSenseNode "Strait_of_Hormuz%1:17:00::") s)
+(HolonymLink (WordSenseNode "Strait_of_Ormuz%1:17:00::") s)

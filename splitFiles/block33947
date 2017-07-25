@@ -1,0 +1,7 @@
+(define s (WordSenseNode "colonial%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colonial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resident%1:18:00::"))
+(InheritanceLink s (WordSenseNode "occupant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "occupier%1:18:00::"))
+(HolonymLink s (WordSenseNode "colony%1:14:00::"))
+(HolonymLink s (WordSenseNode "settlement%1:14:00::"))

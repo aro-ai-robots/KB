@@ -1,0 +1,4 @@
+(define s (WordSenseNode "triple-spacing%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "triple-spacing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "typing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "typewriting%1:10:00::"))

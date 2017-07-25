@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shoestring%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shoestring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "small_indefinite_quantity%1:23:00::"))
+(InheritanceLink s (WordSenseNode "small_indefinite_amount%1:23:00::"))
+(define x (WordNode "shoe_string")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "small_indefinite_quantity%1:23:00::"))
+(InheritanceLink s (WordSenseNode "small_indefinite_amount%1:23:00::"))

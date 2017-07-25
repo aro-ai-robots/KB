@@ -1,0 +1,8 @@
+(define s (WordSenseNode "naysayer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "naysayer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obstructionist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "obstructor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "obstructer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "resister%1:18:00::"))
+(InheritanceLink s (WordSenseNode "thwarter%1:18:00::"))
+(InheritanceLink (WordSenseNode "technophobe%1:18:00::") s)

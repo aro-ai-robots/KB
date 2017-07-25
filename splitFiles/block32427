@@ -1,0 +1,8 @@
+(define s (WordSenseNode "clip_lead%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clip_lead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jumper_cable%1:06:00::"))
+(InheritanceLink s (WordSenseNode "jumper_lead%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lead%1:06:01::"))
+(InheritanceLink s (WordSenseNode "booster_cable%1:06:00::"))
+(HolonymLink (WordSenseNode "bulldog_clip%1:06:00::") s)
+(HolonymLink (WordSenseNode "alligator_clip%1:06:00::") s)

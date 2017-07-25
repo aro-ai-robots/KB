@@ -1,0 +1,7 @@
+(define s (WordSenseNode "royal_blue%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "purplish_blue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blue%1:07:00::"))
+(InheritanceLink s (WordSenseNode "blueness%1:07:00::"))
+(define x (WordNode "royal_blue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blue%1:07:00::"))
+(InheritanceLink s (WordSenseNode "blueness%1:07:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bin%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))
+(define x (WordNode "binful")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "containerful%1:23:00::"))

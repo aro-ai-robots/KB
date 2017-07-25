@@ -1,0 +1,5 @@
+(define s (WordSenseNode "disengagement%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "detachment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separation%1:04:01::"))
+(define x (WordNode "disengagement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separation%1:04:01::"))

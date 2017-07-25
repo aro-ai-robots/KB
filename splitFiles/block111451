@@ -1,0 +1,5 @@
+(define s (WordSenseNode "naturalness%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "naturalness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "likeness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "alikeness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "similitude%1:07:00::"))

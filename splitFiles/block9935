@@ -1,0 +1,5 @@
+(define s (WordSenseNode "asian_longhorned_beetle%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Asian_longhorned_beetle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beetle%1:05:00::"))
+(define x (WordNode "Anoplophora_glabripennis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beetle%1:05:00::"))

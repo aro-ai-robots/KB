@@ -1,0 +1,4 @@
+(define s (WordSenseNode "telephotography%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "telephotography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:04:00::"))
+(InheritanceLink s (WordSenseNode "picture_taking%1:04:00::"))

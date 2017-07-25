@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mineralocorticoid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mineralocorticoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "corticosteroid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "corticoid%1:27:00::"))
+(InheritanceLink s (WordSenseNode "adrenal_cortical_steroid%1:27:00::"))
+(InheritanceLink (WordSenseNode "aldosterone%1:27:00::") s)

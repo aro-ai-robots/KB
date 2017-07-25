@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reconciliation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reconciliation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooperation%1:04:01::"))
+(define x (WordNode "rapprochement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooperation%1:04:01::"))

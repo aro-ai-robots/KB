@@ -1,0 +1,5 @@
+(define s (WordSenseNode "german_iris%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "German_iris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bearded_iris%1:20:00::"))
+(define x (WordNode "Iris_kochii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bearded_iris%1:20:00::"))

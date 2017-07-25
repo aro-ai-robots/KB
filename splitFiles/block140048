@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reversal%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reversal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turning%1:11:00::"))
+(InheritanceLink s (WordSenseNode "turn%1:11:00::"))
+(define x (WordNode "turn_around")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turning%1:11:00::"))
+(InheritanceLink s (WordSenseNode "turn%1:11:00::"))

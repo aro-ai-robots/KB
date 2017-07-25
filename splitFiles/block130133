@@ -1,0 +1,5 @@
+(define s (WordSenseNode "preservative%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preservative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "spice%1:27:00::") s)

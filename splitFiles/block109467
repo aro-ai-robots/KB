@@ -1,0 +1,4 @@
+(define s (WordSenseNode "moving-coil_galvanometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moving-coil_galvanometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "galvanometer%1:06:00::"))
+(InheritanceLink (WordSenseNode "ballistic_galvanometer%1:06:00::") s)

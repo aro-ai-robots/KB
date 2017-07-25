@@ -1,0 +1,6 @@
+(define s (WordSenseNode "nondevelopment%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nondevelopment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "biological_process%1:22:00::"))
+(InheritanceLink (WordSenseNode "agenesis%1:22:00::") s)
+(InheritanceLink (WordSenseNode "agenesia%1:22:00::") s)

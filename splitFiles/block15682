@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bend_dexter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ordinary%1:06:00::"))
+(define x (WordNode "bend_dexter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ordinary%1:06:00::"))

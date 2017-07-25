@@ -1,0 +1,5 @@
+(define s (WordSenseNode "freemail%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "freemail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_mail%1:10:00::"))
+(InheritanceLink s (WordSenseNode "e-mail%1:10:00::"))
+(InheritanceLink s (WordSenseNode "email%1:10:00::"))

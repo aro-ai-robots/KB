@@ -1,0 +1,6 @@
+(define s (WordSenseNode "wren_warbler%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wren_warbler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Old_World_warbler%1:05:00::"))
+(InheritanceLink s (WordSenseNode "true_warbler%1:05:00::"))
+(HolonymLink s (WordSenseNode "Prinia%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Prinia%1:05:00::"))

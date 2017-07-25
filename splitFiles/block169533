@@ -1,0 +1,4 @@
+(define s (WordSenseNode "timer%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "timer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "governor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "regulator%1:06:01::"))

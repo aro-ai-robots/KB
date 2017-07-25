@@ -1,0 +1,4 @@
+(define s (WordSenseNode "equivalence%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "equivalence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "equality%1:07:00::"))
+(InheritanceLink (WordSenseNode "parity%1:07:00::") s)

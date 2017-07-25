@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cartridge%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cartridge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "module%1:06:00::"))
+(InheritanceLink (WordSenseNode "ink_cartridge%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tape_cartridge%1:06:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dry_plate_process%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dry_plate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:22:00::"))
+(define x (WordNode "dry_plate_process")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:22:00::"))

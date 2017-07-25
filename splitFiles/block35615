@@ -1,0 +1,7 @@
+(define s (WordSenseNode "conceivableness%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conceivableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "possibility%1:26:00::"))
+(InheritanceLink s (WordSenseNode "possibleness%1:26:00::"))
+(define x (WordNode "conceivability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "possibility%1:26:00::"))
+(InheritanceLink s (WordSenseNode "possibleness%1:26:00::"))

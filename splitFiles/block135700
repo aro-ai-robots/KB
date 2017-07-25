@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rape_conviction%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rape_conviction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conviction%1:04:00::"))
+(InheritanceLink s (WordSenseNode "judgment_of_conviction%1:04:00::"))
+(InheritanceLink s (WordSenseNode "condemnation%1:04:01::"))
+(InheritanceLink s (WordSenseNode "sentence%1:04:00::"))

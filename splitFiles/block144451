@@ -1,0 +1,7 @@
+(define s (WordSenseNode "salutatory_oration%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "salutatory_address")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oratory%1:10:00::"))
+(define x (WordNode "salutatory_oration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oratory%1:10:00::"))
+(define x (WordNode "salutatory")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oratory%1:10:00::"))

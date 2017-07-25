@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_staphylococcus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Staphylococcus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Micrococcaceae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Micrococcaceae%1:05:00::"))
+(HolonymLink (WordSenseNode "staphylococcus%1:05:00::") s)
+(HolonymLink (WordSenseNode "staphylococci%1:05:00::") s)
+(HolonymLink (WordSenseNode "staph%1:05:00::") s)

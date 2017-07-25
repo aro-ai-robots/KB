@@ -1,0 +1,7 @@
+(define s (WordSenseNode "banana_passion_fruit%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "banana_passion_fruit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passionflower%1:20:00::"))
+(InheritanceLink s (WordSenseNode "passionflower_vine%1:20:00::"))
+(define x (WordNode "Passiflora_mollissima")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passionflower%1:20:00::"))
+(InheritanceLink s (WordSenseNode "passionflower_vine%1:20:00::"))

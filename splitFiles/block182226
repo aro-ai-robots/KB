@@ -1,0 +1,7 @@
+(define s (WordSenseNode "westerly%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prevailing_westerly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "west_wind%1:19:00::"))
+(InheritanceLink s (WordSenseNode "wester%1:19:00::"))
+(define x (WordNode "westerly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "west_wind%1:19:00::"))
+(InheritanceLink s (WordSenseNode "wester%1:19:00::"))

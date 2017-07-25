@@ -1,0 +1,4 @@
+(define s (WordSenseNode "recording_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recording_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "audio_system%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sound_system%1:06:00::"))

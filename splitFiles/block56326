@@ -1,0 +1,7 @@
+(define s (WordSenseNode "evangelise%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "evangelize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preach%2:32:02::"))
+(InheritanceLink s (WordSenseNode "prophesy%2:32:01::"))
+(define x (WordNode "evangelise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preach%2:32:02::"))
+(InheritanceLink s (WordSenseNode "prophesy%2:32:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pragmatism%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "realism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "practicality%1:07:00::"))
+(define x (WordNode "pragmatism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "practicality%1:07:00::"))

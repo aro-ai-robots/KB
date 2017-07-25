@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fitted_sheet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fitted_sheet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sheet%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bed_sheet%1:06:00::"))
+(define x (WordNode "contour_sheet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sheet%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bed_sheet%1:06:00::"))

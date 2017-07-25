@@ -1,0 +1,7 @@
+(define s (WordSenseNode "induce%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "induce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "generate%2:36:00::"))
+(InheritanceLink s (WordSenseNode "bring_forth%2:36:01::"))
+(define x (WordNode "bring_on")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "generate%2:36:00::"))
+(InheritanceLink s (WordSenseNode "bring_forth%2:36:01::"))

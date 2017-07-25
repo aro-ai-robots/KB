@@ -1,0 +1,5 @@
+(define s (WordSenseNode "brazilian_guava%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Brazilian_guava")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fruit_tree%1:20:00::"))
+(define x (WordNode "Psidium_guineense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fruit_tree%1:20:00::"))

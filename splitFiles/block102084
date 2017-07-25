@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mammalogy%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mammalogy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zoology%1:09:00::"))
+(InheritanceLink s (WordSenseNode "zoological_science%1:09:00::"))
+(InheritanceLink (WordSenseNode "primatology%1:09:00::") s)

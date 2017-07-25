@@ -1,0 +1,5 @@
+(define s (WordSenseNode "british_west_indies%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "British_West_Indies")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "West_Indies%1:15:00::"))
+(InheritanceLink s (WordSenseNode "the_Indies%1:15:00::"))
+(HolonymLink s (WordSenseNode "British_Empire%1:15:00::"))

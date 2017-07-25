@@ -1,0 +1,7 @@
+(define s (WordSenseNode "orchestral_bells%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glockenspiel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "percussion_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "percussive_instrument%1:06:00::"))
+(define x (WordNode "orchestral_bells")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "percussion_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "percussive_instrument%1:06:00::"))

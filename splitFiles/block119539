@@ -1,0 +1,5 @@
+(define s (WordSenseNode "paint_the_lily%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "gild_the_lily")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "add%2:30:00::"))
+(define x (WordNode "paint_the_lily")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "add%2:30:00::"))

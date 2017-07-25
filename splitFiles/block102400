@@ -1,0 +1,5 @@
+(define s (WordSenseNode "manifold%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "manifold_paper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paper%1:27:00::"))
+(define x (WordNode "manifold")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paper%1:27:00::"))

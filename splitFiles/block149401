@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sewer_rat%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sewer_rat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brown_rat%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Norway_rat%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Rattus_norvegicus%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spectrum_line%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spectrum_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:10:01::"))
+(InheritanceLink (WordSenseNode "fine_structure%1:19:00::") s)
+(HolonymLink s (WordSenseNode "spectrum%1:19:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "blood_feud%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vendetta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feud%1:04:00::"))
+(define x (WordNode "blood_feud")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feud%1:04:00::"))

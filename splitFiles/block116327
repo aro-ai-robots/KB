@@ -1,0 +1,4 @@
+(define s (WordSenseNode "one_after_another%4:02:01::")) (PartOfSpeechLink s adv)
+(define x (WordNode "one_by_one")) (WordSenseLink x s)
+(define x (WordNode "one_after_another")) (WordSenseLink x s)
+(define x (WordNode "one_at_a_time")) (WordSenseLink x s)

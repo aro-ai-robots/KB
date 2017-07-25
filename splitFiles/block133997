@@ -1,0 +1,4 @@
+(define s (WordSenseNode "quadruple%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "quadruple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "multiply%2:30:00::"))
+(InheritanceLink s (WordSenseNode "manifold%2:30:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "northern_whiting%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "northern_whiting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "whiting%1:05:01::"))
+(define x (WordNode "Menticirrhus_saxatilis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "whiting%1:05:01::"))

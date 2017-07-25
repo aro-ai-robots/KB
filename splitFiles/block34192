@@ -1,0 +1,7 @@
+(define s (WordSenseNode "columnar_cell%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "columnar_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epithelial_cell%1:08:00::"))
+(InheritanceLink (WordSenseNode "spongioblast%1:08:00::") s)
+(define x (WordNode "columnar_epithelial_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epithelial_cell%1:08:00::"))
+(InheritanceLink (WordSenseNode "spongioblast%1:08:00::") s)

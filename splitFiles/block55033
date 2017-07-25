@@ -1,0 +1,4 @@
+(define s (WordSenseNode "equilibrium_constant%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "equilibrium_constant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constant%1:23:00::"))
+(InheritanceLink (WordSenseNode "dissociation_constant%1:23:00::") s)

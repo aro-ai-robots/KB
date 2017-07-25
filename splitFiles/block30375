@@ -1,0 +1,5 @@
+(define s (WordSenseNode "choke%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "choke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enrich%2:30:00::"))
+(define x (WordNode "throttle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enrich%2:30:00::"))

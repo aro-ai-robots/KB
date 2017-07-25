@@ -1,0 +1,5 @@
+(define s (WordSenseNode "root_canal%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "root_canal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:08:00::"))
+(InheritanceLink s (WordSenseNode "passageway%1:08:00::"))
+(HolonymLink s (WordSenseNode "pulp_cavity%1:08:00::"))

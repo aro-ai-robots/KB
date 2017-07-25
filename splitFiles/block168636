@@ -1,0 +1,7 @@
+(define s (WordSenseNode "thousandth%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "one-thousandth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_fraction%1:23:00::"))
+(InheritanceLink s (WordSenseNode "simple_fraction%1:23:00::"))
+(define x (WordNode "thousandth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_fraction%1:23:00::"))
+(InheritanceLink s (WordSenseNode "simple_fraction%1:23:00::"))

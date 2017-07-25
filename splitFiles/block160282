@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stomp%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stomp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "walk%2:38:00::"))
+(define x (WordNode "stamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "walk%2:38:00::"))
+(define x (WordNode "stump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "walk%2:38:00::"))

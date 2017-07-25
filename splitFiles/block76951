@@ -1,0 +1,7 @@
+(define s (WordSenseNode "habit%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "habit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "custom%1:09:00::"))
+(InheritanceLink s (WordSenseNode "tradition%1:09:02::"))
+(define x (WordNode "wont")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "custom%1:09:00::"))
+(InheritanceLink s (WordSenseNode "tradition%1:09:02::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hookworm%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hookworm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "helminthiasis%1:26:00::"))
+(define x (WordNode "hookworm_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "helminthiasis%1:26:00::"))

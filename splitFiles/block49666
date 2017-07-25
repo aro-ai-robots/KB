@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drag_a_bunt%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bunt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hit%2:35:03::"))
+(define x (WordNode "drag_a_bunt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hit%2:35:03::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "despite%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "despite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disregard%1:04:01::"))
+(InheritanceLink s (WordSenseNode "neglect%1:04:02::"))

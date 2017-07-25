@@ -1,0 +1,5 @@
+(define s (WordSenseNode "maximize%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "maximize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "increase%2:30:02::"))
+(define x (WordNode "maximise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "increase%2:30:02::"))

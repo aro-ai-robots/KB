@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gerund%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gerund")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "verbal_noun%1:10:00::"))
+(InheritanceLink s (WordSenseNode "deverbal_noun%1:10:00::"))

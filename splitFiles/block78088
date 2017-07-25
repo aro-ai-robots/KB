@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hardening%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hardening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))
+(InheritanceLink (WordSenseNode "callosity%1:26:00::") s)
+(InheritanceLink (WordSenseNode "callus%1:26:01::") s)
+(InheritanceLink (WordSenseNode "calcification%1:26:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cant%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "talk%1:10:00::"))
+(InheritanceLink s (WordSenseNode "talking%1:10:00::"))
+(define x (WordNode "pious_platitude")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "talk%1:10:00::"))
+(InheritanceLink s (WordSenseNode "talking%1:10:00::"))

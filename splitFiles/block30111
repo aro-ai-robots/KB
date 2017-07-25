@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chionanthus_virginicus%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fringe_bush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fringe_tree%1:20:00::"))
+(define x (WordNode "Chionanthus_virginicus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fringe_tree%1:20:00::"))

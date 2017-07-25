@@ -1,0 +1,5 @@
+(define s (WordSenseNode "variation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "variation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "activity%1:04:00::"))
+(define x (WordNode "variance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "activity%1:04:00::"))

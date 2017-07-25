@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nicotinamide_adenine_dinucleotide_phosphate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nicotinamide_adenine_dinucleotide_phosphate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coenzyme%1:27:00::"))
+(define x (WordNode "NADP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coenzyme%1:27:00::"))

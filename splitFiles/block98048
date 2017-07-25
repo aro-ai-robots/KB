@@ -1,0 +1,5 @@
+(define s (WordSenseNode "linguistic_geography%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dialect_geography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linguistics%1:09:00::"))
+(define x (WordNode "linguistic_geography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linguistics%1:09:00::"))

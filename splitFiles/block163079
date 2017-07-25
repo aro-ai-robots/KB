@@ -1,0 +1,6 @@
+(define s (WordSenseNode "superlative%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "superlative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "praise%1:10:00::"))
+(InheritanceLink s (WordSenseNode "congratulations%1:10:01::"))
+(InheritanceLink s (WordSenseNode "kudos%1:10:00::"))
+(InheritanceLink s (WordSenseNode "extolment%1:10:00::"))

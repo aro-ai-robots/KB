@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scrub_brush%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scrub_brush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brush%1:06:00::"))
+(define x (WordNode "scrubbing_brush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brush%1:06:00::"))
+(define x (WordNode "scrubber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brush%1:06:00::"))

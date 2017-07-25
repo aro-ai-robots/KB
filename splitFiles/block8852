@@ -1,0 +1,5 @@
+(define s (WordSenseNode "argyll%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "argyle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sock%1:06:00::"))
+(define x (WordNode "argyll")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sock%1:06:00::"))

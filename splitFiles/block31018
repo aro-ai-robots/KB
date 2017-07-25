@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cigar_butt%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cigar_butt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "butt%1:06:01::"))
+(InheritanceLink s (WordSenseNode "stub%1:06:00::"))
+(HolonymLink s (WordSenseNode "cigar%1:06:00::"))

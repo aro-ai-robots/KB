@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tyrannus_vociferans%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cassin's_kingbird")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kingbird%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Tyrannus_tyrannus%1:05:00::"))
+(define x (WordNode "Tyrannus_vociferans")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kingbird%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Tyrannus_tyrannus%1:05:00::"))

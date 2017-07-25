@@ -1,0 +1,6 @@
+(define s (WordSenseNode "excuse%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "excuse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "note%1:10:03::"))
+(InheritanceLink s (WordSenseNode "short_letter%1:10:00::"))
+(InheritanceLink s (WordSenseNode "line%1:10:04::"))
+(InheritanceLink s (WordSenseNode "billet%1:10:00::"))

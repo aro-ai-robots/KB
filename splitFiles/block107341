@@ -1,0 +1,4 @@
+(define s (WordSenseNode "misspell%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "misspell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spell%2:32:00::"))
+(InheritanceLink s (WordSenseNode "spell_out%2:32:01::"))

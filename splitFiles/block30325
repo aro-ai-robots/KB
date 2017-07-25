@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chock%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "chock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fasten%2:35:01::"))
+(InheritanceLink s (WordSenseNode "fix%2:35:00::"))
+(InheritanceLink s (WordSenseNode "secure%2:35:01::"))

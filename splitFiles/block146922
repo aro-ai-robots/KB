@@ -1,0 +1,8 @@
+(define s (WordSenseNode "scruple%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scruple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "apothecaries'_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "apothecaries'_weight%1:23:00::"))
+(HolonymLink s (WordSenseNode "dram%1:23:02::"))
+(HolonymLink s (WordSenseNode "drachm%1:23:00::"))
+(HolonymLink s (WordSenseNode "drachma%1:23:02::"))
+(HolonymLink (WordSenseNode "grain%1:23:02::") s)

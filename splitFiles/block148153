@@ -1,0 +1,4 @@
+(define s (WordSenseNode "self-portrait%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-portrait")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "portrait%1:06:00::"))
+(InheritanceLink s (WordSenseNode "portrayal%1:06:00::"))

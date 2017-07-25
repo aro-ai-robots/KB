@@ -1,0 +1,6 @@
+(define s (WordSenseNode "stephanion%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stephanion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "craniometric_point%1:08:00::"))
+(HolonymLink s (WordSenseNode "cranium%1:08:00::"))
+(HolonymLink s (WordSenseNode "braincase%1:08:00::"))
+(HolonymLink s (WordSenseNode "brainpan%1:08:00::"))

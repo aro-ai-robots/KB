@@ -1,0 +1,6 @@
+(define s (WordSenseNode "true_bug%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "true_bug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hemipterous_insect%1:05:00::"))
+(InheritanceLink s (WordSenseNode "bug%1:05:01::"))
+(InheritanceLink s (WordSenseNode "hemipteran%1:05:00::"))
+(InheritanceLink s (WordSenseNode "hemipteron%1:05:00::"))

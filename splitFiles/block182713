@@ -1,0 +1,4 @@
+(define s (WordSenseNode "white-coat_hypertension%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white-coat_hypertension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "high_blood_pressure%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hypertension%1:26:00::"))

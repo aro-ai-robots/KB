@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wood_thrush%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wood_thrush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thrush%1:05:00::"))
+(define x (WordNode "Hylocichla_mustelina")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thrush%1:05:00::"))

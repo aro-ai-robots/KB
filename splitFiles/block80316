@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hexadecimal_notation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hexadecimal_notation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mathematical_notation%1:10:00::"))
+(define x (WordNode "sexadecimal_notation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mathematical_notation%1:10:00::"))

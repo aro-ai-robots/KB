@@ -1,0 +1,8 @@
+(define s (WordSenseNode "space%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "space")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:07:00::"))
+(InheritanceLink s (WordSenseNode "expanse%1:07:00::"))
+(InheritanceLink s (WordSenseNode "surface_area%1:07:00::"))
+(HolonymLink s (WordSenseNode "musical_notation%1:10:00::"))
+(HolonymLink s (WordSenseNode "staff%1:10:00::"))
+(HolonymLink s (WordSenseNode "stave%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "peace%1:26:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "peace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "security%1:26:00::"))
+(define x (WordNode "public_security")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "security%1:26:00::"))

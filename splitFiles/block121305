@@ -1,0 +1,4 @@
+(define s (WordSenseNode "passive_source%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "passive_source")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "informant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "source%1:18:01::"))

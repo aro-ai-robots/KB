@@ -1,0 +1,7 @@
+(define s (WordSenseNode "manipulation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "manipulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:04:00::"))
+(InheritanceLink (WordSenseNode "mind_game%1:04:00::") s)
+(define x (WordNode "use")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:04:00::"))
+(InheritanceLink (WordSenseNode "mind_game%1:04:00::") s)

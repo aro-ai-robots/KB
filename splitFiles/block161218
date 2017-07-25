@@ -1,0 +1,3 @@
+(define s (WordSenseNode "stripe%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stripe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "badge%1:10:00::"))

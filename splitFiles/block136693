@@ -1,0 +1,5 @@
+(define s (WordSenseNode "recessional%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recession")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "procession%1:04:00::"))
+(define x (WordNode "recessional")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "procession%1:04:00::"))

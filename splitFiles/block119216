@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pace_lap%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pace_lap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lap%1:04:01::"))
+(InheritanceLink s (WordSenseNode "circle%1:04:00::"))
+(InheritanceLink s (WordSenseNode "circuit%1:04:01::"))

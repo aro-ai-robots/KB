@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bucktooth%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bucktooth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "front_tooth%1:08:00::"))
+(InheritanceLink s (WordSenseNode "anterior%1:08:00::"))

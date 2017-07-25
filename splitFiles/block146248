@@ -1,0 +1,4 @@
+(define s (WordSenseNode "scientific_method%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scientific_method")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "methodology%1:09:00::"))
+(InheritanceLink (WordSenseNode "experimental_method%1:09:00::") s)

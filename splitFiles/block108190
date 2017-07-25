@@ -1,0 +1,8 @@
+(define s (WordSenseNode "monkey%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monkey")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "primate%1:05:00::"))
+(InheritanceLink (WordSenseNode "Old_World_monkey%1:05:00::") s)
+(InheritanceLink (WordSenseNode "catarrhine%1:05:00::") s)
+(InheritanceLink (WordSenseNode "New_World_monkey%1:05:00::") s)
+(InheritanceLink (WordSenseNode "platyrrhine%1:05:00::") s)
+(InheritanceLink (WordSenseNode "platyrrhinian%1:05:00::") s)

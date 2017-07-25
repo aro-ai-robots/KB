@@ -1,0 +1,7 @@
+(define s (WordSenseNode "heathfowl%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "European_black_grouse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "black_grouse%1:05:00::"))
+(define x (WordNode "heathfowl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "black_grouse%1:05:00::"))
+(define x (WordNode "Lyrurus_tetrix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "black_grouse%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "earring%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "earring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jewelry%1:06:00::"))
+(InheritanceLink s (WordSenseNode "jewellery%1:06:00::"))
+(InheritanceLink (WordSenseNode "pendant_earring%1:06:00::") s)
+(InheritanceLink (WordSenseNode "drop_earring%1:06:00::") s)
+(InheritanceLink (WordSenseNode "eardrop%1:06:00::") s)

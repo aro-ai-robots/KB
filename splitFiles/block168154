@@ -1,0 +1,7 @@
+(define s (WordSenseNode "thermohydrometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thermohydrometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrometer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "gravimeter%1:06:00::"))
+(define x (WordNode "thermogravimeter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydrometer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "gravimeter%1:06:00::"))

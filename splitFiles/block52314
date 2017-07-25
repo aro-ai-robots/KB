@@ -1,0 +1,5 @@
+(define s (WordSenseNode "effuse%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "flow_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emanate%2:30:00::"))
+(define x (WordNode "effuse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emanate%2:30:00::"))

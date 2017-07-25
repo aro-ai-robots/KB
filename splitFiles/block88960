@@ -1,0 +1,7 @@
+(define s (WordSenseNode "iris_diaphragm%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "iris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diaphragm%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stop%1:06:02::"))
+(define x (WordNode "iris_diaphragm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diaphragm%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stop%1:06:02::"))

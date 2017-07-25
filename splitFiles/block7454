@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antiquity%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antiquity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "historic_period%1:28:00::"))
+(InheritanceLink s (WordSenseNode "age%1:28:02::"))
+(HolonymLink s (WordSenseNode "history%1:28:00::"))

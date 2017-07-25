@@ -1,0 +1,4 @@
+(define s (WordSenseNode "arenaceous_rock%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arenaceous_rock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sedimentary_rock%1:27:00::"))
+(InheritanceLink (WordSenseNode "sandstone%1:27:00::") s)

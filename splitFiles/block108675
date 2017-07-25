@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mordvinian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mordva")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Volgaic%1:10:00::"))
+(define x (WordNode "Mordvin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Volgaic%1:10:00::"))
+(define x (WordNode "Mordvinian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Volgaic%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "meany%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "meanie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oppressor%1:18:00::"))
+(define x (WordNode "meany")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oppressor%1:18:00::"))
+(define x (WordNode "unkind_person")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oppressor%1:18:00::"))

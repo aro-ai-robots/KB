@@ -1,0 +1,8 @@
+(define s (WordSenseNode "compiler%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compiler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "author%1:18:00::"))
+(InheritanceLink (WordSenseNode "encyclopedist%1:18:00::") s)
+(InheritanceLink (WordSenseNode "encyclopaedist%1:18:00::") s)
+(InheritanceLink (WordSenseNode "lexicographer%1:18:00::") s)
+(InheritanceLink (WordSenseNode "lexicologist%1:18:00::") s)

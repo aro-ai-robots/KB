@@ -1,0 +1,7 @@
+(define s (WordSenseNode "contact%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "contact")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "connection%1:26:00::"))
+(InheritanceLink s (WordSenseNode "link%1:26:00::"))
+(InheritanceLink s (WordSenseNode "connectedness%1:26:00::"))
+(InheritanceLink (WordSenseNode "osculation%1:26:00::") s)
+(InheritanceLink (WordSenseNode "tangency%1:26:00::") s)

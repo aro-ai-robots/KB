@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_geranium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Geranium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Geraniaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Geraniaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "geranium_family%1:20:00::"))
+(HolonymLink (WordSenseNode "cranesbill%1:20:00::") s)
+(HolonymLink (WordSenseNode "crane's_bill%1:20:00::") s)

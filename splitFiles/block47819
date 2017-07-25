@@ -1,0 +1,7 @@
+(define s (WordSenseNode "disposal%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disposal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_appliance%1:06:00::"))
+(define x (WordNode "electric_pig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_appliance%1:06:00::"))
+(define x (WordNode "garbage_disposal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kitchen_appliance%1:06:00::"))

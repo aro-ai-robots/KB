@@ -1,0 +1,5 @@
+(define s (WordSenseNode "allegro%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "allegro")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tempo%1:28:01::"))
+(InheritanceLink s (WordSenseNode "pacing%1:28:00::"))
+(InheritanceLink (WordSenseNode "allegro_con_spirito%1:28:00::") s)

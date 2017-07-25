@@ -1,0 +1,7 @@
+(define s (WordSenseNode "search%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "search")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "higher_cognitive_process%1:09:00::"))
+(InheritanceLink (WordSenseNode "hunt%1:09:00::") s)
+(InheritanceLink (WordSenseNode "pursuit%1:09:00::") s)
+(InheritanceLink (WordSenseNode "pursuance%1:09:00::") s)
+(InheritanceLink (WordSenseNode "quest%1:09:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "just_the_ticket%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ticket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appropriateness%1:07:00::"))
+(define x (WordNode "just_the_ticket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appropriateness%1:07:00::"))

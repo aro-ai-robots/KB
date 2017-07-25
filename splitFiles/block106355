@@ -1,0 +1,8 @@
+(define s (WordSenseNode "migrator%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "migrator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal%1:03:00::"))
+(InheritanceLink s (WordSenseNode "animate_being%1:03:00::"))
+(InheritanceLink s (WordSenseNode "beast%1:03:00::"))
+(InheritanceLink s (WordSenseNode "brute%1:03:00::"))
+(InheritanceLink s (WordSenseNode "creature%1:03:00::"))
+(InheritanceLink s (WordSenseNode "fauna%1:03:00::"))

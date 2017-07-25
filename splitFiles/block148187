@@ -1,0 +1,8 @@
+(define s (WordSenseNode "self-starter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "self-starter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "starter%1:06:02::"))
+(InheritanceLink s (WordSenseNode "starter_motor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "starting_motor%1:06:00::"))
+(HolonymLink s (WordSenseNode "internal-combustion_engine%1:06:00::"))
+(HolonymLink s (WordSenseNode "ICE%1:06:01::"))
+(HolonymLink (WordSenseNode "electric_motor%1:06:00::") s)

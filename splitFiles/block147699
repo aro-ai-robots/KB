@@ -1,0 +1,5 @@
+(define s (WordSenseNode "securer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "procurer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acquirer%1:18:00::"))
+(define x (WordNode "securer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acquirer%1:18:00::"))

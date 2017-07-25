@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cinnamon_bear%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cinnamon_bear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "American_black_bear%1:05:00::"))
+(InheritanceLink s (WordSenseNode "black_bear%1:05:01::"))
+(InheritanceLink s (WordSenseNode "Ursus_americanus%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Euarctos_americanus%1:05:00::"))

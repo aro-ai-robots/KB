@@ -1,0 +1,6 @@
+(define s (WordSenseNode "steering_linkage%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "steering_linkage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanism%1:06:00::"))
+(HolonymLink s (WordSenseNode "steering_system%1:06:00::"))
+(HolonymLink s (WordSenseNode "steering_mechanism%1:06:00::"))
+(HolonymLink (WordSenseNode "tie_rod%1:06:00::") s)

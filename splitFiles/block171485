@@ -1,0 +1,7 @@
+(define s (WordSenseNode "transcriber%1:18:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "translator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linguist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "polyglot%1:18:00::"))
+(define x (WordNode "transcriber")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linguist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "polyglot%1:18:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "filoviridae%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Filoviridae")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "family%1:14:03::"))
+(HolonymLink (WordSenseNode "Ebola_virus%1:05:00::") s)
+(HolonymLink (WordSenseNode "Marburg_virus%1:05:00::") s)

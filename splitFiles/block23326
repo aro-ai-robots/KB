@@ -1,0 +1,7 @@
+(define s (WordSenseNode "byte%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "byte")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_memory_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "word%1:23:00::"))
+(HolonymLink (WordSenseNode "bit%1:23:00::") s)
+(HolonymLink (WordSenseNode "nybble%1:23:00::") s)
+(HolonymLink (WordSenseNode "nibble%1:23:00::") s)

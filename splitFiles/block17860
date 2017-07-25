@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bleeding_heart%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bleeding_heart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sympathizer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "sympathiser%1:18:00::"))
+(InheritanceLink s (WordSenseNode "well-wisher%1:18:00::"))

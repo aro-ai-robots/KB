@@ -1,0 +1,7 @@
+(define s (WordSenseNode "weak_interaction%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "weak_interaction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interaction%1:19:00::"))
+(InheritanceLink s (WordSenseNode "fundamental_interaction%1:19:00::"))
+(define x (WordNode "weak_force")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interaction%1:19:00::"))
+(InheritanceLink s (WordSenseNode "fundamental_interaction%1:19:00::"))

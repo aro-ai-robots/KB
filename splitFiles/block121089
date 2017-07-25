@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pascal%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pascal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure_unit%1:23:00::"))
+(define x (WordNode "Pa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure_unit%1:23:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "great_seal%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "great_seal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stamp%1:06:00::"))

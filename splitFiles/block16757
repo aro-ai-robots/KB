@@ -1,0 +1,5 @@
+(define s (WordSenseNode "binomial_theorem%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "binomial_theorem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theorem%1:10:00::"))
+(HolonymLink s (WordSenseNode "probability_theory%1:09:00::"))
+(HolonymLink s (WordSenseNode "theory_of_probability%1:09:00::"))

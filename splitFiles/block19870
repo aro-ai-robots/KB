@@ -1,0 +1,8 @@
+(define s (WordSenseNode "bounce%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bounce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eject%2:35:01::"))
+(InheritanceLink s (WordSenseNode "chuck_out%2:35:00::"))
+(InheritanceLink s (WordSenseNode "exclude%2:35:00::"))
+(InheritanceLink s (WordSenseNode "turf_out%2:35:00::"))
+(InheritanceLink s (WordSenseNode "boot_out%2:35:00::"))
+(InheritanceLink s (WordSenseNode "turn_out%2:35:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "belemnite%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "belemnite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fossil%1:17:00::"))
+(HolonymLink s (WordSenseNode "Belemnitidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Belemnitidae%1:05:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "refracting_telescope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "refracting_telescope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_telescope%1:06:00::"))
+(InheritanceLink (WordSenseNode "field_glass%1:06:00::") s)
+(InheritanceLink (WordSenseNode "glass%1:06:03::") s)
+(InheritanceLink (WordSenseNode "spyglass%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Galilean_telescope%1:06:00::") s)

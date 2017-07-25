@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tincture_of_opium%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laudanum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opiate%1:06:00::"))
+(define x (WordNode "tincture_of_opium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opiate%1:06:00::"))

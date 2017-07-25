@@ -1,0 +1,7 @@
+(define s (WordSenseNode "porte%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Porte")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "court%1:14:01::"))
+(InheritanceLink s (WordSenseNode "royal_court%1:14:01::"))
+(define x (WordNode "Sublime_Porte")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "court%1:14:01::"))
+(InheritanceLink s (WordSenseNode "royal_court%1:14:01::"))

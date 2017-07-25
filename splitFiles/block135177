@@ -1,0 +1,5 @@
+(define s (WordSenseNode "raglan_sleeve%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "raglan_sleeve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sleeve%1:06:00::"))
+(InheritanceLink s (WordSenseNode "arm%1:06:00::"))
+(HolonymLink s (WordSenseNode "raglan%1:06:00::"))

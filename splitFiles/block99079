@@ -1,0 +1,6 @@
+(define s (WordSenseNode "logbook%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "logbook")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "record%1:10:02::"))
+(InheritanceLink s (WordSenseNode "record_book%1:10:00::"))
+(InheritanceLink s (WordSenseNode "book%1:10:02::"))
+(InheritanceLink (WordSenseNode "bell_book%1:10:00::") s)

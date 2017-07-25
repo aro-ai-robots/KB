@@ -1,0 +1,8 @@
+(define s (WordSenseNode "concha%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concha")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "structure%1:08:00::"))
+(InheritanceLink s (WordSenseNode "anatomical_structure%1:08:00::"))
+(InheritanceLink s (WordSenseNode "complex_body_part%1:08:00::"))
+(InheritanceLink s (WordSenseNode "bodily_structure%1:08:00::"))
+(InheritanceLink s (WordSenseNode "body_structure%1:08:00::"))
+(InheritanceLink (WordSenseNode "nasal_concha%1:08:00::") s)

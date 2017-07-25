@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vespers%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vespers")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canonical_hour%1:28:00::"))
+(define x (WordNode "evensong")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "canonical_hour%1:28:00::"))

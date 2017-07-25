@@ -1,0 +1,7 @@
+(define s (WordSenseNode "acute_brain_disorder%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acute_brain_disorder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disorder%1:26:03::"))
+(InheritanceLink s (WordSenseNode "upset%1:26:03::"))
+(define x (WordNode "acute_organic_brain_syndrome")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disorder%1:26:03::"))
+(InheritanceLink s (WordSenseNode "upset%1:26:03::"))

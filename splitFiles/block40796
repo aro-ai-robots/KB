@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cuban_peso%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cuban_peso")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Cuban_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centavo%1:23:00::") s)
+(define x (WordNode "peso")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Cuban_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centavo%1:23:00::") s)

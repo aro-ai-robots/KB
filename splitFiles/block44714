@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dental_anatomy%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dental_anatomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gross_anatomy%1:09:00::"))
+(InheritanceLink s (WordSenseNode "macroscopic_anatomy%1:09:00::"))

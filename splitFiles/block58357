@@ -1,0 +1,3 @@
+(define s (WordSenseNode "false_alarm%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "false_alarm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warning%1:10:00::"))

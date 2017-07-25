@@ -1,0 +1,5 @@
+(define s (WordSenseNode "civilisation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "civilization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_process%1:22:00::"))
+(define x (WordNode "civilisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_process%1:22:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "point_out%2:32:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "remonstrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inform%2:32:00::"))
+(InheritanceLink (WordSenseNode "represent%2:32:10::") s)
+(define x (WordNode "point_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inform%2:32:00::"))
+(InheritanceLink (WordSenseNode "represent%2:32:10::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "petrify%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rigidify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stiffen%2:30:01::"))
+(define x (WordNode "ossify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stiffen%2:30:01::"))
+(define x (WordNode "petrify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stiffen%2:30:01::"))

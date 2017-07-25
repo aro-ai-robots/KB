@@ -1,0 +1,7 @@
+(define s (WordSenseNode "verbalism%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "verbiage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "verboseness%1:10:00::"))
+(InheritanceLink s (WordSenseNode "verbosity%1:10:00::"))
+(define x (WordNode "verbalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "verboseness%1:10:00::"))
+(InheritanceLink s (WordSenseNode "verbosity%1:10:00::"))

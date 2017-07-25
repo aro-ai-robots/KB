@@ -1,0 +1,3 @@
+(define s (WordSenseNode "magic_number%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magic_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atomic_number%1:23:00::"))

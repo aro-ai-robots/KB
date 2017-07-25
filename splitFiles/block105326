@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mercury-in-glass_clinical_thermometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clinical_thermometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mercury_thermometer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mercury-in-glass_thermometer%1:06:00::"))
+(define x (WordNode "mercury-in-glass_clinical_thermometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mercury_thermometer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mercury-in-glass_thermometer%1:06:00::"))

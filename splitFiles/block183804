@@ -1,0 +1,4 @@
+(define s (WordSenseNode "window_envelope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "window_envelope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "envelope%1:06:01::"))
+(HolonymLink (WordSenseNode "window%1:06:02::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rapid_transit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rapid_transit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_transit%1:06:00::"))
+(define x (WordNode "mass_rapid_transit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_transit%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "minocin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "minocycline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tetracycline%1:06:00::"))
+(InheritanceLink s (WordSenseNode "Achromycin%1:06:00::"))
+(define x (WordNode "Minocin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tetracycline%1:06:00::"))
+(InheritanceLink s (WordSenseNode "Achromycin%1:06:00::"))

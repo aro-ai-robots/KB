@@ -1,0 +1,4 @@
+(define s (WordSenseNode "physical_topology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "physical_topology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "topology%1:09:03::"))
+(InheritanceLink s (WordSenseNode "network_topology%1:09:00::"))

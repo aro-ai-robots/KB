@@ -1,0 +1,7 @@
+(define s (WordSenseNode "inhabit%2:42:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dwell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exist%2:42:00::"))
+(InheritanceLink s (WordSenseNode "be%2:42:00::"))
+(define x (WordNode "inhabit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exist%2:42:00::"))
+(InheritanceLink s (WordSenseNode "be%2:42:00::"))

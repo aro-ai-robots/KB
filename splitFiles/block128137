@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pomoxis_annularis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_crappie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crappie%1:05:00::"))
+(define x (WordNode "Pomoxis_annularis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crappie%1:05:00::"))

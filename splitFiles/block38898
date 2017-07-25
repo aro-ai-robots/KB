@@ -1,0 +1,7 @@
+(define s (WordSenseNode "couplet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "couplet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stanza%1:10:00::"))
+(InheritanceLink (WordSenseNode "closed_couplet%1:10:00::") s)
+(InheritanceLink (WordSenseNode "heroic_couplet%1:10:00::") s)
+(HolonymLink (WordSenseNode "line_of_poetry%1:10:00::") s)
+(HolonymLink (WordSenseNode "line_of_verse%1:10:00::") s)

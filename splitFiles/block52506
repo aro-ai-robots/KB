@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ejaculation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ejaculation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discharge%1:22:00::"))
+(InheritanceLink s (WordSenseNode "emission%1:22:01::"))
+(InheritanceLink s (WordSenseNode "expelling%1:22:00::"))
+(InheritanceLink (WordSenseNode "nocturnal_emission%1:22:00::") s)
+(InheritanceLink (WordSenseNode "premature_ejaculation%1:22:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "knife_blade%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "knife_blade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blade%1:06:00::"))
+(HolonymLink s (WordSenseNode "knife%1:06:00::"))

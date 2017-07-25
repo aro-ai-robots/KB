@@ -1,0 +1,5 @@
+(define s (WordSenseNode "act%2:41:07::")) (PartOfSpeechLink s verb)
+(define x (WordNode "act")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "play%2:41:03::") s)
+(InheritanceLink (WordSenseNode "drive_around%2:41:00::") s)
+(InheritanceLink (WordSenseNode "walk_around%2:41:01::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "radiometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radiometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meter%1:06:00::"))
+(InheritanceLink (WordSenseNode "Crookes_radiometer%1:06:00::") s)
+(InheritanceLink (WordSenseNode "radiomicrometer%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Rayleigh_disk%1:06:00::") s)

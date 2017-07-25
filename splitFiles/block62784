@@ -1,0 +1,6 @@
+(define s (WordSenseNode "flatware%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flatware")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tableware%1:06:00::"))
+(InheritanceLink (WordSenseNode "plate%1:06:00::") s)
+(InheritanceLink (WordSenseNode "platter%1:06:00::") s)
+(InheritanceLink (WordSenseNode "saucer%1:06:00::") s)

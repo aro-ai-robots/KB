@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diamond%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diamond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jewel%1:06:00::"))
+(InheritanceLink s (WordSenseNode "gem%1:06:00::"))
+(InheritanceLink s (WordSenseNode "precious_stone%1:06:00::"))
+(InheritanceLink (WordSenseNode "ice%1:21:00::") s)
+(InheritanceLink (WordSenseNode "sparkler%1:21:00::") s)

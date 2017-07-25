@@ -1,0 +1,5 @@
+(define s (WordSenseNode "conceive%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "conceive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_state%2:30:00::"))
+(InheritanceLink s (WordSenseNode "turn%2:30:04::"))
+(InheritanceLink (WordSenseNode "superfetate%2:29:00::") s)

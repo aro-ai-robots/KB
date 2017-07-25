@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fringed_pink%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fringed_pink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pink%1:20:00::"))
+(InheritanceLink s (WordSenseNode "garden_pink%1:20:00::"))
+(define x (WordNode "Dianthus_supurbus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pink%1:20:00::"))
+(InheritanceLink s (WordSenseNode "garden_pink%1:20:00::"))

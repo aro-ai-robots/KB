@@ -1,0 +1,4 @@
+(define s (WordSenseNode "carrion%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carrion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body%1:08:02::"))
+(InheritanceLink s (WordSenseNode "dead_body%1:08:00::"))

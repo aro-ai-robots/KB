@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gaussmeter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magnetometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meter%1:06:00::"))
+(define x (WordNode "gaussmeter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meter%1:06:00::"))

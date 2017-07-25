@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ridge%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ridge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "convex_shape%1:25:00::"))
+(InheritanceLink s (WordSenseNode "convexity%1:25:00::"))
+(InheritanceLink (WordSenseNode "raphe%1:08:00::") s)
+(InheritanceLink (WordSenseNode "rhaphe%1:08:00::") s)
+(InheritanceLink (WordSenseNode "corrugation%1:25:00::") s)

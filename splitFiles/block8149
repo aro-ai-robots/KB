@@ -1,0 +1,7 @@
+(define s (WordSenseNode "approach%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "approach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "movement%1:11:00::"))
+(InheritanceLink s (WordSenseNode "motion%1:11:00::"))
+(define x (WordNode "approaching")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "movement%1:11:00::"))
+(InheritanceLink s (WordSenseNode "motion%1:11:00::"))

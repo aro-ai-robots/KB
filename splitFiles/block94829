@@ -1,0 +1,8 @@
+(define s (WordSenseNode "lapse%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "lapse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "forfeit%2:40:00::"))
+(InheritanceLink s (WordSenseNode "give_up%2:40:02::"))
+(InheritanceLink s (WordSenseNode "throw_overboard%2:40:00::"))
+(InheritanceLink s (WordSenseNode "waive%2:40:00::"))
+(InheritanceLink s (WordSenseNode "forgo%2:40:00::"))
+(InheritanceLink s (WordSenseNode "forego%2:40:00::"))

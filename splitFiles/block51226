@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dyne%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dyne")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "newton%1:23:00::"))
+(HolonymLink s (WordSenseNode "N%1:23:01::"))

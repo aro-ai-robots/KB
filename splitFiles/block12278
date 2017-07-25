@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bach%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bachelor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "live%2:42:06::"))
+(define x (WordNode "bach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "live%2:42:06::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "partial_eclipse%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "partial_eclipse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eclipse%1:11:00::"))
+(InheritanceLink s (WordSenseNode "occultation%1:11:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "chain_printer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chain_printer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "impact_printer%1:06:00::"))
+(HolonymLink (WordSenseNode "chain%1:06:00::") s)

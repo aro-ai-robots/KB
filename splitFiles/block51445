@@ -1,0 +1,8 @@
+(define s (WordSenseNode "earth_color%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "earth_color")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mineral%1:27:00::"))
+(InheritanceLink s (WordSenseNode "pigment%1:27:00::"))
+(InheritanceLink (WordSenseNode "sienna%1:27:00::") s)
+(InheritanceLink (WordSenseNode "ocher%1:27:00::") s)
+(InheritanceLink (WordSenseNode "ochre%1:27:00::") s)
+(InheritanceLink (WordSenseNode "umber%1:27:00::") s)

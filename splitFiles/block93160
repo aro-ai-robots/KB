@@ -1,0 +1,5 @@
+(define s (WordSenseNode "kiss_curl%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spit_curl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crimp%1:08:01::"))
+(define x (WordNode "kiss_curl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "crimp%1:08:01::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "demerit%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "demerit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mark%1:10:01::"))
+(InheritanceLink s (WordSenseNode "stigma%1:10:00::"))
+(InheritanceLink s (WordSenseNode "brand%1:10:01::"))
+(InheritanceLink s (WordSenseNode "stain%1:10:00::"))

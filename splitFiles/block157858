@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spring_vetch%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spring_vetch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vetch%1:20:00::"))
+(define x (WordNode "Vicia_sativa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vetch%1:20:00::"))

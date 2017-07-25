@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sphere%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sphere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artifact%1:03:00::"))
+(InheritanceLink s (WordSenseNode "artefact%1:03:00::"))
+(InheritanceLink (WordSenseNode "globe%1:06:00::") s)

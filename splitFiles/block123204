@@ -1,0 +1,5 @@
+(define s (WordSenseNode "peroxidase%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "peroxidase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxidase%1:27:00::"))
+(InheritanceLink (WordSenseNode "glutathione_peroxidase%1:27:00::") s)
+(InheritanceLink (WordSenseNode "horseradish_peroxidase%1:27:00::") s)

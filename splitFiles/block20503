@@ -1,0 +1,7 @@
+(define s (WordSenseNode "brass_section%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brass_section")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "section%1:14:01::"))
+(InheritanceLink (WordSenseNode "trumpet_section%1:14:00::") s)
+(define x (WordNode "brass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "section%1:14:01::"))
+(InheritanceLink (WordSenseNode "trumpet_section%1:14:00::") s)

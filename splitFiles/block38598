@@ -1,0 +1,7 @@
+(define s (WordSenseNode "coude_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coude_telescope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reflecting_telescope%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reflector%1:06:01::"))
+(define x (WordNode "coude_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reflecting_telescope%1:06:00::"))
+(InheritanceLink s (WordSenseNode "reflector%1:06:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "philosophiser%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "philosophizer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thinker%1:18:01::"))
+(define x (WordNode "philosophiser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thinker%1:18:01::"))

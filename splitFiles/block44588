@@ -1,0 +1,7 @@
+(define s (WordSenseNode "den%1:15:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hideout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hiding_place%1:15:00::"))
+(define x (WordNode "hideaway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hiding_place%1:15:00::"))
+(define x (WordNode "den")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hiding_place%1:15:00::"))

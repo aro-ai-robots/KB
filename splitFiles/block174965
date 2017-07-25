@@ -1,0 +1,7 @@
+(define s (WordSenseNode "uncloak%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unmask")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "debunk%2:32:00::"))
+(InheritanceLink s (WordSenseNode "expose%2:32:00::"))
+(define x (WordNode "uncloak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "debunk%2:32:00::"))
+(InheritanceLink s (WordSenseNode "expose%2:32:00::"))

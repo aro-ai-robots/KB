@@ -1,0 +1,8 @@
+(define s (WordSenseNode "puzzle%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "puzzle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "game%1:06:00::"))
+(InheritanceLink (WordSenseNode "Chinese_puzzle%1:06:00::") s)
+(InheritanceLink (WordSenseNode "jigsaw_puzzle%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tangram%1:06:00::") s)
+(InheritanceLink (WordSenseNode "crossword_puzzle%1:10:00::") s)
+(InheritanceLink (WordSenseNode "crossword%1:10:00::") s)

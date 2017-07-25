@@ -1,0 +1,7 @@
+(define s (WordSenseNode "melt%2:30:04::")) (PartOfSpeechLink s verb)
+(define x (WordNode "mellow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "melt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "mellow_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))

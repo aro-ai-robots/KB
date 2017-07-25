@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ischemic_hypoxia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ischemic_hypoxia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypoxia%1:26:00::"))
+(define x (WordNode "stagnant_hypoxia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypoxia%1:26:00::"))

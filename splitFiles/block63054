@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flipper%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flipper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "limb%1:08:00::"))
+(HolonymLink s (WordSenseNode "aquatic_vertebrate%1:05:00::"))
+(HolonymLink s (WordSenseNode "aquatic_mammal%1:05:00::"))

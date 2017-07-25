@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tarmac%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tarmacadam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paved_surface%1:06:00::"))
+(define x (WordNode "tarmac")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paved_surface%1:06:00::"))
+(define x (WordNode "macadam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paved_surface%1:06:00::"))

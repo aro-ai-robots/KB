@@ -1,0 +1,8 @@
+(define s (WordSenseNode "tuck%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tuck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "comestible%1:13:00::"))
+(InheritanceLink s (WordSenseNode "edible%1:13:00::"))
+(InheritanceLink s (WordSenseNode "eatable%1:13:00::"))
+(InheritanceLink s (WordSenseNode "pabulum%1:13:00::"))
+(InheritanceLink s (WordSenseNode "victual%1:13:00::"))
+(InheritanceLink s (WordSenseNode "victuals%1:13:00::"))

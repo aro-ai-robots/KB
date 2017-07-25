@@ -1,0 +1,7 @@
+(define s (WordSenseNode "indifference%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "indifference")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unconcern%1:12:00::"))
+(InheritanceLink (WordSenseNode "distance%1:12:00::") s)
+(InheritanceLink (WordSenseNode "aloofness%1:12:02::") s)
+(InheritanceLink (WordSenseNode "withdrawal%1:12:00::") s)
+(InheritanceLink (WordSenseNode "detachment%1:12:00::") s)

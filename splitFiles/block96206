@@ -1,0 +1,7 @@
+(define s (WordSenseNode "legislative_council%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "legislative_council")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legislature%1:14:00::"))
+(InheritanceLink s (WordSenseNode "legislative_assembly%1:14:00::"))
+(InheritanceLink s (WordSenseNode "legislative_body%1:14:00::"))
+(InheritanceLink s (WordSenseNode "general_assembly%1:14:00::"))
+(InheritanceLink s (WordSenseNode "law-makers%1:14:00::"))

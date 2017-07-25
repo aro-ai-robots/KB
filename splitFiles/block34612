@@ -1,0 +1,4 @@
+(define s (WordSenseNode "commercial_bribery%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commercial_bribery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bribery%1:04:00::"))
+(InheritanceLink s (WordSenseNode "graft%1:04:01::"))

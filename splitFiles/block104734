@@ -1,0 +1,4 @@
+(define s (WordSenseNode "megaton%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "megaton")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avoirdupois_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "kiloton%1:23:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "d_region%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "D-layer")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "ionosphere%1:15:00::"))
+(define x (WordNode "D_region")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "ionosphere%1:15:00::"))

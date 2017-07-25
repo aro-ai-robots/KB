@@ -1,0 +1,5 @@
+(define s (WordSenseNode "third_party%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "third_party")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arbiter%1:18:00::"))
+(InheritanceLink s (WordSenseNode "arbitrator%1:18:00::"))
+(InheritanceLink s (WordSenseNode "umpire%1:18:01::"))

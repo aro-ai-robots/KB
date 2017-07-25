@@ -1,0 +1,5 @@
+(define s (WordSenseNode "adoptive_parent%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adoptive_parent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parent%1:18:00::"))
+(define x (WordNode "adopter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parent%1:18:00::"))

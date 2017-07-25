@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jot%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jotting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "note%1:10:00::"))
+(define x (WordNode "jot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "note%1:10:00::"))

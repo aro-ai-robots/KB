@@ -1,0 +1,5 @@
+(define s (WordSenseNode "epacris_purpurascens%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Port_Jackson_heath")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epacris%1:20:00::"))
+(define x (WordNode "Epacris_purpurascens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epacris%1:20:00::"))

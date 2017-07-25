@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fatwa%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fatwa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opinion%1:04:01::"))
+(InheritanceLink s (WordSenseNode "ruling%1:04:00::"))

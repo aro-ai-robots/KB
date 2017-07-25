@@ -1,0 +1,7 @@
+(define s (WordSenseNode "exterior_angle%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exterior_angle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angle%1:25:00::"))
+(InheritanceLink (WordSenseNode "hip%1:25:00::") s)
+(define x (WordNode "external_angle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angle%1:25:00::"))
+(InheritanceLink (WordSenseNode "hip%1:25:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "shell_plating%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shell_plating")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%1:06:01::"))
+(InheritanceLink s (WordSenseNode "scale%1:06:03::"))
+(InheritanceLink s (WordSenseNode "shell%1:06:01::"))

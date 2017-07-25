@@ -1,0 +1,7 @@
+(define s (WordSenseNode "schedule%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "schedule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plan%2:31:00::"))
+(InheritanceLink (WordSenseNode "time%2:31:00::") s)
+(InheritanceLink (WordSenseNode "book%2:31:00::") s)
+(InheritanceLink (WordSenseNode "calendar%2:31:00::") s)
+(InheritanceLink (WordSenseNode "slot%2:31:00::") s)

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "feint%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "feint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "maneuver%1:04:00::"))
+(InheritanceLink s (WordSenseNode "manoeuvre%1:04:00::"))
+(InheritanceLink s (WordSenseNode "tactical_maneuver%1:04:00::"))
+(InheritanceLink s (WordSenseNode "tactical_manoeuvre%1:04:00::"))
+(InheritanceLink (WordSenseNode "juke%1:04:00::") s)
+(InheritanceLink (WordSenseNode "fake%1:04:00::") s)

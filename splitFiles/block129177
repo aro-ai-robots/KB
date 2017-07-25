@@ -1,0 +1,7 @@
+(define s (WordSenseNode "potty%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chamberpot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "receptacle%1:06:00::"))
+(define x (WordNode "potty")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "receptacle%1:06:00::"))
+(define x (WordNode "thunder_mug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "receptacle%1:06:00::"))

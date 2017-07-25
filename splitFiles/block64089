@@ -1,0 +1,6 @@
+(define s (WordSenseNode "footprint_evidence%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "footprint_evidence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "footprint%1:10:00::"))
+(InheritanceLink s (WordSenseNode "footmark%1:10:00::"))
+(InheritanceLink s (WordSenseNode "step%1:10:02::"))
+(InheritanceLink s (WordSenseNode "evidence%1:10:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "disconnection%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disconnection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separation%1:04:01::"))
+(define x (WordNode "disjunction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separation%1:04:01::"))

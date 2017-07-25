@@ -1,0 +1,6 @@
+(define s (WordSenseNode "buildup%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "buildup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "promotion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "publicity%1:10:00::"))
+(InheritanceLink s (WordSenseNode "promotional_material%1:10:00::"))
+(InheritanceLink s (WordSenseNode "packaging%1:10:00::"))

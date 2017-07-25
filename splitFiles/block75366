@@ -1,0 +1,4 @@
+(define s (WordSenseNode "greek_architecture%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Greek_architecture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classical_architecture%1:09:00::"))
+(InheritanceLink s (WordSenseNode "Greco-Roman_architecture%1:09:00::"))

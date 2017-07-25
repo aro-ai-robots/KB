@@ -1,0 +1,5 @@
+(define s (WordSenseNode "grade_point%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grade_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mark%1:09:01::"))
+(InheritanceLink s (WordSenseNode "grade%1:09:00::"))
+(InheritanceLink s (WordSenseNode "score%1:09:00::"))

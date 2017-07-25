@@ -1,0 +1,4 @@
+(define s (WordSenseNode "antinomy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antinomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contradiction%1:10:01::"))
+(InheritanceLink s (WordSenseNode "contradiction_in_terms%1:10:00::"))

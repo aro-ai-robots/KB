@@ -1,0 +1,6 @@
+(define s (WordSenseNode "reinstall%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reinstall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "install%2:35:00::"))
+(InheritanceLink s (WordSenseNode "instal%2:35:00::"))
+(InheritanceLink s (WordSenseNode "put_in%2:35:00::"))
+(InheritanceLink s (WordSenseNode "set_up%2:35:02::"))

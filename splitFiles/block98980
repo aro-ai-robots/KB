@@ -1,0 +1,5 @@
+(define s (WordSenseNode "locomotor_ataxia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tabes_dorsalis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neurosyphilis%1:26:00::"))
+(define x (WordNode "locomotor_ataxia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neurosyphilis%1:26:00::"))

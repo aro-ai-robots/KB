@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ardeb%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ardeb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dry_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "dry_measure%1:23:00::"))

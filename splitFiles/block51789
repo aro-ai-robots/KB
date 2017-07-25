@@ -1,0 +1,5 @@
+(define s (WordSenseNode "echinus%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "echinus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ovolo%1:06:00::"))
+(InheritanceLink s (WordSenseNode "thumb%1:06:01::"))
+(InheritanceLink s (WordSenseNode "quarter_round%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bring_home_the_bacon%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "provide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support%2:40:00::"))
+(define x (WordNode "bring_home_the_bacon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "support%2:40:00::"))

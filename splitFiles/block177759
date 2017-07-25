@@ -1,0 +1,7 @@
+(define s (WordSenseNode "valvule%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "valvule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "valve%1:08:00::"))
+(define x (WordNode "valvelet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "valve%1:08:00::"))
+(define x (WordNode "valvula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "valve%1:08:00::"))

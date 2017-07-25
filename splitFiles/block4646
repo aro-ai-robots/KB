@@ -1,0 +1,7 @@
+(define s (WordSenseNode "allspice%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "allspice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spice%1:13:00::"))
+(HolonymLink s (WordSenseNode "allspice%1:20:00::"))
+(HolonymLink s (WordSenseNode "allspice_tree%1:20:01::"))
+(HolonymLink s (WordSenseNode "pimento_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "Pimenta_dioica%1:20:00::"))

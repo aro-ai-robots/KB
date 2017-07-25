@@ -1,0 +1,5 @@
+(define s (WordSenseNode "romance%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "romance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "novel%1:10:00::"))
+(InheritanceLink (WordSenseNode "Gothic_romance%1:10:00::") s)
+(InheritanceLink (WordSenseNode "bodice_ripper%1:10:00::") s)

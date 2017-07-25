@@ -1,0 +1,7 @@
+(define s (WordSenseNode "conning_tower%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conning_tower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pilothouse%1:06:00::"))
+(InheritanceLink s (WordSenseNode "wheelhouse%1:06:00::"))
+(HolonymLink s (WordSenseNode "warship%1:06:00::"))
+(HolonymLink s (WordSenseNode "war_vessel%1:06:00::"))
+(HolonymLink s (WordSenseNode "combat_ship%1:06:00::"))

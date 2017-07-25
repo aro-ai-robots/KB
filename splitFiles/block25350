@@ -1,0 +1,4 @@
+(define s (WordSenseNode "capitalist%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "capitalist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conservative%1:18:00::"))
+(InheritanceLink s (WordSenseNode "conservativist%1:18:00::"))

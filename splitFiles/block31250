@@ -1,0 +1,7 @@
+(define s (WordSenseNode "circumflex_iliac_vein%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circumflex_iliac_vein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circumflex_vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena_circumflexa%1:08:00::"))
+(define x (WordNode "vena_circumflexa_ilium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circumflex_vein%1:08:00::"))
+(InheritanceLink s (WordSenseNode "vena_circumflexa%1:08:00::"))

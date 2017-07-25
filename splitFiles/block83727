@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hyperbola%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hyperbola")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conic_section%1:25:00::"))
+(InheritanceLink s (WordSenseNode "conic%1:25:00::"))

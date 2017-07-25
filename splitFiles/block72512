@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ghost%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ghost")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soul%1:18:00::"))
+(InheritanceLink s (WordSenseNode "psyche%1:18:00::"))
+(InheritanceLink (WordSenseNode "poltergeist%1:18:00::") s)
+(InheritanceLink (WordSenseNode "revenant%1:18:00::") s)

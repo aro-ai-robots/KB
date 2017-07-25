@@ -1,0 +1,6 @@
+(define s (WordSenseNode "direct_primary%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "direct_primary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "primary%1:04:00::"))
+(InheritanceLink s (WordSenseNode "primary_election%1:04:00::"))
+(InheritanceLink (WordSenseNode "closed_primary%1:04:00::") s)
+(InheritanceLink (WordSenseNode "open_primary%1:04:00::") s)

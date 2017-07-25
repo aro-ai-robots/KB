@@ -1,0 +1,5 @@
+(define s (WordSenseNode "collective_farm%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "collective_farm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collective%1:14:00::"))
+(InheritanceLink (WordSenseNode "kibbutz%1:14:00::") s)
+(InheritanceLink (WordSenseNode "kolkhoz%1:14:00::") s)

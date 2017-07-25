@@ -1,0 +1,7 @@
+(define s (WordSenseNode "viewgraph%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "viewgraph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foil%1:06:02::"))
+(InheritanceLink s (WordSenseNode "transparency%1:06:01::"))
+(define x (WordNode "overhead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foil%1:06:02::"))
+(InheritanceLink s (WordSenseNode "transparency%1:06:01::"))

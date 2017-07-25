@@ -1,0 +1,4 @@
+(define s (WordSenseNode "taper_off%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "taper_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "narrow%2:30:00::"))
+(InheritanceLink s (WordSenseNode "contract%2:30:00::"))

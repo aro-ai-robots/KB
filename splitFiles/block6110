@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anatomise%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "anatomize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dissect%2:35:00::"))
+(define x (WordNode "anatomise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dissect%2:35:00::"))

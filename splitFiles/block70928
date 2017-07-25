@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_plasmodium%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Plasmodium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protoctist_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Sporozoa%1:05:00::"))
+(HolonymLink s (WordSenseNode "class_Sporozoa%1:05:00::"))
+(HolonymLink (WordSenseNode "plasmodium%1:05:00::") s)
+(HolonymLink (WordSenseNode "Plasmodium_vivax%1:05:00::") s)
+(HolonymLink (WordSenseNode "malaria_parasite%1:05:00::") s)

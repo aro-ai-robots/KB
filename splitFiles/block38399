@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cosmic_time%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cosmic_time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time%1:03:00::"))
+(InheritanceLink (WordSenseNode "sidereal_time%1:28:00::") s)
+(InheritanceLink (WordSenseNode "solstice%1:28:00::") s)
+(InheritanceLink (WordSenseNode "equinox%1:28:00::") s)

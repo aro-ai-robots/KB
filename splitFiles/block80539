@@ -1,0 +1,4 @@
+(define s (WordSenseNode "high_commissioner%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "high_commissioner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diplomat%1:18:00::"))
+(InheritanceLink s (WordSenseNode "diplomatist%1:18:00::"))

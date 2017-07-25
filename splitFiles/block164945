@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tabulation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tabulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information%1:10:00::"))
+(InheritanceLink s (WordSenseNode "info%1:10:00::"))
+(define x (WordNode "tabular_matter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information%1:10:00::"))
+(InheritanceLink s (WordSenseNode "info%1:10:00::"))

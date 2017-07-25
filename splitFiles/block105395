@@ -1,0 +1,7 @@
+(define s (WordSenseNode "meritoriousness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deservingness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worthiness%1:07:00::"))
+(define x (WordNode "merit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worthiness%1:07:00::"))
+(define x (WordNode "meritoriousness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worthiness%1:07:00::"))

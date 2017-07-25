@@ -1,0 +1,5 @@
+(define s (WordSenseNode "predicator%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "predicator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "construction%1:10:01::"))
+(InheritanceLink s (WordSenseNode "grammatical_construction%1:10:00::"))
+(InheritanceLink s (WordSenseNode "expression%1:10:05::"))

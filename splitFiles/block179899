@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vldl%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "very_low_density_lipoprotein")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lipoprotein%1:27:00::"))
+(define x (WordNode "VLDL")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lipoprotein%1:27:00::"))

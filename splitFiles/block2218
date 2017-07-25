@@ -1,0 +1,5 @@
+(define s (WordSenseNode "adjusting_entry%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adjusting_entry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "entry%1:21:00::"))
+(InheritanceLink s (WordSenseNode "accounting_entry%1:21:00::"))
+(InheritanceLink s (WordSenseNode "ledger_entry%1:21:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rum_baba%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "baba_au_rhum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baba%1:13:00::"))
+(define x (WordNode "rum_baba")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baba%1:13:00::"))

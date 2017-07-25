@@ -1,0 +1,4 @@
+(define s (WordSenseNode "subgroup%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subgroup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "group%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mathematical_group%1:09:00::"))

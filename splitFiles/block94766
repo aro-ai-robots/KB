@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lap%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "lave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flow%2:30:00::"))
+(define x (WordNode "lap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flow%2:30:00::"))
+(define x (WordNode "wash")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flow%2:30:00::"))

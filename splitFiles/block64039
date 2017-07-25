@@ -1,0 +1,6 @@
+(define s (WordSenseNode "football_coach%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "football_coach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coach%1:18:01::"))
+(InheritanceLink s (WordSenseNode "manager%1:18:01::"))
+(InheritanceLink s (WordSenseNode "handler%1:18:00::"))
+(InheritanceLink (WordSenseNode "line_coach%1:18:00::") s)

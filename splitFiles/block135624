@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rank%2:31:13::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(InheritanceLink (WordSenseNode "place%2:31:03::") s)
+(InheritanceLink (WordSenseNode "come_in%2:31:00::") s)
+(InheritanceLink (WordSenseNode "come_out%2:31:00::") s)
+(InheritanceLink (WordSenseNode "come%2:31:13::") s)

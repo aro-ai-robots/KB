@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flatness%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flatness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "taste%1:09:02::"))
+(InheritanceLink s (WordSenseNode "taste_sensation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "gustatory_sensation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "taste_perception%1:09:00::"))
+(InheritanceLink s (WordSenseNode "gustatory_perception%1:09:00::"))

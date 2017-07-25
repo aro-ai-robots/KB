@@ -1,0 +1,6 @@
+(define s (WordSenseNode "spin%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "spin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "present%2:32:00::"))
+(InheritanceLink s (WordSenseNode "represent%2:32:11::"))
+(InheritanceLink s (WordSenseNode "lay_out%2:32:00::"))
+(InheritanceLink (WordSenseNode "sugarcoat%2:32:00::") s)

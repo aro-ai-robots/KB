@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pilchard%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sardine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saltwater_fish%1:13:00::"))
+(define x (WordNode "pilchard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saltwater_fish%1:13:00::"))

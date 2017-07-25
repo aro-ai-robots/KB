@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jump%2:38:11::")) (PartOfSpeechLink s verb)
+(define x (WordNode "jump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:38:00::"))
+(define x (WordNode "leap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:38:00::"))
+(define x (WordNode "jump_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:38:00::"))

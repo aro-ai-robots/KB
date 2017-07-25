@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jump_rope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jump_rope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rope%1:06:00::"))
+(define x (WordNode "skip_rope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rope%1:06:00::"))
+(define x (WordNode "skipping_rope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rope%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "folder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "folder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covering%1:06:00::"))
+(InheritanceLink (WordSenseNode "file_folder%1:06:00::") s)
+(InheritanceLink (WordSenseNode "matchbook%1:06:00::") s)

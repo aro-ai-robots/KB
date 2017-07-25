@@ -1,0 +1,7 @@
+(define s (WordSenseNode "beaver_fur%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beaver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fur%1:27:00::"))
+(InheritanceLink s (WordSenseNode "pelt%1:27:00::"))
+(define x (WordNode "beaver_fur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fur%1:27:00::"))
+(InheritanceLink s (WordSenseNode "pelt%1:27:00::"))

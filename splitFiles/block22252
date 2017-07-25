@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bulge%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bulge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swell%2:30:01::"))
+(define x (WordNode "bulk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "swell%2:30:01::"))

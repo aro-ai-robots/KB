@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wellspring%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "well")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "source%1:10:00::"))
+(define x (WordNode "wellspring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "source%1:10:00::"))
+(define x (WordNode "fountainhead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "source%1:10:00::"))

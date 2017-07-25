@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gantlet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gauntlet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "challenge%1:10:00::"))
+(define x (WordNode "gantlet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "challenge%1:10:00::"))

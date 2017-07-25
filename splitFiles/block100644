@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lymphokine%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lymphokine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cytokine%1:27:00::"))
+(InheritanceLink (WordSenseNode "interleukin%1:27:00::") s)

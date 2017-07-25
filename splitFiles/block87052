@@ -1,0 +1,4 @@
+(define s (WordSenseNode "inhere%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "inhere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "belong_to%2:42:00::"))
+(InheritanceLink s (WordSenseNode "belong%2:42:06::"))

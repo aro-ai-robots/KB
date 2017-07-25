@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diffuser%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diffuser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baffle%1:06:00::"))
+(InheritanceLink s (WordSenseNode "baffle_board%1:06:00::"))
+(define x (WordNode "diffusor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "baffle%1:06:00::"))
+(InheritanceLink s (WordSenseNode "baffle_board%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "terra_alba%1:27:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pipeclay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clay%1:27:00::"))
+(define x (WordNode "terra_alba")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clay%1:27:00::"))

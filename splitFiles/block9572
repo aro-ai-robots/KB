@@ -1,0 +1,6 @@
+(define s (WordSenseNode "article%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "article")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "determiner%1:10:00::"))
+(InheritanceLink s (WordSenseNode "determinative%1:10:00::"))
+(InheritanceLink (WordSenseNode "definite_article%1:10:00::") s)
+(InheritanceLink (WordSenseNode "indefinite_article%1:10:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jalousie%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "louvered_window")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:00::"))
+(define x (WordNode "jalousie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:00::"))

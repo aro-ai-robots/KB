@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tablet%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tablet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slab%1:06:00::"))
+(InheritanceLink (WordSenseNode "abacus%1:06:01::") s)
+(InheritanceLink (WordSenseNode "slate%1:06:00::") s)

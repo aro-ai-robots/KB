@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diaper%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diaper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "garment%1:06:00::"))
+(define x (WordNode "nappy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "garment%1:06:00::"))
+(define x (WordNode "napkin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "garment%1:06:00::"))

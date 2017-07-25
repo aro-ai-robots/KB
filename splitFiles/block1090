@@ -1,0 +1,7 @@
+(define s (WordSenseNode "accompaniment%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "escort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protection%1:04:00::"))
+(InheritanceLink (WordSenseNode "convoy%1:04:00::") s)
+(define x (WordNode "accompaniment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protection%1:04:00::"))
+(InheritanceLink (WordSenseNode "convoy%1:04:00::") s)

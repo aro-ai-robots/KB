@@ -1,0 +1,4 @@
+(define s (WordSenseNode "radius%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radius")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arm_bone%1:08:00::"))
+(HolonymLink s (WordSenseNode "forearm%1:08:00::"))

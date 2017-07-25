@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antimuon%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antimuon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antilepton%1:17:00::"))
+(define x (WordNode "positive_muon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antilepton%1:17:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "scrawler%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scrawler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:01::"))
+(define x (WordNode "scribbler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writer%1:18:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "word_of_god%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Word_of_God")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Gospel%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Gospels%1:10:00::"))
+(InheritanceLink s (WordSenseNode "evangel%1:10:00::"))

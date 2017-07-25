@@ -1,0 +1,7 @@
+(define s (WordSenseNode "breakaway%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "breakaway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secession%1:04:00::"))
+(InheritanceLink s (WordSenseNode "withdrawal%1:04:01::"))
+(define x (WordNode "breaking_away")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secession%1:04:00::"))
+(InheritanceLink s (WordSenseNode "withdrawal%1:04:01::"))

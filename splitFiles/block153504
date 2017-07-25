@@ -1,0 +1,5 @@
+(define s (WordSenseNode "slip-joint_pliers%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "slip-joint_pliers")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pliers%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pair_of_pliers%1:06:00::"))
+(InheritanceLink s (WordSenseNode "plyers%1:06:00::"))

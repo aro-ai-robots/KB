@@ -1,0 +1,5 @@
+(define s (WordSenseNode "concatenation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concatenation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "joining%1:04:00::"))
+(InheritanceLink s (WordSenseNode "connection%1:04:00::"))
+(InheritanceLink s (WordSenseNode "connexion%1:04:00::"))

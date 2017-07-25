@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mutual_fund%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mutual_fund")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fund%1:21:00::"))
+(InheritanceLink s (WordSenseNode "monetary_fund%1:21:00::"))
+(InheritanceLink (WordSenseNode "exchange_traded_fund%1:21:00::") s)
+(InheritanceLink (WordSenseNode "ETF%1:21:00::") s)
+(InheritanceLink (WordSenseNode "index_fund%1:21:00::") s)

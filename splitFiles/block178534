@@ -1,0 +1,8 @@
+(define s (WordSenseNode "ventilator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ventilator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))
+(HolonymLink s (WordSenseNode "ventilation%1:06:00::"))
+(HolonymLink s (WordSenseNode "ventilation_system%1:06:00::"))
+(HolonymLink s (WordSenseNode "ventilating_system%1:06:00::"))
+(HolonymLink (WordSenseNode "air_filter%1:06:00::") s)
+(HolonymLink (WordSenseNode "air_cleaner%1:06:00::") s)

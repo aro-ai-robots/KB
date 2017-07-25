@@ -1,0 +1,7 @@
+(define s (WordSenseNode "makeshift%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "makeshift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expedient%1:04:00::"))
+(define x (WordNode "stopgap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expedient%1:04:00::"))
+(define x (WordNode "make-do")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expedient%1:04:00::"))

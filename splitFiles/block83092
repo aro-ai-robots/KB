@@ -1,0 +1,7 @@
+(define s (WordSenseNode "humpback%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kyphosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spinal_curvature%1:26:00::"))
+(define x (WordNode "humpback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spinal_curvature%1:26:00::"))
+(define x (WordNode "hunchback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spinal_curvature%1:26:00::"))

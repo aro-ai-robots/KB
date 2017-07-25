@@ -1,0 +1,4 @@
+(define s (WordSenseNode "log_line%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "log_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cord%1:06:00::"))
+(HolonymLink s (WordSenseNode "log%1:06:01::"))

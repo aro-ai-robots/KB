@@ -1,0 +1,5 @@
+(define s (WordSenseNode "appointment_book%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "appointment_book")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "book%1:10:00::"))
+(define x (WordNode "appointment_calendar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "book%1:10:00::"))

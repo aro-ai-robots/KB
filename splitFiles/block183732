@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wind_exposure%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "windage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exposure%1:07:00::"))
+(define x (WordNode "wind_exposure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exposure%1:07:00::"))

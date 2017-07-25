@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rouge_et_noir%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rouge_et_noir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card_game%1:04:00::"))
+(InheritanceLink s (WordSenseNode "cards%1:04:00::"))
+(define x (WordNode "trente-et-quarante")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "card_game%1:04:00::"))
+(InheritanceLink s (WordSenseNode "cards%1:04:00::"))

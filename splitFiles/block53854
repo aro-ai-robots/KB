@@ -1,0 +1,7 @@
+(define s (WordSenseNode "end_organ%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "end_organ")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organ%1:08:00::"))
+(InheritanceLink (WordSenseNode "end-plate%1:08:00::") s)
+(InheritanceLink (WordSenseNode "endplate%1:08:00::") s)
+(InheritanceLink (WordSenseNode "motor_end_plate%1:08:00::") s)
+(InheritanceLink (WordSenseNode "osmoreceptor%1:08:00::") s)

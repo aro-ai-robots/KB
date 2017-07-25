@@ -1,0 +1,4 @@
+(define s (WordSenseNode "background_radiation%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "background_radiation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "background%1:11:00::"))
+(InheritanceLink s (WordSenseNode "background_signal%1:11:00::"))

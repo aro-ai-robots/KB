@@ -1,0 +1,7 @@
+(define s (WordSenseNode "economizer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "economizer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saver%1:18:00::"))
+(InheritanceLink (WordSenseNode "stinter%1:18:00::") s)
+(define x (WordNode "economiser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saver%1:18:00::"))
+(InheritanceLink (WordSenseNode "stinter%1:18:00::") s)

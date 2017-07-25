@@ -1,0 +1,7 @@
+(define s (WordSenseNode "drugging%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sedation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "administration%1:04:01::"))
+(InheritanceLink s (WordSenseNode "giving_medication%1:04:00::"))
+(define x (WordNode "drugging")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "administration%1:04:01::"))
+(InheritanceLink s (WordSenseNode "giving_medication%1:04:00::"))

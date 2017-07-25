@@ -1,0 +1,7 @@
+(define s (WordSenseNode "character_set%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "character_set")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "list%1:10:00::"))
+(InheritanceLink s (WordSenseNode "listing%1:10:00::"))
+(InheritanceLink (WordSenseNode "alphabet%1:10:00::") s)
+(InheritanceLink (WordSenseNode "alphanumerics%1:10:00::") s)
+(InheritanceLink (WordSenseNode "alphanumeric_characters%1:10:00::") s)

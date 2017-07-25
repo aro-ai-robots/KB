@@ -1,0 +1,8 @@
+(define s (WordSenseNode "interferon%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interferon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antiviral%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antiviral_agent%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antiviral_drug%1:06:00::"))
+(InheritanceLink (WordSenseNode "alpha-interferon%1:06:00::") s)
+(InheritanceLink (WordSenseNode "beta-interferon%1:06:00::") s)
+(InheritanceLink (WordSenseNode "gamma-interferon%1:06:00::") s)

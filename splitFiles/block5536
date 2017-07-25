@@ -1,0 +1,5 @@
+(define s (WordSenseNode "aminomethane%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aminomethane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "methyl%1:27:00::"))
+(InheritanceLink s (WordSenseNode "methyl_group%1:27:00::"))
+(InheritanceLink s (WordSenseNode "methyl_radical%1:27:00::"))

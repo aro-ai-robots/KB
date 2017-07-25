@@ -1,0 +1,5 @@
+(define s (WordSenseNode "geodesic_line%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "geodesic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:25:00::"))
+(define x (WordNode "geodesic_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:25:00::"))

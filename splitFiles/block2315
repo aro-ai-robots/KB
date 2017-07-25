@@ -1,0 +1,7 @@
+(define s (WordSenseNode "admixture%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "admixture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "impurity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "impureness%1:26:00::"))
+(define x (WordNode "alloy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "impurity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "impureness%1:26:00::"))

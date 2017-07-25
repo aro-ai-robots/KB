@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pining%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pining")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "longing%1:12:00::"))
+(InheritanceLink s (WordSenseNode "yearning%1:12:00::"))
+(InheritanceLink s (WordSenseNode "hungriness%1:12:00::"))
+(InheritanceLink (WordSenseNode "lovesickness%1:12:00::") s)

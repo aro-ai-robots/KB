@@ -1,0 +1,5 @@
+(define s (WordSenseNode "grapple%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clamshell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dredging_bucket%1:06:00::"))
+(define x (WordNode "grapple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dredging_bucket%1:06:00::"))

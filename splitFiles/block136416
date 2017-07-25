@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ream%1:23:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ream")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_indefinite_quantity%1:23:00::"))
+(InheritanceLink s (WordSenseNode "large_indefinite_amount%1:23:00::"))

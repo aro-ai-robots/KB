@@ -1,0 +1,5 @@
+(define s (WordSenseNode "omb%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Office_of_Management_and_Budget")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "executive_agency%1:14:00::"))
+(define x (WordNode "OMB")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "executive_agency%1:14:00::"))

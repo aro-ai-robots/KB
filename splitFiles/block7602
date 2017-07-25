@@ -1,0 +1,4 @@
+(define s (WordSenseNode "aortic_plexus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aortic_plexus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plexus%1:08:00::"))
+(InheritanceLink s (WordSenseNode "rete%1:08:00::"))

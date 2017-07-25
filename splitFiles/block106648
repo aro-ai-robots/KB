@@ -1,0 +1,5 @@
+(define s (WordSenseNode "millihenry%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "millihenry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inductance_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "henry%1:23:00::"))
+(HolonymLink s (WordSenseNode "H%1:23:00::"))

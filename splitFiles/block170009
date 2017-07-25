@@ -1,0 +1,4 @@
+(define s (WordSenseNode "today%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "today")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "present%1:28:00::"))
+(InheritanceLink s (WordSenseNode "nowadays%1:28:00::"))

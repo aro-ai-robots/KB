@@ -1,0 +1,6 @@
+(define s (WordSenseNode "family_history%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "family_history")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "case_history%1:10:00::"))
+(HolonymLink s (WordSenseNode "medical_history%1:10:00::"))
+(HolonymLink s (WordSenseNode "medical_record%1:10:00::"))
+(HolonymLink s (WordSenseNode "anamnesis%1:10:00::"))

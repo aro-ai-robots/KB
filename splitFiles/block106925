@@ -1,0 +1,5 @@
+(define s (WordSenseNode "minium%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "red_lead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxide%1:27:00::"))
+(define x (WordNode "minium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxide%1:27:00::"))

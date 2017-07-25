@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cut%2:38:12::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transit%2:38:00::"))
+(InheritanceLink s (WordSenseNode "pass_through%2:38:00::"))
+(InheritanceLink s (WordSenseNode "move_through%2:38:00::"))
+(InheritanceLink s (WordSenseNode "pass_across%2:38:00::"))
+(InheritanceLink s (WordSenseNode "pass_over%2:38:02::"))

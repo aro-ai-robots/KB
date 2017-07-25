@@ -1,0 +1,4 @@
+(define s (WordSenseNode "unbrace%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unbrace")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "relax%2:30:01::"))
+(InheritanceLink s (WordSenseNode "unbend%2:30:00::"))

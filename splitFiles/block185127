@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wrinkle%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "purse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contract%2:35:00::"))
+(define x (WordNode "wrinkle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contract%2:35:00::"))

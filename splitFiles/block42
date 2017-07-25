@@ -1,0 +1,7 @@
+(define s (WordSenseNode "15%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fifteen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_integer%1:23:00::"))
+(define x (WordNode "15")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_integer%1:23:00::"))
+(define x (WordNode "XV")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "large_integer%1:23:00::"))

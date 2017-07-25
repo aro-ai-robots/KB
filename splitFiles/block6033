@@ -1,0 +1,4 @@
+(define s (WordSenseNode "anaphylaxis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anaphylaxis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hypersensitivity_reaction%1:26:00::"))
+(InheritanceLink (WordSenseNode "anaphylactic_shock%1:26:00::") s)

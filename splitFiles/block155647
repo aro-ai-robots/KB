@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sorting%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sorting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grouping%1:04:00::"))
+(InheritanceLink (WordSenseNode "triage%1:04:00::") s)
+(InheritanceLink (WordSenseNode "separation%1:04:03::") s)

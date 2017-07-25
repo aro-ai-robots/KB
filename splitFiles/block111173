@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nasal_sinus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paranasal_sinus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sinus%1:08:02::"))
+(define x (WordNode "sinus_paranasales")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sinus%1:08:02::"))
+(define x (WordNode "nasal_sinus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sinus%1:08:02::"))

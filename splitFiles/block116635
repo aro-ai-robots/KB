@@ -1,0 +1,7 @@
+(define s (WordSenseNode "operating_budget%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "operating_budget")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "budget%1:21:02::"))
+(HolonymLink (WordSenseNode "operating_expense%1:21:00::") s)
+(HolonymLink (WordSenseNode "operating_cost%1:21:00::") s)
+(HolonymLink (WordSenseNode "overhead%1:21:00::") s)
+(HolonymLink (WordSenseNode "budget_items%1:21:00::") s)

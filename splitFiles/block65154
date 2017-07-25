@@ -1,0 +1,5 @@
+(define s (WordSenseNode "francisella_tularensis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Francisella_tularensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_species%1:05:00::"))
+(HolonymLink s (WordSenseNode "Francisella%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Francisella%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stellate_venule%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stellate_venule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "venule%1:08:00::"))
+(InheritanceLink s (WordSenseNode "venula%1:08:00::"))
+(InheritanceLink s (WordSenseNode "capillary_vein%1:08:00::"))

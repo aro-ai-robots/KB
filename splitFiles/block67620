@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gate%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passageway%1:06:00::"))
+(InheritanceLink (WordSenseNode "arrival_gate%1:06:00::") s)
+(InheritanceLink (WordSenseNode "departure_gate%1:06:00::") s)
+(HolonymLink s (WordSenseNode "air_terminal%1:06:00::"))
+(HolonymLink s (WordSenseNode "airport_terminal%1:06:00::"))

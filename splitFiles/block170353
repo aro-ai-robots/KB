@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tonic_key%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tonic_key")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "key%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tonality%1:10:00::"))
+(define x (WordNode "home_key")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "key%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tonality%1:10:00::"))

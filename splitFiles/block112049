@@ -1,0 +1,5 @@
+(define s (WordSenseNode "neosporin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Neosporin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antibacterial%1:06:00::"))
+(InheritanceLink s (WordSenseNode "antibacterial_drug%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bactericide%1:06:00::"))

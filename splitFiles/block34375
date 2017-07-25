@@ -1,0 +1,5 @@
+(define s (WordSenseNode "come_into_being%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "come_to_life")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be_born%2:30:00::"))
+(define x (WordNode "come_into_being")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be_born%2:30:00::"))

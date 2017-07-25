@@ -1,0 +1,6 @@
+(define s (WordSenseNode "divert%2:38:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "divert")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "send%2:38:01::"))
+(InheritanceLink s (WordSenseNode "direct%2:38:01::"))
+(InheritanceLink (WordSenseNode "route%2:38:01::") s)
+(InheritanceLink (WordSenseNode "deviate%2:38:01::") s)

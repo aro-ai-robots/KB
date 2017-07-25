@@ -1,0 +1,7 @@
+(define s (WordSenseNode "covering_letter%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "covering_letter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "letter%1:10:00::"))
+(InheritanceLink s (WordSenseNode "missive%1:10:00::"))
+(define x (WordNode "cover_letter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "letter%1:10:00::"))
+(InheritanceLink s (WordSenseNode "missive%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "autolysis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "autolysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lysis%1:22:00::"))
+(define x (WordNode "self-digestion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lysis%1:22:00::"))

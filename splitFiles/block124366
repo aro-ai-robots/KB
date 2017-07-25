@@ -1,0 +1,7 @@
+(define s (WordSenseNode "phototherapy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phototherapy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "radiotherapy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "radiation_therapy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "radiation%1:04:01::"))
+(InheritanceLink s (WordSenseNode "actinotherapy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "irradiation%1:04:00::"))

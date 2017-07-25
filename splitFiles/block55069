@@ -1,0 +1,7 @@
+(define s (WordSenseNode "equisetum_fluviatile%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "swamp_horsetail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "horsetail%1:20:00::"))
+(define x (WordNode "water_horsetail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "horsetail%1:20:00::"))
+(define x (WordNode "Equisetum_fluviatile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "horsetail%1:20:00::"))

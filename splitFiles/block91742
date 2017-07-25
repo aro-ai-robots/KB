@@ -1,0 +1,4 @@
+(define s (WordSenseNode "junk_mail%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "junk_mail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "third-class_mail%1:10:00::"))
+(InheritanceLink s (WordSenseNode "third_class%1:10:00::"))

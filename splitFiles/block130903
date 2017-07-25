@@ -1,0 +1,5 @@
+(define s (WordSenseNode "privilege_against_self_incrimination%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "freedom_from_self-incrimination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "civil_right%1:07:00::"))
+(define x (WordNode "privilege_against_self_incrimination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "civil_right%1:07:00::"))

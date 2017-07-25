@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tetradecanoic_acid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "myristic_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saturated_fatty_acid%1:27:00::"))
+(define x (WordNode "tetradecanoic_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "saturated_fatty_acid%1:27:00::"))

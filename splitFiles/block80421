@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hide_and_go_seek%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hide-and-seek")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "child's_game%1:04:00::"))
+(define x (WordNode "hide_and_go_seek")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "child's_game%1:04:00::"))

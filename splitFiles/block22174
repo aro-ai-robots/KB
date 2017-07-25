@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bugloss%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bugloss")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anchusa%1:20:00::"))
+(define x (WordNode "alkanet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anchusa%1:20:00::"))
+(define x (WordNode "Anchusa_officinalis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anchusa%1:20:00::"))

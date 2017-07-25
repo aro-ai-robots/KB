@@ -1,0 +1,8 @@
+(define s (WordSenseNode "eraser%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eraser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implement%1:06:00::"))
+(InheritanceLink (WordSenseNode "blackboard_eraser%1:06:00::") s)
+(InheritanceLink (WordSenseNode "ink_eraser%1:06:00::") s)
+(InheritanceLink (WordSenseNode "rubber_eraser%1:06:00::") s)
+(InheritanceLink (WordSenseNode "rubber%1:06:02::") s)
+(InheritanceLink (WordSenseNode "pencil_eraser%1:06:00::") s)

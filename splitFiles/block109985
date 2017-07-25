@@ -1,0 +1,7 @@
+(define s (WordSenseNode "murmur%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "murmur_vowel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "schwa%1:10:00::"))
+(InheritanceLink s (WordSenseNode "shwa%1:10:00::"))
+(define x (WordNode "murmur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "schwa%1:10:00::"))
+(InheritanceLink s (WordSenseNode "shwa%1:10:00::"))

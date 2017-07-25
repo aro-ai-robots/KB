@@ -1,0 +1,7 @@
+(define s (WordSenseNode "zombi%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "zombie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "highball%1:13:00::"))
+(HolonymLink (WordSenseNode "rum%1:13:00::") s)
+(define x (WordNode "zombi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "highball%1:13:00::"))
+(HolonymLink (WordSenseNode "rum%1:13:00::") s)

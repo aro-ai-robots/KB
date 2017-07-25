@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bladder_worm%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bladder_worm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "larva%1:05:00::"))
+(HolonymLink s (WordSenseNode "Platyhelminthes%1:05:00::"))
+(HolonymLink s (WordSenseNode "phylum_Platyhelminthes%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "polka_dot%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polka_dot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "design%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pattern%1:06:00::"))
+(InheritanceLink s (WordSenseNode "figure%1:06:01::"))

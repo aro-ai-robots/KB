@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rofecoxib%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rofecoxib")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Cox-2_inhibitor%1:06:00::"))
+(define x (WordNode "Vioxx")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Cox-2_inhibitor%1:06:00::"))

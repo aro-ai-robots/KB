@@ -1,0 +1,8 @@
+(define s (WordSenseNode "unclearness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unclearness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "incomprehensibility%1:07:00::"))
+(InheritanceLink (WordSenseNode "elusiveness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "vagueness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "inexplicitness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "ambiguity%1:07:00::") s)
+(InheritanceLink (WordSenseNode "equivocalness%1:07:00::") s)

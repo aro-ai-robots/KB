@@ -1,0 +1,7 @@
+(define s (WordSenseNode "musical_instrument_digital_interface%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "musical_instrument_digital_interface")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protocol%1:10:01::"))
+(InheritanceLink s (WordSenseNode "communications_protocol%1:10:00::"))
+(define x (WordNode "MIDI")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protocol%1:10:01::"))
+(InheritanceLink s (WordSenseNode "communications_protocol%1:10:00::"))

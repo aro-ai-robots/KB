@@ -1,0 +1,5 @@
+(define s (WordSenseNode "unknown_quantity%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unknown")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "variable%1:10:00::"))
+(define x (WordNode "unknown_quantity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "variable%1:10:00::"))

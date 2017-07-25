@@ -1,0 +1,6 @@
+(define s (WordSenseNode "sublimate%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sublimate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "redirect%2:38:00::"))
+(InheritanceLink s (WordSenseNode "airt%2:38:00::"))
+(InheritanceLink (WordSenseNode "desexualize%2:38:00::") s)
+(InheritanceLink (WordSenseNode "desexualise%2:38:00::") s)

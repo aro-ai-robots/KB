@@ -1,0 +1,7 @@
+(define s (WordSenseNode "commercialisation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commercialization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exploitation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "development%1:04:02::"))
+(define x (WordNode "commercialisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exploitation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "development%1:04:02::"))

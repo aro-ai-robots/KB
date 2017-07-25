@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scaffolding%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scaffolding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "system%1:06:00::"))
+(HolonymLink (WordSenseNode "scaffold%1:06:00::") s)
+(define x (WordNode "staging")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "system%1:06:00::"))
+(HolonymLink (WordSenseNode "scaffold%1:06:00::") s)

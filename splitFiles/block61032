@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fibrinolysis%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fibrinolysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dissolution%1:22:00::"))
+(InheritanceLink s (WordSenseNode "disintegration%1:22:01::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "trend_setting%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trend_setting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leadership%1:04:00::"))
+(InheritanceLink s (WordSenseNode "leading%1:04:00::"))

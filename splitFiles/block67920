@@ -1,0 +1,4 @@
+(define s (WordSenseNode "gender_agreement%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gender_agreement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agreement%1:24:03::"))
+(InheritanceLink s (WordSenseNode "concord%1:24:00::"))

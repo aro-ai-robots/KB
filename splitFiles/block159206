@@ -1,0 +1,7 @@
+(define s (WordSenseNode "statuary%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "statuary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "collection%1:14:00::"))
+(InheritanceLink s (WordSenseNode "aggregation%1:14:00::"))
+(InheritanceLink s (WordSenseNode "accumulation%1:14:00::"))
+(InheritanceLink s (WordSenseNode "assemblage%1:14:01::"))
+(InheritanceLink (WordSenseNode "Elgin_Marbles%1:14:00::") s)

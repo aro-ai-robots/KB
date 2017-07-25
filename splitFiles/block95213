@@ -1,0 +1,4 @@
+(define s (WordSenseNode "latinist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Latinist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classicist%1:18:01::"))
+(InheritanceLink s (WordSenseNode "classical_scholar%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wild_leek%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ramp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alliaceous_plant%1:20:00::"))
+(define x (WordNode "wild_leek")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alliaceous_plant%1:20:00::"))
+(define x (WordNode "Allium_tricoccum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alliaceous_plant%1:20:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "strip_miner%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strip_miner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "miner%1:18:00::"))
+(InheritanceLink s (WordSenseNode "mineworker%1:18:00::"))

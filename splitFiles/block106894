@@ -1,0 +1,8 @@
+(define s (WordSenseNode "minimus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "minimus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "digit%1:08:00::"))
+(InheritanceLink s (WordSenseNode "dactyl%1:08:00::"))
+(InheritanceLink (WordSenseNode "little_finger%1:08:00::") s)
+(InheritanceLink (WordSenseNode "pinkie%1:08:00::") s)
+(InheritanceLink (WordSenseNode "pinky%1:08:00::") s)
+(InheritanceLink (WordSenseNode "little_toe%1:08:00::") s)

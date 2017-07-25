@@ -1,0 +1,5 @@
+(define s (WordSenseNode "field_magnet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "field_magnet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnet%1:06:00::"))
+(HolonymLink s (WordSenseNode "electric_motor%1:06:00::"))
+(HolonymLink s (WordSenseNode "dynamo%1:06:00::"))

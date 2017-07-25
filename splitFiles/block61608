@@ -1,0 +1,7 @@
+(define s (WordSenseNode "final_cause%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "final_cause")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "purpose%1:09:00::"))
+(InheritanceLink s (WordSenseNode "intent%1:09:00::"))
+(InheritanceLink s (WordSenseNode "intention%1:09:00::"))
+(InheritanceLink s (WordSenseNode "aim%1:09:00::"))
+(InheritanceLink s (WordSenseNode "design%1:09:03::"))

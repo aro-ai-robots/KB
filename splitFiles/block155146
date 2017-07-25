@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sole%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "area%1:08:00::"))
+(InheritanceLink s (WordSenseNode "region%1:08:00::"))
+(HolonymLink s (WordSenseNode "foot%1:08:01::"))
+(HolonymLink s (WordSenseNode "human_foot%1:08:00::"))
+(HolonymLink s (WordSenseNode "pes%1:08:00::"))
+(HolonymLink (WordSenseNode "ball%1:08:00::") s)

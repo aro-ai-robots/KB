@@ -1,0 +1,8 @@
+(define s (WordSenseNode "aramaic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Aramaic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Semitic%1:10:00::"))
+(InheritanceLink (WordSenseNode "Biblical_Aramaic%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Assyrian_Neo-Aramaic%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Assyrian%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Mandaean%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Mandean%1:10:00::") s)

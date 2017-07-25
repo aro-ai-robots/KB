@@ -1,0 +1,5 @@
+(define s (WordSenseNode "passion%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "love")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:09:01::"))
+(define x (WordNode "passion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:09:01::"))

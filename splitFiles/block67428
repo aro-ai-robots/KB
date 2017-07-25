@@ -1,0 +1,5 @@
+(define s (WordSenseNode "garter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "garter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:06:00::"))
+(define x (WordNode "supporter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:06:00::"))

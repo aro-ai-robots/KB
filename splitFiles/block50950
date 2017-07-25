@@ -1,0 +1,6 @@
+(define s (WordSenseNode "duplicidentata%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Duplicidentata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lagomorph%1:05:00::"))
+(InheritanceLink s (WordSenseNode "gnawing_mammal%1:05:02::"))
+(HolonymLink s (WordSenseNode "Lagomorpha%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Lagomorpha%1:05:00::"))

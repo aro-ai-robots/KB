@@ -1,0 +1,5 @@
+(define s (WordSenseNode "suspension_bridge%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "suspension_bridge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bridge%1:06:00::"))
+(InheritanceLink s (WordSenseNode "span%1:06:00::"))
+(HolonymLink (WordSenseNode "cable%1:06:00::") s)

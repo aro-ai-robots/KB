@@ -1,0 +1,5 @@
+(define s (WordSenseNode "slot%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "slot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slit%1:06:00::"))
+(InheritanceLink (WordSenseNode "coin_slot%1:06:00::") s)
+(InheritanceLink (WordSenseNode "mail_slot%1:06:00::") s)

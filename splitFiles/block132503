@@ -1,0 +1,7 @@
+(define s (WordSenseNode "psyop%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "psychological_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:04:02::"))
+(InheritanceLink s (WordSenseNode "military_operation%1:04:00::"))
+(define x (WordNode "psyop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:04:02::"))
+(InheritanceLink s (WordSenseNode "military_operation%1:04:00::"))

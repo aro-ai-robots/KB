@@ -1,0 +1,7 @@
+(define s (WordSenseNode "postulator%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "postulator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "asserter%1:18:00::"))
+(InheritanceLink s (WordSenseNode "declarer%1:18:01::"))
+(InheritanceLink s (WordSenseNode "affirmer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "asseverator%1:18:00::"))
+(InheritanceLink s (WordSenseNode "avower%1:18:01::"))

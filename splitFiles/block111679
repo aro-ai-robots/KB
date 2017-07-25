@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nec%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "necrotizing_enterocolitis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflammatory_disease%1:26:00::"))
+(define x (WordNode "NEC")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflammatory_disease%1:26:00::"))

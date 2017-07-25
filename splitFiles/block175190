@@ -1,0 +1,7 @@
+(define s (WordSenseNode "underdress%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dress_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dress%2:29:00::"))
+(InheritanceLink s (WordSenseNode "get_dressed%2:29:00::"))
+(define x (WordNode "underdress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dress%2:29:00::"))
+(InheritanceLink s (WordSenseNode "get_dressed%2:29:00::"))

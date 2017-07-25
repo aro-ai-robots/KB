@@ -1,0 +1,6 @@
+(define s (WordSenseNode "electric_field%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electric_field")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "field%1:19:00::"))
+(InheritanceLink s (WordSenseNode "field_of_force%1:19:00::"))
+(InheritanceLink s (WordSenseNode "force_field%1:19:00::"))
+(InheritanceLink (WordSenseNode "electrostatic_field%1:19:00::") s)

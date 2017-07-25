@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pyrethrum%1:20:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pyrethrum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insecticide%1:27:00::"))
+(InheritanceLink s (WordSenseNode "insect_powder%1:27:00::"))

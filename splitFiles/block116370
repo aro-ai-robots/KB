@@ -1,0 +1,7 @@
+(define s (WordSenseNode "onion_stem%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "onion_stem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lepiota%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Lepiota%1:20:00::"))
+(define x (WordNode "Lepiota_cepaestipes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lepiota%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Lepiota%1:20:00::"))

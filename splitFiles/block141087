@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ring_rot%1:26:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ring_rot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brown_rot%1:26:00::"))
+(define x (WordNode "ring_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brown_rot%1:26:00::"))
+(define x (WordNode "tobacco_wilt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brown_rot%1:26:00::"))

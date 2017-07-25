@@ -1,0 +1,5 @@
+(define s (WordSenseNode "protectionism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "protectionism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "economic_policy%1:10:00::"))
+(InheritanceLink (WordSenseNode "trade_barrier%1:10:00::") s)
+(InheritanceLink (WordSenseNode "import_barrier%1:10:00::") s)

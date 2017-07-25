@@ -1,0 +1,6 @@
+(define s (WordSenseNode "antitoxin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antitoxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antibody%1:27:00::"))
+(InheritanceLink (WordSenseNode "antivenin%1:27:00::") s)
+(InheritanceLink (WordSenseNode "antivenene%1:27:00::") s)
+(InheritanceLink (WordSenseNode "tetanus_antitoxin%1:27:00::") s)

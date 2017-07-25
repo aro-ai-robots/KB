@@ -1,0 +1,5 @@
+(define s (WordSenseNode "top_quark%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "top_quark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quark%1:17:00::"))
+(define x (WordNode "truth_quark")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quark%1:17:00::"))

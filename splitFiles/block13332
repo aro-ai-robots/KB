@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bank_statement%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bank_statement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statement%1:10:01::"))
+(InheritanceLink s (WordSenseNode "financial_statement%1:10:00::"))

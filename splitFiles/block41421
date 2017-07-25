@@ -1,0 +1,5 @@
+(define s (WordSenseNode "custom-built%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "custom-made")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "item%1:06:00::"))
+(define x (WordNode "custom-built")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "item%1:06:00::"))

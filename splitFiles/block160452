@@ -1,0 +1,6 @@
+(define s (WordSenseNode "storage_ring%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "storage_ring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "container%1:06:00::"))
+(HolonymLink s (WordSenseNode "accelerator%1:06:01::"))
+(HolonymLink s (WordSenseNode "particle_accelerator%1:06:00::"))
+(HolonymLink s (WordSenseNode "atom_smasher%1:06:00::"))

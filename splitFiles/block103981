@@ -1,0 +1,6 @@
+(define s (WordSenseNode "maundy%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Maundy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ceremony%1:11:00::"))
+(InheritanceLink s (WordSenseNode "ceremonial%1:11:00::"))
+(InheritanceLink s (WordSenseNode "ceremonial_occasion%1:11:00::"))
+(InheritanceLink s (WordSenseNode "observance%1:11:01::"))

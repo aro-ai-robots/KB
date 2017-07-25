@@ -1,0 +1,6 @@
+(define s (WordSenseNode "gastrula%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gastrula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embryo%1:05:00::"))
+(InheritanceLink s (WordSenseNode "conceptus%1:05:00::"))
+(InheritanceLink s (WordSenseNode "fertilized_egg%1:05:00::"))
+(HolonymLink (WordSenseNode "archenteron%1:05:00::") s)

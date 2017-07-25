@@ -1,0 +1,7 @@
+(define s (WordSenseNode "legend%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caption")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "title%1:10:01::"))
+(HolonymLink s (WordSenseNode "illustration%1:10:00::"))
+(define x (WordNode "legend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "title%1:10:01::"))
+(HolonymLink s (WordSenseNode "illustration%1:10:00::"))

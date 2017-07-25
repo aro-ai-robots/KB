@@ -1,0 +1,7 @@
+(define s (WordSenseNode "coalesce%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "coalesce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unify%2:30:00::"))
+(InheritanceLink s (WordSenseNode "unite%2:30:00::"))
+(InheritanceLink s (WordSenseNode "merge%2:30:00::"))
+(InheritanceLink (WordSenseNode "clog%2:30:03::") s)
+(InheritanceLink (WordSenseNode "clot%2:30:04::") s)

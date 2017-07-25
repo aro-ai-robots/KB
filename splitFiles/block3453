@@ -1,0 +1,4 @@
+(define s (WordSenseNode "aim%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "aim")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mean%2:32:01::"))
+(InheritanceLink s (WordSenseNode "intend%2:32:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "moment_of_a_magnet%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magnetic_moment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "torsion%1:19:00::"))
+(InheritanceLink s (WordSenseNode "torque%1:19:00::"))
+(define x (WordNode "moment_of_a_magnet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "torsion%1:19:00::"))
+(InheritanceLink s (WordSenseNode "torque%1:19:00::"))

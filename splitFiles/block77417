@@ -1,0 +1,5 @@
+(define s (WordSenseNode "halibut%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "halibut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flatfish%1:13:00::"))
+(HolonymLink s (WordSenseNode "halibut%1:05:00::"))
+(HolonymLink s (WordSenseNode "holibut%1:05:00::"))

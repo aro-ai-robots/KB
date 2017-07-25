@@ -1,0 +1,7 @@
+(define s (WordSenseNode "property_tax%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "property_tax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capital_levy%1:21:00::"))
+(InheritanceLink (WordSenseNode "council_tax%1:21:00::") s)
+(define x (WordNode "land_tax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capital_levy%1:21:00::"))
+(InheritanceLink (WordSenseNode "council_tax%1:21:00::") s)

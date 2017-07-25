@@ -1,0 +1,8 @@
+(define s (WordSenseNode "malt%1:13:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "malt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grain%1:13:00::"))
+(InheritanceLink s (WordSenseNode "food_grain%1:13:00::"))
+(InheritanceLink s (WordSenseNode "cereal%1:13:01::"))
+(InheritanceLink (WordSenseNode "wort%1:13:00::") s)
+(HolonymLink s (WordSenseNode "malt%1:13:02::"))
+(HolonymLink s (WordSenseNode "malt_liquor%1:13:00::"))

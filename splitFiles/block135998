@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rattrap%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rattrap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "housing%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lodging%1:06:00::"))
+(InheritanceLink s (WordSenseNode "living_accommodations%1:06:00::"))

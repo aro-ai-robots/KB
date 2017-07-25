@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cape_verde_escudo%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cape_Verde_escudo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Cape_Verde_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centavo%1:23:00::") s)
+(define x (WordNode "escudo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Cape_Verde_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "centavo%1:23:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "brink%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brink")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edge%1:15:00::"))
+(InheritanceLink s (WordSenseNode "border%1:15:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "abdication%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "abdication")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resignation%1:10:00::"))
+(define x (WordNode "stepping_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resignation%1:10:00::"))

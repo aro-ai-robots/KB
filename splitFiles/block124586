@@ -1,0 +1,7 @@
+(define s (WordSenseNode "physostigmine%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "physostigmine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alkaloid%1:27:00::"))
+(HolonymLink s (WordSenseNode "medicine%1:06:00::"))
+(HolonymLink s (WordSenseNode "medication%1:06:00::"))
+(HolonymLink s (WordSenseNode "medicament%1:06:00::"))
+(HolonymLink s (WordSenseNode "medicinal_drug%1:06:00::"))

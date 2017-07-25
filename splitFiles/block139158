@@ -1,0 +1,5 @@
+(define s (WordSenseNode "requisition%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "requisition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "form%1:10:01::"))
+(define x (WordNode "requisition_form")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "form%1:10:01::"))

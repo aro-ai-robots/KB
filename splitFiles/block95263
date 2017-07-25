@@ -1,0 +1,4 @@
+(define s (WordSenseNode "laugh%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laugh")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "facial_expression%1:10:00::"))
+(InheritanceLink s (WordSenseNode "facial_gesture%1:10:00::"))

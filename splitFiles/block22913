@@ -1,0 +1,6 @@
+(define s (WordSenseNode "business%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "business")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concern%1:09:01::"))
+(InheritanceLink s (WordSenseNode "worry%1:09:00::"))
+(InheritanceLink s (WordSenseNode "headache%1:09:00::"))
+(InheritanceLink s (WordSenseNode "vexation%1:09:00::"))

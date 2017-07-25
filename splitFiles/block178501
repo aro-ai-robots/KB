@@ -1,0 +1,3 @@
+(define s (WordSenseNode "venous_blood%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "venous_blood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood%1:08:00::"))

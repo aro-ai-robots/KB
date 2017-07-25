@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_rhea%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Rhea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bird_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Rheidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Rheidae%1:05:00::"))
+(HolonymLink (WordSenseNode "rhea%1:05:01::") s)
+(HolonymLink (WordSenseNode "Rhea_americana%1:05:00::") s)

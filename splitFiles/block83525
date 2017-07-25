@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hydrogen_ion_concentration%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hydrogen_ion_concentration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "concentration%1:07:02::"))
+(InheritanceLink (WordSenseNode "pH%1:07:00::") s)
+(InheritanceLink (WordSenseNode "pH_scale%1:07:00::") s)

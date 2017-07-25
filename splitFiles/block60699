@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fenestella%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lunette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opening%1:06:00::"))
+(HolonymLink s (WordSenseNode "vault%1:06:00::"))
+(define x (WordNode "fenestella")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opening%1:06:00::"))
+(HolonymLink s (WordSenseNode "vault%1:06:00::"))

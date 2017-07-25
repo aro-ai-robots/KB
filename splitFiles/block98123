@@ -1,0 +1,5 @@
+(define s (WordSenseNode "linotype_machine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Linotype")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "typesetting_machine%1:06:00::"))
+(define x (WordNode "Linotype_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "typesetting_machine%1:06:00::"))

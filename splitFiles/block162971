@@ -1,0 +1,7 @@
+(define s (WordSenseNode "superannuation_fund%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pension_fund")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fund%1:21:00::"))
+(InheritanceLink s (WordSenseNode "monetary_fund%1:21:00::"))
+(define x (WordNode "superannuation_fund")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fund%1:21:00::"))
+(InheritanceLink s (WordSenseNode "monetary_fund%1:21:00::"))

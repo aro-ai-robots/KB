@@ -1,0 +1,4 @@
+(define s (WordSenseNode "eccrine_gland%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eccrine_gland")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sweat_gland%1:08:00::"))
+(InheritanceLink s (WordSenseNode "sudoriferous_gland%1:08:00::"))

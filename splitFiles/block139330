@@ -1,0 +1,7 @@
+(define s (WordSenseNode "resignation%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "resignation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "despair%1:12:00::"))
+(InheritanceLink (WordSenseNode "defeatism%1:12:00::") s)
+(define x (WordNode "surrender")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "despair%1:12:00::"))
+(InheritanceLink (WordSenseNode "defeatism%1:12:00::") s)

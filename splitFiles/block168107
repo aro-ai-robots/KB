@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thermal_emission%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thermionic_emission")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emission%1:22:00::"))
+(define x (WordNode "thermal_emission")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emission%1:22:00::"))

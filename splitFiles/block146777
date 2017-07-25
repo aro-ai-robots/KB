@@ -1,0 +1,4 @@
+(define s (WordSenseNode "screen_pass%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "screen_pass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "forward_pass%1:04:00::"))
+(InheritanceLink s (WordSenseNode "aerial%1:04:00::"))

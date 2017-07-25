@@ -1,0 +1,4 @@
+(define s (WordSenseNode "crystal_detector%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crystal_detector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detector%1:06:01::"))
+(HolonymLink (WordSenseNode "crystal%1:06:02::") s)

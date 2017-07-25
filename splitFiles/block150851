@@ -1,0 +1,4 @@
+(define s (WordSenseNode "shortsighted%3:00:00::")) (PartOfSpeechLink s adj)
+(define x (WordNode "nearsighted")) (WordSenseLink x s)
+(define x (WordNode "shortsighted")) (WordSenseLink x s)
+(define x (WordNode "myopic")) (WordSenseLink x s)

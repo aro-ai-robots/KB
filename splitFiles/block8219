@@ -1,0 +1,4 @@
+(define s (WordSenseNode "apron_string%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "apron_string")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cord%1:06:00::"))
+(HolonymLink s (WordSenseNode "apron%1:06:00::"))

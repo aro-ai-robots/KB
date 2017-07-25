@@ -1,0 +1,5 @@
+(define s (WordSenseNode "post_hole%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "posthole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hole%1:06:00::"))
+(define x (WordNode "post_hole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hole%1:06:00::"))

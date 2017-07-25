@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thyrocalcitonin%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calcitonin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thyroid_hormone%1:08:00::"))
+(define x (WordNode "thyrocalcitonin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thyroid_hormone%1:08:00::"))

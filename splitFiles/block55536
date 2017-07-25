@@ -1,0 +1,5 @@
+(define s (WordSenseNode "eskimo_curlew%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Eskimo_curlew")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curlew%1:05:00::"))
+(define x (WordNode "Numenius_borealis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curlew%1:05:00::"))

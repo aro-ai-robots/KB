@@ -1,0 +1,7 @@
+(define s (WordSenseNode "retry%2:41:06::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rehear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hear%2:41:00::"))
+(InheritanceLink s (WordSenseNode "try%2:41:05::"))
+(define x (WordNode "retry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hear%2:41:00::"))
+(InheritanceLink s (WordSenseNode "try%2:41:05::"))

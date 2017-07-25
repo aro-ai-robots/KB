@@ -1,0 +1,8 @@
+(define s (WordSenseNode "title%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "title")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "subheading%1:10:00::"))
+(InheritanceLink s (WordSenseNode "subhead%1:10:01::"))
+(InheritanceLink (WordSenseNode "credit%1:10:01::") s)
+(InheritanceLink (WordSenseNode "caption%1:10:00::") s)
+(InheritanceLink (WordSenseNode "legend%1:10:00::") s)
+(InheritanceLink (WordSenseNode "subtitle%1:10:00::") s)

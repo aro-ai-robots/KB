@@ -1,0 +1,6 @@
+(define s (WordSenseNode "idealism%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "idealism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "impracticality%1:07:00::"))
+(InheritanceLink (WordSenseNode "romanticism%1:07:00::") s)
+(InheritanceLink (WordSenseNode "knight_errantry%1:07:00::") s)
+(InheritanceLink (WordSenseNode "quixotism%1:07:00::") s)

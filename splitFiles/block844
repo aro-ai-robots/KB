@@ -1,0 +1,5 @@
+(define s (WordSenseNode "academic_requirement%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "academic_requirement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prerequisite%1:09:00::"))
+(InheritanceLink s (WordSenseNode "requirement%1:09:00::"))
+(InheritanceLink (WordSenseNode "language_requirement%1:09:00::") s)

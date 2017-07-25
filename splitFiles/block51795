@@ -1,0 +1,5 @@
+(define s (WordSenseNode "echo%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "echo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reflection%1:07:01::"))
+(InheritanceLink s (WordSenseNode "reflexion%1:07:01::"))
+(InheritanceLink s (WordSenseNode "reflectivity%1:07:00::"))

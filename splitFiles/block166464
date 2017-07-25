@@ -1,0 +1,8 @@
+(define s (WordSenseNode "teacher-student_relation%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "teacher-student_relation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "academic_relation%1:24:00::"))
+(HolonymLink (WordSenseNode "student%1:18:00::") s)
+(HolonymLink (WordSenseNode "pupil%1:18:00::") s)
+(HolonymLink (WordSenseNode "educatee%1:18:00::") s)
+(HolonymLink (WordSenseNode "teacher%1:18:00::") s)
+(HolonymLink (WordSenseNode "instructor%1:18:00::") s)

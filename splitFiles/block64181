@@ -1,0 +1,7 @@
+(define s (WordSenseNode "force%2:35:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "storm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "penetrate%2:35:00::"))
+(InheritanceLink s (WordSenseNode "perforate%2:35:03::"))
+(define x (WordNode "force")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "penetrate%2:35:00::"))
+(InheritanceLink s (WordSenseNode "perforate%2:35:03::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "videotape%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "videotape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tape%1:06:01::"))
+(InheritanceLink s (WordSenseNode "tape_recording%1:06:00::"))
+(InheritanceLink s (WordSenseNode "taping%1:06:00::"))
+(InheritanceLink s (WordSenseNode "video_recording%1:06:00::"))
+(InheritanceLink s (WordSenseNode "video%1:06:00::"))

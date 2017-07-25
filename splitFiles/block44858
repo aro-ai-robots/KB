@@ -1,0 +1,5 @@
+(define s (WordSenseNode "depend_upon%2:42:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "depend_on")) (WordSenseLink x s)
+(define x (WordNode "depend_upon")) (WordSenseLink x s)
+(define x (WordNode "rely_on")) (WordSenseLink x s)
+(define x (WordNode "rely_upon")) (WordSenseLink x s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "aesthetics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aesthetics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "philosophy%1:09:00::"))
+(define x (WordNode "esthetics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "philosophy%1:09:00::"))

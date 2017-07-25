@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cadenza%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cadenza")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:10:01::"))
+(InheritanceLink s (WordSenseNode "musical_passage%1:10:00::"))

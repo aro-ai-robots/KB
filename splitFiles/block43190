@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dearth%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dearth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scarcity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "scarceness%1:07:00::"))
+(define x (WordNode "paucity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scarcity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "scarceness%1:07:00::"))

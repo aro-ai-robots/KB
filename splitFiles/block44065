@@ -1,0 +1,7 @@
+(define s (WordSenseNode "degenerative_arthritis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "osteoarthritis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arthritis%1:26:00::"))
+(define x (WordNode "degenerative_arthritis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arthritis%1:26:00::"))
+(define x (WordNode "degenerative_joint_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arthritis%1:26:00::"))

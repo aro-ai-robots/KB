@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hypophyseal_stalk%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypophyseal_stalk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infundibulum%1:08:00::"))
+(HolonymLink s (WordSenseNode "pituitary%1:08:00::"))
+(HolonymLink s (WordSenseNode "pituitary_gland%1:08:00::"))
+(HolonymLink s (WordSenseNode "pituitary_body%1:08:00::"))
+(HolonymLink s (WordSenseNode "hypophysis%1:08:00::"))

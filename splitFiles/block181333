@@ -1,0 +1,4 @@
+(define s (WordSenseNode "water_level%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "water_level")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elevation%1:07:00::"))
+(InheritanceLink (WordSenseNode "sea_level%1:07:00::") s)

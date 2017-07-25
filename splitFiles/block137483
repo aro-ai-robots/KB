@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reef%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Witwatersrand")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Transvaal%1:15:00::"))
+(define x (WordNode "Rand")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Transvaal%1:15:00::"))
+(define x (WordNode "Reef")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Transvaal%1:15:00::"))

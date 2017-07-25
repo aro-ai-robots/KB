@@ -1,0 +1,4 @@
+(define s (WordSenseNode "water_vascular_system%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "water_vascular_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vascular_system%1:08:00::"))
+(HolonymLink s (WordSenseNode "echinoderm%1:05:00::"))

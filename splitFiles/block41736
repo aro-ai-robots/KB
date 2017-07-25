@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cycle_of_rebirth%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cycle_of_rebirth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reincarnation%1:11:00::"))
+(InheritanceLink s (WordSenseNode "rebirth%1:11:00::"))
+(InheritanceLink s (WordSenseNode "renascence%1:11:00::"))
+(InheritanceLink (WordSenseNode "moksa%1:11:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "unfrock%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "defrock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "divest%2:41:00::"))
+(InheritanceLink s (WordSenseNode "disinvest%2:41:01::"))
+(define x (WordNode "unfrock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "divest%2:41:00::"))
+(InheritanceLink s (WordSenseNode "disinvest%2:41:01::"))

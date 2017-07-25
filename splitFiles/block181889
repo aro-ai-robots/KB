@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wedge%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hacek")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diacritical_mark%1:10:00::"))
+(InheritanceLink s (WordSenseNode "diacritic%1:10:00::"))
+(define x (WordNode "wedge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diacritical_mark%1:10:00::"))
+(InheritanceLink s (WordSenseNode "diacritic%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "double_birdie%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "eagle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shoot%2:35:01::"))
+(define x (WordNode "double_birdie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shoot%2:35:01::"))

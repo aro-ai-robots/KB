@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trachea%1:08:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trachea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tubule%1:08:00::"))
+(HolonymLink s (WordSenseNode "respiratory_system%1:08:00::"))
+(HolonymLink s (WordSenseNode "systema_respiratorium%1:08:00::"))

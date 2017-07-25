@@ -1,0 +1,7 @@
+(define s (WordSenseNode "signalisation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "signalization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indication%1:10:00::"))
+(InheritanceLink s (WordSenseNode "indicant%1:10:01::"))
+(define x (WordNode "signalisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indication%1:10:00::"))
+(InheritanceLink s (WordSenseNode "indicant%1:10:01::"))

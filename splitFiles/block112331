@@ -1,0 +1,8 @@
+(define s (WordSenseNode "neuritis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neuritis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inflammation%1:26:00::"))
+(InheritanceLink s (WordSenseNode "redness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "rubor%1:26:00::"))
+(InheritanceLink (WordSenseNode "polyneuritis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "multiple_neuritis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "retrobulbar_neuritis%1:26:00::") s)

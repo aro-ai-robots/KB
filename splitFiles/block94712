@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lanius_ludovicianus_migrans%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "migrant_shrike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shrike%1:05:00::"))
+(define x (WordNode "Lanius_ludovicianus_migrans")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shrike%1:05:00::"))

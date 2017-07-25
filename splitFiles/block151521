@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sight_setting%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sight_setting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gunsight%1:06:00::"))
+(InheritanceLink s (WordSenseNode "gun-sight%1:06:00::"))
+(InheritanceLink (WordSenseNode "zero%1:06:00::") s)

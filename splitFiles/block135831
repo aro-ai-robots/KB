@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rat-a-tat%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rat-a-tat-tat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tapping%1:11:00::"))
+(define x (WordNode "rat-a-tat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tapping%1:11:00::"))
+(define x (WordNode "rat-tat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tapping%1:11:00::"))

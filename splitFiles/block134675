@@ -1,0 +1,3 @@
+(define s (WordSenseNode "quotation%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quotation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statement%1:10:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "control_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "control_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "system%1:06:00::"))
+(InheritanceLink (WordSenseNode "closed_loop%1:06:00::") s)
+(InheritanceLink (WordSenseNode "closed-loop_system%1:06:00::") s)
+(InheritanceLink (WordSenseNode "servo%1:06:00::") s)
+(InheritanceLink (WordSenseNode "servomechanism%1:06:00::") s)
+(InheritanceLink (WordSenseNode "servosystem%1:06:00::") s)

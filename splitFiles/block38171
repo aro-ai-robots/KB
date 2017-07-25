@@ -1,0 +1,5 @@
+(define s (WordSenseNode "correction%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "correction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "editing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "redaction%1:10:00::"))
+(InheritanceLink (WordSenseNode "erasure%1:10:00::") s)

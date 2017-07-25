@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pressure_cooker%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pressure_cooker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "autoclave%1:06:00::"))
+(InheritanceLink s (WordSenseNode "sterilizer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "steriliser%1:06:00::"))

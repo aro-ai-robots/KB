@@ -1,0 +1,7 @@
+(define s (WordSenseNode "transom_window%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:00::"))
+(define x (WordNode "transom_window")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:00::"))
+(define x (WordNode "fanlight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:00::"))

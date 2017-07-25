@@ -1,0 +1,7 @@
+(define s (WordSenseNode "interchange%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interchange")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "junction%1:06:00::"))
+(InheritanceLink (WordSenseNode "cloverleaf%1:06:00::") s)
+(InheritanceLink (WordSenseNode "spaghetti_junction%1:06:00::") s)
+(HolonymLink s (WordSenseNode "highway%1:06:00::"))
+(HolonymLink s (WordSenseNode "main_road%1:06:00::"))

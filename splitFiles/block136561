@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reburial%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reburying")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "burying%1:04:00::"))
+(InheritanceLink s (WordSenseNode "burial%1:04:00::"))
+(define x (WordNode "reburial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "burying%1:04:00::"))
+(InheritanceLink s (WordSenseNode "burial%1:04:00::"))

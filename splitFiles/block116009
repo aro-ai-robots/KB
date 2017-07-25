@@ -1,0 +1,5 @@
+(define s (WordSenseNode "olfactory_bulb%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "olfactory_bulb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neural_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "rhinencephalon%1:08:00::"))
+(HolonymLink s (WordSenseNode "olfactory_brain%1:08:00::"))

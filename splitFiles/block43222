@@ -1,0 +1,7 @@
+(define s (WordSenseNode "death_row%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "death_house")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cellblock%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ward%1:06:01::"))
+(define x (WordNode "death_row")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cellblock%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ward%1:06:01::"))

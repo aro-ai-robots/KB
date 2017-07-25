@@ -1,0 +1,3 @@
+(define s (WordSenseNode "status_epilepticus%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "status_epilepticus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "epilepsy%1:26:00::"))

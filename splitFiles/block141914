@@ -1,0 +1,6 @@
+(define s (WordSenseNode "roll_over%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "roll_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "turn%2:38:00::"))
+(InheritanceLink (WordSenseNode "somersault%2:38:00::") s)
+(InheritanceLink (WordSenseNode "tumble%2:38:04::") s)
+(InheritanceLink (WordSenseNode "welter%2:38:01::") s)

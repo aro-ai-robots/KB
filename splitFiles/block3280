@@ -1,0 +1,6 @@
+(define s (WordSenseNode "agora%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "agora")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "marketplace%1:06:00::"))
+(InheritanceLink s (WordSenseNode "market_place%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mart%1:06:00::"))
+(InheritanceLink s (WordSenseNode "market%1:06:01::"))

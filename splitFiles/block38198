@@ -1,0 +1,4 @@
+(define s (WordSenseNode "correspond%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "correspond")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "write%2:32:08::") s)
+(InheritanceLink (WordSenseNode "drop_a_line%2:32:00::") s)

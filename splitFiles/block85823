@@ -1,0 +1,8 @@
+(define s (WordSenseNode "inclined_plane%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inclined_plane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:02::"))
+(InheritanceLink s (WordSenseNode "simple_machine%1:06:00::"))
+(InheritanceLink (WordSenseNode "ramp%1:06:00::") s)
+(InheritanceLink (WordSenseNode "incline%1:06:00::") s)
+(InheritanceLink (WordSenseNode "screw%1:06:02::") s)
+(InheritanceLink (WordSenseNode "wedge%1:06:00::") s)

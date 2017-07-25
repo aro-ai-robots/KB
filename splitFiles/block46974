@@ -1,0 +1,6 @@
+(define s (WordSenseNode "direction_finder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "direction_finder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "receiver%1:06:00::"))
+(InheritanceLink s (WordSenseNode "receiving_system%1:06:00::"))
+(InheritanceLink (WordSenseNode "goniometer%1:06:00::") s)
+(InheritanceLink (WordSenseNode "radio_compass%1:06:00::") s)

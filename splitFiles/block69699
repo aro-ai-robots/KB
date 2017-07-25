@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_genlisea%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Genlisea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Lentibulariaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Lentibulariaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "bladderwort_family%1:20:00::"))
+(HolonymLink (WordSenseNode "genlisea%1:20:00::") s)

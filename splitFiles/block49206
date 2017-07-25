@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dote%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dote")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "senesce%2:30:00::"))
+(InheritanceLink s (WordSenseNode "age%2:30:00::"))
+(InheritanceLink s (WordSenseNode "get_on%2:30:03::"))
+(InheritanceLink s (WordSenseNode "mature%2:30:01::"))
+(InheritanceLink s (WordSenseNode "maturate%2:30:01::"))

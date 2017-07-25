@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flounder%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stagger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "walk%2:38:00::"))
+(define x (WordNode "flounder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "walk%2:38:00::"))

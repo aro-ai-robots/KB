@@ -1,0 +1,5 @@
+(define s (WordSenseNode "round_ligament_of_the_uterus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "round_ligament_of_the_uterus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ligament%1:08:00::"))
+(define x (WordNode "ligamentum_teres_uteri")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ligament%1:08:00::"))

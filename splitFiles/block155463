@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sonic_barrier%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sonic_barrier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drag%1:19:00::"))
+(InheritanceLink s (WordSenseNode "retarding_force%1:19:00::"))
+(define x (WordNode "sound_barrier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drag%1:19:00::"))
+(InheritanceLink s (WordSenseNode "retarding_force%1:19:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cellar%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "root_cellar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "excavation%1:06:00::"))
+(InheritanceLink s (WordSenseNode "storage_space%1:06:00::"))
+(define x (WordNode "cellar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "excavation%1:06:00::"))
+(InheritanceLink s (WordSenseNode "storage_space%1:06:00::"))

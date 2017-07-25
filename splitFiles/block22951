@@ -1,0 +1,4 @@
+(define s (WordSenseNode "business_school%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "business_school")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "graduate_school%1:14:00::"))
+(InheritanceLink s (WordSenseNode "grad_school%1:14:00::"))

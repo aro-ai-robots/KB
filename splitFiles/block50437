@@ -1,0 +1,6 @@
+(define s (WordSenseNode "drug_cartel%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drug_cartel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trust%1:14:00::"))
+(InheritanceLink s (WordSenseNode "corporate_trust%1:14:00::"))
+(InheritanceLink s (WordSenseNode "combine%1:14:00::"))
+(InheritanceLink s (WordSenseNode "cartel%1:14:00::"))

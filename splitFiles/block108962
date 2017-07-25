@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mother's_day%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mother's_Day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))
+(HolonymLink s (WordSenseNode "May%1:28:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "assess%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "assess")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "charge%2:40:03::"))
+(InheritanceLink s (WordSenseNode "bill%2:40:00::"))

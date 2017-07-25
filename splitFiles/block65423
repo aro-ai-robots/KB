@@ -1,0 +1,5 @@
+(define s (WordSenseNode "free_state%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "free_state")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "American_state%1:15:00::"))
+(HolonymLink s (WordSenseNode "Union%1:15:00::"))
+(HolonymLink s (WordSenseNode "North%1:15:01::"))

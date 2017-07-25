@@ -1,0 +1,8 @@
+(define s (WordSenseNode "commissioner%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commissioner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "administrator%1:18:02::"))
+(InheritanceLink s (WordSenseNode "executive%1:18:01::"))
+(InheritanceLink (WordSenseNode "bank_commissioner%1:18:00::") s)
+(InheritanceLink (WordSenseNode "housing_commissioner%1:18:00::") s)
+(InheritanceLink (WordSenseNode "park_commissioner%1:18:00::") s)
+(InheritanceLink (WordSenseNode "police_commissioner%1:18:00::") s)

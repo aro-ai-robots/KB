@@ -1,0 +1,6 @@
+(define s (WordSenseNode "small_stuff%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "small_stuff")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rope%1:06:00::"))
+(InheritanceLink (WordSenseNode "marline%1:06:00::") s)
+(InheritanceLink (WordSenseNode "seizing%1:06:00::") s)
+(InheritanceLink (WordSenseNode "spun_yarn%1:06:00::") s)

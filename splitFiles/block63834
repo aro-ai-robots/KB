@@ -1,0 +1,7 @@
+(define s (WordSenseNode "folk_dancer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "folk_dancer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dancer%1:18:01::"))
+(InheritanceLink s (WordSenseNode "social_dancer%1:18:00::"))
+(InheritanceLink (WordSenseNode "morris_dancer%1:18:00::") s)
+(InheritanceLink (WordSenseNode "reeler%1:18:00::") s)
+(InheritanceLink (WordSenseNode "square_dancer%1:18:00::") s)

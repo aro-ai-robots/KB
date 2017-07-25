@@ -1,0 +1,7 @@
+(define s (WordSenseNode "countryseat%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "countryseat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "estate%1:21:01::"))
+(InheritanceLink s (WordSenseNode "land%1:21:00::"))
+(InheritanceLink s (WordSenseNode "landed_estate%1:21:00::"))
+(InheritanceLink s (WordSenseNode "acres%1:21:00::"))
+(InheritanceLink s (WordSenseNode "demesne%1:21:00::"))

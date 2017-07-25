@@ -1,0 +1,7 @@
+(define s (WordSenseNode "overtone%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "overtone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harmonic%1:09:00::"))
+(define x (WordNode "partial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harmonic%1:09:00::"))
+(define x (WordNode "partial_tone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "harmonic%1:09:00::"))

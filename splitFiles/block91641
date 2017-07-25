@@ -1,0 +1,4 @@
+(define s (WordSenseNode "jumping_up_and_down%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jumping_up_and_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jump%1:04:00::"))
+(InheritanceLink s (WordSenseNode "jumping%1:04:01::"))

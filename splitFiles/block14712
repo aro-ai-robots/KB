@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bean_counter%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bean_counter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accountant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "comptroller%1:18:00::"))
+(InheritanceLink s (WordSenseNode "controller%1:18:00::"))
+(InheritanceLink s (WordSenseNode "bureaucrat%1:18:00::"))
+(InheritanceLink s (WordSenseNode "administrative_official%1:18:00::"))

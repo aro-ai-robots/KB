@@ -1,0 +1,7 @@
+(define s (WordSenseNode "place%1:15:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "space%1:15:00::"))
+(InheritanceLink (WordSenseNode "perch%1:15:00::") s)
+(define x (WordNode "place")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "space%1:15:00::"))
+(InheritanceLink (WordSenseNode "perch%1:15:00::") s)

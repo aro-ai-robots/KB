@@ -1,0 +1,6 @@
+(define s (WordSenseNode "subsumption%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subsumption")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "classification%1:09:00::"))
+(InheritanceLink s (WordSenseNode "categorization%1:09:00::"))
+(InheritanceLink s (WordSenseNode "categorisation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sorting%1:09:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jelly%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "jellify")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_integrity%2:30:00::"))
+(define x (WordNode "jelly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_integrity%2:30:00::"))

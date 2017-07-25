@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reach_out%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:38:00::"))
+(define x (WordNode "reach_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:38:00::"))

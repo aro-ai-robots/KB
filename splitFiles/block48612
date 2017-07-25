@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dodder%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dodder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vine%1:20:00::"))
+(InheritanceLink (WordSenseNode "love_vine%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Cuscuta_gronovii%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Cuscuta%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Cuscuta%1:20:00::"))

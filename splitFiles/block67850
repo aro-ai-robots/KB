@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gel%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colloid%1:27:00::"))
+(InheritanceLink (WordSenseNode "hydrogel%1:27:00::") s)
+(define x (WordNode "colloidal_gel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colloid%1:27:00::"))
+(InheritanceLink (WordSenseNode "hydrogel%1:27:00::") s)

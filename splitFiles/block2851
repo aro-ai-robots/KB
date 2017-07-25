@@ -1,0 +1,5 @@
+(define s (WordSenseNode "affixation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "affixation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formation%1:04:02::"))
+(InheritanceLink (WordSenseNode "prefixation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "suffixation%1:04:00::") s)

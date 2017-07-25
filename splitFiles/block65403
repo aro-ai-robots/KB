@@ -1,0 +1,8 @@
+(define s (WordSenseNode "free_house%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "free_house")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "public_house%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pub%1:06:00::"))
+(InheritanceLink s (WordSenseNode "saloon%1:06:01::"))
+(InheritanceLink s (WordSenseNode "pothouse%1:06:00::"))
+(InheritanceLink s (WordSenseNode "gin_mill%1:06:00::"))
+(InheritanceLink s (WordSenseNode "taphouse%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "surface-to-air_missile_system%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "surface-to-air_missile_system")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shipboard_system%1:06:00::"))
+(HolonymLink (WordSenseNode "surface-to-air_missile%1:06:00::") s)
+(HolonymLink (WordSenseNode "SAM%1:06:00::") s)

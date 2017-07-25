@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spelunk%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "explore%2:31:01::"))
+(define x (WordNode "spelunk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "explore%2:31:01::"))

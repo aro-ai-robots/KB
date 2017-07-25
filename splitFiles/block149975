@@ -1,0 +1,6 @@
+(define s (WordSenseNode "shearing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shearing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%1:04:00::"))
+(InheritanceLink s (WordSenseNode "cutting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "cutting_off%1:04:01::"))
+(InheritanceLink (WordSenseNode "sheepshearing%1:04:00::") s)

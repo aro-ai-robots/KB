@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wild_fig%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wild_fig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Clusia%1:20:00::"))
+(define x (WordNode "Clusia_flava")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Clusia%1:20:00::"))

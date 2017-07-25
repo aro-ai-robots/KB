@@ -1,0 +1,5 @@
+(define s (WordSenseNode "emigrate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "emigrate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "migrate%2:38:00::"))
+(InheritanceLink s (WordSenseNode "transmigrate%2:38:00::"))
+(InheritanceLink (WordSenseNode "expatriate%2:30:01::") s)

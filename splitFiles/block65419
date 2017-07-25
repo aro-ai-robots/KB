@@ -1,0 +1,5 @@
+(define s (WordSenseNode "free_radical%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "free_radical")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atom%1:27:00::"))
+(define x (WordNode "radical")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atom%1:27:00::"))

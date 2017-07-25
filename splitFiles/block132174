@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pruning%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pruning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "trim%1:04:00::"))
+(InheritanceLink s (WordSenseNode "trimming%1:04:01::"))
+(InheritanceLink s (WordSenseNode "clipping%1:04:02::"))

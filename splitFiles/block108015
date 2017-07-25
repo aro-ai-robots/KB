@@ -1,0 +1,7 @@
+(define s (WordSenseNode "momism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "momism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protection%1:04:00::"))
+(define x (WordNode "overprotection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protection%1:04:00::"))
+(define x (WordNode "overshielding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protection%1:04:00::"))

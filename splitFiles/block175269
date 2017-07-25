@@ -1,0 +1,5 @@
+(define s (WordSenseNode "underscore%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "underscore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stroke%1:10:01::"))
+(define x (WordNode "underline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stroke%1:10:01::"))

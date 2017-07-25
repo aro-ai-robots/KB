@@ -1,0 +1,8 @@
+(define s (WordSenseNode "circumstance%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circumstance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "status%1:26:01::"))
+(InheritanceLink (WordSenseNode "event%1:26:00::") s)
+(InheritanceLink (WordSenseNode "case%1:26:00::") s)
+(InheritanceLink (WordSenseNode "hinge%1:26:00::") s)
+(InheritanceLink (WordSenseNode "playing_field%1:26:00::") s)

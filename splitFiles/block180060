@@ -1,0 +1,7 @@
+(define s (WordSenseNode "volt-ampere%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "volt-ampere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "kilovolt-ampere%1:23:00::"))
+(define x (WordNode "var")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "kilovolt-ampere%1:23:00::"))

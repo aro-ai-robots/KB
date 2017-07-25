@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hollow%1:25:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hollow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cavity%1:25:00::"))
+(InheritanceLink s (WordSenseNode "enclosed_space%1:25:00::"))

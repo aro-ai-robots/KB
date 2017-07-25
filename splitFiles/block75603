@@ -1,0 +1,5 @@
+(define s (WordSenseNode "grevy's_zebra%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grevy's_zebra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zebra%1:05:00::"))
+(define x (WordNode "Equus_grevyi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zebra%1:05:00::"))

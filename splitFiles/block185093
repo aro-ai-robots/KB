@@ -1,0 +1,6 @@
+(define s (WordSenseNode "wrestling_match%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wrestling_match")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "match%1:11:00::"))
+(HolonymLink (WordSenseNode "fall%1:11:02::") s)
+(HolonymLink (WordSenseNode "pin%1:11:00::") s)
+(HolonymLink (WordSenseNode "takedown%1:11:01::") s)

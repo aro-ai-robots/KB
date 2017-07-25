@@ -1,0 +1,5 @@
+(define s (WordSenseNode "curb_bit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "curb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bit%1:06:01::"))
+(define x (WordNode "curb_bit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bit%1:06:01::"))

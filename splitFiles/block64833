@@ -1,0 +1,6 @@
+(define s (WordSenseNode "foundation%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foundation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_institution%1:14:00::"))
+(InheritanceLink s (WordSenseNode "financial_organization%1:14:00::"))
+(InheritanceLink s (WordSenseNode "financial_organisation%1:14:00::"))
+(InheritanceLink (WordSenseNode "charity%1:14:00::") s)

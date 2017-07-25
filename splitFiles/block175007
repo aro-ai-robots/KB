@@ -1,0 +1,7 @@
+(define s (WordSenseNode "uncompress%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "decompress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "restore%2:41:01::"))
+(InheritanceLink s (WordSenseNode "reconstruct%2:41:04::"))
+(define x (WordNode "uncompress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "restore%2:41:01::"))
+(InheritanceLink s (WordSenseNode "reconstruct%2:41:04::"))

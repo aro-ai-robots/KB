@@ -1,0 +1,7 @@
+(define s (WordSenseNode "abolish%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "abolish")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "cashier%2:41:01::") s)
+(InheritanceLink (WordSenseNode "abrogate%2:41:00::") s)
+(define x (WordNode "get_rid_of")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "cashier%2:41:01::") s)
+(InheritanceLink (WordSenseNode "abrogate%2:41:00::") s)

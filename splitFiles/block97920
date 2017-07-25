@@ -1,0 +1,5 @@
+(define s (WordSenseNode "line_of_scrimmage%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scrimmage_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:01::"))
+(define x (WordNode "line_of_scrimmage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:01::"))

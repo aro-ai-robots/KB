@@ -1,0 +1,7 @@
+(define s (WordSenseNode "worcester_sauce%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Worcester_sauce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sauce%1:13:00::"))
+(define x (WordNode "Worcestershire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sauce%1:13:00::"))
+(define x (WordNode "Worcestershire_sauce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sauce%1:13:00::"))

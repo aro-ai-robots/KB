@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pestle%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pestle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grind%2:30:00::"))
+(InheritanceLink s (WordSenseNode "mash%2:30:00::"))
+(InheritanceLink s (WordSenseNode "crunch%2:30:00::"))
+(InheritanceLink s (WordSenseNode "bray%2:30:00::"))
+(InheritanceLink s (WordSenseNode "comminute%2:30:00::"))

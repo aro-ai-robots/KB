@@ -1,0 +1,7 @@
+(define s (WordSenseNode "winkle_out%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "winkle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bring_out%2:35:01::"))
+(InheritanceLink s (WordSenseNode "get_out%2:35:00::"))
+(define x (WordNode "winkle_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bring_out%2:35:01::"))
+(InheritanceLink s (WordSenseNode "get_out%2:35:00::"))

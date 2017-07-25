@@ -1,0 +1,6 @@
+(define s (WordSenseNode "election%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "election")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "predestination%1:09:00::"))
+(InheritanceLink s (WordSenseNode "foreordination%1:09:00::"))
+(InheritanceLink s (WordSenseNode "preordination%1:09:00::"))
+(InheritanceLink s (WordSenseNode "predetermination%1:09:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "canterbury_bell%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Canterbury_bell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gloxinia%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Gloxinia%1:20:00::"))
+(define x (WordNode "Gloxinia_perennis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gloxinia%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Gloxinia%1:20:00::"))

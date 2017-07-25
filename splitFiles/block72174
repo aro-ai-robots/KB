@@ -1,0 +1,7 @@
+(define s (WordSenseNode "germ_plasm%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "germ_plasm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protoplasm%1:08:00::"))
+(InheritanceLink s (WordSenseNode "living_substance%1:08:00::"))
+(define x (WordNode "plasm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protoplasm%1:08:00::"))
+(InheritanceLink s (WordSenseNode "living_substance%1:08:00::"))

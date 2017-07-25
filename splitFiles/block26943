@@ -1,0 +1,4 @@
+(define s (WordSenseNode "catalpa_bignioides%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Catalpa_bignioides")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "catalpa%1:20:00::"))
+(InheritanceLink s (WordSenseNode "Indian_bean%1:20:02::"))

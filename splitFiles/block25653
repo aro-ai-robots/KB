@@ -1,0 +1,5 @@
+(define s (WordSenseNode "carbide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carbide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inorganic_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "calcium_carbide%1:27:00::") s)
+(InheritanceLink (WordSenseNode "silicon_carbide%1:27:00::") s)

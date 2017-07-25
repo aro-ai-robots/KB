@@ -1,0 +1,7 @@
+(define s (WordSenseNode "makeweight%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "makeweight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_object%1:03:00::"))
+(define x (WordNode "filler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_object%1:03:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hypothalamus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypothalamus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "neural_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "diencephalon%1:08:00::"))
+(HolonymLink s (WordSenseNode "interbrain%1:08:00::"))
+(HolonymLink s (WordSenseNode "betweenbrain%1:08:00::"))
+(HolonymLink s (WordSenseNode "thalmencephalon%1:08:00::"))

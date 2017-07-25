@@ -1,0 +1,5 @@
+(define s (WordSenseNode "benign_prostatic_hyperplasia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "benign_prostatic_hyperplasia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hyperplasia%1:26:00::"))
+(define x (WordNode "BPH")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hyperplasia%1:26:00::"))

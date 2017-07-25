@@ -1,0 +1,3 @@
+(define s (WordSenseNode "meat_safe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "meat_safe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "safe%1:06:02::"))

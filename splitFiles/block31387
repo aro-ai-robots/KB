@@ -1,0 +1,4 @@
+(define s (WordSenseNode "citric_acid%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "citric_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acid%1:27:00::"))
+(HolonymLink s (WordSenseNode "sour_salt%1:13:00::"))

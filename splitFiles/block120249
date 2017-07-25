@@ -1,0 +1,7 @@
+(define s (WordSenseNode "paperknife%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "letter_opener")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knife%1:06:00::"))
+(define x (WordNode "paper_knife")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knife%1:06:00::"))
+(define x (WordNode "paperknife")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knife%1:06:00::"))

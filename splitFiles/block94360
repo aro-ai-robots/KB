@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lamarckism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Lamarckism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theory_of_evolution%1:09:00::"))
+(InheritanceLink s (WordSenseNode "theory_of_organic_evolution%1:09:00::"))
+(InheritanceLink s (WordSenseNode "evolutionism%1:09:00::"))
+(InheritanceLink (WordSenseNode "Neo-Lamarckism%1:09:00::") s)

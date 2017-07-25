@@ -1,0 +1,7 @@
+(define s (WordSenseNode "despising%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "despisal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hate%1:12:00::"))
+(InheritanceLink s (WordSenseNode "hatred%1:12:00::"))
+(define x (WordNode "despising")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hate%1:12:00::"))
+(InheritanceLink s (WordSenseNode "hatred%1:12:00::"))

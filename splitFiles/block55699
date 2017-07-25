@@ -1,0 +1,5 @@
+(define s (WordSenseNode "estonian%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Estonian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Baltic-Finnic%1:10:00::"))
+(define x (WordNode "Esthonian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Baltic-Finnic%1:10:00::"))

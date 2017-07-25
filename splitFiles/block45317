@@ -1,0 +1,7 @@
+(define s (WordSenseNode "desire%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "desire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arousal%1:26:00::"))
+(InheritanceLink (WordSenseNode "rage%1:26:02::") s)
+(InheritanceLink (WordSenseNode "passion%1:26:01::") s)
+(InheritanceLink (WordSenseNode "materialism%1:26:00::") s)
+(InheritanceLink (WordSenseNode "philistinism%1:26:00::") s)

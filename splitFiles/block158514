@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stage_left%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stage_left")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "left%1:15:00::"))
+(HolonymLink s (WordSenseNode "stage%1:06:00::"))
+(define x (WordNode "left_stage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "left%1:15:00::"))
+(HolonymLink s (WordSenseNode "stage%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ethanal_trimer%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paraldehyde")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aldehyde%1:27:00::"))
+(define x (WordNode "ethanal_trimer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aldehyde%1:27:00::"))

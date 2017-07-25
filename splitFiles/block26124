@@ -1,0 +1,5 @@
+(define s (WordSenseNode "carolina_chickadee%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Carolina_chickadee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chickadee%1:05:00::"))
+(define x (WordNode "Parus_carolinensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chickadee%1:05:00::"))

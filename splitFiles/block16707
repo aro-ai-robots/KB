@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bind%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "constipate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indispose%2:29:00::"))
+(InheritanceLink (WordSenseNode "obstipate%2:29:00::") s)
+(define x (WordNode "bind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indispose%2:29:00::"))
+(InheritanceLink (WordSenseNode "obstipate%2:29:00::") s)

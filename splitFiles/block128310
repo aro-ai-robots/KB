@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pop%2:34:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inject%2:34:01::"))
+(InheritanceLink (WordSenseNode "skin_pop%2:34:00::") s)

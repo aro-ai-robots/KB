@@ -1,0 +1,5 @@
+(define s (WordSenseNode "low_latin%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Low_Latin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Latin%1:10:00::"))
+(InheritanceLink (WordSenseNode "Vulgar_Latin%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Medieval_Latin%1:10:00::") s)

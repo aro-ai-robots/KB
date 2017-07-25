@@ -1,0 +1,6 @@
+(define s (WordSenseNode "coiffeur%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coiffeur")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hairdresser%1:18:00::"))
+(InheritanceLink s (WordSenseNode "hairstylist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "stylist%1:18:01::"))
+(InheritanceLink s (WordSenseNode "styler%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "agenda_item%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "agenda_item")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "item%1:10:00::"))
+(InheritanceLink s (WordSenseNode "point%1:10:03::"))
+(HolonymLink s (WordSenseNode "agenda%1:10:00::"))
+(HolonymLink s (WordSenseNode "agendum%1:10:00::"))
+(HolonymLink s (WordSenseNode "order_of_business%1:10:00::"))

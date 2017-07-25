@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ream%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ream")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "press_out%2:35:09::"))
+(InheritanceLink s (WordSenseNode "express%2:35:11::"))
+(InheritanceLink s (WordSenseNode "extract%2:35:05::"))

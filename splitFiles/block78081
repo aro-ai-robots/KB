@@ -1,0 +1,5 @@
+(define s (WordSenseNode "harden%2:30:04::")) (PartOfSpeechLink s verb)
+(define x (WordNode "temper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "modify%2:30:00::"))
+(define x (WordNode "harden")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "modify%2:30:00::"))

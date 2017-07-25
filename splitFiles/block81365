@@ -1,0 +1,6 @@
+(define s (WordSenseNode "holding_pattern%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "holding_pattern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air_lane%1:15:00::"))
+(InheritanceLink s (WordSenseNode "flight_path%1:15:00::"))
+(InheritanceLink s (WordSenseNode "airway%1:15:00::"))
+(InheritanceLink s (WordSenseNode "skyway%1:15:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pop_up%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "crop_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appear%2:30:00::"))
+(define x (WordNode "pop_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appear%2:30:00::"))
+(define x (WordNode "pop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appear%2:30:00::"))

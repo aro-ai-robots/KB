@@ -1,0 +1,7 @@
+(define s (WordSenseNode "coat_stand%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clothes_tree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pole%1:06:00::"))
+(define x (WordNode "coat_tree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pole%1:06:00::"))
+(define x (WordNode "coat_stand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pole%1:06:00::"))

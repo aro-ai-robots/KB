@@ -1,0 +1,8 @@
+(define s (WordSenseNode "interior_door%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "interior_door")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "door%1:06:00::"))
+(InheritanceLink (WordSenseNode "bi-fold_door%1:06:00::") s)
+(InheritanceLink (WordSenseNode "folding_door%1:06:00::") s)
+(InheritanceLink (WordSenseNode "accordion_door%1:06:00::") s)
+(HolonymLink s (WordSenseNode "building%1:06:00::"))
+(HolonymLink s (WordSenseNode "edifice%1:06:00::"))

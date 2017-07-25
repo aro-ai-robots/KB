@@ -1,0 +1,7 @@
+(define s (WordSenseNode "malnutrition%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "malnutrition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deficiency_disease%1:26:00::"))
+(InheritanceLink (WordSenseNode "avitaminosis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "hypovitaminosis%1:26:00::") s)
+(InheritanceLink (WordSenseNode "kwashiorkor%1:26:00::") s)
+(InheritanceLink (WordSenseNode "marasmus%1:26:00::") s)

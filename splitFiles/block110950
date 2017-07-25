@@ -1,0 +1,6 @@
+(define s (WordSenseNode "namibian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Namibian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "African%1:18:00::"))
+(HolonymLink s (WordSenseNode "Namibia%1:15:00::"))
+(HolonymLink s (WordSenseNode "Republic_of_Namibia%1:15:00::"))
+(HolonymLink s (WordSenseNode "South_West_Africa%1:15:00::"))

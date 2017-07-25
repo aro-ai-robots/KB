@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mouse-ear_cress%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Arabidopsis_thaliana")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cress%1:20:00::"))
+(InheritanceLink s (WordSenseNode "cress_plant%1:20:00::"))
+(define x (WordNode "mouse-ear_cress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cress%1:20:00::"))
+(InheritanceLink s (WordSenseNode "cress_plant%1:20:00::"))

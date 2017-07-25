@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cherry_tomato%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cherry_tomato")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tomato%1:13:00::"))
+(InheritanceLink (WordSenseNode "plum_tomato%1:13:00::") s)
+(HolonymLink s (WordSenseNode "cherry_tomato%1:20:00::"))
+(HolonymLink s (WordSenseNode "Lycopersicon_esculentum_cerasiforme%1:20:00::"))

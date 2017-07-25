@@ -1,0 +1,7 @@
+(define s (WordSenseNode "offload%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unload")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "empty%2:35:00::"))
+(define x (WordNode "unlade")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "empty%2:35:00::"))
+(define x (WordNode "offload")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "empty%2:35:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dental_technician%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dental_technician")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "technician%1:18:00::"))
+(define x (WordNode "denturist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "technician%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "goodenia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Goodenia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dicot_genus%1:20:00::"))
+(InheritanceLink s (WordSenseNode "magnoliopsid_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Goodeniaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Goodeniaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "Goodenia_family%1:20:00::"))

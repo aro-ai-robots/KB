@@ -1,0 +1,7 @@
+(define s (WordSenseNode "capra_aegagrus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bezoar_goat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wild_goat%1:05:00::"))
+(define x (WordNode "pasang")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wild_goat%1:05:00::"))
+(define x (WordNode "Capra_aegagrus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wild_goat%1:05:00::"))

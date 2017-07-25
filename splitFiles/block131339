@@ -1,0 +1,7 @@
+(define s (WordSenseNode "programma%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "programma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decree%1:10:00::"))
+(InheritanceLink s (WordSenseNode "edict%1:10:00::"))
+(InheritanceLink s (WordSenseNode "fiat%1:10:00::"))
+(InheritanceLink s (WordSenseNode "order%1:10:00::"))
+(InheritanceLink s (WordSenseNode "rescript%1:10:03::"))

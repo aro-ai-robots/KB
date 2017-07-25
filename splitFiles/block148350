@@ -1,0 +1,7 @@
+(define s (WordSenseNode "semiprofessional%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "semiprofessional")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "professional%1:18:02::"))
+(InheritanceLink s (WordSenseNode "pro%1:18:00::"))
+(define x (WordNode "semipro")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "professional%1:18:02::"))
+(InheritanceLink s (WordSenseNode "pro%1:18:00::"))

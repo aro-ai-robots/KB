@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tooth_shell%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tooth_shell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scaphopod%1:05:00::"))
+(define x (WordNode "tusk_shell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scaphopod%1:05:00::"))

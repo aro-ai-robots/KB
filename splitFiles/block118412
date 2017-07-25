@@ -1,0 +1,7 @@
+(define s (WordSenseNode "outpost%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frontier_settlement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colony%1:14:00::"))
+(InheritanceLink s (WordSenseNode "settlement%1:14:00::"))
+(define x (WordNode "outpost")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colony%1:14:00::"))
+(InheritanceLink s (WordSenseNode "settlement%1:14:00::"))

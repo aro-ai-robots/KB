@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hazan%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cantor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spiritual_leader%1:18:00::"))
+(define x (WordNode "hazan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spiritual_leader%1:18:00::"))

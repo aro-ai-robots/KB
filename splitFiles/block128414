@@ -1,0 +1,7 @@
+(define s (WordSenseNode "population_scientist%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "demographer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sociologist%1:18:00::"))
+(define x (WordNode "demographist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sociologist%1:18:00::"))
+(define x (WordNode "population_scientist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sociologist%1:18:00::"))

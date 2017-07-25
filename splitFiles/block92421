@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ken%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cognizance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knowing%1:09:00::"))
+(define x (WordNode "ken")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knowing%1:09:00::"))

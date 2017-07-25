@@ -1,0 +1,7 @@
+(define s (WordSenseNode "barrier_strip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "junction_barrier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "junction%1:06:01::"))
+(InheritanceLink s (WordSenseNode "conjunction%1:06:00::"))
+(define x (WordNode "barrier_strip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "junction%1:06:01::"))
+(InheritanceLink s (WordSenseNode "conjunction%1:06:00::"))

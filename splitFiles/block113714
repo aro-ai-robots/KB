@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nonremittal%1:21:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "default")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "failure%1:04:00::"))
+(define x (WordNode "nonpayment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "failure%1:04:00::"))
+(define x (WordNode "nonremittal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "failure%1:04:00::"))

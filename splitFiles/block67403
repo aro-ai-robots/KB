@@ -1,0 +1,3 @@
+(define s (WordSenseNode "garnishment%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "garnishment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "court_order%1:10:00::"))

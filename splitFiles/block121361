@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pasteurize%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pasteurize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_integrity%2:30:00::"))
+(define x (WordNode "pasteurise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_integrity%2:30:00::"))

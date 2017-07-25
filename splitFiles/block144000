@@ -1,0 +1,6 @@
+(define s (WordSenseNode "saint's_day%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "saint's_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))
+(InheritanceLink (WordSenseNode "name_day%1:28:00::") s)
+(HolonymLink s (WordSenseNode "church_year%1:28:00::"))
+(HolonymLink s (WordSenseNode "Christian_year%1:28:00::"))

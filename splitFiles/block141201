@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ripping_bar%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ripping_bar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lever%1:06:00::"))
+(HolonymLink (WordSenseNode "ripping_chisel%1:06:00::") s)

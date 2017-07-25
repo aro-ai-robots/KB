@@ -1,0 +1,5 @@
+(define s (WordSenseNode "circulation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spread%1:04:00::"))
+(InheritanceLink s (WordSenseNode "spreading%1:04:00::"))
+(InheritanceLink (WordSenseNode "recirculation%1:04:00::") s)

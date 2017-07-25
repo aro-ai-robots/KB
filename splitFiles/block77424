@@ -1,0 +1,8 @@
+(define s (WordSenseNode "halide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "halide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salt%1:27:00::"))
+(InheritanceLink (WordSenseNode "bromide%1:27:00::") s)
+(InheritanceLink (WordSenseNode "fluoride%1:27:00::") s)
+(InheritanceLink (WordSenseNode "iodide%1:27:00::") s)
+(InheritanceLink (WordSenseNode "chloride%1:27:01::") s)
+(InheritanceLink (WordSenseNode "tetrahalide%1:27:00::") s)

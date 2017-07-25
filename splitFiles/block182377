@@ -1,0 +1,7 @@
+(define s (WordSenseNode "whammy%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "whammy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reverse%1:11:01::"))
+(InheritanceLink s (WordSenseNode "reversal%1:11:02::"))
+(InheritanceLink s (WordSenseNode "setback%1:11:01::"))
+(InheritanceLink s (WordSenseNode "blow%1:11:02::"))
+(InheritanceLink s (WordSenseNode "black_eye%1:11:00::"))

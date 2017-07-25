@@ -1,0 +1,5 @@
+(define s (WordSenseNode "algerian_centime%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Algerian_centime")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centime%1:23:00::"))
+(HolonymLink s (WordSenseNode "Algerian_dinar%1:23:00::"))
+(HolonymLink s (WordSenseNode "dinar%1:23:00::"))

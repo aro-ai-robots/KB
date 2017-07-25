@@ -1,0 +1,5 @@
+(define s (WordSenseNode "retort%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "retort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vessel%1:06:01::"))
+(InheritanceLink (WordSenseNode "alembic%1:06:00::") s)
+(HolonymLink s (WordSenseNode "still%1:06:00::"))

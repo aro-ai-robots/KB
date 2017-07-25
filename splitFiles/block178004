@@ -1,0 +1,7 @@
+(define s (WordSenseNode "variolation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "variolation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inoculating%1:04:00::"))
+(InheritanceLink s (WordSenseNode "vaccinating%1:04:00::"))
+(define x (WordNode "variolization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inoculating%1:04:00::"))
+(InheritanceLink s (WordSenseNode "vaccinating%1:04:00::"))

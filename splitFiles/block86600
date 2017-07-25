@@ -1,0 +1,6 @@
+(define s (WordSenseNode "inequality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inequality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "difference%1:07:00::"))
+(InheritanceLink (WordSenseNode "nonequivalence%1:07:00::") s)
+(InheritanceLink (WordSenseNode "disparity%1:07:00::") s)
+(InheritanceLink (WordSenseNode "unevenness%1:07:02::") s)

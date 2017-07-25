@@ -1,0 +1,8 @@
+(define s (WordSenseNode "style%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "style")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproductive_structure%1:20:00::"))
+(InheritanceLink (WordSenseNode "stylopodium%1:20:00::") s)
+(InheritanceLink (WordSenseNode "cornsilk%1:20:00::") s)
+(InheritanceLink (WordSenseNode "corn_silk%1:20:00::") s)
+(HolonymLink s (WordSenseNode "pistil%1:20:00::"))
+(HolonymLink (WordSenseNode "stigma%1:20:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "spin%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "spin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stream%2:38:00::"))
+(InheritanceLink s (WordSenseNode "well_out%2:38:00::"))
+(InheritanceLink (WordSenseNode "centrifuge%2:38:00::") s)
+(InheritanceLink (WordSenseNode "centrifugate%2:38:00::") s)

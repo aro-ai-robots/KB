@@ -1,0 +1,5 @@
+(define s (WordSenseNode "weapon-grade_plutonium%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "weapons_plutonium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plutonium_239%1:27:00::"))
+(define x (WordNode "weapon-grade_plutonium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plutonium_239%1:27:00::"))

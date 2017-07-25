@@ -1,0 +1,7 @@
+(define s (WordSenseNode "case%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "case")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "receptacle%1:06:00::"))
+(define x (WordNode "compositor's_case")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "receptacle%1:06:00::"))
+(define x (WordNode "typesetter's_case")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "receptacle%1:06:00::"))

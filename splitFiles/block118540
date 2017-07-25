@@ -1,0 +1,7 @@
+(define s (WordSenseNode "oven_broil%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "broil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grill%2:30:00::"))
+(InheritanceLink (WordSenseNode "pan-broil%2:30:00::") s)
+(define x (WordNode "oven_broil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grill%2:30:00::"))
+(InheritanceLink (WordSenseNode "pan-broil%2:30:00::") s)

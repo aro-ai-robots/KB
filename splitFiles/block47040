@@ -1,0 +1,6 @@
+(define s (WordSenseNode "dirty_pool%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dirty_pool")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "behavior%1:04:00::"))
+(InheritanceLink s (WordSenseNode "behaviour%1:04:00::"))
+(InheritanceLink s (WordSenseNode "conduct%1:04:00::"))
+(InheritanceLink s (WordSenseNode "doings%1:04:00::"))

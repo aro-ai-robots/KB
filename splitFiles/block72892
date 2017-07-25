@@ -1,0 +1,5 @@
+(define s (WordSenseNode "girth%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "girth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "circumference%1:07:00::"))
+(InheritanceLink s (WordSenseNode "perimeter%1:07:00::"))
+(InheritanceLink (WordSenseNode "spread%1:07:01::") s)

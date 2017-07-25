@@ -1,0 +1,6 @@
+(define s (WordSenseNode "capetian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Capetian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sovereign%1:18:00::"))
+(InheritanceLink s (WordSenseNode "crowned_head%1:18:00::"))
+(InheritanceLink s (WordSenseNode "monarch%1:18:00::"))
+(HolonymLink s (WordSenseNode "Capetian_dynasty%1:14:00::"))

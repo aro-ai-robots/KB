@@ -1,0 +1,3 @@
+(define s (WordSenseNode "needle%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "needle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pointer%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "alms_dish%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "alms_dish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tray%1:06:00::"))
+(define x (WordNode "alms_tray")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tray%1:06:00::"))

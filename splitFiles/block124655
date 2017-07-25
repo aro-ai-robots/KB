@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pibroch%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pibroch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_march%1:10:00::"))
+(InheritanceLink s (WordSenseNode "military_music%1:10:00::"))
+(InheritanceLink s (WordSenseNode "martial_music%1:10:00::"))

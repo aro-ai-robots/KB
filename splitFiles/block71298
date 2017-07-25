@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_scabiosa%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Scabiosa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "asterid_dicot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Dipsacaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Dipsacaceae%1:20:00::"))
+(HolonymLink (WordSenseNode "scabious%1:20:00::") s)
+(HolonymLink (WordSenseNode "scabiosa%1:20:00::") s)

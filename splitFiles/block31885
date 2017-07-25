@@ -1,0 +1,5 @@
+(define s (WordSenseNode "classical_mythology%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "classical_mythology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mythology%1:14:00::"))
+(InheritanceLink (WordSenseNode "Greek_mythology%1:14:00::") s)
+(InheritanceLink (WordSenseNode "Roman_mythology%1:14:00::") s)

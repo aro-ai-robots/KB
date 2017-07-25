@@ -1,0 +1,5 @@
+(define s (WordSenseNode "questionnaire%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "questionnaire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "form%1:10:01::"))
+(InheritanceLink (WordSenseNode "personality_inventory%1:10:00::") s)
+(InheritanceLink (WordSenseNode "personality_assessment%1:10:00::") s)

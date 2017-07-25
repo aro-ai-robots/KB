@@ -1,0 +1,5 @@
+(define s (WordSenseNode "teardrop%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "teardrop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drop%1:25:00::"))
+(InheritanceLink s (WordSenseNode "bead%1:25:00::"))
+(InheritanceLink s (WordSenseNode "pearl%1:25:00::"))

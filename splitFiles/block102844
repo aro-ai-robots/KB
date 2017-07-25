@@ -1,0 +1,7 @@
+(define s (WordSenseNode "margin%1:21:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "margin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "down_payment%1:21:00::"))
+(InheritanceLink s (WordSenseNode "deposit%1:21:00::"))
+(define x (WordNode "security_deposit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "down_payment%1:21:00::"))
+(InheritanceLink s (WordSenseNode "deposit%1:21:00::"))

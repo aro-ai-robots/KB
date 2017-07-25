@@ -1,0 +1,8 @@
+(define s (WordSenseNode "cut_of_veal%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cut_of_veal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut%1:13:00::"))
+(InheritanceLink s (WordSenseNode "cut_of_meat%1:13:00::"))
+(InheritanceLink (WordSenseNode "scrag%1:13:01::") s)
+(InheritanceLink (WordSenseNode "scrag_end%1:13:00::") s)
+(HolonymLink s (WordSenseNode "veal%1:13:00::"))
+(HolonymLink s (WordSenseNode "veau%1:13:00::"))

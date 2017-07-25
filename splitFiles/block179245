@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vigilante%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vigilante")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "volunteer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "unpaid_worker%1:18:00::"))
+(define x (WordNode "vigilance_man")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "volunteer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "unpaid_worker%1:18:00::"))

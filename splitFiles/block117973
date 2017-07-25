@@ -1,0 +1,7 @@
+(define s (WordSenseNode "oscillator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oscillator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "generator%1:06:02::"))
+(InheritanceLink (WordSenseNode "crystal_oscillator%1:06:00::") s)
+(InheritanceLink (WordSenseNode "quartz_oscillator%1:06:00::") s)
+(InheritanceLink (WordSenseNode "local_oscillator%1:06:00::") s)
+(InheritanceLink (WordSenseNode "heterodyne_oscillator%1:06:00::") s)

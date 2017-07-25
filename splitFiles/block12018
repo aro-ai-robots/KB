@@ -1,0 +1,6 @@
+(define s (WordSenseNode "axiom%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "axiom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proposition%1:10:00::"))
+(InheritanceLink (WordSenseNode "Euclid's_axiom%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Euclid's_postulate%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Euclidean_axiom%1:09:00::") s)

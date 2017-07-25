@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mushroom_coral%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mushroom_coral")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stony_coral%1:05:00::"))
+(InheritanceLink s (WordSenseNode "madrepore%1:05:00::"))
+(InheritanceLink s (WordSenseNode "madriporian_coral%1:05:00::"))

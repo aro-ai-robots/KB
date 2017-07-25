@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quantum_jump%1:11:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quantum_leap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jump%1:11:01::"))
+(InheritanceLink s (WordSenseNode "leap%1:11:01::"))
+(define x (WordNode "quantum_jump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jump%1:11:01::"))
+(InheritanceLink s (WordSenseNode "leap%1:11:01::"))

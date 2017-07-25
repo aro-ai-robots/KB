@@ -1,0 +1,6 @@
+(define s (WordSenseNode "forwarding%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "forwarding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transmission%1:04:01::"))
+(InheritanceLink s (WordSenseNode "transmittal%1:04:00::"))
+(InheritanceLink s (WordSenseNode "transmitting%1:04:00::"))
+(InheritanceLink (WordSenseNode "referral%1:04:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subdivide%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "subdivide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separate%2:35:00::"))
+(InheritanceLink s (WordSenseNode "divide%2:35:00::"))
+(InheritanceLink s (WordSenseNode "part%2:35:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "crystal_pickup%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crystal_pickup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cartridge%1:06:02::"))
+(InheritanceLink s (WordSenseNode "pickup%1:06:01::"))
+(HolonymLink (WordSenseNode "crystal%1:06:02::") s)

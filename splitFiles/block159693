@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stereoscopy%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stereoscopic_vision")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "binocular_vision%1:09:00::"))
+(define x (WordNode "stereoscopy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "binocular_vision%1:09:00::"))

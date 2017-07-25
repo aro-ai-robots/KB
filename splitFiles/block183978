@@ -1,0 +1,7 @@
+(define s (WordSenseNode "winter%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "winter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spend%2:42:00::"))
+(InheritanceLink s (WordSenseNode "pass%2:42:00::"))
+(define x (WordNode "overwinter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spend%2:42:00::"))
+(InheritanceLink s (WordSenseNode "pass%2:42:00::"))

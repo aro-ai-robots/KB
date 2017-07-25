@@ -1,0 +1,7 @@
+(define s (WordSenseNode "zirconium_dioxide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "zirconium_oxide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxide%1:27:00::"))
+(define x (WordNode "zirconia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxide%1:27:00::"))
+(define x (WordNode "zirconium_dioxide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oxide%1:27:00::"))

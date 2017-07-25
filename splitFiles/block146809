@@ -1,0 +1,7 @@
+(define s (WordSenseNode "screw_thread%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "screw_thread")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rib%1:06:00::"))
+(HolonymLink s (WordSenseNode "screw%1:06:00::"))
+(define x (WordNode "thread")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rib%1:06:00::"))
+(HolonymLink s (WordSenseNode "screw%1:06:00::"))

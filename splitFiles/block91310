@@ -1,0 +1,6 @@
+(define s (WordSenseNode "journalese%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "journalese")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "expressive_style%1:10:00::"))
+(InheritanceLink s (WordSenseNode "style%1:10:00::"))
+(InheritanceLink (WordSenseNode "sensationalism%1:10:00::") s)
+(InheritanceLink (WordSenseNode "luridness%1:10:00::") s)

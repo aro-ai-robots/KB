@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bone_fat%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bone_fat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_fat%1:27:00::"))
+(HolonymLink (WordSenseNode "bone_oil%1:27:02::") s)

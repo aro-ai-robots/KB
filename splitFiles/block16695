@@ -1,0 +1,4 @@
+(define s (WordSenseNode "binary_digit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "binary_digit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "digit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "figure%1:23:00::"))

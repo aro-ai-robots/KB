@@ -1,0 +1,4 @@
+(define s (WordSenseNode "reproductive_cloning%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reproductive_cloning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloning%1:04:00::"))
+(InheritanceLink (WordSenseNode "human_reproductive_cloning%1:04:00::") s)

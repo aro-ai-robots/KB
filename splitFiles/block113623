@@ -1,0 +1,5 @@
+(define s (WordSenseNode "noninterference%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nonintervention")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foreign_policy%1:10:00::"))
+(define x (WordNode "noninterference")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foreign_policy%1:10:00::"))

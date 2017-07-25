@@ -1,0 +1,4 @@
+(define s (WordSenseNode "crosshead%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crosshead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "block%1:06:00::"))
+(HolonymLink s (WordSenseNode "steam_engine%1:06:00::"))

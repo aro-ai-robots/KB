@@ -1,0 +1,4 @@
+(define s (WordSenseNode "exchange_transfusion%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exchange_transfusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transfusion%1:04:00::"))
+(InheritanceLink s (WordSenseNode "blood_transfusion%1:04:00::"))

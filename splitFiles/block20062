@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bowling_league%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bowling_league")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "league%1:14:01::"))
+(InheritanceLink s (WordSenseNode "conference%1:14:01::"))

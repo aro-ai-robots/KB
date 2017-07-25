@@ -1,0 +1,7 @@
+(define s (WordSenseNode "succession%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "succession")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "series%1:14:00::"))
+(InheritanceLink (WordSenseNode "cascade%1:14:00::") s)
+(InheritanceLink (WordSenseNode "parade%1:14:02::") s)
+(InheritanceLink (WordSenseNode "streak%1:14:00::") s)
+(InheritanceLink (WordSenseNode "run%1:14:00::") s)

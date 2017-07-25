@@ -1,0 +1,7 @@
+(define s (WordSenseNode "commitment%1:04:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commitment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "engagement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "participation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "involvement%1:04:00::"))
+(InheritanceLink s (WordSenseNode "involution%1:04:02::"))
+(InheritanceLink (WordSenseNode "incurrence%1:04:00::") s)

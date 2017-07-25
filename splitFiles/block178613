@@ -1,0 +1,7 @@
+(define s (WordSenseNode "verbal_creation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "verbal_creation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "creating_by_mental_acts%1:04:00::"))
+(InheritanceLink (WordSenseNode "writing%1:04:02::") s)
+(InheritanceLink (WordSenseNode "authorship%1:04:00::") s)
+(InheritanceLink (WordSenseNode "composition%1:04:01::") s)
+(InheritanceLink (WordSenseNode "penning%1:04:00::") s)

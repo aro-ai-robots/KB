@@ -1,0 +1,5 @@
+(define s (WordSenseNode "expanse%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "expanse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "space%1:25:00::"))
+(InheritanceLink (WordSenseNode "sheet%1:17:00::") s)
+(InheritanceLink (WordSenseNode "stretch%1:17:00::") s)

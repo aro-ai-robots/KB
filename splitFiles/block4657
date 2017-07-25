@@ -1,0 +1,4 @@
+(define s (WordSenseNode "allusion%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "allusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mention%1:10:01::"))
+(InheritanceLink s (WordSenseNode "reference%1:10:02::"))

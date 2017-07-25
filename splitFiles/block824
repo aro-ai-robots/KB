@@ -1,0 +1,7 @@
+(define s (WordSenseNode "acacia_auriculiformis%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "black_wattle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wattle%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Acacia%1:20:00::"))
+(define x (WordNode "Acacia_auriculiformis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wattle%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Acacia%1:20:00::"))

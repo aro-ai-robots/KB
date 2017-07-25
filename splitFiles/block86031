@@ -1,0 +1,5 @@
+(define s (WordSenseNode "incurability%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "incurability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "characteristic%1:07:00::"))
+(define x (WordNode "incurableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "characteristic%1:07:00::"))

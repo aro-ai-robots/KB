@@ -1,0 +1,4 @@
+(define s (WordSenseNode "wire%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finishing_line%1:15:00::"))
+(InheritanceLink s (WordSenseNode "finish_line%1:15:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "salmonella_typhosa%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "typhoid_bacillus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salmonella%1:05:00::"))
+(define x (WordNode "Salmonella_typhosa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salmonella%1:05:00::"))
+(define x (WordNode "Salmonella_typhi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salmonella%1:05:00::"))

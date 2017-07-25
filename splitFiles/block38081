@@ -1,0 +1,5 @@
+(define s (WordSenseNode "coronary_care_unit%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coronary_care_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intensive_care_unit%1:14:00::"))
+(InheritanceLink s (WordSenseNode "ICU%1:14:00::"))
+(HolonymLink s (WordSenseNode "hospital%1:14:00::"))

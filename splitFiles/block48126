@@ -1,0 +1,6 @@
+(define s (WordSenseNode "distribute%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "distribute")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transfer%2:40:00::"))
+(InheritanceLink (WordSenseNode "issue%2:41:00::") s)
+(InheritanceLink (WordSenseNode "supply%2:41:00::") s)
+(InheritanceLink (WordSenseNode "reticulate%2:41:00::") s)

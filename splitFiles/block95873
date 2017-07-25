@@ -1,0 +1,7 @@
+(define s (WordSenseNode "least_common_multiple%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lowest_common_multiple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "multiple%1:09:00::"))
+(define x (WordNode "least_common_multiple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "multiple%1:09:00::"))
+(define x (WordNode "lcm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "multiple%1:09:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "amortise%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "amortize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquidate%2:40:00::"))
+(InheritanceLink s (WordSenseNode "pay_off%2:40:00::"))
+(define x (WordNode "amortise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liquidate%2:40:00::"))
+(InheritanceLink s (WordSenseNode "pay_off%2:40:00::"))

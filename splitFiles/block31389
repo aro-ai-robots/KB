@@ -1,0 +1,7 @@
+(define s (WordSenseNode "citrin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vitamin_P")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-soluble_vitamin%1:27:00::"))
+(define x (WordNode "bioflavinoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-soluble_vitamin%1:27:00::"))
+(define x (WordNode "citrin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-soluble_vitamin%1:27:00::"))

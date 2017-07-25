@@ -1,0 +1,5 @@
+(define s (WordSenseNode "black_muslim%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Black_Muslim")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "militant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "activist%1:18:00::"))
+(HolonymLink s (WordSenseNode "Nation_of_Islam%1:14:00::"))

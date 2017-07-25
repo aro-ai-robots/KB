@@ -1,0 +1,7 @@
+(define s (WordSenseNode "maze%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tangle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perplexity%1:09:00::"))
+(define x (WordNode "snarl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perplexity%1:09:00::"))
+(define x (WordNode "maze")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perplexity%1:09:00::"))

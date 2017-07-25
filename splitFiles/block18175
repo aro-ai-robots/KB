@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blood_profile%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "complete_blood_count")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_count%1:04:00::"))
+(define x (WordNode "CBC")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_count%1:04:00::"))
+(define x (WordNode "blood_profile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_count%1:04:00::"))

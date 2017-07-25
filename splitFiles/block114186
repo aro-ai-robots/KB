@@ -1,0 +1,7 @@
+(define s (WordSenseNode "notch%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "notch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "incise%2:35:00::"))
+(InheritanceLink (WordSenseNode "score%2:35:00::") s)
+(InheritanceLink (WordSenseNode "nock%2:35:00::") s)
+(InheritanceLink (WordSenseNode "mark%2:35:01::") s)
+(InheritanceLink (WordSenseNode "indent%2:35:02::") s)

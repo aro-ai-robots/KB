@@ -1,0 +1,6 @@
+(define s (WordSenseNode "picture_plane%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "picture_plane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plane%1:25:00::"))
+(InheritanceLink s (WordSenseNode "sheet%1:25:00::"))
+(HolonymLink s (WordSenseNode "perspective%1:07:00::"))
+(HolonymLink s (WordSenseNode "linear_perspective%1:07:00::"))

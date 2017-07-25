@@ -1,0 +1,8 @@
+(define s (WordSenseNode "optical_illusion%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "optical_illusion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "apparent_motion%1:19:00::") s)
+(InheritanceLink (WordSenseNode "motion%1:19:00::") s)
+(InheritanceLink (WordSenseNode "apparent_movement%1:19:00::") s)
+(InheritanceLink (WordSenseNode "movement%1:19:00::") s)
+(InheritanceLink (WordSenseNode "mirage%1:19:00::") s)

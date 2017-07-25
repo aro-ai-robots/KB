@@ -1,0 +1,7 @@
+(define s (WordSenseNode "turn_back%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "backtrack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%2:38:00::"))
+(define x (WordNode "turn_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%2:38:00::"))
+(define x (WordNode "double_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "return%2:38:00::"))

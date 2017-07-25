@@ -1,0 +1,8 @@
+(define s (WordSenseNode "shawl%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shawl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloak%1:06:00::"))
+(InheritanceLink (WordSenseNode "prayer_shawl%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tallith%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tallis%1:06:00::") s)
+(InheritanceLink (WordSenseNode "serape%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sarape%1:06:00::") s)

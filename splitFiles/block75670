@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gridiron%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooking_utensil%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cookware%1:06:00::"))
+(define x (WordNode "gridiron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooking_utensil%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cookware%1:06:00::"))

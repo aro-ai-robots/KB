@@ -1,0 +1,7 @@
+(define s (WordSenseNode "footing%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "footing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "status%1:26:00::"))
+(InheritanceLink s (WordSenseNode "position%1:26:00::"))
+(define x (WordNode "terms")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "status%1:26:00::"))
+(InheritanceLink s (WordSenseNode "position%1:26:00::"))

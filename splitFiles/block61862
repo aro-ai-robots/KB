@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fir%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fir")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wood%1:27:00::"))
+(InheritanceLink (WordSenseNode "douglas_fir%1:20:02::") s)
+(HolonymLink s (WordSenseNode "fir%1:20:00::"))
+(HolonymLink s (WordSenseNode "fir_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "true_fir%1:20:00::"))

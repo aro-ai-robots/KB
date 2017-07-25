@@ -1,0 +1,5 @@
+(define s (WordSenseNode "insolubility%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unsolvability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "property%1:07:00::"))
+(define x (WordNode "insolubility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "property%1:07:00::"))

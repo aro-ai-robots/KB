@@ -1,0 +1,5 @@
+(define s (WordSenseNode "thermocoagulation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thermocoagulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "curdling%1:22:00::"))
+(InheritanceLink s (WordSenseNode "clotting%1:22:00::"))
+(InheritanceLink s (WordSenseNode "coagulation%1:22:00::"))

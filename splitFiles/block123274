@@ -1,0 +1,5 @@
+(define s (WordSenseNode "persian_gulf_war%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Persian_Gulf_War")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Operation_Desert_Storm%1:04:00::") s)
+(define x (WordNode "Gulf_War")) (WordSenseLink x s)
+(HolonymLink (WordSenseNode "Operation_Desert_Storm%1:04:00::") s)

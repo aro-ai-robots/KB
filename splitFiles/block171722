@@ -1,0 +1,6 @@
+(define s (WordSenseNode "transpiration%1:22:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transpiration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bodily_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "body_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "bodily_function%1:22:00::"))
+(InheritanceLink s (WordSenseNode "activity%1:22:00::"))

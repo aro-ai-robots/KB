@@ -1,0 +1,7 @@
+(define s (WordSenseNode "somali%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Somalian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "African%1:18:00::"))
+(HolonymLink s (WordSenseNode "Somalia%1:15:00::"))
+(define x (WordNode "Somali")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "African%1:18:00::"))
+(HolonymLink s (WordSenseNode "Somalia%1:15:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "invigilator%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "invigilator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proctor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "monitor%1:18:01::"))

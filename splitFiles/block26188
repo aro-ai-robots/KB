@@ -1,0 +1,7 @@
+(define s (WordSenseNode "carpenter_ant%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carpenter_ant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ant%1:05:00::"))
+(InheritanceLink s (WordSenseNode "emmet%1:05:00::"))
+(InheritanceLink s (WordSenseNode "pismire%1:05:00::"))
+(HolonymLink s (WordSenseNode "Camponotus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Camponotus%1:05:00::"))

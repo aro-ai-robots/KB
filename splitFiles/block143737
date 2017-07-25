@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sacrifice%2:40:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sacrifice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "offer%2:42:00::"))
+(InheritanceLink s (WordSenseNode "offer_up%2:42:00::"))
+(InheritanceLink (WordSenseNode "immolate%2:40:00::") s)

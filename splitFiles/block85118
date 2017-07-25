@@ -1,0 +1,4 @@
+(define s (WordSenseNode "imperialism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "imperialism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "foreign_policy%1:10:00::"))
+(InheritanceLink (WordSenseNode "manifest_destiny%1:10:00::") s)

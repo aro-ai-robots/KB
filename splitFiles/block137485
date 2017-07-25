@@ -1,0 +1,4 @@
+(define s (WordSenseNode "reef%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reef")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roll_up%2:30:01::"))
+(InheritanceLink s (WordSenseNode "furl%2:30:00::"))

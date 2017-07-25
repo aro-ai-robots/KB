@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sharp%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sharp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "musical_notation%1:10:00::"))
+(InheritanceLink (WordSenseNode "double_sharp%1:10:00::") s)

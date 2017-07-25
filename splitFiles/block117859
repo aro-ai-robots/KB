@@ -1,0 +1,4 @@
+(define s (WordSenseNode "orthoepy%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orthoepy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "phonology%1:09:00::"))
+(InheritanceLink s (WordSenseNode "phonemics%1:09:00::"))

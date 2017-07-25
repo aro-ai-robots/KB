@@ -1,0 +1,8 @@
+(define s (WordSenseNode "pine-tar_rag%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pine-tar_rag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rag%1:06:00::"))
+(InheritanceLink s (WordSenseNode "shred%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tag%1:06:01::"))
+(InheritanceLink s (WordSenseNode "tag_end%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tatter%1:06:00::"))
+(InheritanceLink s (WordSenseNode "baseball_equipment%1:06:00::"))

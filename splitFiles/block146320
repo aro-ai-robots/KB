@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sclerite%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sclerite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protective_covering%1:05:00::"))
+(HolonymLink s (WordSenseNode "arthropod%1:05:00::"))

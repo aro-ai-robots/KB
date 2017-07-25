@@ -1,0 +1,6 @@
+(define s (WordSenseNode "concave_polygon%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concave_polygon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polygon%1:25:00::"))
+(InheritanceLink s (WordSenseNode "polygonal_shape%1:25:00::"))
+(InheritanceLink (WordSenseNode "reentrant_polygon%1:25:00::") s)
+(InheritanceLink (WordSenseNode "reentering_polygon%1:25:00::") s)

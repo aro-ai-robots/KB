@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fix%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fixate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attach%2:35:01::"))
+(define x (WordNode "fix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "attach%2:35:01::"))

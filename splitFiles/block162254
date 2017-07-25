@@ -1,0 +1,3 @@
+(define s (WordSenseNode "subtitle%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subtitle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "title%1:10:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bwr%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boiling_water_reactor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-cooled_reactor%1:06:00::"))
+(define x (WordNode "BWR")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "water-cooled_reactor%1:06:00::"))

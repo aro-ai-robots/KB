@@ -1,0 +1,5 @@
+(define s (WordSenseNode "podaxaceae%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Podaxaceae")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gasteromycete%1:20:00::"))
+(InheritanceLink s (WordSenseNode "gastromycete%1:20:00::"))
+(InheritanceLink (WordSenseNode "stalked_puffball%1:20:02::") s)

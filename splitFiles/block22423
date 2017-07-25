@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bump%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dislodge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "displace%2:38:00::"))
+(InheritanceLink (WordSenseNode "throw%2:35:06::") s)
+(define x (WordNode "bump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "displace%2:38:00::"))
+(InheritanceLink (WordSenseNode "throw%2:35:06::") s)

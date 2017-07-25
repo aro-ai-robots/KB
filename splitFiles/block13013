@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ballistic_pendulum%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ballistic_pendulum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_pendulum%1:06:00::"))
+(InheritanceLink s (WordSenseNode "compound_pendulum%1:06:00::"))
+(InheritanceLink (WordSenseNode "gun_pendulum%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "perfecta%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exacta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bet%1:04:00::"))
+(InheritanceLink s (WordSenseNode "wager%1:04:00::"))
+(define x (WordNode "perfecta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bet%1:04:00::"))
+(InheritanceLink s (WordSenseNode "wager%1:04:00::"))

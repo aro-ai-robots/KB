@@ -1,0 +1,8 @@
+(define s (WordSenseNode "binocular_vision%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "binocular_vision")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sight%1:09:00::"))
+(InheritanceLink s (WordSenseNode "vision%1:09:01::"))
+(InheritanceLink s (WordSenseNode "visual_sense%1:09:00::"))
+(InheritanceLink s (WordSenseNode "visual_modality%1:09:00::"))
+(InheritanceLink (WordSenseNode "stereoscopic_vision%1:09:00::") s)
+(InheritanceLink (WordSenseNode "stereoscopy%1:09:00::") s)

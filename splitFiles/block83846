@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hypertrophic_cardiomyopathy%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypertrophic_cardiomyopathy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardiomyopathy%1:26:00::"))
+(InheritanceLink s (WordSenseNode "myocardiopathy%1:26:00::"))

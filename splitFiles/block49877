@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drawback%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drawback")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disadvantage%1:07:00::"))
+(InheritanceLink (WordSenseNode "catch%1:07:00::") s)
+(InheritanceLink (WordSenseNode "gimmick%1:07:00::") s)

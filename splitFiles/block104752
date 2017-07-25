@@ -1,0 +1,7 @@
+(define s (WordSenseNode "meiosis%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "litotes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhetorical_device%1:10:00::"))
+(InheritanceLink s (WordSenseNode "understatement%1:10:00::"))
+(define x (WordNode "meiosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rhetorical_device%1:10:00::"))
+(InheritanceLink s (WordSenseNode "understatement%1:10:00::"))

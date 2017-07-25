@@ -1,0 +1,5 @@
+(define s (WordSenseNode "knothole%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "knothole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hole%1:17:01::"))
+(HolonymLink s (WordSenseNode "board%1:27:00::"))
+(HolonymLink s (WordSenseNode "plank%1:27:00::"))

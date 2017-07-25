@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chickenpox%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chickenpox")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pox%1:26:00::"))
+(define x (WordNode "varicella")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pox%1:26:00::"))

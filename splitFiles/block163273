@@ -1,0 +1,7 @@
+(define s (WordSenseNode "supposal%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "supposition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conjecture%1:09:01::"))
+(InheritanceLink (WordSenseNode "presupposition%1:09:00::") s)
+(define x (WordNode "supposal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conjecture%1:09:01::"))
+(InheritanceLink (WordSenseNode "presupposition%1:09:00::") s)

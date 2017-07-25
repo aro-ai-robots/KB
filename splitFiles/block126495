@@ -1,0 +1,5 @@
+(define s (WordSenseNode "platycerium_andinum%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "South_American_staghorn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "staghorn_fern%1:20:00::"))
+(define x (WordNode "Platycerium_andinum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "staghorn_fern%1:20:00::"))

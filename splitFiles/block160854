@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stream%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stream")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "motion%1:26:00::"))
+(define x (WordNode "flow")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "motion%1:26:00::"))

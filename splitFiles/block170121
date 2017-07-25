@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tokay%1:13:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Tokay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vinifera_grape%1:13:00::"))
+(InheritanceLink (WordSenseNode "flame_tokay%1:13:00::") s)
+(HolonymLink (WordSenseNode "Tokay%1:13:02::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "snorkel%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "snorkel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "breathing_device%1:06:00::"))
+(InheritanceLink s (WordSenseNode "breathing_apparatus%1:06:00::"))
+(InheritanceLink s (WordSenseNode "breathing_machine%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ventilator%1:06:01::"))

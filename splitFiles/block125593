@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pipe_cleaner%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pipe_cleaner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cleaning_implement%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cleaning_device%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cleaning_equipment%1:06:00::"))

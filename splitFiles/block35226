@@ -1,0 +1,5 @@
+(define s (WordSenseNode "competition%1:24:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "competition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "business_relation%1:24:00::"))
+(InheritanceLink (WordSenseNode "price_war%1:24:00::") s)
+(InheritanceLink (WordSenseNode "price_competition%1:24:00::") s)

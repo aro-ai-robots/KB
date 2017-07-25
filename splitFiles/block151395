@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sidereal_month%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sidereal_month")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "month%1:28:00::"))
+(InheritanceLink s (WordSenseNode "sidereal_time%1:28:00::"))

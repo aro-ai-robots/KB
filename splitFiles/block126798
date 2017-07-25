@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pleura%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pleura")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "serous_membrane%1:08:00::"))
+(InheritanceLink s (WordSenseNode "serosa%1:08:00::"))
+(InheritanceLink (WordSenseNode "parietal_pleura%1:08:00::") s)
+(InheritanceLink (WordSenseNode "visceral_pleura%1:08:00::") s)
+(HolonymLink s (WordSenseNode "pleural_cavity%1:08:00::"))

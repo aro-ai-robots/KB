@@ -1,0 +1,4 @@
+(define s (WordSenseNode "glomerulonephritis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glomerulonephritis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nephritis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "Bright's_disease%1:26:00::"))

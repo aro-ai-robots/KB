@@ -1,0 +1,6 @@
+(define s (WordSenseNode "distributor_cam%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "distributor_cam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cam%1:06:00::"))
+(HolonymLink s (WordSenseNode "distributor%1:06:00::"))
+(HolonymLink s (WordSenseNode "distributer%1:06:00::"))
+(HolonymLink s (WordSenseNode "electrical_distributor%1:06:00::"))

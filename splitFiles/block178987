@@ -1,0 +1,5 @@
+(define s (WordSenseNode "via_media%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compromise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooperation%1:04:01::"))
+(define x (WordNode "via_media")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooperation%1:04:01::"))

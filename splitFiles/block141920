@@ -1,0 +1,7 @@
+(define s (WordSenseNode "roll_up%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bundle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pack%2:35:00::"))
+(define x (WordNode "bundle_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pack%2:35:00::"))
+(define x (WordNode "roll_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pack%2:35:00::"))

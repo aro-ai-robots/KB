@@ -1,0 +1,7 @@
+(define s (WordSenseNode "center%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "center")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:38:01::"))
+(InheritanceLink s (WordSenseNode "displace%2:38:02::"))
+(define x (WordNode "centre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:38:01::"))
+(InheritanceLink s (WordSenseNode "displace%2:38:02::"))

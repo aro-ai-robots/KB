@@ -1,0 +1,5 @@
+(define s (WordSenseNode "acceleration%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acceleration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rate%1:28:00::"))
+(InheritanceLink (WordSenseNode "angular_acceleration%1:19:00::") s)
+(InheritanceLink (WordSenseNode "centripetal_acceleration%1:28:00::") s)

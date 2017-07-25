@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jovian_planet%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Jovian_planet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "planet%1:17:00::"))
+(InheritanceLink s (WordSenseNode "major_planet%1:17:00::"))
+(define x (WordNode "gas_giant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "planet%1:17:00::"))
+(InheritanceLink s (WordSenseNode "major_planet%1:17:00::"))

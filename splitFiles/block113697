@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nonproliferation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nonproliferation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prevention%1:04:00::"))
+(InheritanceLink s (WordSenseNode "bar%1:04:00::"))
+(define x (WordNode "non-proliferation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prevention%1:04:00::"))
+(InheritanceLink s (WordSenseNode "bar%1:04:00::"))

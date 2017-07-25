@@ -1,0 +1,4 @@
+(define s (WordSenseNode "book_token%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "book_token")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coupon%1:10:00::"))
+(InheritanceLink s (WordSenseNode "voucher%1:10:00::"))

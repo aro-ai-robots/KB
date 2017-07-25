@@ -1,0 +1,7 @@
+(define s (WordSenseNode "suntrap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "suntrap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "patio%1:06:00::"))
+(InheritanceLink s (WordSenseNode "terrace%1:06:00::"))
+(define x (WordNode "solar_trap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "patio%1:06:00::"))
+(InheritanceLink s (WordSenseNode "terrace%1:06:00::"))

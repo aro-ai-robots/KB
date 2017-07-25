@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fratricide%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fratricide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "murder%1:04:00::"))
+(InheritanceLink s (WordSenseNode "slaying%1:04:00::"))
+(InheritanceLink s (WordSenseNode "execution%1:04:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "posteriority%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "posteriority")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lateness%1:07:00::"))
+(define x (WordNode "subsequentness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lateness%1:07:00::"))
+(define x (WordNode "subsequence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lateness%1:07:00::"))

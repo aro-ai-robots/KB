@@ -1,0 +1,7 @@
+(define s (WordSenseNode "siamese%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Thai")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tai%1:10:00::"))
+(define x (WordNode "Siamese")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tai%1:10:00::"))
+(define x (WordNode "Central_Thai")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Tai%1:10:00::"))

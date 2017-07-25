@@ -1,0 +1,6 @@
+(define s (WordSenseNode "monasticism%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monasticism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "austerity%1:07:01::"))
+(InheritanceLink s (WordSenseNode "asceticism%1:07:00::"))
+(InheritanceLink s (WordSenseNode "nonindulgence%1:07:00::"))
+(InheritanceLink (WordSenseNode "eremitism%1:07:00::") s)

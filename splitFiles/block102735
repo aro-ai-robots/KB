@@ -1,0 +1,4 @@
+(define s (WordSenseNode "marburg_virus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Marburg_virus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "filovirus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Filoviridae%1:05:00::"))

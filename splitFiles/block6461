@@ -1,0 +1,6 @@
+(define s (WordSenseNode "angle%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "angle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fish%2:33:00::"))
+(InheritanceLink (WordSenseNode "fly-fish%2:33:00::") s)
+(InheritanceLink (WordSenseNode "flyfish%2:33:00::") s)
+(InheritanceLink (WordSenseNode "troll%2:33:00::") s)

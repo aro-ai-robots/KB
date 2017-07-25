@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flame%2:43:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "flare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shine%2:43:00::"))
+(InheritanceLink s (WordSenseNode "beam%2:43:03::"))
+(define x (WordNode "flame")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shine%2:43:00::"))
+(InheritanceLink s (WordSenseNode "beam%2:43:03::"))

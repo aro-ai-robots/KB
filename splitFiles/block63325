@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flower_chain%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flower_chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower_arrangement%1:06:00::"))
+(InheritanceLink s (WordSenseNode "floral_arrangement%1:06:00::"))
+(InheritanceLink (WordSenseNode "daisy_chain%1:06:00::") s)
+(InheritanceLink (WordSenseNode "festoon%1:06:00::") s)
+(InheritanceLink (WordSenseNode "festoonery%1:06:00::") s)

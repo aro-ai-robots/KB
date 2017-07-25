@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ram%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tool%1:06:00::"))
+(InheritanceLink (WordSenseNode "battering_ram%1:06:00::") s)
+(InheritanceLink (WordSenseNode "rammer%1:06:00::") s)
+(HolonymLink (WordSenseNode "head%1:06:03::") s)

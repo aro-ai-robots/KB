@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fall_armyworm%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fall_armyworm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caterpillar%1:05:00::"))
+(define x (WordNode "Spodoptera_frugiperda")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caterpillar%1:05:00::"))

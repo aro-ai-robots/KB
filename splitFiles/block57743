@@ -1,0 +1,7 @@
+(define s (WordSenseNode "eyes%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "eyes")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opinion%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sentiment%1:09:00::"))
+(InheritanceLink s (WordSenseNode "persuasion%1:09:00::"))
+(InheritanceLink s (WordSenseNode "view%1:09:04::"))
+(InheritanceLink s (WordSenseNode "thought%1:09:03::"))

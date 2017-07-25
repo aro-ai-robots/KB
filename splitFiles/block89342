@@ -1,0 +1,5 @@
+(define s (WordSenseNode "isoantibody%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "isoantibody")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antibody%1:27:00::"))
+(define x (WordNode "alloantibody")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antibody%1:27:00::"))

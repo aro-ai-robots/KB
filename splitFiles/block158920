@@ -1,0 +1,5 @@
+(define s (WordSenseNode "star%1:17:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "star")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "celestial_body%1:17:00::"))
+(InheritanceLink s (WordSenseNode "heavenly_body%1:17:00::"))
+(InheritanceLink (WordSenseNode "starlet%1:17:00::") s)

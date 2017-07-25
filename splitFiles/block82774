@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hryvnia%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hryvnia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ukranian_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "kopiyka%1:23:00::") s)

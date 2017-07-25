@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sorter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sorter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:00::"))
+(InheritanceLink (WordSenseNode "mailsorter%1:06:00::") s)

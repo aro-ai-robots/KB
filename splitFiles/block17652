@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blade_bit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fishtail_bit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drilling_bit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "drill_bit%1:06:00::"))
+(define x (WordNode "blade_bit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drilling_bit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "drill_bit%1:06:00::"))

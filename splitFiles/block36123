@@ -1,0 +1,5 @@
+(define s (WordSenseNode "conformal_projection%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conformal_projection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "map_projection%1:06:00::"))
+(define x (WordNode "orthomorphic_projection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "map_projection%1:06:00::"))

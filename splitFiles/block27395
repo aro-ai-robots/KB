@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cavia_cobaya%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "guinea_pig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cavy%1:05:00::"))
+(define x (WordNode "Cavia_cobaya")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cavy%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "oil_rigger%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rigger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oilman%1:18:00::"))
+(define x (WordNode "oil_rigger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "oilman%1:18:00::"))

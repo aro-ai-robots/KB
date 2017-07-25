@@ -1,0 +1,7 @@
+(define s (WordSenseNode "art_history%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "art_history")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "humanistic_discipline%1:09:00::"))
+(InheritanceLink s (WordSenseNode "humanities%1:09:00::"))
+(InheritanceLink s (WordSenseNode "liberal_arts%1:09:00::"))
+(InheritanceLink s (WordSenseNode "arts%1:09:00::"))
+(InheritanceLink (WordSenseNode "iconology%1:09:00::") s)

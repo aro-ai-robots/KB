@@ -1,0 +1,5 @@
+(define s (WordSenseNode "butterwort%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "butterwort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carnivorous_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "Pinguicula%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Pinguicula%1:20:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "maiden%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "maiden_over")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "over%1:28:00::"))
+(define x (WordNode "maiden")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "over%1:28:00::"))

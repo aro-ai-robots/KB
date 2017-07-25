@@ -1,0 +1,7 @@
+(define s (WordSenseNode "torpedo%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "torpedo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "armament%1:06:00::"))
+(InheritanceLink (WordSenseNode "aerial_torpedo%1:06:00::") s)
+(InheritanceLink (WordSenseNode "bangalore_torpedo%1:06:00::") s)
+(InheritanceLink (WordSenseNode "homing_torpedo%1:06:00::") s)
+(InheritanceLink (WordSenseNode "submarine_torpedo%1:06:00::") s)

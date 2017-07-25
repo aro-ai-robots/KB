@@ -1,0 +1,5 @@
+(define s (WordSenseNode "carotenemia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carotenemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pathology%1:26:00::"))
+(define x (WordNode "xanthemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pathology%1:26:00::"))

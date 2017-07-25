@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subtend%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "subtend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(define x (WordNode "delimit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))

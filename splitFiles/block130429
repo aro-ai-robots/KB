@@ -1,0 +1,6 @@
+(define s (WordSenseNode "preview%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preview")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "screening%1:10:00::"))
+(InheritanceLink s (WordSenseNode "showing%1:10:01::"))
+(InheritanceLink s (WordSenseNode "viewing%1:10:00::"))
+(InheritanceLink (WordSenseNode "sneak_preview%1:10:00::") s)

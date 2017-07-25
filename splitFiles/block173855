@@ -1,0 +1,4 @@
+(define s (WordSenseNode "turnbuckle%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "turnbuckle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coupling%1:06:00::"))
+(InheritanceLink s (WordSenseNode "coupler%1:06:00::"))

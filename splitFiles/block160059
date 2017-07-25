@@ -1,0 +1,4 @@
+(define s (WordSenseNode "stipulate%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stipulate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "guarantee%2:32:00::"))
+(InheritanceLink s (WordSenseNode "vouch%2:32:12::"))

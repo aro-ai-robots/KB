@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chyloderma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "elephantiasis_scroti")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elephantiasis%1:26:00::"))
+(define x (WordNode "chyloderma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elephantiasis%1:26:00::"))

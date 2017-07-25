@@ -1,0 +1,4 @@
+(define s (WordSenseNode "telecast%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "telecast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "broadcast%1:10:00::"))
+(HolonymLink (WordSenseNode "film_clip%1:10:00::") s)

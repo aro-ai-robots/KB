@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plagiarism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plagiarism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "written_material%1:10:00::"))
+(InheritanceLink s (WordSenseNode "piece_of_writing%1:10:00::"))

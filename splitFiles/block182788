@@ -1,0 +1,5 @@
+(define s (WordSenseNode "white_dwarf_star%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_dwarf")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "star%1:17:00::"))
+(define x (WordNode "white_dwarf_star")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "star%1:17:00::"))

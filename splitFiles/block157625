@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sportscast%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sportscast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air%2:32:01::"))
+(InheritanceLink s (WordSenseNode "send%2:32:03::"))
+(InheritanceLink s (WordSenseNode "broadcast%2:32:01::"))
+(InheritanceLink s (WordSenseNode "beam%2:32:00::"))
+(InheritanceLink s (WordSenseNode "transmit%2:32:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "phlegmasia_alba_dolens%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "milk_leg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thrombosis%1:26:00::"))
+(define x (WordNode "white_leg")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thrombosis%1:26:00::"))
+(define x (WordNode "phlegmasia_alba_dolens")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thrombosis%1:26:00::"))

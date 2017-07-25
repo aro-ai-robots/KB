@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chorea%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "canine_chorea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_disease%1:26:00::"))
+(define x (WordNode "chorea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_disease%1:26:00::"))

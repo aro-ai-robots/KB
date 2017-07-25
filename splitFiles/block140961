@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rightfield%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "right_field")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "position%1:04:02::"))
+(HolonymLink s (WordSenseNode "baseball_team%1:14:00::"))
+(define x (WordNode "rightfield")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "position%1:04:02::"))
+(HolonymLink s (WordSenseNode "baseball_team%1:14:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aesthesia%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sensibility")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consciousness%1:09:00::"))
+(define x (WordNode "esthesia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consciousness%1:09:00::"))
+(define x (WordNode "aesthesia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consciousness%1:09:00::"))

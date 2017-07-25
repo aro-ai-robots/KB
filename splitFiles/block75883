@@ -1,0 +1,4 @@
+(define s (WordSenseNode "grosz%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grosz")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Polish_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "zloty%1:23:00::"))

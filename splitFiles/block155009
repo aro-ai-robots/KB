@@ -1,0 +1,7 @@
+(define s (WordSenseNode "soh%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solfa_syllable%1:10:00::"))
+(define x (WordNode "soh")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solfa_syllable%1:10:00::"))
+(define x (WordNode "so")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "solfa_syllable%1:10:00::"))

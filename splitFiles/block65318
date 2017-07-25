@@ -1,0 +1,7 @@
+(define s (WordSenseNode "freak_out%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disorientation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delusion%1:09:00::"))
+(InheritanceLink s (WordSenseNode "hallucination%1:09:00::"))
+(define x (WordNode "freak_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "delusion%1:09:00::"))
+(InheritanceLink s (WordSenseNode "hallucination%1:09:00::"))

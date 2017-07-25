@@ -1,0 +1,5 @@
+(define s (WordSenseNode "neurochemical%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neurochemical")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "neurotransmitter%1:27:00::") s)
+(InheritanceLink (WordSenseNode "endorphin%1:27:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tenant%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tenant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holder%1:18:01::"))
+(InheritanceLink (WordSenseNode "cotenant%1:18:00::") s)
+(InheritanceLink (WordSenseNode "life_tenant%1:18:00::") s)
+(InheritanceLink (WordSenseNode "tenant_farmer%1:18:00::") s)

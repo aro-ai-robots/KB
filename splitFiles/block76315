@@ -1,0 +1,6 @@
+(define s (WordSenseNode "guest%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "guest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "customer%1:18:00::"))
+(InheritanceLink s (WordSenseNode "client%1:18:01::"))
+(InheritanceLink (WordSenseNode "no-show%1:18:01::") s)
+(InheritanceLink (WordSenseNode "overnighter%1:18:00::") s)

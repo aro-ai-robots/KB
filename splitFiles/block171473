@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transcendentalism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transcendentalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "philosophy%1:09:00::"))
+(define x (WordNode "transcendental_philosophy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "philosophy%1:09:00::"))

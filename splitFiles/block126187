@@ -1,0 +1,5 @@
+(define s (WordSenseNode "planetarium%1:06:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "planetarium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "building%1:06:00::"))
+(InheritanceLink s (WordSenseNode "edifice%1:06:00::"))
+(HolonymLink (WordSenseNode "planetarium%1:06:02::") s)

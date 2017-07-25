@@ -1,0 +1,6 @@
+(define s (WordSenseNode "single-rotor_helicopter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "single-rotor_helicopter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "helicopter%1:06:00::"))
+(InheritanceLink s (WordSenseNode "chopper%1:06:01::"))
+(InheritanceLink s (WordSenseNode "whirlybird%1:06:00::"))
+(InheritanceLink s (WordSenseNode "eggbeater%1:06:01::"))

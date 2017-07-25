@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bedaub%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bedaub")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))
+(define x (WordNode "besmear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cover%2:35:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jumble%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "jumble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(define x (WordNode "mingle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))

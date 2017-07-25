@@ -1,0 +1,6 @@
+(define s (WordSenseNode "collogue%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "collogue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confer%2:32:00::"))
+(InheritanceLink s (WordSenseNode "confabulate%2:32:01::"))
+(InheritanceLink s (WordSenseNode "confab%2:32:01::"))
+(InheritanceLink s (WordSenseNode "consult%2:32:05::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "waiting%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wait")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inactivity%1:04:00::"))
+(define x (WordNode "waiting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inactivity%1:04:00::"))

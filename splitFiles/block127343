@@ -1,0 +1,5 @@
+(define s (WordSenseNode "poenology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "penology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "criminology%1:09:00::"))
+(define x (WordNode "poenology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "criminology%1:09:00::"))

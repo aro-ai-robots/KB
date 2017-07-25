@@ -1,0 +1,5 @@
+(define s (WordSenseNode "scorpion_fly%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scorpion_fly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mecopteran%1:05:00::"))
+(HolonymLink s (WordSenseNode "Panorpidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Panorpidae%1:05:00::"))

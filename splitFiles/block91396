@@ -1,0 +1,5 @@
+(define s (WordSenseNode "judeo-spanish%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Judeo-Spanish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Spanish%1:10:00::"))
+(define x (WordNode "Ladino")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Spanish%1:10:00::"))

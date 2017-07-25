@@ -1,0 +1,4 @@
+(define s (WordSenseNode "prismatoid%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prismatoid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polyhedron%1:25:00::"))
+(InheritanceLink (WordSenseNode "prismoid%1:25:00::") s)

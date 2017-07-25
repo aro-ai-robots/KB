@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ply%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "ply")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wield%2:35:00::"))
+(InheritanceLink s (WordSenseNode "handle%2:35:01::"))
+(InheritanceLink s (WordSenseNode "manage%2:35:03::"))

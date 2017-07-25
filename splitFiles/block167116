@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tenement_district%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tenement_district")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "residential_district%1:15:00::"))
+(InheritanceLink s (WordSenseNode "residential_area%1:15:00::"))
+(InheritanceLink s (WordSenseNode "community%1:15:00::"))

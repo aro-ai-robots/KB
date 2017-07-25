@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lounging_robe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dressing_gown")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "robe%1:06:00::"))
+(define x (WordNode "robe-de-chambre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "robe%1:06:00::"))
+(define x (WordNode "lounging_robe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "robe%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "high_point%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "high_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "part%1:09:00::"))
+(InheritanceLink s (WordSenseNode "section%1:09:00::"))
+(InheritanceLink s (WordSenseNode "division%1:09:00::"))
+(HolonymLink s (WordSenseNode "experience%1:11:00::"))

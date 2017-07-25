@@ -1,0 +1,7 @@
+(define s (WordSenseNode "double_check%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "countercheck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assay%1:09:00::"))
+(InheritanceLink s (WordSenseNode "check%1:09:00::"))
+(define x (WordNode "double_check")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assay%1:09:00::"))
+(InheritanceLink s (WordSenseNode "check%1:09:00::"))

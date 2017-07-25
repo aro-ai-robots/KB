@@ -1,0 +1,7 @@
+(define s (WordSenseNode "receipt%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reception")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acquiring%1:04:00::"))
+(InheritanceLink s (WordSenseNode "getting%1:04:00::"))
+(define x (WordNode "receipt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acquiring%1:04:00::"))
+(InheritanceLink s (WordSenseNode "getting%1:04:00::"))

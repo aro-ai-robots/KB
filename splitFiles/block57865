@@ -1,0 +1,7 @@
+(define s (WordSenseNode "face_soap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toilet_soap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soap%1:06:00::"))
+(define x (WordNode "face_soap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soap%1:06:00::"))
+(define x (WordNode "bath_soap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soap%1:06:00::"))

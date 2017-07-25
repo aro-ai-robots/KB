@@ -1,0 +1,4 @@
+(define s (WordSenseNode "doctor_of_humane_letters%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Doctor_of_Humane_Letters")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "honorary_degree%1:10:00::"))
+(InheritanceLink s (WordSenseNode "honoris_causa%1:10:00::"))

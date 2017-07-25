@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blacktail_prairie_dog%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blacktail_prairie_dog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prairie_dog%1:05:00::"))
+(InheritanceLink s (WordSenseNode "prairie_marmot%1:05:00::"))
+(define x (WordNode "Cynomys_ludovicianus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prairie_dog%1:05:00::"))
+(InheritanceLink s (WordSenseNode "prairie_marmot%1:05:00::"))

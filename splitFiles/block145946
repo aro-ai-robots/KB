@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scet%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spacecraft_event_time")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coordinated_universal_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "UTC%1:28:00::"))
+(define x (WordNode "SCET")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coordinated_universal_time%1:28:00::"))
+(InheritanceLink s (WordSenseNode "UTC%1:28:00::"))

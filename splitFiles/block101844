@@ -1,0 +1,7 @@
+(define s (WordSenseNode "male_chauvinism%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "male_chauvinism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sexism%1:04:00::"))
+(define x (WordNode "chauvinism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sexism%1:04:00::"))
+(define x (WordNode "antifeminism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sexism%1:04:00::"))

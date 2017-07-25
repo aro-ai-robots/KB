@@ -1,0 +1,7 @@
+(define s (WordSenseNode "akaryocyte%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "akaryocyte")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cell%1:03:00::"))
+(define x (WordNode "akaryote")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cell%1:03:00::"))
+(define x (WordNode "acaryote")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cell%1:03:00::"))

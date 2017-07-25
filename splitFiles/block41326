@@ -1,0 +1,7 @@
+(define s (WordSenseNode "curtain_raising%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "opening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "start%1:11:00::"))
+(define x (WordNode "opening_night")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "start%1:11:00::"))
+(define x (WordNode "curtain_raising")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "start%1:11:00::"))

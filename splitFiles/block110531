@@ -1,0 +1,6 @@
+(define s (WordSenseNode "myeloblastic_leukemia%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "myeloblastic_leukemia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leukemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "leukaemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "leucaemia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "cancer_of_the_blood%1:26:00::"))

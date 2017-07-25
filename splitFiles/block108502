@@ -1,0 +1,5 @@
+(define s (WordSenseNode "moon-worship%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moon-worship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))
+(define x (WordNode "selenolatry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worship%1:04:00::"))

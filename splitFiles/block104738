@@ -1,0 +1,5 @@
+(define s (WordSenseNode "megawatt%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "megawatt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "kilowatt%1:23:00::") s)
+(HolonymLink (WordSenseNode "kW%1:23:00::") s)

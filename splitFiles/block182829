@@ -1,0 +1,5 @@
+(define s (WordSenseNode "white_line%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reference_point%1:10:00::"))
+(InheritanceLink s (WordSenseNode "point_of_reference%1:10:00::"))
+(InheritanceLink s (WordSenseNode "reference%1:10:06::"))

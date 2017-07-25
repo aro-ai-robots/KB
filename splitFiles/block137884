@@ -1,0 +1,5 @@
+(define s (WordSenseNode "registered_bond%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "registered_bond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bond%1:21:02::"))
+(InheritanceLink s (WordSenseNode "bond_certificate%1:21:00::"))
+(InheritanceLink s (WordSenseNode "registered_security%1:21:00::"))

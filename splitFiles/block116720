@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ophthalmia_neonatorum%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ophthalmia_neonatorum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ophthalmia%1:26:00::"))
+(InheritanceLink s (WordSenseNode "ophthalmitis%1:26:00::"))

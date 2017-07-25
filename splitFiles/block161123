@@ -1,0 +1,4 @@
+(define s (WordSenseNode "strikebreaking%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strikebreaking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confrontation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "opposition%1:04:00::"))

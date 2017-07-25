@@ -1,0 +1,6 @@
+(define s (WordSenseNode "trophy_case%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trophy_case")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "case%1:06:01::"))
+(InheritanceLink s (WordSenseNode "display_case%1:06:00::"))
+(InheritanceLink s (WordSenseNode "showcase%1:06:00::"))
+(InheritanceLink s (WordSenseNode "vitrine%1:06:00::"))

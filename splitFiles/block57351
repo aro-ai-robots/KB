@@ -1,0 +1,5 @@
+(define s (WordSenseNode "express-mail%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "express-mail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mail%2:32:00::"))
+(InheritanceLink s (WordSenseNode "post%2:32:02::"))
+(InheritanceLink s (WordSenseNode "send%2:32:00::"))

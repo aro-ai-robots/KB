@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pyrophoric_alloy%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pyrophoric_alloy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alloy%1:27:00::"))
+(InheritanceLink s (WordSenseNode "metal%1:27:01::"))
+(InheritanceLink (WordSenseNode "ferrocerium%1:27:00::") s)
+(InheritanceLink (WordSenseNode "misch_metal%1:27:00::") s)

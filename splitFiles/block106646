@@ -1,0 +1,6 @@
+(define s (WordSenseNode "millifarad%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "millifarad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capacitance_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "farad%1:23:00::"))
+(HolonymLink s (WordSenseNode "F%1:23:00::"))
+(HolonymLink (WordSenseNode "microfarad%1:23:00::") s)

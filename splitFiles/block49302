@@ -1,0 +1,7 @@
+(define s (WordSenseNode "double_entry%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "double_entry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bookkeeping%1:04:00::"))
+(InheritanceLink s (WordSenseNode "clerking%1:04:00::"))
+(define x (WordNode "double-entry_bookkeeping")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bookkeeping%1:04:00::"))
+(InheritanceLink s (WordSenseNode "clerking%1:04:00::"))

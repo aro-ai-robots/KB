@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bactrian_camel%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Bactrian_camel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camel%1:05:00::"))
+(define x (WordNode "Camelus_bactrianus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camel%1:05:00::"))

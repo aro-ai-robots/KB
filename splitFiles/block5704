@@ -1,0 +1,6 @@
+(define s (WordSenseNode "amphibious_operation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amphibious_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:04:02::"))
+(InheritanceLink s (WordSenseNode "military_operation%1:04:00::"))
+(InheritanceLink (WordSenseNode "amphibious_demonstration%1:04:00::") s)
+(InheritanceLink (WordSenseNode "amphibious_assault%1:04:00::") s)

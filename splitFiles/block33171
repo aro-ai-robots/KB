@@ -1,0 +1,6 @@
+(define s (WordSenseNode "coccobacillus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coccobacillus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eubacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "eubacterium%1:05:00::"))
+(InheritanceLink s (WordSenseNode "true_bacteria%1:05:00::"))
+(InheritanceLink (WordSenseNode "Brucella%1:05:00::") s)

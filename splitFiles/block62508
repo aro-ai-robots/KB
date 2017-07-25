@@ -1,0 +1,5 @@
+(define s (WordSenseNode "flageolet%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flageolet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_bean%1:13:00::"))
+(define x (WordNode "haricot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "common_bean%1:13:00::"))

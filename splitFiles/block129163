@@ -1,0 +1,7 @@
+(define s (WordSenseNode "potter's_clay%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "potter's_clay")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clay%1:27:00::"))
+(InheritanceLink (WordSenseNode "slip%1:27:00::") s)
+(define x (WordNode "potter's_earth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clay%1:27:00::"))
+(InheritanceLink (WordSenseNode "slip%1:27:00::") s)

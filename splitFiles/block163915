@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sweatshirt%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sweatshirt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pullover%1:06:00::"))
+(InheritanceLink s (WordSenseNode "slipover%1:06:00::"))
+(HolonymLink s (WordSenseNode "sweat_suit%1:06:00::"))
+(HolonymLink s (WordSenseNode "sweatsuit%1:06:00::"))
+(HolonymLink s (WordSenseNode "sweats%1:06:00::"))
+(HolonymLink s (WordSenseNode "workout_suit%1:06:00::"))

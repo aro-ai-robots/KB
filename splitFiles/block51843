@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ecological_niche%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "niche")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "status%1:26:01::"))
+(define x (WordNode "ecological_niche")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "status%1:26:01::"))

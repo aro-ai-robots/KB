@@ -1,0 +1,6 @@
+(define s (WordSenseNode "butterfly%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "butterfly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unfold%2:35:00::"))
+(InheritanceLink s (WordSenseNode "spread%2:35:03::"))
+(InheritanceLink s (WordSenseNode "spread_out%2:35:03::"))
+(InheritanceLink s (WordSenseNode "open%2:35:08::"))

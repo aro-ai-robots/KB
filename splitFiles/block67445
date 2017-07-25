@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gas%1:27:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "natural_gas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fossil_fuel%1:27:00::"))
+(HolonymLink (WordSenseNode "methane%1:27:00::") s)
+(define x (WordNode "gas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fossil_fuel%1:27:00::"))
+(HolonymLink (WordSenseNode "methane%1:27:00::") s)

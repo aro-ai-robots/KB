@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vicia_sepium%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bush_vetch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vetch%1:20:00::"))
+(define x (WordNode "Vicia_sepium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vetch%1:20:00::"))

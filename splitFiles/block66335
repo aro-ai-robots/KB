@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fume%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fumigate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%2:30:00::"))
+(InheritanceLink s (WordSenseNode "treat%2:30:01::"))
+(define x (WordNode "fume")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "process%2:30:00::"))
+(InheritanceLink s (WordSenseNode "treat%2:30:01::"))

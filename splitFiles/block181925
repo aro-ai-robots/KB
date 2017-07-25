@@ -1,0 +1,4 @@
+(define s (WordSenseNode "week_from_monday%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "week_from_Monday")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "week%1:28:00::"))
+(InheritanceLink s (WordSenseNode "hebdomad%1:28:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "diplomatic_pouch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diplomatic_pouch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mailbag%1:06:01::"))
+(InheritanceLink s (WordSenseNode "mail_pouch%1:06:00::"))

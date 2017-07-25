@@ -1,0 +1,6 @@
+(define s (WordSenseNode "genus_calliandra%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Calliandra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rosid_dicot_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Mimosoideae%1:20:00::"))
+(HolonymLink s (WordSenseNode "subfamily_Mimosoideae%1:20:00::"))
+(HolonymLink (WordSenseNode "calliandra%1:20:00::") s)

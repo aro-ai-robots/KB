@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sphygmomanometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sphygmomanometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure_gauge%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pressure_gage%1:06:00::"))

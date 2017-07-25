@@ -1,0 +1,6 @@
+(define s (WordSenseNode "behalf%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "behalf")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stead%1:04:00::"))
+(InheritanceLink s (WordSenseNode "position%1:04:03::"))
+(InheritanceLink s (WordSenseNode "place%1:04:01::"))
+(InheritanceLink s (WordSenseNode "lieu%1:04:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lie%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "lie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misinform%2:32:00::"))
+(InheritanceLink s (WordSenseNode "mislead%2:32:00::"))
+(InheritanceLink (WordSenseNode "romance%2:32:00::") s)
+(InheritanceLink (WordSenseNode "perjure%2:32:00::") s)
+(InheritanceLink (WordSenseNode "fib%2:32:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "deadline%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deadline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "point%1:28:00::"))
+(InheritanceLink s (WordSenseNode "point_in_time%1:28:00::"))
+(InheritanceLink (WordSenseNode "curfew%1:28:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fuel_indicator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fuel_gauge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indicator%1:06:00::"))
+(HolonymLink s (WordSenseNode "fuel_system%1:06:00::"))
+(define x (WordNode "fuel_indicator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indicator%1:06:00::"))
+(HolonymLink s (WordSenseNode "fuel_system%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "costal_cartilage%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "costal_cartilage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cartilaginous_structure%1:08:00::"))
+(HolonymLink s (WordSenseNode "rib%1:08:01::"))
+(HolonymLink s (WordSenseNode "costa%1:08:01::"))

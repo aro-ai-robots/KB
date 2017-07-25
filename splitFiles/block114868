@@ -1,0 +1,4 @@
+(define s (WordSenseNode "oath%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oath")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "promise%1:10:00::"))
+(InheritanceLink (WordSenseNode "bayat%1:10:00::") s)

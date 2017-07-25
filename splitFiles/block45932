@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diagonalise%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "diagonalize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "translate%2:30:01::"))
+(InheritanceLink s (WordSenseNode "transform%2:30:01::"))
+(define x (WordNode "diagonalise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "translate%2:30:01::"))
+(InheritanceLink s (WordSenseNode "transform%2:30:01::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "babyminder%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "babyminder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keeper%1:18:02::"))
+(define x (WordNode "baby_minder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keeper%1:18:02::"))
+(define x (WordNode "minder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "keeper%1:18:02::"))

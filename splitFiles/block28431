@@ -1,0 +1,8 @@
+(define s (WordSenseNode "chalcis_fly%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chalcis_fly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chalcid_fly%1:05:00::"))
+(InheritanceLink s (WordSenseNode "chalcidfly%1:05:00::"))
+(InheritanceLink s (WordSenseNode "chalcid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "chalcid_wasp%1:05:00::"))
+(HolonymLink s (WordSenseNode "Chalcis%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Chalcis%1:05:00::"))

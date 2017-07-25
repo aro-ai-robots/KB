@@ -1,0 +1,5 @@
+(define s (WordSenseNode "qurush%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "qurush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Saudi_Arabian_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "Saudi_Arabian_riyal%1:23:00::"))
+(HolonymLink s (WordSenseNode "riyal%1:23:03::"))

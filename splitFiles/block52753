@@ -1,0 +1,7 @@
+(define s (WordSenseNode "electric_razor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shaver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "razor%1:06:00::"))
+(define x (WordNode "electric_shaver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "razor%1:06:00::"))
+(define x (WordNode "electric_razor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "razor%1:06:00::"))

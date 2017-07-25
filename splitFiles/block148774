@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sequencer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sequencer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hardware%1:06:01::"))
+(InheritanceLink s (WordSenseNode "computer_hardware%1:06:00::"))

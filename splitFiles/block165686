@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tamper%2:35:12::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tamper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manipulate%2:35:00::"))
+(define x (WordNode "fiddle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manipulate%2:35:00::"))
+(define x (WordNode "monkey")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "manipulate%2:35:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lamia%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vampire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evil_spirit%1:18:00::"))
+(define x (WordNode "lamia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "evil_spirit%1:18:00::"))

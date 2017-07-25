@@ -1,0 +1,5 @@
+(define s (WordSenseNode "reel_off%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reel_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reel%2:35:00::"))
+(define x (WordNode "unreel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reel%2:35:00::"))

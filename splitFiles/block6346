@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aneroid_barometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aneroid_barometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "barometer%1:06:00::"))
+(HolonymLink s (WordSenseNode "altimeter%1:06:00::"))
+(define x (WordNode "aneroid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "barometer%1:06:00::"))
+(HolonymLink s (WordSenseNode "altimeter%1:06:00::"))

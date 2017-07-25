@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fetal_distress%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fetal_distress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abnormality%1:26:00::"))
+(InheritanceLink s (WordSenseNode "abnormalcy%1:26:00::"))
+(define x (WordNode "foetal_distress")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "abnormality%1:26:00::"))
+(InheritanceLink s (WordSenseNode "abnormalcy%1:26:00::"))

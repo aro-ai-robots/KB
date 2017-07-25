@@ -1,0 +1,5 @@
+(define s (WordSenseNode "episcopalian%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Episcopalian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Protestant%1:18:00::"))
+(HolonymLink s (WordSenseNode "Episcopal_Church%1:14:02::"))
+(HolonymLink s (WordSenseNode "Protestant_Episcopal_Church%1:14:00::"))

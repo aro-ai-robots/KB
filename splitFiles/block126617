@@ -1,0 +1,4 @@
+(define s (WordSenseNode "playbook%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "playbook")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scheme%1:09:00::"))
+(InheritanceLink s (WordSenseNode "strategy%1:09:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ryukyuan%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Ryukyuan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Japanese%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Nipponese%1:18:00::"))

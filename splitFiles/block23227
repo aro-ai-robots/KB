@@ -1,0 +1,4 @@
+(define s (WordSenseNode "buyout_bid%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "buyout_bid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bid%1:10:00::"))
+(InheritanceLink s (WordSenseNode "tender%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "direct_object%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "direct_object")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:10:00::"))
+(define x (WordNode "object_of_the_verb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:10:00::"))

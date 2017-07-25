@@ -1,0 +1,5 @@
+(define s (WordSenseNode "assembly%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "assembly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:00::"))
+(InheritanceLink (WordSenseNode "sub-assembly%1:06:00::") s)
+(InheritanceLink (WordSenseNode "weldment%1:06:00::") s)

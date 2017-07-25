@@ -1,0 +1,6 @@
+(define s (WordSenseNode "deviation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "deviation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statistic%1:09:00::"))
+(InheritanceLink (WordSenseNode "outlier%1:09:00::") s)
+(InheritanceLink (WordSenseNode "mean_deviation%1:09:00::") s)
+(InheritanceLink (WordSenseNode "mean_deviation_from_the_mean%1:09:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "every_week%4:02:00::")) (PartOfSpeechLink s adv)
+(define x (WordNode "hebdomadally")) (WordSenseLink x s)
+(define x (WordNode "weekly")) (WordSenseLink x s)
+(define x (WordNode "every_week")) (WordSenseLink x s)
+(define x (WordNode "each_week")) (WordSenseLink x s)

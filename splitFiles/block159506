@@ -1,0 +1,4 @@
+(define s (WordSenseNode "stem-cell_research%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stem-cell_research")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biological_research%1:04:00::"))
+(InheritanceLink (WordSenseNode "embryonic_stem-cell_research%1:04:00::") s)

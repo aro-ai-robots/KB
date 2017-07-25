@@ -1,0 +1,5 @@
+(define s (WordSenseNode "photomechanics%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "photomechanics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:22:00::"))
+(define x (WordNode "photoplate_making")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:22:00::"))

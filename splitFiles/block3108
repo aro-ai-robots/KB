@@ -1,0 +1,5 @@
+(define s (WordSenseNode "agelessness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "agelessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "immutability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "immutableness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "fixity%1:07:01::"))

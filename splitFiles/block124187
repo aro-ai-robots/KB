@@ -1,0 +1,4 @@
+(define s (WordSenseNode "phone-in%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "phone-in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "talk_show%1:10:00::"))
+(InheritanceLink s (WordSenseNode "chat_show%1:10:00::"))

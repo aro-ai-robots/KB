@@ -1,0 +1,7 @@
+(define s (WordSenseNode "stroke%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "stroke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "touch%2:35:00::"))
+(InheritanceLink (WordSenseNode "caress%2:35:00::") s)
+(InheritanceLink (WordSenseNode "fondle%2:35:00::") s)
+(InheritanceLink (WordSenseNode "lick%2:35:00::") s)
+(InheritanceLink (WordSenseNode "lap%2:35:00::") s)

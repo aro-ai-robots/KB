@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fetoscopy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fetoscopy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prenatal_diagnosis%1:04:00::"))
+(define x (WordNode "foetoscopy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prenatal_diagnosis%1:04:00::"))

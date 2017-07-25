@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cigarette_holder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cigarette_holder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holder%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tubing%1:06:00::"))
+(HolonymLink (WordSenseNode "mouthpiece%1:06:01::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "campus%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "campus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "field%1:15:00::"))
+(HolonymLink (WordSenseNode "student_union%1:06:00::") s)

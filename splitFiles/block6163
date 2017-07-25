@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ancien_regime%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ancien_regime")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "government%1:14:00::"))
+(InheritanceLink s (WordSenseNode "authorities%1:14:00::"))
+(InheritanceLink s (WordSenseNode "regime%1:14:00::"))

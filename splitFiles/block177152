@@ -1,0 +1,5 @@
+(define s (WordSenseNode "urinary_retention%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "urinary_retention")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "retentiveness%1:07:02::"))
+(InheritanceLink s (WordSenseNode "retentivity%1:07:00::"))
+(InheritanceLink s (WordSenseNode "retention%1:07:00::"))

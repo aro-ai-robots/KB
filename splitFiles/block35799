@@ -1,0 +1,5 @@
+(define s (WordSenseNode "concurrency%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concurrence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooperation%1:04:01::"))
+(define x (WordNode "concurrency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cooperation%1:04:01::"))

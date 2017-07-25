@@ -1,0 +1,6 @@
+(define s (WordSenseNode "dram%1:23:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avoirdupois_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "ounce%1:23:01::"))
+(HolonymLink s (WordSenseNode "oz.%1:23:00::"))
+(HolonymLink (WordSenseNode "grain%1:23:01::") s)

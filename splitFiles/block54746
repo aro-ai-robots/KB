@@ -1,0 +1,5 @@
+(define s (WordSenseNode "epicycloid%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epicycloid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "roulette%1:25:00::"))
+(InheritanceLink s (WordSenseNode "line_roulette%1:25:00::"))
+(InheritanceLink (WordSenseNode "cardioid%1:25:00::") s)

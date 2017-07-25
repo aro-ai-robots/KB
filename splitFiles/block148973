@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sertoli's_cell%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Sertoli_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cell%1:03:00::"))
+(define x (WordNode "Sertoli's_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cell%1:03:00::"))

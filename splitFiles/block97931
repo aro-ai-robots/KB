@@ -1,0 +1,4 @@
+(define s (WordSenseNode "line_personnel%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "line_personnel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "force%1:14:00::"))
+(InheritanceLink s (WordSenseNode "personnel%1:14:00::"))

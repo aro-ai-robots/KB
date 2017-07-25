@@ -1,0 +1,5 @@
+(define s (WordSenseNode "scenario%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scenario")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "premise%1:10:00::"))
+(InheritanceLink s (WordSenseNode "premiss%1:10:00::"))
+(InheritanceLink s (WordSenseNode "assumption%1:10:00::"))

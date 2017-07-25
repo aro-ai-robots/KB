@@ -1,0 +1,5 @@
+(define s (WordSenseNode "door_latch%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "latch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lock%1:06:00::"))
+(define x (WordNode "door_latch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lock%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "decree%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "decree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "declare%2:32:00::"))
+(InheritanceLink (WordSenseNode "ordain%2:32:00::") s)
+(InheritanceLink (WordSenseNode "ordain%2:41:01::") s)
+(InheritanceLink (WordSenseNode "enact%2:41:00::") s)

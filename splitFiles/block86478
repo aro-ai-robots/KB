@@ -1,0 +1,8 @@
+(define s (WordSenseNode "inductance_unit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inductance_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electromagnetic_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "emu%1:23:00::"))
+(InheritanceLink (WordSenseNode "abhenry%1:23:00::") s)
+(InheritanceLink (WordSenseNode "millihenry%1:23:00::") s)
+(InheritanceLink (WordSenseNode "henry%1:23:00::") s)
+(InheritanceLink (WordSenseNode "H%1:23:00::") s)

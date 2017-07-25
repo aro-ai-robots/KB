@@ -1,0 +1,5 @@
+(define s (WordSenseNode "monastic_habit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monastic_habit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "habit%1:06:00::"))
+(HolonymLink (WordSenseNode "scapular%1:06:00::") s)
+(HolonymLink (WordSenseNode "scapulary%1:06:00::") s)

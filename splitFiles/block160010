@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stink_bomb%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stink_bomb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bomb%1:06:00::"))
+(define x (WordNode "stench_bomb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bomb%1:06:00::"))

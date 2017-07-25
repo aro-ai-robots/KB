@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bottled_gas%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "liquefied_petroleum_gas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gas%1:27:00::"))
+(InheritanceLink s (WordSenseNode "hydrocarbon%1:27:00::"))
+(define x (WordNode "bottled_gas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gas%1:27:00::"))
+(InheritanceLink s (WordSenseNode "hydrocarbon%1:27:00::"))

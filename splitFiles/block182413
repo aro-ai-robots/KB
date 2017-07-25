@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wheat_flour%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wheat_flour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flour%1:13:00::"))
+(InheritanceLink (WordSenseNode "whole_wheat_flour%1:13:00::") s)
+(InheritanceLink (WordSenseNode "graham_flour%1:13:00::") s)
+(InheritanceLink (WordSenseNode "graham%1:13:00::") s)
+(InheritanceLink (WordSenseNode "whole_meal_flour%1:13:00::") s)

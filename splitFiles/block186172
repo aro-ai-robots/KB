@@ -1,0 +1,6 @@
+(define s (WordSenseNode "zambian_monetary_unit%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Zambian_monetary_unit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "monetary_unit%1:23:00::"))
+(InheritanceLink (WordSenseNode "Zambian_kwacha%1:23:00::") s)
+(InheritanceLink (WordSenseNode "kwacha%1:23:02::") s)
+(InheritanceLink (WordSenseNode "ngwee%1:23:00::") s)

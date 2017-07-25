@@ -1,0 +1,8 @@
+(define s (WordSenseNode "katydid%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "katydid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "long-horned_grasshopper%1:05:00::"))
+(InheritanceLink s (WordSenseNode "tettigoniid%1:05:00::"))
+(InheritanceLink (WordSenseNode "mormon_cricket%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Anabrus_simplex%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Microcentrum%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Microcentrum%1:05:00::"))

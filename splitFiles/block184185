@@ -1,0 +1,5 @@
+(define s (WordSenseNode "witch%1:18:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Wiccan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pagan%1:18:01::"))
+(define x (WordNode "witch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pagan%1:18:01::"))

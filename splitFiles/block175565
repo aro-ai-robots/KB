@@ -1,0 +1,6 @@
+(define s (WordSenseNode "unfitness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "unfitness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unsuitability%1:07:00::"))
+(InheritanceLink s (WordSenseNode "unsuitableness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "ineptness%1:07:01::"))
+(InheritanceLink (WordSenseNode "disqualification%1:07:00::") s)

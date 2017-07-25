@@ -1,0 +1,6 @@
+(define s (WordSenseNode "car_care%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "car_care")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "care%1:04:00::"))
+(InheritanceLink s (WordSenseNode "maintenance%1:04:00::"))
+(InheritanceLink s (WordSenseNode "upkeep%1:04:00::"))
+(InheritanceLink (WordSenseNode "oil_change%1:04:00::") s)

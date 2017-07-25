@@ -1,0 +1,7 @@
+(define s (WordSenseNode "overhead%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disk_overhead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disk_space%1:15:00::"))
+(InheritanceLink s (WordSenseNode "disc_space%1:15:00::"))
+(define x (WordNode "overhead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disk_space%1:15:00::"))
+(InheritanceLink s (WordSenseNode "disc_space%1:15:00::"))

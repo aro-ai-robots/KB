@@ -1,0 +1,5 @@
+(define s (WordSenseNode "steam%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "steam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vapor%1:27:01::"))
+(InheritanceLink s (WordSenseNode "vapour%1:27:01::"))
+(InheritanceLink (WordSenseNode "live_steam%1:27:00::") s)

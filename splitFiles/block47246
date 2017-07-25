@@ -1,0 +1,4 @@
+(define s (WordSenseNode "discolor%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "discolor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(InheritanceLink (WordSenseNode "wash_out%2:30:02::") s)

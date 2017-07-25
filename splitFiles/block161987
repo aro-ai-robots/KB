@@ -1,0 +1,3 @@
+(define s (WordSenseNode "submit%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "submit")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "subject%2:33:00::") s)

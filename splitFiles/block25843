@@ -1,0 +1,6 @@
+(define s (WordSenseNode "cardinal_virtue%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cardinal_virtue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "virtue%1:07:04::"))
+(InheritanceLink (WordSenseNode "natural_virtue%1:07:00::") s)
+(InheritanceLink (WordSenseNode "theological_virtue%1:07:00::") s)
+(InheritanceLink (WordSenseNode "supernatural_virtue%1:07:00::") s)

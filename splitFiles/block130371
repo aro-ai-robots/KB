@@ -1,0 +1,7 @@
+(define s (WordSenseNode "preterit%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preterit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "past%1:10:00::"))
+(InheritanceLink s (WordSenseNode "past_tense%1:10:00::"))
+(define x (WordNode "preterite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "past%1:10:00::"))
+(InheritanceLink s (WordSenseNode "past_tense%1:10:00::"))

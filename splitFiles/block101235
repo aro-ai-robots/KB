@@ -1,0 +1,7 @@
+(define s (WordSenseNode "magnetic_variation%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "magnetic_declination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angle%1:25:00::"))
+(define x (WordNode "magnetic_variation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angle%1:25:00::"))
+(define x (WordNode "variation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angle%1:25:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "literal_interpretation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "literal_interpretation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interpretation%1:10:00::"))
+(InheritanceLink (WordSenseNode "letter%1:10:03::") s)

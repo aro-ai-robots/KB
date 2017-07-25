@@ -1,0 +1,7 @@
+(define s (WordSenseNode "onionskin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "onionskin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "typewriter_paper%1:27:00::"))
+(InheritanceLink s (WordSenseNode "typing_paper%1:27:00::"))
+(define x (WordNode "flimsy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "typewriter_paper%1:27:00::"))
+(InheritanceLink s (WordSenseNode "typing_paper%1:27:00::"))

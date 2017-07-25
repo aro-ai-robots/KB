@@ -1,0 +1,5 @@
+(define s (WordSenseNode "loft%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "loft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shelter%1:06:00::"))
+(define x (WordNode "pigeon_loft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shelter%1:06:00::"))

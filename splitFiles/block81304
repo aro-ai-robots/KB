@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hold-down%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hold-down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "limitation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "restriction%1:04:00::"))

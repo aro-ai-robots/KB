@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shutter%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shutter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blind%1:06:00::"))
+(InheritanceLink s (WordSenseNode "screen%1:06:04::"))
+(InheritanceLink (WordSenseNode "deadlight%1:06:00::") s)
+(InheritanceLink (WordSenseNode "jalousie%1:06:00::") s)
+(HolonymLink s (WordSenseNode "double-hung_window%1:06:00::"))

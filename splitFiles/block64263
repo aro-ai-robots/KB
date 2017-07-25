@@ -1,0 +1,4 @@
+(define s (WordSenseNode "foreclose%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "foreclose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reclaim%2:40:00::"))
+(InheritanceLink s (WordSenseNode "repossess%2:40:00::"))

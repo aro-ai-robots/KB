@@ -1,0 +1,8 @@
+(define s (WordSenseNode "entertain%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "entertain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "socialize%2:41:01::"))
+(InheritanceLink s (WordSenseNode "socialise%2:41:01::"))
+(InheritanceLink (WordSenseNode "host%2:34:00::") s)
+(InheritanceLink (WordSenseNode "amuse%2:41:00::") s)
+(InheritanceLink (WordSenseNode "divert%2:41:00::") s)
+(InheritanceLink (WordSenseNode "disport%2:41:00::") s)

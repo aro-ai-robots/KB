@@ -1,0 +1,7 @@
+(define s (WordSenseNode "caper_tree%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caper_tree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caper%1:20:00::"))
+(define x (WordNode "Jamaica_caper_tree")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caper%1:20:00::"))
+(define x (WordNode "Capparis_cynophallophora")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caper%1:20:00::"))

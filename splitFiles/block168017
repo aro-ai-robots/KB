@@ -1,0 +1,5 @@
+(define s (WordSenseNode "theorem%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "theorem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "idea%1:09:00::"))
+(InheritanceLink s (WordSenseNode "thought%1:09:01::"))
+(InheritanceLink (WordSenseNode "Bayes'_theorem%1:09:00::") s)

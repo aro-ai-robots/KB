@@ -1,0 +1,8 @@
+(define s (WordSenseNode "tack%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nail%1:06:00::"))
+(InheritanceLink (WordSenseNode "carpet_tack%1:06:00::") s)
+(InheritanceLink (WordSenseNode "thumbtack%1:06:00::") s)
+(InheritanceLink (WordSenseNode "drawing_pin%1:06:00::") s)
+(InheritanceLink (WordSenseNode "pushpin%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tintack%1:06:00::") s)

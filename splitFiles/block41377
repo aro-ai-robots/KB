@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cushion%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cushion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "layer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bed%1:06:04::"))

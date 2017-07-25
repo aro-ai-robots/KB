@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bench_clamp%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bench_clamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clamp%1:06:00::"))
+(InheritanceLink s (WordSenseNode "clinch%1:06:02::"))

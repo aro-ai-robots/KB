@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tauten%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tauten")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tighten%2:30:01::"))
+(InheritanceLink s (WordSenseNode "fasten%2:30:00::"))
+(define x (WordNode "firm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tighten%2:30:01::"))
+(InheritanceLink s (WordSenseNode "fasten%2:30:00::"))

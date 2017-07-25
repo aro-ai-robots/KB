@@ -1,0 +1,4 @@
+(define s (WordSenseNode "output-to-input_ratio%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "output-to-input_ratio")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ratio%1:24:01::"))
+(HolonymLink s (WordSenseNode "frequency_response%1:07:00::"))

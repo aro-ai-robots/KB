@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bladderpod%1:20:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bladderpod")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "herb%1:20:00::"))
+(InheritanceLink s (WordSenseNode "herbaceous_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "Vesicaria%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Vesicaria%1:20:00::"))

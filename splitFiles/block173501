@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tuna%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tuna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prickly_pear%1:20:01::"))
+(InheritanceLink s (WordSenseNode "prickly_pear_cactus%1:20:00::"))
+(define x (WordNode "Opuntia_tuna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prickly_pear%1:20:01::"))
+(InheritanceLink s (WordSenseNode "prickly_pear_cactus%1:20:00::"))

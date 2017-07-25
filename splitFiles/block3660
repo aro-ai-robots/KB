@@ -1,0 +1,6 @@
+(define s (WordSenseNode "airstream%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "airstream")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wind%1:19:00::"))
+(InheritanceLink s (WordSenseNode "air_current%1:19:01::"))
+(InheritanceLink s (WordSenseNode "current_of_air%1:19:00::"))
+(InheritanceLink (WordSenseNode "jet_stream%1:19:00::") s)

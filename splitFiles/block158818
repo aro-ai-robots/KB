@@ -1,0 +1,7 @@
+(define s (WordSenseNode "standard_temperature%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "standard_temperature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "degree_centigrade%1:23:00::"))
+(InheritanceLink s (WordSenseNode "degree_Celsius%1:23:00::"))
+(InheritanceLink s (WordSenseNode "C%1:23:02::"))
+(InheritanceLink (WordSenseNode "STP%1:23:00::") s)
+(InheritanceLink (WordSenseNode "s.t.p.%1:23:00::") s)

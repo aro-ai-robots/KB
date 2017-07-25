@@ -1,0 +1,5 @@
+(define s (WordSenseNode "buffalo_bill's_wild_west_show%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Wild_West_Show")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "show%1:04:00::"))
+(define x (WordNode "Buffalo_Bill's_Wild_West_Show")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "show%1:04:00::"))

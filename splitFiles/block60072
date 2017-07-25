@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fatherliness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fatherliness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parental_quality%1:07:00::"))
+(define x (WordNode "paternal_quality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parental_quality%1:07:00::"))

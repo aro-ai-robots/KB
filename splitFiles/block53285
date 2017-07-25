@@ -1,0 +1,5 @@
+(define s (WordSenseNode "embank%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "embank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enclose%2:42:00::"))
+(InheritanceLink s (WordSenseNode "hold_in%2:42:00::"))
+(InheritanceLink s (WordSenseNode "confine%2:42:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dishwashing_detergent%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dishwasher_detergent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detergent%1:06:00::"))
+(define x (WordNode "dishwashing_detergent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detergent%1:06:00::"))
+(define x (WordNode "dishwashing_liquid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "detergent%1:06:00::"))

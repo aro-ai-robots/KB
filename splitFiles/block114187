@@ -1,0 +1,5 @@
+(define s (WordSenseNode "note%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "note")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air%1:07:00::"))
+(InheritanceLink s (WordSenseNode "aura%1:07:01::"))
+(InheritanceLink s (WordSenseNode "atmosphere%1:07:00::"))

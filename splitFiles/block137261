@@ -1,0 +1,5 @@
+(define s (WordSenseNode "red_tape%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bureaucratic_procedure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "procedure%1:04:01::"))
+(define x (WordNode "red_tape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "procedure%1:04:01::"))

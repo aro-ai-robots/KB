@@ -1,0 +1,5 @@
+(define s (WordSenseNode "impeach%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "impeach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "charge%2:32:00::"))
+(InheritanceLink s (WordSenseNode "lodge%2:32:00::"))
+(InheritanceLink s (WordSenseNode "file%2:32:01::"))

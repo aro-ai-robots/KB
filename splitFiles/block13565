@@ -1,0 +1,7 @@
+(define s (WordSenseNode "barcarolle%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "barcarole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "song%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vocal%1:10:01::"))
+(define x (WordNode "barcarolle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "song%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vocal%1:10:01::"))

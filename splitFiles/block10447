@@ -1,0 +1,7 @@
+(define s (WordSenseNode "astrantia_major%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "greater_masterwort")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astrantia%1:20:00::"))
+(InheritanceLink s (WordSenseNode "masterwort%1:20:00::"))
+(define x (WordNode "Astrantia_major")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astrantia%1:20:00::"))
+(InheritanceLink s (WordSenseNode "masterwort%1:20:00::"))

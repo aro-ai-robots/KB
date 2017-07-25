@@ -1,0 +1,4 @@
+(define s (WordSenseNode "vaginal_discharge%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vaginal_discharge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discharge%1:27:00::"))
+(InheritanceLink s (WordSenseNode "emission%1:27:00::"))

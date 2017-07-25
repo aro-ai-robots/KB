@@ -1,0 +1,8 @@
+(define s (WordSenseNode "salad_burnet%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "salad_burnet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salad_green%1:13:00::"))
+(InheritanceLink s (WordSenseNode "salad_greens%1:13:00::"))
+(HolonymLink s (WordSenseNode "salad_burnet%1:20:00::"))
+(HolonymLink s (WordSenseNode "burnet_bloodwort%1:20:00::"))
+(HolonymLink s (WordSenseNode "pimpernel%1:20:02::"))
+(HolonymLink s (WordSenseNode "Poterium_sanguisorba%1:20:00::"))

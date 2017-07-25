@@ -1,0 +1,7 @@
+(define s (WordSenseNode "silkscreen%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "silkscreen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "print%1:06:00::"))
+(define x (WordNode "silk_screen_print")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "print%1:06:00::"))
+(define x (WordNode "serigraph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "print%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "jury_box%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jury_box")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "box%1:06:01::"))
+(HolonymLink s (WordSenseNode "court%1:06:02::"))
+(HolonymLink s (WordSenseNode "courtroom%1:06:00::"))

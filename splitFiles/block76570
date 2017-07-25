@@ -1,0 +1,5 @@
+(define s (WordSenseNode "gummosis%1:26:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brown_rot_gummosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brown_rot%1:26:00::"))
+(define x (WordNode "gummosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brown_rot%1:26:00::"))

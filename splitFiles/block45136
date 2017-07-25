@@ -1,0 +1,5 @@
+(define s (WordSenseNode "derring-do%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "derring-do")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feat%1:04:00::"))
+(InheritanceLink s (WordSenseNode "effort%1:04:02::"))
+(InheritanceLink s (WordSenseNode "exploit%1:04:00::"))

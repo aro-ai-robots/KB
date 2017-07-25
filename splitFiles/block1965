@@ -1,0 +1,7 @@
+(define s (WordSenseNode "adaptation%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adaptation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alteration%1:04:01::"))
+(InheritanceLink s (WordSenseNode "modification%1:04:00::"))
+(InheritanceLink s (WordSenseNode "adjustment%1:04:00::"))
+(InheritanceLink (WordSenseNode "dark_adaptation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "light_adaptation%1:04:00::") s)

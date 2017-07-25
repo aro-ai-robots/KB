@@ -1,0 +1,7 @@
+(define s (WordSenseNode "standard_transmission%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "standard_transmission")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transmission%1:06:01::"))
+(InheritanceLink s (WordSenseNode "transmission_system%1:06:00::"))
+(define x (WordNode "stick_shift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transmission%1:06:01::"))
+(InheritanceLink s (WordSenseNode "transmission_system%1:06:00::"))

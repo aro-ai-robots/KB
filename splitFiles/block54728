@@ -1,0 +1,7 @@
+(define s (WordSenseNode "epicenter%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epicenter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geographic_point%1:15:00::"))
+(InheritanceLink s (WordSenseNode "geographical_point%1:15:00::"))
+(define x (WordNode "epicentre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geographic_point%1:15:00::"))
+(InheritanceLink s (WordSenseNode "geographical_point%1:15:00::"))

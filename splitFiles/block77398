@@ -1,0 +1,5 @@
+(define s (WordSenseNode "half_track%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "half_track")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "track%1:06:06::"))
+(InheritanceLink s (WordSenseNode "caterpillar_track%1:06:00::"))
+(InheritanceLink s (WordSenseNode "caterpillar_tread%1:06:00::"))

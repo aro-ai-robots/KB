@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bed_check%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bed_check")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confirmation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "verification%1:09:00::"))
+(InheritanceLink s (WordSenseNode "check%1:09:01::"))
+(InheritanceLink s (WordSenseNode "substantiation%1:09:00::"))

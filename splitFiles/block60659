@@ -1,0 +1,6 @@
+(define s (WordSenseNode "femtosecond%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "femtosecond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_unit%1:28:00::"))
+(InheritanceLink s (WordSenseNode "unit_of_time%1:28:00::"))
+(HolonymLink s (WordSenseNode "picosecond%1:28:00::"))
+(HolonymLink (WordSenseNode "attosecond%1:28:00::") s)

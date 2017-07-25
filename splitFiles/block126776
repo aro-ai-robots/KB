@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pleochroism%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pleochroism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "dichroism%1:19:00::") s)
+(InheritanceLink (WordSenseNode "trichroism%1:19:00::") s)

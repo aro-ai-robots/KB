@@ -1,0 +1,4 @@
+(define s (WordSenseNode "serial_port%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "serial_port")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interface%1:06:01::"))
+(InheritanceLink s (WordSenseNode "port%1:06:01::"))

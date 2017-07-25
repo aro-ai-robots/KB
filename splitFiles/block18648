@@ -1,0 +1,5 @@
+(define s (WordSenseNode "board_rule%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "board_rule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "measuring_stick%1:06:00::"))
+(InheritanceLink s (WordSenseNode "measure%1:06:00::"))
+(InheritanceLink s (WordSenseNode "measuring_rod%1:06:00::"))

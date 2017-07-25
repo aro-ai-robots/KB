@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tiepin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tie_tack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pin%1:06:01::"))
+(define x (WordNode "tiepin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pin%1:06:01::"))
+(define x (WordNode "scarfpin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pin%1:06:01::"))

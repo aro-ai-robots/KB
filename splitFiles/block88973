@@ -1,0 +1,5 @@
+(define s (WordSenseNode "iris_scanning%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "iris_scanning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "biometric_identification%1:10:00::"))
+(InheritanceLink s (WordSenseNode "biometric_authentication%1:10:00::"))
+(InheritanceLink s (WordSenseNode "identity_verification%1:10:00::"))

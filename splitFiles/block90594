@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jeu_d'esprit%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jeu_d'esprit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wit%1:10:00::"))
+(InheritanceLink s (WordSenseNode "humor%1:10:00::"))
+(InheritanceLink s (WordSenseNode "humour%1:10:00::"))
+(InheritanceLink s (WordSenseNode "witticism%1:10:00::"))
+(InheritanceLink s (WordSenseNode "wittiness%1:10:00::"))

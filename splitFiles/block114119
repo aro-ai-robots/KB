@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nose%2:39:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "scent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "smell%2:39:01::"))
+(define x (WordNode "nose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "smell%2:39:01::"))
+(define x (WordNode "wind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "smell%2:39:01::"))

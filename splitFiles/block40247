@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cross_country%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cross_country")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "race%1:11:00::"))
+(InheritanceLink (WordSenseNode "Iditarod%1:11:00::") s)
+(InheritanceLink (WordSenseNode "Iditarod_Trail_Dog_Sled_Race%1:11:00::") s)

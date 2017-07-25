@@ -1,0 +1,5 @@
+(define s (WordSenseNode "zap%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "zap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))
+(define x (WordNode "vaporize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))

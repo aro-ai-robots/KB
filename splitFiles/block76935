@@ -1,0 +1,7 @@
+(define s (WordSenseNode "habenaria_unalascensis%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Alaska_rein_orchid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rein_orchid%1:20:00::"))
+(InheritanceLink s (WordSenseNode "rein_orchis%1:20:00::"))
+(define x (WordNode "Habenaria_unalascensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rein_orchid%1:20:00::"))
+(InheritanceLink s (WordSenseNode "rein_orchis%1:20:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "potato_scab_bacteria%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "potato_scab_bacteria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "streptomyces%1:05:00::"))
+(define x (WordNode "Streptomyces_scabies")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "streptomyces%1:05:00::"))

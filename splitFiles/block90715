@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jingoism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flag_waving")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demagoguery%1:10:00::"))
+(InheritanceLink s (WordSenseNode "demagogy%1:10:00::"))
+(define x (WordNode "jingoism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "demagoguery%1:10:00::"))
+(InheritanceLink s (WordSenseNode "demagogy%1:10:00::"))

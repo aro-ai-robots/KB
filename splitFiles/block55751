@@ -1,0 +1,4 @@
+(define s (WordSenseNode "etching%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "etching")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "engraving%1:06:01::"))
+(InheritanceLink (WordSenseNode "aquatint%1:06:00::") s)

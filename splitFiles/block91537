@@ -1,0 +1,7 @@
+(define s (WordSenseNode "julep%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "julep")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "highball%1:13:00::"))
+(HolonymLink (WordSenseNode "bourbon%1:13:00::") s)
+(define x (WordNode "mint_julep")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "highball%1:13:00::"))
+(HolonymLink (WordSenseNode "bourbon%1:13:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "or_circuit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "OR_circuit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gate%1:06:01::"))
+(InheritanceLink s (WordSenseNode "logic_gate%1:06:00::"))
+(define x (WordNode "OR_gate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gate%1:06:01::"))
+(InheritanceLink s (WordSenseNode "logic_gate%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "screw%2:35:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "screw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "revolve%2:38:00::"))
+(InheritanceLink s (WordSenseNode "go_around%2:38:01::"))
+(InheritanceLink s (WordSenseNode "rotate%2:38:01::"))
+(InheritanceLink (WordSenseNode "screw_up%2:35:00::") s)

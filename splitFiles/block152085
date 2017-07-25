@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sind%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Sind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:00::"))
+(InheritanceLink s (WordSenseNode "part%1:15:00::"))
+(HolonymLink s (WordSenseNode "Pakistan%1:15:00::"))
+(HolonymLink s (WordSenseNode "Islamic_Republic_of_Pakistan%1:15:00::"))
+(HolonymLink s (WordSenseNode "West_Pakistan%1:15:00::"))

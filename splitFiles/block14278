@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bathyscaphe%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bathyscaphe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "submersible%1:06:01::"))
+(define x (WordNode "bathyscaph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "submersible%1:06:01::"))
+(define x (WordNode "bathyscape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "submersible%1:06:01::"))

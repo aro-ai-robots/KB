@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bungarus_fasciatus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "banded_krait")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "krait%1:05:00::"))
+(define x (WordNode "banded_adder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "krait%1:05:00::"))
+(define x (WordNode "Bungarus_fasciatus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "krait%1:05:00::"))

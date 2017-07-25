@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reputation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reputation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "estimate%1:09:01::"))
+(InheritanceLink s (WordSenseNode "estimation%1:09:01::"))
+(define x (WordNode "report")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "estimate%1:09:01::"))
+(InheritanceLink s (WordSenseNode "estimation%1:09:01::"))

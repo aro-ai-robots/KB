@@ -1,0 +1,5 @@
+(define s (WordSenseNode "polymorphism%1:19:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polymorphism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_phenomenon%1:19:00::"))
+(InheritanceLink (WordSenseNode "single_nucleotide_polymorphism%1:19:00::") s)
+(InheritanceLink (WordSenseNode "SNP%1:19:00::") s)

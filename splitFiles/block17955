@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blind_curve%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blind_curve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bend%1:06:00::"))
+(InheritanceLink s (WordSenseNode "curve%1:06:00::"))
+(define x (WordNode "blind_bend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bend%1:06:00::"))
+(InheritanceLink s (WordSenseNode "curve%1:06:00::"))

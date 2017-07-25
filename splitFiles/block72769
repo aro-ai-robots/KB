@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gin_and_tonic%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gin_and_tonic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "highball%1:13:00::"))
+(HolonymLink (WordSenseNode "gin%1:13:00::") s)
+(HolonymLink (WordSenseNode "tonic%1:13:02::") s)
+(HolonymLink (WordSenseNode "tonic_water%1:13:00::") s)
+(HolonymLink (WordSenseNode "quinine_water%1:13:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "unmasking%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "expose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exposure%1:10:00::"))
+(define x (WordNode "unmasking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exposure%1:10:00::"))

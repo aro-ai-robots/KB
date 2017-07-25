@@ -1,0 +1,7 @@
+(define s (WordSenseNode "date_stamp%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "date")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "date%2:31:01::"))
+(InheritanceLink s (WordSenseNode "stamp%2:35:01::"))
+(define x (WordNode "date_stamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "date%2:31:01::"))
+(InheritanceLink s (WordSenseNode "stamp%2:35:01::"))

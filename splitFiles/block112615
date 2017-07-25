@@ -1,0 +1,5 @@
+(define s (WordSenseNode "newel%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "newel_post")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "post%1:06:00::"))
+(define x (WordNode "newel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "post%1:06:00::"))

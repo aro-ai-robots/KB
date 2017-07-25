@@ -1,0 +1,8 @@
+(define s (WordSenseNode "minor_fast_day%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "minor_fast_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fast_day%1:28:00::"))
+(InheritanceLink (WordSenseNode "Fast_of_Gedaliah%1:28:00::") s)
+(InheritanceLink (WordSenseNode "Fast_of_Tevet%1:28:00::") s)
+(InheritanceLink (WordSenseNode "Fast_of_Esther%1:28:00::") s)
+(InheritanceLink (WordSenseNode "Fast_of_the_Firstborn%1:28:00::") s)
+(InheritanceLink (WordSenseNode "Fast_of_Tammuz%1:28:00::") s)

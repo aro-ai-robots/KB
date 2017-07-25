@@ -1,0 +1,5 @@
+(define s (WordSenseNode "finding_of_law%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "finding_of_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finding%1:04:01::"))
+(define x (WordNode "conclusion_of_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finding%1:04:01::"))

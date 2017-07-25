@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gasometer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gas_holder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tank%1:06:00::"))
+(InheritanceLink s (WordSenseNode "storage_tank%1:06:00::"))
+(define x (WordNode "gasometer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tank%1:06:00::"))
+(InheritanceLink s (WordSenseNode "storage_tank%1:06:00::"))

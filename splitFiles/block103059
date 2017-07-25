@@ -1,0 +1,6 @@
+(define s (WordSenseNode "marking%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "marking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decoration%1:04:00::"))
+(InheritanceLink (WordSenseNode "lineation%1:04:00::") s)
+(InheritanceLink (WordSenseNode "mottling%1:04:00::") s)
+(InheritanceLink (WordSenseNode "striping%1:04:00::") s)

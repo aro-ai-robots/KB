@@ -1,0 +1,7 @@
+(define s (WordSenseNode "common_topaz%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "topaz")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quartz%1:27:00::"))
+(define x (WordNode "false_topaz")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quartz%1:27:00::"))
+(define x (WordNode "common_topaz")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quartz%1:27:00::"))

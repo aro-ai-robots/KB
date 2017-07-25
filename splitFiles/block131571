@@ -1,0 +1,4 @@
+(define s (WordSenseNode "proof%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "proof")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photographic_print%1:06:00::"))
+(InheritanceLink s (WordSenseNode "print%1:06:02::"))

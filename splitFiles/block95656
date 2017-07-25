@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lead_carbonate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_lead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pigment%1:27:00::"))
+(define x (WordNode "ceruse")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pigment%1:27:00::"))
+(define x (WordNode "lead_carbonate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pigment%1:27:00::"))

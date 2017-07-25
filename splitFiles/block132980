@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pulp%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pulp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_tissue%1:20:00::"))
+(HolonymLink (WordSenseNode "parenchyma%1:20:02::") s)
+(define x (WordNode "flesh")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_tissue%1:20:00::"))
+(HolonymLink (WordSenseNode "parenchyma%1:20:02::") s)

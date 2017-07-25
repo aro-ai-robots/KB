@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dredging_bucket%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dredging_bucket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bucket%1:06:00::"))
+(InheritanceLink s (WordSenseNode "pail%1:06:00::"))
+(InheritanceLink (WordSenseNode "clamshell%1:06:00::") s)
+(InheritanceLink (WordSenseNode "grapple%1:06:01::") s)
+(HolonymLink s (WordSenseNode "dredge%1:06:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "photogravure%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "photogravure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "intaglio_printing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "intaglio%1:10:00::"))
+(InheritanceLink s (WordSenseNode "gravure%1:10:00::"))
+(InheritanceLink (WordSenseNode "rotogravure%1:10:00::") s)

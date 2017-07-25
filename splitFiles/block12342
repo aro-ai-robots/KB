@@ -1,0 +1,7 @@
+(define s (WordSenseNode "back-blast%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "backblast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blowback%1:11:00::"))
+(InheritanceLink s (WordSenseNode "backfire%1:11:01::"))
+(define x (WordNode "back-blast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blowback%1:11:00::"))
+(InheritanceLink s (WordSenseNode "backfire%1:11:01::"))

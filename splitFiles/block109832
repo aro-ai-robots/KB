@@ -1,0 +1,4 @@
+(define s (WordSenseNode "multiplex%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "multiplex")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "telecommunication%1:10:00::"))
+(InheritanceLink s (WordSenseNode "telecom%1:10:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bee%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_gathering%1:14:00::"))
+(InheritanceLink s (WordSenseNode "social_affair%1:14:00::"))
+(InheritanceLink (WordSenseNode "quilting_bee%1:14:00::") s)
+(InheritanceLink (WordSenseNode "husking_bee%1:14:00::") s)
+(InheritanceLink (WordSenseNode "cornhusking%1:14:00::") s)

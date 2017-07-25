@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_dugong%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Dugong")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Dugongidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Dugongidae%1:05:00::"))
+(HolonymLink (WordSenseNode "dugong%1:05:00::") s)
+(HolonymLink (WordSenseNode "Dugong_dugon%1:05:00::") s)

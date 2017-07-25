@@ -1,0 +1,7 @@
+(define s (WordSenseNode "asphyxiator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fire_extinguisher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))
+(define x (WordNode "extinguisher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))
+(define x (WordNode "asphyxiator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))

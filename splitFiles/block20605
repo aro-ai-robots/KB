@@ -1,0 +1,7 @@
+(define s (WordSenseNode "breach%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "gap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "open%2:35:00::"))
+(InheritanceLink s (WordSenseNode "open_up%2:35:00::"))
+(define x (WordNode "breach")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "open%2:35:00::"))
+(InheritanceLink s (WordSenseNode "open_up%2:35:00::"))

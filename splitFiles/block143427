@@ -1,0 +1,7 @@
+(define s (WordSenseNode "russian_orthodox_church%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Russian_Orthodox_Church")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Orthodox_Church%1:14:00::"))
+(InheritanceLink s (WordSenseNode "Orthodox_Catholic_Church%1:14:00::"))
+(InheritanceLink s (WordSenseNode "Eastern_Orthodox_Church%1:14:00::"))
+(InheritanceLink s (WordSenseNode "Eastern_Church%1:14:02::"))
+(InheritanceLink s (WordSenseNode "Eastern_Orthodox%1:14:00::"))

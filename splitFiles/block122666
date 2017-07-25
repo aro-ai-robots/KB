@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pepcid%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "famotidine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "histamine_blocker%1:06:00::"))
+(define x (WordNode "Pepcid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "histamine_blocker%1:06:00::"))

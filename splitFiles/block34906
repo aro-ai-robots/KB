@@ -1,0 +1,7 @@
+(define s (WordSenseNode "common_soldier%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "private")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enlisted_man%1:18:00::"))
+(define x (WordNode "buck_private")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enlisted_man%1:18:00::"))
+(define x (WordNode "common_soldier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enlisted_man%1:18:00::"))

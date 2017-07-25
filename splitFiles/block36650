@@ -1,0 +1,7 @@
+(define s (WordSenseNode "conspicuous_consumption%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conspicuous_consumption")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "consumption%1:22:00::"))
+(InheritanceLink s (WordSenseNode "economic_consumption%1:22:00::"))
+(InheritanceLink s (WordSenseNode "usance%1:22:00::"))
+(InheritanceLink s (WordSenseNode "use%1:22:00::"))
+(InheritanceLink s (WordSenseNode "use_of_goods_and_services%1:22:00::"))

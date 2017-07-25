@@ -1,0 +1,5 @@
+(define s (WordSenseNode "catch%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "catch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indefinite_quantity%1:23:00::"))
+(define x (WordNode "haul")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indefinite_quantity%1:23:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sudden_death%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sudden_death")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "overtime%1:28:00::"))
+(InheritanceLink s (WordSenseNode "extra_time%1:28:00::"))

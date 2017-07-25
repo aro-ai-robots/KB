@@ -1,0 +1,5 @@
+(define s (WordSenseNode "free_kick%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "free_kick")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "place_kick%1:04:00::"))
+(InheritanceLink s (WordSenseNode "place-kicking%1:04:00::"))
+(InheritanceLink (WordSenseNode "corner_kick%1:04:00::") s)

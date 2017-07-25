@@ -1,0 +1,7 @@
+(define s (WordSenseNode "photopigment%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "photopigment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pigment%1:27:00::"))
+(InheritanceLink (WordSenseNode "iodopsin%1:27:00::") s)
+(InheritanceLink (WordSenseNode "visual_purple%1:27:00::") s)
+(InheritanceLink (WordSenseNode "rhodopsin%1:27:00::") s)
+(InheritanceLink (WordSenseNode "retinal_purple%1:27:00::") s)

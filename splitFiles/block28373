@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chain_fern%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chain_fern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fern%1:20:00::"))
+(InheritanceLink (WordSenseNode "Virginia_chain_fern%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Woodwardia_virginica%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Woodwardia%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Woodwardia%1:20:00::"))

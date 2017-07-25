@@ -1,0 +1,5 @@
+(define s (WordSenseNode "co-optation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "co-option")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "election%1:04:00::"))
+(define x (WordNode "co-optation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "election%1:04:00::"))

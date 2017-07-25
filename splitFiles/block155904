@@ -1,0 +1,8 @@
+(define s (WordSenseNode "south_american_poison_toad%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "South_American_poison_toad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "frog%1:05:00::"))
+(InheritanceLink s (WordSenseNode "toad%1:05:00::"))
+(InheritanceLink s (WordSenseNode "toad_frog%1:05:00::"))
+(InheritanceLink s (WordSenseNode "anuran%1:05:00::"))
+(InheritanceLink s (WordSenseNode "batrachian%1:05:00::"))
+(InheritanceLink s (WordSenseNode "salientian%1:05:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "uruguayan%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Uruguayan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "South_American%1:18:00::"))
+(HolonymLink s (WordSenseNode "Uruguay%1:15:00::"))

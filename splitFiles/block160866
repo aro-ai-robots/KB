@@ -1,0 +1,7 @@
+(define s (WordSenseNode "streamer%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "streamer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "headline%1:10:00::"))
+(InheritanceLink s (WordSenseNode "newspaper_headline%1:10:00::"))
+(define x (WordNode "banner")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "headline%1:10:00::"))
+(InheritanceLink s (WordSenseNode "newspaper_headline%1:10:00::"))

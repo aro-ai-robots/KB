@@ -1,0 +1,4 @@
+(define s (WordSenseNode "attenuate%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "attenuate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:00::"))
+(InheritanceLink (WordSenseNode "refine%2:30:03::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "social_action%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "social_action")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "social_policy%1:10:00::"))
+(InheritanceLink (WordSenseNode "affirmative_action%1:10:00::") s)
+(InheritanceLink (WordSenseNode "fence_mending%1:10:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ontology%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ontology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "arrangement%1:09:00::"))
+(InheritanceLink s (WordSenseNode "organization%1:09:00::"))
+(InheritanceLink s (WordSenseNode "organisation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "system%1:09:02::"))

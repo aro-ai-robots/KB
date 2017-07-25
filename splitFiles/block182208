@@ -1,0 +1,5 @@
+(define s (WordSenseNode "west_nile_encephalitis_virus%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "West_Nile_virus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flavivirus%1:05:00::"))
+(define x (WordNode "West_Nile_encephalitis_virus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flavivirus%1:05:00::"))

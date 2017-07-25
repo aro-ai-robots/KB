@@ -1,0 +1,4 @@
+(define s (WordSenseNode "tetri%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tetri")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Georgian_monetary_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "lari%1:23:00::"))

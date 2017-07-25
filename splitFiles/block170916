@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tourniquet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compression_bandage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bandage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "patch%1:06:04::"))
+(define x (WordNode "tourniquet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bandage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "patch%1:06:04::"))

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "disinformation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disinformation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misinformation%1:10:00::"))

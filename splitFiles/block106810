@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mineral_deficiency%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mineral_deficiency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lack%1:26:00::"))
+(InheritanceLink s (WordSenseNode "deficiency%1:26:00::"))
+(InheritanceLink s (WordSenseNode "want%1:26:01::"))
+(InheritanceLink (WordSenseNode "sideropenia%1:26:00::") s)

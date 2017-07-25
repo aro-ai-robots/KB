@@ -1,0 +1,5 @@
+(define s (WordSenseNode "face_recognition%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "face_recognition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "visual_perception%1:09:00::"))
+(InheritanceLink s (WordSenseNode "beholding%1:09:00::"))
+(InheritanceLink s (WordSenseNode "seeing%1:09:02::"))

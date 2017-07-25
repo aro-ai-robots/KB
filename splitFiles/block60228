@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fear%2:37:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "fear")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "panic%2:37:00::") s)
+(define x (WordNode "dread")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "panic%2:37:00::") s)

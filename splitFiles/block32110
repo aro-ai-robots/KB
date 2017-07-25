@@ -1,0 +1,5 @@
+(define s (WordSenseNode "clearing_house%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clearing_house")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_institution%1:14:00::"))
+(InheritanceLink s (WordSenseNode "financial_organization%1:14:00::"))
+(InheritanceLink s (WordSenseNode "financial_organisation%1:14:00::"))

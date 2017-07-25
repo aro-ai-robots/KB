@@ -1,0 +1,4 @@
+(define s (WordSenseNode "reservation%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reservation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prearrangement%1:09:00::"))
+(InheritanceLink (WordSenseNode "upgrade%1:09:00::") s)

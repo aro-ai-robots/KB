@@ -1,0 +1,5 @@
+(define s (WordSenseNode "margarin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "margarin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glyceryl_ester%1:27:00::"))
+(define x (WordNode "glycerol_trimargarate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glyceryl_ester%1:27:00::"))

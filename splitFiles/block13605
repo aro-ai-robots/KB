@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bargainer%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bargainer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "negotiator%1:18:00::"))
+(InheritanceLink s (WordSenseNode "negotiant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "treater%1:18:00::"))
+(InheritanceLink (WordSenseNode "haggler%1:18:00::") s)

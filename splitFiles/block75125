@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gravity_wave%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gravity_wave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:11:00::"))
+(InheritanceLink s (WordSenseNode "undulation%1:11:00::"))
+(define x (WordNode "gravitation_wave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:11:00::"))
+(InheritanceLink s (WordSenseNode "undulation%1:11:00::"))

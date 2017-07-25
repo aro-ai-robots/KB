@@ -1,0 +1,7 @@
+(define s (WordSenseNode "3d%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "three-D")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appearance%1:09:00::"))
+(define x (WordNode "3-D")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appearance%1:09:00::"))
+(define x (WordNode "3D")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appearance%1:09:00::"))

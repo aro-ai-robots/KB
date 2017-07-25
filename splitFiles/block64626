@@ -1,0 +1,7 @@
+(define s (WordSenseNode "forssman_antibody%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "heterophil_antibody")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antibody%1:27:00::"))
+(define x (WordNode "heterophile_antibody")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antibody%1:27:00::"))
+(define x (WordNode "Forssman_antibody")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antibody%1:27:00::"))

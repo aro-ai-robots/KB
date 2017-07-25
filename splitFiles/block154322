@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sneak_in%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sneak_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "penetrate%2:35:00::"))
+(InheritanceLink s (WordSenseNode "perforate%2:35:03::"))
+(define x (WordNode "creep_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "penetrate%2:35:00::"))
+(InheritanceLink s (WordSenseNode "perforate%2:35:03::"))

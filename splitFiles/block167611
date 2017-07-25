@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tetraethyl_lead%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tetraethyl_lead")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antiknock%1:27:00::"))
+(define x (WordNode "lead_tetraethyl")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "antiknock%1:27:00::"))

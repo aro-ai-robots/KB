@@ -1,0 +1,7 @@
+(define s (WordSenseNode "radiography%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radiography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "photography%1:04:00::"))
+(InheritanceLink s (WordSenseNode "picture_taking%1:04:00::"))
+(InheritanceLink (WordSenseNode "roentgenography%1:04:00::") s)
+(InheritanceLink (WordSenseNode "X-ray_photography%1:04:00::") s)
+(InheritanceLink (WordSenseNode "xeroradiography%1:04:00::") s)

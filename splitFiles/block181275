@@ -1,0 +1,7 @@
+(define s (WordSenseNode "water_clock%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "water_clock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clock%1:06:00::"))
+(define x (WordNode "clepsydra")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clock%1:06:00::"))
+(define x (WordNode "water_glass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clock%1:06:00::"))

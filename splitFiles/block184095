@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wireless_telegraphy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radiotelegraph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wireless%1:10:00::"))
+(define x (WordNode "radiotelegraphy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wireless%1:10:00::"))
+(define x (WordNode "wireless_telegraphy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wireless%1:10:00::"))

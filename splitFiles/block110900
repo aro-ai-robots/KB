@@ -1,0 +1,7 @@
+(define s (WordSenseNode "naked_mole_rat%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "naked_mole_rat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fossorial_mammal%1:05:00::"))
+(InheritanceLink (WordSenseNode "queen%1:05:02::") s)
+(InheritanceLink (WordSenseNode "queen_mole_rat%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Rodentia%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Rodentia%1:05:00::"))

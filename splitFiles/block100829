@@ -1,0 +1,5 @@
+(define s (WordSenseNode "macguffin%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "McGuffin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plot_element%1:09:00::"))
+(define x (WordNode "MacGuffin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plot_element%1:09:00::"))

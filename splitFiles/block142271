@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rosa_moschata%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "musk_rose")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rose%1:20:00::"))
+(InheritanceLink s (WordSenseNode "rosebush%1:20:00::"))
+(define x (WordNode "Rosa_moschata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rose%1:20:00::"))
+(InheritanceLink s (WordSenseNode "rosebush%1:20:00::"))

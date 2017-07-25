@@ -1,0 +1,5 @@
+(define s (WordSenseNode "break_of_serve%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "break")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "score%1:04:00::"))
+(define x (WordNode "break_of_serve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "score%1:04:00::"))

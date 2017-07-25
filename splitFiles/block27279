@@ -1,0 +1,5 @@
+(define s (WordSenseNode "caudal_appendage%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caudal_appendage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tail%1:05:00::"))
+(HolonymLink s (WordSenseNode "vertebrate%1:05:00::"))
+(HolonymLink s (WordSenseNode "craniate%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "topgallant_mast%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "topgallant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "topmast%1:06:00::"))
+(define x (WordNode "topgallant_mast")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "topmast%1:06:00::"))

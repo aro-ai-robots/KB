@@ -1,0 +1,7 @@
+(define s (WordSenseNode "slender_lady_palm%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reed_rhapis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lady_palm%1:20:00::"))
+(define x (WordNode "slender_lady_palm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lady_palm%1:20:00::"))
+(define x (WordNode "Rhapis_humilis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lady_palm%1:20:00::"))

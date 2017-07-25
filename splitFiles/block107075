@@ -1,0 +1,4 @@
+(define s (WordSenseNode "miranda_rule%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Miranda_rule")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rule%1:10:00::"))
+(InheritanceLink s (WordSenseNode "prescript%1:10:00::"))

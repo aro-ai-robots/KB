@@ -1,0 +1,7 @@
+(define s (WordSenseNode "passport%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "passport")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "legal_document%1:10:00::"))
+(InheritanceLink s (WordSenseNode "legal_instrument%1:10:00::"))
+(InheritanceLink s (WordSenseNode "official_document%1:10:00::"))
+(InheritanceLink s (WordSenseNode "instrument%1:10:00::"))
+(HolonymLink (WordSenseNode "visa%1:10:00::") s)

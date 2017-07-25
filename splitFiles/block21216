@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bring_on%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "produce")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "offer%2:39:06::") s)
+(define x (WordNode "bring_on")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "offer%2:39:06::") s)
+(define x (WordNode "bring_out")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "offer%2:39:06::") s)

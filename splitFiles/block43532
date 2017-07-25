@@ -1,0 +1,5 @@
+(define s (WordSenseNode "declare%2:32:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "declare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%2:32:00::"))
+(InheritanceLink s (WordSenseNode "say%2:32:00::"))
+(InheritanceLink s (WordSenseNode "tell%2:32:04::"))

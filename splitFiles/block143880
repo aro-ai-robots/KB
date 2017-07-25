@@ -1,0 +1,5 @@
+(define s (WordSenseNode "safety_squeeze%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "safety_squeeze_play")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "squeeze_play%1:04:00::"))
+(define x (WordNode "safety_squeeze")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "squeeze_play%1:04:00::"))

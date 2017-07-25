@@ -1,0 +1,7 @@
+(define s (WordSenseNode "built-soap_powder%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "soap_powder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soap%1:06:00::"))
+(define x (WordNode "built-soap_powder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soap%1:06:00::"))
+(define x (WordNode "washing_powder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "soap%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "turp%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transurethral_resection_of_the_prostate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resection%1:04:00::"))
+(define x (WordNode "TURP")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "resection%1:04:00::"))

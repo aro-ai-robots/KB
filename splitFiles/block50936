@@ -1,0 +1,7 @@
+(define s (WordSenseNode "duplex%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "duplex_house")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "house%1:06:00::"))
+(define x (WordNode "duplex")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "house%1:06:00::"))
+(define x (WordNode "semidetached_house")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "house%1:06:00::"))

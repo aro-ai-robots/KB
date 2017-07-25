@@ -1,0 +1,8 @@
+(define s (WordSenseNode "bassoon%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bassoon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "double-reed_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "double_reed%1:06:01::"))
+(InheritanceLink (WordSenseNode "contrabassoon%1:06:00::") s)
+(InheritanceLink (WordSenseNode "contrafagotto%1:06:00::") s)
+(InheritanceLink (WordSenseNode "double_bassoon%1:06:00::") s)
+(InheritanceLink (WordSenseNode "tenoroon%1:06:00::") s)

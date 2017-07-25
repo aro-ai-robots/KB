@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sandglass%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sandglass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "timepiece%1:06:00::"))
+(InheritanceLink s (WordSenseNode "timekeeper%1:06:00::"))
+(InheritanceLink s (WordSenseNode "horologe%1:06:00::"))
+(InheritanceLink (WordSenseNode "egg_timer%1:06:00::") s)
+(InheritanceLink (WordSenseNode "hourglass%1:06:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "drug_trafficking%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drug_traffic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "traffic%1:04:01::"))
+(define x (WordNode "drug_trafficking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "traffic%1:04:01::"))
+(define x (WordNode "narcotraffic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "traffic%1:04:01::"))

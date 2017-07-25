@@ -1,0 +1,5 @@
+(define s (WordSenseNode "forest_god%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "satyr")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Greek_deity%1:18:00::"))
+(define x (WordNode "forest_god")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Greek_deity%1:18:00::"))

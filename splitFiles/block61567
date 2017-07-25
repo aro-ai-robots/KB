@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fils%1:23:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Yemeni_fils")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Yemeni_monetary_unit%1:23:00::"))
+(define x (WordNode "fils")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Yemeni_monetary_unit%1:23:00::"))

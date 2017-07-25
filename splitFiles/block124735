@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pick_up%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "catch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perceive%2:39:00::"))
+(InheritanceLink s (WordSenseNode "comprehend%2:39:00::"))
+(define x (WordNode "pick_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perceive%2:39:00::"))
+(InheritanceLink s (WordSenseNode "comprehend%2:39:00::"))

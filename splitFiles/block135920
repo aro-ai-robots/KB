@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rationale%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rationale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "explanation%1:09:00::"))
+(InheritanceLink (WordSenseNode "dialectics%1:09:01::") s)
+(define x (WordNode "principle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "explanation%1:09:00::"))
+(InheritanceLink (WordSenseNode "dialectics%1:09:01::") s)

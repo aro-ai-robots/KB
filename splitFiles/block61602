@@ -1,0 +1,8 @@
+(define s (WordSenseNode "fin_keel%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fin_keel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%1:06:02::"))
+(InheritanceLink (WordSenseNode "centerboard%1:06:00::") s)
+(InheritanceLink (WordSenseNode "centreboard%1:06:00::") s)
+(InheritanceLink (WordSenseNode "drop_keel%1:06:00::") s)
+(InheritanceLink (WordSenseNode "sliding_keel%1:06:00::") s)
+(HolonymLink s (WordSenseNode "keel%1:06:00::"))

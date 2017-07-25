@@ -1,0 +1,5 @@
+(define s (WordSenseNode "premise%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "premise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "set_forth%2:32:00::"))
+(InheritanceLink s (WordSenseNode "expound%2:32:01::"))
+(InheritanceLink s (WordSenseNode "exposit%2:32:00::"))

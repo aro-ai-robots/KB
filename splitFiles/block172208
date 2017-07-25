@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trephine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trepan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surgical_instrument%1:06:00::"))
+(define x (WordNode "trephine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surgical_instrument%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ticket_book%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ticket_book")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "booklet%1:10:00::"))
+(InheritanceLink s (WordSenseNode "brochure%1:10:00::"))
+(InheritanceLink s (WordSenseNode "folder%1:10:00::"))
+(InheritanceLink s (WordSenseNode "leaflet%1:10:00::"))
+(InheritanceLink s (WordSenseNode "pamphlet%1:10:01::"))

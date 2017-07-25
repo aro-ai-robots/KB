@@ -1,0 +1,7 @@
+(define s (WordSenseNode "segway_ht%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Segway")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))
+(define x (WordNode "Segway_Human_Transporter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))
+(define x (WordNode "Segway_HT")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrical_device%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "counter%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "counter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "answer%2:32:00::"))
+(InheritanceLink s (WordSenseNode "reply%2:32:00::"))
+(InheritanceLink s (WordSenseNode "respond%2:32:00::"))

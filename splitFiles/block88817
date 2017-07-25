@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ion_pump%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ion_pump")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air_pump%1:06:00::"))
+(InheritanceLink s (WordSenseNode "vacuum_pump%1:06:00::"))

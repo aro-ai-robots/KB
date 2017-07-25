@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spiracle%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spiracle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orifice%1:08:00::"))
+(InheritanceLink s (WordSenseNode "opening%1:08:00::"))
+(InheritanceLink s (WordSenseNode "porta%1:08:00::"))
+(InheritanceLink (WordSenseNode "blowhole%1:08:00::") s)
+(InheritanceLink (WordSenseNode "stigma%1:08:00::") s)

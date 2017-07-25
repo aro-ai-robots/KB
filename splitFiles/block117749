@@ -1,0 +1,7 @@
+(define s (WordSenseNode "orlop%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orlop_deck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deck%1:06:00::"))
+(define x (WordNode "orlop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deck%1:06:00::"))
+(define x (WordNode "fourth_deck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deck%1:06:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "water%2:30:04::")) (PartOfSpeechLink s verb)
+(define x (WordNode "water")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fill%2:30:00::"))
+(InheritanceLink s (WordSenseNode "fill_up%2:30:01::"))

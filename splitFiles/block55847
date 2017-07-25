@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ethnography%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ethnography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthropology%1:09:00::"))
+(define x (WordNode "descriptive_anthropology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anthropology%1:09:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_buddleia%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Buddleia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dicot_genus%1:20:00::"))
+(InheritanceLink s (WordSenseNode "magnoliopsid_genus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Loganiaceae%1:20:00::"))
+(HolonymLink s (WordSenseNode "family_Loganiaceae%1:20:00::"))
+(HolonymLink (WordSenseNode "butterfly_bush%1:20:00::") s)
+(HolonymLink (WordSenseNode "buddleia%1:20:00::") s)

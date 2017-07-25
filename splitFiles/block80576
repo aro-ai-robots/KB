@@ -1,0 +1,6 @@
+(define s (WordSenseNode "high_renaissance%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "High_Renaissance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artistic_style%1:07:00::"))
+(InheritanceLink s (WordSenseNode "idiom%1:07:00::"))
+(HolonymLink s (WordSenseNode "Renaissance%1:28:00::"))
+(HolonymLink s (WordSenseNode "Renascence%1:28:00::"))

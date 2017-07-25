@@ -1,0 +1,7 @@
+(define s (WordSenseNode "exchanger%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exchanger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "money_handler%1:18:00::"))
+(InheritanceLink s (WordSenseNode "money_dealer%1:18:00::"))
+(define x (WordNode "money_changer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "money_handler%1:18:00::"))
+(InheritanceLink s (WordSenseNode "money_dealer%1:18:00::"))

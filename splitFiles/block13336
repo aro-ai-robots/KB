@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bankbook%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bankbook")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "record%1:21:00::"))
+(define x (WordNode "passbook")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "record%1:21:00::"))

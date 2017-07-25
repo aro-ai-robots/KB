@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mycobacterium_leprae%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leprosy_bacillus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mycobacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "mycobacterium%1:05:00::"))
+(define x (WordNode "Mycobacterium_leprae")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mycobacteria%1:05:00::"))
+(InheritanceLink s (WordSenseNode "mycobacterium%1:05:00::"))

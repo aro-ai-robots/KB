@@ -1,0 +1,6 @@
+(define s (WordSenseNode "flame_cell%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flame_cell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "excretory_organ%1:08:00::"))
+(InheritanceLink s (WordSenseNode "urinary_organ%1:08:00::"))
+(HolonymLink s (WordSenseNode "flatworm%1:05:00::"))
+(HolonymLink s (WordSenseNode "platyhelminth%1:05:00::"))

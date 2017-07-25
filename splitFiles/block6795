@@ -1,0 +1,5 @@
+(define s (WordSenseNode "annexa%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adnexa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_part%1:08:00::"))
+(define x (WordNode "annexa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_part%1:08:00::"))

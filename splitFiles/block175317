@@ -1,0 +1,4 @@
+(define s (WordSenseNode "undertone%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "undertone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tone%1:10:01::"))
+(InheritanceLink s (WordSenseNode "tone_of_voice%1:10:00::"))

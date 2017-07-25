@@ -1,0 +1,5 @@
+(define s (WordSenseNode "saturation%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "saturation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "status%1:26:01::"))
+(InheritanceLink (WordSenseNode "saturation_point%1:26:00::") s)

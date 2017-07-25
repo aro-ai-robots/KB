@@ -1,0 +1,7 @@
+(define s (WordSenseNode "grain_moth%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "grain_moth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gelechiid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "gelechiid_moth%1:05:00::"))
+(InheritanceLink (WordSenseNode "angoumois_moth%1:05:00::") s)
+(InheritanceLink (WordSenseNode "angoumois_grain_moth%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Sitotroga_cerealella%1:05:00::") s)

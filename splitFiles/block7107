@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anterior_fontanelle%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anterior_fontanelle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fontanelle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "fontanel%1:08:00::"))
+(InheritanceLink s (WordSenseNode "soft_spot%1:08:00::"))

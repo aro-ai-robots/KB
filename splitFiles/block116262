@@ -1,0 +1,5 @@
+(define s (WordSenseNode "oncoming%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "onset")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "start%1:11:00::"))
+(define x (WordNode "oncoming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "start%1:11:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "short_aria%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arietta")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aria%1:10:00::"))
+(define x (WordNode "short_aria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aria%1:10:00::"))

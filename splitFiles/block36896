@@ -1,0 +1,7 @@
+(define s (WordSenseNode "contemplativeness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pensiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thoughtfulness%1:07:00::"))
+(define x (WordNode "meditativeness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thoughtfulness%1:07:00::"))
+(define x (WordNode "contemplativeness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thoughtfulness%1:07:00::"))

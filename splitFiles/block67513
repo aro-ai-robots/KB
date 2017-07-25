@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gaseous_state%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state_of_matter%1:26:00::"))
+(InheritanceLink s (WordSenseNode "state%1:26:02::"))
+(define x (WordNode "gaseous_state")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state_of_matter%1:26:00::"))
+(InheritanceLink s (WordSenseNode "state%1:26:02::"))

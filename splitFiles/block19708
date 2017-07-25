@@ -1,0 +1,5 @@
+(define s (WordSenseNode "boswellia_carteri%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Boswellia_carteri")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "incense_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "Boswellia%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Boswellia%1:20:00::"))

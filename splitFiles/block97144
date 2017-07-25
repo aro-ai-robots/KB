@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lichen_ruber_planus%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lichen_planus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lichen%1:26:00::"))
+(define x (WordNode "lichen_ruber_planus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lichen%1:26:00::"))

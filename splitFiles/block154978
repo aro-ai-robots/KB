@@ -1,0 +1,8 @@
+(define s (WordSenseNode "softener%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "softener")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chemical%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_substance%1:27:00::"))
+(InheritanceLink (WordSenseNode "conditioner%1:06:00::") s)
+(InheritanceLink (WordSenseNode "plasticizer%1:27:00::") s)
+(InheritanceLink (WordSenseNode "plasticiser%1:27:00::") s)
+(InheritanceLink (WordSenseNode "water_softener%1:27:00::") s)

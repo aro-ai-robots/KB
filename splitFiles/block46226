@@ -1,0 +1,7 @@
+(define s (WordSenseNode "didder%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "shake")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move_involuntarily%2:29:00::"))
+(InheritanceLink s (WordSenseNode "move_reflexively%2:29:00::"))
+(define x (WordNode "didder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move_involuntarily%2:29:00::"))
+(InheritanceLink s (WordSenseNode "move_reflexively%2:29:00::"))

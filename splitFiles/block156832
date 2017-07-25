@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sphere%1:25:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sphere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "round_shape%1:25:00::"))
+(HolonymLink (WordSenseNode "steradian%1:23:00::") s)
+(HolonymLink (WordSenseNode "sr%1:23:00::") s)

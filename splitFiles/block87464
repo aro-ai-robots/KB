@@ -1,0 +1,5 @@
+(define s (WordSenseNode "insinuation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "insinuation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implication%1:10:00::"))
+(define x (WordNode "innuendo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "implication%1:10:00::"))

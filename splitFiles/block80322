@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hexagram%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hexagram")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "star%1:25:00::"))
+(InheritanceLink (WordSenseNode "Star_of_David%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Shield_of_David%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Magen_David%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Mogen_David%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Solomon's_seal%1:10:00::") s)

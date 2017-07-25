@@ -1,0 +1,5 @@
+(define s (WordSenseNode "freeboard_deck%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "freeboard_deck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "upper_deck%1:06:00::"))
+(HolonymLink s (WordSenseNode "cargo_ship%1:06:00::"))
+(HolonymLink s (WordSenseNode "cargo_vessel%1:06:00::"))

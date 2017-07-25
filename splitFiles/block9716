@@ -1,0 +1,5 @@
+(define s (WordSenseNode "aryan%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Aryan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "White%1:18:00::"))
+(InheritanceLink s (WordSenseNode "White_person%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Caucasian%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cor_anglais%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "English_horn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "double-reed_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "double_reed%1:06:01::"))
+(define x (WordNode "cor_anglais")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "double-reed_instrument%1:06:00::"))
+(InheritanceLink s (WordSenseNode "double_reed%1:06:01::"))

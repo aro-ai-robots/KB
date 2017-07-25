@@ -1,0 +1,5 @@
+(define s (WordSenseNode "profiteer%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "profiteer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "profit%2:40:02::"))
+(InheritanceLink s (WordSenseNode "gain%2:40:02::"))
+(InheritanceLink s (WordSenseNode "benefit%2:40:00::"))

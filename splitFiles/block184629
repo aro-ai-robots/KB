@@ -1,0 +1,7 @@
+(define s (WordSenseNode "woolly_mammoth%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "woolly_mammoth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammoth%1:05:00::"))
+(define x (WordNode "northern_mammoth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammoth%1:05:00::"))
+(define x (WordNode "Mammuthus_primigenius")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammoth%1:05:00::"))

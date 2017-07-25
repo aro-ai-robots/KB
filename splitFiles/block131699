@@ -1,0 +1,4 @@
+(define s (WordSenseNode "proportional%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "proportional")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quantity%1:09:01::"))
+(HolonymLink s (WordSenseNode "proportion%1:24:00::"))

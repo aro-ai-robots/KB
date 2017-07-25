@@ -1,0 +1,6 @@
+(define s (WordSenseNode "archangel%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "archangel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angel%1:18:00::"))
+(InheritanceLink (WordSenseNode "Gabriel%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Michael%1:18:00::") s)
+(InheritanceLink (WordSenseNode "Raphael%1:18:01::") s)

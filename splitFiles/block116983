@@ -1,0 +1,5 @@
+(define s (WordSenseNode "orangeman%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Orangeman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Protestant%1:18:00::"))
+(HolonymLink s (WordSenseNode "Orange_Order%1:14:00::"))
+(HolonymLink s (WordSenseNode "Association_of_Orangemen%1:14:00::"))

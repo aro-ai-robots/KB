@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wing%1:14:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formation%1:14:00::"))
+(define x (WordNode "wing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formation%1:14:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "storyline%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "storyline")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plot%1:10:00::"))
+(define x (WordNode "plot_line")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plot%1:10:00::"))

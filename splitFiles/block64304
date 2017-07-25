@@ -1,0 +1,4 @@
+(define s (WordSenseNode "foreign_direct_investment%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foreign_direct_investment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "investing%1:04:00::"))
+(InheritanceLink s (WordSenseNode "investment%1:04:00::"))

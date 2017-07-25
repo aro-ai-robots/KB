@@ -1,0 +1,8 @@
+(define s (WordSenseNode "skid%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "skid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "board%1:27:00::"))
+(InheritanceLink s (WordSenseNode "plank%1:27:00::"))
+(HolonymLink s (WordSenseNode "chute%1:06:00::"))
+(HolonymLink s (WordSenseNode "slide%1:06:00::"))
+(HolonymLink s (WordSenseNode "slideway%1:06:00::"))
+(HolonymLink s (WordSenseNode "sloping_trough%1:06:00::"))

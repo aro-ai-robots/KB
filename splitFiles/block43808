@@ -1,0 +1,4 @@
+(define s (WordSenseNode "default%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "default")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "absence%1:04:00::"))
+(InheritanceLink s (WordSenseNode "loss%1:04:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "overtaking%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "passing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reordering%1:04:00::"))
+(define x (WordNode "overtaking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reordering%1:04:00::"))

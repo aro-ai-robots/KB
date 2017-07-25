@@ -1,0 +1,5 @@
+(define s (WordSenseNode "recommendation%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recommendation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "characteristic%1:07:00::"))
+(define x (WordNode "passport")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "characteristic%1:07:00::"))

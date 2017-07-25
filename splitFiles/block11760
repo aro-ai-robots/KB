@@ -1,0 +1,7 @@
+(define s (WordSenseNode "auxiliary_boiler%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "auxiliary_boiler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boiler%1:06:00::"))
+(InheritanceLink s (WordSenseNode "steam_boiler%1:06:00::"))
+(define x (WordNode "donkey_boiler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "boiler%1:06:00::"))
+(InheritanceLink s (WordSenseNode "steam_boiler%1:06:00::"))

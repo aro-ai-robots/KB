@@ -1,0 +1,5 @@
+(define s (WordSenseNode "new_york_strip%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "strip_steak")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beefsteak%1:13:00::"))
+(define x (WordNode "New_York_strip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beefsteak%1:13:00::"))

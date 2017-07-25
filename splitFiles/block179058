@@ -1,0 +1,7 @@
+(define s (WordSenseNode "vice_chairman%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vice_chairman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "president%1:18:03::"))
+(InheritanceLink s (WordSenseNode "chairman%1:18:01::"))
+(InheritanceLink s (WordSenseNode "chairwoman%1:18:01::"))
+(InheritanceLink s (WordSenseNode "chair%1:18:00::"))
+(InheritanceLink s (WordSenseNode "chairperson%1:18:00::"))

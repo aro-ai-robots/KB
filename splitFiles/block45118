@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dermatophytosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dermatomycosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fungal_infection%1:26:00::"))
+(InheritanceLink s (WordSenseNode "mycosis%1:26:00::"))
+(define x (WordNode "dermatophytosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fungal_infection%1:26:00::"))
+(InheritanceLink s (WordSenseNode "mycosis%1:26:00::"))

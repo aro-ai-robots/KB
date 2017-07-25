@@ -1,0 +1,5 @@
+(define s (WordSenseNode "antitrust_law%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antitrust_legislation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "law%1:10:00::"))
+(define x (WordNode "antitrust_law")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "law%1:10:00::"))

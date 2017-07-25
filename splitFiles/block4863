@@ -1,0 +1,7 @@
+(define s (WordSenseNode "alpine_lift%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "T-bar_lift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface_lift%1:06:00::"))
+(define x (WordNode "T-bar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface_lift%1:06:00::"))
+(define x (WordNode "Alpine_lift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surface_lift%1:06:00::"))

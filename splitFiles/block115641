@@ -1,0 +1,7 @@
+(define s (WordSenseNode "officiate%2:41:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "officiate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "perform%2:41:02::"))
+(InheritanceLink (WordSenseNode "marry%2:41:01::") s)
+(InheritanceLink (WordSenseNode "wed%2:41:01::") s)
+(InheritanceLink (WordSenseNode "tie%2:41:00::") s)
+(InheritanceLink (WordSenseNode "splice%2:41:00::") s)

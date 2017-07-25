@@ -1,0 +1,8 @@
+(define s (WordSenseNode "set%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "set")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjust%2:30:00::"))
+(InheritanceLink s (WordSenseNode "set%2:30:00::"))
+(InheritanceLink s (WordSenseNode "correct%2:30:09::"))
+(InheritanceLink (WordSenseNode "reset%2:30:00::") s)
+(InheritanceLink (WordSenseNode "advance%2:38:04::") s)
+(InheritanceLink (WordSenseNode "set_ahead%2:38:00::") s)

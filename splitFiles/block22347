@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bullfighting%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bullfighting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_sport%1:04:00::"))
+(HolonymLink (WordSenseNode "moment_of_truth%1:28:01::") s)
+(define x (WordNode "tauromachy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_sport%1:04:00::"))
+(HolonymLink (WordSenseNode "moment_of_truth%1:28:01::") s)

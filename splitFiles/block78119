@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hardware_error%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hardware_error")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "error%1:11:00::"))
+(InheritanceLink s (WordSenseNode "computer_error%1:11:00::"))
+(InheritanceLink (WordSenseNode "disk_error%1:11:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "distil%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "distill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))
+(define x (WordNode "distil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change%2:30:00::"))

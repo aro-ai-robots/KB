@@ -1,0 +1,5 @@
+(define s (WordSenseNode "foreground%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "foreground")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:03::"))
+(HolonymLink s (WordSenseNode "screen%1:06:05::"))
+(HolonymLink s (WordSenseNode "CRT_screen%1:06:00::"))

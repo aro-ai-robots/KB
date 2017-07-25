@@ -1,0 +1,4 @@
+(define s (WordSenseNode "haitian_centime%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Haitian_centime")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "centime%1:23:00::"))
+(HolonymLink s (WordSenseNode "gourde%1:23:00::"))

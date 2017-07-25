@@ -1,0 +1,7 @@
+(define s (WordSenseNode "coursework%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coursework")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%1:04:00::"))
+(HolonymLink s (WordSenseNode "course%1:04:01::"))
+(HolonymLink s (WordSenseNode "course_of_study%1:04:00::"))
+(HolonymLink s (WordSenseNode "course_of_instruction%1:04:00::"))
+(HolonymLink s (WordSenseNode "class%1:04:00::"))

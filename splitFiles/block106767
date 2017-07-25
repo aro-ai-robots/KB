@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mind%2:31:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "mind")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "think_about%2:31:05::"))
+(InheritanceLink (WordSenseNode "worry%2:37:12::") s)
+(InheritanceLink (WordSenseNode "care%2:37:12::") s)

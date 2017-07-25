@@ -1,0 +1,7 @@
+(define s (WordSenseNode "restatement%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "restatement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statement%1:10:00::"))
+(InheritanceLink (WordSenseNode "demythologization%1:10:00::") s)
+(InheritanceLink (WordSenseNode "demythologisation%1:10:00::") s)
+(InheritanceLink (WordSenseNode "mythologization%1:10:00::") s)
+(InheritanceLink (WordSenseNode "mythologisation%1:10:00::") s)

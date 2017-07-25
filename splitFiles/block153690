@@ -1,0 +1,5 @@
+(define s (WordSenseNode "slow_time_scale%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "extended_time_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_scale%1:28:00::"))
+(define x (WordNode "slow_time_scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "time_scale%1:28:00::"))

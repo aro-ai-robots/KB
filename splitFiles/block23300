@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bye-election%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "by-election")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "election%1:04:01::"))
+(define x (WordNode "bye-election")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "election%1:04:01::"))

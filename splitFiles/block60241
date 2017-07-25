@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fearlessness%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fearlessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feeling%1:03:00::"))
+(InheritanceLink (WordSenseNode "security%1:12:00::") s)
+(define x (WordNode "bravery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feeling%1:03:00::"))
+(InheritanceLink (WordSenseNode "security%1:12:00::") s)

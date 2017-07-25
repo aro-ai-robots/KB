@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bat%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "club%1:06:00::"))
+(InheritanceLink (WordSenseNode "baseball_bat%1:06:00::") s)
+(InheritanceLink (WordSenseNode "lumber%1:06:00::") s)
+(InheritanceLink (WordSenseNode "paddle%1:06:03::") s)

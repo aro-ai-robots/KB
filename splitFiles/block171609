@@ -1,0 +1,8 @@
+(define s (WordSenseNode "transition%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "passage%1:10:00::"))
+(InheritanceLink (WordSenseNode "flashback%1:10:00::") s)
+(InheritanceLink (WordSenseNode "flash-forward%1:10:00::") s)
+(InheritanceLink (WordSenseNode "dissolve%1:10:00::") s)
+(InheritanceLink (WordSenseNode "cut%1:10:00::") s)
+(InheritanceLink (WordSenseNode "jump%1:10:00::") s)

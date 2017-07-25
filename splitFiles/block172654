@@ -1,0 +1,4 @@
+(define s (WordSenseNode "triphammer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "triphammer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hammer%1:06:01::"))
+(InheritanceLink s (WordSenseNode "power_hammer%1:06:00::"))

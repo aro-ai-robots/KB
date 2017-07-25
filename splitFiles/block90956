@@ -1,0 +1,5 @@
+(define s (WordSenseNode "john_herschel%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Herschel")) (WordSenseLink x s)
+(define x (WordNode "John_Herschel")) (WordSenseLink x s)
+(define x (WordNode "Sir_John_Herschel")) (WordSenseLink x s)
+(define x (WordNode "Sir_John_Frederick_William_Herschel")) (WordSenseLink x s)

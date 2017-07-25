@@ -1,0 +1,7 @@
+(define s (WordSenseNode "quarter-tone%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quarter_tone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interval%1:10:00::"))
+(InheritanceLink s (WordSenseNode "musical_interval%1:10:00::"))
+(define x (WordNode "quarter-tone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interval%1:10:00::"))
+(InheritanceLink s (WordSenseNode "musical_interval%1:10:00::"))

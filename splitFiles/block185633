@@ -1,0 +1,5 @@
+(define s (WordSenseNode "yaw%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "yaw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deviate%2:38:00::"))
+(InheritanceLink s (WordSenseNode "divert%2:38:00::"))
+(InheritanceLink (WordSenseNode "hunt%2:38:04::") s)

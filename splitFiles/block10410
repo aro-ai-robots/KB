@@ -1,0 +1,7 @@
+(define s (WordSenseNode "asthenic_type%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "asthenic_type")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_type%1:07:00::"))
+(InheritanceLink s (WordSenseNode "somatotype%1:07:00::"))
+(define x (WordNode "ectomorphy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_type%1:07:00::"))
+(InheritanceLink s (WordSenseNode "somatotype%1:07:00::"))

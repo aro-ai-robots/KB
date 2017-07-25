@@ -1,0 +1,5 @@
+(define s (WordSenseNode "keyboard_buffer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "keyboard_buffer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "buffer%1:06:03::"))
+(InheritanceLink s (WordSenseNode "buffer_storage%1:06:00::"))
+(InheritanceLink s (WordSenseNode "buffer_store%1:06:00::"))

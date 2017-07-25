@@ -1,0 +1,6 @@
+(define s (WordSenseNode "monosomy%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monosomy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chromosomal_aberration%1:26:00::"))
+(InheritanceLink s (WordSenseNode "chromosomal_anomaly%1:26:00::"))
+(InheritanceLink s (WordSenseNode "chrosomal_abnormality%1:26:00::"))
+(InheritanceLink s (WordSenseNode "chromosonal_disorder%1:26:00::"))

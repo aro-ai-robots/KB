@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chrysanthemum%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chrysanthemum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flower%1:20:02::"))
+(InheritanceLink s (WordSenseNode "bloom%1:20:00::"))
+(InheritanceLink s (WordSenseNode "blossom%1:20:00::"))
+(HolonymLink s (WordSenseNode "chrysanthemum%1:20:00::"))

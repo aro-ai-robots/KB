@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sulphur_bacteria%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thiobacteria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thiobacillus%1:05:00::"))
+(define x (WordNode "sulphur_bacteria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thiobacillus%1:05:00::"))
+(define x (WordNode "sulfur_bacteria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "thiobacillus%1:05:00::"))

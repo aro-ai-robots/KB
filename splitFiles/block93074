@@ -1,0 +1,7 @@
+(define s (WordSenseNode "kingston%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Kingston")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Jamaica%1:15:00::"))
+(define x (WordNode "capital_of_Jamaica")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Jamaica%1:15:00::"))
+(define x (WordNode "Jamaican_capital")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Jamaica%1:15:00::"))

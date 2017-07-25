@@ -1,0 +1,5 @@
+(define s (WordSenseNode "imponderable%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "imponderable")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "influence%1:09:00::"))
+(InheritanceLink (WordSenseNode "leaven%1:09:00::") s)
+(InheritanceLink (WordSenseNode "leavening%1:09:00::") s)

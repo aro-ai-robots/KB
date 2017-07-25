@@ -1,0 +1,7 @@
+(define s (WordSenseNode "finger_spelling%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "finger_spelling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sign_language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "signing%1:10:00::"))
+(define x (WordNode "fingerspelling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sign_language%1:10:00::"))
+(InheritanceLink s (WordSenseNode "signing%1:10:00::"))

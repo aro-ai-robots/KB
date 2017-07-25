@@ -1,0 +1,8 @@
+(define s (WordSenseNode "solomon's-seal%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Solomon's-seal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liliaceous_plant%1:20:00::"))
+(InheritanceLink (WordSenseNode "great_Solomon's-seal%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Polygonatum_biflorum%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Polygonatum_commutatum%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Polygonatum%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Polygonatum%1:20:00::"))

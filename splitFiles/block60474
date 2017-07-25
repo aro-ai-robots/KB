@@ -1,0 +1,6 @@
+(define s (WordSenseNode "feel%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "feel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "be%2:42:03::"))
+(InheritanceLink (WordSenseNode "feel_like_a_million%2:29:00::") s)
+(InheritanceLink (WordSenseNode "feel_like_a_million_dollars%2:29:00::") s)
+(InheritanceLink (WordSenseNode "suffocate%2:29:03::") s)

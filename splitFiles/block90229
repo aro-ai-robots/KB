@@ -1,0 +1,7 @@
+(define s (WordSenseNode "japonica%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "japonica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camellia%1:20:00::"))
+(InheritanceLink s (WordSenseNode "camelia%1:20:00::"))
+(define x (WordNode "Camellia_japonica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camellia%1:20:00::"))
+(InheritanceLink s (WordSenseNode "camelia%1:20:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "flooding%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "implosion_therapy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "behavior_therapy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "behavior_modification%1:04:00::"))
+(define x (WordNode "flooding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "behavior_therapy%1:04:00::"))
+(InheritanceLink s (WordSenseNode "behavior_modification%1:04:00::"))

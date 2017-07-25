@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shadowboxing%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shadowboxing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exercise%1:04:02::"))
+(InheritanceLink s (WordSenseNode "practice%1:04:02::"))
+(InheritanceLink s (WordSenseNode "drill%1:04:00::"))
+(InheritanceLink s (WordSenseNode "practice_session%1:04:00::"))
+(InheritanceLink s (WordSenseNode "recitation%1:04:00::"))

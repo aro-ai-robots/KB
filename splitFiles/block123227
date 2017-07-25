@@ -1,0 +1,5 @@
+(define s (WordSenseNode "perpetual_warrant%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "perpetual_warrant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warrant%1:21:00::"))
+(InheritanceLink s (WordSenseNode "stock_warrant%1:21:00::"))
+(InheritanceLink s (WordSenseNode "stock-purchase_warrant%1:21:00::"))

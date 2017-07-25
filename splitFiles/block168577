@@ -1,0 +1,4 @@
+(define s (WordSenseNode "thorn%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "thorn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rune%1:10:00::"))
+(InheritanceLink s (WordSenseNode "runic_letter%1:10:00::"))

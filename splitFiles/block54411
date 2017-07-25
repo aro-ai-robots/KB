@@ -1,0 +1,7 @@
+(define s (WordSenseNode "enteric-coated_aspirin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enteric-coated_aspirin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aspirin%1:06:00::"))
+(InheritanceLink s (WordSenseNode "acetylsalicylic_acid%1:06:00::"))
+(InheritanceLink s (WordSenseNode "Bayer%1:06:00::"))
+(InheritanceLink s (WordSenseNode "Empirin%1:06:00::"))
+(InheritanceLink s (WordSenseNode "St._Joseph%1:06:00::"))

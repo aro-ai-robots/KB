@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cosponsor%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "cosponsor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sponsor%2:40:00::"))
+(InheritanceLink s (WordSenseNode "patronize%2:40:00::"))
+(InheritanceLink s (WordSenseNode "patronise%2:40:00::"))

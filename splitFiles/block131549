@@ -1,0 +1,4 @@
+(define s (WordSenseNode "pronator%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pronator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "musculus%1:08:00::"))

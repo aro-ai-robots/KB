@@ -1,0 +1,5 @@
+(define s (WordSenseNode "beriberi%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beriberi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avitaminosis%1:26:00::"))
+(InheritanceLink s (WordSenseNode "hypovitaminosis%1:26:00::"))
+(InheritanceLink (WordSenseNode "kakke_disease%1:26:00::") s)

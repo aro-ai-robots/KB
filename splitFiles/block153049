@@ -1,0 +1,6 @@
+(define s (WordSenseNode "skysail%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "skysail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sail%1:06:00::"))
+(InheritanceLink s (WordSenseNode "canvas%1:06:03::"))
+(InheritanceLink s (WordSenseNode "canvass%1:06:03::"))
+(InheritanceLink s (WordSenseNode "sheet%1:06:04::"))

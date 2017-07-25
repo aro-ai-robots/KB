@@ -1,0 +1,8 @@
+(define s (WordSenseNode "significance%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "significance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "importance%1:07:00::"))
+(InheritanceLink (WordSenseNode "historicalness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "meaningfulness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "consequence%1:07:00::") s)
+(InheritanceLink (WordSenseNode "import%1:07:00::") s)
+(InheritanceLink (WordSenseNode "moment%1:07:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "incubus%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nightmare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "situation%1:26:02::"))
+(define x (WordNode "incubus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "situation%1:26:02::"))

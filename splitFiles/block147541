@@ -1,0 +1,7 @@
+(define s (WordSenseNode "secondo%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "secondo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "part%1:10:00::"))
+(InheritanceLink s (WordSenseNode "voice%1:10:02::"))
+(HolonymLink s (WordSenseNode "duet%1:10:00::"))
+(HolonymLink s (WordSenseNode "duette%1:10:00::"))
+(HolonymLink s (WordSenseNode "duo%1:10:00::"))

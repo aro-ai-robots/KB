@@ -1,0 +1,7 @@
+(define s (WordSenseNode "demagnetize%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "demagnetize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "erase%2:32:00::"))
+(InheritanceLink s (WordSenseNode "delete%2:32:00::"))
+(define x (WordNode "demagnetise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "erase%2:32:00::"))
+(InheritanceLink s (WordSenseNode "delete%2:32:00::"))

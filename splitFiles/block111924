@@ -1,0 +1,7 @@
+(define s (WordSenseNode "neighbour%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "neighbor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_object%1:03:00::"))
+(define x (WordNode "neighbour")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_object%1:03:00::"))

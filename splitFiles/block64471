@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fork%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fork")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tool%1:06:00::"))
+(InheritanceLink (WordSenseNode "hayfork%1:06:00::") s)
+(HolonymLink (WordSenseNode "prong%1:06:00::") s)

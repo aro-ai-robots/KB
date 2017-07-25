@@ -1,0 +1,7 @@
+(define s (WordSenseNode "condolence%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "condolence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acknowledgment%1:10:00::"))
+(InheritanceLink s (WordSenseNode "acknowledgement%1:10:00::"))
+(define x (WordNode "commiseration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acknowledgment%1:10:00::"))
+(InheritanceLink s (WordSenseNode "acknowledgement%1:10:00::"))

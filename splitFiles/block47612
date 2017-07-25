@@ -1,0 +1,7 @@
+(define s (WordSenseNode "disk-jockey%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "disk-jockey")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "comment%2:32:10::"))
+(define x (WordNode "disc-jockey")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "comment%2:32:10::"))
+(define x (WordNode "DJ")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "comment%2:32:10::"))

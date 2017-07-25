@@ -1,0 +1,5 @@
+(define s (WordSenseNode "quench%2:41:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "quench")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inhibit%2:41:00::"))
+(InheritanceLink s (WordSenseNode "bottle_up%2:41:00::"))
+(InheritanceLink s (WordSenseNode "suppress%2:41:00::"))

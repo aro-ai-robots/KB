@@ -1,0 +1,8 @@
+(define s (WordSenseNode "managed_economy%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "managed_economy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "non-market_economy%1:14:00::"))
+(InheritanceLink (WordSenseNode "socialism%1:14:00::") s)
+(InheritanceLink (WordSenseNode "socialist_economy%1:14:00::") s)
+(InheritanceLink (WordSenseNode "mercantilism%1:14:00::") s)
+(InheritanceLink (WordSenseNode "mercantile_system%1:14:00::") s)
+(InheritanceLink (WordSenseNode "communist_economy%1:14:00::") s)

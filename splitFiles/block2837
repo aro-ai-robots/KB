@@ -1,0 +1,8 @@
+(define s (WordSenseNode "affirmative%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "affirmative")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "avowal%1:10:00::"))
+(InheritanceLink s (WordSenseNode "avouchment%1:10:00::"))
+(InheritanceLink s (WordSenseNode "affirmation%1:10:00::"))
+(InheritanceLink (WordSenseNode "yes%1:10:00::") s)
+(InheritanceLink (WordSenseNode "yea%1:10:00::") s)
+(InheritanceLink (WordSenseNode "double_negative%1:10:01::") s)

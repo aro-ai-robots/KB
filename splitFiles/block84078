@@ -1,0 +1,5 @@
+(define s (WordSenseNode "i_peter%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "First_Epistle_of_Peter")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "New_Testament%1:10:00::"))
+(define x (WordNode "I_Peter")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "New_Testament%1:10:00::"))

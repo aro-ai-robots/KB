@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ogive%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nose_cone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "front%1:06:00::"))
+(HolonymLink s (WordSenseNode "heat_shield%1:06:00::"))
+(define x (WordNode "ogive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "front%1:06:00::"))
+(HolonymLink s (WordSenseNode "heat_shield%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "malti%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Maltese")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Semitic%1:10:00::"))
+(define x (WordNode "Maltese_language")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Semitic%1:10:00::"))
+(define x (WordNode "Malti")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Semitic%1:10:00::"))

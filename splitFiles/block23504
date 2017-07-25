@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cachet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cachet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "seal%1:06:00::"))
+(InheritanceLink s (WordSenseNode "stamp%1:06:00::"))

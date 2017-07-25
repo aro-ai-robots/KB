@@ -1,0 +1,5 @@
+(define s (WordSenseNode "silver_screen%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "silver_screen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "film%1:10:00::"))
+(InheritanceLink s (WordSenseNode "cinema%1:10:00::"))
+(InheritanceLink s (WordSenseNode "celluloid%1:10:00::"))

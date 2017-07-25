@@ -1,0 +1,8 @@
+(define s (WordSenseNode "masking%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "masking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sensation%1:09:00::"))
+(InheritanceLink s (WordSenseNode "esthesis%1:09:00::"))
+(InheritanceLink s (WordSenseNode "aesthesis%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sense_experience%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sense_impression%1:09:00::"))
+(InheritanceLink s (WordSenseNode "sense_datum%1:09:00::"))

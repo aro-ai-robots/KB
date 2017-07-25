@@ -1,0 +1,7 @@
+(define s (WordSenseNode "eolic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Aeolic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ancient_Greek%1:10:00::"))
+(define x (WordNode "Aeolic_dialect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ancient_Greek%1:10:00::"))
+(define x (WordNode "Eolic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Ancient_Greek%1:10:00::"))

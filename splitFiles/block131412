@@ -1,0 +1,4 @@
+(define s (WordSenseNode "projection%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "projection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "representation%1:06:00::"))
+(InheritanceLink (WordSenseNode "map_projection%1:06:00::") s)

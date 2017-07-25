@@ -1,0 +1,7 @@
+(define s (WordSenseNode "biochip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "biochip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "microchip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "micro_chip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "silicon_chip%1:06:00::"))
+(InheritanceLink s (WordSenseNode "microprocessor_chip%1:06:00::"))

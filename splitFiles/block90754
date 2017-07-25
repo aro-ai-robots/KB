@@ -1,0 +1,3 @@
+(define s (WordSenseNode "job%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "job")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "work%1:04:00::"))

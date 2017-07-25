@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dryopithecine%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dryopithecine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hominid%1:05:00::"))
+(InheritanceLink (WordSenseNode "rudapithecus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Dryopithecus_Rudapithecus_hungaricus%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Dryopithecus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Dryopithecus%1:05:00::"))

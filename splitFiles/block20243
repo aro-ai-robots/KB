@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bracket%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bracket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edit%2:30:00::"))
+(InheritanceLink s (WordSenseNode "redact%2:30:00::"))
+(define x (WordNode "bracket_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edit%2:30:00::"))
+(InheritanceLink s (WordSenseNode "redact%2:30:00::"))

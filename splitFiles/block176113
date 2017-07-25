@@ -1,0 +1,7 @@
+(define s (WordSenseNode "unmake%2:36:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "unmake")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "destroy%2:36:00::") s)
+(InheritanceLink (WordSenseNode "destruct%2:36:00::") s)
+(define x (WordNode "undo")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "destroy%2:36:00::") s)
+(InheritanceLink (WordSenseNode "destruct%2:36:00::") s)

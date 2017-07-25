@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dromedary%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Arabian_camel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camel%1:05:00::"))
+(define x (WordNode "dromedary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camel%1:05:00::"))
+(define x (WordNode "Camelus_dromedarius")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "camel%1:05:00::"))

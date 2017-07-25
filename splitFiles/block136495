@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reassembly%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reassembly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reconstruction%1:04:00::"))
+(InheritanceLink (WordSenseNode "anastylosis%1:04:00::") s)
+(define x (WordNode "refabrication")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reconstruction%1:04:00::"))
+(InheritanceLink (WordSenseNode "anastylosis%1:04:00::") s)

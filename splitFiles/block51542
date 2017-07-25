@@ -1,0 +1,7 @@
+(define s (WordSenseNode "east_sea%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Sea_of_Japan")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Pacific%1:17:00::"))
+(HolonymLink s (WordSenseNode "Pacific_Ocean%1:17:00::"))
+(define x (WordNode "East_Sea")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Pacific%1:17:00::"))
+(HolonymLink s (WordSenseNode "Pacific_Ocean%1:17:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "pocket%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "air_pocket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atmospheric_phenomenon%1:19:00::"))
+(define x (WordNode "pocket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atmospheric_phenomenon%1:19:00::"))
+(define x (WordNode "air_hole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "atmospheric_phenomenon%1:19:00::"))

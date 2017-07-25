@@ -1,0 +1,7 @@
+(define s (WordSenseNode "birthright%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "birthright")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inheritance%1:21:00::"))
+(InheritanceLink s (WordSenseNode "heritage%1:21:02::"))
+(define x (WordNode "patrimony")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inheritance%1:21:00::"))
+(InheritanceLink s (WordSenseNode "heritage%1:21:02::"))

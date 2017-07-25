@@ -1,0 +1,6 @@
+(define s (WordSenseNode "material%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "material")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "information%1:10:00::"))
+(InheritanceLink s (WordSenseNode "info%1:10:00::"))
+(InheritanceLink (WordSenseNode "rehash%1:10:00::") s)
+(InheritanceLink (WordSenseNode "copy%1:10:02::") s)

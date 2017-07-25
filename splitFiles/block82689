@@ -1,0 +1,5 @@
+(define s (WordSenseNode "housemaster%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "housemaster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "headmaster%1:18:00::"))
+(InheritanceLink s (WordSenseNode "schoolmaster%1:18:00::"))
+(InheritanceLink s (WordSenseNode "master%1:18:06::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "safeguard%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "safe-conduct")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pass%1:10:01::"))
+(InheritanceLink s (WordSenseNode "passport%1:10:01::"))
+(define x (WordNode "safeguard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pass%1:10:01::"))
+(InheritanceLink s (WordSenseNode "passport%1:10:01::"))

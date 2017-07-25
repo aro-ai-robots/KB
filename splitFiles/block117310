@@ -1,0 +1,7 @@
+(define s (WordSenseNode "order_of_the_day%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "order_of_the_day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "agenda%1:10:00::"))
+(InheritanceLink s (WordSenseNode "agendum%1:10:00::"))
+(InheritanceLink s (WordSenseNode "order_of_business%1:10:00::"))
+(InheritanceLink (WordSenseNode "order_paper%1:10:00::") s)
+(InheritanceLink (WordSenseNode "order_book%1:10:00::") s)

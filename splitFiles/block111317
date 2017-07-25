@@ -1,0 +1,5 @@
+(define s (WordSenseNode "nationalist_leader%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nationalist_leader")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nationalist%1:18:01::"))
+(InheritanceLink s (WordSenseNode "leader%1:18:00::"))
+(InheritanceLink (WordSenseNode "American_Revolutionary_leader%1:18:00::") s)

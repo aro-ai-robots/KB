@@ -1,0 +1,7 @@
+(define s (WordSenseNode "crank_up%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "crank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rotate%2:38:00::"))
+(InheritanceLink s (WordSenseNode "circumvolve%2:38:00::"))
+(define x (WordNode "crank_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rotate%2:38:00::"))
+(InheritanceLink s (WordSenseNode "circumvolve%2:38:00::"))

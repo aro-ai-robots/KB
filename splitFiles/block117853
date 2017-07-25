@@ -1,0 +1,7 @@
+(define s (WordSenseNode "orthodox_judaism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Orthodox_Judaism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Judaism%1:09:00::"))
+(InheritanceLink (WordSenseNode "Hasidism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Hassidism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Chasidism%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Chassidism%1:09:00::") s)

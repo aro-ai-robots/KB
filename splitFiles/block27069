@@ -1,0 +1,4 @@
+(define s (WordSenseNode "catchall%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "catchall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enclosure%1:06:00::"))
+(InheritanceLink s (WordSenseNode "receptacle%1:06:00::"))

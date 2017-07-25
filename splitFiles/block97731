@@ -1,0 +1,7 @@
+(define s (WordSenseNode "limit_point%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "limit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indefinite_quantity%1:23:00::"))
+(define x (WordNode "limit_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indefinite_quantity%1:23:00::"))
+(define x (WordNode "point_of_accumulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "indefinite_quantity%1:23:00::"))

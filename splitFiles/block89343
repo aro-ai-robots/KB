@@ -1,0 +1,7 @@
+(define s (WordSenseNode "isobar%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "isobar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "isogram%1:15:00::"))
+(InheritanceLink s (WordSenseNode "isopleth%1:15:00::"))
+(InheritanceLink s (WordSenseNode "isarithm%1:15:00::"))
+(HolonymLink s (WordSenseNode "weather_map%1:06:00::"))
+(HolonymLink s (WordSenseNode "weather_chart%1:06:00::"))

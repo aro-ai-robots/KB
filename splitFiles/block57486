@@ -1,0 +1,4 @@
+(define s (WordSenseNode "external_gill%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "external_gill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gill%1:05:00::"))
+(InheritanceLink s (WordSenseNode "branchia%1:05:00::"))

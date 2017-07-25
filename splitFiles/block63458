@@ -1,0 +1,8 @@
+(define s (WordSenseNode "fluoride%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fluoride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "halide%1:27:00::"))
+(InheritanceLink (WordSenseNode "boron_trifluoride%1:27:00::") s)
+(InheritanceLink (WordSenseNode "hydrogen_fluoride%1:27:00::") s)
+(InheritanceLink (WordSenseNode "stannous_fluoride%1:27:00::") s)
+(InheritanceLink (WordSenseNode "sulfur_hexafluoride%1:27:00::") s)
+(InheritanceLink (WordSenseNode "sulphur_hexafluoride%1:27:00::") s)

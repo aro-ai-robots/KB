@@ -1,0 +1,5 @@
+(define s (WordSenseNode "footedness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "footedness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "asymmetry%1:07:00::"))
+(InheritanceLink s (WordSenseNode "dissymmetry%1:07:00::"))
+(InheritanceLink s (WordSenseNode "imbalance%1:07:00::"))

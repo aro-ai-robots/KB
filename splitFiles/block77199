@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hair-tailed_mole%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brewer's_mole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mole%1:05:00::"))
+(define x (WordNode "hair-tailed_mole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mole%1:05:00::"))
+(define x (WordNode "Parascalops_breweri")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mole%1:05:00::"))

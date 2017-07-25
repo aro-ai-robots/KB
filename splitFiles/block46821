@@ -1,0 +1,4 @@
+(define s (WordSenseNode "diphtheria%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diphtheria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contagious_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "contagion%1:26:00::"))

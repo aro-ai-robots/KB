@@ -1,0 +1,5 @@
+(define s (WordSenseNode "typical_jerboa%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "typical_jerboa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jerboa%1:05:00::"))
+(HolonymLink s (WordSenseNode "Dipus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Dipus%1:05:00::"))

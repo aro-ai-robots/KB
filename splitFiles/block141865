@@ -1,0 +1,6 @@
+(define s (WordSenseNode "roleplaying%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roleplaying")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "playing%1:04:02::"))
+(InheritanceLink s (WordSenseNode "playacting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "performing%1:04:00::"))

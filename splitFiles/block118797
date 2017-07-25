@@ -1,0 +1,5 @@
+(define s (WordSenseNode "overproduce%2:36:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overproduce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "produce%2:36:00::"))
+(InheritanceLink s (WordSenseNode "make%2:36:01::"))
+(InheritanceLink s (WordSenseNode "create%2:36:03::"))

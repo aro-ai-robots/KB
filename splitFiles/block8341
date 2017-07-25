@@ -1,0 +1,4 @@
+(define s (WordSenseNode "arabic_alphabet%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Arabic_alphabet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "alphabet%1:10:00::"))
+(InheritanceLink s (WordSenseNode "unicameral_script%1:10:00::"))

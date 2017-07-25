@@ -1,0 +1,5 @@
+(define s (WordSenseNode "put_down%2:35:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "destroy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))
+(define x (WordNode "put_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))

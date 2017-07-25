@@ -1,0 +1,7 @@
+(define s (WordSenseNode "leaflet%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "leaflet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leaf%1:20:00::"))
+(InheritanceLink s (WordSenseNode "leafage%1:20:00::"))
+(InheritanceLink s (WordSenseNode "foliage%1:20:00::"))
+(InheritanceLink (WordSenseNode "pinna%1:20:00::") s)
+(InheritanceLink (WordSenseNode "pinnule%1:20:00::") s)

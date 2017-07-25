@@ -1,0 +1,7 @@
+(define s (WordSenseNode "synchronize%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "synchronize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operate%2:35:00::"))
+(InheritanceLink s (WordSenseNode "control%2:35:00::"))
+(define x (WordNode "synchronise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operate%2:35:00::"))
+(InheritanceLink s (WordSenseNode "control%2:35:00::"))

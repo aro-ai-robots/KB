@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wineberry%1:20:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wineberry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "raspberry%1:20:00::"))
+(InheritanceLink s (WordSenseNode "raspberry_bush%1:20:00::"))
+(define x (WordNode "Rubus_phoenicolasius")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "raspberry%1:20:00::"))
+(InheritanceLink s (WordSenseNode "raspberry_bush%1:20:00::"))

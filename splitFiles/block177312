@@ -1,0 +1,6 @@
+(define s (WordSenseNode "used-car_lot%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "used-car_lot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "parking_lot%1:15:00::"))
+(InheritanceLink s (WordSenseNode "car_park%1:15:00::"))
+(InheritanceLink s (WordSenseNode "park%1:15:02::"))
+(InheritanceLink s (WordSenseNode "parking_area%1:15:00::"))

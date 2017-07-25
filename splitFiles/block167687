@@ -1,0 +1,7 @@
+(define s (WordSenseNode "texas_longhorn%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "longhorn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beef%1:05:00::"))
+(InheritanceLink s (WordSenseNode "beef_cattle%1:05:00::"))
+(define x (WordNode "Texas_longhorn")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beef%1:05:00::"))
+(InheritanceLink s (WordSenseNode "beef_cattle%1:05:00::"))

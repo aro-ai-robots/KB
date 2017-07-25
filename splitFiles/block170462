@@ -1,0 +1,7 @@
+(define s (WordSenseNode "top%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "top")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "complete%2:30:02::"))
+(InheritanceLink s (WordSenseNode "finish%2:30:02::"))
+(define x (WordNode "top_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "complete%2:30:02::"))
+(InheritanceLink s (WordSenseNode "finish%2:30:02::"))

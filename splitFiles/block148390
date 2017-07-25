@@ -1,0 +1,7 @@
+(define s (WordSenseNode "send-off%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bon_voyage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "farewell%1:10:00::"))
+(InheritanceLink s (WordSenseNode "word_of_farewell%1:10:00::"))
+(define x (WordNode "send-off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "farewell%1:10:00::"))
+(InheritanceLink s (WordSenseNode "word_of_farewell%1:10:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "inflect%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "inflect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "modify%2:30:00::"))
+(InheritanceLink (WordSenseNode "compare%2:32:00::") s)
+(InheritanceLink (WordSenseNode "decline%2:32:01::") s)
+(InheritanceLink (WordSenseNode "conjugate%2:32:00::") s)
+(InheritanceLink (WordSenseNode "pluralize%2:32:00::") s)
+(InheritanceLink (WordSenseNode "pluralise%2:32:00::") s)

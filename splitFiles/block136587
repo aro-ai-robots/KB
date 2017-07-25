@@ -1,0 +1,5 @@
+(define s (WordSenseNode "recall%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "recall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cancel%2:41:00::"))
+(InheritanceLink s (WordSenseNode "strike_down%2:41:00::"))
+(InheritanceLink (WordSenseNode "retire%2:41:04::") s)

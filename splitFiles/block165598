@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tally_clerk%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tallyman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clerk%1:18:00::"))
+(define x (WordNode "tally_clerk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clerk%1:18:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "take_effect%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "take_effect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "become%2:30:00::"))
+(InheritanceLink s (WordSenseNode "go%2:30:04::"))
+(InheritanceLink s (WordSenseNode "get%2:30:00::"))

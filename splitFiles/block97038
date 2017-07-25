@@ -1,0 +1,5 @@
+(define s (WordSenseNode "liberalness%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "liberality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tolerance%1:09:00::"))
+(define x (WordNode "liberalness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tolerance%1:09:00::"))

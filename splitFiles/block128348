@@ -1,0 +1,7 @@
+(define s (WordSenseNode "popery%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "popery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "practice%1:04:00::"))
+(InheritanceLink s (WordSenseNode "pattern%1:04:00::"))
+(define x (WordNode "papism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "practice%1:04:00::"))
+(InheritanceLink s (WordSenseNode "pattern%1:04:00::"))

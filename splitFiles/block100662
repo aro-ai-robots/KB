@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lynx_canadensis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Canada_lynx")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lynx%1:05:00::"))
+(InheritanceLink s (WordSenseNode "catamount%1:05:02::"))
+(define x (WordNode "Lynx_canadensis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lynx%1:05:00::"))
+(InheritanceLink s (WordSenseNode "catamount%1:05:02::"))

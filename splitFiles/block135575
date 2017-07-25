@@ -1,0 +1,7 @@
+(define s (WordSenseNode "range%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "range")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "facility%1:06:00::"))
+(InheritanceLink s (WordSenseNode "installation%1:06:00::"))
+(InheritanceLink (WordSenseNode "practice_range%1:06:00::") s)
+(InheritanceLink (WordSenseNode "rifle_range%1:06:00::") s)
+(InheritanceLink (WordSenseNode "test_range%1:06:00::") s)

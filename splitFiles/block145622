@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scale%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scale")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "covering%1:17:00::"))
+(InheritanceLink s (WordSenseNode "natural_covering%1:17:00::"))
+(InheritanceLink s (WordSenseNode "cover%1:17:00::"))
+(InheritanceLink (WordSenseNode "fish_scale%1:05:00::") s)
+(InheritanceLink (WordSenseNode "squama%1:05:00::") s)

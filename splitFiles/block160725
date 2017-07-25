@@ -1,0 +1,6 @@
+(define s (WordSenseNode "strap%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "strap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tie%2:35:00::"))
+(InheritanceLink s (WordSenseNode "bind%2:35:01::"))
+(InheritanceLink (WordSenseNode "hopple%2:35:00::") s)
+(InheritanceLink (WordSenseNode "hobble%2:35:00::") s)

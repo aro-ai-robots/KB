@@ -1,0 +1,8 @@
+(define s (WordSenseNode "disorientation%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disorientation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confusion%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mental_confusion%1:09:00::"))
+(InheritanceLink s (WordSenseNode "confusedness%1:09:00::"))
+(InheritanceLink s (WordSenseNode "muddiness%1:09:00::"))
+(InheritanceLink s (WordSenseNode "disarray%1:09:00::"))
+(InheritanceLink (WordSenseNode "culture_shock%1:09:00::") s)

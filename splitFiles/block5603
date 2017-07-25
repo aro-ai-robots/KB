@@ -1,0 +1,5 @@
+(define s (WordSenseNode "amnesty%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pardon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warrant%1:10:00::"))
+(define x (WordNode "amnesty")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warrant%1:10:00::"))

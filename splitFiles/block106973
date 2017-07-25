@@ -1,0 +1,5 @@
+(define s (WordSenseNode "minor_suit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "minor_suit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "suit%1:06:01::"))
+(HolonymLink (WordSenseNode "club%1:06:03::") s)
+(HolonymLink (WordSenseNode "diamond%1:06:01::") s)

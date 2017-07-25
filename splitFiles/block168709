@@ -1,0 +1,7 @@
+(define s (WordSenseNode "three-dimensionality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "three-dimensionality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dimensionality%1:07:00::"))
+(InheritanceLink (WordSenseNode "cubicity%1:07:00::") s)
+(define x (WordNode "third-dimensionality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dimensionality%1:07:00::"))
+(InheritanceLink (WordSenseNode "cubicity%1:07:00::") s)

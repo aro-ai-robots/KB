@@ -1,0 +1,8 @@
+(define s (WordSenseNode "military_formation%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "military_formation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "formation%1:14:00::"))
+(InheritanceLink (WordSenseNode "open_order%1:14:00::") s)
+(InheritanceLink (WordSenseNode "close_order%1:14:00::") s)
+(InheritanceLink (WordSenseNode "extended_order%1:14:00::") s)
+(InheritanceLink (WordSenseNode "sick_call%1:14:00::") s)
+(InheritanceLink (WordSenseNode "sick_parade%1:14:00::") s)

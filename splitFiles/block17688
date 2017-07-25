@@ -1,0 +1,7 @@
+(define s (WordSenseNode "blank%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blank")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cartridge%1:06:00::"))
+(define x (WordNode "dummy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cartridge%1:06:00::"))
+(define x (WordNode "blank_shell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cartridge%1:06:00::"))

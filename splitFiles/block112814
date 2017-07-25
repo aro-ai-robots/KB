@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nickel-iron_battery%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nickel-iron_battery")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "storage_battery%1:06:00::"))
+(InheritanceLink s (WordSenseNode "accumulator%1:06:00::"))
+(define x (WordNode "nickel-iron_accumulator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "storage_battery%1:06:00::"))
+(InheritanceLink s (WordSenseNode "accumulator%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "capacitor_microphone%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "condenser_microphone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "microphone%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mike%1:06:00::"))
+(define x (WordNode "capacitor_microphone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "microphone%1:06:00::"))
+(InheritanceLink s (WordSenseNode "mike%1:06:00::"))

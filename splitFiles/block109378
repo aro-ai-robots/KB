@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mouthpiece%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mouthpiece")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acoustic_device%1:06:00::"))
+(HolonymLink s (WordSenseNode "telephone%1:06:00::"))
+(HolonymLink s (WordSenseNode "phone%1:06:00::"))
+(HolonymLink s (WordSenseNode "telephone_set%1:06:00::"))

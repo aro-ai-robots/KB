@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tap%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "tap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "withdraw%2:40:00::"))
+(InheritanceLink s (WordSenseNode "draw%2:40:01::"))
+(InheritanceLink s (WordSenseNode "take_out%2:40:00::"))
+(InheritanceLink s (WordSenseNode "draw_off%2:40:04::"))

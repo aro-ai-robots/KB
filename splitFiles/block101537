@@ -1,0 +1,7 @@
+(define s (WordSenseNode "major-domo%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "major-domo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "servant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "retainer%1:18:00::"))
+(define x (WordNode "seneschal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "servant%1:18:00::"))
+(InheritanceLink s (WordSenseNode "retainer%1:18:00::"))

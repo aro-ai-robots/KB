@@ -1,0 +1,4 @@
+(define s (WordSenseNode "case%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "case")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "argument%1:10:02::"))
+(InheritanceLink s (WordSenseNode "statement%1:10:02::"))

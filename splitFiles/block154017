@@ -1,0 +1,6 @@
+(define s (WordSenseNode "smoke_hole%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "smoke_hole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vent%1:06:00::"))
+(InheritanceLink s (WordSenseNode "venthole%1:06:00::"))
+(InheritanceLink s (WordSenseNode "vent-hole%1:06:00::"))
+(InheritanceLink s (WordSenseNode "blowhole%1:06:00::"))

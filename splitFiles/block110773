@@ -1,0 +1,5 @@
+(define s (WordSenseNode "n-type_semiconductor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "n-type_semiconductor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "semiconductor_device%1:06:00::"))
+(InheritanceLink s (WordSenseNode "semiconductor_unit%1:06:00::"))
+(InheritanceLink s (WordSenseNode "semiconductor%1:06:00::"))

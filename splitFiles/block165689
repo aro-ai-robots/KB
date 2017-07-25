@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tampering%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "meddling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_state%1:04:00::"))
+(define x (WordNode "tampering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_state%1:04:00::"))

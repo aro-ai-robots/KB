@@ -1,0 +1,7 @@
+(define s (WordSenseNode "genus_spirula%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Spirula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mollusk_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Spirulidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Spirulidae%1:05:00::"))
+(HolonymLink (WordSenseNode "spirula%1:05:00::") s)
+(HolonymLink (WordSenseNode "Spirula_peronii%1:05:00::") s)

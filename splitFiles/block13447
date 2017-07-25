@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bar%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "millibar%1:23:00::") s)
+(HolonymLink (WordSenseNode "barye%1:23:00::") s)
+(HolonymLink (WordSenseNode "bar_absolute%1:23:00::") s)
+(HolonymLink (WordSenseNode "microbar%1:23:00::") s)

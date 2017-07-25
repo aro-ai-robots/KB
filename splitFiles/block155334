@@ -1,0 +1,7 @@
+(define s (WordSenseNode "solving%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "resolution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "determination%1:04:00::"))
+(InheritanceLink s (WordSenseNode "finding%1:04:00::"))
+(define x (WordNode "solving")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "determination%1:04:00::"))
+(InheritanceLink s (WordSenseNode "finding%1:04:00::"))

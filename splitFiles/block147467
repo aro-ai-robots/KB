@@ -1,0 +1,5 @@
+(define s (WordSenseNode "second_deck%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "main_deck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deck%1:06:00::"))
+(define x (WordNode "second_deck")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deck%1:06:00::"))

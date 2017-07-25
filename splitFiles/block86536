@@ -1,0 +1,7 @@
+(define s (WordSenseNode "industrial_psychology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "applied_psychology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "psychology%1:09:00::"))
+(InheritanceLink s (WordSenseNode "psychological_science%1:09:00::"))
+(define x (WordNode "industrial_psychology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "psychology%1:09:00::"))
+(InheritanceLink s (WordSenseNode "psychological_science%1:09:00::"))

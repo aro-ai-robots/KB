@@ -1,0 +1,6 @@
+(define s (WordSenseNode "nebula%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nebula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cloud%1:19:01::"))
+(InheritanceLink (WordSenseNode "diffuse_nebula%1:17:00::") s)
+(InheritanceLink (WordSenseNode "gaseous_nebula%1:17:00::") s)
+(InheritanceLink (WordSenseNode "planetary_nebula%1:17:00::") s)

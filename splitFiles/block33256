@@ -1,0 +1,8 @@
+(define s (WordSenseNode "cockpit%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cockpit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compartment%1:06:00::"))
+(HolonymLink s (WordSenseNode "aircraft%1:06:00::"))
+(HolonymLink (WordSenseNode "canopy%1:06:02::") s)
+(HolonymLink (WordSenseNode "ejection_seat%1:06:00::") s)
+(HolonymLink (WordSenseNode "ejector_seat%1:06:00::") s)
+(HolonymLink (WordSenseNode "capsule%1:06:03::") s)

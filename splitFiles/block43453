@@ -1,0 +1,7 @@
+(define s (WordSenseNode "decimal_point%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decimal_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mathematical_notation%1:10:00::"))
+(define x (WordNode "percentage_point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mathematical_notation%1:10:00::"))
+(define x (WordNode "point")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mathematical_notation%1:10:00::"))

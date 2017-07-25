@@ -1,0 +1,5 @@
+(define s (WordSenseNode "penpusher%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "penpusher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clerk%1:18:00::"))
+(define x (WordNode "pencil_pusher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clerk%1:18:00::"))

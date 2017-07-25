@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hunger_marcher%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hunger_marcher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "unemployed_person%1:18:00::"))
+(HolonymLink s (WordSenseNode "hunger_march%1:14:00::"))

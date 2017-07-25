@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tergiversation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "equivocation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "falsification%1:04:02::"))
+(InheritanceLink s (WordSenseNode "misrepresentation%1:04:00::"))
+(define x (WordNode "tergiversation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "falsification%1:04:02::"))
+(InheritanceLink s (WordSenseNode "misrepresentation%1:04:00::"))

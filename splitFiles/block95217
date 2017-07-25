@@ -1,0 +1,4 @@
+(define s (WordSenseNode "latino%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Latino")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "artificial_language%1:10:00::"))
+(InheritanceLink (WordSenseNode "Latino_sine_flexione%1:10:00::") s)

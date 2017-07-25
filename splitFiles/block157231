@@ -1,0 +1,7 @@
+(define s (WordSenseNode "spirula_peronii%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spirula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decapod%1:05:02::"))
+(HolonymLink s (WordSenseNode "genus_Spirula%1:05:00::"))
+(define x (WordNode "Spirula_peronii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decapod%1:05:02::"))
+(HolonymLink s (WordSenseNode "genus_Spirula%1:05:00::"))

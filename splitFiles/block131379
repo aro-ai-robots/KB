@@ -1,0 +1,7 @@
+(define s (WordSenseNode "progressiveness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "progressiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "changeableness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "changeability%1:07:00::"))
+(define x (WordNode "progressivity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "changeableness%1:07:00::"))
+(InheritanceLink s (WordSenseNode "changeability%1:07:00::"))

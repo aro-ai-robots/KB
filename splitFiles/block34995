@@ -1,0 +1,4 @@
+(define s (WordSenseNode "communicate%2:32:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "communicate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interact%2:41:00::"))
+(InheritanceLink (WordSenseNode "message%2:32:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fair_use%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fair_use")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "use%1:07:03::"))
+(InheritanceLink s (WordSenseNode "enjoyment%1:07:00::"))

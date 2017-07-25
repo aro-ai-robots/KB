@@ -1,0 +1,7 @@
+(define s (WordSenseNode "polaroid%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Polaroid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "film%1:06:02::"))
+(InheritanceLink s (WordSenseNode "plastic_film%1:06:00::"))
+(HolonymLink s (WordSenseNode "sunglasses%1:06:00::"))
+(HolonymLink s (WordSenseNode "dark_glasses%1:06:00::"))
+(HolonymLink s (WordSenseNode "shades%1:06:00::"))

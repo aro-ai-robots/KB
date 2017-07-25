@@ -1,0 +1,6 @@
+(define s (WordSenseNode "malacology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "malacology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "zoology%1:09:00::"))
+(InheritanceLink s (WordSenseNode "zoological_science%1:09:00::"))
+(InheritanceLink (WordSenseNode "conchology%1:04:00::") s)
+(InheritanceLink (WordSenseNode "shell_collecting%1:04:00::") s)

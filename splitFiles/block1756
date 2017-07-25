@@ -1,0 +1,6 @@
+(define s (WordSenseNode "action_potential%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "action_potential")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_impulse%1:11:00::"))
+(InheritanceLink s (WordSenseNode "nervous_impulse%1:11:00::"))
+(InheritanceLink s (WordSenseNode "neural_impulse%1:11:00::"))
+(InheritanceLink s (WordSenseNode "impulse%1:11:00::"))

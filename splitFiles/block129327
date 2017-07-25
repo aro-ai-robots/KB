@@ -1,0 +1,7 @@
+(define s (WordSenseNode "power%2:34:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "power")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "provide%2:34:00::"))
+(InheritanceLink s (WordSenseNode "supply%2:34:00::"))
+(InheritanceLink s (WordSenseNode "ply%2:34:00::"))
+(InheritanceLink s (WordSenseNode "cater%2:34:00::"))
+(InheritanceLink (WordSenseNode "drive%2:34:07::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cuban%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cuban")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "West_Indian%1:18:00::"))
+(HolonymLink s (WordSenseNode "Cuba%1:15:00::"))
+(HolonymLink s (WordSenseNode "Republic_of_Cuba%1:15:00::"))

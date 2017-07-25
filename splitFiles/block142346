@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rosette%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rose_window")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:00::"))
+(define x (WordNode "rosette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "window%1:06:00::"))

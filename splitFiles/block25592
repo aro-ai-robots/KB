@@ -1,0 +1,7 @@
+(define s (WordSenseNode "caracara%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "caracara")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "falcon%1:05:00::"))
+(InheritanceLink (WordSenseNode "Audubon's_caracara%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Polyborus_cheriway_audubonii%1:05:00::") s)
+(InheritanceLink (WordSenseNode "carancha%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Polyborus_plancus%1:05:00::") s)

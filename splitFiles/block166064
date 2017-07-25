@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tarnished_plant_bug%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tarnished_plant_bug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lygus_bug%1:05:00::"))
+(define x (WordNode "Lygus_lineolaris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lygus_bug%1:05:00::"))

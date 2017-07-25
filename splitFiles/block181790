@@ -1,0 +1,7 @@
+(define s (WordSenseNode "weatherboarding%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "clapboard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "siding%1:27:00::"))
+(define x (WordNode "weatherboard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "siding%1:27:00::"))
+(define x (WordNode "weatherboarding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "siding%1:27:00::"))

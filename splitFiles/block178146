@@ -1,0 +1,4 @@
+(define s (WordSenseNode "vector%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vector")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "straight_line%1:25:00::"))
+(InheritanceLink (WordSenseNode "ray%1:25:00::") s)

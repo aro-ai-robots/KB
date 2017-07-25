@@ -1,0 +1,4 @@
+(define s (WordSenseNode "consent%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "consent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "permission%1:10:00::"))
+(InheritanceLink (WordSenseNode "informed_consent%1:10:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "engelmann's_spruce%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Engelmann_spruce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spruce%1:20:00::"))
+(define x (WordNode "Engelmann's_spruce")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spruce%1:20:00::"))
+(define x (WordNode "Picea_engelmannii")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spruce%1:20:00::"))

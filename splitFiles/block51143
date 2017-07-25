@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dwell%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "brood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worry%2:37:12::"))
+(InheritanceLink s (WordSenseNode "care%2:37:12::"))
+(define x (WordNode "dwell")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "worry%2:37:12::"))
+(InheritanceLink s (WordSenseNode "care%2:37:12::"))

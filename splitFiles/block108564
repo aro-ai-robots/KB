@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mooring_anchor%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mooring_anchor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anchor%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ground_tackle%1:06:00::"))

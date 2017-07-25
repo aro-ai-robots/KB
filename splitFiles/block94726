@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lantern%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lantern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lamp%1:06:00::"))
+(InheritanceLink (WordSenseNode "Chinese_lantern%1:06:00::") s)
+(InheritanceLink (WordSenseNode "dark_lantern%1:06:00::") s)
+(InheritanceLink (WordSenseNode "bull's-eye%1:06:00::") s)
+(InheritanceLink (WordSenseNode "jack-o'-lantern%1:06:00::") s)

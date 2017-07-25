@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tryptophan%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tryptophan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "essential_amino_acid%1:27:00::"))
+(define x (WordNode "tryptophane")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "essential_amino_acid%1:27:00::"))

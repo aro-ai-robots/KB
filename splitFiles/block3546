@@ -1,0 +1,3 @@
+(define s (WordSenseNode "air_mail%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "air_mail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mail%1:10:01::"))

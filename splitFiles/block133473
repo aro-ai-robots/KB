@@ -1,0 +1,6 @@
+(define s (WordSenseNode "push_up%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "push_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "push%2:38:00::"))
+(InheritanceLink s (WordSenseNode "force%2:38:00::"))
+(InheritanceLink (WordSenseNode "uplift%2:38:00::") s)
+(InheritanceLink (WordSenseNode "boost_up%2:38:00::") s)

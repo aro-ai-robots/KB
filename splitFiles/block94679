@@ -1,0 +1,6 @@
+(define s (WordSenseNode "language_lesson%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "language_lesson")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lesson%1:04:01::"))
+(InheritanceLink (WordSenseNode "French_lesson%1:04:00::") s)
+(InheritanceLink (WordSenseNode "German_lesson%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Hebrew_lesson%1:04:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "double_standard%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "double_standard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ethic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "ethical_code%1:10:00::"))
+(InheritanceLink (WordSenseNode "double_standard_of_sexual_behavior%1:10:00::") s)

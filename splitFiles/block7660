@@ -1,0 +1,7 @@
+(define s (WordSenseNode "aperture%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "aperture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "regulator%1:06:00::"))
+(HolonymLink s (WordSenseNode "camera%1:06:00::"))
+(HolonymLink s (WordSenseNode "photographic_camera%1:06:00::"))
+(HolonymLink s (WordSenseNode "telescope%1:06:00::"))
+(HolonymLink s (WordSenseNode "scope%1:06:02::"))

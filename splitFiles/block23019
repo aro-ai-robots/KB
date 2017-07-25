@@ -1,0 +1,5 @@
+(define s (WordSenseNode "butcher_block%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "butcher_board")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slab%1:06:00::"))
+(define x (WordNode "butcher_block")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slab%1:06:00::"))

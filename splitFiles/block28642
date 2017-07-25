@@ -1,0 +1,8 @@
+(define s (WordSenseNode "change_of_course%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "change_of_course")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_of_direction%1:04:00::"))
+(InheritanceLink s (WordSenseNode "reorientation%1:04:00::"))
+(InheritanceLink (WordSenseNode "turn%1:04:01::") s)
+(InheritanceLink (WordSenseNode "turning%1:04:00::") s)
+(InheritanceLink (WordSenseNode "tack%1:04:01::") s)
+(InheritanceLink (WordSenseNode "tacking%1:04:00::") s)

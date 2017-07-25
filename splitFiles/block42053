@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cytotoxin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cytotoxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toxin%1:27:00::"))
+(InheritanceLink (WordSenseNode "enterotoxin%1:27:00::") s)

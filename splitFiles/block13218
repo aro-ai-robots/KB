@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bandwagon%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bandwagon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vogue%1:09:00::"))
+(InheritanceLink s (WordSenseNode "trend%1:09:02::"))
+(InheritanceLink s (WordSenseNode "style%1:09:00::"))

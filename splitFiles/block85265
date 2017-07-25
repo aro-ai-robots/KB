@@ -1,0 +1,4 @@
+(define s (WordSenseNode "impossible%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "impossible")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "impossibility%1:09:00::"))
+(InheritanceLink s (WordSenseNode "impossible_action%1:09:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "contract_of_adhesion%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adhesion_contract")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contract%1:10:00::"))
+(define x (WordNode "contract_of_adhesion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contract%1:10:00::"))

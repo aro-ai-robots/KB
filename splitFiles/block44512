@@ -1,0 +1,7 @@
+(define s (WordSenseNode "demonetise%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "demonetize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "devalue%2:30:02::"))
+(InheritanceLink s (WordSenseNode "devaluate%2:30:01::"))
+(define x (WordNode "demonetise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "devalue%2:30:02::"))
+(InheritanceLink s (WordSenseNode "devaluate%2:30:01::"))

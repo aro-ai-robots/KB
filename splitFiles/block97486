@@ -1,0 +1,6 @@
+(define s (WordSenseNode "lighter-than-air_craft%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lighter-than-air_craft")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aircraft%1:06:00::"))
+(InheritanceLink (WordSenseNode "airship%1:06:00::") s)
+(InheritanceLink (WordSenseNode "dirigible%1:06:00::") s)
+(InheritanceLink (WordSenseNode "balloon%1:06:00::") s)

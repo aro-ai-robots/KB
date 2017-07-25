@@ -1,0 +1,7 @@
+(define s (WordSenseNode "make%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "make")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "overdo%2:41:00::") s)
+(InheritanceLink (WordSenseNode "exaggerate%2:41:00::") s)
+(define x (WordNode "do")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "overdo%2:41:00::") s)
+(InheritanceLink (WordSenseNode "exaggerate%2:41:00::") s)

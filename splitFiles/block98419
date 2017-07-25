@@ -1,0 +1,6 @@
+(define s (WordSenseNode "literature%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "literature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "written_material%1:10:00::"))
+(InheritanceLink s (WordSenseNode "piece_of_writing%1:10:00::"))
+(InheritanceLink (WordSenseNode "Sanskrit_literature%1:10:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mixed_farming%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mixed_farming")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "farming%1:04:00::"))
+(InheritanceLink s (WordSenseNode "agriculture%1:04:00::"))
+(InheritanceLink s (WordSenseNode "husbandry%1:04:00::"))

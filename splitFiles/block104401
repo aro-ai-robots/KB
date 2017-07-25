@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mechanism%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mechanism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_object%1:03:00::"))
+(InheritanceLink (WordSenseNode "barrier%1:17:00::") s)
+(InheritanceLink (WordSenseNode "transmission_mechanism%1:17:00::") s)
+(InheritanceLink (WordSenseNode "biological_clock%1:28:00::") s)

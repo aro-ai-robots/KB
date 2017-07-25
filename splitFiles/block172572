@@ -1,0 +1,5 @@
+(define s (WordSenseNode "trimmer_joist%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trimmer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "joist%1:06:00::"))
+(define x (WordNode "trimmer_joist")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "joist%1:06:00::"))

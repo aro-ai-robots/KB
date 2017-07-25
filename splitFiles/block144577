@@ -1,0 +1,5 @@
+(define s (WordSenseNode "samizdat%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "samizdat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "print_media%1:10:00::"))
+(define x (WordNode "underground_press")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "print_media%1:10:00::"))

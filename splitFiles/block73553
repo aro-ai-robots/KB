@@ -1,0 +1,6 @@
+(define s (WordSenseNode "glycoside%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glycoside")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "organic_compound%1:27:00::"))
+(InheritanceLink (WordSenseNode "glucoside%1:27:00::") s)
+(InheritanceLink (WordSenseNode "nucleoside%1:27:00::") s)
+(InheritanceLink (WordSenseNode "strophanthin%1:27:00::") s)

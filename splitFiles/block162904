@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sunglass%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sunglass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "converging_lens%1:06:00::"))
+(InheritanceLink s (WordSenseNode "convex_lens%1:06:00::"))

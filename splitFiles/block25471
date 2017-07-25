@@ -1,0 +1,4 @@
+(define s (WordSenseNode "capsizing%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "capsizing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shipwreck%1:11:00::"))
+(InheritanceLink s (WordSenseNode "wreck%1:11:01::"))

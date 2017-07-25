@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ablation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ablation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "erosion%1:22:00::"))
+(InheritanceLink s (WordSenseNode "eroding%1:22:00::"))
+(InheritanceLink s (WordSenseNode "eating_away%1:22:00::"))
+(InheritanceLink s (WordSenseNode "wearing%1:22:00::"))
+(InheritanceLink s (WordSenseNode "wearing_away%1:22:00::"))

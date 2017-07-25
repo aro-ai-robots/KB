@@ -1,0 +1,7 @@
+(define s (WordSenseNode "alarm%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "alarm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warn%2:32:00::"))
+(InheritanceLink (WordSenseNode "wake%2:32:02::") s)
+(define x (WordNode "alert")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "warn%2:32:00::"))
+(InheritanceLink (WordSenseNode "wake%2:32:02::") s)

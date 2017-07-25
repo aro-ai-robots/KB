@@ -1,0 +1,7 @@
+(define s (WordSenseNode "reallocate%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "reapportion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allocate%2:40:00::"))
+(InheritanceLink s (WordSenseNode "apportion%2:40:01::"))
+(define x (WordNode "reallocate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allocate%2:40:00::"))
+(InheritanceLink s (WordSenseNode "apportion%2:40:01::"))

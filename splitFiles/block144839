@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sanguineness%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sanguinity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optimism%1:12:00::"))
+(define x (WordNode "sanguineness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optimism%1:12:00::"))

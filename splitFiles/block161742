@@ -1,0 +1,4 @@
+(define s (WordSenseNode "subclinical_absence%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subclinical_absence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "absence%1:26:01::"))
+(InheritanceLink s (WordSenseNode "absence_seizure%1:26:00::"))

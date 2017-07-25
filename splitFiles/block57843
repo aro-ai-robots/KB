@@ -1,0 +1,8 @@
+(define s (WordSenseNode "face-off%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "face-off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "beginning%1:04:00::"))
+(InheritanceLink s (WordSenseNode "start%1:04:00::"))
+(InheritanceLink s (WordSenseNode "commencement%1:04:00::"))
+(HolonymLink s (WordSenseNode "ice_hockey%1:04:00::"))
+(HolonymLink s (WordSenseNode "hockey%1:04:01::"))
+(HolonymLink s (WordSenseNode "hockey_game%1:04:00::"))

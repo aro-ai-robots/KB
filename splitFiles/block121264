@@ -1,0 +1,7 @@
+(define s (WordSenseNode "passing%1:04:05::")) (PartOfSpeechLink s noun)
+(define x (WordNode "passage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reaction%1:04:00::"))
+(InheritanceLink s (WordSenseNode "response%1:04:01::"))
+(define x (WordNode "passing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reaction%1:04:00::"))
+(InheritanceLink s (WordSenseNode "response%1:04:01::"))

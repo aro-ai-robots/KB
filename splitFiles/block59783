@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fantasy%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fantasy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fiction%1:10:00::"))
+(InheritanceLink (WordSenseNode "science_fiction%1:10:00::") s)
+(define x (WordNode "phantasy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fiction%1:10:00::"))
+(InheritanceLink (WordSenseNode "science_fiction%1:10:00::") s)

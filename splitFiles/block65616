@@ -1,0 +1,7 @@
+(define s (WordSenseNode "frequency-response_characteristic%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frequency-response_curve")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "characteristic_curve%1:10:00::"))
+(InheritanceLink s (WordSenseNode "characterisic_function%1:10:00::"))
+(define x (WordNode "frequency-response_characteristic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "characteristic_curve%1:10:00::"))
+(InheritanceLink s (WordSenseNode "characterisic_function%1:10:00::"))

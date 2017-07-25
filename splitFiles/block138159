@@ -1,0 +1,6 @@
+(define s (WordSenseNode "relate%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "relate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tell%2:32:01::"))
+(InheritanceLink s (WordSenseNode "narrate%2:32:00::"))
+(InheritanceLink s (WordSenseNode "recount%2:32:00::"))
+(InheritanceLink s (WordSenseNode "recite%2:32:01::"))

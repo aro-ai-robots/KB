@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bandage%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bandage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dress%2:29:02::"))
+(InheritanceLink (WordSenseNode "ligate%2:29:00::") s)

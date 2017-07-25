@@ -1,0 +1,4 @@
+(define s (WordSenseNode "undercover_operation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "undercover_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:04:03::"))
+(InheritanceLink (WordSenseNode "buy-and-bust_operation%1:04:00::") s)

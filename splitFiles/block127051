@@ -1,0 +1,8 @@
+(define s (WordSenseNode "plume_grass%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plume_grass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grass%1:20:00::"))
+(InheritanceLink (WordSenseNode "Ravenna_grass%1:20:00::") s)
+(InheritanceLink (WordSenseNode "wool_grass%1:20:01::") s)
+(InheritanceLink (WordSenseNode "Erianthus_ravennae%1:20:00::") s)
+(HolonymLink s (WordSenseNode "Erianthus%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Erianthus%1:20:00::"))

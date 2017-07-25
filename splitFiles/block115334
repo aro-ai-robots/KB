@@ -1,0 +1,7 @@
+(define s (WordSenseNode "octave%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "octave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interval%1:10:00::"))
+(InheritanceLink s (WordSenseNode "musical_interval%1:10:00::"))
+(define x (WordNode "musical_octave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "interval%1:10:00::"))
+(InheritanceLink s (WordSenseNode "musical_interval%1:10:00::"))

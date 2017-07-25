@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wattle%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wattle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caruncle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "caruncula%1:08:00::"))
+(define x (WordNode "lappet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caruncle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "caruncula%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mass%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_ceremony%1:04:00::"))
+(InheritanceLink s (WordSenseNode "religious_ritual%1:04:00::"))
+(InheritanceLink (WordSenseNode "High_Mass%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Low_Mass%1:04:00::") s)
+(InheritanceLink (WordSenseNode "Requiem%1:04:00::") s)

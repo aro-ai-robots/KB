@@ -1,0 +1,5 @@
+(define s (WordSenseNode "copy%2:36:05::")) (PartOfSpeechLink s verb)
+(define x (WordNode "copy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "write%2:36:01::"))
+(InheritanceLink (WordSenseNode "recopy%2:36:00::") s)
+(InheritanceLink (WordSenseNode "copy_out%2:36:00::") s)

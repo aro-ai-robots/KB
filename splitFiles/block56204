@@ -1,0 +1,5 @@
+(define s (WordSenseNode "european_magpie%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "European_magpie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magpie%1:05:00::"))
+(define x (WordNode "Pica_pica")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magpie%1:05:00::"))

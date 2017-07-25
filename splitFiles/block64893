@@ -1,0 +1,7 @@
+(define s (WordSenseNode "four-wheel_drive%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "four-wheel_drive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transmission%1:06:01::"))
+(InheritanceLink s (WordSenseNode "transmission_system%1:06:00::"))
+(define x (WordNode "4WD")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transmission%1:06:01::"))
+(InheritanceLink s (WordSenseNode "transmission_system%1:06:00::"))

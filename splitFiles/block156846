@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spheroid%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "spheroid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "round_shape%1:25:00::"))
+(define x (WordNode "ellipsoid_of_revolution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "round_shape%1:25:00::"))

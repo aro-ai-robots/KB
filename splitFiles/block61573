@@ -1,0 +1,8 @@
+(define s (WordSenseNode "filter-tipped_cigarette%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "filter-tipped_cigarette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cigarette%1:06:00::"))
+(InheritanceLink s (WordSenseNode "cigaret%1:06:00::"))
+(InheritanceLink s (WordSenseNode "coffin_nail%1:06:00::"))
+(InheritanceLink s (WordSenseNode "butt%1:06:04::"))
+(InheritanceLink s (WordSenseNode "fag%1:06:00::"))
+(HolonymLink (WordSenseNode "filter_tip%1:06:00::") s)

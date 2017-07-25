@@ -1,0 +1,5 @@
+(define s (WordSenseNode "malonylurea%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "barbituric_acid")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acid%1:27:00::"))
+(define x (WordNode "malonylurea")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acid%1:27:00::"))

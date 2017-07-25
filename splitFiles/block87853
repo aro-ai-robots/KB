@@ -1,0 +1,7 @@
+(define s (WordSenseNode "intensive%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "intensifier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "modifier%1:10:00::"))
+(InheritanceLink s (WordSenseNode "qualifier%1:10:00::"))
+(define x (WordNode "intensive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "modifier%1:10:00::"))
+(InheritanceLink s (WordSenseNode "qualifier%1:10:00::"))

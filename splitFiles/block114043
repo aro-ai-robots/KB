@@ -1,0 +1,5 @@
+(define s (WordSenseNode "northern_pike%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "northern_pike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pike%1:05:00::"))
+(define x (WordNode "Esox_lucius")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pike%1:05:00::"))

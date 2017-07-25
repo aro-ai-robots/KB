@@ -1,0 +1,5 @@
+(define s (WordSenseNode "preventive_strike%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "preventive_strike")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strike%1:04:02::"))
+(define x (WordNode "preventive_attack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "strike%1:04:02::"))

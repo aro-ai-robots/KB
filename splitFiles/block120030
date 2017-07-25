@@ -1,0 +1,7 @@
+(define s (WordSenseNode "panetella%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "panatela")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cigar%1:06:00::"))
+(define x (WordNode "panetela")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cigar%1:06:00::"))
+(define x (WordNode "panetella")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cigar%1:06:00::"))

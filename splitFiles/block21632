@@ -1,0 +1,5 @@
+(define s (WordSenseNode "brothel_keeper%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "madam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "businesswoman%1:18:00::"))
+(define x (WordNode "brothel_keeper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "businesswoman%1:18:00::"))

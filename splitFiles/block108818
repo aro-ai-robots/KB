@@ -1,0 +1,4 @@
+(define s (WordSenseNode "mortality_table%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mortality_table")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "actuarial_table%1:14:00::"))
+(InheritanceLink s (WordSenseNode "statistical_table%1:14:00::"))

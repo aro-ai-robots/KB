@@ -1,0 +1,6 @@
+(define s (WordSenseNode "venturi%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "venturi")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tubing%1:06:00::"))
+(HolonymLink s (WordSenseNode "carburetor%1:06:00::"))
+(HolonymLink s (WordSenseNode "carburettor%1:06:00::"))

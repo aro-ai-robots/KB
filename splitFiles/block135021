@@ -1,0 +1,7 @@
+(define s (WordSenseNode "radioactive_iodine_test%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "radioactive_iodine_test")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diagnostic_test%1:09:00::"))
+(InheritanceLink s (WordSenseNode "diagnostic_assay%1:09:00::"))
+(InheritanceLink (WordSenseNode "radioactive_iodine_excretion_test%1:09:00::") s)
+(InheritanceLink (WordSenseNode "radioactive_iodine_uptake_test%1:09:00::") s)
+(InheritanceLink (WordSenseNode "RAIU%1:09:00::") s)

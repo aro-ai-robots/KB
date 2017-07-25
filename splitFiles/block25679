@@ -1,0 +1,5 @@
+(define s (WordSenseNode "carbon_dioxide_acidosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "respiratory_acidosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acidosis%1:26:00::"))
+(define x (WordNode "carbon_dioxide_acidosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "acidosis%1:26:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mutineer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mutineer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insurgent%1:18:00::"))
+(InheritanceLink s (WordSenseNode "insurrectionist%1:18:00::"))
+(InheritanceLink s (WordSenseNode "freedom_fighter%1:18:00::"))
+(InheritanceLink s (WordSenseNode "rebel%1:18:00::"))

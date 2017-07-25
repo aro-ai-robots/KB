@@ -1,0 +1,7 @@
+(define s (WordSenseNode "screwdriver%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "screwdriver")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand_tool%1:06:00::"))
+(InheritanceLink (WordSenseNode "flat_tip_screwdriver%1:06:00::") s)
+(InheritanceLink (WordSenseNode "Phillips_screwdriver%1:06:00::") s)
+(InheritanceLink (WordSenseNode "spiral_ratchet_screwdriver%1:06:00::") s)
+(InheritanceLink (WordSenseNode "ratchet_screwdriver%1:06:00::") s)

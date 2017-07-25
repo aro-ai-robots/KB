@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cymric%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Welsh")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Brythonic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Brittanic%1:10:00::"))
+(define x (WordNode "Cymric")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Brythonic%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Brittanic%1:10:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "nullity%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nullity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "act%1:10:01::"))
+(InheritanceLink s (WordSenseNode "enactment%1:10:00::"))

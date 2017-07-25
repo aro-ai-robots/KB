@@ -1,0 +1,7 @@
+(define s (WordSenseNode "artificial_horizon%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "artificial_horizon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "navigational_instrument%1:06:00::"))
+(define x (WordNode "gyro_horizon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "navigational_instrument%1:06:00::"))
+(define x (WordNode "flight_indicator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "navigational_instrument%1:06:00::"))

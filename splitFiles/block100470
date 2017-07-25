@@ -1,0 +1,7 @@
+(define s (WordSenseNode "lutjanus_analis%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mutton_snapper")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snapper%1:05:01::"))
+(define x (WordNode "muttonfish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snapper%1:05:01::"))
+(define x (WordNode "Lutjanus_analis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "snapper%1:05:01::"))

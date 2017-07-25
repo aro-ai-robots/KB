@@ -1,0 +1,6 @@
+(define s (WordSenseNode "handcar%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "handcar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "car%1:06:01::"))
+(InheritanceLink s (WordSenseNode "railcar%1:06:00::"))
+(InheritanceLink s (WordSenseNode "railway_car%1:06:00::"))
+(InheritanceLink s (WordSenseNode "railroad_car%1:06:00::"))

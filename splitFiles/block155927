@@ -1,0 +1,7 @@
+(define s (WordSenseNode "south_korean_won%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "South_Korean_won")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "South_Korean_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "chon%1:23:02::") s)
+(define x (WordNode "won")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "South_Korean_monetary_unit%1:23:00::"))
+(HolonymLink (WordSenseNode "chon%1:23:02::") s)

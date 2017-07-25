@@ -1,0 +1,5 @@
+(define s (WordSenseNode "length_of_service%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "longevity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "longness%1:07:01::"))
+(define x (WordNode "length_of_service")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "longness%1:07:01::"))

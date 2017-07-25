@@ -1,0 +1,6 @@
+(define s (WordSenseNode "greek_fire%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Greek_fire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mixture%1:27:00::"))
+(InheritanceLink s (WordSenseNode "weapon%1:06:00::"))
+(InheritanceLink s (WordSenseNode "arm%1:06:01::"))
+(InheritanceLink s (WordSenseNode "weapon_system%1:06:00::"))

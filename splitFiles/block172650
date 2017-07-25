@@ -1,0 +1,6 @@
+(define s (WordSenseNode "trip_wire%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trip_wire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_unit%1:14:00::"))
+(InheritanceLink s (WordSenseNode "military_force%1:14:00::"))
+(InheritanceLink s (WordSenseNode "military_group%1:14:00::"))
+(InheritanceLink s (WordSenseNode "force%1:14:01::"))

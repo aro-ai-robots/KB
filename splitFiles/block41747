@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cyclic_redundancy_check%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cyclic_redundancy_check")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "error_correction_code%1:10:00::"))
+(InheritanceLink s (WordSenseNode "ECC%1:10:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "samoan%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Samoan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Polynesian%1:18:00::"))
+(HolonymLink s (WordSenseNode "Samoa%1:15:01::"))
+(HolonymLink s (WordSenseNode "Samoan_Islands%1:15:00::"))

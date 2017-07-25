@@ -1,0 +1,6 @@
+(define s (WordSenseNode "pisa%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Pisa")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Tuscany%1:15:00::"))
+(HolonymLink s (WordSenseNode "Toscana%1:15:00::"))
+(HolonymLink (WordSenseNode "Leaning_Tower%1:06:00::") s)
+(HolonymLink (WordSenseNode "Leaning_Tower_of_Pisa%1:06:00::") s)

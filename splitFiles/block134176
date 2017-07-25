@@ -1,0 +1,4 @@
+(define s (WordSenseNode "quarter_plate%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quarter_plate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plate%1:06:07::"))
+(InheritanceLink s (WordSenseNode "photographic_plate%1:06:00::"))

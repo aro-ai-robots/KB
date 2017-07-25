@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nerve_centre%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nerve_center")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "center%1:15:02::"))
+(InheritanceLink s (WordSenseNode "centre%1:15:03::"))
+(define x (WordNode "nerve_centre")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "center%1:15:02::"))
+(InheritanceLink s (WordSenseNode "centre%1:15:03::"))

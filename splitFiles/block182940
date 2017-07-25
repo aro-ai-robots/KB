@@ -1,0 +1,7 @@
+(define s (WordSenseNode "white_woman%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "white_woman")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "woman%1:18:00::"))
+(InheritanceLink s (WordSenseNode "adult_female%1:18:00::"))
+(InheritanceLink s (WordSenseNode "White%1:18:00::"))
+(InheritanceLink s (WordSenseNode "White_person%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Caucasian%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fill_out%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pad")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stuff%2:35:00::"))
+(InheritanceLink (WordSenseNode "rat%2:35:01::") s)
+(define x (WordNode "fill_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stuff%2:35:00::"))
+(InheritanceLink (WordSenseNode "rat%2:35:01::") s)

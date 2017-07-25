@@ -1,0 +1,4 @@
+(define s (WordSenseNode "highway_code%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Highway_Code")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "code%1:10:01::"))
+(InheritanceLink s (WordSenseNode "codification%1:10:00::"))

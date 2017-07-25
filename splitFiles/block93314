@@ -1,0 +1,7 @@
+(define s (WordSenseNode "knee_bend%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "knee_bend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leg_exercise%1:04:00::"))
+(define x (WordNode "squat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leg_exercise%1:04:00::"))
+(define x (WordNode "squatting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leg_exercise%1:04:00::"))

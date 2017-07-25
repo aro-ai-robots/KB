@@ -1,0 +1,4 @@
+(define s (WordSenseNode "reset%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "reset")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "device%1:06:00::"))
+(HolonymLink (WordSenseNode "reset_button%1:06:00::") s)

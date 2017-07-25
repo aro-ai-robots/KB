@@ -1,0 +1,8 @@
+(define s (WordSenseNode "disinfect%2:29:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "disinfect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "clean%2:35:00::"))
+(InheritanceLink s (WordSenseNode "make_clean%2:35:00::"))
+(InheritanceLink (WordSenseNode "sterilize%2:29:01::") s)
+(InheritanceLink (WordSenseNode "sterilise%2:29:01::") s)
+(InheritanceLink (WordSenseNode "antisepticize%2:29:00::") s)
+(InheritanceLink (WordSenseNode "chlorinate%2:29:00::") s)

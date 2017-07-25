@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dado%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wainscot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "panel%1:06:00::"))
+(HolonymLink s (WordSenseNode "wall%1:06:00::"))
+(define x (WordNode "dado")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "panel%1:06:00::"))
+(HolonymLink s (WordSenseNode "wall%1:06:00::"))

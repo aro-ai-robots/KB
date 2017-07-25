@@ -1,0 +1,6 @@
+(define s (WordSenseNode "electron_gun%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electron_gun")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electrode%1:06:00::"))
+(HolonymLink s (WordSenseNode "cathode-ray_tube%1:06:00::"))
+(HolonymLink s (WordSenseNode "CRT%1:06:00::"))
+(HolonymLink s (WordSenseNode "electron_microscope%1:06:00::"))

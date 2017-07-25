@@ -1,0 +1,5 @@
+(define s (WordSenseNode "prorogue%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "prorogue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "adjourn%2:41:00::"))
+(InheritanceLink s (WordSenseNode "withdraw%2:41:00::"))
+(InheritanceLink s (WordSenseNode "retire%2:41:00::"))

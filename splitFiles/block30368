@@ -1,0 +1,7 @@
+(define s (WordSenseNode "choirmaster%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "choirmaster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "musician%1:18:00::"))
+(define x (WordNode "precentor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "musician%1:18:00::"))
+(define x (WordNode "cantor")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "musician%1:18:00::"))

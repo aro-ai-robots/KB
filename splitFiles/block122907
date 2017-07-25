@@ -1,0 +1,6 @@
+(define s (WordSenseNode "perforated_eardrum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "perforated_eardrum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "eardrum%1:08:00::"))
+(InheritanceLink s (WordSenseNode "tympanum%1:08:00::"))
+(InheritanceLink s (WordSenseNode "tympanic_membrane%1:08:00::"))
+(InheritanceLink s (WordSenseNode "myringa%1:08:00::"))

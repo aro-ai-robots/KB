@@ -1,0 +1,5 @@
+(define s (WordSenseNode "racial_profiling%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "racial_profiling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "racism%1:04:00::"))
+(InheritanceLink s (WordSenseNode "racialism%1:04:00::"))
+(InheritanceLink s (WordSenseNode "racial_discrimination%1:04:00::"))

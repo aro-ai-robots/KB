@@ -1,0 +1,5 @@
+(define s (WordSenseNode "diminuendo%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decrescendo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "softness%1:07:01::"))
+(define x (WordNode "diminuendo")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "softness%1:07:01::"))

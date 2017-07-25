@@ -1,0 +1,7 @@
+(define s (WordSenseNode "restaurant_chain%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "restaurant_chain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chain%1:14:02::"))
+(HolonymLink (WordSenseNode "restaurant%1:06:00::") s)
+(HolonymLink (WordSenseNode "eating_house%1:06:00::") s)
+(HolonymLink (WordSenseNode "eating_place%1:06:00::") s)
+(HolonymLink (WordSenseNode "eatery%1:06:00::") s)

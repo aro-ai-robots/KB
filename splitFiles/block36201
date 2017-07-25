@@ -1,0 +1,5 @@
+(define s (WordSenseNode "congeniality%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "congenialness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compatibility%1:07:00::"))
+(define x (WordNode "congeniality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compatibility%1:07:00::"))

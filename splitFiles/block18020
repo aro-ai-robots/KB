@@ -1,0 +1,5 @@
+(define s (WordSenseNode "blister_pack%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blister_pack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "packaging%1:06:00::"))
+(define x (WordNode "bubble_pack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "packaging%1:06:00::"))

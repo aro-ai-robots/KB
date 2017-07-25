@@ -1,0 +1,7 @@
+(define s (WordSenseNode "draw%2:31:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "draw")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "create_by_mental_act%2:36:00::"))
+(InheritanceLink s (WordSenseNode "create_mentally%2:36:00::"))
+(define x (WordNode "make")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "create_by_mental_act%2:36:00::"))
+(InheritanceLink s (WordSenseNode "create_mentally%2:36:00::"))

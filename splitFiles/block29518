@@ -1,0 +1,4 @@
+(define s (WordSenseNode "chemotherapy%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chemotherapy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "therapy%1:04:00::"))
+(InheritanceLink (WordSenseNode "chrysotherapy%1:04:00::") s)

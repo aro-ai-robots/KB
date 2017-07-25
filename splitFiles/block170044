@@ -1,0 +1,8 @@
+(define s (WordSenseNode "toecap%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "toecap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protective_covering%1:06:00::"))
+(InheritanceLink s (WordSenseNode "protective_cover%1:06:00::"))
+(InheritanceLink s (WordSenseNode "protection%1:06:00::"))
+(InheritanceLink (WordSenseNode "wing_tip%1:06:00::") s)
+(HolonymLink s (WordSenseNode "boot%1:06:00::"))
+(HolonymLink s (WordSenseNode "shoe%1:06:00::"))

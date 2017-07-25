@@ -1,0 +1,7 @@
+(define s (WordSenseNode "itemise%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "itemize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%2:32:01::"))
+(InheritanceLink s (WordSenseNode "list%2:32:01::"))
+(define x (WordNode "itemise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%2:32:01::"))
+(InheritanceLink s (WordSenseNode "list%2:32:01::"))

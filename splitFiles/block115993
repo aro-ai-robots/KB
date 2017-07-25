@@ -1,0 +1,7 @@
+(define s (WordSenseNode "oled%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "organic_light-emitting_diode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "light-emitting_diode%1:06:00::"))
+(InheritanceLink s (WordSenseNode "LED%1:06:00::"))
+(define x (WordNode "OLED")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "light-emitting_diode%1:06:00::"))
+(InheritanceLink s (WordSenseNode "LED%1:06:00::"))

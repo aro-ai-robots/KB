@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stapling_machine%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stapler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:00::"))
+(define x (WordNode "stapling_machine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:00::"))

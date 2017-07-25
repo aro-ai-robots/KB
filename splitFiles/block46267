@@ -1,0 +1,5 @@
+(define s (WordSenseNode "die_out%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "die")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut_out%2:35:02::"))
+(define x (WordNode "die_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cut_out%2:35:02::"))

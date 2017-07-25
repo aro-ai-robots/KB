@@ -1,0 +1,4 @@
+(define s (WordSenseNode "epilation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "epilation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "loss%1:22:00::"))
+(InheritanceLink (WordSenseNode "psilosis%1:22:00::") s)

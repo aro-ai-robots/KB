@@ -1,0 +1,8 @@
+(define s (WordSenseNode "merlon%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "merlon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rampart%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bulwark%1:06:01::"))
+(InheritanceLink s (WordSenseNode "wall%1:06:01::"))
+(HolonymLink s (WordSenseNode "battlement%1:06:00::"))
+(HolonymLink s (WordSenseNode "crenelation%1:06:00::"))
+(HolonymLink s (WordSenseNode "crenellation%1:06:00::"))

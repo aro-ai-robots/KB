@@ -1,0 +1,7 @@
+(define s (WordSenseNode "acinus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acinus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sac%1:08:00::"))
+(HolonymLink s (WordSenseNode "gland%1:08:00::"))
+(HolonymLink s (WordSenseNode "secretory_organ%1:08:00::"))
+(HolonymLink s (WordSenseNode "secretor%1:08:00::"))
+(HolonymLink s (WordSenseNode "secreter%1:08:00::"))

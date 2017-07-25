@@ -1,0 +1,7 @@
+(define s (WordSenseNode "colonise%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "colonize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "settle%2:30:00::"))
+(InheritanceLink s (WordSenseNode "locate%2:30:00::"))
+(define x (WordNode "colonise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "settle%2:30:00::"))
+(InheritanceLink s (WordSenseNode "locate%2:30:00::"))

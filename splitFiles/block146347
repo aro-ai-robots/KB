@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sclerotium_rot%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sclerotium_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_disease%1:26:00::"))
+(define x (WordNode "sclerotium_rot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "plant_disease%1:26:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "dynamic_headroom%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "headroom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "high_fidelity%1:04:00::"))
+(InheritanceLink s (WordSenseNode "hi-fi%1:04:00::"))
+(define x (WordNode "dynamic_headroom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "high_fidelity%1:04:00::"))
+(InheritanceLink s (WordSenseNode "hi-fi%1:04:00::"))

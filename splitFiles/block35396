@@ -1,0 +1,5 @@
+(define s (WordSenseNode "compound_fraction%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "complex_fraction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fraction%1:23:00::"))
+(define x (WordNode "compound_fraction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fraction%1:23:00::"))

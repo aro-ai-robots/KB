@@ -1,0 +1,7 @@
+(define s (WordSenseNode "come_up%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "arise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "become%2:42:00::"))
+(define x (WordNode "come_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "become%2:42:00::"))
+(define x (WordNode "bob_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "become%2:42:00::"))

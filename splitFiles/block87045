@@ -1,0 +1,5 @@
+(define s (WordSenseNode "inhalator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inhaler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dispenser%1:06:00::"))
+(define x (WordNode "inhalator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dispenser%1:06:00::"))

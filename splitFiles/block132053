@@ -1,0 +1,7 @@
+(define s (WordSenseNode "provencal%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Provencal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Langue_d'oc%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Langue_d'oc_French%1:10:00::"))
+(define x (WordNode "Occitan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Langue_d'oc%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Langue_d'oc_French%1:10:00::"))

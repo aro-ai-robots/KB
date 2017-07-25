@@ -1,0 +1,7 @@
+(define s (WordSenseNode "suspender_belt%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "garter_belt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "undergarment%1:06:00::"))
+(InheritanceLink s (WordSenseNode "unmentionable%1:06:00::"))
+(define x (WordNode "suspender_belt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "undergarment%1:06:00::"))
+(InheritanceLink s (WordSenseNode "unmentionable%1:06:00::"))

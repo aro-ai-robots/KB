@@ -1,0 +1,5 @@
+(define s (WordSenseNode "concrete_mixer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concrete_mixer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:00::"))
+(define x (WordNode "cement_mixer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "machine%1:06:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "open%2:41:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "open")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "start%2:36:01::"))
+(InheritanceLink s (WordSenseNode "start_up%2:36:00::"))
+(InheritanceLink s (WordSenseNode "embark_on%2:36:00::"))
+(InheritanceLink s (WordSenseNode "commence%2:36:00::"))
+(InheritanceLink (WordSenseNode "inaugurate%2:41:01::") s)
+(InheritanceLink (WordSenseNode "call_to_order%2:41:00::") s)

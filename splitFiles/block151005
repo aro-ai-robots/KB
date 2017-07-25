@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shower_down%2:43:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "shower")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rain%2:43:00::"))
+(InheritanceLink s (WordSenseNode "rain_down%2:43:00::"))
+(define x (WordNode "shower_down")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rain%2:43:00::"))
+(InheritanceLink s (WordSenseNode "rain_down%2:43:00::"))

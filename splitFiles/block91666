@@ -1,0 +1,5 @@
+(define s (WordSenseNode "juncus_inflexus%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hard_rush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rush%1:20:00::"))
+(define x (WordNode "Juncus_inflexus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rush%1:20:00::"))

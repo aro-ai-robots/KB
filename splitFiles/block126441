@@ -1,0 +1,7 @@
+(define s (WordSenseNode "plateau_striped_whiptail%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plateau_striped_whiptail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "whiptail%1:05:00::"))
+(InheritanceLink s (WordSenseNode "whiptail_lizard%1:05:00::"))
+(define x (WordNode "Cnemidophorus_velox")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "whiptail%1:05:00::"))
+(InheritanceLink s (WordSenseNode "whiptail_lizard%1:05:00::"))

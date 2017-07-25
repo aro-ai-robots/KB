@@ -1,0 +1,5 @@
+(define s (WordSenseNode "manipulate%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "rig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "price%2:40:00::"))
+(define x (WordNode "manipulate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "price%2:40:00::"))

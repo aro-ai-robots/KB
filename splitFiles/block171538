@@ -1,0 +1,7 @@
+(define s (WordSenseNode "transferer%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transferer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mover%1:18:00::"))
+(InheritanceLink (WordSenseNode "transferor%1:18:00::") s)
+(define x (WordNode "transferrer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mover%1:18:00::"))
+(InheritanceLink (WordSenseNode "transferor%1:18:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cantle%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cantle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "back%1:06:01::"))
+(InheritanceLink s (WordSenseNode "backrest%1:06:00::"))
+(HolonymLink s (WordSenseNode "saddle%1:06:00::"))

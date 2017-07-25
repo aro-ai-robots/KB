@@ -1,0 +1,6 @@
+(define s (WordSenseNode "conformation%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conformation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "balance%1:25:00::"))
+(InheritanceLink s (WordSenseNode "equilibrium%1:25:00::"))
+(InheritanceLink s (WordSenseNode "equipoise%1:25:00::"))
+(InheritanceLink s (WordSenseNode "counterbalance%1:25:00::"))

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "histiocytosis%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "histiocytosis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_disease%1:26:00::"))
+(InheritanceLink s (WordSenseNode "blood_disorder%1:26:00::"))
+(InheritanceLink (WordSenseNode "Hand-Schuller-Christian_disease%1:26:00::") s)
+(InheritanceLink (WordSenseNode "Schuller-Christian_disease%1:26:00::") s)

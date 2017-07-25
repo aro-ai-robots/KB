@@ -1,0 +1,8 @@
+(define s (WordSenseNode "absorb%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "absorb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sorb%2:35:00::"))
+(InheritanceLink s (WordSenseNode "take_up%2:35:04::"))
+(InheritanceLink (WordSenseNode "reabsorb%2:35:00::") s)
+(InheritanceLink (WordSenseNode "resorb%2:35:00::") s)
+(InheritanceLink (WordSenseNode "assimilate%2:35:00::") s)
+(InheritanceLink (WordSenseNode "imbibe%2:35:00::") s)

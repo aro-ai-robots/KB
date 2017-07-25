@@ -1,0 +1,5 @@
+(define s (WordSenseNode "venire%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "panel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body%1:14:00::"))
+(define x (WordNode "venire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body%1:14:00::"))

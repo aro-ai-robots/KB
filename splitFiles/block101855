@@ -1,0 +1,5 @@
+(define s (WordSenseNode "male_internal_reproductive_organ%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "male_internal_reproductive_organ")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reproductive_organ%1:08:00::"))
+(InheritanceLink s (WordSenseNode "sex_organ%1:08:00::"))
+(HolonymLink s (WordSenseNode "male_body%1:08:00::"))

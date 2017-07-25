@@ -1,0 +1,4 @@
+(define s (WordSenseNode "likening%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "likening")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "comparison%1:04:00::"))
+(InheritanceLink s (WordSenseNode "comparing%1:04:00::"))

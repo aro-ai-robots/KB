@@ -1,0 +1,7 @@
+(define s (WordSenseNode "present%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "present")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tense%1:10:00::"))
+(InheritanceLink (WordSenseNode "historical_present%1:10:00::") s)
+(define x (WordNode "present_tense")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tense%1:10:00::"))
+(InheritanceLink (WordSenseNode "historical_present%1:10:00::") s)

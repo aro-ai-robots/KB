@@ -1,0 +1,7 @@
+(define s (WordSenseNode "attachment%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "attachment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "addition%1:06:00::"))
+(InheritanceLink s (WordSenseNode "add-on%1:06:00::"))
+(InheritanceLink s (WordSenseNode "improver%1:06:00::"))
+(InheritanceLink (WordSenseNode "hood%1:06:06::") s)
+(InheritanceLink (WordSenseNode "lens_hood%1:06:00::") s)

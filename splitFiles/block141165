@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rip%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tear%1:04:00::"))
+(define x (WordNode "rip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tear%1:04:00::"))
+(define x (WordNode "split")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tear%1:04:00::"))

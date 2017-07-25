@@ -1,0 +1,5 @@
+(define s (WordSenseNode "subclass%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subclass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "taxonomic_group%1:14:00::"))
+(InheritanceLink s (WordSenseNode "taxonomic_category%1:14:00::"))
+(InheritanceLink s (WordSenseNode "taxon%1:14:00::"))

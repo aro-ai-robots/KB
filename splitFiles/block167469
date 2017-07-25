@@ -1,0 +1,5 @@
+(define s (WordSenseNode "terylene%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dacron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polyester%1:06:00::"))
+(define x (WordNode "Terylene")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polyester%1:06:00::"))

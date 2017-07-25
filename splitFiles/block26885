@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cat_rig%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cat_rig")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rig%1:06:01::"))
+(InheritanceLink s (WordSenseNode "rigging%1:06:01::"))

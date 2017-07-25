@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lead_glass%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lead_glass")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glass%1:27:00::"))
+(InheritanceLink (WordSenseNode "paste%1:27:02::") s)

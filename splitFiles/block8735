@@ -1,0 +1,6 @@
+(define s (WordSenseNode "areca%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "areca")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feather_palm%1:20:00::"))
+(InheritanceLink (WordSenseNode "betel_palm%1:20:00::") s)
+(InheritanceLink (WordSenseNode "Areca_catechu%1:20:00::") s)
+(HolonymLink s (WordSenseNode "genus_Areca%1:20:00::"))

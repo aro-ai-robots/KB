@@ -1,0 +1,7 @@
+(define s (WordSenseNode "recessive%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "recessive_allele")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allele%1:08:00::"))
+(InheritanceLink s (WordSenseNode "allelomorph%1:08:00::"))
+(define x (WordNode "recessive")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allele%1:08:00::"))
+(InheritanceLink s (WordSenseNode "allelomorph%1:08:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "ill_fame%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "notoriety")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infamy%1:26:02::"))
+(InheritanceLink (WordSenseNode "reputation%1:26:01::") s)
+(define x (WordNode "ill_fame")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "infamy%1:26:02::"))
+(InheritanceLink (WordSenseNode "reputation%1:26:01::") s)

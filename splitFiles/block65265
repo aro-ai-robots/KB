@@ -1,0 +1,5 @@
+(define s (WordSenseNode "fraternal_twin%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fraternal_twin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "twin%1:18:00::"))
+(define x (WordNode "dizygotic_twin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "twin%1:18:00::"))

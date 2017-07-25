@@ -1,0 +1,4 @@
+(define s (WordSenseNode "roe%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "roe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "egg%1:05:00::"))
+(HolonymLink s (WordSenseNode "fish%1:05:00::"))

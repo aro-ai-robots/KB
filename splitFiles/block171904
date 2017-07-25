@@ -1,0 +1,7 @@
+(define s (WordSenseNode "travel_allowance%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "travel_allowance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allowance%1:21:02::"))
+(InheritanceLink (WordSenseNode "mileage%1:21:00::") s)
+(define x (WordNode "travel_reimbursement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "allowance%1:21:02::"))
+(InheritanceLink (WordSenseNode "mileage%1:21:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mile%1:23:05::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sea_mile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nautical_linear_unit%1:23:00::"))
+(define x (WordNode "mile")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nautical_linear_unit%1:23:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "waveband%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "frequency_band")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:10:00::"))
+(define x (WordNode "waveband")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "band%1:10:00::"))

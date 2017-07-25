@@ -1,0 +1,5 @@
+(define s (WordSenseNode "yoga%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yoga")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Hinduism%1:09:00::"))
+(InheritanceLink s (WordSenseNode "Hindooism%1:09:00::"))
+(HolonymLink (WordSenseNode "lotus_position%1:07:00::") s)

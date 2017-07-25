@@ -1,0 +1,5 @@
+(define s (WordSenseNode "postulate%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "contend")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "claim%2:32:00::"))
+(define x (WordNode "postulate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "claim%2:32:00::"))

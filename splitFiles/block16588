@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bill_of_goods%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bill_of_goods")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "misrepresentation%1:10:00::"))
+(InheritanceLink s (WordSenseNode "deceit%1:10:00::"))
+(InheritanceLink s (WordSenseNode "deception%1:10:00::"))

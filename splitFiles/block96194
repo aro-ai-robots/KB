@@ -1,0 +1,6 @@
+(define s (WordSenseNode "legionnaire%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Legionnaire")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "veteran%1:18:01::"))
+(InheritanceLink s (WordSenseNode "vet%1:18:01::"))
+(InheritanceLink s (WordSenseNode "ex-serviceman%1:18:00::"))
+(HolonymLink s (WordSenseNode "American_Legion%1:14:00::"))

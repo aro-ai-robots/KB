@@ -1,0 +1,5 @@
+(define s (WordSenseNode "staphylococcal_enterotoxin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "staphylococcal_enterotoxin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "enterotoxin%1:27:00::"))
+(InheritanceLink (WordSenseNode "staphylococcal_enterotoxin_B%1:27:00::") s)
+(InheritanceLink (WordSenseNode "SEB%1:27:00::") s)

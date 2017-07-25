@@ -1,0 +1,5 @@
+(define s (WordSenseNode "directivity%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "directivity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))
+(define x (WordNode "directiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quality%1:07:00::"))

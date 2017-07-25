@@ -1,0 +1,5 @@
+(define s (WordSenseNode "armed_forces_censorship%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "armed_forces_censorship")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "military_censorship%1:04:00::"))
+(InheritanceLink (WordSenseNode "primary_censorship%1:04:00::") s)
+(InheritanceLink (WordSenseNode "secondary_censorship%1:04:00::") s)

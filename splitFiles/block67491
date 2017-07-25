@@ -1,0 +1,8 @@
+(define s (WordSenseNode "gas_pressure%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gas_pressure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pressure%1:19:00::"))
+(InheritanceLink s (WordSenseNode "pressure_level%1:19:00::"))
+(InheritanceLink s (WordSenseNode "force_per_unit_area%1:19:00::"))
+(InheritanceLink (WordSenseNode "atmospheric_pressure%1:19:00::") s)
+(InheritanceLink (WordSenseNode "air_pressure%1:19:00::") s)
+(InheritanceLink (WordSenseNode "pressure%1:19:01::") s)

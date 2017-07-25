@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chimaera%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chimaera")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "holocephalan%1:05:00::"))
+(InheritanceLink s (WordSenseNode "holocephalian%1:05:00::"))
+(InheritanceLink (WordSenseNode "rabbitfish%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Chimaera_monstrosa%1:05:00::") s)
+(HolonymLink s (WordSenseNode "genus_Chimaera%1:05:00::"))

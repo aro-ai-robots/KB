@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anonymity%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anonymity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obscurity%1:26:00::"))
+(define x (WordNode "namelessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "obscurity%1:26:00::"))

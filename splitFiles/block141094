@@ -1,0 +1,4 @@
+(define s (WordSenseNode "ring_vaccination%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ring_vaccination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inoculating%1:04:00::"))
+(InheritanceLink s (WordSenseNode "vaccinating%1:04:00::"))

@@ -1,0 +1,3 @@
+(define s (WordSenseNode "methicillin%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "methicillin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "penicillin%1:06:00::"))

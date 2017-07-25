@@ -1,0 +1,6 @@
+(define s (WordSenseNode "drain%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "drain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "depletion%1:04:00::"))
+(InheritanceLink (WordSenseNode "drawing%1:04:02::") s)
+(InheritanceLink (WordSenseNode "drawing_off%1:04:00::") s)
+(InheritanceLink (WordSenseNode "brain_drain%1:04:00::") s)

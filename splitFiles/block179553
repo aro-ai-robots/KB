@@ -1,0 +1,5 @@
+(define s (WordSenseNode "virilism%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "virilism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sex_characteristic%1:07:00::"))
+(InheritanceLink s (WordSenseNode "sexual_characteristic%1:07:00::"))
+(InheritanceLink s (WordSenseNode "sex_character%1:07:00::"))

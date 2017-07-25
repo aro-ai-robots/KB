@@ -1,0 +1,5 @@
+(define s (WordSenseNode "marital_communications_privilege%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "marital_communications_privilege")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "privilege%1:07:01::"))
+(define x (WordNode "husband-wife_privilege")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "privilege%1:07:01::"))

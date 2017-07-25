@@ -1,0 +1,5 @@
+(define s (WordSenseNode "cup%1:23:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "United_States_liquid_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "pint%1:23:01::"))
+(HolonymLink (WordSenseNode "gill%1:23:01::") s)

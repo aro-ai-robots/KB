@@ -1,0 +1,7 @@
+(define s (WordSenseNode "groove%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rut")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "routine%1:04:00::"))
+(InheritanceLink s (WordSenseNode "modus_operandi%1:04:00::"))
+(define x (WordNode "groove")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "routine%1:04:00::"))
+(InheritanceLink s (WordSenseNode "modus_operandi%1:04:00::"))

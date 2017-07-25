@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mathematical_statistician%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "statistician")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mathematician%1:18:00::"))
+(define x (WordNode "mathematical_statistician")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mathematician%1:18:00::"))

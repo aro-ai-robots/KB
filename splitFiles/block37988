@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cornell_university%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Cornell_University")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Ivy_League%1:14:00::"))
+(HolonymLink s (WordSenseNode "New_York%1:15:00::"))
+(HolonymLink s (WordSenseNode "New_York_State%1:15:00::"))
+(HolonymLink s (WordSenseNode "Empire_State%1:15:00::"))
+(HolonymLink s (WordSenseNode "NY%1:15:00::"))

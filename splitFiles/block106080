@@ -1,0 +1,4 @@
+(define s (WordSenseNode "microgauss%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "microgauss")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flux_density_unit%1:23:00::"))
+(HolonymLink s (WordSenseNode "gauss%1:23:00::"))

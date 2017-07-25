@@ -1,0 +1,8 @@
+(define s (WordSenseNode "box%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "box")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contend%2:33:01::"))
+(InheritanceLink s (WordSenseNode "fight%2:33:00::"))
+(InheritanceLink s (WordSenseNode "struggle%2:33:00::"))
+(InheritanceLink (WordSenseNode "spar%2:35:00::") s)
+(InheritanceLink (WordSenseNode "prizefight%2:35:00::") s)
+(InheritanceLink (WordSenseNode "shadowbox%2:35:00::") s)

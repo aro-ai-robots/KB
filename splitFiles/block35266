@@ -1,0 +1,6 @@
+(define s (WordSenseNode "complement_fixation_test%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "complement_fixation_test")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_test%1:09:00::"))
+(InheritanceLink (WordSenseNode "Wassermann_test%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Wasserman_reaction%1:09:00::") s)
+(InheritanceLink (WordSenseNode "Wassermann%1:09:00::") s)

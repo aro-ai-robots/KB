@@ -1,0 +1,5 @@
+(define s (WordSenseNode "contract_in%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "contract_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "accept%2:32:00::"))
+(InheritanceLink s (WordSenseNode "consent%2:32:00::"))
+(InheritanceLink s (WordSenseNode "go_for%2:32:00::"))

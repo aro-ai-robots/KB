@@ -1,0 +1,8 @@
+(define s (WordSenseNode "kiln%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "kiln")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "furnace%1:06:00::"))
+(InheritanceLink (WordSenseNode "brickkiln%1:06:00::") s)
+(InheritanceLink (WordSenseNode "dry_kiln%1:06:00::") s)
+(InheritanceLink (WordSenseNode "limekiln%1:06:00::") s)
+(InheritanceLink (WordSenseNode "muffle%1:06:00::") s)
+(InheritanceLink (WordSenseNode "oast%1:06:00::") s)

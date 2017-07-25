@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mental_exhaustion%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mental_exhaustion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exhaustion%1:26:00::"))
+(define x (WordNode "brain-fag")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exhaustion%1:26:00::"))

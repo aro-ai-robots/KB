@@ -1,0 +1,6 @@
+(define s (WordSenseNode "glans_clitoridis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "glans_clitoridis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "glans%1:08:00::"))
+(HolonymLink s (WordSenseNode "clitoris%1:08:00::"))
+(HolonymLink s (WordSenseNode "clit%1:08:00::"))
+(HolonymLink s (WordSenseNode "button%1:08:01::"))

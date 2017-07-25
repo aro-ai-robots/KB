@@ -1,0 +1,6 @@
+(define s (WordSenseNode "circus%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "circus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stadium%1:06:00::"))
+(InheritanceLink s (WordSenseNode "bowl%1:06:03::"))
+(InheritanceLink s (WordSenseNode "arena%1:06:01::"))
+(InheritanceLink s (WordSenseNode "sports_stadium%1:06:00::"))

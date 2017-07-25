@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bucket_shop%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bucket_shop")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "brokerage%1:14:00::"))
+(InheritanceLink s (WordSenseNode "brokerage_firm%1:14:00::"))
+(InheritanceLink s (WordSenseNode "securities_firm%1:14:00::"))

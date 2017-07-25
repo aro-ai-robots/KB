@@ -1,0 +1,4 @@
+(define s (WordSenseNode "dump_routine%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dump_routine")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "utility_routine%1:10:00::"))
+(InheritanceLink s (WordSenseNode "service_routine%1:10:00::"))

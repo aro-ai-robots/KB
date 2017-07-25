@@ -1,0 +1,4 @@
+(define s (WordSenseNode "racial_immunity%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "racial_immunity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_immunity%1:26:00::"))
+(InheritanceLink s (WordSenseNode "innate_immunity%1:26:00::"))

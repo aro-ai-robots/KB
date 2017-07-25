@@ -1,0 +1,5 @@
+(define s (WordSenseNode "misalign%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "misalign")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "align%2:30:01::"))
+(InheritanceLink s (WordSenseNode "ordinate%2:30:00::"))
+(InheritanceLink s (WordSenseNode "coordinate%2:30:01::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "carburet%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "carburet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%2:35:00::"))
+(InheritanceLink s (WordSenseNode "combine%2:35:01::"))

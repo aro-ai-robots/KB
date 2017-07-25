@@ -1,0 +1,7 @@
+(define s (WordSenseNode "german_bee%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "black_bee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "honeybee%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Apis_mellifera%1:05:00::"))
+(define x (WordNode "German_bee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "honeybee%1:05:00::"))
+(InheritanceLink s (WordSenseNode "Apis_mellifera%1:05:00::"))

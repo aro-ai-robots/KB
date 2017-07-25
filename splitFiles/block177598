@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vaginal_smear%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vaginal_smear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "smear%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cytologic_smear%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cytosmear%1:08:00::"))

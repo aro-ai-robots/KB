@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bluff_out%2:33:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "bluff")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:33:00::"))
+(InheritanceLink s (WordSenseNode "go%2:33:00::"))
+(define x (WordNode "bluff_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "move%2:33:00::"))
+(InheritanceLink s (WordSenseNode "go%2:33:00::"))

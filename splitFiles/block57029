@@ -1,0 +1,7 @@
+(define s (WordSenseNode "exophthalmos%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "exophthalmos")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "symptom%1:26:00::"))
+(InheritanceLink (WordSenseNode "Graves'_disease%1:26:00::") s)
+(InheritanceLink (WordSenseNode "exophthalmic_goiter%1:26:00::") s)
+(HolonymLink s (WordSenseNode "hyperthyroidism%1:26:00::"))
+(HolonymLink s (WordSenseNode "thyrotoxicosis%1:26:00::"))

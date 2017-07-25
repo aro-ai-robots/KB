@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nopal%1:20:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "nopal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prickly_pear%1:20:01::"))
+(InheritanceLink s (WordSenseNode "prickly_pear_cactus%1:20:00::"))
+(define x (WordNode "Opuntia_lindheimeri")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prickly_pear%1:20:01::"))
+(InheritanceLink s (WordSenseNode "prickly_pear_cactus%1:20:00::"))

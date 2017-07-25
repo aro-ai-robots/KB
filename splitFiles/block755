@@ -1,0 +1,7 @@
+(define s (WordSenseNode "abstractionism%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "abstractionism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "genre%1:06:00::"))
+(InheritanceLink (WordSenseNode "op_art%1:06:00::") s)
+(define x (WordNode "abstract_art")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "genre%1:06:00::"))
+(InheritanceLink (WordSenseNode "op_art%1:06:00::") s)

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "spray-dry%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "spray-dry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dry%2:30:01::"))
+(InheritanceLink s (WordSenseNode "dry_out%2:30:05::"))

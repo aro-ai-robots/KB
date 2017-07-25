@@ -1,0 +1,5 @@
+(define s (WordSenseNode "micropaleontology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "micropaleontology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "paleontology%1:09:00::"))
+(InheritanceLink s (WordSenseNode "palaeontology%1:09:00::"))
+(InheritanceLink s (WordSenseNode "fossilology%1:09:00::"))

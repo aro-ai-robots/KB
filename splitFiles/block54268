@@ -1,0 +1,7 @@
+(define s (WordSenseNode "enlargement%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "enlargement")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state%1:03:00::"))
+(InheritanceLink (WordSenseNode "pseudobulb%1:20:00::") s)
+(InheritanceLink (WordSenseNode "swelling%1:26:00::") s)
+(InheritanceLink (WordSenseNode "puffiness%1:26:00::") s)
+(InheritanceLink (WordSenseNode "lump%1:26:01::") s)

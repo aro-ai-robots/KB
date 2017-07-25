@@ -1,0 +1,7 @@
+(define s (WordSenseNode "consecutive_operation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "serial_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:22:00::"))
+(define x (WordNode "sequential_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:22:00::"))
+(define x (WordNode "consecutive_operation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "operation%1:22:00::"))

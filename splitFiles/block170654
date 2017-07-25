@@ -1,0 +1,7 @@
+(define s (WordSenseNode "torrent%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "torrent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "current%1:11:00::"))
+(InheritanceLink s (WordSenseNode "stream%1:11:00::"))
+(define x (WordNode "violent_stream")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "current%1:11:00::"))
+(InheritanceLink s (WordSenseNode "stream%1:11:00::"))

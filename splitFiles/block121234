@@ -1,0 +1,7 @@
+(define s (WordSenseNode "passer%1:18:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "passer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "student%1:18:00::"))
+(InheritanceLink s (WordSenseNode "pupil%1:18:00::"))
+(InheritanceLink s (WordSenseNode "educatee%1:18:00::"))
+(InheritanceLink s (WordSenseNode "testee%1:18:00::"))
+(InheritanceLink s (WordSenseNode "examinee%1:18:00::"))

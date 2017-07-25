@@ -1,0 +1,5 @@
+(define s (WordSenseNode "empanel%2:41:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "empanel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "list%2:41:00::"))
+(define x (WordNode "impanel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "list%2:41:00::"))

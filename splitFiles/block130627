@@ -1,0 +1,4 @@
+(define s (WordSenseNode "prime_number%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "prime_number")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "prime%1:23:00::"))
+(InheritanceLink s (WordSenseNode "prime_quantity%1:23:00::"))

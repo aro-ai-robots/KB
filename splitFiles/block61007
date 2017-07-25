@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fiberscope%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fiberscope")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "medical_instrument%1:06:00::"))
+(HolonymLink (WordSenseNode "optical_fiber%1:06:00::") s)
+(HolonymLink (WordSenseNode "glass_fiber%1:06:00::") s)
+(HolonymLink (WordSenseNode "optical_fibre%1:06:00::") s)
+(HolonymLink (WordSenseNode "glass_fibre%1:06:00::") s)

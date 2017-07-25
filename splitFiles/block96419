@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lente_iletin%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Lente_Insulin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insulin%1:08:00::"))
+(define x (WordNode "Lente_Iletin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "insulin%1:08:00::"))

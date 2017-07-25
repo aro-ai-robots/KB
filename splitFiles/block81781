@@ -1,0 +1,7 @@
+(define s (WordSenseNode "homunculus%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "manikin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "small_person%1:18:00::"))
+(define x (WordNode "mannikin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "small_person%1:18:00::"))
+(define x (WordNode "homunculus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "small_person%1:18:00::"))

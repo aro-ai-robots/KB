@@ -1,0 +1,8 @@
+(define s (WordSenseNode "leave_off%2:30:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "leave_off")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "discontinue%2:42:00::"))
+(InheritanceLink s (WordSenseNode "stop%2:42:00::"))
+(InheritanceLink s (WordSenseNode "cease%2:42:00::"))
+(InheritanceLink s (WordSenseNode "give_up%2:42:00::"))
+(InheritanceLink s (WordSenseNode "quit%2:42:04::"))
+(InheritanceLink s (WordSenseNode "lay_off%2:42:00::"))

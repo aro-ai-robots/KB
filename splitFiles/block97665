@@ -1,0 +1,7 @@
+(define s (WordSenseNode "limb%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "arm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:06:00::"))
+(define x (WordNode "branch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:06:00::"))
+(define x (WordNode "limb")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "projection%1:06:00::"))

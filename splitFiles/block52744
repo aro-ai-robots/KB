@@ -1,0 +1,4 @@
+(define s (WordSenseNode "electric_mixer%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "electric_mixer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mixer%1:06:00::"))
+(HolonymLink (WordSenseNode "electric_motor%1:06:00::") s)

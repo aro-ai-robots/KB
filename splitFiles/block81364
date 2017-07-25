@@ -1,0 +1,7 @@
+(define s (WordSenseNode "holding_paddock%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "holding_pen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pen%1:06:01::"))
+(define x (WordNode "holding_paddock")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pen%1:06:01::"))
+(define x (WordNode "holding_yard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pen%1:06:01::"))

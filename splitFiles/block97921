@@ -1,0 +1,5 @@
+(define s (WordSenseNode "line_of_sight%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "line_of_sight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:00::"))
+(define x (WordNode "line_of_vision")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "line%1:15:00::"))

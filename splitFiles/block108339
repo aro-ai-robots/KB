@@ -1,0 +1,6 @@
+(define s (WordSenseNode "monopoly%1:26:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monopoly")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "market%1:04:00::"))
+(InheritanceLink s (WordSenseNode "marketplace%1:04:00::"))
+(InheritanceLink s (WordSenseNode "market_place%1:04:00::"))
+(InheritanceLink (WordSenseNode "corner%1:26:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "recall%2:32:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "recall")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "call%2:32:05::"))
+(InheritanceLink s (WordSenseNode "send_for%2:32:00::"))
+(define x (WordNode "call_back")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "call%2:32:05::"))
+(InheritanceLink s (WordSenseNode "send_for%2:32:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lockup%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "locking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protection%1:04:00::"))
+(define x (WordNode "lockup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "protection%1:04:00::"))

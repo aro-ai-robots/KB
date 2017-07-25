@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pledge%2:40:04::")) (PartOfSpeechLink s verb)
+(define x (WordNode "pledge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "donate%2:40:00::"))
+(define x (WordNode "subscribe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "donate%2:40:00::"))

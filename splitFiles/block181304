@@ -1,0 +1,4 @@
+(define s (WordSenseNode "water_gas%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "water_gas")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fuel%1:27:00::"))
+(InheritanceLink s (WordSenseNode "gas%1:27:00::"))

@@ -1,0 +1,8 @@
+(define s (WordSenseNode "dominican_order%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Dominican_order")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "order%1:14:03::"))
+(InheritanceLink s (WordSenseNode "monastic_order%1:14:00::"))
+(HolonymLink (WordSenseNode "Dominican%1:18:00::") s)
+(HolonymLink (WordSenseNode "Black_Friar%1:18:00::") s)
+(HolonymLink (WordSenseNode "Blackfriar%1:18:00::") s)
+(HolonymLink (WordSenseNode "friar_preacher%1:18:00::") s)

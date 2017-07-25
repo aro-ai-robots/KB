@@ -1,0 +1,5 @@
+(define s (WordSenseNode "formica_fusca%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Formica_fusca")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "slave_ant%1:05:00::"))
+(HolonymLink s (WordSenseNode "Formica%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Formica%1:05:00::"))

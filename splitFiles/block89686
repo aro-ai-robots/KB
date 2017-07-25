@@ -1,0 +1,6 @@
+(define s (WordSenseNode "jabot%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "jabot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "frill%1:06:00::"))
+(InheritanceLink s (WordSenseNode "flounce%1:06:00::"))
+(InheritanceLink s (WordSenseNode "ruffle%1:06:01::"))
+(InheritanceLink s (WordSenseNode "furbelow%1:06:00::"))

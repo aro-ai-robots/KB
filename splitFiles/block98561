@@ -1,0 +1,7 @@
+(define s (WordSenseNode "little_toe%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "little_toe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toe%1:08:01::"))
+(InheritanceLink s (WordSenseNode "minimus%1:08:00::"))
+(HolonymLink s (WordSenseNode "foot%1:08:01::"))
+(HolonymLink s (WordSenseNode "human_foot%1:08:00::"))
+(HolonymLink s (WordSenseNode "pes%1:08:00::"))

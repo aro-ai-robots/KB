@@ -1,0 +1,7 @@
+(define s (WordSenseNode "distributed_data_processing%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "distributed_data_processing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "data_processing%1:22:00::"))
+(define x (WordNode "remote-access_data_processing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "data_processing%1:22:00::"))
+(define x (WordNode "teleprocessing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "data_processing%1:22:00::"))

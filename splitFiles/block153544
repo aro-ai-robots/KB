@@ -1,0 +1,4 @@
+(define s (WordSenseNode "slipskin_grape%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "slipskin_grape")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grape%1:13:00::"))
+(InheritanceLink (WordSenseNode "fox_grape%1:13:00::") s)

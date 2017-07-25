@@ -1,0 +1,7 @@
+(define s (WordSenseNode "consignment%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commitment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confinement%1:04:00::"))
+(define x (WordNode "committal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confinement%1:04:00::"))
+(define x (WordNode "consignment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "confinement%1:04:00::"))

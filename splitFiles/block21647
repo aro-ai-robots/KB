@@ -1,0 +1,7 @@
+(define s (WordSenseNode "brotula%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brotula")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "percoid_fish%1:05:00::"))
+(InheritanceLink s (WordSenseNode "percoid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "percoidean%1:05:00::"))
+(HolonymLink s (WordSenseNode "Brotulidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Brotulidae%1:05:00::"))

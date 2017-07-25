@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fault%1:04:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fault")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "serve%1:04:00::"))
+(InheritanceLink s (WordSenseNode "service%1:04:02::"))
+(InheritanceLink (WordSenseNode "double_fault%1:04:00::") s)
+(InheritanceLink (WordSenseNode "footfault%1:04:00::") s)

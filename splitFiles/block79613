@@ -1,0 +1,8 @@
+(define s (WordSenseNode "hem_in%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hem_in")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "surround%2:35:00::"))
+(InheritanceLink s (WordSenseNode "environ%2:35:00::"))
+(InheritanceLink s (WordSenseNode "ring%2:35:03::"))
+(InheritanceLink s (WordSenseNode "skirt%2:35:00::"))
+(InheritanceLink s (WordSenseNode "border%2:35:01::"))
+(InheritanceLink (WordSenseNode "hedge%2:35:01::") s)

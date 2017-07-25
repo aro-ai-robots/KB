@@ -1,0 +1,5 @@
+(define s (WordSenseNode "self-inductance%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "coefficient_of_self_induction")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))
+(define x (WordNode "self-inductance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coefficient%1:23:00::"))

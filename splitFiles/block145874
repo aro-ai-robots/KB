@@ -1,0 +1,7 @@
+(define s (WordSenseNode "scattering%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "scattering")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_process%1:22:00::"))
+(InheritanceLink s (WordSenseNode "natural_action%1:22:00::"))
+(InheritanceLink s (WordSenseNode "action%1:22:00::"))
+(InheritanceLink s (WordSenseNode "activity%1:22:01::"))
+(HolonymLink s (WordSenseNode "extinction%1:22:00::"))

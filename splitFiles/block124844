@@ -1,0 +1,6 @@
+(define s (WordSenseNode "picture_frame%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "picture_frame")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "framework%1:06:00::"))
+(HolonymLink (WordSenseNode "molding%1:06:00::") s)
+(HolonymLink (WordSenseNode "moulding%1:06:00::") s)
+(HolonymLink (WordSenseNode "border%1:06:01::") s)

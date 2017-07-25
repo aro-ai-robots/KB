@@ -1,0 +1,6 @@
+(define s (WordSenseNode "biosphere%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "biosphere")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:00::"))
+(InheritanceLink s (WordSenseNode "part%1:15:00::"))
+(HolonymLink s (WordSenseNode "planet%1:17:00::"))
+(HolonymLink s (WordSenseNode "major_planet%1:17:00::"))

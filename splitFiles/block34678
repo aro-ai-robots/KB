@@ -1,0 +1,7 @@
+(define s (WordSenseNode "commissure%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "commissure")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nerve_pathway%1:08:00::"))
+(InheritanceLink s (WordSenseNode "tract%1:08:00::"))
+(InheritanceLink s (WordSenseNode "nerve_tract%1:08:00::"))
+(InheritanceLink s (WordSenseNode "pathway%1:08:00::"))
+(InheritanceLink (WordSenseNode "corpus_callosum%1:08:00::") s)

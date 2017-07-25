@@ -1,0 +1,5 @@
+(define s (WordSenseNode "yellow-dog_contract%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "yellow-dog_contract")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "labor_contract%1:10:00::"))
+(InheritanceLink s (WordSenseNode "labor_agreement%1:10:00::"))
+(InheritanceLink s (WordSenseNode "collective_agreement%1:10:00::"))

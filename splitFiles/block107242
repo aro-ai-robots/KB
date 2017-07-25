@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mismatch%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mismatch")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "counterpart%1:09:00::"))
+(InheritanceLink s (WordSenseNode "opposite_number%1:09:00::"))
+(InheritanceLink s (WordSenseNode "vis-a-vis%1:09:00::"))

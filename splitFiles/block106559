@@ -1,0 +1,3 @@
+(define s (WordSenseNode "milk_sickness%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "milk_sickness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "disease%1:26:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "new_criticism%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "new_criticism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "criticism%1:10:01::"))
+(InheritanceLink s (WordSenseNode "literary_criticism%1:10:00::"))

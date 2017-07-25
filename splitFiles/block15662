@@ -1,0 +1,5 @@
+(define s (WordSenseNode "bench_press%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bench_press")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weightlift%1:04:00::"))
+(InheritanceLink s (WordSenseNode "weightlifting%1:04:00::"))
+(InheritanceLink (WordSenseNode "incline_bench_press%1:04:00::") s)

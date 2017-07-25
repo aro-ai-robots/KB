@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rust%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rust")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ferric_oxide%1:27:00::"))
+(HolonymLink (WordSenseNode "goethite%1:27:00::") s)
+(HolonymLink (WordSenseNode "gothite%1:27:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "check_stub%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stub")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "record%1:10:03::"))
+(define x (WordNode "check_stub")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "record%1:10:03::"))
+(define x (WordNode "counterfoil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "record%1:10:03::"))

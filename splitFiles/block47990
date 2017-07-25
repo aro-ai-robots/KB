@@ -1,0 +1,8 @@
+(define s (WordSenseNode "dissonance%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dissonance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sound_property%1:07:00::"))
+(InheritanceLink (WordSenseNode "discordance%1:07:00::") s)
+(InheritanceLink (WordSenseNode "discord%1:07:01::") s)
+(InheritanceLink (WordSenseNode "disharmony%1:07:00::") s)
+(InheritanceLink (WordSenseNode "inharmoniousness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "cacophony%1:07:00::") s)

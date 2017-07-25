@@ -1,0 +1,6 @@
+(define s (WordSenseNode "bodice%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bodice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "top%1:06:00::"))
+(HolonymLink s (WordSenseNode "dress%1:06:00::"))
+(HolonymLink s (WordSenseNode "frock%1:06:00::"))
+(HolonymLink (WordSenseNode "plastron%1:06:03::") s)

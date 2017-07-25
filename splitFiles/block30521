@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chordophone%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chordophone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "stringed_instrument%1:06:00::"))
+(InheritanceLink (WordSenseNode "balalaika%1:06:00::") s)
+(InheritanceLink (WordSenseNode "harp%1:06:00::") s)
+(InheritanceLink (WordSenseNode "lute%1:06:00::") s)
+(InheritanceLink (WordSenseNode "mandolin%1:06:00::") s)

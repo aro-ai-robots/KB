@@ -1,0 +1,7 @@
+(define s (WordSenseNode "diabetic_coma%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "diabetic_coma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coma%1:09:00::"))
+(InheritanceLink s (WordSenseNode "comatoseness%1:09:00::"))
+(define x (WordNode "Kussmaul's_coma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coma%1:09:00::"))
+(InheritanceLink s (WordSenseNode "comatoseness%1:09:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "secretary_of_transportation%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Secretary_of_Transportation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secretary%1:18:01::"))
+(define x (WordNode "Transportation_Secretary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "secretary%1:18:01::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wipe_out%2:30:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "erase")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))
+(define x (WordNode "wipe_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kill%2:35:00::"))

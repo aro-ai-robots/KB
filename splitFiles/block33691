@@ -1,0 +1,8 @@
+(define s (WordSenseNode "cold_sweat%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cold_sweat")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "physical_condition%1:26:00::"))
+(InheritanceLink s (WordSenseNode "physiological_state%1:26:00::"))
+(InheritanceLink s (WordSenseNode "physiological_condition%1:26:00::"))
+(HolonymLink s (WordSenseNode "fear%1:12:00::"))
+(HolonymLink s (WordSenseNode "fearfulness%1:12:00::"))
+(HolonymLink s (WordSenseNode "fright%1:12:00::"))

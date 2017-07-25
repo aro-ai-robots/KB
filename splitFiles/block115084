@@ -1,0 +1,4 @@
+(define s (WordSenseNode "observer's_meridian%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "observer's_meridian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "meridian%1:15:00::"))
+(InheritanceLink s (WordSenseNode "line_of_longitude%1:15:00::"))

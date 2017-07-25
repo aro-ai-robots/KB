@@ -1,0 +1,5 @@
+(define s (WordSenseNode "qcd%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quantum_chromodynamics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quantum_field_theory%1:09:00::"))
+(define x (WordNode "QCD")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quantum_field_theory%1:09:00::"))

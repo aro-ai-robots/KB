@@ -1,0 +1,4 @@
+(define s (WordSenseNode "fluctuation%1:11:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fluctuation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wave%1:11:00::"))
+(InheritanceLink s (WordSenseNode "undulation%1:11:00::"))

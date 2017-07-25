@@ -1,0 +1,4 @@
+(define s (WordSenseNode "paraph%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "paraph")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flourish%1:10:04::"))
+(HolonymLink s (WordSenseNode "signature%1:10:00::"))

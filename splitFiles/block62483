@@ -1,0 +1,4 @@
+(define s (WordSenseNode "flag_captain%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "flag_captain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "captain%1:18:02::"))
+(InheritanceLink s (WordSenseNode "skipper%1:18:00::"))

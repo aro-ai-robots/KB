@@ -1,0 +1,5 @@
+(define s (WordSenseNode "economic_geology%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "economic_geology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "geology%1:09:00::"))
+(InheritanceLink (WordSenseNode "petroleum_geology%1:09:00::") s)
+(InheritanceLink (WordSenseNode "mining_geology%1:09:00::") s)

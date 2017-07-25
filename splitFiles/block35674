@@ -1,0 +1,8 @@
+(define s (WordSenseNode "concern%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concern")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sympathy%1:12:00::"))
+(InheritanceLink s (WordSenseNode "fellow_feeling%1:12:00::"))
+(InheritanceLink (WordSenseNode "solicitude%1:12:00::") s)
+(InheritanceLink (WordSenseNode "solicitousness%1:12:00::") s)
+(InheritanceLink (WordSenseNode "softheartedness%1:12:00::") s)
+(InheritanceLink (WordSenseNode "tenderness%1:12:00::") s)

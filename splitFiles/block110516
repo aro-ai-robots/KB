@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mydriatic%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mydriatic")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drug%1:06:00::"))
+(InheritanceLink (WordSenseNode "atropine%1:06:00::") s)
+(define x (WordNode "mydriatic_drug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drug%1:06:00::"))
+(InheritanceLink (WordSenseNode "atropine%1:06:00::") s)

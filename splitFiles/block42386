@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dampen%2:30:02::")) (PartOfSpeechLink s verb)
+(define x (WordNode "dampen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "check%2:30:02::"))
+(InheritanceLink s (WordSenseNode "retard%2:30:07::"))
+(InheritanceLink s (WordSenseNode "delay%2:30:05::"))

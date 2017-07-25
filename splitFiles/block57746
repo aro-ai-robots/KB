@@ -1,0 +1,7 @@
+(define s (WordSenseNode "eyeshot%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "view")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "range%1:15:01::"))
+(InheritanceLink s (WordSenseNode "reach%1:15:00::"))
+(define x (WordNode "eyeshot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "range%1:15:01::"))
+(InheritanceLink s (WordSenseNode "reach%1:15:00::"))

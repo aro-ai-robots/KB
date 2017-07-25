@@ -1,0 +1,4 @@
+(define s (WordSenseNode "states_general%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "States_General")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "assembly%1:14:00::"))
+(InheritanceLink (WordSenseNode "Estates_General%1:14:00::") s)

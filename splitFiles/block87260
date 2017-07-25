@@ -1,0 +1,7 @@
+(define s (WordSenseNode "innumerableness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "innumerableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:07:00::"))
+(InheritanceLink s (WordSenseNode "figure%1:07:01::"))
+(define x (WordNode "countlessness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:07:00::"))
+(InheritanceLink s (WordSenseNode "figure%1:07:01::"))

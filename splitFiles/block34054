@@ -1,0 +1,7 @@
+(define s (WordSenseNode "colorimetric_analysis%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "colorimetry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quantitative_analysis%1:04:00::"))
+(InheritanceLink s (WordSenseNode "quantitative_chemical_analysis%1:04:00::"))
+(define x (WordNode "colorimetric_analysis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quantitative_analysis%1:04:00::"))
+(InheritanceLink s (WordSenseNode "quantitative_chemical_analysis%1:04:00::"))

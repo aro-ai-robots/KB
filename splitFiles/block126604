@@ -1,0 +1,7 @@
+(define s (WordSenseNode "play_possum%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "play_possum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feign%2:32:00::"))
+(InheritanceLink s (WordSenseNode "sham%2:32:00::"))
+(InheritanceLink s (WordSenseNode "pretend%2:32:00::"))
+(InheritanceLink s (WordSenseNode "affect%2:32:00::"))
+(InheritanceLink s (WordSenseNode "dissemble%2:32:00::"))

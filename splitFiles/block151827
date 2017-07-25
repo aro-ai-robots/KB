@@ -1,0 +1,5 @@
+(define s (WordSenseNode "silver_bromide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "silver_bromide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bromide%1:27:00::"))
+(HolonymLink s (WordSenseNode "emulsion%1:06:00::"))
+(HolonymLink s (WordSenseNode "photographic_emulsion%1:06:00::"))

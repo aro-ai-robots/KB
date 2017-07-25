@@ -1,0 +1,5 @@
+(define s (WordSenseNode "acaracide%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "acaricide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pesticide%1:27:00::"))
+(define x (WordNode "acaracide")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pesticide%1:27:00::"))

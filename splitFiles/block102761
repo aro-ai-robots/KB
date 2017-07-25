@@ -1,0 +1,7 @@
+(define s (WordSenseNode "march_17%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "St_Patrick's_Day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))
+(define x (WordNode "Saint_Patrick's_Day")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))
+(define x (WordNode "March_17")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "day%1:28:01::"))

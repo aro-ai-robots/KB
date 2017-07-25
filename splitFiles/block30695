@@ -1,0 +1,5 @@
+(define s (WordSenseNode "chromatic_aberration%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chromatic_aberration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "aberration%1:19:00::"))
+(InheritanceLink s (WordSenseNode "distortion%1:19:00::"))
+(InheritanceLink s (WordSenseNode "optical_aberration%1:19:00::"))

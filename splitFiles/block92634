@@ -1,0 +1,5 @@
+(define s (WordSenseNode "key_signature%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "key_signature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "musical_notation%1:10:00::"))
+(define x (WordNode "signature")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "musical_notation%1:10:00::"))

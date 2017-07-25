@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pacemaker%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pacemaker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_device%1:06:00::"))
+(define x (WordNode "artificial_pacemaker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "electronic_device%1:06:00::"))

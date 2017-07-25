@@ -1,0 +1,6 @@
+(define s (WordSenseNode "mineral_water%1:13:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mineral_water")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drinking_water%1:13:00::"))
+(InheritanceLink (WordSenseNode "seltzer%1:13:01::") s)
+(InheritanceLink (WordSenseNode "Vichy_water%1:13:01::") s)
+(InheritanceLink (WordSenseNode "lithia_water%1:27:00::") s)

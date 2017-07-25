@@ -1,0 +1,7 @@
+(define s (WordSenseNode "secularisation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "secularization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transfer%1:04:02::"))
+(InheritanceLink s (WordSenseNode "transference%1:04:00::"))
+(define x (WordNode "secularisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "transfer%1:04:02::"))
+(InheritanceLink s (WordSenseNode "transference%1:04:00::"))

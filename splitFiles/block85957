@@ -1,0 +1,5 @@
+(define s (WordSenseNode "incorporation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "incorporation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inclusion%1:04:00::"))
+(InheritanceLink (WordSenseNode "annexation%1:04:01::") s)
+(InheritanceLink (WordSenseNode "appropriation%1:04:01::") s)

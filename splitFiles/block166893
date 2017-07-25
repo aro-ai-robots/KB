@@ -1,0 +1,7 @@
+(define s (WordSenseNode "telluride%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "telluride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compound%1:27:00::"))
+(InheritanceLink s (WordSenseNode "chemical_compound%1:27:00::"))
+(HolonymLink (WordSenseNode "tellurium%1:27:00::") s)
+(HolonymLink (WordSenseNode "Te%1:27:00::") s)
+(HolonymLink (WordSenseNode "atomic_number_52%1:27:00::") s)

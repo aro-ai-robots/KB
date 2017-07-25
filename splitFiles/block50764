@@ -1,0 +1,5 @@
+(define s (WordSenseNode "dug%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dug")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammary_gland%1:08:00::"))
+(InheritanceLink s (WordSenseNode "mamma%1:08:00::"))
+(HolonymLink s (WordSenseNode "female_mammal%1:05:00::"))

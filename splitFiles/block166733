@@ -1,0 +1,7 @@
+(define s (WordSenseNode "telegraph_pole%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "telephone_pole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "post%1:06:00::"))
+(define x (WordNode "telegraph_pole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "post%1:06:00::"))
+(define x (WordNode "telegraph_post")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "post%1:06:00::"))

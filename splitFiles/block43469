@@ -1,0 +1,7 @@
+(define s (WordSenseNode "decipher%2:32:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "decode")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rewrite%2:32:00::"))
+(define x (WordNode "decrypt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rewrite%2:32:00::"))
+(define x (WordNode "decipher")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rewrite%2:32:00::"))

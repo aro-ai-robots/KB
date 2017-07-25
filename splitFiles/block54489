@@ -1,0 +1,6 @@
+(define s (WordSenseNode "entity%1:03:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "entity")) (WordSenseLink x s)
+(InheritanceLink (WordSenseNode "physical_entity%1:03:00::") s)
+(InheritanceLink (WordSenseNode "abstraction%1:03:00::") s)
+(InheritanceLink (WordSenseNode "abstract_entity%1:03:00::") s)
+(InheritanceLink (WordSenseNode "thing%1:06:01::") s)

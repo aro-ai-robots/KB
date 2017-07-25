@@ -1,0 +1,4 @@
+(define s (WordSenseNode "industrialism%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "industrialism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "economy%1:14:00::"))
+(InheritanceLink s (WordSenseNode "economic_system%1:14:00::"))

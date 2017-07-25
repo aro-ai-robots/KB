@@ -1,0 +1,5 @@
+(define s (WordSenseNode "rack%2:38:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "single-foot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pace%2:38:01::"))
+(define x (WordNode "rack")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pace%2:38:01::"))

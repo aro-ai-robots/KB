@@ -1,0 +1,4 @@
+(define s (WordSenseNode "myocardium%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "myocardium")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardiac_muscle%1:08:00::"))
+(InheritanceLink s (WordSenseNode "heart_muscle%1:08:00::"))

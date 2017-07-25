@@ -1,0 +1,7 @@
+(define s (WordSenseNode "mare%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "mare")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:00::"))
+(InheritanceLink s (WordSenseNode "part%1:15:00::"))
+(define x (WordNode "maria")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:00::"))
+(InheritanceLink s (WordSenseNode "part%1:15:00::"))

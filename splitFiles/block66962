@@ -1,0 +1,5 @@
+(define s (WordSenseNode "galley_proof%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "galley_proof")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "proof%1:10:01::"))
+(InheritanceLink s (WordSenseNode "test_copy%1:10:00::"))
+(InheritanceLink s (WordSenseNode "trial_impression%1:10:00::"))

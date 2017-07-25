@@ -1,0 +1,5 @@
+(define s (WordSenseNode "true_marmoset%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "true_marmoset")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "marmoset%1:05:00::"))
+(HolonymLink s (WordSenseNode "Callithrix%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Callithrix%1:05:00::"))

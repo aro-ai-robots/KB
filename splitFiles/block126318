@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plasma%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plasma")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "state_of_matter%1:26:00::"))
+(InheritanceLink s (WordSenseNode "state%1:26:02::"))
+(InheritanceLink (WordSenseNode "interplanetary_gas%1:17:00::") s)

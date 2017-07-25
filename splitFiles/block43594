@@ -1,0 +1,6 @@
+(define s (WordSenseNode "decommission%2:40:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "decommission")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "recall%2:40:00::"))
+(InheritanceLink s (WordSenseNode "call_in%2:40:00::"))
+(InheritanceLink s (WordSenseNode "call_back%2:40:00::"))
+(InheritanceLink s (WordSenseNode "withdraw%2:40:01::"))

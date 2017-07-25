@@ -1,0 +1,6 @@
+(define s (WordSenseNode "fermata%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fermata")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lengthiness%1:07:01::"))
+(InheritanceLink s (WordSenseNode "prolongation%1:07:01::"))
+(InheritanceLink s (WordSenseNode "continuation%1:07:00::"))
+(InheritanceLink s (WordSenseNode "protraction%1:07:00::"))

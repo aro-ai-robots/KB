@@ -1,0 +1,8 @@
+(define s (WordSenseNode "towhee%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "towhee")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "finch%1:05:00::"))
+(InheritanceLink (WordSenseNode "chewink%1:05:00::") s)
+(InheritanceLink (WordSenseNode "cheewink%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Pipilo_erythrophthalmus%1:05:00::") s)
+(InheritanceLink (WordSenseNode "green-tailed_towhee%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Chlorura_chlorura%1:05:00::") s)

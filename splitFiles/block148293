@@ -1,0 +1,7 @@
+(define s (WordSenseNode "semicentenary%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "semicentennial")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anniversary%1:28:00::"))
+(InheritanceLink s (WordSenseNode "day_of_remembrance%1:28:00::"))
+(define x (WordNode "semicentenary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "anniversary%1:28:00::"))
+(InheritanceLink s (WordSenseNode "day_of_remembrance%1:28:00::"))

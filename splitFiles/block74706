@@ -1,0 +1,7 @@
+(define s (WordSenseNode "gram-atomic_weight%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "gram_atom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metric_weight_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "weight_unit%1:23:02::"))
+(define x (WordNode "gram-atomic_weight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "metric_weight_unit%1:23:00::"))
+(InheritanceLink s (WordSenseNode "weight_unit%1:23:02::"))

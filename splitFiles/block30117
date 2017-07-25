@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chip%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "counter%1:06:03::"))
+(InheritanceLink (WordSenseNode "blue_chip%1:06:00::") s)
+(define x (WordNode "poker_chip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "counter%1:06:03::"))
+(InheritanceLink (WordSenseNode "blue_chip%1:06:00::") s)

@@ -1,0 +1,6 @@
+(define s (WordSenseNode "metatherian%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metatherian")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mammal%1:05:00::"))
+(InheritanceLink s (WordSenseNode "mammalian%1:05:00::"))
+(InheritanceLink (WordSenseNode "marsupial%1:05:00::") s)
+(InheritanceLink (WordSenseNode "pouched_mammal%1:05:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "overcapitalise%2:31:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overcapitalize")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capitalize%2:31:01::"))
+(InheritanceLink s (WordSenseNode "capitalise%2:31:01::"))
+(define x (WordNode "overcapitalise")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "capitalize%2:31:01::"))
+(InheritanceLink s (WordSenseNode "capitalise%2:31:01::"))

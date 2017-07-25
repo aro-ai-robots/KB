@@ -1,0 +1,5 @@
+(define s (WordSenseNode "amateurism%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "amateurism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "conviction%1:09:00::"))
+(InheritanceLink s (WordSenseNode "strong_belief%1:09:00::"))
+(InheritanceLink s (WordSenseNode "article_of_faith%1:09:00::"))

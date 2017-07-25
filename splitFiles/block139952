@@ -1,0 +1,5 @@
+(define s (WordSenseNode "return_address%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "return_address")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "address%1:10:02::"))
+(InheritanceLink s (WordSenseNode "destination%1:10:00::"))
+(InheritanceLink s (WordSenseNode "name_and_address%1:10:00::"))

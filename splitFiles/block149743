@@ -1,0 +1,7 @@
+(define s (WordSenseNode "shame%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "shame")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feeling%1:03:00::"))
+(InheritanceLink (WordSenseNode "conscience%1:12:00::") s)
+(InheritanceLink (WordSenseNode "self-disgust%1:12:00::") s)
+(InheritanceLink (WordSenseNode "self-hatred%1:12:00::") s)
+(InheritanceLink (WordSenseNode "embarrassment%1:12:00::") s)

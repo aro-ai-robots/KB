@@ -1,0 +1,7 @@
+(define s (WordSenseNode "boogie-woogie%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "boogie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jazz%1:10:00::"))
+(InheritanceLink s (WordSenseNode "blues%1:10:00::"))
+(define x (WordNode "boogie-woogie")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "jazz%1:10:00::"))
+(InheritanceLink s (WordSenseNode "blues%1:10:00::"))

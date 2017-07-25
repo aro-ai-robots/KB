@@ -1,0 +1,3 @@
+(define s (WordSenseNode "capital_gain%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "capital_gain")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "financial_gain%1:21:00::"))

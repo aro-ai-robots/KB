@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sponge_bath%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sponge_bath")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "washup%1:04:00::"))
+(InheritanceLink s (WordSenseNode "bathing%1:04:01::"))

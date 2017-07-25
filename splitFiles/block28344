@@ -1,0 +1,6 @@
+(define s (WordSenseNode "chafing%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chafing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tenderness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "soreness%1:26:00::"))
+(InheritanceLink s (WordSenseNode "rawness%1:26:01::"))
+(InheritanceLink (WordSenseNode "intertrigo%1:12:00::") s)

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "black_pudding%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "blood_sausage")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sausage%1:13:00::"))
+(define x (WordNode "blood_pudding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sausage%1:13:00::"))
+(define x (WordNode "black_pudding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sausage%1:13:00::"))

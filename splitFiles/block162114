@@ -1,0 +1,7 @@
+(define s (WordSenseNode "subpoena%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "subpoena")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writ%1:10:00::"))
+(InheritanceLink s (WordSenseNode "judicial_writ%1:10:00::"))
+(define x (WordNode "subpoena_ad_testificandum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "writ%1:10:00::"))
+(InheritanceLink s (WordSenseNode "judicial_writ%1:10:00::"))

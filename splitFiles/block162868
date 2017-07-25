@@ -1,0 +1,5 @@
+(define s (WordSenseNode "sunchoke%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Jerusalem_artichoke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "root_vegetable%1:13:00::"))
+(define x (WordNode "sunchoke")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "root_vegetable%1:13:00::"))

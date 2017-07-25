@@ -1,0 +1,6 @@
+(define s (WordSenseNode "priesthood%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "priesthood")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "profession%1:14:00::"))
+(InheritanceLink (WordSenseNode "ministry%1:14:01::") s)
+(InheritanceLink (WordSenseNode "rabbinate%1:14:00::") s)
+(InheritanceLink (WordSenseNode "clergy%1:14:00::") s)

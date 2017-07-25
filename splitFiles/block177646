@@ -1,0 +1,7 @@
+(define s (WordSenseNode "valency%1:07:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "valence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power%1:07:00::"))
+(InheritanceLink s (WordSenseNode "powerfulness%1:07:00::"))
+(define x (WordNode "valency")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "power%1:07:00::"))
+(InheritanceLink s (WordSenseNode "powerfulness%1:07:00::"))

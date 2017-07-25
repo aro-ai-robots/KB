@@ -1,0 +1,7 @@
+(define s (WordSenseNode "calfskin%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calf")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leather%1:27:00::"))
+(InheritanceLink (WordSenseNode "box_calf%1:27:00::") s)
+(define x (WordNode "calfskin")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "leather%1:27:00::"))
+(InheritanceLink (WordSenseNode "box_calf%1:27:00::") s)

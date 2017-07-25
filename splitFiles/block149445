@@ -1,0 +1,3 @@
+(define s (WordSenseNode "sex_offender%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sex_offender")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "convict%1:18:01::"))

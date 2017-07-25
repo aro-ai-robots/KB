@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hole%2:35:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "hole")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hit%2:35:03::"))
+(define x (WordNode "hole_out")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hit%2:35:03::"))

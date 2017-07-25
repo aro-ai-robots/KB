@@ -1,0 +1,6 @@
+(define s (WordSenseNode "basilisk%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "basilisk")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "iguanid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "iguanid_lizard%1:05:00::"))
+(HolonymLink s (WordSenseNode "Basiliscus%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Basiliscus%1:05:00::"))

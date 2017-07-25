@@ -1,0 +1,7 @@
+(define s (WordSenseNode "furry_tongue%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hairy_tongue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "side_effect%1:26:00::"))
+(define x (WordNode "furry_tongue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "side_effect%1:26:00::"))
+(define x (WordNode "black_tongue")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "side_effect%1:26:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "anthem%1:10:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "anthem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "song%1:10:00::"))
+(InheritanceLink s (WordSenseNode "vocal%1:10:01::"))
+(InheritanceLink (WordSenseNode "national_anthem%1:10:00::") s)

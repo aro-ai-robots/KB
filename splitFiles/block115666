@@ -1,0 +1,5 @@
+(define s (WordSenseNode "offsetting_balance%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "compensating_balance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "balance%1:21:01::"))
+(define x (WordNode "offsetting_balance")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "balance%1:21:01::"))

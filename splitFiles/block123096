@@ -1,0 +1,5 @@
+(define s (WordSenseNode "peritonsillar_abscess%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quinsy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angina%1:26:00::"))
+(define x (WordNode "peritonsillar_abscess")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "angina%1:26:00::"))

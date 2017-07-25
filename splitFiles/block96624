@@ -1,0 +1,5 @@
+(define s (WordSenseNode "lerot%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lerot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "dormouse%1:05:00::"))
+(HolonymLink s (WordSenseNode "Eliomys%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Eliomys%1:05:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pogonip%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ice_fog")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fog%1:19:00::"))
+(define x (WordNode "pogonip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fog%1:19:00::"))

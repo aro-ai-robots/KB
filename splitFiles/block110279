@@ -1,0 +1,8 @@
+(define s (WordSenseNode "muskiness%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "muskiness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "olfactory_property%1:07:00::"))
+(InheritanceLink s (WordSenseNode "smell%1:07:00::"))
+(InheritanceLink s (WordSenseNode "aroma%1:07:00::"))
+(InheritanceLink s (WordSenseNode "odor%1:07:00::"))
+(InheritanceLink s (WordSenseNode "odour%1:07:00::"))
+(InheritanceLink s (WordSenseNode "scent%1:07:00::"))

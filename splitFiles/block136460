@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rearing%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "raising")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "upbringing%1:07:00::"))
+(define x (WordNode "rearing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "upbringing%1:07:00::"))
+(define x (WordNode "nurture")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "upbringing%1:07:00::"))

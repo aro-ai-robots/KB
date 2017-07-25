@@ -1,0 +1,6 @@
+(define s (WordSenseNode "rolling_mill%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rolling_mill")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "steel_mill%1:06:00::"))
+(InheritanceLink s (WordSenseNode "steelworks%1:06:00::"))
+(InheritanceLink s (WordSenseNode "steel_plant%1:06:00::"))
+(InheritanceLink s (WordSenseNode "steel_factory%1:06:00::"))

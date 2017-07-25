@@ -1,0 +1,8 @@
+(define s (WordSenseNode "tilling%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tilling")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cultivation%1:04:00::"))
+(InheritanceLink (WordSenseNode "plowing%1:04:00::") s)
+(InheritanceLink (WordSenseNode "ploughing%1:04:00::") s)
+(HolonymLink s (WordSenseNode "farming%1:04:00::"))
+(HolonymLink s (WordSenseNode "agriculture%1:04:00::"))
+(HolonymLink s (WordSenseNode "husbandry%1:04:00::"))

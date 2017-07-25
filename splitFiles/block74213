@@ -1,0 +1,8 @@
+(define s (WordSenseNode "good_guy%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "good_guy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "person%1:03:00::"))
+(InheritanceLink s (WordSenseNode "individual%1:03:00::"))
+(InheritanceLink s (WordSenseNode "someone%1:03:00::"))
+(InheritanceLink s (WordSenseNode "somebody%1:03:00::"))
+(InheritanceLink s (WordSenseNode "mortal%1:03:00::"))
+(InheritanceLink s (WordSenseNode "soul%1:03:00::"))

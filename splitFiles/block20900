@@ -1,0 +1,6 @@
+(define s (WordSenseNode "breathe%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "breathe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exist%2:42:01::"))
+(InheritanceLink s (WordSenseNode "survive%2:42:00::"))
+(InheritanceLink s (WordSenseNode "live%2:42:01::"))
+(InheritanceLink s (WordSenseNode "subsist%2:42:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "lappet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "lappet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lap%1:06:00::"))
+(InheritanceLink s (WordSenseNode "overlap%1:06:00::"))

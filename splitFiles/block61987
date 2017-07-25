@@ -1,0 +1,7 @@
+(define s (WordSenseNode "fireman's_ax%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "fireman's_ax")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ax%1:06:00::"))
+(InheritanceLink s (WordSenseNode "axe%1:06:00::"))
+(define x (WordNode "fireman's_axe")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ax%1:06:00::"))
+(InheritanceLink s (WordSenseNode "axe%1:06:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "preinvasive_cancer%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "carcinoma_in_situ")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carcinoma%1:26:00::"))
+(define x (WordNode "preinvasive_cancer")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "carcinoma%1:26:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "little_hand%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hour_hand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand%1:06:00::"))
+(define x (WordNode "little_hand")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hand%1:06:00::"))

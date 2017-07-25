@@ -1,0 +1,4 @@
+(define s (WordSenseNode "arminian_church%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Arminian_Church")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Protestant_denomination%1:14:00::"))
+(HolonymLink (WordSenseNode "Arminian%1:18:00::") s)

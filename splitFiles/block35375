@@ -1,0 +1,7 @@
+(define s (WordSenseNode "composition%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "typography")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "printing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "printing_process%1:10:00::"))
+(define x (WordNode "composition")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "printing%1:10:00::"))
+(InheritanceLink s (WordSenseNode "printing_process%1:10:00::"))

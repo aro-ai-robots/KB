@@ -1,0 +1,5 @@
+(define s (WordSenseNode "beaver_board%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "beaver_board")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wallboard%1:06:00::"))
+(InheritanceLink s (WordSenseNode "drywall%1:06:00::"))
+(InheritanceLink s (WordSenseNode "dry_wall%1:06:01::"))

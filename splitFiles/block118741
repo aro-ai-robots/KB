@@ -1,0 +1,6 @@
+(define s (WordSenseNode "overlap%2:42:03::")) (PartOfSpeechLink s verb)
+(define x (WordNode "overlap")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "coincide%2:42:00::"))
+(InheritanceLink s (WordSenseNode "co-occur%2:42:00::"))
+(InheritanceLink s (WordSenseNode "cooccur%2:42:00::"))
+(InheritanceLink (WordSenseNode "share%2:42:00::") s)

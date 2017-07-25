@@ -1,0 +1,7 @@
+(define s (WordSenseNode "disappear%2:30:10::")) (PartOfSpeechLink s verb)
+(define x (WordNode "melt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:00::"))
+(define x (WordNode "disappear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:00::"))
+(define x (WordNode "evaporate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weaken%2:30:00::"))

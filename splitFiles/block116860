@@ -1,0 +1,7 @@
+(define s (WordSenseNode "optical_maser%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "laser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_device%1:06:00::"))
+(HolonymLink s (WordSenseNode "photocoagulator%1:06:00::"))
+(define x (WordNode "optical_maser")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "optical_device%1:06:00::"))
+(HolonymLink s (WordSenseNode "photocoagulator%1:06:00::"))

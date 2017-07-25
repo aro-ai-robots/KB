@@ -1,0 +1,7 @@
+(define s (WordSenseNode "corrections%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "corrections")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "local_department%1:14:00::"))
+(InheritanceLink s (WordSenseNode "department_of_local_government%1:14:00::"))
+(define x (WordNode "department_of_corrections")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "local_department%1:14:00::"))
+(InheritanceLink s (WordSenseNode "department_of_local_government%1:14:00::"))

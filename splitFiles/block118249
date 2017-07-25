@@ -1,0 +1,5 @@
+(define s (WordSenseNode "out-basket%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "out-basket")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "receptacle%1:06:00::"))
+(define x (WordNode "out-tray")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "receptacle%1:06:00::"))

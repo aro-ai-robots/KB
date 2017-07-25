@@ -1,0 +1,7 @@
+(define s (WordSenseNode "tear%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "separation%1:04:01::"))
+(InheritanceLink (WordSenseNode "laceration%1:04:00::") s)
+(InheritanceLink (WordSenseNode "rent%1:04:02::") s)
+(InheritanceLink (WordSenseNode "rip%1:04:00::") s)
+(InheritanceLink (WordSenseNode "split%1:04:01::") s)

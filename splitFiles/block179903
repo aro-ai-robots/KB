@@ -1,0 +1,4 @@
+(define s (WordSenseNode "vocabulary%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vocabulary")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "frame_of_reference%1:09:01::"))
+(InheritanceLink s (WordSenseNode "frame%1:09:00::"))

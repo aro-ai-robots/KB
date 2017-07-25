@@ -1,0 +1,8 @@
+(define s (WordSenseNode "genus_palometa%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Palometa")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fish_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Stromateidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Stromateidae%1:05:00::"))
+(HolonymLink (WordSenseNode "palometa%1:05:00::") s)
+(HolonymLink (WordSenseNode "California_pompano%1:05:00::") s)
+(HolonymLink (WordSenseNode "Palometa_simillima%1:05:00::") s)

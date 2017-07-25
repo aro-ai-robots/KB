@@ -1,0 +1,5 @@
+(define s (WordSenseNode "suppressant%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "suppressant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drug%1:06:00::"))
+(define x (WordNode "appetite_suppressant")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "drug%1:06:00::"))

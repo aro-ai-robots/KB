@@ -1,0 +1,8 @@
+(define s (WordSenseNode "formosan%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Formosan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Austronesian%1:10:00::"))
+(InheritanceLink s (WordSenseNode "Austronesian_language%1:10:00::"))
+(InheritanceLink (WordSenseNode "Tayalic%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Atayalic%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Tsouic%1:10:00::") s)
+(InheritanceLink (WordSenseNode "Paiwanic%1:10:00::") s)

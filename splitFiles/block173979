@@ -1,0 +1,5 @@
+(define s (WordSenseNode "tussock_caterpillar%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tussock_caterpillar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "caterpillar%1:05:00::"))
+(HolonymLink s (WordSenseNode "Lymantriidae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Lymantriidae%1:05:00::"))

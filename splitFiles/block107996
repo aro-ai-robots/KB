@@ -1,0 +1,5 @@
+(define s (WordSenseNode "moment%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "moment")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "statistic%1:09:00::"))
+(InheritanceLink (WordSenseNode "second_moment%1:09:00::") s)
+(InheritanceLink (WordSenseNode "variance%1:09:00::") s)

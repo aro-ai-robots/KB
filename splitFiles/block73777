@@ -1,0 +1,4 @@
+(define s (WordSenseNode "goal%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "goal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "score%1:04:00::"))
+(InheritanceLink (WordSenseNode "own_goal%1:04:00::") s)

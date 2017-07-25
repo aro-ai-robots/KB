@@ -1,0 +1,7 @@
+(define s (WordSenseNode "draft_dodger%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "draft_dodger")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deserter%1:18:00::"))
+(InheritanceLink s (WordSenseNode "defector%1:18:00::"))
+(define x (WordNode "draft_evader")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "deserter%1:18:00::"))
+(InheritanceLink s (WordSenseNode "defector%1:18:00::"))

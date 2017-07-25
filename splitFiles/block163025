@@ -1,0 +1,7 @@
+(define s (WordSenseNode "superfund_program%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Superfund_program")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "program%1:09:01::"))
+(InheritanceLink s (WordSenseNode "programme%1:09:01::"))
+(define x (WordNode "Superfund")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "program%1:09:01::"))
+(InheritanceLink s (WordSenseNode "programme%1:09:01::"))

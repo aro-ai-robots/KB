@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ratiocination%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ratiocination")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "reasoning%1:09:00::"))
+(InheritanceLink s (WordSenseNode "logical_thinking%1:09:00::"))
+(InheritanceLink s (WordSenseNode "abstract_thought%1:09:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "insubstantiality%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "insubstantiality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "immateriality%1:07:00::"))
+(InheritanceLink s (WordSenseNode "incorporeality%1:07:00::"))
+(InheritanceLink (WordSenseNode "smoke%1:07:00::") s)

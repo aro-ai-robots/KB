@@ -1,0 +1,7 @@
+(define s (WordSenseNode "green_onion%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "green_onion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "onion%1:13:00::"))
+(define x (WordNode "spring_onion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "onion%1:13:00::"))
+(define x (WordNode "scallion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "onion%1:13:00::"))

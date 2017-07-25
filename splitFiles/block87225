@@ -1,0 +1,6 @@
+(define s (WordSenseNode "inner_tube%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "inner_tube")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tube%1:06:00::"))
+(InheritanceLink s (WordSenseNode "tubing%1:06:00::"))
+(HolonymLink s (WordSenseNode "pneumatic_tire%1:06:00::"))
+(HolonymLink s (WordSenseNode "pneumatic_tyre%1:06:00::"))

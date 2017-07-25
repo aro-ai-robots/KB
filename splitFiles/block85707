@@ -1,0 +1,5 @@
+(define s (WordSenseNode "incarnation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "personification")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embodiment%1:04:00::"))
+(define x (WordNode "incarnation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "embodiment%1:04:00::"))

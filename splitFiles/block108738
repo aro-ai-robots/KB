@@ -1,0 +1,7 @@
+(define s (WordSenseNode "morning_sickness%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "morning_sickness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "nausea%1:26:00::"))
+(InheritanceLink s (WordSenseNode "sickness%1:26:01::"))
+(HolonymLink s (WordSenseNode "pregnancy%1:26:00::"))
+(HolonymLink s (WordSenseNode "gestation%1:26:00::"))
+(HolonymLink s (WordSenseNode "maternity%1:26:00::"))

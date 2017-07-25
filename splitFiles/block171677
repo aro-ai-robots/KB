@@ -1,0 +1,6 @@
+(define s (WordSenseNode "transmission_mechanism%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transmission_mechanism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanism%1:17:00::"))
+(InheritanceLink (WordSenseNode "airborne_transmission%1:17:00::") s)
+(InheritanceLink (WordSenseNode "direct_transmission%1:17:00::") s)
+(InheritanceLink (WordSenseNode "indirect_transmission%1:17:00::") s)

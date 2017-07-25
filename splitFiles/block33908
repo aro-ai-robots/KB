@@ -1,0 +1,7 @@
+(define s (WordSenseNode "colloidal_suspension%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sol")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colloid%1:27:00::"))
+(define x (WordNode "colloidal_solution")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colloid%1:27:00::"))
+(define x (WordNode "colloidal_suspension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "colloid%1:27:00::"))

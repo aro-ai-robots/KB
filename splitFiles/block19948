@@ -1,0 +1,4 @@
+(define s (WordSenseNode "bout%1:11:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bout")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "contest%1:11:00::"))
+(InheritanceLink s (WordSenseNode "competition%1:11:00::"))

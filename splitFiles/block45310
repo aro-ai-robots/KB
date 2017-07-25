@@ -1,0 +1,7 @@
+(define s (WordSenseNode "desirability%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "desirability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "good%1:07:02::"))
+(InheritanceLink s (WordSenseNode "goodness%1:07:02::"))
+(define x (WordNode "desirableness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "good%1:07:02::"))
+(InheritanceLink s (WordSenseNode "goodness%1:07:02::"))

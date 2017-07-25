@@ -1,0 +1,5 @@
+(define s (WordSenseNode "transitiveness%1:24:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "transitivity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grammatical_relation%1:24:00::"))
+(define x (WordNode "transitiveness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "grammatical_relation%1:24:00::"))

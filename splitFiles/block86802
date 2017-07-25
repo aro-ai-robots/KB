@@ -1,0 +1,3 @@
+(define s (WordSenseNode "infix%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "infix")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "affix%1:10:00::"))

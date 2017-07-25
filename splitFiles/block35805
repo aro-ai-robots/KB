@@ -1,0 +1,6 @@
+(define s (WordSenseNode "concurring_opinion%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "concurring_opinion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "opinion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "legal_opinion%1:10:00::"))
+(InheritanceLink s (WordSenseNode "judgment%1:10:00::"))
+(InheritanceLink s (WordSenseNode "judgement%1:10:00::"))

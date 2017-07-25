@@ -1,0 +1,5 @@
+(define s (WordSenseNode "secpar%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "parsec")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astronomy_unit%1:23:00::"))
+(define x (WordNode "secpar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "astronomy_unit%1:23:00::"))

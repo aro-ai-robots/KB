@@ -1,0 +1,7 @@
+(define s (WordSenseNode "similarity%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "similarity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Gestalt_law_of_organization%1:09:00::"))
+(InheritanceLink s (WordSenseNode "Gestalt_principle_of_organization%1:09:00::"))
+(define x (WordNode "law_of_similarity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Gestalt_law_of_organization%1:09:00::"))
+(InheritanceLink s (WordSenseNode "Gestalt_principle_of_organization%1:09:00::"))

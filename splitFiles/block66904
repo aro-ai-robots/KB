@@ -1,0 +1,5 @@
+(define s (WordSenseNode "galilean%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Galilean_satellite")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "satellite%1:17:00::"))
+(define x (WordNode "Galilean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "satellite%1:17:00::"))

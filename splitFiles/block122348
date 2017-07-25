@@ -1,0 +1,5 @@
+(define s (WordSenseNode "pelvic_cavity%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "pelvic_cavity")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cavity%1:08:00::"))
+(InheritanceLink s (WordSenseNode "bodily_cavity%1:08:00::"))
+(InheritanceLink s (WordSenseNode "cavum%1:08:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "graveyard_shift%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "night_shift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shift%1:14:00::"))
+(define x (WordNode "graveyard_shift")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "shift%1:14:00::"))

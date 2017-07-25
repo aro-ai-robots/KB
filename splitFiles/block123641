@@ -1,0 +1,7 @@
+(define s (WordSenseNode "petrolatum_gauze%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "petrolatum_gauze")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "gauze%1:06:01::"))
+(InheritanceLink s (WordSenseNode "gauze_bandage%1:06:00::"))
+(HolonymLink (WordSenseNode "petrolatum%1:27:00::") s)
+(HolonymLink (WordSenseNode "petroleum_jelly%1:27:00::") s)
+(HolonymLink (WordSenseNode "mineral_jelly%1:27:00::") s)

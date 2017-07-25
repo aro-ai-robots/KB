@@ -1,0 +1,7 @@
+(define s (WordSenseNode "headrest%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "headrest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cushion%1:06:00::"))
+(HolonymLink s (WordSenseNode "car_seat%1:06:00::"))
+(define x (WordNode "head_restraint")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cushion%1:06:00::"))
+(HolonymLink s (WordSenseNode "car_seat%1:06:00::"))

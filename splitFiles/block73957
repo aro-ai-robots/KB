@@ -1,0 +1,7 @@
+(define s (WordSenseNode "goldcrest%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "goldcrest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kinglet%1:05:00::"))
+(define x (WordNode "golden-crested_kinglet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kinglet%1:05:00::"))
+(define x (WordNode "Regulus_regulus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "kinglet%1:05:00::"))

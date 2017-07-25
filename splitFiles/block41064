@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cuneiform%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cuneiform")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "script%1:10:01::"))
+(InheritanceLink (WordSenseNode "Babylonian%1:10:01::") s)

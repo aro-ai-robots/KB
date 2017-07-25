@@ -1,0 +1,4 @@
+(define s (WordSenseNode "towel%2:35:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "towel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wipe%2:35:00::"))
+(InheritanceLink s (WordSenseNode "pass_over%2:35:00::"))

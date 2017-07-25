@@ -1,0 +1,7 @@
+(define s (WordSenseNode "belt%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "belt")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "region%1:15:00::"))
+(InheritanceLink s (WordSenseNode "part%1:15:00::"))
+(InheritanceLink (WordSenseNode "asteroid_belt%1:15:00::") s)
+(InheritanceLink (WordSenseNode "greenbelt%1:15:00::") s)
+(InheritanceLink (WordSenseNode "greenway%1:15:00::") s)

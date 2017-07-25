@@ -1,0 +1,7 @@
+(define s (WordSenseNode "polar_zone%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Frigid_Zone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "climatic_zone%1:15:00::"))
+(define x (WordNode "polar_zone")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "climatic_zone%1:15:00::"))
+(define x (WordNode "polar_region")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "climatic_zone%1:15:00::"))

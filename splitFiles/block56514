@@ -1,0 +1,6 @@
+(define s (WordSenseNode "evocation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "evocation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "imagination%1:09:02::"))
+(InheritanceLink s (WordSenseNode "imaging%1:09:00::"))
+(InheritanceLink s (WordSenseNode "imagery%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mental_imagery%1:09:00::"))

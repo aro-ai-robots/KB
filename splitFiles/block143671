@@ -1,0 +1,7 @@
+(define s (WordSenseNode "sachem%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sachem")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Indian_chief%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Indian_chieftain%1:18:00::"))
+(define x (WordNode "sagamore")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Indian_chief%1:18:00::"))
+(InheritanceLink s (WordSenseNode "Indian_chieftain%1:18:00::"))

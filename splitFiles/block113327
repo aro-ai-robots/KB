@@ -1,0 +1,7 @@
+(define s (WordSenseNode "nodal_rhythm%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "atrioventricular_nodal_rhythm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardiac_rhythm%1:07:00::"))
+(InheritanceLink s (WordSenseNode "heart_rhythm%1:07:00::"))
+(define x (WordNode "nodal_rhythm")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "cardiac_rhythm%1:07:00::"))
+(InheritanceLink s (WordSenseNode "heart_rhythm%1:07:00::"))

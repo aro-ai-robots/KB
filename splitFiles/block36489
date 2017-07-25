@@ -1,0 +1,5 @@
+(define s (WordSenseNode "conscience%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "conscience")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "morality%1:07:00::"))
+(InheritanceLink (WordSenseNode "conscientiousness%1:07:00::") s)
+(InheritanceLink (WordSenseNode "unconscientiousness%1:07:00::") s)

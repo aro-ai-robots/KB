@@ -1,0 +1,4 @@
+(define s (WordSenseNode "hagiology%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hagiology")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "literary_composition%1:10:00::"))
+(InheritanceLink s (WordSenseNode "literary_work%1:10:00::"))

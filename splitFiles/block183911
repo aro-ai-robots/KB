@@ -1,0 +1,4 @@
+(define s (WordSenseNode "wing_tip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wing_tip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toecap%1:06:00::"))
+(HolonymLink s (WordSenseNode "wing_tip%1:06:01::"))

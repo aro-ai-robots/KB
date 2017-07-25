@@ -1,0 +1,5 @@
+(define s (WordSenseNode "beggar%2:42:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "beggar")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "defy%2:42:01::"))
+(InheritanceLink s (WordSenseNode "resist%2:42:01::"))
+(InheritanceLink s (WordSenseNode "refuse%2:42:00::"))

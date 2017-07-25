@@ -1,0 +1,4 @@
+(define s (WordSenseNode "decagon%1:25:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decagon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "polygon%1:25:00::"))
+(InheritanceLink s (WordSenseNode "polygonal_shape%1:25:00::"))

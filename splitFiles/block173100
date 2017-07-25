@@ -1,0 +1,8 @@
+(define s (WordSenseNode "trumpeter%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "trumpeter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "wading_bird%1:05:00::"))
+(InheritanceLink s (WordSenseNode "wader%1:05:01::"))
+(InheritanceLink (WordSenseNode "Brazilian_trumpeter%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Psophia_crepitans%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Psophia%1:05:00::"))
+(HolonymLink s (WordSenseNode "genus_Psophia%1:05:00::"))

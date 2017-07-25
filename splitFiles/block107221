@@ -1,0 +1,5 @@
+(define s (WordSenseNode "mishna%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Mishna")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Talmud%1:10:00::"))
+(define x (WordNode "Mishnah")) (WordSenseLink x s)
+(HolonymLink s (WordSenseNode "Talmud%1:10:00::"))

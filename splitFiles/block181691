@@ -1,0 +1,6 @@
+(define s (WordSenseNode "weakness%1:12:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "weakness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "preference%1:12:00::"))
+(InheritanceLink s (WordSenseNode "penchant%1:12:00::"))
+(InheritanceLink s (WordSenseNode "predilection%1:12:00::"))
+(InheritanceLink s (WordSenseNode "taste%1:12:02::"))

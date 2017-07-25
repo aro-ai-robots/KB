@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ovulation_method_of_family_planning%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ovulation_method_of_family_planning")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_family_planning%1:04:00::"))
+(define x (WordNode "ovulation_method")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "natural_family_planning%1:04:00::"))

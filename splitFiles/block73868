@@ -1,0 +1,7 @@
+(define s (WordSenseNode "godparent%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "godparent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "patron%1:18:01::"))
+(InheritanceLink s (WordSenseNode "sponsor%1:18:00::"))
+(InheritanceLink s (WordSenseNode "supporter%1:18:02::"))
+(InheritanceLink (WordSenseNode "godfather%1:18:00::") s)
+(InheritanceLink (WordSenseNode "godmother%1:18:00::") s)

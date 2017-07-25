@@ -1,0 +1,7 @@
+(define s (WordSenseNode "disregard%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "disregard")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inattention%1:09:00::"))
+(InheritanceLink (WordSenseNode "omission%1:09:00::") s)
+(define x (WordNode "neglect")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "inattention%1:09:00::"))
+(InheritanceLink (WordSenseNode "omission%1:09:00::") s)

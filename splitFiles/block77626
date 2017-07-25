@@ -1,0 +1,7 @@
+(define s (WordSenseNode "hamstring_tendon%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hamstring")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tendon%1:08:00::"))
+(InheritanceLink s (WordSenseNode "sinew%1:08:00::"))
+(define x (WordNode "hamstring_tendon")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "tendon%1:08:00::"))
+(InheritanceLink s (WordSenseNode "sinew%1:08:00::"))

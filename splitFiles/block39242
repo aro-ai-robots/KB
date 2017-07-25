@@ -1,0 +1,7 @@
+(define s (WordSenseNode "crab-eating_macaque%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "crab-eating_macaque")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "macaque%1:05:00::"))
+(define x (WordNode "croo_monkey")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "macaque%1:05:00::"))
+(define x (WordNode "Macaca_irus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "macaque%1:05:00::"))

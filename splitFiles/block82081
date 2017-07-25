@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hope_chest%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hope_chest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chest%1:06:00::"))
+(define x (WordNode "wedding_chest")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "chest%1:06:00::"))

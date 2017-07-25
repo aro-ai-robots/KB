@@ -1,0 +1,5 @@
+(define s (WordSenseNode "blood_knot%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "barrel_knot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knot%1:06:00::"))
+(define x (WordNode "blood_knot")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "knot%1:06:00::"))

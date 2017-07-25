@@ -1,0 +1,7 @@
+(define s (WordSenseNode "show_up%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "show")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appear%2:30:00::"))
+(InheritanceLink (WordSenseNode "register%2:39:01::") s)
+(define x (WordNode "show_up")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "appear%2:30:00::"))
+(InheritanceLink (WordSenseNode "register%2:39:01::") s)

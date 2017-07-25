@@ -1,0 +1,5 @@
+(define s (WordSenseNode "creeping_spike_rush%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "creeping_spike_rush")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spike_rush%1:20:00::"))
+(define x (WordNode "Eleocharis_palustris")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "spike_rush%1:20:00::"))

@@ -1,0 +1,4 @@
+(define s (WordSenseNode "oil_beetle%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "oil_beetle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blister_beetle%1:05:00::"))
+(InheritanceLink s (WordSenseNode "meloid%1:05:00::"))

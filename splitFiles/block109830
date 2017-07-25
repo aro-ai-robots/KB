@@ -1,0 +1,6 @@
+(define s (WordSenseNode "multiple_voting%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "multiple_voting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "vote%1:04:00::"))
+(InheritanceLink s (WordSenseNode "ballot%1:04:00::"))
+(InheritanceLink s (WordSenseNode "voting%1:04:00::"))
+(InheritanceLink s (WordSenseNode "balloting%1:04:00::"))

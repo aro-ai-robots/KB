@@ -1,0 +1,7 @@
+(define s (WordSenseNode "saurel%1:05:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "horse_mackerel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scad%1:05:00::"))
+(define x (WordNode "saurel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scad%1:05:00::"))
+(define x (WordNode "Trachurus_trachurus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scad%1:05:00::"))

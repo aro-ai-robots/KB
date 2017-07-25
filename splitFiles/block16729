@@ -1,0 +1,5 @@
+(define s (WordSenseNode "binding%1:06:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ski_binding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_device%1:06:00::"))
+(define x (WordNode "binding")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mechanical_device%1:06:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "food_elevator%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "dumbwaiter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elevator%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lift%1:06:00::"))
+(define x (WordNode "food_elevator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "elevator%1:06:00::"))
+(InheritanceLink s (WordSenseNode "lift%1:06:00::"))

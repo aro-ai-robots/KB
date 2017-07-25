@@ -1,0 +1,5 @@
+(define s (WordSenseNode "wan%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wide_area_network")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_network%1:06:00::"))
+(define x (WordNode "WAN")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "computer_network%1:06:00::"))

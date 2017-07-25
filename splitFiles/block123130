@@ -1,0 +1,5 @@
+(define s (WordSenseNode "permanganate%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "permanganate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "salt%1:27:00::"))
+(InheritanceLink (WordSenseNode "potassium_permanganate%1:27:00::") s)
+(InheritanceLink (WordSenseNode "permanganate_of_potash%1:27:00::") s)

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "metaknowledge%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "metaknowledge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "content%1:09:00::"))
+(InheritanceLink s (WordSenseNode "cognitive_content%1:09:00::"))
+(InheritanceLink s (WordSenseNode "mental_object%1:09:00::"))

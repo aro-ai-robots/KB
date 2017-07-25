@@ -1,0 +1,5 @@
+(define s (WordSenseNode "stationmaster%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "stationmaster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "master%1:18:03::"))
+(define x (WordNode "station_agent")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "master%1:18:03::"))

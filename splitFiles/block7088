@@ -1,0 +1,7 @@
+(define s (WordSenseNode "antenna%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "antenna")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sensitivity%1:07:02::"))
+(InheritanceLink s (WordSenseNode "sensitiveness%1:07:02::"))
+(define x (WordNode "feeler")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sensitivity%1:07:02::"))
+(InheritanceLink s (WordSenseNode "sensitiveness%1:07:02::"))

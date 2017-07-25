@@ -1,0 +1,7 @@
+(define s (WordSenseNode "venting%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "discharge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emission%1:04:00::"))
+(InheritanceLink s (WordSenseNode "emanation%1:04:00::"))
+(define x (WordNode "venting")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "emission%1:04:00::"))
+(InheritanceLink s (WordSenseNode "emanation%1:04:00::"))

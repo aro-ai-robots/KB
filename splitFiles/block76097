@@ -1,0 +1,5 @@
+(define s (WordSenseNode "growth%1:17:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "growth")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "object%1:03:00::"))
+(InheritanceLink s (WordSenseNode "physical_object%1:03:00::"))
+(InheritanceLink (WordSenseNode "ingrowth%1:17:00::") s)

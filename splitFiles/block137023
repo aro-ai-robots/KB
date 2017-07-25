@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rectum%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rectum")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "body_part%1:08:00::"))
+(HolonymLink s (WordSenseNode "large_intestine%1:08:00::"))
+(HolonymLink (WordSenseNode "rectal_artery%1:08:00::") s)
+(HolonymLink (WordSenseNode "arteria_rectalis%1:08:00::") s)
+(HolonymLink (WordSenseNode "anus%1:08:00::") s)

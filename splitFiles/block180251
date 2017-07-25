@@ -1,0 +1,5 @@
+(define s (WordSenseNode "vulcanisation%1:22:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "vulcanization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "processing%1:22:00::"))
+(define x (WordNode "vulcanisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "processing%1:22:00::"))

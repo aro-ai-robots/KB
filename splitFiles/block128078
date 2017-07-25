@@ -1,0 +1,5 @@
+(define s (WordSenseNode "polytonality%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "polytonality")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "music%1:10:00::"))
+(define x (WordNode "polytonalism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "music%1:10:00::"))

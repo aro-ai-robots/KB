@@ -1,0 +1,5 @@
+(define s (WordSenseNode "spam%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "spam")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "e-mail%2:32:00::"))
+(InheritanceLink s (WordSenseNode "email%2:32:00::"))
+(InheritanceLink s (WordSenseNode "netmail%2:32:00::"))

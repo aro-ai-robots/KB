@@ -1,0 +1,6 @@
+(define s (WordSenseNode "decouple%2:30:01::")) (PartOfSpeechLink s verb)
+(define x (WordNode "decouple")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "extinguish%2:30:03::"))
+(InheritanceLink s (WordSenseNode "eliminate%2:30:01::"))
+(InheritanceLink s (WordSenseNode "get_rid_of%2:30:00::"))
+(InheritanceLink s (WordSenseNode "do_away_with%2:30:00::"))

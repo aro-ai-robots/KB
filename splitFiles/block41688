@@ -1,0 +1,4 @@
+(define s (WordSenseNode "cyberart%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cyberart")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "art%1:06:00::"))
+(InheritanceLink s (WordSenseNode "fine_art%1:06:00::"))

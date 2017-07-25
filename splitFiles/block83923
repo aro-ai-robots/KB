@@ -1,0 +1,6 @@
+(define s (WordSenseNode "hypodermic_needle%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hypodermic_needle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "needle%1:06:00::"))
+(HolonymLink s (WordSenseNode "hypodermic_syringe%1:06:00::"))
+(HolonymLink s (WordSenseNode "hypodermic%1:06:00::"))
+(HolonymLink s (WordSenseNode "hypo%1:06:00::"))

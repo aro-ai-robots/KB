@@ -1,0 +1,4 @@
+(define s (WordSenseNode "widegrip_pushup%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "widegrip_pushup")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pushup%1:04:00::"))
+(InheritanceLink s (WordSenseNode "press-up%1:04:00::"))

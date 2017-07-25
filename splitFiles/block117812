@@ -1,0 +1,5 @@
+(define s (WordSenseNode "orphan_site%1:15:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "orphan_site")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toxic_site%1:15:00::"))
+(InheritanceLink s (WordSenseNode "toxic_waste_area%1:15:00::"))
+(InheritanceLink s (WordSenseNode "Superfund_site%1:15:00::"))

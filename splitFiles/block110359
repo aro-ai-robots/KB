@@ -1,0 +1,4 @@
+(define s (WordSenseNode "muster%2:32:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "muster")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "call%2:32:05::"))
+(InheritanceLink s (WordSenseNode "send_for%2:32:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hostile_witness%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "adverse_witness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "witness%1:18:03::"))
+(define x (WordNode "hostile_witness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "witness%1:18:03::"))

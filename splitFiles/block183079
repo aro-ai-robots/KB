@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wholesale_price_index%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "producer_price_index")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "price_index%1:10:00::"))
+(InheritanceLink s (WordSenseNode "price_level%1:10:00::"))
+(define x (WordNode "wholesale_price_index")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "price_index%1:10:00::"))
+(InheritanceLink s (WordSenseNode "price_level%1:10:00::"))

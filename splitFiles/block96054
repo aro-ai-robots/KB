@@ -1,0 +1,7 @@
+(define s (WordSenseNode "left%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "left")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "faction%1:14:00::"))
+(InheritanceLink s (WordSenseNode "sect%1:14:00::"))
+(define x (WordNode "left_wing")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "faction%1:14:00::"))
+(InheritanceLink s (WordSenseNode "sect%1:14:00::"))

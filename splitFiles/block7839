@@ -1,0 +1,7 @@
+(define s (WordSenseNode "apostasy%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "apostasy")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rejection%1:26:00::"))
+(define x (WordNode "renunciation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rejection%1:26:00::"))
+(define x (WordNode "defection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "rejection%1:26:00::"))

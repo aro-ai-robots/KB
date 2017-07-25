@@ -1,0 +1,7 @@
+(define s (WordSenseNode "cod-liver_oil%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "cod-liver_oil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_oil%1:27:00::"))
+(InheritanceLink (WordSenseNode "cod_oil%1:27:00::") s)
+(define x (WordNode "cod_liver_oil")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "animal_oil%1:27:00::"))
+(InheritanceLink (WordSenseNode "cod_oil%1:27:00::") s)

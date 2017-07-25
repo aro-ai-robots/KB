@@ -1,0 +1,5 @@
+(define s (WordSenseNode "misdirection%1:10:02::")) (PartOfSpeechLink s noun)
+(define x (WordNode "misdirection")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "commission%1:10:01::"))
+(InheritanceLink s (WordSenseNode "charge%1:10:01::"))
+(InheritanceLink s (WordSenseNode "direction%1:10:01::"))

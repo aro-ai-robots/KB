@@ -1,0 +1,7 @@
+(define s (WordSenseNode "basketball_court%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "basketball_court")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "court%1:06:01::"))
+(InheritanceLink (WordSenseNode "home_court%1:06:00::") s)
+(HolonymLink (WordSenseNode "free_throw_lane%1:06:00::") s)
+(HolonymLink (WordSenseNode "key%1:15:00::") s)
+(HolonymLink (WordSenseNode "paint%1:15:00::") s)

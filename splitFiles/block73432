@@ -1,0 +1,7 @@
+(define s (WordSenseNode "glove_puppet%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "hand_puppet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "puppet%1:06:00::"))
+(define x (WordNode "glove_puppet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "puppet%1:06:00::"))
+(define x (WordNode "glove_doll")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "puppet%1:06:00::"))

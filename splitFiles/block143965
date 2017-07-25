@@ -1,0 +1,8 @@
+(define s (WordSenseNode "sailfish%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "sailfish")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "scombroid%1:05:00::"))
+(InheritanceLink s (WordSenseNode "scombroid_fish%1:05:00::"))
+(InheritanceLink (WordSenseNode "Atlantic_sailfish%1:05:00::") s)
+(InheritanceLink (WordSenseNode "Istiophorus_albicans%1:05:00::") s)
+(HolonymLink s (WordSenseNode "Istiophoridae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Istiophoridae%1:05:00::"))

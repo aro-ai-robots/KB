@@ -1,0 +1,5 @@
+(define s (WordSenseNode "monopolisation%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "monopolization")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "domination%1:04:00::"))
+(define x (WordNode "monopolisation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "domination%1:04:00::"))

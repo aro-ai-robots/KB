@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bas_bleu%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bluestocking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "woman%1:18:00::"))
+(InheritanceLink s (WordSenseNode "adult_female%1:18:00::"))
+(define x (WordNode "bas_bleu")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "woman%1:18:00::"))
+(InheritanceLink s (WordSenseNode "adult_female%1:18:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "invariability%1:07:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "evenness")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "regularity%1:07:00::"))
+(InheritanceLink (WordSenseNode "smoothness%1:07:01::") s)
+(define x (WordNode "invariability")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "regularity%1:07:00::"))
+(InheritanceLink (WordSenseNode "smoothness%1:07:01::") s)

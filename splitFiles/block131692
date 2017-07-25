@@ -1,0 +1,5 @@
+(define s (WordSenseNode "proportion%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "proportion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnitude%1:07:00::"))
+(define x (WordNode "dimension")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "magnitude%1:07:00::"))

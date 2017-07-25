@@ -1,0 +1,7 @@
+(define s (WordSenseNode "remainder%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "remainder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:23:00::"))
+(InheritanceLink (WordSenseNode "balance%1:21:01::") s)
+(define x (WordNode "difference")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "number%1:23:00::"))
+(InheritanceLink (WordSenseNode "balance%1:21:01::") s)

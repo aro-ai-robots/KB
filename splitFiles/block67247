@@ -1,0 +1,6 @@
+(define s (WordSenseNode "garambulla%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "garambulla")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "edible_fruit%1:13:00::"))
+(HolonymLink s (WordSenseNode "garambulla%1:20:00::"))
+(HolonymLink s (WordSenseNode "garambulla_cactus%1:20:00::"))
+(HolonymLink s (WordSenseNode "Myrtillocactus_geometrizans%1:20:00::"))

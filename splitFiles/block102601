@@ -1,0 +1,5 @@
+(define s (WordSenseNode "manumitter%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "emancipator")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liberator%1:18:00::"))
+(define x (WordNode "manumitter")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "liberator%1:18:00::"))

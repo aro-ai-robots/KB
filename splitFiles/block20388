@@ -1,0 +1,8 @@
+(define s (WordSenseNode "brake_pedal%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "brake_pedal")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pedal%1:06:00::"))
+(InheritanceLink s (WordSenseNode "treadle%1:06:00::"))
+(InheritanceLink s (WordSenseNode "foot_pedal%1:06:00::"))
+(InheritanceLink s (WordSenseNode "foot_lever%1:06:00::"))
+(HolonymLink s (WordSenseNode "hydraulic_brake%1:06:00::"))
+(HolonymLink s (WordSenseNode "hydraulic_brakes%1:06:00::"))

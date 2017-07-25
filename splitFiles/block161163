@@ -1,0 +1,7 @@
+(define s (WordSenseNode "string_quartette%1:14:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "string_quartet")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quartet%1:14:02::"))
+(InheritanceLink s (WordSenseNode "quartette%1:14:02::"))
+(define x (WordNode "string_quartette")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "quartet%1:14:02::"))
+(InheritanceLink s (WordSenseNode "quartette%1:14:02::"))

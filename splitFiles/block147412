@@ -1,0 +1,5 @@
+(define s (WordSenseNode "seckel_pear%1:13:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seckel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pear%1:13:00::"))
+(define x (WordNode "seckel_pear")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pear%1:13:00::"))

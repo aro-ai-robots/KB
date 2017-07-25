@@ -1,0 +1,5 @@
+(define s (WordSenseNode "drench%2:43:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "swamp")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flood%2:30:00::"))
+(define x (WordNode "drench")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "flood%2:30:00::"))

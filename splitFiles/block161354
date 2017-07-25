@@ -1,0 +1,5 @@
+(define s (WordSenseNode "structuralism%1:09:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "structuralism")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linguistics%1:09:00::"))
+(define x (WordNode "structural_linguistics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "linguistics%1:09:00::"))

@@ -1,0 +1,5 @@
+(define s (WordSenseNode "amd%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "age-related_macular_degeneration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "macular_degeneration%1:26:00::"))
+(define x (WordNode "AMD")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "macular_degeneration%1:26:00::"))

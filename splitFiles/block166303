@@ -1,0 +1,6 @@
+(define s (WordSenseNode "tax_credit%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "tax_credit")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "decrease%1:04:00::"))
+(InheritanceLink s (WordSenseNode "diminution%1:04:00::"))
+(InheritanceLink s (WordSenseNode "reduction%1:04:00::"))
+(InheritanceLink s (WordSenseNode "step-down%1:04:00::"))

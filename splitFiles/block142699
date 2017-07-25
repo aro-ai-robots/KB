@@ -1,0 +1,7 @@
+(define s (WordSenseNode "rowanberry%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "rowanberry")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fruit%1:20:00::"))
+(HolonymLink s (WordSenseNode "rowan%1:20:00::"))
+(HolonymLink s (WordSenseNode "rowan_tree%1:20:00::"))
+(HolonymLink s (WordSenseNode "European_mountain_ash%1:20:00::"))
+(HolonymLink s (WordSenseNode "Sorbus_aucuparia%1:20:00::"))

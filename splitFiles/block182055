@@ -1,0 +1,5 @@
+(define s (WordSenseNode "well%1:06:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "well")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "compartment%1:06:00::"))
+(InheritanceLink (WordSenseNode "bilge_well%1:06:00::") s)
+(InheritanceLink (WordSenseNode "pump_well%1:06:00::") s)

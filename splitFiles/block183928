@@ -1,0 +1,7 @@
+(define s (WordSenseNode "wingspan%1:07:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wingspan")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distance%1:07:01::"))
+(InheritanceLink s (WordSenseNode "length%1:07:03::"))
+(define x (WordNode "wingspread")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "distance%1:07:01::"))
+(InheritanceLink s (WordSenseNode "length%1:07:03::"))

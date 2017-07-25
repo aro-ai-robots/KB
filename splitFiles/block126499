@@ -1,0 +1,6 @@
+(define s (WordSenseNode "platyctenean%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "platyctenean")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "ctenophore%1:05:00::"))
+(InheritanceLink s (WordSenseNode "comb_jelly%1:05:00::"))
+(HolonymLink s (WordSenseNode "Platyctenea%1:05:00::"))
+(HolonymLink s (WordSenseNode "order_Platyctenea%1:05:00::"))

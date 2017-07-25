@@ -1,0 +1,5 @@
+(define s (WordSenseNode "onyxis%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ingrown_toenail")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toenail%1:08:00::"))
+(define x (WordNode "onyxis")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "toenail%1:08:00::"))

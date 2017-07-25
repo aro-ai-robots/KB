@@ -1,0 +1,7 @@
+(define s (WordSenseNode "space_lattice%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "space_lattice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lattice%1:09:00::"))
+(define x (WordNode "crystal_lattice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lattice%1:09:00::"))
+(define x (WordNode "Bravais_lattice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lattice%1:09:00::"))

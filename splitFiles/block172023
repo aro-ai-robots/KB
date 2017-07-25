@@ -1,0 +1,4 @@
+(define s (WordSenseNode "treasury_bond%1:21:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Treasury_bond")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "Treasury%1:21:01::"))
+(InheritanceLink s (WordSenseNode "Treasury_obligations%1:21:00::"))

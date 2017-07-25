@@ -1,0 +1,5 @@
+(define s (WordSenseNode "novice%1:18:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "novitiate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_person%1:18:00::"))
+(define x (WordNode "novice")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "religious_person%1:18:00::"))

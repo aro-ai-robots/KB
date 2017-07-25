@@ -1,0 +1,6 @@
+(define s (WordSenseNode "affixation%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "affixation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "morphology%1:09:02::"))
+(InheritanceLink s (WordSenseNode "sound_structure%1:09:00::"))
+(InheritanceLink s (WordSenseNode "syllable_structure%1:09:00::"))
+(InheritanceLink s (WordSenseNode "word_structure%1:09:00::"))

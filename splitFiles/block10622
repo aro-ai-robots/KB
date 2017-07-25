@@ -1,0 +1,7 @@
+(define s (WordSenseNode "atelier%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "artist's_workroom")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "studio%1:06:00::"))
+(InheritanceLink (WordSenseNode "artist's_loft%1:06:00::") s)
+(define x (WordNode "atelier")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "studio%1:06:00::"))
+(InheritanceLink (WordSenseNode "artist's_loft%1:06:00::") s)

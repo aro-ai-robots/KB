@@ -1,0 +1,4 @@
+(define s (WordSenseNode "macron%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "macron")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "diacritical_mark%1:10:00::"))
+(InheritanceLink s (WordSenseNode "diacritic%1:10:00::"))

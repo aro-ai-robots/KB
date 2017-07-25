@@ -1,0 +1,5 @@
+(define s (WordSenseNode "genus_rickettsia%1:05:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "genus_Rickettsia")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "bacteria_genus%1:05:00::"))
+(HolonymLink s (WordSenseNode "Rickettsiaceae%1:05:00::"))
+(HolonymLink s (WordSenseNode "family_Rickettsiaceae%1:05:00::"))

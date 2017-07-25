@@ -1,0 +1,4 @@
+(define s (WordSenseNode "matchmaking%1:04:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "matchmaking")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mediation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "intermediation%1:04:00::"))

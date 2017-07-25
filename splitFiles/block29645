@@ -1,0 +1,7 @@
+(define s (WordSenseNode "chestnut_canker%1:26:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "chestnut_blight")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blight%1:26:01::"))
+(define x (WordNode "chestnut_canker")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blight%1:26:01::"))
+(define x (WordNode "chestnut-bark_disease")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blight%1:26:01::"))

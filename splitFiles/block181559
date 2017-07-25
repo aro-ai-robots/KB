@@ -1,0 +1,4 @@
+(define s (WordSenseNode "wave_front%1:19:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "wave_front")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "propagation%1:19:00::"))
+(HolonymLink s (WordSenseNode "wave%1:19:00::"))

@@ -1,0 +1,7 @@
+(define s (WordSenseNode "centerpiece%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "centerpiece")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feature%1:09:00::"))
+(InheritanceLink s (WordSenseNode "characteristic%1:09:00::"))
+(define x (WordNode "centrepiece")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "feature%1:09:00::"))
+(InheritanceLink s (WordSenseNode "characteristic%1:09:00::"))

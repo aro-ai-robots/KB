@@ -1,0 +1,7 @@
+(define s (WordSenseNode "after-shave_lotion%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "after-shave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lotion%1:06:00::"))
+(InheritanceLink (WordSenseNode "bay_rum%1:06:00::") s)
+(define x (WordNode "after-shave_lotion")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "lotion%1:06:00::"))
+(InheritanceLink (WordSenseNode "bay_rum%1:06:00::") s)

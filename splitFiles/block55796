@@ -1,0 +1,5 @@
+(define s (WordSenseNode "ether%1:27:01::")) (PartOfSpeechLink s noun)
+(define x (WordNode "quintessence")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "element%1:27:01::"))
+(define x (WordNode "ether")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "element%1:27:01::"))

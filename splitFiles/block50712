@@ -1,0 +1,6 @@
+(define s (WordSenseNode "ductus_arteriosus%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "ductus_arteriosus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "blood_vessel%1:08:00::"))
+(InheritanceLink (WordSenseNode "patent_ductus_arteriosus%1:08:00::") s)
+(HolonymLink s (WordSenseNode "fetus%1:05:00::"))
+(HolonymLink s (WordSenseNode "foetus%1:05:00::"))

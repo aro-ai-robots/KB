@@ -1,0 +1,5 @@
+(define s (WordSenseNode "hydrolith%1:27:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "calcium_hydride")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydride%1:27:00::"))
+(define x (WordNode "hydrolith")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "hydride%1:27:00::"))

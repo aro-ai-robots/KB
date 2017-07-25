@@ -1,0 +1,5 @@
+(define s (WordSenseNode "absconder%1:18:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "absconder")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "fugitive%1:18:00::"))
+(InheritanceLink s (WordSenseNode "fugitive_from_justice%1:18:00::"))
+(InheritanceLink (WordSenseNode "alien_absconder%1:18:00::") s)

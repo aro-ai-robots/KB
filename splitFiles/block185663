@@ -1,0 +1,4 @@
+(define s (WordSenseNode "year-end%1:28:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "year-end")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "end%1:28:00::"))
+(InheritanceLink s (WordSenseNode "ending%1:28:00::"))

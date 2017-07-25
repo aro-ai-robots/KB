@@ -1,0 +1,6 @@
+(define s (WordSenseNode "government_office%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "government_office")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "office%1:06:00::"))
+(InheritanceLink s (WordSenseNode "business_office%1:06:00::"))
+(InheritanceLink (WordSenseNode "jobcentre%1:06:00::") s)
+(InheritanceLink (WordSenseNode "land_office%1:06:00::") s)

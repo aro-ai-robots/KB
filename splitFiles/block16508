@@ -1,0 +1,7 @@
+(define s (WordSenseNode "bijugate_leaf%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "bijugate_leaf")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pinnate_leaf%1:20:00::"))
+(define x (WordNode "bijugous_leaf")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pinnate_leaf%1:20:00::"))
+(define x (WordNode "twice-pinnate")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "pinnate_leaf%1:20:00::"))

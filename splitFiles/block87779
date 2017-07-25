@@ -1,0 +1,5 @@
+(define s (WordSenseNode "integration%1:04:03::")) (PartOfSpeechLink s noun)
+(define x (WordNode "integration")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "mathematical_process%1:04:00::"))
+(InheritanceLink s (WordSenseNode "mathematical_operation%1:04:00::"))
+(InheritanceLink s (WordSenseNode "operation%1:04:01::"))

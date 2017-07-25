@@ -1,0 +1,7 @@
+(define s (WordSenseNode "systematics%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "systematics")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "science%1:09:00::"))
+(InheritanceLink s (WordSenseNode "scientific_discipline%1:09:00::"))
+(InheritanceLink (WordSenseNode "biosystematics%1:09:00::") s)
+(InheritanceLink (WordSenseNode "biosystematy%1:09:00::") s)
+(InheritanceLink (WordSenseNode "taxonomy%1:09:00::") s)

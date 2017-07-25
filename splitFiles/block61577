@@ -1,0 +1,5 @@
+(define s (WordSenseNode "filter_tip%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "filter_tip")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "air_filter%1:06:00::"))
+(InheritanceLink s (WordSenseNode "air_cleaner%1:06:00::"))
+(HolonymLink s (WordSenseNode "filter-tipped_cigarette%1:06:00::"))

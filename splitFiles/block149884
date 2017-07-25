@@ -1,0 +1,4 @@
+(define s (WordSenseNode "sharpen%2:39:00::")) (PartOfSpeechLink s verb)
+(define x (WordNode "sharpen")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "change_intensity%2:39:00::"))
+(InheritanceLink (WordSenseNode "focus%2:39:00::") s)

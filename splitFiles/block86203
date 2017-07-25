@@ -1,0 +1,6 @@
+(define s (WordSenseNode "indian_crocus%1:20:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "Indian_crocus")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "orchid%1:20:00::"))
+(InheritanceLink s (WordSenseNode "orchidaceous_plant%1:20:00::"))
+(HolonymLink s (WordSenseNode "Pleione%1:20:00::"))
+(HolonymLink s (WordSenseNode "genus_Pleione%1:20:00::"))

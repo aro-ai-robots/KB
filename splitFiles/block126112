@@ -1,0 +1,5 @@
+(define s (WordSenseNode "plain_weave%1:06:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "plain_weave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weave%1:06:00::"))
+(define x (WordNode "taffeta_weave")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "weave%1:06:00::"))

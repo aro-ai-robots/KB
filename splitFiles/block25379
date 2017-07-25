@@ -1,0 +1,7 @@
+(define s (WordSenseNode "capitulation%1:10:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "capitulation")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "summary%1:10:00::"))
+(InheritanceLink s (WordSenseNode "sum-up%1:10:00::"))
+(InheritanceLink (WordSenseNode "recapitulation%1:10:00::") s)
+(InheritanceLink (WordSenseNode "recap%1:10:00::") s)
+(InheritanceLink (WordSenseNode "review%1:10:00::") s)

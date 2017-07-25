@@ -1,0 +1,6 @@
+(define s (WordSenseNode "seminal_vesicle%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "seminal_vesicle")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "exocrine_gland%1:08:00::"))
+(InheritanceLink s (WordSenseNode "exocrine%1:08:00::"))
+(InheritanceLink s (WordSenseNode "duct_gland%1:08:00::"))
+(HolonymLink s (WordSenseNode "male_reproductive_system%1:08:00::"))

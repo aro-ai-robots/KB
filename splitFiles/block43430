@@ -1,0 +1,5 @@
+(define s (WordSenseNode "decibel%1:23:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "decibel")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sound_unit%1:23:00::"))
+(define x (WordNode "dB")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "sound_unit%1:23:00::"))

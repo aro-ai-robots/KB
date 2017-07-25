@@ -1,0 +1,7 @@
+(define s (WordSenseNode "karyotype%1:08:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "karyotype")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "constitution%1:07:00::"))
+(InheritanceLink s (WordSenseNode "composition%1:07:01::"))
+(InheritanceLink s (WordSenseNode "physical_composition%1:07:00::"))
+(InheritanceLink s (WordSenseNode "makeup%1:07:00::"))
+(InheritanceLink s (WordSenseNode "make-up%1:07:00::"))

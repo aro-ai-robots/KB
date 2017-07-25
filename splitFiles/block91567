@@ -1,0 +1,7 @@
+(define s (WordSenseNode "jumble%1:09:00::")) (PartOfSpeechLink s noun)
+(define x (WordNode "patchwork")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theory%1:09:02::"))
+(define x (WordNode "hodgepodge")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theory%1:09:02::"))
+(define x (WordNode "jumble")) (WordSenseLink x s)
+(InheritanceLink s (WordSenseNode "theory%1:09:02::"))
